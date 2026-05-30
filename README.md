@@ -1,8 +1,15 @@
-# CT ICU Learning App - v007 Manifest Loader
+# CT ICU Learning App v008
 
-This build uses one manifest per domain so the app does not hard-code topic filenames in JavaScript.
+This build uses per-domain `index.json` manifests. Domain content is loaded from:
 
-## GitHub Pages structure
+- `content/domain1/index.json`
+- `content/domain2/index.json`
+
+## v008 change
+
+Adds a formatting sanitiser for generated JSON content. This prevents literal strings such as `<h3>Targets and Numbers</h3>`, `&lt;h3&gt;`, stray paragraph tags, code-fence markers, and similar generator artefacts from appearing visibly in the learning screen.
+
+## Folder pattern
 
 ```text
 index.html
@@ -11,28 +18,13 @@ content/
   domain1/
     index.json
     cardiac-cycle.json
-    afterload_svr_and_pvr.json
     ...
   domain2/
     index.json
     arterial_line_waveform_interpretation.json
     ...
 versions/
-  CT-ICU-Learning-App_v007_manifest_loader.html
+  CT-ICU-Learning-App_v008_domain1_formatting_sanitiser.html
 ```
 
-## Adding a new topic
-
-1. Drop the new JSON file into the relevant domain folder.
-2. Open `content/domainX/index.json`.
-3. Add one object to the `files` array:
-
-```json
-{ "file": "new_topic_file.json", "title": "New Topic Title" }
-```
-
-That is the only required app-side update.
-
-## Important
-
-Browsers cannot scan local folders directly. The manifest is the directory index. GitHub Pages will serve these files over HTTPS, so `fetch()` can load the manifest and topic files normally.
+When you add new topic JSON files, place them in the domain folder and add one object to that domain's `index.json` files array.
