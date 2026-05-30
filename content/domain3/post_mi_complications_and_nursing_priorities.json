@@ -1,5 +1,5 @@
 {
-  "id": "domain3_post_mi_complications_and_nursing_priorities",
+  "id": "post_mi_complications_and_nursing_priorities",
   "domain": 3,
   "domainTitle": "Cardiac Conditions and Rhythms",
   "title": "Post-MI Complications and Nursing Priorities",
@@ -9,67 +9,57 @@
       "title": "Abridged Snapshot",
       "content": [
         {
-          "type": "keyterm",
-          "term": "Post-MI complication",
-          "definition": "A post-MI complication is an electrical, pump, valve, septal, pericardial or systemic consequence of infarction that threatens perfusion or survival."
+          "type": "heading",
+          "text": "Post-MI complications relevant to CTICU"
         },
         {
           "type": "paragraph",
-          "text": "The post-MI patient fails electrically before they fail mechanically, and may fail mechanically before obvious organ injury appears. CTICU surveillance must include rhythm, arterial waveform, filling pressure, oxygenation, lactate, urine output, chest pain, new murmurs and PCI access-site bleeding."
+          "text": "Post-MI complications include arrhythmias, cardiogenic shock, acute heart failure, papillary muscle rupture with severe mitral regurgitation, ventricular septal rupture, free wall rupture with tamponade, RV infarction, pericarditis, mural thrombus and recurrent ischaemia. CTICU patients may arrive after PCI, CABG, mechanical support or emergency surgery, so the nurse must connect new haemodynamic patterns with mechanical complications."
+        },
+        {
+          "type": "keyterm",
+          "term": "Cardiogenic shock",
+          "definition": "Tissue hypoperfusion caused primarily by cardiac pump failure, often with hypotension, low cardiac index, high filling pressures and rising lactate."
+        },
+        {
+          "type": "keyterm",
+          "term": "Mechanical complication",
+          "definition": "Structural damage after MI such as papillary muscle rupture, VSD or free wall rupture causing abrupt haemodynamic collapse."
         },
         {
           "type": "table",
           "columns": [
             "Complication",
-            "Typical timing",
-            "Bedside clue"
+            "Early signs",
+            "Immediate focus"
           ],
           "rows": [
             [
-              "VF or pulseless VT",
-              "Minutes to first 24-48 hours, but possible later",
-              "Collapse, no effective arterial waveform, chaotic or wide-complex rhythm."
-            ],
-            [
-              "Bradyarrhythmia or AV block",
-              "Inferior MI early; anterior MI ominous",
-              "HR below 50, dropped beats, complete heart block, hypotension or syncope."
-            ],
-            [
-              "Cardiogenic shock",
-              "Early or evolving over hours",
-              "CI below 2.2 L/min/m2, MAP below target, lactate rising, oliguria, cool skin."
-            ],
-            [
-              "Papillary muscle rupture or acute MR",
-              "Usually 2-7 days",
-              "New systolic murmur, flash pulmonary oedema, shock."
+              "Papillary muscle rupture / acute MR",
+              "Flash pulmonary oedema, new murmur, shock, large V waves if PA/CVP context.",
+              "Urgent echo, senior/cardiac surgical review, ventilatory and vasoactive support."
             ],
             [
               "Ventricular septal rupture",
-              "Usually 3-7 days",
-              "New harsh murmur, shock, RV volume overload, oxygen saturation step-up if measured."
+              "Shock, new harsh systolic murmur, step-up oxygen saturation on right heart cath.",
+              "Urgent echo and surgical/interventional review."
             ],
             [
               "Free wall rupture",
-              "Usually 3-7 days",
-              "Sudden tamponade, PEA or electromechanical dissociation."
+              "Tamponade, PEA, sudden collapse.",
+              "Arrest response and surgical emergency."
             ],
             [
-              "Pericarditis or Dressler syndrome",
-              "Early days for pericarditis; weeks for Dressler",
-              "Pleuritic pain, pericardial rub, diffuse ST elevation, fever or effusion."
+              "RV infarction",
+              "Hypotension, raised JVP/CVP, clear lungs, inferior MI pattern.",
+              "Maintain RV preload carefully, avoid hypoxia/hypercarbia/acidosis, cautious nitrates."
             ]
           ]
         },
         {
-          "type": "steps",
-          "items": [
-            "Repeat ECG immediately for recurrent pain, dyspnoea, hypotension, arrhythmia, pulmonary oedema, rising lactate or new murmur.",
-            "Escalate sudden pulmonary oedema with shock as possible acute MR, VSD or recurrent ischaemia until urgent echo proves otherwise.",
-            "Keep defibrillator pads on high-risk patients with active ischaemia, frequent ventricular ectopy, shock, complete heart block or recurrent VT.",
-            "Trend lactate, urine output, MAP, pulse pressure, filling pressures if present, SvO2/ScvO2 and vasoactive doses rather than relying on a single blood pressure."
-          ]
+          "type": "escalation",
+          "tier": "Tier 1",
+          "text": "Escalate immediately for post-MI shock, new murmur with pulmonary oedema, sudden PEA, suspected mechanical complication, recurrent ST elevation, sustained VT/VF, or rapidly rising lactate."
         }
       ]
     },
@@ -78,83 +68,29 @@
       "content": [
         {
           "type": "heading",
-          "text": "Early arrhythmias after MI"
+          "text": "Why complications occur"
         },
         {
           "type": "paragraph",
-          "text": "Ischaemic myocardium develops abnormal membrane potentials, slowed conduction and heterogeneous refractory periods. This creates re-entry and triggered activity, explaining ventricular ectopy, non-sustained VT, sustained VT, VF, bradyarrhythmias and AV block. Reperfusion can provoke transient accelerated idioventricular rhythm, but sustained VT or VF is never benign."
-        },
-        {
-          "type": "heading",
-          "text": "VF and pulseless VT"
+          "text": "Myocardial infarction injures contractile tissue and conduction pathways. Early complications are often electrical or pump-related: VT/VF, bradyarrhythmia, AV block, acute LV failure and cardiogenic shock. Mechanical complications typically occur when necrotic myocardium loses structural integrity. Modern reperfusion has reduced but not eliminated these events, and when they occur they are high mortality and time-critical."
         },
         {
           "type": "paragraph",
-          "text": "VF and pulseless VT produce no effective cardiac output. The arterial waveform disappears or becomes non-perfusing and organ perfusion stops. Treatment is immediate CPR and defibrillation with minimal pauses. In fresh cardiac surgery patients, activate the post-sternotomy arrest pathway and consider tamponade, graft failure and surgical bleeding early."
-        },
-        {
-          "type": "heading",
-          "text": "Bradyarrhythmias and AV block"
+          "text": "Papillary muscle rupture, usually involving the posteromedial papillary muscle due to single blood supply, causes acute severe mitral regurgitation. The left atrium has no time to dilate, so pulmonary oedema and shock occur abruptly. Ventricular septal rupture creates a left-to-right shunt, reducing effective systemic output and causing pulmonary overcirculation. Free wall rupture causes haemopericardium and tamponade, often presenting as sudden PEA."
         },
         {
           "type": "paragraph",
-          "text": "Inferior MI can involve the AV node through RCA supply, producing sinus bradycardia, Mobitz I or complete heart block that may improve with reperfusion or atropine. Anterior MI with Mobitz II or complete heart block suggests extensive septal injury and His-Purkinje disease, often with an unreliable escape rhythm. Prepare pacing early when bradycardia causes hypotension, shock, ischaemia or heart failure."
+          "text": "RV infarction is a physiology trap. The LV may be underfilled because the RV cannot deliver blood through the pulmonary circulation. These patients may have hypotension with clear lungs and high CVP/JVP. They are sensitive to preload reduction, hypoxia, hypercarbia, acidosis and tachyarrhythmia. Maintaining sinus rhythm and AV synchrony may be crucial."
         },
         {
-          "type": "heading",
-          "text": "Cardiogenic shock after MI"
-        },
-        {
-          "type": "paragraph",
-          "text": "Cardiogenic shock is inadequate tissue perfusion from pump failure. It is suggested by persistent hypotension, CI below 2.2 L/min/m2, rising lactate, oliguria, cool peripheries, altered mentation and echo evidence of severe LV or RV dysfunction. Revascularisation is central when occlusion or severe coronary disease is present; vasoactive drugs and mechanical support are bridges."
-        },
-        {
-          "type": "heading",
-          "text": "Papillary muscle rupture and acute mitral regurgitation"
-        },
-        {
-          "type": "paragraph",
-          "text": "Papillary muscle rupture is classically linked to inferior or posterior MI involving the posteromedial papillary muscle. Acute severe MR drives LV stroke volume into a non-compliant left atrium, causing abrupt pulmonary oedema and shock. The murmur may be soft because pressures equalise rapidly. Urgent echo and surgical/interventional review are required."
-        },
-        {
-          "type": "heading",
-          "text": "Ventricular septal rupture"
-        },
-        {
-          "type": "paragraph",
-          "text": "Ventricular septal rupture creates a left-to-right shunt through infarcted septum. Oxygenated LV blood enters the RV, causing RV volume overload, pulmonary overcirculation and reduced systemic output. Bedside clues are new harsh systolic murmur, thrill, shock, rising lactate and sometimes a PA catheter oxygen saturation step-up."
-        },
-        {
-          "type": "heading",
-          "text": "Free wall rupture"
-        },
-        {
-          "type": "paragraph",
-          "text": "Free wall rupture causes haemopericardium, tamponade or sudden electromechanical dissociation. The pattern is abrupt hypotension, high CVP/JVP, PEA and collapse after MI. Survival depends on immediate recognition, resuscitation and surgical intervention."
-        },
-        {
-          "type": "heading",
-          "text": "Pericarditis and Dressler syndrome"
-        },
-        {
-          "type": "paragraph",
-          "text": "Early post-MI pericarditis causes pleuritic or positional pain, rub and diffuse concave ST elevation with PR depression. Dressler syndrome is later immune-mediated pericarditis, usually weeks after MI, with fever, malaise and pericardial or pleural effusion. Differentiate both from recurrent STEMI using ECG pattern, troponin kinetics and echo."
-        },
-        {
-          "type": "heading",
-          "text": "Right ventricular infarction, pulmonary oedema and recurrent ischaemia"
-        },
-        {
-          "type": "paragraph",
-          "text": "RV infarction causes systemic venous congestion, reduced pulmonary blood flow and low LV preload. Pulmonary oedema after MI may reflect LV failure, acute MR, severe hypertension, recurrent ischaemia, arrhythmia or fluid excess. Recurrent pain or ST change after PCI suggests stent thrombosis, no-reflow, re-occlusion, spasm or untreated residual disease."
-        },
-        {
-          "type": "heading",
-          "text": "Mechanical circulatory support relevance"
-        },
-        {
-          "type": "paragraph",
-          "text": "IABP modestly reduces afterload and augments diastolic coronary perfusion. Impella unloads the LV and provides active flow but requires arterial access and anticoagulation. VA-ECMO provides systemic perfusion and oxygenation but may increase LV afterload unless unloading is addressed. Device choice depends on LV/RV failure pattern, oxygenation, bleeding risk, access and reversibility."
+          "type": "steps",
+          "items": [
+            "Recognise deterioration pattern: pulmonary oedema, shock, new murmur, arrhythmia, rising lactate, falling urine output or recurrent ST change.",
+            "Obtain 12-lead ECG and compare with prior tracing; use right-sided/posterior leads where indicated.",
+            "Check ABG, lactate, electrolytes, Hb, coagulation, troponin trend if relevant, and haemodynamic data.",
+            "Escalate for urgent echo when mechanical complication is possible.",
+            "Prepare for advanced support: vasopressors/inotropes, ventilation, IABP/Impella/ECMO, cath lab or theatre depending on the diagnosis."
+          ]
         }
       ]
     },
@@ -162,24 +98,28 @@
       "title": "Clinical Pearls",
       "content": [
         {
-          "type": "pearl",
-          "text": "The murmur of acute severe MR may be unimpressive. Sudden pulmonary oedema plus shock matters more than murmur loudness."
+          "type": "heading",
+          "text": "Clinical Pearls"
         },
         {
           "type": "pearl",
-          "text": "Anterior MI with high-grade block is ominous because it may reflect septal necrosis, not simple AV nodal vagal tone."
+          "text": "A new murmur plus shock after MI is a mechanical complication until proven otherwise."
         },
         {
           "type": "pearl",
-          "text": "Recurrent ischaemia after PCI is stent thrombosis or re-occlusion until proven otherwise. Repeat ECG immediately."
+          "text": "Flash pulmonary oedema after inferior/posterior MI should raise concern for acute severe MR from papillary muscle dysfunction or rupture."
         },
         {
           "type": "pearl",
-          "text": "A PA catheter oxygen saturation step-up supports VSD, but echo should not be delayed in an unstable patient."
+          "text": "PEA after MI may be free wall rupture with tamponade; do not treat it as generic arrest only."
         },
         {
           "type": "warning",
-          "text": "Do not treat new pulmonary oedema after MI as simple fluid overload until acute MR, VSD and recurrent ischaemia are considered."
+          "text": "Nitrates and aggressive diuresis can harm RV infarction patients if they are preload dependent and hypotensive."
+        },
+        {
+          "type": "pearl",
+          "text": "Mechanical complications need echo and definitive intervention. Vasoactive drugs are bridges, not cures."
         }
       ]
     },
@@ -188,52 +128,48 @@
       "content": [
         {
           "type": "heading",
-          "text": "ECG and defibrillator"
+          "text": "Equipment Tie-In"
+        },
+        {
+          "type": "subheading",
+          "text": "Echo and haemodynamic devices"
         },
         {
           "type": "paragraph",
-          "text": "Continuous ECG should have alarms configured for VT, VF, bradycardia and ST change. Defibrillator pads should be applied early for ventricular ectopy, active ischaemia, shock or high-grade block."
-        },
-        {
-          "type": "heading",
-          "text": "Echo and haemodynamic monitoring"
-        },
-        {
-          "type": "paragraph",
-          "text": "Urgent echo is the key equipment test for mechanical complications. It can identify regional wall-motion abnormality, LV/RV failure, acute MR, VSD, free wall rupture, tamponade and volume status. Arterial line, CVP, PA catheter and cardiac output monitoring quantify shock and response."
+          "text": "Bedside echo is the key diagnostic tool for suspected mechanical complications. It can identify severe MR, VSD, tamponade, RV dysfunction, LV failure and regional wall motion abnormality. PA catheter data may show high filling pressures, low CI, large V waves in severe MR, pulmonary hypertension or oxygen saturation step-up in shunt physiology, but interpretation is senior-led."
         },
         {
           "type": "table",
           "columns": [
-            "Equipment",
-            "Use after MI",
-            "Troubleshooting point"
+            "Tool",
+            "Useful for",
+            "Nursing role"
           ],
           "rows": [
             [
               "12-lead ECG",
-              "Detect recurrent ischaemia and localise infarct.",
-              "Repeat during symptoms and ensure correct placement."
+              "Recurrent ischaemia, infarct territory, conduction block.",
+              "Acquire rapidly and repeat with changes."
             ],
             [
-              "Defibrillator",
-              "Treat VT/VF and unstable tachyarrhythmia.",
-              "Confirm pad contact, battery, sync markers and energy selection."
-            ],
-            [
-              "Pacing system",
-              "Treat bradycardia and AV block.",
-              "Check capture mechanically on arterial waveform."
-            ],
-            [
-              "Echo",
-              "Detect pump failure and mechanical complications.",
-              "Do not let poor windows delay escalation if the patient is crashing."
+              "Arterial line",
+              "Shock severity, pulse pressure, response to therapy.",
+              "Ensure waveform accuracy and trend MAP/pulse pressure."
             ],
             [
               "PA catheter",
-              "Trend CI, filling pressures and SvO2; detect oxygen step-up if VSD suspected.",
-              "Interpret with rhythm, ventilation and transducer level."
+              "CI, filling pressures, SvO2, MR/VSD clues.",
+              "Ensure accurate levelling/zeroing and safe sampling if trained."
+            ],
+            [
+              "Ventilator",
+              "Supports pulmonary oedema and oxygen delivery.",
+              "Avoid hypoxia/hypercarbia especially in RV failure."
+            ],
+            [
+              "Defibrillator",
+              "VT/VF and unstable tachyarrhythmia.",
+              "Pads on early in high-risk patients."
             ]
           ]
         }
@@ -243,59 +179,68 @@
       "title": "Targets and Numbers",
       "content": [
         {
+          "type": "heading",
+          "text": "Targets and Numbers"
+        },
+        {
           "type": "targetTable",
           "columns": [
             "Parameter",
-            "Usual target",
-            "CT-ICU interpretation"
+            "Target / threshold",
+            "Interpretation"
           ],
           "rows": [
             [
-              "VF/pulseless VT",
-              "No effective pulse or arterial waveform",
-              "Immediate CPR and defibrillation."
+              "Cardiogenic shock BP",
+              "SBP often <90 mmHg or need support to maintain MAP, with hypoperfusion.",
+              "Do not rely on BP alone; lactate, UO and mentation matter."
             ],
             [
-              "Cardiogenic shock",
-              "CI below 2.2 L/min/m2 with hypoperfusion; severe concern below 2.0",
-              "Urgent revascularisation/mechanical support consideration."
+              "Cardiac index",
+              "Concern <2.2 L/min/m2 with hypoperfusion.",
+              "Supports cardiogenic shock phenotype."
+            ],
+            [
+              "PAOP",
+              "Often high in LV failure; may be very high with acute MR.",
+              "Interpret with echo and clinical picture."
+            ],
+            [
+              "V waves",
+              "Large V waves may suggest severe MR but are not perfectly specific.",
+              "Escalate for echo if new pulmonary oedema/shock."
+            ],
+            [
+              "RV infarct clues",
+              "Inferior MI + hypotension + clear lungs + high CVP/JVP.",
+              "Avoid unnecessary preload reduction; urgent senior plan."
             ],
             [
               "MAP",
-              "At least 65 mmHg; often 70-80 mmHg depending on patient",
-              "Interpret with lactate and urine output."
-            ],
-            [
-              "Lactate",
-              "Falling trend desired; concern above 2 mmol/L if rising; major concern 4 mmol/L or above",
-              "Rising lactate after MI suggests shock or recurrent ischaemia."
+              "Usually 65–80 mmHg after routine CABG/valve surgery; often 70–90 mmHg after complex aortic surgery or chronic hypertension if ordered.",
+              "Treat the number in context: lactate, urine output, mentation/sedation, skin perfusion, SvO2/ScvO2, echo and surgical goals."
             ],
             [
               "Urine output",
-              "At least 0.5 mL/kg/hr",
-              "Low output suggests low perfusion, venous congestion, renal injury or shock."
+              "≥0.5 mL/kg/hr; commonly ≥30 mL/hr in average adult; rising concern if <0.3 mL/kg/hr for 2 hours.",
+              "Low UO with hypotension and narrow pulse pressure suggests low flow until proven otherwise."
             ],
             [
-              "New murmur after MI",
-              "Any new systolic murmur with instability",
-              "Urgent echo for acute MR or VSD."
+              "Lactate",
+              "Usually expected to trend down; concern if >2 mmol/L and rising; high concern if ≥4 mmol/L or rising despite support.",
+              "After CPB, lactate may be elevated, but persistent rise suggests oxygen debt, shock, bleeding, tamponade, severe vasoplegia or poor cardiac output."
+            ],
+            [
+              "Potassium",
+              "Common rhythm target 4.0–4.5 mmol/L in CTICU unless renal failure/hyperkalaemia risk.",
+              "Low K increases ectopy, AF, VT risk and digoxin sensitivity."
+            ],
+            [
+              "Magnesium",
+              "Common rhythm target ≥0.8 mmol/L; many CTICUs target 1.0 mmol/L in AF/VT risk.",
+              "Low Mg promotes ventricular ectopy and AF; replacement is common post bypass."
             ]
           ]
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 1",
-          "text": "Escalate recurrent chest pain, dynamic ECG changes, increasing ectopy, oxygen need, rising lactate or falling urine output."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 2",
-          "text": "Escalate urgently for pulmonary oedema, new murmur, high-grade AV block, sustained VT with pulse, cardiogenic shock or suspected recurrent occlusion."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 3",
-          "text": "Activate emergency response for VF, pulseless VT, PEA, suspected free wall rupture, tamponade, profound shock or peri-arrest mechanical complication."
         }
       ]
     }
@@ -303,85 +248,39 @@
   "quiz": [
     {
       "difficulty": "Bedside Basics",
-      "question": "A post-MI patient suddenly develops pulmonary oedema, shock and a new systolic murmur. What complication must be considered?",
+      "question": "A new systolic murmur with shock after MI should trigger concern for:",
       "options": [
-        "Papillary muscle rupture with acute MR.",
-        "Benign anxiety-related tachypnoea.",
-        "Simple fluid overload only.",
-        "Expected reperfusion rhythm."
+        "Mechanical complication such as MR or VSD",
+        "Simple anxiety",
+        "Normal reperfusion only",
+        "Electrode misplacement only"
       ],
       "answer": 0,
-      "explanation": "Sudden pulmonary oedema with shock and new murmur after MI is acute MR until proven otherwise."
-    },
-    {
-      "difficulty": "Bedside Basics",
-      "question": "Which rhythm complication after MI needs immediate defibrillation if pulseless?",
-      "options": [
-        "VF or pulseless VT.",
-        "First-degree AV block.",
-        "Sinus tachycardia at 105/min.",
-        "Mobitz I with normal BP."
-      ],
-      "answer": 0,
-      "explanation": "VF and pulseless VT have no effective cardiac output and require CPR and defibrillation."
+      "explanation": "Mechanical complications after MI can present with new murmur and shock and require urgent echo and senior review."
     },
     {
       "difficulty": "Clinical Reasoning",
-      "question": "Why is anterior MI with complete heart block concerning?",
+      "question": "Which pattern suggests RV infarction?",
       "options": [
-        "It may indicate extensive septal His-Purkinje injury and large infarct burden.",
-        "It always responds to atropine.",
-        "It is usually a benign vagal response.",
-        "It means no pacing is required."
+        "Inferior MI with hypotension, raised CVP/JVP and relatively clear lungs",
+        "Anterior MI with severe pulmonary oedema only",
+        "Normal CVP with hypertension",
+        "Isolated fever"
       ],
       "answer": 0,
-      "explanation": "Anterior MI high-grade block often reflects septal infarction and high risk of shock."
+      "explanation": "RV infarction impairs RV output, causing systemic venous congestion and low LV preload, often without pulmonary oedema initially."
     },
     {
       "difficulty": "Expert Level",
-      "question": "A new harsh systolic murmur, RV dilation and shock 4 days after MI suggests what?",
+      "question": "Why are vasoactive drugs only a bridge in papillary muscle rupture?",
       "options": [
-        "Ventricular septal rupture.",
-        "Dressler syndrome only.",
-        "Stable angina.",
-        "Benign pericardial rub."
+        "The structural valve failure needs definitive surgical/interventional correction",
+        "Vasoactive drugs permanently repair papillary muscle",
+        "It is never haemodynamically significant",
+        "Echo is unnecessary"
       ],
       "answer": 0,
-      "explanation": "VSD after MI produces left-to-right shunt, RV volume loading and shock."
-    }
-  ],
-  "references": [
-    {
-      "name": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes",
-      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
-    },
-    {
-      "name": "2023 ESC Guidelines for the management of acute coronary syndromes",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/"
-    },
-    {
-      "name": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
-    },
-    {
-      "name": "AHA 2025 Adult Tachycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
-    },
-    {
-      "name": "ANZCOR Guideline 11.2 Protocols for Adult Advanced Life Support",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-2-protocols-for-adult-advanced-life-support"
-    },
-    {
-      "name": "ANZCOR Guideline 11.9 Managing Acute Dysrhythmias",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias"
-    },
-    {
-      "name": "2024 ESC Guidelines for the management of atrial fibrillation",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation"
-    },
-    {
-      "name": "LITFL ECG Library",
-      "url": "https://litfl.com/ecg-library/"
+      "explanation": "Acute severe MR from rupture is a mechanical problem. Drugs support perfusion while definitive intervention is arranged."
     }
   ]
 }

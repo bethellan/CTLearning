@@ -1,35 +1,65 @@
 {
-  "id": "domain3_cardiac_tamponade",
+  "id": "cardiac_tamponade",
   "domain": 3,
   "domainTitle": "Cardiac Conditions and Rhythms",
-  "title": "Cardiac Tamponade",
+  "title": "Cardiac Tamponade Recognition and Emergency Management",
   "file": "cardiac_tamponade.json",
   "sections": {
     "abridged": {
       "title": "Abridged Snapshot",
       "content": [
         {
-          "type": "keyterm",
-          "term": "Cardiac tamponade",
-          "definition": "Cardiac tamponade is impaired cardiac filling caused by elevated pressure around the heart. After cardiac surgery it is often blood or clot in the pericardial or mediastinal space and may be regional."
+          "type": "heading",
+          "text": "Cardiac tamponade after cardiac surgery"
         },
         {
           "type": "paragraph",
-          "text": "The CTICU pattern is rising CVP, falling arterial pressure, narrowing pulse pressure, tachycardia, low urine output, agitation or altered mentation, rising lactate and escalating vasopressor requirement."
+          "text": "Cardiac tamponade is obstructive shock caused by pressure around the heart limiting diastolic filling. In CTICU it may occur from bleeding, clot, pericardial fluid or localised compression after surgery. Classic Beck’s triad is hypotension, raised JVP/CVP and muffled heart sounds, but post-operative tamponade often does not present classically. A ventilated post-sternotomy patient may show rising CVP, falling MAP, narrowing pulse pressure, tachycardia, low urine output, rising lactate, reduced drain output despite shock, or sudden PEA arrest."
         },
         {
-          "type": "steps",
-          "items": [
-            "Recognise high filling pressure with low effective preload.",
-            "Call intensivist and cardiothoracic surgeon immediately.",
-            "Check chest drain patency and trend, especially sudden reduction after previous bleeding.",
-            "Prepare echo, blood products, airway/ventilator support, vasoactive support and return to theatre or emergency reopening pathway.",
-            "Do not delay decompression for repeated fluid boluses or perfect imaging if unstable."
+          "type": "keyterm",
+          "term": "Tamponade",
+          "definition": "Compression of the heart by pericardial fluid, blood or clot causing impaired ventricular filling and obstructive shock."
+        },
+        {
+          "type": "keyterm",
+          "term": "Pulsus paradoxus",
+          "definition": "An exaggerated inspiratory fall in systolic blood pressure, classically >10 mmHg, associated with tamponade but less reliable in ventilated post-op patients."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Finding",
+            "Why it matters",
+            "Action"
+          ],
+          "rows": [
+            [
+              "Rising CVP with falling MAP",
+              "Obstructed filling/RV compression pattern.",
+              "Urgent senior review; prepare echo and possible return to theatre/resternotomy."
+            ],
+            [
+              "Narrowing pulse pressure",
+              "Reduced stroke volume.",
+              "Assess drains, waveform, lactate, UO, echo need."
+            ],
+            [
+              "Sudden reduction in chest drain output plus shock",
+              "Drain blockage/clot with accumulating blood.",
+              "Check tubing for kinks/clots; escalate urgently."
+            ],
+            [
+              "PEA after cardiac surgery",
+              "Tamponade, bleeding, tension pneumothorax, graft failure until proven otherwise.",
+              "Arrest response with CT surgery-specific pathway."
+            ]
           ]
         },
         {
-          "type": "warning",
-          "text": "Sudden reduction in chest drain output with instability may mean clot obstruction, not improvement."
+          "type": "escalation",
+          "tier": "Tier 1",
+          "text": "Suspected tamponade with hypotension, rising lactate, oliguria, escalating vasopressors, falling pulse pressure or PEA is a surgical emergency. Call senior ICU/cardiac surgical help immediately."
         }
       ]
     },
@@ -38,106 +68,32 @@
       "content": [
         {
           "type": "heading",
-          "text": "Definition and pericardial pressure physiology"
+          "text": "Mechanism"
         },
         {
           "type": "paragraph",
-          "text": "Tamponade occurs when pericardial or mediastinal pressure restricts diastolic filling. End-diastolic volume falls, stroke volume falls and cardiac output drops. CVP may be high because venous return is obstructed, but effective ventricular preload is low."
-        },
-        {
-          "type": "heading",
-          "text": "Why it is dangerous after cardiac surgery"
+          "text": "The pericardial space normally contains a small amount of fluid. After cardiac surgery, bleeding or clot can accumulate around the heart. As pressure rises, the lowest-pressure chambers, especially the right atrium and right ventricle, are compressed first. Ventricular filling falls, stroke volume falls, and compensatory tachycardia and vasoconstriction attempt to maintain MAP. Eventually compensation fails and obstructive shock or PEA occurs."
         },
         {
           "type": "paragraph",
-          "text": "Post-operative tamponade may be caused by regional clot compressing the RA, RV or LV rather than a simple circumferential effusion. Drains may block. Dressings, ventilation and poor echo windows can hide classic signs."
-        },
-        {
-          "type": "heading",
-          "text": "Beck's triad and limitations"
+          "text": "Post-operative tamponade differs from medical tamponade because blood may clot and compress one chamber regionally rather than forming a uniform fluid collection. A loculated clot behind the left atrium or around the right ventricle may cause severe haemodynamic compromise with less obvious global pericardial effusion on transthoracic echo. Transoesophageal echo may be required in ventilated post-op patients."
         },
         {
           "type": "paragraph",
-          "text": "Beck's triad is hypotension, raised JVP and muffled heart sounds. After cardiac surgery, muffled sounds are unreliable and JVP may be replaced by CVP. Do not wait for the triad; use the haemodynamic pattern."
+          "text": "Beck’s triad is useful but insensitive after surgery. Muffled heart sounds are hard to assess in ICU. JVP is replaced by CVP monitoring but CVP may be confounded by ventilation, RV failure, PEEP, pulmonary hypertension and tricuspid regurgitation. Therefore trend and pattern matter: rising filling pressures with falling output is more important than a single CVP number."
         },
         {
-          "type": "heading",
-          "text": "Recognition signs"
-        },
-        {
-          "type": "table",
-          "columns": [
-            "Sign",
-            "Mechanism",
-            "Interpretation"
-          ],
-          "rows": [
-            [
-              "Rising CVP",
-              "Venous return blocked by compression",
-              "CVP above 15-20 mmHg with falling MAP is concerning."
-            ],
-            [
-              "Falling arterial pressure",
-              "Stroke volume falls",
-              "Pressors may hide low flow."
-            ],
-            [
-              "Narrow pulse pressure",
-              "Low stroke volume",
-              "Early arterial waveform clue."
-            ],
-            [
-              "Tachycardia",
-              "Compensation",
-              "May be absent if paced or beta-blocked."
-            ],
-            [
-              "Pulsus paradoxus",
-              "Inspiratory fall in LV filling",
-              "SBP fall above 10 mmHg is classic but difficult on ventilation."
-            ],
-            [
-              "Low urine output",
-              "Low renal perfusion and venous congestion",
-              "Less than 0.5 mL/kg/hr concerning."
-            ],
-            [
-              "Altered mentation/agitation",
-              "Cerebral hypoperfusion",
-              "May be masked by sedation."
-            ]
-          ]
-        },
-        {
-          "type": "heading",
-          "text": "Equalisation and echo"
-        },
-        {
-          "type": "paragraph",
-          "text": "Tamponade can equalise diastolic pressures: CVP, RV diastolic, PA diastolic and PAOP move closer together. Echo may show effusion, clot, chamber collapse, plethoric IVC and exaggerated respiratory inflow variation. TOE may be more useful than TTE after sternotomy."
-        },
-        {
-          "type": "heading",
-          "text": "Chest drain clues and late tamponade"
-        },
-        {
-          "type": "paragraph",
-          "text": "Clues include high output followed by sudden reduction, thick clot, dependent loops, drain output not matching instability, and low output with hypotension. Late tamponade can occur hours to days after surgery or after anticoagulation restart, with progressive dyspnoea, tachycardia, rising CVP, renal dysfunction or hypotension."
-        },
-        {
-          "type": "heading",
-          "text": "Immediate actions and preparation"
+          "type": "subheading",
+          "text": "Bedside pattern recognition"
         },
         {
           "type": "steps",
           "items": [
-            "Call surgeon and intensivist early.",
-            "Increase monitoring intensity and repeat ABG/lactate.",
-            "Assess drains for clots, kinks, dependent loops and sudden cessation.",
-            "Prepare blood products and coagulation correction.",
-            "Prepare urgent echo but continue theatre/reopening preparation.",
-            "Do not delay definitive decompression for chest X-ray, labs or repeated fluid boluses."
+            "Suspect tamponade when MAP falls, pulse pressure narrows, HR rises, CVP rises, lactate rises, urine output falls or vasopressor need escalates.",
+            "Look at chest drains. A sudden stop in drainage after previous bleeding is dangerous; it may mean the blood is collecting inside rather than draining.",
+            "Check for mechanical issues: kinked tubing, dependent loops, blocked drains, clots, suction disconnection and full collection chamber.",
+            "Call senior help early. Tamponade is not fixed by vasopressors; definitive treatment is relieving compression.",
+            "Prepare for echo, blood products, theatre or emergency resternotomy according to unit protocol and patient condition."
           ]
         }
       ]
@@ -146,20 +102,28 @@
       "title": "Clinical Pearls",
       "content": [
         {
-          "type": "pearl",
-          "text": "Tamponade is high CVP with low effective preload."
+          "type": "heading",
+          "text": "Clinical Pearls"
         },
         {
           "type": "pearl",
-          "text": "Blocked drains create false reassurance."
+          "text": "The most dangerous chest drain is not always the one pouring blood out. It may be the one that suddenly stops while the patient becomes shocked."
         },
         {
           "type": "pearl",
-          "text": "Regional clot tamponade can produce atypical echo findings."
+          "text": "A normal-looking transthoracic echo does not always exclude post-op localised clot tamponade. If suspicion remains high, keep escalating."
+        },
+        {
+          "type": "pearl",
+          "text": "Tamponade can mimic RV failure because both can produce high CVP and low output. The time course, drain behaviour and echo/surgical context help separate them."
         },
         {
           "type": "warning",
-          "text": "Do not wait for Beck's triad after cardiac surgery."
+          "text": "Do not try to correct tamponade with escalating noradrenaline alone. Vasopressors may temporarily support MAP but do not restore filling."
+        },
+        {
+          "type": "pearl",
+          "text": "PEA in a post-cardiac surgery patient is tamponade or major mechanical/surgical catastrophe until proven otherwise."
         }
       ]
     },
@@ -168,62 +132,57 @@
       "content": [
         {
           "type": "heading",
-          "text": "ECG and monitor setup"
+          "text": "Equipment Tie-In"
+        },
+        {
+          "type": "subheading",
+          "text": "Chest drains"
         },
         {
           "type": "paragraph",
-          "text": "For cardiac tamponade, the ECG monitor must be treated as a clinical device, not wallpaper. Use a lead that shows atrial activity when P waves matter, print strips during events, check electrode contact, and repeat a 12-lead when rhythm diagnosis, ischaemia or conduction disease is uncertain."
+          "text": "Chest drain patency is central. Check the entire drainage path from patient to collection system. Look for kinks under bedding, dependent loops, clots in tubing, disconnected suction, incorrect drain height, blocked filters and sudden changes in drainage. Do not strip or aggressively milk drains unless local policy and senior direction explicitly permit it because excessive negative pressure can damage tissue."
         },
         {
-          "type": "heading",
-          "text": "Arterial waveform correlation"
-        },
-        {
-          "type": "paragraph",
-          "text": "The arterial line determines whether electrical activity is producing mechanical output. Rate, rhythm and monitor labels are secondary to MAP, pulse pressure, waveform amplitude, lactate, urine output and clinical perfusion."
-        },
-        {
-          "type": "heading",
-          "text": "Defibrillator and pacing readiness"
-        },
-        {
-          "type": "paragraph",
-          "text": "Tamponade management depends on haemodynamic monitors, chest drains, echo and preparation for emergency reopening requires early access to pads, synchronised cardioversion, defibrillation or pacing depending on stability. In post-cardiac surgery patients, also check epicardial wires, pacing box battery, output, sensitivity, capture and sensing."
+          "type": "subheading",
+          "text": "Haemodynamic monitor"
         },
         {
           "type": "table",
           "columns": [
-            "Equipment",
-            "What to check",
-            "Why it matters"
+            "Monitor sign",
+            "Tamponade interpretation",
+            "Action"
           ],
           "rows": [
             [
-              "ECG monitor",
-              "Lead quality, rhythm strip, alarm limits and artefact.",
-              "Avoids missed rhythm change or false diagnosis."
+              "CVP rising from 8 to 18 mmHg while MAP falls",
+              "Filling pressure rising but forward flow falling.",
+              "Escalate urgently."
             ],
             [
-              "12-lead ECG",
-              "Conduction, QRS width, ischaemia and baseline comparison.",
-              "Clarifies rhythm and identifies dangerous mimics."
+              "Arterial waveform pulse pressure narrowing",
+              "Stroke volume falling.",
+              "Treat as low output/obstruction pattern."
             ],
             [
-              "Arterial line",
-              "Level, zero, damping, pulse pressure and waveform presence.",
-              "Shows haemodynamic consequence."
+              "Tachycardia with falling EtCO2 in arrest",
+              "Low/no cardiac output.",
+              "CPR and CT surgery arrest pathway."
             ],
             [
-              "Defibrillator",
-              "Pads, sync markers, battery and energy pathway.",
-              "Supports immediate cardioversion or defibrillation."
-            ],
-            [
-              "Pacing box",
-              "Mode, rate, output, sensitivity and capture threshold.",
-              "Essential when rate or AV synchrony fails."
+              "PA catheter: equalisation of diastolic pressures",
+              "Can support tamponade diagnosis.",
+              "Senior interpretation; do not delay surgical action."
             ]
           ]
+        },
+        {
+          "type": "subheading",
+          "text": "Echo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Echo may show chamber collapse, reduced filling, exaggerated respiratory variation or clot. In post-op patients, windows may be poor and clot may be regional. Use echo as a rapid confirmation tool, not as a reason to ignore a convincing clinical picture."
         }
       ]
     },
@@ -231,59 +190,68 @@
       "title": "Targets and Numbers",
       "content": [
         {
+          "type": "heading",
+          "text": "Targets and Numbers"
+        },
+        {
           "type": "targetTable",
           "columns": [
             "Parameter",
-            "Usual target",
-            "CT-ICU interpretation"
+            "Concerning threshold / pattern",
+            "Meaning"
           ],
           "rows": [
             [
-              "CVP",
-              "Concerning if rising, especially above 15-20 mmHg with hypotension",
-              "High CVP does not mean adequate preload."
-            ],
-            [
               "Pulse pressure",
-              "Narrowing trend",
-              "Reflects falling stroke volume."
+              "Narrowing, often <25 mmHg or rapidly falling from baseline.",
+              "Falling stroke volume."
             ],
             [
-              "Pulsus paradoxus",
-              "Inspiratory SBP fall above 10 mmHg",
-              "May be hard to assess on positive pressure ventilation."
+              "CVP",
+              "Rising trend, often >15 mmHg in context, but trend more important than number.",
+              "Impaired filling/RV compression/RV failure pattern."
             ],
             [
               "Urine output",
-              "At least 0.5 mL/kg/hr",
-              "Falling output supports low perfusion."
+              "<0.5 mL/kg/hr or abrupt fall.",
+              "Poor renal perfusion from low output."
             ],
             [
               "Lactate",
-              "Rising above 2 mmol/L concerning",
-              "Supports obstructive shock if paired with high CVP."
+              ">2 mmol/L and rising; ≥4 mmol/L high concern.",
+              "Oxygen debt/shock."
             ],
             [
-              "Definitive treatment",
-              "Drainage, re-opening or theatre depending on cause",
-              "Pressors do not fix mechanical obstruction."
+              "Chest drain output",
+              "Sudden cessation after bleeding plus shock; or excessive bleeding >150–200 mL/hr depending timing/local trigger.",
+              "Blocked drainage/tamponade or active surgical bleeding."
+            ],
+            [
+              "MAP",
+              "Usually 65–80 mmHg after routine CABG/valve surgery; often 70–90 mmHg after complex aortic surgery or chronic hypertension if ordered.",
+              "Treat the number in context: lactate, urine output, mentation/sedation, skin perfusion, SvO2/ScvO2, echo and surgical goals."
+            ],
+            [
+              "Urine output",
+              "≥0.5 mL/kg/hr; commonly ≥30 mL/hr in average adult; rising concern if <0.3 mL/kg/hr for 2 hours.",
+              "Low UO with hypotension and narrow pulse pressure suggests low flow until proven otherwise."
+            ],
+            [
+              "Lactate",
+              "Usually expected to trend down; concern if >2 mmol/L and rising; high concern if ≥4 mmol/L or rising despite support.",
+              "After CPB, lactate may be elevated, but persistent rise suggests oxygen debt, shock, bleeding, tamponade, severe vasoplegia or poor cardiac output."
+            ],
+            [
+              "Potassium",
+              "Common rhythm target 4.0–4.5 mmol/L in CTICU unless renal failure/hyperkalaemia risk.",
+              "Low K increases ectopy, AF, VT risk and digoxin sensitivity."
+            ],
+            [
+              "Magnesium",
+              "Common rhythm target ≥0.8 mmol/L; many CTICUs target 1.0 mmol/L in AF/VT risk.",
+              "Low Mg promotes ventricular ectopy and AF; replacement is common post bypass."
             ]
           ]
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 1",
-          "text": "Escalate rising CVP, narrowing pulse pressure, falling urine output or increasing vasopressor need."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 2",
-          "text": "Escalate urgently for suspected clot tamponade, sudden drain cessation with instability or high CVP plus falling MAP."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 3",
-          "text": "Activate emergency pathway for PEA, profound shock, loss of arterial waveform or need for emergency reopening/return to theatre."
         }
       ]
     }
@@ -291,77 +259,39 @@
   "quiz": [
     {
       "difficulty": "Bedside Basics",
-      "question": "Why can drain output fall in worsening tamponade?",
+      "question": "Which pattern is most suspicious for post-op tamponade?",
       "options": [
-        "The drain may be blocked by clot while bleeding continues internally.",
-        "Bleeding must have stopped.",
-        "The patient is overfilled.",
-        "The arterial line is always wrong."
+        "Rising CVP, falling MAP and narrowing pulse pressure",
+        "Low CVP with hypertension",
+        "Stable MAP with improving urine output",
+        "Normal sinus rhythm alone"
       ],
       "answer": 0,
-      "explanation": "Sudden cessation after bleeding is a red flag for clot obstruction."
+      "explanation": "Tamponade causes obstructed filling: high filling pressure but low forward flow."
     },
     {
       "difficulty": "Clinical Reasoning",
-      "question": "What is the key physiology of tamponade?",
+      "question": "Why can chest drain output falling to zero be dangerous after earlier bleeding?",
       "options": [
-        "High filling pressure but low effective preload.",
-        "Low CVP with high stroke volume.",
-        "Improved filling from compression.",
-        "Hyperdynamic output."
+        "The drain may be blocked and blood may be accumulating around the heart",
+        "It always means bleeding has stopped safely",
+        "It means the patient is ready for discharge",
+        "It proves there is no clot"
       ],
       "answer": 0,
-      "explanation": "External pressure prevents chamber filling despite high venous pressure."
+      "explanation": "Sudden cessation of drainage with shock can indicate blocked drain and tamponade."
     },
     {
       "difficulty": "Expert Level",
-      "question": "Why may Beck's triad be absent post-operatively?",
+      "question": "Why may post-operative tamponade be missed on transthoracic echo?",
       "options": [
-        "Ventilation, regional clot, drains, dressings and ICU noise make signs unreliable.",
-        "Tamponade never follows surgery.",
-        "Muffled sounds are always obvious.",
-        "CVP always stays low."
+        "Clot can be loculated and windows may be poor after surgery",
+        "Echo always excludes tamponade perfectly",
+        "Tamponade never occurs after sternotomy",
+        "CVP is always normal"
       ],
       "answer": 0,
-      "explanation": "Post-cardiac surgery tamponade is often atypical and regional."
-    }
-  ],
-  "references": [
-    {
-      "name": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes",
-      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
-    },
-    {
-      "name": "2023 ESC Guidelines for the management of acute coronary syndromes",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/"
-    },
-    {
-      "name": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
-    },
-    {
-      "name": "AHA 2025 Adult Tachycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
-    },
-    {
-      "name": "ANZCOR Guideline 11.2 Protocols for Adult Advanced Life Support",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-2-protocols-for-adult-advanced-life-support"
-    },
-    {
-      "name": "ANZCOR Guideline 11.9 Managing Acute Dysrhythmias",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias"
-    },
-    {
-      "name": "2024 ESC Guidelines for the management of atrial fibrillation",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation"
-    },
-    {
-      "name": "LITFL ECG Library",
-      "url": "https://litfl.com/ecg-library/"
-    },
-    {
-      "name": "ESC E-Journal of Cardiology Practice: Cardiac tamponade a clinical challenge",
-      "url": "https://www.escardio.org/communities/councils/cardiology-practice/scientific-documents-and-publications/ejournal/volume-15/Cardiac-tamponade-a-clinical-challenge/"
+      "explanation": "Post-surgical clot may compress chambers regionally and TTE windows can be limited."
     }
   ]
 }

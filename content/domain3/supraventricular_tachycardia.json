@@ -1,5 +1,5 @@
 {
-  "id": "domain3_supraventricular_tachycardia",
+  "id": "supraventricular_tachycardia",
   "domain": 3,
   "domainTitle": "Cardiac Conditions and Rhythms",
   "title": "Supraventricular Tachycardia",
@@ -9,27 +9,57 @@
       "title": "Abridged Snapshot",
       "content": [
         {
-          "type": "keyterm",
-          "term": "Supraventricular tachycardia",
-          "definition": "SVT is tachycardia originating above the ventricles, usually a regular narrow-complex rhythm. Mechanisms include AVNRT, AVRT, atrial tachycardia and atrial flutter with rapid ventricular response."
+          "type": "heading",
+          "text": "SVT in CTICU"
         },
         {
           "type": "paragraph",
-          "text": "SVT matters after cardiac surgery because rates of 150-250/min drastically shorten diastolic filling, increase oxygen demand and reduce coronary perfusion. A post-valve, low-EF, RV failure or post-CABG patient may become unstable quickly."
+          "text": "Supraventricular tachycardia is a rapid rhythm arising above the ventricles, usually narrow-complex unless there is aberrancy or bundle branch block. In the CTICU, SVT reduces diastolic filling time, increases oxygen demand and may precipitate hypotension in patients with myocardial stunning, valve disease, RV dysfunction or ischaemia."
         },
         {
-          "type": "steps",
-          "items": [
-            "Assess stability first: MAP, arterial waveform, chest pain, pulmonary oedema, mentation, lactate and urine output.",
-            "Confirm regularity and QRS width; wide-complex tachycardia in a cardiac patient is VT until proven otherwise.",
-            "If unstable, perform synchronised cardioversion.",
-            "If stable and regular narrow-complex, consider vagal manoeuvres and adenosine if appropriate.",
-            "Correct triggers such as hypoxia, electrolytes, ischaemia, catecholamines, pain, fever and atrial stretch."
+          "type": "keyterm",
+          "term": "SVT",
+          "definition": "A tachyarrhythmia originating above the His-Purkinje system, commonly AVNRT, AVRT or atrial tachycardia, usually with a regular narrow QRS rate around 150–250/min."
+        },
+        {
+          "type": "keyterm",
+          "term": "Aberrancy",
+          "definition": "Rate-related or baseline conduction delay causing a supraventricular rhythm to appear broad-complex."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Pattern",
+            "Likely diagnosis",
+            "Bedside implication"
+          ],
+          "rows": [
+            [
+              "Regular narrow tachycardia 150–250/min",
+              "SVT, atrial flutter with fixed block, atrial tachycardia.",
+              "Assess stability and obtain 12-lead; consider vagal/adenosine pathway only if appropriate and prescribed."
+            ],
+            [
+              "Irregular narrow tachycardia",
+              "AF or multifocal atrial tachycardia more likely.",
+              "Avoid assuming SVT; management differs."
+            ],
+            [
+              "Regular broad tachycardia",
+              "VT until proven otherwise.",
+              "In CTICU, treat broad regular tachycardia as VT unless expert review confirms otherwise."
+            ],
+            [
+              "SVT with MAP <60, ischaemia or pulmonary oedema",
+              "Unstable tachyarrhythmia.",
+              "Escalate for synchronised cardioversion."
+            ]
           ]
         },
         {
-          "type": "warning",
-          "text": "Do not give adenosine to irregular wide-complex tachycardia or suspected pre-excited AF."
+          "type": "escalation",
+          "tier": "Tier 1",
+          "text": "Escalate immediately for any SVT with hypotension, altered consciousness, chest pain/ischaemia, acute pulmonary oedema, shock, or uncertain broad-complex rhythm."
         }
       ]
     },
@@ -38,98 +68,29 @@
       "content": [
         {
           "type": "heading",
-          "text": "Recognition"
+          "text": "Mechanism and haemodynamic consequences"
         },
         {
           "type": "paragraph",
-          "text": "SVT usually has QRS below 120 ms because ventricular activation uses the His-Purkinje system. It is often regular, abrupt in onset and offset, and commonly 150-250/min. P waves may be hidden, retrograde or abnormal."
-        },
-        {
-          "type": "heading",
-          "text": "AVNRT and AVRT"
+          "text": "SVT commonly involves re-entry circuits. AV nodal re-entrant tachycardia uses dual AV nodal pathways; AV re-entrant tachycardia uses an accessory pathway; atrial tachycardia arises from an atrial focus. The ECG often shows a regular narrow-complex tachycardia with absent, hidden or retrograde P waves. Atrial flutter with 2:1 block can mimic SVT at around 150/min and should be considered, especially after cardiac surgery."
         },
         {
           "type": "paragraph",
-          "text": "AVNRT uses a re-entry circuit around the AV node. AVRT uses an accessory pathway, as in WPW. Orthodromic AVRT is narrow; antidromic AVRT is wide and may mimic VT."
-        },
-        {
-          "type": "heading",
-          "text": "Atrial tachycardia and flutter"
+          "text": "The haemodynamic harm of SVT is rate-related. At 180–220/min, diastolic filling time becomes very short. Stroke volume falls, coronary perfusion time falls, myocardial oxygen demand rises, and arterial pressure may collapse. After cardiac surgery the myocardium may be stunned and less able to compensate. Valve patients and patients with diastolic dysfunction may deteriorate quickly."
         },
         {
           "type": "paragraph",
-          "text": "Atrial tachycardia arises from an ectopic atrial focus. Atrial flutter is macro-reentry, often with atrial rate around 300/min. Flutter with 2:1 conduction produces ventricular rate around 150/min and is commonly mistaken for SVT."
+          "text": "Stable SVT management may include vagal manoeuvres, adenosine, beta-blockade, calcium-channel blockers or amiodarone depending on context, contraindications and local protocols. In CTICU, adenosine should be used with monitoring, IV access, immediate flush and readiness for transient asystole or bronchospasm. In irregular wide-complex rhythms or pre-excited AF, AV nodal blockers can be dangerous; senior input is essential."
         },
         {
-          "type": "heading",
-          "text": "SVT versus sinus tachycardia"
-        },
-        {
-          "type": "table",
-          "columns": [
-            "Feature",
-            "Sinus tachycardia",
-            "SVT"
-          ],
-          "rows": [
-            [
-              "Onset",
-              "Gradual as physiology worsens",
-              "Abrupt start/stop"
-            ],
-            [
-              "P waves",
-              "Sinus P before each QRS",
-              "Hidden, retrograde or abnormal"
-            ],
-            [
-              "Rate",
-              "Usually 100-150/min",
-              "Often 150-250/min"
-            ],
-            [
-              "Cause",
-              "Compensation for stress/shock",
-              "Re-entry or ectopic focus"
-            ],
-            [
-              "Treatment",
-              "Treat cause",
-              "Vagal/adenosine/cardioversion depending on stability"
-            ]
+          "type": "steps",
+          "items": [
+            "Confirm rhythm regularity, QRS width, rate and presence/absence of P waves using rhythm strip and 12-lead ECG.",
+            "Assess haemodynamic stability before choosing a drug pathway. Hypotension, ischaemia, pulmonary oedema or altered consciousness means unstable until proven otherwise.",
+            "If stable and narrow regular SVT is likely, prepare monitoring, IV access, defibrillator availability and prescribed therapy.",
+            "If broad-complex or uncertain, treat as VT until expert review proves otherwise.",
+            "After conversion, identify triggers: hypokalaemia, hypomagnesaemia, catecholamines, pain, hypoxia, atrial irritation, ischaemia and fluid shifts."
           ]
-        },
-        {
-          "type": "heading",
-          "text": "Haemodynamic consequences"
-        },
-        {
-          "type": "paragraph",
-          "text": "At 180/min each cardiac cycle lasts about 0.33 seconds, leaving little time for ventricular filling or coronary perfusion. Stroke volume falls, oxygen demand rises and ischaemia may develop."
-        },
-        {
-          "type": "heading",
-          "text": "Vagal manoeuvres and adenosine"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vagal manoeuvres increase parasympathetic tone and may terminate AV-node-dependent SVT. Adenosine transiently blocks AV nodal conduction, terminating AVNRT/AVRT or revealing flutter waves. Standard adult dosing is 6 mg rapid IV push with flush, then 12 mg if required."
-        },
-        {
-          "type": "heading",
-          "text": "When adenosine is inappropriate"
-        },
-        {
-          "type": "paragraph",
-          "text": "Avoid adenosine in irregular wide-complex tachycardia, suspected pre-excited AF, severe active bronchospasm, second- or third-degree AV block without pacing, sick sinus without pacing, or when VT is likely. It must not delay cardioversion in instability."
-        },
-        {
-          "type": "heading",
-          "text": "Synchronised cardioversion"
-        },
-        {
-          "type": "paragraph",
-          "text": "Unstable SVT causing hypotension, shock, ischaemic discomfort, acute heart failure or altered mentation requires synchronised cardioversion. Confirm sync markers on QRS complexes before shock."
         }
       ]
     },
@@ -137,20 +98,28 @@
       "title": "Clinical Pearls",
       "content": [
         {
-          "type": "pearl",
-          "text": "A regular narrow tachycardia at 150/min is flutter with 2:1 conduction until you have actively looked for flutter waves."
+          "type": "heading",
+          "text": "Clinical Pearls"
         },
         {
           "type": "pearl",
-          "text": "Adenosine is diagnostic as well as therapeutic because it can unmask flutter."
+          "text": "A regular tachycardia at 150/min after cardiac surgery may be atrial flutter with 2:1 block, not simple SVT. Look carefully for flutter waves, especially in inferior leads and V1."
         },
         {
           "type": "pearl",
-          "text": "SVT in CTICU may be a sign of hypoxia, atrial stretch, inotrope excess or ischaemia."
+          "text": "The patient’s blood pressure and perfusion decide urgency more than the rhythm label. A narrow tachycardia can be life-threatening in a stunned ventricle."
         },
         {
           "type": "warning",
-          "text": "Do not spend time on repeated vagal manoeuvres while the arterial waveform collapses."
+          "text": "A broad-complex tachycardia in a post-cardiac surgery patient is VT until proven otherwise. Do not reassure yourself that it is SVT with aberrancy unless an expert has reviewed it."
+        },
+        {
+          "type": "pearl",
+          "text": "Adenosine may reveal flutter waves without terminating the rhythm. This is diagnostically useful but can be alarming because of transient AV block or pauses."
+        },
+        {
+          "type": "pearl",
+          "text": "SVT after surgery often has a trigger. If you convert the rhythm but leave potassium 3.2 mmol/L, pain uncontrolled and noradrenaline climbing, it may recur."
         }
       ]
     },
@@ -159,60 +128,43 @@
       "content": [
         {
           "type": "heading",
-          "text": "ECG and monitor setup"
+          "text": "Equipment Tie-In"
+        },
+        {
+          "type": "subheading",
+          "text": "Defibrillator and rhythm capture"
         },
         {
           "type": "paragraph",
-          "text": "For supraventricular tachycardia, the ECG monitor must be treated as a clinical device, not wallpaper. Use a lead that shows atrial activity when P waves matter, print strips during events, check electrode contact, and repeat a 12-lead when rhythm diagnosis, ischaemia or conduction disease is uncertain."
-        },
-        {
-          "type": "heading",
-          "text": "Arterial waveform correlation"
-        },
-        {
-          "type": "paragraph",
-          "text": "The arterial line determines whether electrical activity is producing mechanical output. Rate, rhythm and monitor labels are secondary to MAP, pulse pressure, waveform amplitude, lactate, urine output and clinical perfusion."
-        },
-        {
-          "type": "heading",
-          "text": "Defibrillator and pacing readiness"
-        },
-        {
-          "type": "paragraph",
-          "text": "Unstable SVT requires synchronised cardioversion; stable regular narrow SVT may need adenosine setup requires early access to pads, synchronised cardioversion, defibrillation or pacing depending on stability. In post-cardiac surgery patients, also check epicardial wires, pacing box battery, output, sensitivity, capture and sensing."
+          "text": "Keep defibrillator pads available for unstable tachyarrhythmias. For conscious stable SVT, ensure continuous ECG, arterial pressure and oxygen saturation monitoring during drug therapy. Print rhythm strips before, during and after adenosine if used; the transient AV block can reveal atrial activity."
         },
         {
           "type": "table",
           "columns": [
-            "Equipment",
-            "What to check",
-            "Why it matters"
+            "Equipment task",
+            "Why it matters",
+            "How to do it"
           ],
           "rows": [
             [
-              "ECG monitor",
-              "Lead quality, rhythm strip, alarm limits and artefact.",
-              "Avoids missed rhythm change or false diagnosis."
+              "12-lead ECG before treatment if stable",
+              "Differentiates SVT, flutter, VT, ischaemia and pre-excitation.",
+              "Acquire rapidly without delaying cardioversion in instability."
             ],
             [
-              "12-lead ECG",
-              "Conduction, QRS width, ischaemia and baseline comparison.",
-              "Clarifies rhythm and identifies dangerous mimics."
+              "Continuous arterial waveform",
+              "Shows beat-to-beat haemodynamic tolerance.",
+              "Watch pulse pressure and MAP during tachycardia and conversion."
             ],
             [
-              "Arterial line",
-              "Level, zero, damping, pulse pressure and waveform presence.",
-              "Shows haemodynamic consequence."
+              "Adenosine delivery setup",
+              "Drug half-life is seconds.",
+              "Use proximal IV, rapid push, immediate flush, continuous ECG."
             ],
             [
-              "Defibrillator",
-              "Pads, sync markers, battery and energy pathway.",
-              "Supports immediate cardioversion or defibrillation."
-            ],
-            [
-              "Pacing box",
-              "Mode, rate, output, sensitivity and capture threshold.",
-              "Essential when rate or AV synchrony fails."
+              "Sync mode for unstable SVT",
+              "Avoids shock on T wave.",
+              "Confirm sync markers on QRS before shock."
             ]
           ]
         }
@@ -222,64 +174,68 @@
       "title": "Targets and Numbers",
       "content": [
         {
+          "type": "heading",
+          "text": "Targets and Numbers"
+        },
+        {
           "type": "targetTable",
           "columns": [
             "Parameter",
-            "Usual target",
+            "Typical value",
             "CT-ICU interpretation"
           ],
           "rows": [
             [
-              "Narrow QRS",
-              "Less than 120 ms",
-              "Suggests supraventricular activation if no aberrancy."
-            ],
-            [
               "SVT rate",
-              "Often 150-250/min",
-              "High risk for poor filling in CTICU."
+              "Often 150–250/min.",
+              "Higher rates reduce filling and increase oxygen demand."
             ],
             [
-              "Adenosine first dose",
-              "6 mg rapid IV push with flush",
-              "Use proximal IV and ECG recording."
+              "Atrial flutter with 2:1 block",
+              "Often near 150/min.",
+              "Consider if regular narrow tachycardia is exactly around 150/min."
             ],
             [
-              "Adenosine second dose",
-              "12 mg rapid IV push",
-              "Use if required and appropriate."
+              "Unstable tachycardia criteria",
+              "Hypotension, shock, ischaemia, pulmonary oedema, altered consciousness.",
+              "Synchronised cardioversion pathway."
             ],
             [
-              "Unstable tachycardia",
-              "Hypotension, shock, ischaemia, acute heart failure or altered mentation",
-              "Synchronised cardioversion."
+              "QRS width",
+              "Narrow <120 ms; broad ≥120 ms.",
+              "Broad regular tachycardia should be treated as VT until proven otherwise."
+            ],
+            [
+              "Adenosine effect",
+              "Transient AV block/asystole seconds.",
+              "Must be monitored; resuscitation equipment ready."
+            ],
+            [
+              "MAP",
+              "Usually 65–80 mmHg after routine CABG/valve surgery; often 70–90 mmHg after complex aortic surgery or chronic hypertension if ordered.",
+              "Treat the number in context: lactate, urine output, mentation/sedation, skin perfusion, SvO2/ScvO2, echo and surgical goals."
+            ],
+            [
+              "Urine output",
+              "≥0.5 mL/kg/hr; commonly ≥30 mL/hr in average adult; rising concern if <0.3 mL/kg/hr for 2 hours.",
+              "Low UO with hypotension and narrow pulse pressure suggests low flow until proven otherwise."
+            ],
+            [
+              "Lactate",
+              "Usually expected to trend down; concern if >2 mmol/L and rising; high concern if ≥4 mmol/L or rising despite support.",
+              "After CPB, lactate may be elevated, but persistent rise suggests oxygen debt, shock, bleeding, tamponade, severe vasoplegia or poor cardiac output."
             ],
             [
               "Potassium",
-              "4.0-4.5 mmol/L",
-              "Optimise rhythm stability."
+              "Common rhythm target 4.0–4.5 mmol/L in CTICU unless renal failure/hyperkalaemia risk.",
+              "Low K increases ectopy, AF, VT risk and digoxin sensitivity."
             ],
             [
               "Magnesium",
-              "At least 1.0 mmol/L",
-              "Correct arrhythmia trigger."
+              "Common rhythm target ≥0.8 mmol/L; many CTICUs target 1.0 mmol/L in AF/VT risk.",
+              "Low Mg promotes ventricular ectopy and AF; replacement is common post bypass."
             ]
           ]
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 1",
-          "text": "Escalate persistent SVT above 150/min, failed adenosine, symptoms or uncertain diagnosis."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 2",
-          "text": "Escalate urgently for SVT with hypotension, ischaemia, pulmonary oedema, low output, wide QRS or recurrence."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 3",
-          "text": "Activate emergency response for loss of pulse, peri-arrest SVT, severe shock or deterioration into VT/VF."
         }
       ]
     }
@@ -287,73 +243,39 @@
   "quiz": [
     {
       "difficulty": "Bedside Basics",
-      "question": "A regular narrow tachycardia around 150/min may be what rhythm?",
+      "question": "A regular narrow-complex tachycardia at 180/min with MAP 50 mmHg is best treated as:",
       "options": [
-        "Atrial flutter with 2:1 conduction.",
-        "Complete heart block.",
-        "VF.",
-        "Sinus arrest."
+        "Unstable tachyarrhythmia requiring urgent escalation/cardioversion pathway",
+        "Benign because QRS is narrow",
+        "A rhythm to observe for 6 hours",
+        "A reason to remove arterial line"
       ],
       "answer": 0,
-      "explanation": "Flutter often conducts 2:1 and gives a ventricular rate near 150/min."
-    },
-    {
-      "difficulty": "Bedside Basics",
-      "question": "What is the initial adult adenosine dose for appropriate stable regular SVT?",
-      "options": [
-        "6 mg rapid IV push with flush.",
-        "1 mg slow IV.",
-        "150 mg infusion.",
-        "2 g IV."
-      ],
-      "answer": 0,
-      "explanation": "Adenosine must be delivered rapidly because its half-life is very short."
+      "explanation": "Narrow-complex does not mean safe. Hypotension makes the tachyarrhythmia unstable."
     },
     {
       "difficulty": "Clinical Reasoning",
-      "question": "When should SVT be cardioverted?",
+      "question": "A regular narrow rhythm at about 150/min after cardiac surgery may actually be:",
       "options": [
-        "When it causes hypotension, shock, ischaemia, acute heart failure or altered mentation.",
-        "Only after three failed ECGs.",
-        "Never if narrow complex.",
-        "Only if HR exceeds 250/min."
+        "Atrial flutter with 2:1 block",
+        "Complete heart block",
+        "Ventricular fibrillation",
+        "Sinus arrest"
       ],
       "answer": 0,
-      "explanation": "Instability requires synchronised cardioversion."
-    }
-  ],
-  "references": [
-    {
-      "name": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes",
-      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
+      "explanation": "Flutter with 2:1 AV conduction commonly produces a ventricular rate near 150/min and may mimic SVT."
     },
     {
-      "name": "2023 ESC Guidelines for the management of acute coronary syndromes",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/"
-    },
-    {
-      "name": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
-    },
-    {
-      "name": "AHA 2025 Adult Tachycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
-    },
-    {
-      "name": "ANZCOR Guideline 11.2 Protocols for Adult Advanced Life Support",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-2-protocols-for-adult-advanced-life-support"
-    },
-    {
-      "name": "ANZCOR Guideline 11.9 Managing Acute Dysrhythmias",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias"
-    },
-    {
-      "name": "2024 ESC Guidelines for the management of atrial fibrillation",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation"
-    },
-    {
-      "name": "LITFL ECG Library",
-      "url": "https://litfl.com/ecg-library/"
+      "difficulty": "Expert Level",
+      "question": "Why is a regular broad-complex tachycardia treated as VT until proven otherwise?",
+      "options": [
+        "Misclassifying VT as SVT can delay life-saving treatment and some AV nodal blockers may harm",
+        "All broad rhythms are artefact",
+        "SVT can never be broad",
+        "VT is always pulseless"
+      ],
+      "answer": 0,
+      "explanation": "Broad-complex tachycardia may be VT, especially in structural heart disease/post-surgery. Treating as SVT can be dangerous."
     }
   ]
 }

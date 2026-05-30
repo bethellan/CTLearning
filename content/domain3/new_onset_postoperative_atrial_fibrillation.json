@@ -1,35 +1,65 @@
 {
-  "id": "domain3_new_onset_postoperative_atrial_fibrillation",
+  "id": "new_onset_postoperative_atrial_fibrillation",
   "domain": 3,
   "domainTitle": "Cardiac Conditions and Rhythms",
-  "title": "New-Onset Postoperative Atrial Fibrillation",
+  "title": "New-Onset Post-operative Atrial Fibrillation",
   "file": "new_onset_postoperative_atrial_fibrillation.json",
   "sections": {
     "abridged": {
       "title": "Abridged Snapshot",
       "content": [
         {
-          "type": "keyterm",
-          "term": "Postoperative atrial fibrillation",
-          "definition": "Postoperative atrial fibrillation is new AF after surgery, with absent organised P waves and irregularly irregular ventricular response."
+          "type": "heading",
+          "text": "New-onset post-operative atrial fibrillation"
         },
         {
           "type": "paragraph",
-          "text": "POAF is common after cardiac surgery because atria are inflamed, stretched, catecholamine-exposed and electrolyte-sensitive. It commonly occurs on post-operative days 2-4 but can occur earlier or later."
+          "text": "Post-operative atrial fibrillation is common after cardiac surgery and matters because it can reduce cardiac output, increase myocardial oxygen demand, worsen hypotension, promote thromboembolism, and delay recovery. The loss of atrial contraction is particularly important in stiff ventricles, LV hypertrophy, diastolic dysfunction, RV dysfunction, mitral valve disease and patients dependent on AV synchrony."
         },
         {
-          "type": "steps",
-          "items": [
-            "Confirm AF by rhythm strip or 12-lead: absent P waves and irregularly irregular R-R intervals.",
-            "Assess stability: MAP, pulse pressure, chest pain, pulmonary oedema, mentation, lactate, urine output and vasoactive dose.",
-            "Correct triggers: low K/Mg, hypoxia, hypercarbia, pain, fever, volume overload, hypovolaemia, bleeding, sepsis and catecholamines.",
-            "If unstable, prepare synchronised cardioversion.",
-            "If stable, discuss rate versus rhythm control and anticoagulation in context of bleeding risk."
+          "type": "keyterm",
+          "term": "Atrial fibrillation",
+          "definition": "An irregularly irregular atrial rhythm with no consistent P waves and chaotic atrial electrical activity, producing irregular ventricular response through the AV node."
+        },
+        {
+          "type": "keyterm",
+          "term": "Atrial kick",
+          "definition": "The late diastolic contribution of atrial contraction to ventricular filling. It may contribute 15–30 percent of ventricular filling and can be more important in stiff or hypertrophied ventricles."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "AF presentation",
+            "Likely impact",
+            "Immediate response"
+          ],
+          "rows": [
+            [
+              "AF rate 90–110/min, stable MAP, warm, good UO",
+              "May be tolerated.",
+              "Check K/Mg, oxygenation, pain, fluid status, review anticoagulation and rate/rhythm plan."
+            ],
+            [
+              "AF rate 130–160/min with hypotension",
+              "Reduced filling time and loss of atrial kick causing low cardiac output.",
+              "Escalate; prepare rate/rhythm control and possible synchronised cardioversion if unstable."
+            ],
+            [
+              "AF after valve surgery with rising CVP/low MAP",
+              "May unmask RV dysfunction or diastolic dependence.",
+              "Assess filling, echo need, pacing/AV synchrony, inotropes and surgical factors."
+            ],
+            [
+              "AF with chest pain/ST change",
+              "Possible ischaemia trigger or consequence.",
+              "12-lead ECG, senior review, correct oxygen delivery and electrolytes."
+            ]
           ]
         },
         {
-          "type": "warning",
-          "text": "AF after valve surgery or LV/RV dysfunction can be haemodynamically severe even when the ventricular rate is only 110-120/min."
+          "type": "escalation",
+          "tier": "Tier 1",
+          "text": "Immediate escalation for AF with shock, severe hypotension, acute pulmonary oedema, ongoing ischaemia, altered consciousness, or rapid ventricular response causing low cardiac output. Prepare synchronised cardioversion pathway if unstable."
         }
       ]
     },
@@ -38,93 +68,37 @@
       "content": [
         {
           "type": "heading",
-          "text": "Definition and ECG appearance"
+          "text": "Mechanism in cardiac surgery"
         },
         {
           "type": "paragraph",
-          "text": "AF is chaotic atrial electrical activation with no coordinated atrial contraction. There are no consistent P waves and the ventricular response is irregularly irregular unless AV block, pacing or drugs regularise it. QRS is usually narrow unless there is bundle branch block, aberrancy or ventricular pacing."
-        },
-        {
-          "type": "heading",
-          "text": "Why AF is common after cardiac surgery"
+          "text": "Post-operative AF is driven by a combination of atrial inflammation, surgical manipulation, pericardial irritation, catecholamines, oxidative stress, electrolyte disturbance, fluid shifts, hypoxia, pain, infection, sleep disruption and autonomic imbalance. It often occurs around post-operative days 2–4, but it can occur immediately in ICU, especially after valve, atrial, aortic and complex surgery."
         },
         {
           "type": "paragraph",
-          "text": "Surgery causes atrial and pericardial inflammation, atrial stretch, autonomic imbalance, catecholamine exposure, electrolyte disturbance and pericardial irritation. Withdrawal of beta-blockers, hypoxia, pain, sepsis, sleep disruption, volume overload and hypovolaemia also trigger POAF."
-        },
-        {
-          "type": "heading",
-          "text": "Loss of atrial kick"
+          "text": "The haemodynamic effect depends on ventricular rate, ventricular function, filling dependence and valve pathology. In AF, atrial contraction is lost and ventricular filling becomes irregular. A patient with normal ventricles may tolerate this. A patient with LV hypertrophy, mitral stenosis/repair, RV dysfunction, pulmonary hypertension, diastolic dysfunction or low cardiac output syndrome may deteriorate rapidly because atrial contribution and AV timing are essential to filling."
         },
         {
           "type": "paragraph",
-          "text": "Atrial contraction contributes roughly 15-30 percent of ventricular filling and can be more important in stiff ventricles. In aortic stenosis/AVR, LVH, diastolic dysfunction, mitral valve disease, RV dysfunction and pulmonary hypertension, loss of atrial kick can sharply reduce stroke volume."
+          "text": "Rapid ventricular response shortens diastole. This reduces ventricular filling time and coronary perfusion time while increasing myocardial oxygen demand. In a post-CABG or post-valve patient with stunned myocardium, tachycardic AF can create a spiral: less filling, lower stroke volume, lower MAP, poorer coronary perfusion, more ischaemia, more catecholamine release and faster AF."
         },
         {
-          "type": "heading",
-          "text": "Haemodynamic impact by patient type"
+          "type": "subheading",
+          "text": "Management concepts"
         },
         {
-          "type": "table",
-          "columns": [
-            "Patient type",
-            "Why AF is dangerous",
-            "Bedside clue"
-          ],
-          "rows": [
-            [
-              "LV dysfunction",
-              "Fast irregular filling reduces stroke volume and raises oxygen demand.",
-              "Low pulse pressure, pulmonary oedema, rising lactate."
-            ],
-            [
-              "RV dysfunction or pulmonary hypertension",
-              "Irregular filling worsens RV output and reduces LV preload.",
-              "Rising CVP, hypotension, low PA pulsatility."
-            ],
-            [
-              "Post-valve surgery",
-              "Atrial contribution and valve filling dynamics are critical.",
-              "MAP drop despite modest HR."
-            ],
-            [
-              "LCOS",
-              "AF adds irregularity and loss of atrial kick to an already failing pump.",
-              "Escalating inotrope/pressor requirement."
-            ]
+          "type": "paragraph",
+          "text": "Management is usually framed as rate control, rhythm control, correction of triggers, anticoagulation assessment and haemodynamic support. Rate control may involve beta-blockers, amiodarone or other agents depending on blood pressure and ventricular function. Rhythm control is more likely to be favoured when AF causes haemodynamic compromise, when onset is recent, when atrial kick is crucial, or when surgical teams prefer restoration of sinus rhythm. Anticoagulation decisions after cardiac surgery are complex because stroke prevention must be balanced against mediastinal bleeding, chest drains, pacing wires and re-operation risk."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Confirm AF with rhythm strip or 12-lead ECG: irregularly irregular rhythm, absent consistent P waves and variable R-R intervals.",
+            "Assess stability immediately: MAP, arterial waveform, chest pain/ischaemia, pulmonary oedema, consciousness, lactate, urine output and vasoactive requirement.",
+            "Correct triggers: potassium, magnesium, hypoxia, pain, fever, hypovolaemia, fluid overload, anaemia, sepsis, inotrope excess and pericardial irritation.",
+            "Escalate unstable AF for synchronised cardioversion consideration. Do not spend prolonged time titrating rate drugs in a crashing patient.",
+            "Clarify anticoagulation plan with the surgical/medical team because early post-op bleeding risk may override standard AF anticoagulation rules."
           ]
-        },
-        {
-          "type": "heading",
-          "text": "Rate control versus rhythm control"
-        },
-        {
-          "type": "paragraph",
-          "text": "Rate control slows AV nodal conduction while accepting AF. Rhythm control restores sinus rhythm with drugs or cardioversion. In stable POAF either may be reasonable, but CTICU patients often need rhythm control when AF causes hypotension, low output, ischaemia, RV failure, valve filling problems or inability to wean support."
-        },
-        {
-          "type": "heading",
-          "text": "Beta-blockers, amiodarone and electrolytes"
-        },
-        {
-          "type": "paragraph",
-          "text": "Beta-blockers reduce sympathetic drive and AV nodal conduction but can worsen hypotension, bradycardia, AV block and acute heart failure. Amiodarone is widely used because it can slow rate and facilitate conversion in LV dysfunction, but IV loading can cause hypotension, bradycardia and QT prolongation. Optimise K to 4.0-4.5 mmol/L and Mg to at least 1.0 mmol/L."
-        },
-        {
-          "type": "heading",
-          "text": "Anticoagulation and bleeding risk"
-        },
-        {
-          "type": "paragraph",
-          "text": "POAF increases thromboembolic risk, but early post-cardiac surgery patients have bleeding risk from sternotomy, drains, coagulopathy, pacing wires and possible return to theatre. AF persisting or recurring beyond 48 hours commonly triggers formal anticoagulation assessment, but valve type, LAA management, stroke risk and surgical bleeding risk determine the plan."
-        },
-        {
-          "type": "heading",
-          "text": "Cardioversion indications and setup"
-        },
-        {
-          "type": "paragraph",
-          "text": "Immediate synchronised cardioversion is indicated when AF causes hypotension, shock, ischaemic discomfort, acute heart failure or altered mentation. Apply pads, select synchronised mode, confirm markers on QRS complexes, sedate if feasible, clear the bed and reassess rhythm and perfusion after shock."
         }
       ]
     },
@@ -132,20 +106,28 @@
       "title": "Clinical Pearls",
       "content": [
         {
-          "type": "pearl",
-          "text": "POAF often appears just when the patient seems to be improving; do not let timing make it seem harmless."
+          "type": "heading",
+          "text": "Clinical Pearls"
         },
         {
           "type": "pearl",
-          "text": "AF at 110/min can be worse than sinus tachycardia at 130/min if atrial kick is critical."
+          "text": "The same AF rate can be benign in one patient and catastrophic in another. The deciding factor is perfusion and dependence on atrial kick."
         },
         {
           "type": "pearl",
-          "text": "Correct K and Mg early; low electrolytes are fixable arrhythmia triggers."
+          "text": "Post-op AF is often a symptom of something else: pain, atelectasis, low potassium, low magnesium, fluid overload, bleeding, infection or ischaemia."
+        },
+        {
+          "type": "pearl",
+          "text": "In a stiff LV, mitral valve patient or hypertrophied ventricle, loss of atrial kick can cause hypotension even without a very fast rate."
         },
         {
           "type": "warning",
-          "text": "Do not anticoagulate a fresh sternotomy patient by formula alone; consider bleeding, drains, pacing wires and surgeon plan."
+          "text": "Do not give rate-control drugs blindly to a patient whose AF is compensating for low stroke volume or shock. Assess perfusion and discuss early."
+        },
+        {
+          "type": "pearl",
+          "text": "Atrial pacing can sometimes suppress atrial ectopy or support rate in selected post-op patients, but it requires functioning atrial wires and a clear plan."
         }
       ]
     },
@@ -154,60 +136,57 @@
       "content": [
         {
           "type": "heading",
-          "text": "ECG and monitor setup"
+          "text": "Equipment Tie-In"
+        },
+        {
+          "type": "subheading",
+          "text": "Monitoring"
         },
         {
           "type": "paragraph",
-          "text": "For new-onset postoperative atrial fibrillation, the ECG monitor must be treated as a clinical device, not wallpaper. Use a lead that shows atrial activity when P waves matter, print strips during events, check electrode contact, and repeat a 12-lead when rhythm diagnosis, ischaemia or conduction disease is uncertain."
+          "text": "Use ECG leads that show atrial activity and R-R irregularity clearly. Monitor rate trends, not just a single number, because AF ventricular response can vary with pain, movement, catecholamines and drugs. Obtain a 12-lead ECG to identify ischaemia, flutter, pre-excitation, paced rhythm or conduction disease."
         },
         {
-          "type": "heading",
-          "text": "Arterial waveform correlation"
+          "type": "subheading",
+          "text": "Synchronised cardioversion setup"
         },
         {
-          "type": "paragraph",
-          "text": "The arterial line determines whether electrical activity is producing mechanical output. Rate, rhythm and monitor labels are secondary to MAP, pulse pressure, waveform amplitude, lactate, urine output and clinical perfusion."
-        },
-        {
-          "type": "heading",
-          "text": "Defibrillator and pacing readiness"
-        },
-        {
-          "type": "paragraph",
-          "text": "Unstable AF requires synchronised cardioversion; bradycardia after conversion may require pacing requires early access to pads, synchronised cardioversion, defibrillation or pacing depending on stability. In post-cardiac surgery patients, also check epicardial wires, pacing box battery, output, sensitivity, capture and sensing."
+          "type": "steps",
+          "items": [
+            "Attach defibrillator pads in anterolateral or anteroposterior position and ensure good skin contact.",
+            "Select synchronised mode and confirm sync markers appear on each QRS, not on T waves or pacing spikes.",
+            "Prepare sedation/analgesia if conscious and time allows.",
+            "Clear oxygen away from direct pad area, announce clear, visually confirm no contact, and deliver prescribed energy.",
+            "Immediately reassess rhythm, arterial waveform, pulse, MAP, oxygenation and neurological status."
+          ]
         },
         {
           "type": "table",
           "columns": [
-            "Equipment",
-            "What to check",
-            "Why it matters"
+            "Equipment issue",
+            "Risk",
+            "Action"
           ],
           "rows": [
             [
-              "ECG monitor",
-              "Lead quality, rhythm strip, alarm limits and artefact.",
-              "Avoids missed rhythm change or false diagnosis."
+              "Sync markers not visible or marking T waves",
+              "Unsafe shock timing and R-on-T risk.",
+              "Do not shock until sensing is corrected or senior directs emergency defibrillation for arrest."
             ],
             [
-              "12-lead ECG",
-              "Conduction, QRS width, ischaemia and baseline comparison.",
-              "Clarifies rhythm and identifies dangerous mimics."
+              "Monitor reads regular tachycardia",
+              "AF/flutter/SVT misclassification.",
+              "Print rhythm strip and obtain 12-lead."
             ],
             [
-              "Arterial line",
-              "Level, zero, damping, pulse pressure and waveform presence.",
-              "Shows haemodynamic consequence."
+              "Poor electrode contact",
+              "False irregularity or missed AF.",
+              "Replace electrodes and reduce artefact."
             ],
             [
-              "Defibrillator",
-              "Pads, sync markers, battery and energy pathway.",
-              "Supports immediate cardioversion or defibrillation."
-            ],
-            [
-              "Pacing box",
-              "Mode, rate, output, sensitivity and capture threshold.",
-              "Essential when rate or AV synchrony fails."
+              "Pacing spikes present",
+              "Device may misread QRS.",
+              "Check sync markers carefully and involve senior staff."
             ]
           ]
         }
@@ -217,59 +196,68 @@
       "title": "Targets and Numbers",
       "content": [
         {
+          "type": "heading",
+          "text": "Targets and Numbers"
+        },
+        {
           "type": "targetTable",
           "columns": [
             "Parameter",
-            "Usual target",
+            "Usual target / threshold",
             "CT-ICU interpretation"
           ],
           "rows": [
             [
-              "Typical timing",
-              "Often post-operative day 2-4",
-              "Can occur earlier in ICU or later on ward."
+              "AF ventricular rate",
+              "Stable rate-control targets often <100–110/min; stricter or rhythm control may be needed if low output.",
+              "Rate target is meaningless if MAP, lactate, UO or oxygenation are poor."
             ],
             [
-              "Rapid ventricular response",
-              "Often clinically significant above 100-110/min; high concern above 120-130/min",
-              "Tolerance depends on LV/RV and valve physiology."
-            ],
-            [
-              "Unstable AF",
-              "Hypotension, shock, ischaemia, acute heart failure or altered mentation",
-              "Immediate synchronised cardioversion."
+              "Unstable tachyarrhythmia",
+              "Hypotension, shock, ischaemia, acute heart failure, altered consciousness.",
+              "Synchronised cardioversion is time-critical."
             ],
             [
               "Potassium",
-              "4.0-4.5 mmol/L",
-              "Reduces recurrence and ventricular irritability."
+              "Often target 4.0–4.5 mmol/L.",
+              "Reduces atrial/ventricular ectopy risk."
             ],
             [
               "Magnesium",
-              "At least 1.0 mmol/L",
-              "Optimise for AF prevention and treatment."
+              "Often target ≥0.8–1.0 mmol/L.",
+              "Replacement commonly used in post-op AF prevention/treatment."
             ],
             [
-              "Anticoagulation consideration",
-              "Persistent/recurrent AF beyond 48 hours often triggers assessment",
-              "Balance thromboembolism with surgical bleeding risk."
+              "QTc if amiodarone/other QT drugs",
+              "Concern often >500 ms or rapid increase from baseline.",
+              "Monitor electrolytes, bradycardia and concomitant QT-prolonging drugs."
+            ],
+            [
+              "MAP",
+              "Usually 65–80 mmHg after routine CABG/valve surgery; often 70–90 mmHg after complex aortic surgery or chronic hypertension if ordered.",
+              "Treat the number in context: lactate, urine output, mentation/sedation, skin perfusion, SvO2/ScvO2, echo and surgical goals."
+            ],
+            [
+              "Urine output",
+              "≥0.5 mL/kg/hr; commonly ≥30 mL/hr in average adult; rising concern if <0.3 mL/kg/hr for 2 hours.",
+              "Low UO with hypotension and narrow pulse pressure suggests low flow until proven otherwise."
+            ],
+            [
+              "Lactate",
+              "Usually expected to trend down; concern if >2 mmol/L and rising; high concern if ≥4 mmol/L or rising despite support.",
+              "After CPB, lactate may be elevated, but persistent rise suggests oxygen debt, shock, bleeding, tamponade, severe vasoplegia or poor cardiac output."
+            ],
+            [
+              "Potassium",
+              "Common rhythm target 4.0–4.5 mmol/L in CTICU unless renal failure/hyperkalaemia risk.",
+              "Low K increases ectopy, AF, VT risk and digoxin sensitivity."
+            ],
+            [
+              "Magnesium",
+              "Common rhythm target ≥0.8 mmol/L; many CTICUs target 1.0 mmol/L in AF/VT risk.",
+              "Low Mg promotes ventricular ectopy and AF; replacement is common post bypass."
             ]
           ]
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 1",
-          "text": "Escalate new AF with HR above 120/min, symptoms, new oxygen need, chest pain or electrolyte derangement."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 2",
-          "text": "Escalate urgently for AF with hypotension, pulmonary oedema, ischaemia, rising lactate, RV failure or LCOS."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 3",
-          "text": "Activate emergency response for peri-arrest AF, severe shock, loss of consciousness or degeneration into VT/VF."
         }
       ]
     }
@@ -277,73 +265,39 @@
   "quiz": [
     {
       "difficulty": "Bedside Basics",
-      "question": "What ECG pattern supports AF?",
+      "question": "What ECG feature best supports atrial fibrillation?",
       "options": [
-        "Absent consistent P waves with irregularly irregular R-R intervals.",
-        "Regular narrow tachycardia with fixed R-R intervals.",
-        "Progressive PR lengthening.",
-        "AV dissociation with escape rhythm."
+        "Irregularly irregular rhythm with no consistent P waves",
+        "Regular narrow rhythm with sawtooth flutter waves",
+        "PR interval >200 ms",
+        "ST elevation in two contiguous leads"
       ],
       "answer": 0,
-      "explanation": "AF has no organised P waves and an irregularly irregular ventricular response."
+      "explanation": "AF is characterised by absent consistent P waves and irregularly irregular ventricular response."
     },
     {
       "difficulty": "Clinical Reasoning",
-      "question": "Why is AF poorly tolerated after valve surgery?",
+      "question": "Why may AF cause hypotension in a post-mitral valve or hypertrophied LV patient even at a moderate rate?",
       "options": [
-        "Loss of atrial kick can markedly reduce ventricular filling.",
-        "AF always improves cardiac output.",
-        "Valve patients cannot develop RVR.",
-        "AF prevents pulmonary oedema."
+        "Loss of atrial kick impairs ventricular filling",
+        "AF always causes complete heart block",
+        "AF increases diastolic filling time",
+        "The arterial line always underdamps"
       ],
       "answer": 0,
-      "explanation": "Atrial contraction is often critical in stiff or surgically altered hearts."
+      "explanation": "Stiff ventricles and mitral pathology may rely heavily on atrial contraction for filling. Loss of atrial kick can reduce stroke volume."
     },
     {
-      "difficulty": "Bedside Basics",
-      "question": "When is immediate cardioversion indicated?",
+      "difficulty": "Expert Level",
+      "question": "Before synchronised cardioversion for unstable AF, what must be confirmed on the defibrillator?",
       "options": [
-        "AF causing hypotension, shock, ischaemia, acute heart failure or altered mentation.",
-        "All AF regardless of stability.",
-        "Only after 48 hours.",
-        "Never after surgery."
+        "Sync markers correctly identify QRS complexes",
+        "The oxygen saturation pleth is visible",
+        "The NIBP cuff is cycling every hour",
+        "The temperature probe is connected"
       ],
       "answer": 0,
-      "explanation": "Unstable AF requires synchronised cardioversion."
-    }
-  ],
-  "references": [
-    {
-      "name": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes",
-      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
-    },
-    {
-      "name": "2023 ESC Guidelines for the management of acute coronary syndromes",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/"
-    },
-    {
-      "name": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
-    },
-    {
-      "name": "AHA 2025 Adult Tachycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
-    },
-    {
-      "name": "ANZCOR Guideline 11.2 Protocols for Adult Advanced Life Support",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-2-protocols-for-adult-advanced-life-support"
-    },
-    {
-      "name": "ANZCOR Guideline 11.9 Managing Acute Dysrhythmias",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias"
-    },
-    {
-      "name": "2024 ESC Guidelines for the management of atrial fibrillation",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation"
-    },
-    {
-      "name": "LITFL ECG Library",
-      "url": "https://litfl.com/ecg-library/"
+      "explanation": "Synchronised shock must be timed to the QRS. Incorrect sensing risks shock delivery during repolarisation."
     }
   ]
 }

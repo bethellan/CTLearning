@@ -1,32 +1,65 @@
 {
-  "id": "domain3_low_cardiac_output_syndrome",
+  "id": "low_cardiac_output_syndrome",
   "domain": 3,
   "domainTitle": "Cardiac Conditions and Rhythms",
-  "title": "Low Cardiac Output Syndrome",
+  "title": "Low Cardiac Output Syndrome after Cardiac Surgery",
   "file": "low_cardiac_output_syndrome.json",
   "sections": {
     "abridged": {
       "title": "Abridged Snapshot",
       "content": [
         {
-          "type": "keyterm",
-          "term": "Low cardiac output syndrome",
-          "definition": "Low cardiac output syndrome is inadequate cardiac pump performance after cardiac surgery causing insufficient oxygen delivery. A common definition is CI below 2.0-2.2 L/min/m2 with hypoperfusion or significant inotrope need."
+          "type": "heading",
+          "text": "Low cardiac output syndrome"
         },
         {
           "type": "paragraph",
-          "text": "LCOS is a syndrome, not a final diagnosis. Causes include myocardial stunning after bypass, ischaemia, poor LV function, RV failure, valve dysfunction, tamponade, hypovolaemia, arrhythmias, excessive afterload and vasoplegia."
+          "text": "Low cardiac output syndrome is inadequate cardiac output for tissue oxygen demand after cardiac surgery. It may result from myocardial stunning, ischaemia/graft failure, poor ventricular function, tamponade, hypovolaemia, RV failure, valve dysfunction, arrhythmia, pacing dyssynchrony, vasoplegia with maldistributed flow, or excessive afterload. The bedside picture is falling perfusion: cool skin, low urine output, rising lactate, low SvO2/ScvO2, altered mentation when awake, narrow pulse pressure and escalating vasoactive support."
         },
         {
-          "type": "steps",
-          "items": [
-            "Check arterial line level, zero and damping before acting on pressure alone.",
-            "Assess rhythm first: AF, complete heart block, junctional rhythm or VT may be the cause.",
-            "Assess preload using bleeding, drains, CVP/PAOP trend, echo, pulse pressure and fluid responsiveness.",
-            "Assess LV/RV contractility, valve function, ischaemia and tamponade.",
-            "Assess afterload: high SVR limiting LV ejection, low SVR from vasoplegia or high PVR affecting RV.",
-            "Escalate rising lactate, CI below 2.2 L/min/m2, oliguria, cool peripheries, low SvO2 or increasing support."
+          "type": "keyterm",
+          "term": "Low cardiac output syndrome",
+          "definition": "A state after cardiac surgery where cardiac output is insufficient to maintain organ perfusion, commonly reflected by low cardiac index, rising lactate, oliguria and escalating support."
+        },
+        {
+          "type": "keyterm",
+          "term": "Cardiac index",
+          "definition": "Cardiac output indexed to body surface area; normal adult range is roughly 2.5–4.0 L/min/m2, with concern often <2.2 L/min/m2 in shock context."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "LCOS clue",
+            "Mechanism",
+            "Immediate bedside action"
+          ],
+          "rows": [
+            [
+              "Narrow pulse pressure and cool peripheries",
+              "Low stroke volume and vasoconstriction.",
+              "Assess volume, rhythm, pacing, echo need, inotrope plan."
+            ],
+            [
+              "Rising lactate",
+              "Oxygen delivery inadequate for demand.",
+              "Escalate, check Hb, oxygenation, CO/CI, bleeding, tamponade."
+            ],
+            [
+              "Low urine output",
+              "Renal hypoperfusion or AKI.",
+              "Check MAP/flow, CVP, fluid balance, nephrotoxins, catheter patency."
+            ],
+            [
+              "Low SvO2/ScvO2",
+              "High extraction due to low oxygen delivery.",
+              "Assess CO, Hb, SaO2, metabolic demand and shock cause."
+            ]
           ]
+        },
+        {
+          "type": "escalation",
+          "tier": "Tier 1",
+          "text": "Escalate urgently for suspected LCOS with MAP <60–65 mmHg, CI <2.0–2.2 L/min/m2 if measured, lactate rising, UO <0.5 mL/kg/hr, new arrhythmia, suspected tamponade, or escalating inotrope/vasopressor requirement."
         }
       ]
     },
@@ -35,104 +68,28 @@
       "content": [
         {
           "type": "heading",
-          "text": "Definition and physiology"
+          "text": "Mechanism after cardiac surgery"
         },
         {
           "type": "paragraph",
-          "text": "LCOS means oxygen delivery is inadequate for tissue demand because cardiac pump flow is insufficient. Oxygen delivery depends on cardiac output, haemoglobin and arterial oxygen saturation. When flow falls, SvO2 falls, lactate rises, urine output falls and organ dysfunction follows. MAP alone does not exclude low flow."
-        },
-        {
-          "type": "heading",
-          "text": "Why it occurs after cardiac surgery"
+          "text": "Cardiopulmonary bypass, cross-clamp ischaemia, cardioplegic arrest, reperfusion injury and pre-existing ventricular disease can produce myocardial stunning. The ventricle may be temporarily weak even when grafts and valves are technically satisfactory. Contractility often worsens over the first several hours after surgery before improving, but this expected pattern must be separated from correctable catastrophe such as tamponade, bleeding, graft failure or valve dysfunction."
         },
         {
           "type": "paragraph",
-          "text": "Bypass, cross-clamp, cardioplegia and reperfusion can cause myocardial stunning. The heart may be oedematous, acidotic, ischaemic or recovering from long bypass time. Risk is higher with pre-existing LV dysfunction, hypertrophy, pulmonary hypertension, renal disease, urgent surgery and prolonged bypass."
-        },
-        {
-          "type": "heading",
-          "text": "Major causes"
-        },
-        {
-          "type": "table",
-          "columns": [
-            "Cause",
-            "Mechanism",
-            "Pattern"
-          ],
-          "rows": [
-            [
-              "Myocardial stunning",
-              "Temporary post-ischaemic contractile impairment",
-              "Low CI after bypass with potential improvement."
-            ],
-            [
-              "Ischaemia",
-              "Graft failure, spasm, embolism or coronary compromise",
-              "ST change, arrhythmia, regional wall-motion abnormality."
-            ],
-            [
-              "Valve dysfunction",
-              "Obstruction, leak, SAM, residual lesion",
-              "Low output after valve surgery; echo diagnosis."
-            ],
-            [
-              "RV failure",
-              "High PVR, RV infarct, hypoxia, acidosis, PEEP",
-              "High CVP, low LV preload, hypotension."
-            ],
-            [
-              "Tamponade",
-              "External compression",
-              "High CVP, narrow pulse pressure, low output."
-            ],
-            [
-              "Hypovolaemia",
-              "Bleeding or vasodilation",
-              "Low filling pressures, high variation, low Hb."
-            ],
-            [
-              "Arrhythmia",
-              "AF, CHB, junctional, VT",
-              "Low output improves with rhythm/pacing correction."
-            ],
-            [
-              "Vasoplegia",
-              "Low SVR after bypass/inflammation",
-              "Low MAP with normal/high CO possible."
-            ]
-          ]
-        },
-        {
-          "type": "heading",
-          "text": "Vasoplegia versus true pump failure"
+          "text": "LCOS is not one disease. LV failure produces pulmonary congestion, low MAP, low cardiac index and high filling pressures. RV failure produces high CVP, low LV filling, hypotension, hepatic/renal congestion and sensitivity to hypoxia, hypercarbia and high PVR. Hypovolaemia produces low filling and low stroke volume. Tamponade produces high filling pressures but impaired filling. Arrhythmias reduce rate efficiency or AV synchrony. Excessive afterload makes a weak ventricle eject poorly."
         },
         {
           "type": "paragraph",
-          "text": "Vasoplegia causes hypotension from low SVR, often with normal or high CI. True pump failure causes low CI, poor stroke volume and high extraction. Mixed shock is common. Giving only inotrope to vasoplegia may worsen tachycardia; giving only vasopressor to pump failure may raise afterload and reduce output."
-        },
-        {
-          "type": "heading",
-          "text": "Clinical and haemodynamic signs"
-        },
-        {
-          "type": "paragraph",
-          "text": "LCOS presents with narrow pulse pressure, cool peripheries, mottling, delayed capillary refill, falling urine output below 0.5 mL/kg/hr, rising lactate above 2 mmol/L, low SvO2 below 60 percent, metabolic acidosis, altered mentation, low CI and increasing vasoactive support."
-        },
-        {
-          "type": "heading",
-          "text": "Treatment principles"
+          "text": "Treatment depends on phenotype. A hypovolaemic patient may need volume/blood. A vasoplegic patient may need vasopressor. LV systolic failure may need inotrope and afterload optimisation. RV failure may need preload optimisation, pulmonary vasodilation, avoidance of hypoxia/hypercarbia/acidosis, inotrope and sometimes mechanical support. Tamponade needs decompression. No single infusion fixes every low output state."
         },
         {
           "type": "steps",
           "items": [
-            "Optimise oxygen delivery by correcting SpO2, Hb, pH, temperature, K, Mg, calcium, pain and shivering.",
-            "Optimise preload using small reassessed boluses, blood products for bleeding, or diuresis only when overloaded.",
-            "Improve contractility with inotropes such as adrenaline, dobutamine, milrinone or levosimendan according to ventricular side, BP, SVR and PVR.",
-            "Use vasopressors such as noradrenaline or vasopressin for vasoplegia and coronary/organ perfusion pressure.",
-            "Reduce afterload only when high afterload is limiting LV ejection and BP can tolerate it.",
-            "Optimise rhythm and pacing, especially AV sequential pacing after valve surgery or with diastolic dysfunction.",
-            "Escalate for IABP, Impella, VA-ECMO or RV support when pharmacological therapy cannot maintain perfusion."
+            "Confirm the low-flow picture using MAP, pulse pressure, urine output, lactate, skin perfusion, mental state if awake, SvO2/ScvO2 and vasoactive trend.",
+            "Check rhythm and pacing. Correct bradycardia, tachyarrhythmia, loss of capture, AV dyssynchrony or heart block.",
+            "Check volume and bleeding: drains, Hb, coagulation, fluid balance, CVP/PAOP trend and echo.",
+            "Differentiate LV failure, RV failure, vasoplegia, hypovolaemia and tamponade using waveform patterns and echo where available.",
+            "Escalate early for inotrope/vasopressor optimisation, echo, surgical review, cath lab, IABP/Impella/ECMO consideration depending on cause and severity."
           ]
         }
       ]
@@ -141,24 +98,28 @@
       "title": "Clinical Pearls",
       "content": [
         {
-          "type": "pearl",
-          "text": "LCOS is not an answer. Ask: rhythm, preload, pump, afterload, oxygen delivery, obstruction or bleeding?"
+          "type": "heading",
+          "text": "Clinical Pearls"
         },
         {
           "type": "pearl",
-          "text": "A normal MAP on high-dose noradrenaline can hide low cardiac index."
+          "text": "Low MAP is not always low cardiac output. Vasoplegia can produce low MAP with warm peripheries and high/normal output; LCOS usually shows poor flow markers."
         },
         {
           "type": "pearl",
-          "text": "AV sequential pacing can be a haemodynamic treatment."
+          "text": "Narrow pulse pressure is often more useful than systolic BP alone when recognising low stroke volume."
         },
         {
           "type": "pearl",
-          "text": "Ventilator settings affect RV failure: hypoxia, hypercarbia, acidosis and high PEEP increase PVR."
+          "text": "Fix rhythm before escalating inotrope blindly. A patient in complete heart block or AF with RVR may improve dramatically when rate and AV synchrony are corrected."
         },
         {
           "type": "warning",
-          "text": "Do not treat all post-bypass hypotension as pump failure; vasoplegia may have normal or high cardiac output."
+          "text": "Do not give repeated fluid boluses to RV failure or tamponade without reassessment. High CVP and falling output can worsen with excessive volume."
+        },
+        {
+          "type": "pearl",
+          "text": "The dangerous trend is rising support with worsening perfusion: more noradrenaline, less urine, higher lactate, cooler skin and narrower arterial waveform."
         }
       ]
     },
@@ -167,62 +128,54 @@
       "content": [
         {
           "type": "heading",
-          "text": "ECG and monitor setup"
+          "text": "Equipment Tie-In"
         },
         {
-          "type": "paragraph",
-          "text": "For low cardiac output syndrome, the ECG monitor must be treated as a clinical device, not wallpaper. Use a lead that shows atrial activity when P waves matter, print strips during events, check electrode contact, and repeat a 12-lead when rhythm diagnosis, ischaemia or conduction disease is uncertain."
-        },
-        {
-          "type": "heading",
-          "text": "Arterial waveform correlation"
-        },
-        {
-          "type": "paragraph",
-          "text": "The arterial line determines whether electrical activity is producing mechanical output. Rate, rhythm and monitor labels are secondary to MAP, pulse pressure, waveform amplitude, lactate, urine output and clinical perfusion."
-        },
-        {
-          "type": "heading",
-          "text": "Defibrillator and pacing readiness"
-        },
-        {
-          "type": "paragraph",
-          "text": "LCOS requires accurate haemodynamic monitoring, pacing optimisation and readiness for mechanical support requires early access to pads, synchronised cardioversion, defibrillation or pacing depending on stability. In post-cardiac surgery patients, also check epicardial wires, pacing box battery, output, sensitivity, capture and sensing."
+          "type": "subheading",
+          "text": "Haemodynamic monitoring"
         },
         {
           "type": "table",
           "columns": [
-            "Equipment",
-            "What to check",
-            "Why it matters"
+            "Device/data",
+            "LCOS value",
+            "Interpretation"
           ],
           "rows": [
             [
-              "ECG monitor",
-              "Lead quality, rhythm strip, alarm limits and artefact.",
-              "Avoids missed rhythm change or false diagnosis."
-            ],
-            [
-              "12-lead ECG",
-              "Conduction, QRS width, ischaemia and baseline comparison.",
-              "Clarifies rhythm and identifies dangerous mimics."
-            ],
-            [
               "Arterial line",
-              "Level, zero, damping, pulse pressure and waveform presence.",
-              "Shows haemodynamic consequence."
+              "MAP, pulse pressure, waveform contour.",
+              "Narrow waveform suggests low stroke volume; MAP alone may hide low flow."
             ],
             [
-              "Defibrillator",
-              "Pads, sync markers, battery and energy pathway.",
-              "Supports immediate cardioversion or defibrillation."
+              "CVP",
+              "Right-sided filling pressure trend.",
+              "Low CVP may suggest hypovolaemia; high CVP may suggest RV failure/tamponade/PEEP effects."
             ],
             [
-              "Pacing box",
-              "Mode, rate, output, sensitivity and capture threshold.",
-              "Essential when rate or AV synchrony fails."
+              "PA catheter",
+              "CI, PA pressures, PAOP, SvO2, SVR/PVR.",
+              "Helps phenotype shock when available."
+            ],
+            [
+              "Echo",
+              "Ventricular function, filling, tamponade, valve function.",
+              "Essential when numbers conflict or deterioration is unexplained."
+            ],
+            [
+              "Blood gas",
+              "Lactate, pH, Hb, electrolytes, oxygenation.",
+              "Tracks oxygen debt and reversible causes."
             ]
           ]
+        },
+        {
+          "type": "subheading",
+          "text": "Mechanical support"
+        },
+        {
+          "type": "paragraph",
+          "text": "IABP may support coronary perfusion and reduce LV afterload in selected LV failure/ischaemia phenotypes. VA ECMO may be required for refractory cardiogenic shock or failure to separate from bypass. Device decisions are senior-led but nurses must recognise the trajectory early."
         }
       ]
     },
@@ -230,69 +183,73 @@
       "title": "Targets and Numbers",
       "content": [
         {
+          "type": "heading",
+          "text": "Targets and Numbers"
+        },
+        {
           "type": "targetTable",
           "columns": [
             "Parameter",
-            "Usual target",
-            "CT-ICU interpretation"
+            "Target / threshold",
+            "Interpretation"
           ],
           "rows": [
             [
               "Cardiac index",
-              "Aim above 2.2 L/min/m2; severe concern below 2.0",
-              "Interpret with lactate, urine output and SvO2."
-            ],
-            [
-              "MAP",
-              "At least 65 mmHg; often 70-80 mmHg or surgical target",
-              "Pressure without flow is insufficient."
-            ],
-            [
-              "Lactate",
-              "Falling trend; concern above 2 and rising; major concern 4 or above",
-              "Failure to clear suggests hypoperfusion."
-            ],
-            [
-              "Urine output",
-              "At least 0.5 mL/kg/hr",
-              "Low output for 2 hours is concerning."
+              "Normal 2.5–4.0 L/min/m2; concern often <2.2 L/min/m2 with hypoperfusion.",
+              "Low CI plus high lactate/oliguria supports LCOS."
             ],
             [
               "SvO2",
-              "Usually 60-80 percent; below 60 concerning",
-              "Suggests high extraction from low delivery."
+              "Typical 60–80%; concern <60% in shock context.",
+              "Low value suggests increased extraction from inadequate delivery."
             ],
             [
               "ScvO2",
-              "Often at least 65-70 percent if used",
-              "Trend more useful than isolated value."
+              "Often ~65–75%; trend useful.",
+              "Lower than baseline with rising lactate suggests inadequate oxygen delivery."
             ],
             [
-              "Ionised calcium",
-              "About 1.10-1.30 mmol/L depending on local range",
-              "Low calcium worsens contractility and vasoplegia."
+              "Lactate",
+              "Should trend down; >2 and rising is concern; ≥4 high concern.",
+              "Persistent rise requires active shock evaluation."
             ],
             [
-              "Temperature",
-              "36-37.5°C",
-              "Hypothermia worsens bradycardia/coagulopathy; fever raises demand."
+              "Urine output",
+              "≥0.5 mL/kg/hr.",
+              "Low output supports poor renal perfusion if catheter patent."
+            ],
+            [
+              "Pulse pressure",
+              "Often >25–30 mmHg in acceptable stroke volume; narrowing is concerning.",
+              "Trend matters more than single value."
+            ],
+            [
+              "MAP",
+              "Usually 65–80 mmHg after routine CABG/valve surgery; often 70–90 mmHg after complex aortic surgery or chronic hypertension if ordered.",
+              "Treat the number in context: lactate, urine output, mentation/sedation, skin perfusion, SvO2/ScvO2, echo and surgical goals."
+            ],
+            [
+              "Urine output",
+              "≥0.5 mL/kg/hr; commonly ≥30 mL/hr in average adult; rising concern if <0.3 mL/kg/hr for 2 hours.",
+              "Low UO with hypotension and narrow pulse pressure suggests low flow until proven otherwise."
+            ],
+            [
+              "Lactate",
+              "Usually expected to trend down; concern if >2 mmol/L and rising; high concern if ≥4 mmol/L or rising despite support.",
+              "After CPB, lactate may be elevated, but persistent rise suggests oxygen debt, shock, bleeding, tamponade, severe vasoplegia or poor cardiac output."
+            ],
+            [
+              "Potassium",
+              "Common rhythm target 4.0–4.5 mmol/L in CTICU unless renal failure/hyperkalaemia risk.",
+              "Low K increases ectopy, AF, VT risk and digoxin sensitivity."
+            ],
+            [
+              "Magnesium",
+              "Common rhythm target ≥0.8 mmol/L; many CTICUs target 1.0 mmol/L in AF/VT risk.",
+              "Low Mg promotes ventricular ectopy and AF; replacement is common post bypass."
             ]
           ]
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 1",
-          "text": "Escalate falling urine output, narrowing pulse pressure, increasing support, low SvO2 or lactate above 2 and rising."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 2",
-          "text": "Escalate urgently for CI below 2.2 with hypoperfusion, suspected RV failure, tamponade, valve dysfunction, ischaemia or arrhythmia-driven LCOS."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 3",
-          "text": "Activate emergency response for profound shock, loss of arterial waveform, rapidly rising lactate with collapse or need for emergency mechanical support/theatre."
         }
       ]
     }
@@ -300,77 +257,39 @@
   "quiz": [
     {
       "difficulty": "Bedside Basics",
-      "question": "What CI commonly defines LCOS with hypoperfusion?",
+      "question": "Which combination best suggests low cardiac output syndrome?",
       "options": [
-        "Below about 2.0-2.2 L/min/m2.",
-        "Above 5.0 L/min/m2.",
-        "Any CVP above 20.",
-        "Any normal lactate."
+        "Cool peripheries, oliguria, rising lactate and narrow pulse pressure",
+        "Warm well-perfused patient with falling lactate",
+        "Normal UO and stable lactate",
+        "Isolated mild hypertension"
       ],
       "answer": 0,
-      "explanation": "LCOS commonly uses CI below 2.0-2.2 with hypoperfusion markers."
+      "explanation": "LCOS is a low-flow state causing tissue hypoperfusion."
     },
     {
       "difficulty": "Clinical Reasoning",
-      "question": "Why can vasoplegia mimic pump failure?",
+      "question": "Why is vasoplegia not the same as LCOS?",
       "options": [
-        "MAP is low despite normal or high CO because SVR is low.",
-        "SVR is always high.",
-        "It only occurs pre-op.",
-        "It cannot occur after bypass."
+        "Vasoplegia may have low SVR with preserved/high output, while LCOS is inadequate flow",
+        "Vasoplegia always has no pulse",
+        "LCOS only occurs outside ICU",
+        "They are identical"
       ],
       "answer": 0,
-      "explanation": "Vasoplegia is low SVR shock and requires vasopressor strategy."
+      "explanation": "Both can cause hypotension but the haemodynamic phenotype and treatment differ."
     },
     {
-      "difficulty": "Clinical Reasoning",
-      "question": "Which pattern suggests tamponade causing LCOS?",
+      "difficulty": "Expert Level",
+      "question": "In suspected RV failure, which factor can worsen pulmonary vascular resistance and RV output?",
       "options": [
-        "High CVP, narrowing pulse pressure, falling MAP and low urine output.",
-        "Bounding pulse and low CVP only.",
-        "Normal pulse pressure and no symptoms.",
-        "Isolated hypokalaemia."
+        "Hypoxia, hypercarbia and acidosis",
+        "Normal oxygenation",
+        "Sinus rhythm",
+        "Corrected potassium"
       ],
       "answer": 0,
-      "explanation": "Tamponade causes high pressure but low effective preload and low output."
-    }
-  ],
-  "references": [
-    {
-      "name": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes",
-      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
-    },
-    {
-      "name": "2023 ESC Guidelines for the management of acute coronary syndromes",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/"
-    },
-    {
-      "name": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
-    },
-    {
-      "name": "AHA 2025 Adult Tachycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
-    },
-    {
-      "name": "ANZCOR Guideline 11.2 Protocols for Adult Advanced Life Support",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-2-protocols-for-adult-advanced-life-support"
-    },
-    {
-      "name": "ANZCOR Guideline 11.9 Managing Acute Dysrhythmias",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias"
-    },
-    {
-      "name": "2024 ESC Guidelines for the management of atrial fibrillation",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation"
-    },
-    {
-      "name": "LITFL ECG Library",
-      "url": "https://litfl.com/ecg-library/"
-    },
-    {
-      "name": "Low cardiac output syndrome after cardiac surgery review",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9558721/"
+      "explanation": "Hypoxia, hypercarbia and acidosis increase PVR and can worsen RV failure."
     }
   ]
 }

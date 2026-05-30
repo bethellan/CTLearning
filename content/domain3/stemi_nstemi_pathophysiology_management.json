@@ -1,45 +1,70 @@
 {
-  "id": "domain3_stemi_nstemi_pathophysiology_management",
+  "id": "stemi_nstemi_pathophysiology_management",
   "domain": 3,
   "domainTitle": "Cardiac Conditions and Rhythms",
-  "title": "STEMI and NSTEMI Pathophysiology and Management",
+  "title": "STEMI and NSTEMI: Pathophysiology, ECG Changes and CTICU Management",
   "file": "stemi_nstemi_pathophysiology_management.json",
   "sections": {
     "abridged": {
       "title": "Abridged Snapshot",
       "content": [
         {
-          "type": "keyterm",
-          "term": "Acute coronary syndrome",
-          "definition": "Acute coronary syndrome is acute myocardial ischaemia from reduced coronary oxygen supply. It includes unstable angina, NSTEMI and STEMI, and in CTICU it may present as pain, dyspnoea, new ST change, arrhythmia, low cardiac output, rising lactate or unexplained haemodynamic collapse."
+          "type": "heading",
+          "text": "Bedside recognition of ACS in the CTICU patient"
+        },
+        {
+          "type": "paragraph",
+          "text": "STEMI and NSTEMI are both acute coronary syndromes caused by abrupt reduction in coronary blood flow. In the cardiothoracic ICU the context is wider than an emergency department presentation: the patient may be post-CABG with graft failure, post-valve with coronary obstruction, post-aortic surgery with coronary malperfusion, or a medical cardiac ICU patient awaiting intervention. The bedside priority is to recognise myocardial ischaemia early, connect ECG changes to haemodynamic deterioration, and escalate before low cardiac output becomes established."
         },
         {
           "type": "keyterm",
           "term": "STEMI",
-          "definition": "STEMI is acute myocardial infarction with persistent ST elevation or a STEMI-equivalent pattern, usually reflecting acute coronary occlusion and transmural injury. It is a reperfusion emergency."
+          "definition": "ST-elevation myocardial infarction, usually caused by acute coronary artery occlusion producing transmural ischaemia and ST elevation in anatomically related ECG leads."
         },
         {
           "type": "keyterm",
           "term": "NSTEMI",
-          "definition": "NSTEMI is myocardial infarction with rise or fall in troponin above the assay 99th percentile in a clinical setting of ischaemia, but without persistent diagnostic ST elevation."
+          "definition": "Non-ST-elevation myocardial infarction, usually caused by subtotal coronary occlusion, plaque rupture with thrombus, supply-demand mismatch, or microvascular impairment producing troponin rise without persistent ST elevation."
         },
         {
-          "type": "paragraph",
-          "text": "In cardiothoracic ICU, ACS must be interpreted through the operation. After CABG, think graft occlusion, graft spasm, distal target failure, incomplete revascularisation, anaemia, hypotension and demand ischaemia. After valve, TAVI or aortic surgery, think coronary ostial compromise, embolism, air, conduction injury, prosthetic dysfunction, myocardial stunning and low cardiac output syndrome."
+          "type": "keyterm",
+          "term": "Reciprocal change",
+          "definition": "ST depression in electrically opposite ECG leads. It strengthens the diagnosis of acute STEMI and can help localise the infarct territory."
         },
         {
-          "type": "steps",
-          "items": [
-            "Acquire a clean 12-lead ECG immediately and repeat it for pain, dyspnoea, hypotension, arrhythmia, rising lactate or vasoactive escalation.",
-            "Add posterior leads V7 to V9 for suspicious V1 to V3 ST depression, and right-sided leads V3R to V4R for inferior MI with hypotension, raised CVP or clear lungs.",
-            "Assess arterial waveform, MAP, pulse pressure, cardiac index if available, urine output, lactate, ABG, electrolytes, Hb, troponin trend and vasoactive dose trend.",
-            "Correct oxygen supply-demand threats: hypoxaemia, anaemia, hypotension, tachyarrhythmia, bradyarrhythmia, fever, shivering, pain, agitation and high work of breathing.",
-            "Escalate STEMI, STEMI-equivalent, refractory ischaemia, shock, malignant arrhythmia, complete heart block or suspected graft/coronary complication immediately."
+          "type": "table",
+          "columns": [
+            "Finding",
+            "Bedside meaning",
+            "Immediate action"
+          ],
+          "rows": [
+            [
+              "New ST elevation in contiguous leads",
+              "Acute transmural injury until proven otherwise.",
+              "Repeat 12-lead, compare with baseline, check posterior/right-sided leads if indicated, notify medical team urgently and prepare for reperfusion pathway."
+            ],
+            [
+              "ST depression with chest pain, hypotension or new arrhythmia",
+              "NSTEMI, posterior STEMI, left main/proximal LAD ischaemia, or supply-demand mismatch.",
+              "Escalate urgently, obtain serial ECG/troponin, optimise oxygen delivery, treat hypotension/anaemia/arrhythmia, anticipate cath lab discussion."
+            ],
+            [
+              "New LBBB or paced rhythm with shock/ischaemic symptoms",
+              "May obscure STEMI pattern.",
+              "Use modified criteria if trained, compare old ECG, look for concordant ST changes, escalate rather than dismiss."
+            ],
+            [
+              "Post-CABG sudden hypotension, ventricular arrhythmia, rising lactate",
+              "Graft problem, perioperative MI, tamponade, bleeding, or low cardiac output syndrome.",
+              "Call senior help, check ECG/echo/labs/drains, prepare vasoactive support and possible urgent theatre/cath lab."
+            ]
           ]
         },
         {
-          "type": "warning",
-          "text": "Do not wait for troponin if the ECG and physiology suggest STEMI or STEMI-equivalent. In a sedated post-cardiac surgery patient, ECG change, ventricular ectopy, rising lactate or low output may be the only chest pain equivalent."
+          "type": "escalation",
+          "tier": "Tier 1",
+          "text": "Escalate immediately for persistent chest pain, new ST elevation, haemodynamic collapse, sustained VT/VF, MAP <60 mmHg despite support, new severe LV dysfunction on echo, or suspected graft/coronary complication after cardiac surgery."
         }
       ]
     },
@@ -48,154 +73,80 @@
       "content": [
         {
           "type": "heading",
-          "text": "Acute coronary syndrome overview"
+          "text": "Mechanism: why STEMI and NSTEMI behave differently"
         },
         {
           "type": "paragraph",
-          "text": "ACS is a spectrum of acute myocardial ischaemia. The myocardium normally extracts a high proportion of delivered oxygen, so it has limited extraction reserve. When coronary flow falls or myocardial demand rises, ischaemia first impairs relaxation, then systolic contraction, then electrical stability. This is why ACS can present as pulmonary oedema, hypotension, AV block, VT, VF, rising lactate or cardiac arrest before a classic chest pain story is obtained."
-        },
-        {
-          "type": "heading",
-          "text": "Coronary plaque rupture and thrombosis"
+          "text": "Myocardial oxygen balance depends on coronary blood flow, arterial oxygen content, haemoglobin, diastolic perfusion pressure, heart rate, ventricular wall tension and metabolic demand. A coronary plaque rupture with thrombosis may fully occlude the artery, producing STEMI, or partially occlude it, producing NSTEMI. In CTICU, ischaemia may also occur without plaque rupture: anaemia, hypotension, tachyarrhythmia, hypoxaemia, coronary spasm, graft failure, air embolism, poor cardioplegia protection, coronary ostial obstruction after valve/aortic root surgery, or severe LV hypertrophy can all create oxygen supply-demand mismatch."
         },
         {
           "type": "paragraph",
-          "text": "Type 1 MI usually begins with plaque rupture or erosion. Platelets adhere and activate, thrombin generates fibrin, and a thrombus partially or completely occludes the coronary lumen. Distal embolisation can obstruct microcirculation even after the epicardial vessel is opened. Full occlusion more often produces STEMI; subtotal, transient or collateralised occlusion may produce NSTEMI."
-        },
-        {
-          "type": "heading",
-          "text": "Supply-demand mismatch"
+          "text": "ST elevation reflects an injury current from myocardium undergoing acute transmural ischaemia. It is usually measured at the J point. In practical bedside terms, ST elevation in two anatomically contiguous leads is more meaningful than an isolated lead change. Inferior STEMI appears in II, III and aVF; anterior STEMI in V1–V4; lateral STEMI in I, aVL, V5–V6; posterior STEMI may present as ST depression V1–V3 with tall R waves and requires posterior leads V7–V9."
         },
         {
           "type": "paragraph",
-          "text": "Type 2 MI occurs when myocardial oxygen demand exceeds supply without plaque rupture as the primary event. CTICU examples include Hb 60-80 g/L with bleeding, vasoplegia with MAP below target, rapid AF at 150/min, sustained bradycardia at 35/min, hypoxaemia, hypercarbia, acidosis, sepsis, fever, shivering, severe hypertension, high catecholamine doses and low cardiac output syndrome. Correct the cause while ensuring acute coronary occlusion is not missed."
+          "text": "NSTEMI is a clinical diagnosis requiring evidence of myocardial injury, usually troponin rise/fall, with compatible symptoms, ECG change, imaging evidence or angiographic findings. The CTICU nurse must not wait for troponin if the patient is unstable. Dynamic ST depression, T-wave inversion, new arrhythmia, unexplained hypotension, rising lactate, falling SvO2/ScvO2, pulmonary oedema or escalating inotrope need can indicate active ischaemia before biomarkers peak."
         },
         {
-          "type": "heading",
-          "text": "STEMI pathophysiology"
-        },
-        {
-          "type": "paragraph",
-          "text": "STEMI usually reflects acute epicardial coronary occlusion. The injured myocardium develops voltage gradients between ischaemic and non-ischaemic tissue, producing ST elevation in leads facing the injured wall. Necrosis begins subendocardially and progresses outward if reperfusion does not occur. Primary PCI is preferred when timely, generally when reperfusion can occur within 120 minutes from STEMI diagnosis."
-        },
-        {
-          "type": "heading",
-          "text": "NSTEMI pathophysiology"
-        },
-        {
-          "type": "paragraph",
-          "text": "NSTEMI usually reflects subendocardial infarction from partial occlusion, transient occlusion, distal embolisation or severe supply-demand stress. The ECG may show ST depression, T-wave inversion, transient ST elevation, pseudo-normalisation or no diagnostic abnormality. A normal initial ECG does not exclude NSTEMI, particularly early or with posterior/lateral ischaemia."
-        },
-        {
-          "type": "heading",
-          "text": "ECG changes in STEMI and NSTEMI"
+          "type": "subheading",
+          "text": "ECG territories and complications"
         },
         {
           "type": "table",
           "columns": [
-            "Finding",
-            "Meaning",
-            "CTICU action"
+            "Territory",
+            "Typical leads",
+            "High-risk complications"
           ],
           "rows": [
             [
-              "ST elevation in contiguous leads",
-              "Transmural injury or occlusion MI until proven otherwise.",
-              "Activate reperfusion/cardiology/surgical pathway."
+              "Inferior / RCA",
+              "II, III, aVF; reciprocal I/aVL.",
+              "Bradycardia, AV block, RV infarction, hypotension worsened by nitrates or hypovolaemia."
             ],
             [
-              "ST depression V1-V3",
-              "Posterior MI mirror pattern if horizontal with ischaemic context.",
-              "Record V7-V9 and escalate."
+              "Anterior / LAD",
+              "V1–V4, sometimes I/aVL.",
+              "Large LV injury, cardiogenic shock, VT/VF, LV aneurysm, mural thrombus."
             ],
             [
-              "Inferior ST elevation with III greater than II",
-              "RCA territory and possible RV infarction.",
-              "Record V3R/V4R; avoid preload reduction."
+              "Lateral / circumflex/diagonal",
+              "I, aVL, V5–V6.",
+              "May be subtle; can cause LV dysfunction and mitral regurgitation if papillary muscle involved."
             ],
             [
-              "Diffuse ST depression with aVR elevation",
-              "Left main, proximal LAD or severe multivessel ischaemia pattern.",
-              "Treat as high-risk ACS with shock potential."
+              "Posterior",
+              "ST depression V1–V3; ST elevation V7–V9.",
+              "Often missed; may be circumflex occlusion; treat as STEMI equivalent when criteria met."
             ],
             [
-              "Dynamic ST depression or T-wave inversion",
-              "NSTE-ACS or demand ischaemia depending on context.",
-              "Repeat ECGs and correlate with troponin/haemodynamics."
+              "Left main / proximal LAD pattern",
+              "Diffuse ST depression with ST elevation aVR/V1.",
+              "Severe global subendocardial ischaemia; high shock/arrest risk."
             ]
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Common STEMI thresholds are ST elevation in V2-V3 of at least 2.5 mm in men under 40, 2.0 mm in men 40 or older, 1.5 mm in women, or at least 1.0 mm in other contiguous leads. These thresholds are guides, not substitutes for clinical judgement in paced rhythm, LBBB, LVH, posterior MI or post-operative patients."
-        },
-        {
-          "type": "heading",
-          "text": "Reciprocal ECG changes"
+          "type": "subheading",
+          "text": "Post-cardiac surgery ACS pattern"
         },
         {
           "type": "paragraph",
-          "text": "Reciprocal ST depression is ST depression in leads electrically opposite the infarct. Inferior STEMI often depresses I and aVL. Posterior MI appears as anterior ST depression in V1 to V3. Reciprocal change strengthens the diagnosis of acute occlusion and helps distinguish true infarction from benign ST elevation."
-        },
-        {
-          "type": "heading",
-          "text": "Posterior MI recognition"
+          "text": "After CABG, the classic complaint of crushing chest pain may be absent because the patient is sedated, ventilated, analgesed, delirious or neuropathic. Ischaemia may present as new ventricular ectopy, increasing pacing requirement, low cardiac output, rising lactate, new regional wall motion abnormality, difficulty weaning from bypass, pulmonary oedema, or sudden vasopressor/inotrope escalation. A graft occlusion may cause acute regional infarction. An internal mammary graft problem may produce anterior ischaemia; vein graft thrombosis can produce territory-specific STEMI/NSTEMI."
         },
         {
           "type": "paragraph",
-          "text": "Posterior MI is suspected with horizontal ST depression in V1 to V3, tall R waves, upright T waves and an ischaemic clinical picture. Place V7 at the posterior axillary line, V8 below the scapular tip and V9 paraspinal, all level with V6. ST elevation of 0.5 mm or more in V7-V9 is significant in context; 1.0 mm or more is more specific."
-        },
-        {
-          "type": "heading",
-          "text": "Right ventricular MI recognition"
-        },
-        {
-          "type": "paragraph",
-          "text": "RV infarction usually follows proximal RCA occlusion. The pattern is inferior MI with hypotension, raised CVP/JVP, clear lungs and marked preload sensitivity. Confirm with V3R/V4R, especially V4R. Avoid nitrates, aggressive diuresis and excessive PEEP until RV preload and function are assessed."
-        },
-        {
-          "type": "heading",
-          "text": "Troponin interpretation and kinetics"
-        },
-        {
-          "type": "paragraph",
-          "text": "Troponin identifies myocardial injury, not the mechanism. Acute MI requires a rise or fall above the 99th percentile plus evidence of ischaemia. After cardiac surgery, troponin is commonly elevated because of surgical manipulation, cardioplegia, cross-clamp and reperfusion. The concerning pattern is dynamic rise with ECG change, new low output, ventricular arrhythmia or new regional wall-motion abnormality."
-        },
-        {
-          "type": "heading",
-          "text": "Immediate management priorities"
+          "text": "After aortic valve/root surgery, coronary ostial compromise is rare but catastrophic. A patient with sudden LV failure, ventricular arrhythmia, new ST elevation or inability to separate from bypass needs immediate surgical/cardiology review. After TAVI, coronary obstruction is uncommon but time-critical and often presents with abrupt hypotension, ST change and ventricular dysfunction."
         },
         {
           "type": "steps",
           "items": [
-            "Call senior help early for STEMI, high-risk NSTEMI, shock, malignant arrhythmia or post-operative graft/coronary complication.",
-            "Use oxygen for hypoxaemia, shock, pulmonary oedema or high work of breathing; a common target is SpO2 92-96 percent unless a different target is prescribed.",
-            "Avoid nitrates in hypotension, suspected RV infarction, severe aortic stenosis, marked preload dependence or recent phosphodiesterase-5 inhibitor use.",
-            "Prepare antiplatelet and anticoagulant therapy after checking operation type, chest drain output, coagulation, Hb trend, renal function and planned procedural strategy.",
-            "Prepare for PCI, theatre, echo or mechanical support if the patient has occlusion MI, cardiogenic shock or suspected graft/coronary complication."
+            "Acquire a high-quality 12-lead ECG immediately and compare it with the pre-op or baseline tracing.",
+            "Check the arterial waveform, MAP, rhythm strip, pacing mode, oxygenation, haemoglobin, electrolytes, lactate, temperature, chest drain output and vasoactive infusion doses.",
+            "Call for senior review early if ECG changes are dynamic or associated with hypotension, arrhythmia, pulmonary oedema or rising lactate.",
+            "Prepare for serial ECGs and troponin testing, but do not delay escalation in an unstable patient.",
+            "Anticipate reperfusion decisions, anticoagulation/antiplatelet decisions, echo, cath lab, return to theatre, or mechanical support depending on surgical context."
           ]
-        },
-        {
-          "type": "heading",
-          "text": "Post-PCI nursing priorities"
-        },
-        {
-          "type": "steps",
-          "items": [
-            "Receive handover covering culprit vessel, stent type, residual disease, access site, anticoagulant dose and antiplatelet plan.",
-            "Assess radial or femoral access for bleeding, haematoma, limb ischaemia, pseudoaneurysm or retroperitoneal bleeding signs.",
-            "Trend ECG, pain, rhythm, MAP, pulse pressure, lactate, urine output and oxygenation because reperfusion does not guarantee stable myocardium.",
-            "Watch for reperfusion arrhythmias including accelerated idioventricular rhythm, VT, VF, bradycardia and AV block.",
-            "Escalate recurrent pain, recurrent ST elevation, new ST depression, shock or pulmonary oedema as possible acute closure, stent thrombosis, no-reflow, bleeding or mechanical complication."
-          ]
-        },
-        {
-          "type": "heading",
-          "text": "Haemodynamic consequences of MI"
-        },
-        {
-          "type": "paragraph",
-          "text": "LV infarction reduces contractility, stroke volume and cardiac output, raises LV end-diastolic pressure and can cause pulmonary oedema. RV infarction raises right-sided pressures but reduces pulmonary flow and LV preload. Ischaemia destabilises conduction and repolarisation, producing AF, VT, VF, sinus node dysfunction and AV block."
         }
       ]
     },
@@ -203,24 +154,28 @@
       "title": "Clinical Pearls",
       "content": [
         {
-          "type": "pearl",
-          "text": "Posterior MI is easy to miss because the standard 12-lead sees it as a mirror image. Suspicious V1 to V3 ST depression needs posterior leads."
+          "type": "heading",
+          "text": "Clinical Pearls"
         },
         {
           "type": "pearl",
-          "text": "Inferior MI with hypotension and clear lungs is RV infarction until proven otherwise. GTN and aggressive diuresis can cause abrupt collapse."
+          "text": "A post-op cardiac patient can infarct without telling you about chest pain. Treat unexplained new arrhythmia, low cardiac output, rising lactate, or new ST change as ischaemia until you have actively excluded it."
         },
         {
           "type": "pearl",
-          "text": "After cardiac surgery, troponin is expected to be elevated. Dynamic rise plus ECG, echo or haemodynamic deterioration is the dangerous pattern."
+          "text": "Inferior STEMI plus hypotension should make you think of RV infarction. These patients may be preload dependent, can deteriorate with nitrates, and often dislike tachycardia because RV filling and coronary perfusion are compromised."
         },
         {
           "type": "pearl",
-          "text": "A sedated patient cannot report chest pain. Rising lactate, new ectopy or low output may be the pain equivalent."
+          "text": "Posterior infarction is commonly hidden. Horizontal ST depression in V1–V3 with tall R waves is not automatically 'anterior ischaemia'; request posterior leads V7–V9 if the clinical story fits."
         },
         {
           "type": "warning",
-          "text": "Do not label post-operative ST change as demand ischaemia until graft/coronary occlusion, valve complication and tamponade have been considered."
+          "text": "Do not dismiss ST changes because the patient has pacing spikes, bundle branch block, post-operative inflammation or baseline abnormalities. Compare with previous ECGs and escalate if the patient is unstable."
+        },
+        {
+          "type": "pearl",
+          "text": "After CABG, a new regional wall motion abnormality on echo plus rising lactate and escalating inotrope is often more clinically important than waiting for a troponin, because troponin is commonly elevated after cardiac surgery."
         }
       ]
     },
@@ -229,60 +184,60 @@
       "content": [
         {
           "type": "heading",
-          "text": "ECG monitor and 12-lead acquisition"
+          "text": "Equipment Tie-In"
+        },
+        {
+          "type": "subheading",
+          "text": "12-lead ECG acquisition"
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Expose the chest properly and place limb and precordial leads accurately. Misplacement of V1/V2 too high can mimic anterior infarction or create false poor R-wave progression.",
+            "Use clean, dry skin and replace poor electrodes. Diaphoresis, cooling blankets, tremor, pacing wires and movement can create artefact that resembles ST change.",
+            "Label posterior and right-sided ECGs clearly. V7 is posterior axillary line, V8 below scapular tip, V9 paraspinal; right-sided V4R is useful for RV infarction.",
+            "Save or print the ECG for comparison because dynamic change over minutes to hours matters more than one isolated tracing."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Monitor ST trends"
         },
         {
           "type": "paragraph",
-          "text": "Continuous ECG monitoring detects rhythm instability, but a diagnostic 12-lead localises ischaemia. Use correct V1 and V2 placement in the fourth intercostal spaces, avoid high placement, and label posterior or right-sided leads clearly."
+          "text": "Bedside monitors may trend ST deviation, but monitor-derived ST alarms are only as good as lead placement, filtering and baseline selection. Use monitor trends as an early warning, not a definitive diagnosis. Confirm with diagnostic 12-lead ECG whenever possible."
         },
         {
-          "type": "heading",
-          "text": "Defibrillator and pacing relevance"
-        },
-        {
-          "type": "paragraph",
-          "text": "ACS can deteriorate into VT, VF or high-grade block. Apply pads early for unstable ACS, recurrent VT, frequent ventricular ectopy, complete heart block or severe bradycardia. If epicardial wires are present, check mode, output, sensitivity, battery, connection and mechanical capture."
-        },
-        {
-          "type": "heading",
-          "text": "Haemodynamic monitor correlation"
-        },
-        {
-          "type": "paragraph",
-          "text": "The arterial line shows whether electrical activity produces flow. A pressor-supported MAP without lactate clearance, urine output or pulse pressure is not reassuring. If PA catheter monitoring is present, correlate ECG changes with CI, CVP, PAOP, SVR, PVR and SvO2."
+          "type": "subheading",
+          "text": "Nurse-technician checks"
         },
         {
           "type": "table",
           "columns": [
-            "Device",
-            "What to check",
-            "Why it matters"
+            "Problem",
+            "Effect",
+            "Fix"
           ],
           "rows": [
             [
-              "ECG monitor",
-              "Lead quality, ST trend, arrhythmia alarms and paced-beat detection.",
-              "Prevents missed arrhythmia and false ST alarms."
+              "Loose ECG electrode",
+              "False ST shift, rhythm misclassification, missed arrhythmia.",
+              "Replace electrodes, prep skin, reduce cable tension."
             ],
             [
-              "12-lead ECG",
-              "Correct placement plus posterior/right-sided leads when indicated.",
-              "Identifies territory and STEMI equivalents."
+              "Wrong V lead position",
+              "False infarct pattern or missed territory.",
+              "Reposition using anatomical landmarks."
             ],
             [
-              "Defibrillator",
-              "Pad contact, sync function and energy selection.",
-              "VT/VF or unstable tachyarrhythmia requires immediate shock capability."
+              "Pacing artefact",
+              "ST segment hard to interpret.",
+              "Print ECG with pacing visible; compare native beats if present; ask for expert review."
             ],
             [
-              "Pacing box",
-              "Mode, rate, output, sensitivity, threshold and wire connection.",
-              "Inferior MI and valve surgery can cause bradycardia or heart block."
-            ],
-            [
-              "Arterial line",
-              "Level, zero, damping, pulse pressure and waveform morphology.",
-              "Shows mechanical consequence of ischaemia and rhythm."
+              "Electrical interference",
+              "Noisy baseline obscures ST segment.",
+              "Check warming devices, beds, pumps, cables and electrode quality."
             ]
           ]
         }
@@ -292,79 +247,68 @@
       "title": "Targets and Numbers",
       "content": [
         {
+          "type": "heading",
+          "text": "Targets and Numbers"
+        },
+        {
           "type": "targetTable",
           "columns": [
             "Parameter",
-            "Usual target",
+            "Target / threshold",
             "CT-ICU interpretation"
           ],
           "rows": [
             [
-              "12-lead ECG",
-              "Immediately, ideally within 10 minutes",
-              "Repeat with pain, instability, arrhythmia or haemodynamic change."
+              "ST elevation",
+              "Classically ≥1 mm in two contiguous limb leads or ≥2 mm in contiguous precordial leads, with sex/age-specific V2–V3 thresholds used in formal criteria.",
+              "In an unstable CTICU patient, dynamic contiguous ST elevation is an emergency even if exact criteria are difficult due to pacing or baseline abnormality."
             ],
             [
-              "V2-V3 STEMI threshold",
-              "Men under 40 at least 2.5 mm; men 40 or older at least 2.0 mm; women at least 1.5 mm",
-              "Use with contiguous leads and context."
+              "Posterior leads V7–V9",
+              "≥0.5 mm ST elevation is often significant; ≥1 mm has higher specificity.",
+              "Use when V1–V3 ST depression suggests posterior STEMI."
             ],
             [
-              "Other lead STEMI threshold",
-              "At least 1.0 mm in two contiguous leads",
-              "Consider LVH, LBBB, pacing and prior ECG."
+              "Troponin",
+              "Rise/fall above 99th percentile supports myocardial injury; post-cardiac surgery interpretation requires context.",
+              "Do not use isolated post-op troponin elevation alone to diagnose graft failure; correlate with ECG, echo and haemodynamics."
             ],
             [
-              "Posterior STEMI threshold",
-              "At least 0.5 mm in V7-V9; 1.0 mm is more specific",
-              "Record posterior leads when V1-V3 show suspicious depression."
+              "Heart rate in ischaemia",
+              "Avoid marked tachycardia; commonly aim 60–90/min if perfusion allows.",
+              "Tachycardia shortens diastole and reduces coronary perfusion time."
             ],
             [
-              "Primary PCI",
-              "Preferred if reperfusion can occur within 120 minutes from diagnosis",
-              "Do not wait for biomarkers if STEMI is diagnostic."
-            ],
-            [
-              "SpO2",
-              "Usually 92-96 percent",
-              "Treat hypoxaemia, shock and pulmonary oedema; avoid unnecessary hyperoxia."
+              "Haemoglobin",
+              "Often maintain ≥80 g/L in stable ICU; higher thresholds may be chosen in active ischaemia/shock depending on senior plan.",
+              "Anaemia reduces oxygen delivery and may worsen supply-demand mismatch."
             ],
             [
               "MAP",
-              "At least 65 mmHg; often 70-80 mmHg after cardiac surgery depending on target",
-              "Interpret with lactate, urine output and cardiac output."
+              "Usually 65–80 mmHg after routine CABG/valve surgery; often 70–90 mmHg after complex aortic surgery or chronic hypertension if ordered.",
+              "Treat the number in context: lactate, urine output, mentation/sedation, skin perfusion, SvO2/ScvO2, echo and surgical goals."
             ],
             [
-              "Cardiac index",
-              "Aim above 2.2 L/min/m2",
-              "Below 2.0-2.2 with hypoperfusion suggests low-output state."
+              "Urine output",
+              "≥0.5 mL/kg/hr; commonly ≥30 mL/hr in average adult; rising concern if <0.3 mL/kg/hr for 2 hours.",
+              "Low UO with hypotension and narrow pulse pressure suggests low flow until proven otherwise."
+            ],
+            [
+              "Lactate",
+              "Usually expected to trend down; concern if >2 mmol/L and rising; high concern if ≥4 mmol/L or rising despite support.",
+              "After CPB, lactate may be elevated, but persistent rise suggests oxygen debt, shock, bleeding, tamponade, severe vasoplegia or poor cardiac output."
             ],
             [
               "Potassium",
-              "4.0-4.5 mmol/L",
-              "Reduces AF, VT and VF risk."
+              "Common rhythm target 4.0–4.5 mmol/L in CTICU unless renal failure/hyperkalaemia risk.",
+              "Low K increases ectopy, AF, VT risk and digoxin sensitivity."
             ],
             [
               "Magnesium",
-              "At least 1.0 mmol/L",
-              "Reduces atrial and ventricular irritability."
+              "Common rhythm target ≥0.8 mmol/L; many CTICUs target 1.0 mmol/L in AF/VT risk.",
+              "Low Mg promotes ventricular ectopy and AF; replacement is common post bypass."
             ]
           ]
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 1",
-          "text": "Escalate new chest pain, dynamic ST/T change, new arrhythmia, rising lactate, falling urine output or increasing vasoactive support."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 2",
-          "text": "Escalate urgently for STEMI, posterior/RV MI pattern, high-risk NSTEMI, post-CABG ischaemia, new low cardiac output or recurrent ischaemia after PCI."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 3",
-          "text": "Activate emergency response for VF, pulseless VT, unstable VT, cardiogenic shock, complete heart block with shock, suspected rupture, tamponade, acute MR or VSD."
         }
       ]
     }
@@ -372,85 +316,39 @@
   "quiz": [
     {
       "difficulty": "Bedside Basics",
-      "question": "A post-CABG patient develops new ST elevation, rising lactate and escalating noradrenaline. What is the safest interpretation?",
+      "question": "A ventilated post-CABG patient develops new ST elevation in II, III and aVF with hypotension. What is the safest interpretation?",
       "options": [
-        "Possible graft or coronary complication requiring immediate escalation.",
-        "Expected post-bypass troponin leak only.",
-        "Benign pericarditis until morning review.",
-        "Artefact unless the patient reports pain."
+        "Inferior ischaemia until proven otherwise",
+        "Normal post-operative pericarditis only",
+        "Electrode artefact only; no action unless chest pain is reported",
+        "Expected after bypass and not urgent"
       ],
       "answer": 0,
-      "explanation": "New ST elevation with low-output physiology after CABG may indicate graft occlusion, spasm, thrombosis or peri-operative MI."
-    },
-    {
-      "difficulty": "Bedside Basics",
-      "question": "Which ECG pattern should trigger posterior leads?",
-      "options": [
-        "Horizontal ST depression in V1-V3 with ischaemic context.",
-        "Isolated first-degree AV block.",
-        "Sinus bradycardia after dexmedetomidine.",
-        "Low-voltage QRS only."
-      ],
-      "answer": 0,
-      "explanation": "Posterior MI often appears as reciprocal anterior ST depression in V1-V3."
+      "explanation": "Contiguous inferior ST elevation with hypotension after CABG may indicate acute coronary/graft complication or RV involvement. Sedated patients may not report chest pain. Escalation, repeat ECG and haemodynamic assessment are urgent."
     },
     {
       "difficulty": "Clinical Reasoning",
-      "question": "Why can GTN be dangerous in inferior STEMI with hypotension and clear lungs?",
+      "question": "Horizontal ST depression in V1–V3 with tall R waves should prompt consideration of which diagnosis?",
       "options": [
-        "It may collapse preload in RV infarction.",
-        "It always causes VF.",
-        "It prevents PCI.",
-        "It lowers troponin release."
+        "Posterior myocardial infarction",
+        "Hyperkalaemia only",
+        "First-degree AV block",
+        "Atrial flutter"
       ],
       "answer": 0,
-      "explanation": "RV infarction is preload dependent; nitrates reduce venous return and can collapse MAP."
+      "explanation": "Posterior MI can appear as reciprocal anterior ST depression in V1–V3 with tall R waves. Posterior leads V7–V9 should be considered."
     },
     {
       "difficulty": "Expert Level",
-      "question": "What makes post-operative troponin concerning?",
+      "question": "After aortic root surgery, abrupt hypotension, ventricular arrhythmia and new LV dysfunction should trigger concern for:",
       "options": [
-        "Dynamic rise with new ECG change, low output, arrhythmia or new regional wall-motion abnormality.",
-        "Any detectable value after surgery.",
-        "One unchanged elevated value after bypass.",
-        "Troponin drawn before ECG."
+        "Coronary ostial compromise or acute coronary malperfusion",
+        "Benign reperfusion warmth",
+        "Normal analgesic effect",
+        "Isolated cuff error"
       ],
       "answer": 0,
-      "explanation": "Troponin commonly rises after surgery; the dangerous pattern is dynamic plus clinical, ECG, echo or haemodynamic deterioration."
-    }
-  ],
-  "references": [
-    {
-      "name": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes",
-      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
-    },
-    {
-      "name": "2023 ESC Guidelines for the management of acute coronary syndromes",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/"
-    },
-    {
-      "name": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
-    },
-    {
-      "name": "AHA 2025 Adult Tachycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
-    },
-    {
-      "name": "ANZCOR Guideline 11.2 Protocols for Adult Advanced Life Support",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-2-protocols-for-adult-advanced-life-support"
-    },
-    {
-      "name": "ANZCOR Guideline 11.9 Managing Acute Dysrhythmias",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias"
-    },
-    {
-      "name": "2024 ESC Guidelines for the management of atrial fibrillation",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation"
-    },
-    {
-      "name": "LITFL ECG Library",
-      "url": "https://litfl.com/ecg-library/"
+      "explanation": "Aortic root and valve procedures can rarely compromise coronary flow. Sudden shock, ventricular arrhythmia and LV dysfunction are time-critical and require urgent senior/surgical review."
     }
   ]
 }

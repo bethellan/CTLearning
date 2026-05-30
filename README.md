@@ -28,3 +28,8 @@ versions/
 ```
 
 When you add new topic JSON files, place them in the domain folder and add one object to that domain's `index.json` files array.
+
+
+## v010 domain3_manifest_loader
+
+This build adds Domain 3 to the external manifest loader. The app now reads `content/domain3/index.json` and then loads all JSON topic files listed in that manifest.

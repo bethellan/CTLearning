@@ -5,11 +5,7 @@
   "files": [
     {
       "file": "stemi_nstemi_pathophysiology_management.json",
-      "title": "STEMI and NSTEMI Pathophysiology and Management"
-    },
-    {
-      "file": "post_mi_complications_and_nursing_priorities.json",
-      "title": "Post-MI Complications and Nursing Priorities"
+      "title": "STEMI and NSTEMI: Pathophysiology, ECG Changes and CTICU Management"
     },
     {
       "file": "sinus_bradycardia_and_tachycardia.json",
@@ -17,7 +13,7 @@
     },
     {
       "file": "new_onset_postoperative_atrial_fibrillation.json",
-      "title": "New-Onset Postoperative Atrial Fibrillation"
+      "title": "New-Onset Post-operative Atrial Fibrillation"
     },
     {
       "file": "supraventricular_tachycardia.json",
@@ -29,7 +25,7 @@
     },
     {
       "file": "atrioventricular_blocks.json",
-      "title": "Atrioventricular Blocks"
+      "title": "AV Blocks: First-Degree, Mobitz I, Mobitz II and Complete Heart Block"
     },
     {
       "file": "junctional_and_paced_rhythms.json",
@@ -37,11 +33,15 @@
     },
     {
       "file": "cardiac_tamponade.json",
-      "title": "Cardiac Tamponade"
+      "title": "Cardiac Tamponade Recognition and Emergency Management"
     },
     {
       "file": "low_cardiac_output_syndrome.json",
-      "title": "Low Cardiac Output Syndrome"
+      "title": "Low Cardiac Output Syndrome after Cardiac Surgery"
+    },
+    {
+      "file": "post_mi_complications_and_nursing_priorities.json",
+      "title": "Post-MI Complications and Nursing Priorities"
     }
   ]
 }

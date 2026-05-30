@@ -1,5 +1,5 @@
 {
-  "id": "domain3_ventricular_tachycardia_and_ventricular_fibrillation",
+  "id": "ventricular_tachycardia_and_ventricular_fibrillation",
   "domain": 3,
   "domainTitle": "Cardiac Conditions and Rhythms",
   "title": "Ventricular Tachycardia and Ventricular Fibrillation",
@@ -9,28 +9,62 @@
       "title": "Abridged Snapshot",
       "content": [
         {
+          "type": "heading",
+          "text": "VT and VF in CTICU"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ventricular tachycardia and ventricular fibrillation are immediately life-threatening rhythms. VT may be stable or unstable depending on perfusion; VF is pulseless cardiac arrest. In CTICU, causes include ischaemia, graft failure, electrolyte derangement, reperfusion injury, low cardiac output, hypoxia, acidosis, pacing-wire irritation, prolonged QT, inotrope/catecholamine load and mechanical complications."
+        },
+        {
           "type": "keyterm",
           "term": "Ventricular tachycardia",
-          "definition": "VT is ventricular tachycardia, usually wide-complex and at least 120/min. In post-MI or post-cardiac surgery patients, wide-complex tachycardia is VT until proven otherwise."
+          "definition": "A ventricular rhythm usually with rate >100/min and wide QRS complexes. Sustained VT lasts ≥30 seconds or causes haemodynamic compromise requiring intervention."
         },
         {
           "type": "keyterm",
           "term": "Ventricular fibrillation",
-          "definition": "VF is chaotic ventricular electrical activity with no organised contraction and no effective cardiac output."
+          "definition": "Chaotic ventricular electrical activity with no effective cardiac output and no pulse."
         },
         {
-          "type": "steps",
-          "items": [
-            "Check pulse and arterial waveform immediately.",
-            "If pulseless, start CPR and defibrillate.",
-            "If VT has a pulse but causes hypotension, shock, ischaemia, heart failure or altered mentation, perform synchronised cardioversion.",
-            "If stable monomorphic VT is present, prepare expert review, reversible-cause correction and antiarrhythmic therapy such as amiodarone.",
-            "For torsades, correct QT drivers, potassium and magnesium; give magnesium and defibrillate if unstable or pulseless."
+          "type": "keyterm",
+          "term": "Polymorphic VT",
+          "definition": "VT with changing QRS morphology. Torsades de pointes is a subtype associated with prolonged QT."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Rhythm",
+            "Clinical status",
+            "Immediate action"
+          ],
+          "rows": [
+            [
+              "Stable monomorphic VT with pulse",
+              "May have preserved MAP initially but high deterioration risk.",
+              "Call senior help, pads on, 12-lead, correct electrolytes/ischaemia, prepare antiarrhythmic/cardioversion plan."
+            ],
+            [
+              "Unstable VT with pulse",
+              "Hypotension, shock, ischaemia, pulmonary oedema or altered consciousness.",
+              "Synchronised cardioversion if possible."
+            ],
+            [
+              "Pulseless VT",
+              "Cardiac arrest shockable rhythm.",
+              "CPR and defibrillation pathway."
+            ],
+            [
+              "VF",
+              "Cardiac arrest shockable rhythm.",
+              "Immediate CPR, defibrillation, adrenaline/amiodarone per algorithm and CT surgery arrest modifications where applicable."
+            ]
           ]
         },
         {
-          "type": "warning",
-          "text": "Do not treat wide-complex tachycardia in a structural heart disease patient as benign SVT unless expert assessment supports it."
+          "type": "escalation",
+          "tier": "Tier 1",
+          "text": "Any VT/VF in CTICU is immediate senior escalation. For pulseless VT/VF, start cardiac arrest response. For unstable VT with pulse, prepare synchronised cardioversion without delay."
         }
       ]
     },
@@ -39,100 +73,36 @@
       "content": [
         {
           "type": "heading",
-          "text": "Monomorphic VT, polymorphic VT and torsades"
+          "text": "Mechanism"
         },
         {
           "type": "paragraph",
-          "text": "Monomorphic VT has a consistent QRS morphology, often from scar-related re-entry. Polymorphic VT has changing QRS morphology, often from acute ischaemia or repolarisation instability. Torsades de pointes is polymorphic VT associated with prolonged QT and twisting QRS morphology."
-        },
-        {
-          "type": "heading",
-          "text": "VF and pulseless VT"
+          "text": "VT arises when ventricular myocardium or the His-Purkinje system becomes the dominant rhythm source. Mechanisms include re-entry around scar or ischaemic tissue, triggered activity from electrolyte disturbance or catecholamines, and abnormal automaticity. Structural heart disease, recent MI, ventricular dysfunction and post-surgical myocardial irritation make VT more likely."
         },
         {
           "type": "paragraph",
-          "text": "VF and pulseless VT produce no effective output. Treatment is immediate defibrillation, CPR, adrenaline and antiarrhythmic therapy according to ALS. After fresh cardiac surgery, consider tamponade, graft failure, surgical bleeding and emergency reopening pathway."
+          "text": "VF is electrical chaos. The ventricles quiver without organised contraction, so cardiac output falls to zero. Arterial waveform disappears, consciousness is lost within seconds, and defibrillation is the definitive electrical therapy. CPR provides temporary circulation but does not terminate VF; early defibrillation is time-critical."
         },
         {
-          "type": "heading",
-          "text": "Causes after cardiac surgery"
+          "type": "paragraph",
+          "text": "In CTICU, VT/VF must trigger a cause search while resuscitation proceeds. Potassium, magnesium, calcium, pH, oxygenation, temperature, ischaemia, tamponade, bleeding, graft failure, coronary spasm, pulmonary embolism, pneumothorax, pacing wire irritation and drug effects all matter. Post-cardiac surgery arrest may follow unit-specific protocols including early resternotomy if tamponade/bleeding is suspected and appropriately trained staff are present."
         },
         {
-          "type": "table",
-          "columns": [
-            "Cause",
-            "Mechanism",
-            "Bedside clue"
-          ],
-          "rows": [
-            [
-              "Ischaemia/graft failure",
-              "Injured myocardium creates re-entry.",
-              "New ST change, low output, lactate rise."
-            ],
-            [
-              "Electrolytes",
-              "Low K/Mg or abnormal Ca destabilises repolarisation.",
-              "Ectopy, QT prolongation."
-            ],
-            [
-              "Hypoxia/acidosis",
-              "Increases myocardial irritability and PVR.",
-              "ABG deterioration, RV strain."
-            ],
-            [
-              "Reperfusion",
-              "Electrical instability during restored flow.",
-              "Runs after PCI."
-            ],
-            [
-              "Catecholamines",
-              "Increase automaticity and demand.",
-              "High adrenaline/dobutamine with ectopy."
-            ],
-            [
-              "Pacing proarrhythmia",
-              "Spike during vulnerable period or sensing failure.",
-              "Spikes near T waves or undersensing."
-            ]
-          ]
-        },
-        {
-          "type": "heading",
+          "type": "subheading",
           "text": "Stable versus unstable VT"
         },
         {
           "type": "paragraph",
-          "text": "Stable VT means preserved perfusion at that moment. Unstable VT causes hypotension, shock, ischaemia, heart failure, syncope or altered mentation. Stable VT can deteriorate without warning, so pads and defib readiness are mandatory."
-        },
-        {
-          "type": "heading",
-          "text": "Defibrillation versus synchronised cardioversion"
-        },
-        {
-          "type": "paragraph",
-          "text": "Defibrillation is unsynchronised shock for VF, pulseless VT and polymorphic VT when sync is unsafe. Synchronised cardioversion is for unstable tachyarrhythmia with a pulse, including monomorphic VT."
-        },
-        {
-          "type": "heading",
-          "text": "Drug and electrolyte treatment"
-        },
-        {
-          "type": "paragraph",
-          "text": "Amiodarone 150 mg IV over 10 minutes followed by infusion is a common approach for stable monomorphic VT. Magnesium 2 g IV is used for torsades. Potassium is commonly corrected toward 4.0-4.5 mmol/L and magnesium to at least 1.0 mmol/L in arrhythmia-prone patients."
-        },
-        {
-          "type": "heading",
-          "text": "Post-arrest CTICU priorities"
+          "text": "Stable VT means the patient has a pulse and adequate perfusion for the moment. It does not mean the rhythm is safe. A patient talking in VT can deteriorate abruptly. Unstable VT means the rhythm is causing shock, hypotension, acute heart failure, ischaemia or altered consciousness. In unstable VT with a pulse, synchronised cardioversion is used if the monitor can synchronise; if synchronisation is not possible and the patient is deteriorating, emergency unsynchronised shock may be required by advanced life support protocol."
         },
         {
           "type": "steps",
           "items": [
-            "Confirm ROSC with arterial waveform, EtCO2 rise and perfusion.",
-            "Obtain 12-lead ECG and urgent echo.",
-            "Correct oxygenation, pH, K, Mg, ionised Ca, Hb and temperature.",
-            "Review proarrhythmic drugs and pacing settings.",
-            "Prepare cath lab, theatre, IABP, Impella or ECMO depending on cause."
+            "Check responsiveness, pulse and arterial waveform immediately. Do not rely on monitor rhythm alone because artefact can mimic VT.",
+            "If pulseless or no arterial waveform with unresponsiveness, call arrest, start CPR and defibrillate according to shockable rhythm algorithm.",
+            "If VT with pulse but unstable, call senior help, attach pads, select synchronised cardioversion and prepare sedation only if this does not delay life-saving shock.",
+            "If VT with pulse and stable, keep pads on, get 12-lead ECG, correct K/Mg/acidosis/hypoxia, review ischaemia and prepare antiarrhythmic/cardioversion plan.",
+            "After ROSC or conversion, search for the cause, because recurrent VT/VF is common if the driver remains."
           ]
         }
       ]
@@ -141,20 +111,28 @@
       "title": "Clinical Pearls",
       "content": [
         {
-          "type": "pearl",
-          "text": "Stable VT is stable only for now. Pads on and defib ready is essential."
+          "type": "heading",
+          "text": "Clinical Pearls"
         },
         {
           "type": "pearl",
-          "text": "Pacing spikes near T waves require immediate sensing review."
+          "text": "Look at the arterial line. True VT with no arterial waveform is cardiac arrest even if the ECG trace looks organised."
         },
         {
           "type": "pearl",
-          "text": "Torsades is polymorphic VT with QT physiology; magnesium and QT correction matter."
+          "text": "A wide regular tachycardia in a post-CABG patient with poor LV function is VT until proven otherwise."
+        },
+        {
+          "type": "pearl",
+          "text": "Electrolytes are not housekeeping in CTICU rhythms. Potassium 3.1 mmol/L and magnesium 0.55 mmol/L in a post-op heart is a substrate for malignant ectopy."
         },
         {
           "type": "warning",
-          "text": "Do not delay defibrillation of VF or pulseless VT for a 12-lead, bloods or senior arrival."
+          "text": "Do not spend time obtaining a perfect 12-lead ECG in pulseless VT/VF. Defibrillation and CPR come first."
+        },
+        {
+          "type": "pearl",
+          "text": "Recurrent VF after cardiac surgery should make you think beyond generic ACLS: ischaemia/graft issue, tamponade, severe bleeding, air, electrolyte catastrophe, pacing wire problem or mechanical complication."
         }
       ]
     },
@@ -163,60 +141,49 @@
       "content": [
         {
           "type": "heading",
-          "text": "ECG and monitor setup"
+          "text": "Equipment Tie-In"
         },
         {
-          "type": "paragraph",
-          "text": "For ventricular tachycardia and ventricular fibrillation, the ECG monitor must be treated as a clinical device, not wallpaper. Use a lead that shows atrial activity when P waves matter, print strips during events, check electrode contact, and repeat a 12-lead when rhythm diagnosis, ischaemia or conduction disease is uncertain."
+          "type": "subheading",
+          "text": "Defibrillator use"
         },
         {
-          "type": "heading",
-          "text": "Arterial waveform correlation"
-        },
-        {
-          "type": "paragraph",
-          "text": "The arterial line determines whether electrical activity is producing mechanical output. Rate, rhythm and monitor labels are secondary to MAP, pulse pressure, waveform amplitude, lactate, urine output and clinical perfusion."
-        },
-        {
-          "type": "heading",
-          "text": "Defibrillator and pacing readiness"
-        },
-        {
-          "type": "paragraph",
-          "text": "VT/VF requires immediate defibrillator access and post-event pacing review where relevant requires early access to pads, synchronised cardioversion, defibrillation or pacing depending on stability. In post-cardiac surgery patients, also check epicardial wires, pacing box battery, output, sensitivity, capture and sensing."
+          "type": "steps",
+          "items": [
+            "Apply pads early to any high-risk VT. Anterolateral placement is common; anteroposterior may be chosen depending on wounds, drains, sternotomy dressings and local practice.",
+            "For pulseless VT/VF select defibrillation mode, charge to recommended biphasic energy per local device/protocol, clear the patient and shock.",
+            "For unstable VT with pulse select synchronised cardioversion and confirm sync markers on QRS complexes.",
+            "Resume CPR immediately after shock in pulseless arrest without pausing to check rhythm until the scheduled rhythm check.",
+            "Document rhythm, energy, number of shocks, drugs, electrolytes, suspected cause and response."
+          ]
         },
         {
           "type": "table",
           "columns": [
-            "Equipment",
-            "What to check",
-            "Why it matters"
+            "Problem",
+            "Risk",
+            "Action"
           ],
           "rows": [
             [
-              "ECG monitor",
-              "Lead quality, rhythm strip, alarm limits and artefact.",
-              "Avoids missed rhythm change or false diagnosis."
+              "Pacer spikes mistaken for QRS by sync mode",
+              "Shock may sync incorrectly.",
+              "Confirm sync markers on true QRS, not spikes."
             ],
             [
-              "12-lead ECG",
-              "Conduction, QRS width, ischaemia and baseline comparison.",
-              "Clarifies rhythm and identifies dangerous mimics."
+              "Fine VF mistaken for asystole",
+              "Missed shockable rhythm.",
+              "Increase gain/confirm in another lead and assess patient; if unsure in arrest, follow senior/ALS assessment."
             ],
             [
-              "Arterial line",
-              "Level, zero, damping, pulse pressure and waveform presence.",
-              "Shows haemodynamic consequence."
+              "Artefact mistaken for VT",
+              "Unnecessary shock/drugs.",
+              "Check patient, pulse, arterial waveform, other leads and movement sources."
             ],
             [
-              "Defibrillator",
-              "Pads, sync markers, battery and energy pathway.",
-              "Supports immediate cardioversion or defibrillation."
-            ],
-            [
-              "Pacing box",
-              "Mode, rate, output, sensitivity and capture threshold.",
-              "Essential when rate or AV synchrony fails."
+              "Pads over wet skin or dressings",
+              "Poor shock delivery or burns.",
+              "Dry skin, avoid medication patches, place pads securely."
             ]
           ]
         }
@@ -226,64 +193,73 @@
       "title": "Targets and Numbers",
       "content": [
         {
+          "type": "heading",
+          "text": "Targets and Numbers"
+        },
+        {
           "type": "targetTable",
           "columns": [
             "Parameter",
-            "Usual target",
+            "Target / threshold",
             "CT-ICU interpretation"
           ],
           "rows": [
             [
-              "Wide QRS",
-              "At least 120 ms",
-              "In cardiac patients, treat wide tachycardia as VT until proven otherwise."
+              "VT rate",
+              "Usually >100/min; often 120–250/min.",
+              "Rate alone does not define stability; perfusion does."
             ],
             [
-              "VF/pulseless VT",
-              "No effective pulse or arterial waveform",
-              "Immediate CPR and defibrillation."
+              "Sustained VT",
+              "≥30 seconds or requiring earlier intervention due to instability.",
+              "Treat as clinically significant."
             ],
             [
-              "Unstable VT with pulse",
-              "Hypotension, shock, ischaemia, heart failure or altered mentation",
-              "Synchronised cardioversion."
-            ],
-            [
-              "Amiodarone stable VT",
-              "Commonly 150 mg IV over 10 min, then infusion",
-              "Watch hypotension and QT."
-            ],
-            [
-              "Magnesium torsades",
-              "Commonly 2 g IV",
-              "Correct QT drivers and electrolytes."
+              "QRS width",
+              "Usually ≥120 ms in VT.",
+              "Broad complex tachycardia in structural heart disease is VT until proven otherwise."
             ],
             [
               "Potassium",
-              "4.0-4.5 mmol/L",
-              "Correct hypokalaemia safely."
+              "Common target 4.0–4.5 mmol/L.",
+              "Correct low K promptly in ventricular ectopy/VT risk."
             ],
             [
-              "Defibrillation energy",
-              "Use device recommendation; common adult biphasic initial shock 200 J if unknown",
-              "Do not delay shock."
+              "Magnesium",
+              "Common target ≥0.8–1.0 mmol/L; torsades treatment often IV magnesium per protocol.",
+              "Correct low Mg and review QT-prolonging drugs."
+            ],
+            [
+              "QTc",
+              ">500 ms high risk for torsades.",
+              "Review amiodarone, antipsychotics, macrolides, hypokalaemia, hypomagnesaemia, bradycardia."
+            ],
+            [
+              "MAP",
+              "Usually 65–80 mmHg after routine CABG/valve surgery; often 70–90 mmHg after complex aortic surgery or chronic hypertension if ordered.",
+              "Treat the number in context: lactate, urine output, mentation/sedation, skin perfusion, SvO2/ScvO2, echo and surgical goals."
+            ],
+            [
+              "Urine output",
+              "≥0.5 mL/kg/hr; commonly ≥30 mL/hr in average adult; rising concern if <0.3 mL/kg/hr for 2 hours.",
+              "Low UO with hypotension and narrow pulse pressure suggests low flow until proven otherwise."
+            ],
+            [
+              "Lactate",
+              "Usually expected to trend down; concern if >2 mmol/L and rising; high concern if ≥4 mmol/L or rising despite support.",
+              "After CPB, lactate may be elevated, but persistent rise suggests oxygen debt, shock, bleeding, tamponade, severe vasoplegia or poor cardiac output."
+            ],
+            [
+              "Potassium",
+              "Common rhythm target 4.0–4.5 mmol/L in CTICU unless renal failure/hyperkalaemia risk.",
+              "Low K increases ectopy, AF, VT risk and digoxin sensitivity."
+            ],
+            [
+              "Magnesium",
+              "Common rhythm target ≥0.8 mmol/L; many CTICUs target 1.0 mmol/L in AF/VT risk.",
+              "Low Mg promotes ventricular ectopy and AF; replacement is common post bypass."
             ]
           ]
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 1",
-          "text": "Escalate frequent ventricular ectopy, non-sustained VT, QT prolongation, low K/Mg or pacing concerns."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 2",
-          "text": "Escalate urgently for sustained VT with pulse, polymorphic VT or VT associated with ischaemia/low output."
-        },
-        {
-          "type": "escalation",
-          "tier": "Tier 3",
-          "text": "Activate arrest response for VF, pulseless VT, loss of arterial waveform or unconsciousness."
         }
       ]
     }
@@ -291,73 +267,39 @@
   "quiz": [
     {
       "difficulty": "Bedside Basics",
-      "question": "Wide-complex tachycardia in a post-MI patient should be treated as what until proven otherwise?",
+      "question": "The monitor shows VF and the arterial waveform disappears. What is the priority?",
       "options": [
-        "VT.",
-        "Anxiety.",
-        "Sinus tachycardia.",
-        "Benign artifact only."
+        "Call arrest, start CPR and defibrillate",
+        "Obtain routine 12-lead first",
+        "Wait for troponin",
+        "Cycle the NIBP cuff"
       ],
       "answer": 0,
-      "explanation": "Structural heart disease makes VT the safest assumption."
-    },
-    {
-      "difficulty": "Bedside Basics",
-      "question": "What shock type is used for VF?",
-      "options": [
-        "Unsynchronised defibrillation.",
-        "Synchronised cardioversion only.",
-        "Adenosine first.",
-        "No shock."
-      ],
-      "answer": 0,
-      "explanation": "VF is a shockable arrest rhythm requiring defibrillation."
+      "explanation": "VF is pulseless arrest. CPR and defibrillation are immediate priorities."
     },
     {
       "difficulty": "Clinical Reasoning",
-      "question": "What is torsades associated with?",
+      "question": "A patient is awake in broad-complex tachycardia at 160/min with MAP 75. What is the safest approach?",
       "options": [
-        "Polymorphic VT with QT prolongation physiology.",
-        "First-degree AV block.",
-        "Normal QT only.",
-        "Absent ventricular activity."
+        "Treat as VT until expert review; pads on and escalate",
+        "Ignore because the patient is awake",
+        "Give adenosine without assessment",
+        "Remove ECG electrodes"
       ],
       "answer": 0,
-      "explanation": "Torsades is linked to prolonged repolarisation and treated with magnesium and correction of QT drivers."
-    }
-  ],
-  "references": [
-    {
-      "name": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes",
-      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
+      "explanation": "Stable VT can deteriorate. Broad-complex tachycardia in CTICU requires urgent review, pads and cause search."
     },
     {
-      "name": "2023 ESC Guidelines for the management of acute coronary syndromes",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/"
-    },
-    {
-      "name": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
-    },
-    {
-      "name": "AHA 2025 Adult Tachycardia With a Pulse Algorithm",
-      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
-    },
-    {
-      "name": "ANZCOR Guideline 11.2 Protocols for Adult Advanced Life Support",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-2-protocols-for-adult-advanced-life-support"
-    },
-    {
-      "name": "ANZCOR Guideline 11.9 Managing Acute Dysrhythmias",
-      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias"
-    },
-    {
-      "name": "2024 ESC Guidelines for the management of atrial fibrillation",
-      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation"
-    },
-    {
-      "name": "LITFL ECG Library",
-      "url": "https://litfl.com/ecg-library/"
+      "difficulty": "Expert Level",
+      "question": "Recurrent VF shortly after CABG should prompt concern for:",
+      "options": [
+        "Ongoing ischaemia/graft issue, tamponade, electrolyte or mechanical complication",
+        "Normal recovery",
+        "Only anxiety",
+        "Only pulse oximeter artefact"
+      ],
+      "answer": 0,
+      "explanation": "Recurrent malignant arrhythmia after cardiac surgery demands active search for reversible surgical and metabolic causes."
     }
   ]
 }
