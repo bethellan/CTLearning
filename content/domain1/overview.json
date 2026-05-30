@@ -1,0 +1,114 @@
+{
+  "id": "domain1-overview",
+  "domain": "domain1",
+  "domainName": "Physiology Foundations",
+  "domainColour": "#0B5FFF",
+  "title": "Domain 1 Overview: Physiology Foundations",
+  "sections": {
+    "abridged": {
+      "content": "<h3>Domain 1 overview - what physiology is for in CTICU</h3>\n<p><strong>Physiology Foundations</strong> is the base layer for every CTICU decision. The purpose is not to memorise definitions. The purpose is to look at a fresh post-cardiac surgery patient and understand why the arterial pressure, pulse pressure, CVP, PA pressure, cardiac output, lactate, urine output, temperature, rhythm, pacing mode, ventilator settings, and venous saturation are changing.</p>\n<p>The central question is: <strong>is this patient delivering enough oxygenated blood to the tissues at an acceptable filling pressure and afterload?</strong> A normal SpO₂ does not prove oxygen delivery. A normal MAP does not prove cardiac output. A high CVP does not prove volume overload, and a low CVP does not prove the patient needs fluid. Every number is a clue inside a wider mechanical system.</p>\n<p>Domain 1 covers the cardiac cycle, cardiac output, preload, afterload, contractility, Frank-Starling physiology, oxygen delivery and consumption, and mixed venous saturations. These concepts connect directly to Domain 2 haemodynamic monitoring, Domain 4 pacing/IABP/mechanical support, Domain 5 post-operative cardiac surgery care, and Domain 6 pharmacology.</p>"
+    },
+    "expanded": {
+      "content": "<h3>Domain 1 - the CTICU haemodynamic map</h3>\n<p>A cardiothoracic ICU patient is a live physiology problem. The patient may have just returned from bypass with myocardial stunning, vasoplegia, hypothermia, bleeding risk, fluid shifts, coagulopathy, pacing wires, chest drains, ventilator effects, and new loading conditions after CABG, valve surgery, aortic surgery, or mechanical support. The bedside nurse must interpret changes quickly because deterioration can be rapid.</p>\n<p>The heart is not simply a pump that makes blood pressure. It is a pressure-generating, flow-generating, oxygen-delivery system. The right heart must accept venous return and eject through a low-pressure pulmonary circuit. The left heart must receive pulmonary venous return and eject into a high-pressure systemic circuit. The two ventricles share the septum and pericardial space, so failure of one side can compromise the other.</p>\n<p>The first anchor is the <strong>cardiac cycle</strong>. Each beat includes diastolic filling, atrial contribution, isovolumetric contraction, ejection, valve closure, relaxation, and refilling. This explains why rhythm and timing matter. A good-looking ECG does not guarantee mechanical output. A paced rhythm may capture electrically but still produce poor haemodynamics if rate, AV delay, ventricular synchrony, filling, or afterload are wrong.</p>\n<p>The second anchor is <strong>cardiac output</strong>. CO equals heart rate multiplied by stroke volume. Stroke volume is determined by preload, afterload, and contractility. A patient can have a MAP of 70 mmHg because flow is adequate, or because SVR is high and flow is poor. Therefore CTICU assessment must separate pressure from flow.</p>\n<p>The third anchor is <strong>preload</strong>. Preload is end-diastolic stretch, not total body water. CVP and PAWP are pressures, not tank gauges. They are affected by compliance, PEEP, intrathoracic pressure, RV failure, pulmonary hypertension, tamponade, and venous tone. Fluid decisions should be judged by response and tolerance, not by a single filling pressure.</p>\n<p>The fourth anchor is <strong>afterload</strong>. LV afterload is related to SVR, arterial pressure, arterial compliance, wall stress, and aortic valve function. RV afterload is related to PVR, oxygenation, PaCO₂, pH, PEEP, lung volume, and pulmonary vascular tone. This is why ventilation can be a haemodynamic intervention, especially in RV failure.</p>\n<p>The fifth anchor is <strong>contractility</strong>. Contractility is intrinsic myocardial force generation at a given preload and afterload. It may be impaired after bypass due to stunning, ischaemia-reperfusion, cardioplegia, hypothermia, acidosis, electrolyte derangement, graft issues, valve problems, or RV strain. Poor contractility is not fixed by endless fluid if the heart is already adequately filled.</p>\n<p>The sixth anchor is the <strong>Frank-Starling mechanism</strong>. A ventricle on the steep part of the curve increases stroke volume when preload increases. A ventricle on the flat part mostly increases pressure, congestion, and oedema when preload increases. CTICU patients often reach the flat part early because their ventricles are stiff, stunned, oedematous, hypertrophied, paced, afterloaded, or compressed.</p>\n<p>The final anchor is <strong>oxygen economy</strong>. Oxygen delivery depends on cardiac output, haemoglobin, and arterial saturation. Oxygen consumption rises with fever, shivering, agitation, pain, work of breathing, seizures, sepsis, and catecholamines. Mixed venous saturation tells you how much oxygen is left after tissue extraction. Lactate, urine output, mental state, skin perfusion, and acid-base status tell you whether the economy is working.</p>\n<p>The practical CTICU approach is pattern recognition with mechanism. Do not ask only whether the MAP is low. Ask whether flow is low, SVR is low, PVR is high, preload is inadequate, the ventricle is overloaded, the heart is compressed, the rhythm has removed atrial contribution, the ventricle is stunned, or oxygen demand has increased.</p>"
+    },
+    "pearls": {
+      "content": "<h3>Clinical Pearls - Domain 1 Overview</h3>\n<h4>Pearl 1 - Pressure is not perfusion</h4>\n<p>MAP is necessary but not sufficient. A vasoconstricted patient can maintain MAP while cardiac index, SvO₂, lactate, and urine output worsen.</p>\n<h4>Pearl 2 - Filling pressure is not fluid volume</h4>\n<p>CVP and PAWP are pressures shaped by compliance, ventilation, RV function, PVR, and pericardial pressure. They do not directly equal intravascular volume.</p>\n<h4>Pearl 3 - The RV and LV are different organs under different loads</h4>\n<p>The LV is built for pressure. The RV is built for low resistance. Hypoxia, hypercapnia, acidosis, and high PEEP can break the RV quickly.</p>\n<h4>Pearl 4 - Oxygen saturation is not oxygen delivery</h4>\n<p>SpO₂ can be perfect while DO₂ is poor because haemoglobin or cardiac output is low.</p>\n<h4>Pearl 5 - Treat the mechanism, not the monitor number</h4>\n<p>The same low MAP may require fluid, vasopressor, inotropy, rhythm correction, ventilation change, return to theatre, or mechanical support depending on physiology.</p>"
+    },
+    "equipment": {
+      "content": "<h3>Equipment Tie-In - Domain 1 Overview</h3>\n<p><strong>Arterial lines</strong> show pressure and waveform morphology. They do not directly show tissue flow. Damping, transducer level, waveform shape, and pulse pressure all matter.</p>\n<p><strong>CVP and PA catheters</strong> provide pressure, flow, resistance, and venous saturation data, but only if the waveform, zeroing, levelling, catheter position, and measurement technique are valid.</p>\n<p><strong>Echo</strong> connects numbers to anatomy and motion. It can show LV function, RV dilation, septal shift, tamponade, valve problems, underfilling, and congestion.</p>\n<p><strong>Ventilators</strong> influence haemodynamics through intrathoracic pressure, venous return, oxygenation, PaCO₂, pH, PEEP, and PVR.</p>\n<p><strong>Pacing boxes and IABP systems</strong> are timing devices. Their effect depends on the cardiac cycle, AV synchrony, capture, sensing, dicrotic notch timing, and ventricular loading.</p>"
+    },
+    "targets": {
+      "content": "<h3>Targets and Numbers - Domain 1 Overview</h3>\n<p>Targets must be individualised, but typical CTICU orientation values include MAP 65-85 mmHg, CI ≥2.2 L/min/m², SvO₂ 60-80% or commonly ≥65-70% if the rest of the picture agrees, urine output ≥0.5 mL/kg/hr, lactate <2 mmol/L or clearly falling, potassium often 4.0-4.5 mmol/L, magnesium ≥0.8-1.0 mmol/L, and ionised calcium around 1.1-1.3 mmol/L depending on local protocols.</p>",
+      "tables": [
+        {
+          "heading": "Domain 1 physiology map",
+          "headers": [
+            "Concept",
+            "Bedside question",
+            "Useful data",
+            "Common CTICU trap"
+          ],
+          "rows": [
+            [
+              "Cardiac cycle",
+              "Is the electrical rhythm producing useful mechanical output?",
+              "ECG, arterial waveform, pulse pressure, echo, pacing settings",
+              "Assuming organised ECG means adequate output"
+            ],
+            [
+              "Cardiac output",
+              "Is there enough forward flow?",
+              "CI, pulse pressure, lactate, UO, SvO₂, skin perfusion",
+              "Being reassured by MAP alone"
+            ],
+            [
+              "Preload",
+              "Would more filling improve stroke volume?",
+              "CVP, PAWP, echo, response to fluid, drains",
+              "Treating CVP as a volume gauge"
+            ],
+            [
+              "Afterload",
+              "Is the ventricle ejecting against too much or too little resistance?",
+              "SVR, PVR, MAP, PA pressures, echo, ventilation",
+              "Using vasopressor when high afterload is worsening flow"
+            ],
+            [
+              "Contractility",
+              "Can the myocardium generate enough force?",
+              "Echo, CI, pulse pressure, lactate, SvO₂",
+              "Giving repeated fluid to a weak full ventricle"
+            ],
+            [
+              "DO₂/VO₂",
+              "Is delivery matching demand?",
+              "CO, Hb, SpO₂, lactate, SvO₂, temperature",
+              "Thinking SpO₂ equals oxygen delivery"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "quizQuestions": [
+    {
+      "level": "basic",
+      "question": "What is the central purpose of Domain 1 physiology in CTICU?",
+      "type": "multipleChoice",
+      "options": [
+        "To understand whether the patient is producing adequate oxygen delivery and perfusion",
+        "To memorise isolated normal values",
+        "To replace clinical assessment with monitor readings",
+        "To ignore ventilation effects on haemodynamics"
+      ],
+      "correct": 0,
+      "explanation": "The goal is mechanism-based interpretation of pressure, flow, filling, oxygen delivery, and demand so deterioration can be recognised and treated correctly."
+    },
+    {
+      "level": "reasoning",
+      "question": "Why can a normal MAP be misleading?",
+      "type": "multipleChoice",
+      "options": [
+        "Because high SVR can preserve pressure despite poor cardiac output",
+        "Because MAP never matters",
+        "Because MAP directly measures lactate",
+        "Because MAP only reflects SpO₂"
+      ],
+      "correct": 0,
+      "explanation": "MAP may be maintained by vasoconstriction even when forward flow is low. CI, lactate, urine output, pulse pressure, skin perfusion, and SvO₂ show whether perfusion is adequate."
+    },
+    {
+      "level": "expert",
+      "question": "Why are ventilator settings part of haemodynamic physiology?",
+      "type": "multipleChoice",
+      "options": [
+        "They affect venous return, RV afterload, oxygenation, PaCO₂, pH, and PVR",
+        "They only affect oxygen saturation and never circulation",
+        "They directly measure cardiac output",
+        "They prevent tamponade"
+      ],
+      "correct": 0,
+      "explanation": "Positive pressure, PEEP, oxygenation, PaCO₂, and pH all affect preload and RV afterload, especially in pulmonary hypertension or RV failure."
+    }
+  ]
+}

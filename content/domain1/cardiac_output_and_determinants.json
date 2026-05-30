@@ -6,105 +6,52 @@
   "title": "Cardiac Output and Determinants",
   "sections": {
     "abridged": {
-      "content": "<h3>Cardiac output - the flow that actually perfuses organs</h3>\n<p>Cardiac output is the volume of blood ejected by the heart each minute. It is the core flow variable behind organ perfusion. Blood pressure matters, but pressure is not the same as flow. A patient can have an acceptable MAP because SVR is high while true forward flow is poor.</p>\n<p>The formula is <strong>CO = HR × SV</strong>. Heart rate is beats per minute. Stroke volume is the amount ejected per beat. Typical adult resting CO is about 4-8 L/min, commonly 5-6 L/min. Cardiac index corrects for body surface area, with a common minimum CTICU target of ≥2.2 L/min/m².</p>\n<p>Stroke volume is determined by preload, afterload, and contractility. Preload is filling/stretch, afterload is resistance to ejection, and contractility is intrinsic pump force. Excessive heart rate can reduce stroke volume by shortening diastolic filling time.</p>\n<p>In CTICU, CO is interpreted through MAP, pulse pressure, vasoactive dose, urine output, lactate, SvO₂, echo, skin perfusion, temperature, and rhythm. The key question is whether the pressure is being achieved with adequate forward flow.</p>"
+      "content": "<h3>Cardiac output - the flow that actually perfuses organs</h3>\n<p><strong>Cardiac output (CO)</strong> is the volume of blood ejected by the heart each minute. It is the core flow variable behind organ perfusion. Blood pressure matters, but pressure is not the same as flow.</p>\n<p>The formula is <strong>CO = HR × SV</strong>. Heart rate is beats per minute. Stroke volume is blood ejected per beat. A typical resting adult CO is about <strong>4-8 L/min</strong>, commonly around <strong>5-6 L/min</strong>. Cardiac index corrects for body surface area; a common CTICU minimum is <strong>CI ≥2.2 L/min/m²</strong>.</p>\n<p>Stroke volume is determined by preload, afterload, and contractility. Heart rate modifies output, but excessive heart rate shortens diastolic filling and can reduce stroke volume.</p>\n<p>In CTICU, cardiac output must be interpreted with MAP, pulse pressure, vasoactive dose, urine output, lactate, SvO₂, echo, and skin perfusion. A normal MAP does not guarantee adequate oxygen delivery.</p>"
     },
     "expanded": {
-      "content": "<h3>Cardiac output - the flow that actually perfuses organs</h3>\n<p>This topic must be understood as a mechanism, not as a list of numbers. In CTICU, the same numerical value can mean different things depending on rhythm, ventricular function, vascular tone, ventilation, oxygen content, temperature, bleeding, surgical context, and the patient’s response over time.</p>\n<h4>Heart rate</h4>\n<p>Heart rate determines how many cardiac cycles occur per minute. It can increase cardiac output only while stroke volume is maintained. Excessive rates shorten diastole, reduce ventricular filling, reduce coronary perfusion time, and increase myocardial oxygen demand.</p>\n<p>Mechanistically, heart rate affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess heart rate by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Stroke volume</h4>\n<p>Stroke volume is the volume ejected with each beat. It depends on preload, afterload, and contractility. A low stroke volume appears as narrow pulse pressure, weak arterial upstroke, low CI, rising lactate, low SvO₂, and reduced urine output.</p>\n<p>Mechanistically, stroke volume affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess stroke volume by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Preload</h4>\n<p>Preload is the filling/stretch available before contraction. It supports stroke volume through the Frank-Starling mechanism, but only until the ventricle reaches the flat part of the curve.</p>\n<p>Mechanistically, preload affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess preload by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Afterload</h4>\n<p>Afterload is the load against which the ventricle ejects. Excessive afterload can preserve pressure while reducing flow, especially in a weak ventricle.</p>\n<p>Mechanistically, afterload affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess afterload by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Contractility</h4>\n<p>Contractility is intrinsic myocardial force generation. It is impaired by stunning, ischaemia, acidosis, hypothermia, and electrolyte problems.</p>\n<p>Mechanistically, contractility affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess contractility by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Cardiac index</h4>\n<p><strong>cardiac index</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, cardiac index affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess cardiac index by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Pressure-flow separation</h4>\n<p><strong>pressure-flow separation</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, pressure-flow separation affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess pressure-flow separation by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Low cardiac output syndrome</h4>\n<p><strong>low cardiac output syndrome</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, low cardiac output syndrome affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess low cardiac output syndrome by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>CTICU bedside integration</h4>\n<p>Start by confirming the measurement is real: level, zero, waveform quality, sampling site, timing, rhythm, and patient position. Then separate pressure from flow. Ask whether the patient has adequate cardiac output, adequate vascular tone, acceptable filling pressures, tolerable afterload, adequate oxygen content, and acceptable oxygen demand.</p>\n<p>Next, decide which mechanism is most likely failing: preload, afterload, contractility, rhythm, obstruction, oxygen content, or oxygen demand. The intervention follows the mechanism. Fluid is for preload-responsive and fluid-tolerant physiology. Vasopressor is for inadequate vascular tone or perfusion pressure. Inotropy is for inadequate pump force. Ventilation and oxygenation changes are haemodynamic interventions when PVR or work of breathing is part of the problem.</p>\n<p>Finally, reassess after every intervention. A useful intervention improves flow or oxygen economy: stronger pulse pressure, improved CI, better urine output, falling lactate, improved SvO₂, improved skin perfusion, or reduced vasoactive requirement. A harmful intervention raises filling pressure, worsens oxygenation, worsens RV dilation, increases afterload excessively, or improves MAP while lactate and SvO₂ worsen.</p>\n<h4>Pattern table</h4><table><tr><th>Finding</th><th>Meaning</th><th>CTICU action</th></tr><tr><td>Rising lactate</td><td>Oxygen delivery-demand mismatch or metabolic stress</td><td>Check CO/CI, Hb, SaO₂, temperature, vasoactive dose, and perfusion</td></tr><tr><td>Low urine output</td><td>Low renal perfusion, venous congestion, AKI, or vasoconstriction</td><td>Assess MAP, CI, CVP, fluid balance, renal trend, and congestion</td></tr><tr><td>Falling SvO₂</td><td>Increased extraction from low delivery or high demand</td><td>Assess flow, Hb, oxygenation, fever, shivering, pain, and WOB</td></tr></table>"
+      "content": "<h3>Cardiac output - pressure is not enough</h3>\n<p><strong>Cardiac output</strong> is the amount of blood pumped by the heart per minute. It is the flow that carries oxygen, carbon dioxide, glucose, drugs, heat, electrolytes, clotting factors, inflammatory mediators, and waste products. In CTICU, cardiac output matters because organs fail when flow and oxygen delivery are inadequate.</p>\n<p>The equation is <strong>CO = HR × SV</strong>. The simplicity of the equation is deceptive because HR and SV are influenced by rhythm, AV synchrony, preload, afterload, contractility, valve function, ventricular compliance, intrathoracic pressure, temperature, metabolic demand, and vasoactive therapy.</p>\n<h4>Heart rate</h4>\n<p>Heart rate increases cardiac output only if stroke volume is maintained. If SV is 70 mL and HR is 70/min, CO is 4.9 L/min. If HR rises to 100/min and SV remains 70 mL, CO becomes 7.0 L/min. This explains why bradycardia can cause low output when SV cannot compensate.</p>\n<p>The limitation is diastolic filling time. At excessive rates, especially around 120-150/min in vulnerable post-cardiac surgery patients, diastole becomes too short. Ventricular filling falls, coronary perfusion time falls, myocardial oxygen demand rises, and stroke volume may fall enough that total cardiac output decreases.</p>\n<h4>Stroke volume</h4>\n<p>Stroke volume is the volume ejected per beat. It is usually around 60-100 mL/beat in many adults. It is determined by preload, afterload, and contractility. Low SV causes narrow pulse pressure and may produce compensatory tachycardia and vasoconstriction.</p>\n<p>Low SV may result from underfilling, bleeding, tamponade, poor contractility, excessive afterload, RV failure with LV underfilling, valve obstruction, valve regurgitation, dyssynchrony, or rapid arrhythmia. The treatment differs completely depending on the cause.</p>\n<h4>Preload, afterload, and contractility</h4>\n<p>Preload is filling/stretch before contraction. Fluid helps only if the ventricle is preload responsive and fluid tolerant. Afterload is the load against which the ventricle ejects. Excessive SVR can reduce LV stroke volume; excessive PVR can cause RV failure. Contractility is intrinsic myocardial force generation and may be impaired after bypass, ischaemia, hypothermia, acidosis, or electrolyte derangement.</p>\n<h4>MAP versus cardiac output</h4>\n<p>A useful relationship is <strong>MAP ≈ CO × SVR + CVP</strong>. This explains why MAP can mislead. MAP can be low because CO is low, SVR is low, or both. MAP can be normal because flow is adequate or because SVR is high despite low flow.</p>\n<table><tr><th>Pattern</th><th>MAP</th><th>CO/CI</th><th>SVR</th><th>Likely physiology</th></tr><tr><td>Vasoplegia</td><td>Low</td><td>Normal/high</td><td>Low</td><td>Post-CPB vasodilation; pressure problem more than pump problem</td></tr><tr><td>Low-output shock</td><td>Low or supported</td><td>Low</td><td>Normal/high</td><td>Pump, preload, rhythm, afterload, RV, or obstruction issue</td></tr><tr><td>Compensated low flow</td><td>Normal</td><td>Low</td><td>High</td><td>Vasoconstriction preserving MAP while organs receive poor flow</td></tr><tr><td>Mixed shock</td><td>Low</td><td>Low/normal</td><td>Low/variable</td><td>Vasoplegia plus myocardial dysfunction, bleeding, or inflammatory shock</td></tr></table>\n<h4>Cardiac index</h4>\n<p>Cardiac index is CO divided by body surface area. It is measured in L/min/m². A common minimum CTICU target is ≥2.2 L/min/m², but adequacy depends on demand. A CI of 2.3 may be acceptable in a sedated normothermic patient with falling lactate, but inadequate in fever, shivering, anaemia, sepsis, or respiratory distress.</p>\n<h4>Low cardiac output syndrome</h4>\n<p>Low cardiac output syndrome after cardiac surgery is a pattern. Concerning signs include CI below 2.2 L/min/m², weak arterial upstroke, narrow pulse pressure, cool peripheries, mottling, delayed capillary refill, urine output below 0.5 mL/kg/hr, rising lactate, worsening base excess, falling SvO₂, escalating vasopressors, and altered mentation if awake.</p>\n<p>The cause must be split into preload, rhythm, contractility, afterload, obstruction, and demand. Preload problems include bleeding, vasodilation, low stressed volume, tamponade, high PEEP, or RV failure. Rhythm problems include bradycardia, rapid AF, heart block, loss of AV synchrony, and poor pacing settings. Contractility problems include stunning, ischaemia, graft issues, hypothermia, acidosis, and electrolyte abnormalities. Afterload problems include high SVR for the LV or high PVR for the RV. Obstruction includes tamponade, tension pneumothorax, PE, valve obstruction, or graft/outflow complications.</p>\n<p>The endpoint is not a perfect monitor number. The endpoint is adequate oxygen delivery with acceptable haemodynamic cost: sufficient MAP, CI, pulse pressure, falling lactate, acceptable SvO₂, adequate urine output, stable rhythm, manageable filling pressures, and no worsening pulmonary oedema, RV congestion, bleeding, graft compromise, or valve stress.</p>"
     },
     "pearls": {
-      "content": "<h3>Clinical Pearls - Cardiac Output and Determinants</h3><h4>Pearl 1 - Treat the mechanism, not the number</h4><p>Cardiac Output and Determinants becomes clinically useful only when linked to preload, afterload, contractility, rhythm, oxygen delivery, and demand.</p><h4>Pearl 2 - Trends beat snapshots</h4><p>A changing trend with worsening lactate, urine output, pulse pressure, or SvO₂ is more important than a single apparently acceptable value.</p><h4>Pearl 3 - Validate before acting</h4><p>Check waveform, zero, level, sample site, timing, rhythm, ventilation, and patient position before escalating therapy based on a number.</p><h4>Pearl 4 - The RV and LV may need different things</h4><p>LV-focused management can harm the RV if PVR, CVP, and septal shift are ignored.</p>"
+      "content": "<h3>Clinical Pearls - Cardiac Output</h3>\n<h4>Pearl 1 - MAP is not flow</h4>\n<p>A normal MAP can hide low cardiac output if SVR is high.</p>\n<h4>Pearl 2 - Tachycardia helps until filling time collapses</h4>\n<p>Heart rate increases CO only while stroke volume is preserved.</p>\n<h4>Pearl 3 - Pulse pressure is often your stroke-volume clue</h4>\n<p>Narrowing pulse pressure in a fresh cardiac patient is a warning pattern.</p>\n<h4>Pearl 4 - CI must match demand</h4>\n<p>A borderline CI may be inadequate if VO₂ is high.</p>"
     },
     "equipment": {
-      "content": "<h3>Equipment Tie-In - Cardiac Output and Determinants</h3><p><strong>Arterial line:</strong> shows pressure, pulse pressure, upstroke, damping, and response to therapy.</p><p><strong>CVP/PAC:</strong> helps separate filling pressure, PA pressure, CO/CI, SVR, PVR, and SvO₂ when present.</p><p><strong>Echo:</strong> identifies chamber size, LV/RV function, septal shift, tamponade, valve problems, and gross filling state.</p><p><strong>Ventilator:</strong> affects venous return, PVR, oxygenation, PaCO₂, pH, and work of breathing.</p><p><strong>ABG/POCT:</strong> provides lactate, pH, PaCO₂, PaO₂, Hb, potassium, ionised calcium, and other variables that change haemodynamics.</p>"
+      "content": "<h3>Equipment Tie-In - Cardiac Output</h3>\n<p><strong>Arterial lines</strong> show pressure and waveform morphology, not CO directly.</p>\n<p><strong>PAC</strong> can measure CO/CI and calculate SVR/PVR while also showing filling pressures and SvO₂.</p>\n<p><strong>Pulse contour monitors</strong> estimate SV/CO from the arterial waveform but are limited by damping, arrhythmia, rapid SVR changes, valve disease, and IABP.</p>\n<p><strong>Echo</strong> shows chamber size, LV/RV function, tamponade, valve lesions, and gross filling.</p>"
     },
     "targets": {
-      "content": "<h3>Targets and Numbers - Cardiac Output and Determinants</h3><p>Targets are pattern-based rather than isolated. Common CTICU reference points include MAP 65-85 mmHg, CI ≥2.2 L/min/m², urine output ≥0.5 mL/kg/hr, lactate <2 mmol/L or falling, SvO₂ 60-80% or ≥65-70% when appropriate, CVP often 5-12 mmHg depending context, and PAWP often 8-15 mmHg if valid. Patient type, surgical procedure, RV risk, bleeding risk, valve repair, aortic surgery, and chronic hypertension may shift targets.</p>",
+      "content": "<h3>Targets and Numbers - Cardiac Output</h3>\n<p>Typical adult CO is about 4-8 L/min. Common CI target is ≥2.2 L/min/m², with many stable patients around 2.5-4.0. Urine output should usually be ≥0.5 mL/kg/hr, lactate <2 mmol/L or falling, and SvO₂ 60-80% or ≥65-70% if the rest of the picture agrees.</p>",
       "tables": [
         {
-          "heading": "Core values and interpretation",
+          "heading": "Cardiac output core values",
           "headers": [
             "Parameter",
-            "Common target/range",
+            "Target/range",
             "Meaning",
             "CTICU interpretation"
           ],
           "rows": [
             [
-              "MAP",
-              "Often 65-85 mmHg",
-              "Perfusion pressure",
-              "Must be matched with CI, lactate, UO, and SvO₂"
+              "SV",
+              "60-100 mL/beat",
+              "Volume ejected per beat",
+              "Falls with underfilling, poor contractility, high afterload, tamponade, RV failure"
+            ],
+            [
+              "CO",
+              "4-8 L/min",
+              "Total flow per minute",
+              "Must match body size and metabolic demand"
             ],
             [
               "CI",
               "≥2.2 L/min/m²",
-              "Forward flow indexed to size",
+              "Flow indexed to body surface area",
               "Low with poor perfusion suggests low-output physiology"
             ],
             [
-              "CVP",
-              "Often 5-12 mmHg, context dependent",
-              "Right-sided pressure",
-              "High with shock suggests RV/obstructive/congestive physiology"
-            ],
-            [
-              "PAWP",
-              "Often 8-15 mmHg if valid",
-              "Left-sided filling estimate",
-              "High with hypoxia suggests congestion or LV dysfunction"
-            ],
-            [
-              "Lactate",
-              "<2 mmol/L or falling",
-              "Perfusion/metabolic stress",
-              "Rising suggests delivery-demand mismatch or severe stress"
-            ],
-            [
-              "Urine output",
+              "UO",
               "≥0.5 mL/kg/hr",
               "Renal perfusion/congestion marker",
-              "Low in low flow, venous congestion, AKI, or vasoconstriction"
-            ],
-            [
-              "SvO₂",
-              "60-80%; often ≥65-70%",
-              "Global oxygen extraction",
-              "Low suggests delivery-demand mismatch"
-            ]
-          ]
-        },
-        {
-          "heading": "CTICU pattern recognition",
-          "headers": [
-            "Pattern",
-            "Likely mechanism",
-            "Early signs",
-            "Escalation trigger"
-          ],
-          "rows": [
-            [
-              "Low MAP + high CI",
-              "Low SVR/vasoplegia",
-              "Warm, bounding pulse, low diastolic pressure",
-              "Persistent hypotension or rising lactate"
-            ],
-            [
-              "Low MAP + low CI",
-              "Low output",
-              "Narrow pulse pressure, cool, low UO",
-              "CI <2.2 with worsening markers"
-            ],
-            [
-              "Low MAP + rising CVP",
-              "RV/obstructive physiology",
-              "Narrow pulse pressure, rising lactate",
-              "Tamponade/RV failure concern"
-            ],
-            [
-              "Normal MAP + low CI",
-              "Pressure without flow",
-              "High SVR, cool, low SvO₂",
-              "Rising lactate despite MAP"
+              "Low in low flow or venous congestion"
             ]
           ]
         }
@@ -114,42 +61,42 @@
   "quizQuestions": [
     {
       "level": "basic",
-      "question": "What is the safest way to interpret Cardiac Output and Determinants in CTICU?",
+      "question": "What is the central bedside concept in Cardiac Output and Determinants?",
       "type": "multipleChoice",
       "options": [
-        "As part of a full haemodynamic pattern",
-        "As a single isolated number",
-        "By ignoring waveform quality",
-        "By treating every abnormal value with fluid"
+        "Interpret the value as part of a haemodynamic pattern, not as an isolated number",
+        "Treat every abnormal number with fluid",
+        "Ignore the waveform and rely only on MAP",
+        "Use SpO₂ as the only marker of perfusion"
       ],
       "correct": 0,
-      "explanation": "Cardiac Output and Determinants must be interpreted with pressure, flow, waveform quality, rhythm, oxygen delivery, demand, and clinical response."
+      "explanation": "Cardiac Output and Determinants must be interpreted in context. CTICU physiology depends on patterns across pressure, flow, filling, oxygen delivery, demand, waveforms, and clinical response."
     },
     {
       "level": "reasoning",
-      "question": "A patient has conflicting data related to Cardiac Output and Determinants. What should happen first?",
+      "question": "A post-cardiac surgery patient deteriorates and the Cardiac Output and Determinants data conflict with the clinical picture. What is the safest action?",
       "type": "multipleChoice",
       "options": [
-        "Validate the measurement and correlate with the clinical picture",
-        "Assume the number is correct and treat immediately",
-        "Ignore the patient examination",
-        "Give a large fluid bolus automatically"
+        "Validate the measurement and integrate it with rhythm, waveform, lactate, urine output, echo, and perfusion",
+        "Assume the single number is correct and treat it alone",
+        "Ignore the patient because the monitor is always right",
+        "Give repeated fluid without reassessment"
       ],
       "correct": 0,
-      "explanation": "Measurement validity and clinical correlation come first because transducer error, sampling error, damping, rhythm, ventilation, and patient position can all change interpretation."
+      "explanation": "The safest CTICU approach is to validate the measurement, check equipment and waveform quality, then interpret it against the whole clinical pattern before acting."
     },
     {
       "level": "expert",
-      "question": "Why is isolated interpretation of Cardiac Output and Determinants dangerous after cardiac surgery?",
+      "question": "Why is isolated interpretation dangerous in Cardiac Output and Determinants?",
       "type": "multipleChoice",
       "options": [
-        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and demand interact",
-        "Because CTICU patients do not need haemodynamic monitoring",
-        "Because normal MAP always proves normal flow",
-        "Because all post-op cardiac patients have identical physiology"
+        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and metabolic demand interact",
+        "Because cardiac physiology has no relationship to clinical signs",
+        "Because all post-operative patients have identical targets",
+        "Because monitors cannot display useful information"
       ],
       "correct": 0,
-      "explanation": "After cardiac surgery the haemodynamic system is interactive. A single value can reflect multiple mechanisms and can be misleading unless interpreted with the full CTICU pattern."
+      "explanation": "Isolated interpretation is dangerous because CTICU haemodynamics are interactive. The same value may mean different things depending on ventricular function, vascular tone, rhythm, ventilation, oxygen delivery, and surgical context."
     }
   ]
 }

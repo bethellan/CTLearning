@@ -1,39 +1,54 @@
 {
-  "domain": 1,
-  "domainTitle": "Physiology Foundations",
-  "folder": "content/domain1/",
-  "files": [
+  "domain": "domain1",
+  "domainName": "Physiology Foundations",
+  "domainColour": "#0B5FFF",
+  "version": "domain1-comprehensive-verbose-v2",
+  "generated": "2026-05-30T08:43:53Z",
+  "topics": [
     {
-      "file": "cardiac-cycle.json",
+      "file": "overview.json",
+      "id": "domain1-overview",
+      "title": "Domain 1 Overview: Physiology Foundations"
+    },
+    {
+      "file": "cardiac_cycle.json",
+      "id": "cardiac-cycle",
       "title": "The Cardiac Cycle"
     },
     {
       "file": "cardiac_output_and_determinants.json",
+      "id": "cardiac-output-and-determinants",
       "title": "Cardiac Output and Determinants"
     },
     {
       "file": "preload_lvedp_and_cvp.json",
-      "title": "Preload, LVEDP and CVP"
+      "id": "preload-lvedp-and-cvp",
+      "title": "Preload: LVEDP and CVP"
     },
     {
       "file": "afterload_svr_and_pvr.json",
-      "title": "Afterload, SVR and PVR"
+      "id": "afterload-svr-and-pvr",
+      "title": "Afterload: SVR and PVR"
     },
     {
       "file": "contractility_and_inotropy.json",
+      "id": "contractility-and-inotropy",
       "title": "Contractility and Inotropy"
     },
     {
       "file": "frank_starling_mechanism.json",
+      "id": "frank-starling-mechanism",
       "title": "Frank-Starling Mechanism"
     },
     {
       "file": "oxygen_delivery_and_consumption.json",
-      "title": "Oxygen Delivery and Consumption"
+      "id": "oxygen-delivery-and-consumption",
+      "title": "Oxygen Delivery and Consumption: DO2 and VO2"
     },
     {
       "file": "mixed_venous_saturations.json",
-      "title": "Mixed Venous Saturations"
+      "id": "mixed-venous-saturations",
+      "title": "Mixed Venous Saturations: SvO2 and ScvO2"
     }
   ]
 }

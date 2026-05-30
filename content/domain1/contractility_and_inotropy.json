@@ -6,105 +6,52 @@
   "title": "Contractility and Inotropy",
   "sections": {
     "abridged": {
-      "content": "<h3>Contractility - intrinsic myocardial force generation</h3>\n<p>Contractility is intrinsic myocardial force generation at a given preload and afterload. Inotropy refers to a change in that force. Positive inotropes increase contractility; negative inotropes reduce it.</p>\n<p>Contractility is not the same as EF, MAP, or CO. EF is load-dependent. A vasodilated patient may appear hyperdynamic while hypotensive. A high-afterload patient may appear to have reduced systolic function because the ventricle cannot eject against resistance.</p>\n<p>After cardiac surgery, contractility can be impaired by myocardial stunning, ischaemia-reperfusion, cardioplegia, graft problems, hypothermia, acidosis, hypocalcaemia, potassium or magnesium abnormalities, RV strain, and prolonged bypass.</p>\n<p>Poor contractility appears as low CI, weak arterial upstroke, narrow pulse pressure, rising lactate, low SvO₂, oliguria, pulmonary congestion, and escalating support. The solution is not always fluid; it may be rhythm correction, afterload optimisation, metabolic correction, inotropy, echo, or surgical escalation.</p>"
+      "content": "<h3>Contractility - intrinsic myocardial force generation</h3>\n<p><strong>Contractility</strong> is intrinsic myocardial force generation at a given preload and afterload. <strong>Inotropy</strong> refers to changes in that contractile force. Positive inotropes increase contraction strength.</p>\n<p>Contractility is not the same as EF, MAP, or CO. EF is load-dependent. A vasodilated patient may look hyperdynamic while hypotensive. A high-afterload patient may look worse because the ventricle cannot eject effectively.</p>\n<p>After surgery, contractility may be impaired by stunning, ischaemia-reperfusion, cardioplegia, graft problems, hypothermia, acidosis, electrolyte abnormalities, RV strain, or prolonged bypass.</p>"
     },
     "expanded": {
-      "content": "<h3>Contractility - intrinsic myocardial force generation</h3>\n<p>This topic must be understood as a mechanism, not as a list of numbers. In CTICU, the same numerical value can mean different things depending on rhythm, ventricular function, vascular tone, ventilation, oxygen content, temperature, bleeding, surgical context, and the patient’s response over time.</p>\n<h4>Cellular calcium</h4>\n<p><strong>cellular calcium</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, cellular calcium affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess cellular calcium by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Inotropy</h4>\n<p><strong>inotropy</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, inotropy affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess inotropy by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>EF limitations</h4>\n<p><strong>EF limitations</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, EF limitations affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess EF limitations by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Post-bypass stunning</h4>\n<p><strong>post-bypass stunning</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, post-bypass stunning affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess post-bypass stunning by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>LV contractility</h4>\n<p><strong>LV contractility</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, LV contractility affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess LV contractility by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>RV contractility</h4>\n<p><strong>RV contractility</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, RV contractility affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess RV contractility by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Metabolic causes</h4>\n<p><strong>metabolic causes</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, metabolic causes affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess metabolic causes by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Decision loop</h4>\n<p><strong>decision loop</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, decision loop affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess decision loop by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>CTICU bedside integration</h4>\n<p>Start by confirming the measurement is real: level, zero, waveform quality, sampling site, timing, rhythm, and patient position. Then separate pressure from flow. Ask whether the patient has adequate cardiac output, adequate vascular tone, acceptable filling pressures, tolerable afterload, adequate oxygen content, and acceptable oxygen demand.</p>\n<p>Next, decide which mechanism is most likely failing: preload, afterload, contractility, rhythm, obstruction, oxygen content, or oxygen demand. The intervention follows the mechanism. Fluid is for preload-responsive and fluid-tolerant physiology. Vasopressor is for inadequate vascular tone or perfusion pressure. Inotropy is for inadequate pump force. Ventilation and oxygenation changes are haemodynamic interventions when PVR or work of breathing is part of the problem.</p>\n<p>Finally, reassess after every intervention. A useful intervention improves flow or oxygen economy: stronger pulse pressure, improved CI, better urine output, falling lactate, improved SvO₂, improved skin perfusion, or reduced vasoactive requirement. A harmful intervention raises filling pressure, worsens oxygenation, worsens RV dilation, increases afterload excessively, or improves MAP while lactate and SvO₂ worsen.</p>\n<h4>Pattern table</h4><table><tr><th>Finding</th><th>Meaning</th><th>CTICU action</th></tr><tr><td>Rising lactate</td><td>Oxygen delivery-demand mismatch or metabolic stress</td><td>Check CO/CI, Hb, SaO₂, temperature, vasoactive dose, and perfusion</td></tr><tr><td>Low urine output</td><td>Low renal perfusion, venous congestion, AKI, or vasoconstriction</td><td>Assess MAP, CI, CVP, fluid balance, renal trend, and congestion</td></tr><tr><td>Falling SvO₂</td><td>Increased extraction from low delivery or high demand</td><td>Assess flow, Hb, oxygenation, fever, shivering, pain, and WOB</td></tr></table>"
+      "content": "<h3>Contractility - intrinsic myocardial force generation</h3>\n<p><strong>Contractility</strong> is the ability of myocardium to generate force independent of preload and afterload. It reflects calcium handling, actin-myosin interaction, sympathetic stimulation, oxygen supply, pH, temperature, electrolytes, and myocardial integrity.</p>\n<h4>Cellular mechanism</h4>\n<p>Depolarisation triggers calcium entry and calcium release from the sarcoplasmic reticulum. Calcium binds troponin C, enabling actin-myosin cross-bridge cycling. Better calcium cycling increases force. Relaxation also requires calcium reuptake, so impaired calcium handling affects systole and diastole.</p>\n<h4>Inotropy</h4>\n<p><strong>Inotropy</strong> is alteration of contractile force. Positive inotropes such as adrenaline, dobutamine, milrinone, and levosimendan improve force through different mechanisms. They can improve flow but may increase arrhythmia risk, myocardial oxygen demand, hypotension, or lactate depending on the drug and physiology.</p>\n<h4>Contractility versus EF</h4>\n<p>Ejection fraction is SV divided by EDV. It is not pure contractility because it changes with preload and afterload. A small underfilled LV may look hyperdynamic but eject a low absolute volume. A high-afterload LV may show reduced EF because it cannot eject against resistance.</p>\n<h4>Post-bypass myocardial stunning</h4>\n<p>Myocardial stunning is transient mechanical dysfunction after ischaemia-reperfusion despite restored flow. Cardioplegia, cross-clamp, hypothermia, inflammation, haemodilution, and reperfusion stress contribute. It presents with low CI, weak pulse pressure, low SvO₂, rising lactate, high filling pressures, and inotrope requirement.</p>\n<p>Not all post-operative poor contractility is benign stunning. Graft occlusion, coronary spasm, air embolus, valve obstruction, tamponade, RV infarction, pulmonary hypertension crisis, and surgical complications can look similar. New ST changes, regional wall-motion abnormality, malignant arrhythmias, refractory shock, or sudden deterioration require urgent escalation.</p>\n<h4>RV contractility</h4>\n<p>The RV is afterload-sensitive. RV contractility may fail after mitral surgery, pulmonary hypertension, protamine reaction, hypoxia, hypercapnia, acidosis, high PEEP, RV infarction, or prolonged bypass. CVP rises while LV filling and cardiac output fall.</p>\n<table><tr><th>Finding</th><th>Mechanism</th><th>Interpretation</th></tr><tr><td>Low CI</td><td>Weak forward ejection</td><td>Assess contractility, preload, rhythm, afterload, obstruction</td></tr><tr><td>Narrow pulse pressure</td><td>Low stroke volume</td><td>Poor contractility or underfilling</td></tr><tr><td>Rising lactate</td><td>Inadequate DO₂ or stress</td><td>Low-flow concern if paired with poor perfusion</td></tr><tr><td>Low SvO₂</td><td>Increased extraction</td><td>Delivery-demand mismatch</td></tr><tr><td>High PAWP</td><td>LV cannot eject effectively</td><td>Fluid may worsen pulmonary oedema</td></tr></table>\n<h4>Decision loop</h4>\n<ol><li><p>Check rhythm and AV synchrony.</p></li><li><p>Check preload and congestion.</p></li><li><p>Check afterload, including SVR and PVR.</p></li><li><p>Check myocardial oxygen supply: Hb, SpO₂, diastolic pressure, ST changes.</p></li><li><p>Correct pH, temperature, potassium, magnesium, and ionised calcium.</p></li><li><p>Escalate for echo and senior review if low output is persistent or worsening.</p></li></ol>"
     },
     "pearls": {
-      "content": "<h3>Clinical Pearls - Contractility and Inotropy</h3><h4>Pearl 1 - Treat the mechanism, not the number</h4><p>Contractility and Inotropy becomes clinically useful only when linked to preload, afterload, contractility, rhythm, oxygen delivery, and demand.</p><h4>Pearl 2 - Trends beat snapshots</h4><p>A changing trend with worsening lactate, urine output, pulse pressure, or SvO₂ is more important than a single apparently acceptable value.</p><h4>Pearl 3 - Validate before acting</h4><p>Check waveform, zero, level, sample site, timing, rhythm, ventilation, and patient position before escalating therapy based on a number.</p><h4>Pearl 4 - The RV and LV may need different things</h4><p>LV-focused management can harm the RV if PVR, CVP, and septal shift are ignored.</p>"
+      "content": "<h3>Clinical Pearls - Contractility</h3>\n<h4>Pearl 1 - EF is load-dependent</h4>\n<p>EF changes with preload and afterload and must not be treated as pure contractility.</p>\n<h4>Pearl 2 - Do not keep filling a weak ventricle</h4>\n<p>If the heart is full but weak, fluid raises pressure more than flow.</p>\n<h4>Pearl 3 - Stunning is common but not a diagnosis of exclusion forever</h4>\n<p>Persistent shock requires investigation for graft, valve, tamponade, RV, or surgical causes.</p>"
     },
     "equipment": {
-      "content": "<h3>Equipment Tie-In - Contractility and Inotropy</h3><p><strong>Arterial line:</strong> shows pressure, pulse pressure, upstroke, damping, and response to therapy.</p><p><strong>CVP/PAC:</strong> helps separate filling pressure, PA pressure, CO/CI, SVR, PVR, and SvO₂ when present.</p><p><strong>Echo:</strong> identifies chamber size, LV/RV function, septal shift, tamponade, valve problems, and gross filling state.</p><p><strong>Ventilator:</strong> affects venous return, PVR, oxygenation, PaCO₂, pH, and work of breathing.</p><p><strong>ABG/POCT:</strong> provides lactate, pH, PaCO₂, PaO₂, Hb, potassium, ionised calcium, and other variables that change haemodynamics.</p>"
+      "content": "<h3>Equipment Tie-In - Contractility</h3>\n<p><strong>Arterial line</strong> shows upstroke and pulse pressure response.</p>\n<p><strong>PAC</strong> shows CI, filling pressures, SVR/PVR, and SvO₂.</p>\n<p><strong>Echo</strong> directly assesses LV/RV function, chamber size, valves, septum, and tamponade.</p>\n<p><strong>ABG/POCT</strong> identifies pH, lactate, potassium, ionised calcium, haemoglobin, oxygenation, and ventilation factors.</p>"
     },
     "targets": {
-      "content": "<h3>Targets and Numbers - Contractility and Inotropy</h3><p>Targets are pattern-based rather than isolated. Common CTICU reference points include MAP 65-85 mmHg, CI ≥2.2 L/min/m², urine output ≥0.5 mL/kg/hr, lactate <2 mmol/L or falling, SvO₂ 60-80% or ≥65-70% when appropriate, CVP often 5-12 mmHg depending context, and PAWP often 8-15 mmHg if valid. Patient type, surgical procedure, RV risk, bleeding risk, valve repair, aortic surgery, and chronic hypertension may shift targets.</p>",
+      "content": "<h3>Targets and Numbers - Contractility</h3>\n<p>Contractility is judged indirectly. Aim for CI ≥2.2 L/min/m², falling lactate, SvO₂ 60-80% or ≥65-70%, UO ≥0.5 mL/kg/hr, improving pulse pressure, and acceptable filling pressures. Common supportive electrolyte goals include K⁺ 4.0-4.5 mmol/L, Mg²⁺ ≥0.8-1.0 mmol/L, and ionised Ca²⁺ 1.1-1.3 mmol/L depending local practice.</p>",
       "tables": [
         {
-          "heading": "Core values and interpretation",
+          "heading": "Contractility markers",
           "headers": [
             "Parameter",
-            "Common target/range",
+            "Target/range",
             "Meaning",
-            "CTICU interpretation"
+            "Concern"
           ],
           "rows": [
-            [
-              "MAP",
-              "Often 65-85 mmHg",
-              "Perfusion pressure",
-              "Must be matched with CI, lactate, UO, and SvO₂"
-            ],
             [
               "CI",
               "≥2.2 L/min/m²",
-              "Forward flow indexed to size",
-              "Low with poor perfusion suggests low-output physiology"
-            ],
-            [
-              "CVP",
-              "Often 5-12 mmHg, context dependent",
-              "Right-sided pressure",
-              "High with shock suggests RV/obstructive/congestive physiology"
-            ],
-            [
-              "PAWP",
-              "Often 8-15 mmHg if valid",
-              "Left-sided filling estimate",
-              "High with hypoxia suggests congestion or LV dysfunction"
-            ],
-            [
-              "Lactate",
-              "<2 mmol/L or falling",
-              "Perfusion/metabolic stress",
-              "Rising suggests delivery-demand mismatch or severe stress"
-            ],
-            [
-              "Urine output",
-              "≥0.5 mL/kg/hr",
-              "Renal perfusion/congestion marker",
-              "Low in low flow, venous congestion, AKI, or vasoconstriction"
+              "Forward flow",
+              "Low with poor perfusion suggests pump failure"
             ],
             [
               "SvO₂",
-              "60-80%; often ≥65-70%",
-              "Global oxygen extraction",
-              "Low suggests delivery-demand mismatch"
-            ]
-          ]
-        },
-        {
-          "heading": "CTICU pattern recognition",
-          "headers": [
-            "Pattern",
-            "Likely mechanism",
-            "Early signs",
-            "Escalation trigger"
-          ],
-          "rows": [
-            [
-              "Low MAP + high CI",
-              "Low SVR/vasoplegia",
-              "Warm, bounding pulse, low diastolic pressure",
-              "Persistent hypotension or rising lactate"
+              "60-80%",
+              "Oxygen balance",
+              "Low suggests delivery-demand problem"
             ],
             [
-              "Low MAP + low CI",
-              "Low output",
-              "Narrow pulse pressure, cool, low UO",
-              "CI <2.2 with worsening markers"
+              "Lactate",
+              "<2 or falling",
+              "Perfusion/metabolic marker",
+              "Rising suggests inadequate DO₂/stress"
             ],
             [
-              "Low MAP + rising CVP",
-              "RV/obstructive physiology",
-              "Narrow pulse pressure, rising lactate",
-              "Tamponade/RV failure concern"
-            ],
-            [
-              "Normal MAP + low CI",
-              "Pressure without flow",
-              "High SVR, cool, low SvO₂",
-              "Rising lactate despite MAP"
+              "Ionised Ca²⁺",
+              "1.1-1.3 mmol/L",
+              "Contraction and tone",
+              "Low impairs contractility"
             ]
           ]
         }
@@ -114,42 +61,42 @@
   "quizQuestions": [
     {
       "level": "basic",
-      "question": "What is the safest way to interpret Contractility and Inotropy in CTICU?",
+      "question": "What is the central bedside concept in Contractility and Inotropy?",
       "type": "multipleChoice",
       "options": [
-        "As part of a full haemodynamic pattern",
-        "As a single isolated number",
-        "By ignoring waveform quality",
-        "By treating every abnormal value with fluid"
+        "Interpret the value as part of a haemodynamic pattern, not as an isolated number",
+        "Treat every abnormal number with fluid",
+        "Ignore the waveform and rely only on MAP",
+        "Use SpO₂ as the only marker of perfusion"
       ],
       "correct": 0,
-      "explanation": "Contractility and Inotropy must be interpreted with pressure, flow, waveform quality, rhythm, oxygen delivery, demand, and clinical response."
+      "explanation": "Contractility and Inotropy must be interpreted in context. CTICU physiology depends on patterns across pressure, flow, filling, oxygen delivery, demand, waveforms, and clinical response."
     },
     {
       "level": "reasoning",
-      "question": "A patient has conflicting data related to Contractility and Inotropy. What should happen first?",
+      "question": "A post-cardiac surgery patient deteriorates and the Contractility and Inotropy data conflict with the clinical picture. What is the safest action?",
       "type": "multipleChoice",
       "options": [
-        "Validate the measurement and correlate with the clinical picture",
-        "Assume the number is correct and treat immediately",
-        "Ignore the patient examination",
-        "Give a large fluid bolus automatically"
+        "Validate the measurement and integrate it with rhythm, waveform, lactate, urine output, echo, and perfusion",
+        "Assume the single number is correct and treat it alone",
+        "Ignore the patient because the monitor is always right",
+        "Give repeated fluid without reassessment"
       ],
       "correct": 0,
-      "explanation": "Measurement validity and clinical correlation come first because transducer error, sampling error, damping, rhythm, ventilation, and patient position can all change interpretation."
+      "explanation": "The safest CTICU approach is to validate the measurement, check equipment and waveform quality, then interpret it against the whole clinical pattern before acting."
     },
     {
       "level": "expert",
-      "question": "Why is isolated interpretation of Contractility and Inotropy dangerous after cardiac surgery?",
+      "question": "Why is isolated interpretation dangerous in Contractility and Inotropy?",
       "type": "multipleChoice",
       "options": [
-        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and demand interact",
-        "Because CTICU patients do not need haemodynamic monitoring",
-        "Because normal MAP always proves normal flow",
-        "Because all post-op cardiac patients have identical physiology"
+        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and metabolic demand interact",
+        "Because cardiac physiology has no relationship to clinical signs",
+        "Because all post-operative patients have identical targets",
+        "Because monitors cannot display useful information"
       ],
       "correct": 0,
-      "explanation": "After cardiac surgery the haemodynamic system is interactive. A single value can reflect multiple mechanisms and can be misleading unless interpreted with the full CTICU pattern."
+      "explanation": "Isolated interpretation is dangerous because CTICU haemodynamics are interactive. The same value may mean different things depending on ventricular function, vascular tone, rhythm, ventilation, oxygen delivery, and surgical context."
     }
   ]
 }

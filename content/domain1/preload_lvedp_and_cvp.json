@@ -6,105 +6,52 @@
   "title": "Preload: LVEDP and CVP",
   "sections": {
     "abridged": {
-      "content": "<h3>Preload - filling pressure, stretch, and compliance</h3>\n<p>Preload is myocardial fibre stretch at end-diastole just before contraction. At the bedside it is estimated using filling pressures, chamber size, trends, and response. Left-sided preload is approximated by LVEDP, PAWP/PCWP, LV size, and echo. Right-sided preload is often approximated by CVP/right atrial pressure.</p>\n<p>Preload is not total body fluid volume. CVP is a pressure, not a tank gauge. A high CVP can reflect RV failure, pulmonary hypertension, tamponade, high PEEP, tension pneumothorax, poor compliance, or venous congestion rather than simple overfilling.</p>\n<p>LVEDP depends heavily on LV compliance. A stiff post-aortic stenosis or post-bypass LV may develop pulmonary oedema from small volume increases. A low CVP may suggest low right-sided filling, but fluid only helps if stroke volume rises and the patient tolerates the added volume.</p>\n<p>Preload must be interpreted through CVP trend, PAWP, arterial waveform, pulse pressure, stroke volume, CI, drains, fluid balance, urine output, lactate, SvO₂, echo, oxygenation, and lung compliance.</p>"
+      "content": "<h3>Preload - filling pressure, stretch, and compliance</h3>\n<p><strong>Preload</strong> is myocardial fibre stretch at end-diastole, just before contraction. Left-sided preload is approximated by LVEDV, LVEDP, PAWP/PCWP, and echo. Right-sided preload is often approximated by CVP or right atrial pressure.</p>\n<p>CVP is a pressure, not a tank gauge. A CVP of 14 mmHg can reflect RV failure, pulmonary hypertension, tamponade, high PEEP, tension pneumothorax, poor compliance, or venous congestion rather than simple fluid excess.</p>\n<p>Preload is interpreted through trends and response: CVP, PAWP, pulse pressure, stroke volume, cardiac index, drains, fluid balance, urine output, lactate, SvO₂, echo, lung compliance, oxygenation, and clinical perfusion.</p>"
     },
     "expanded": {
-      "content": "<h3>Preload - filling pressure, stretch, and compliance</h3>\n<p>This topic must be understood as a mechanism, not as a list of numbers. In CTICU, the same numerical value can mean different things depending on rhythm, ventricular function, vascular tone, ventilation, oxygen content, temperature, bleeding, surgical context, and the patient’s response over time.</p>\n<h4>LVEDP</h4>\n<p><strong>LVEDP</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, LVEDP affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess LVEDP by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>CVP</h4>\n<p><strong>CVP</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, CVP affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess CVP by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Compliance</h4>\n<p><strong>compliance</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, compliance affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess compliance by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Venous return</h4>\n<p><strong>venous return</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, venous return affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess venous return by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Stressed volume</h4>\n<p><strong>stressed volume</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, stressed volume affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess stressed volume by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Fluid responsiveness</h4>\n<p><strong>fluid responsiveness</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, fluid responsiveness affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess fluid responsiveness by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Fluid tolerance</h4>\n<p><strong>fluid tolerance</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, fluid tolerance affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess fluid tolerance by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Tamponade and RV failure patterns</h4>\n<p><strong>tamponade and RV failure patterns</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, tamponade and RV failure patterns affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess tamponade and RV failure patterns by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>CTICU bedside integration</h4>\n<p>Start by confirming the measurement is real: level, zero, waveform quality, sampling site, timing, rhythm, and patient position. Then separate pressure from flow. Ask whether the patient has adequate cardiac output, adequate vascular tone, acceptable filling pressures, tolerable afterload, adequate oxygen content, and acceptable oxygen demand.</p>\n<p>Next, decide which mechanism is most likely failing: preload, afterload, contractility, rhythm, obstruction, oxygen content, or oxygen demand. The intervention follows the mechanism. Fluid is for preload-responsive and fluid-tolerant physiology. Vasopressor is for inadequate vascular tone or perfusion pressure. Inotropy is for inadequate pump force. Ventilation and oxygenation changes are haemodynamic interventions when PVR or work of breathing is part of the problem.</p>\n<p>Finally, reassess after every intervention. A useful intervention improves flow or oxygen economy: stronger pulse pressure, improved CI, better urine output, falling lactate, improved SvO₂, improved skin perfusion, or reduced vasoactive requirement. A harmful intervention raises filling pressure, worsens oxygenation, worsens RV dilation, increases afterload excessively, or improves MAP while lactate and SvO₂ worsen.</p>\n<h4>Pattern table</h4><table><tr><th>Finding</th><th>Meaning</th><th>CTICU action</th></tr><tr><td>Rising lactate</td><td>Oxygen delivery-demand mismatch or metabolic stress</td><td>Check CO/CI, Hb, SaO₂, temperature, vasoactive dose, and perfusion</td></tr><tr><td>Low urine output</td><td>Low renal perfusion, venous congestion, AKI, or vasoconstriction</td><td>Assess MAP, CI, CVP, fluid balance, renal trend, and congestion</td></tr><tr><td>Falling SvO₂</td><td>Increased extraction from low delivery or high demand</td><td>Assess flow, Hb, oxygenation, fever, shivering, pain, and WOB</td></tr></table>"
+      "content": "<h3>Preload - the filling condition before contraction</h3>\n<p><strong>Preload</strong> is end-diastolic myocardial stretch. It is related to ventricular end-diastolic volume but is often inferred from pressure and response because sarcomere stretch cannot be measured at the bedside.</p>\n<p>Preload matters because of Frank-Starling physiology. On the responsive part of the curve, extra filling increases stroke volume. On the flat part, extra filling raises pressure and congestion more than flow.</p>\n<h4>LVEDP and left-sided preload</h4>\n<p><strong>LVEDP</strong> is left ventricular end-diastolic pressure. It reflects the relationship between LV volume and LV compliance. A compliant ventricle accepts volume with little pressure rise. A stiff ventricle develops high pressure with small volume changes.</p>\n<p>Post-aortic stenosis, LV hypertrophy, diastolic dysfunction, post-bypass oedema, myocardial ischaemia, and restrictive physiology all reduce compliance. These patients may need enough preload to fill but can develop pulmonary oedema quickly if LVEDP rises.</p>\n<h4>CVP and right-sided preload</h4>\n<p><strong>CVP</strong> reflects pressure in the central venous/right atrial region. It is commonly used as a right-sided filling pressure estimate. A typical reference range is often 5-12 mmHg, but context matters more than the number.</p>\n<p>CVP rises with RV failure, high PVR, tamponade, high PEEP, tension pneumothorax, venous congestion, tricuspid regurgitation, and increased intrathoracic pressure. CVP may be low in hypovolaemia, vasodilation, and reduced stressed volume.</p>\n<table><tr><th>Condition</th><th>CVP effect</th><th>Mechanism</th><th>Fluid implication</th></tr><tr><td>Hypovolaemia</td><td>Often low</td><td>Low stressed volume and venous return</td><td>Fluid may help if SV rises</td></tr><tr><td>Vasoplegia</td><td>Low/normal</td><td>Venous capacitance increases</td><td>Vasopressor may recruit stressed volume</td></tr><tr><td>RV failure</td><td>High</td><td>RV cannot eject forward</td><td>Repeated fluid may worsen RV dilation</td></tr><tr><td>Tamponade</td><td>High/rising</td><td>External compression restricts filling</td><td>Urgent escalation; fluid may only temporise</td></tr><tr><td>High PEEP</td><td>High</td><td>Intrathoracic pressure transmitted to veins</td><td>Review ventilation and transmural filling</td></tr></table>\n<h4>Stressed volume</h4>\n<p>Only part of blood volume generates pressure for venous return. This is stressed volume. The rest is unstressed volume. After bypass, vasoplegia can increase venous capacitance, lowering effective venous return despite adequate total body fluid.</p>\n<h4>Fluid responsiveness and fluid tolerance</h4>\n<p>Fluid responsiveness means SV or CO rises after fluid, often by 10-15%. Fluid tolerance means the patient can safely accept the extra volume. A patient can be responsive but not tolerant, especially with RV failure or stiff LV physiology.</p>\n<p>Poor tolerance appears as rising CVP without flow gain, rising PAWP, worsening oxygenation, falling lung compliance, RV dilation, septal shift, hepatic congestion, or falling urine output from venous congestion.</p>\n<h4>Practical preload decision loop</h4>\n<ol><li><p><strong>Validate measurements.</strong> Check zero, level, waveform, position, ventilation, and catheter source.</p></li><li><p><strong>Assess congestion.</strong> Review CVP, PAWP, oxygenation, lung mechanics, echo, PA pressures, and renal venous congestion signs.</p></li><li><p><strong>Predict response.</strong> Use echo, stroke volume response, pulse pressure response, passive leg raise if appropriate, and dynamic indices only when valid.</p></li><li><p><strong>Assess tolerance.</strong> Stop if filling pressures rise without improved flow or oxygenation/RV function worsens.</p></li><li><p><strong>Escalate dangerous patterns.</strong> Low MAP plus rising CVP and narrowing pulse pressure after cardiac surgery is obstructive/RV physiology until proven otherwise.</p></li></ol>"
     },
     "pearls": {
-      "content": "<h3>Clinical Pearls - Preload: LVEDP and CVP</h3><h4>Pearl 1 - Treat the mechanism, not the number</h4><p>Preload: LVEDP and CVP becomes clinically useful only when linked to preload, afterload, contractility, rhythm, oxygen delivery, and demand.</p><h4>Pearl 2 - Trends beat snapshots</h4><p>A changing trend with worsening lactate, urine output, pulse pressure, or SvO₂ is more important than a single apparently acceptable value.</p><h4>Pearl 3 - Validate before acting</h4><p>Check waveform, zero, level, sample site, timing, rhythm, ventilation, and patient position before escalating therapy based on a number.</p><h4>Pearl 4 - The RV and LV may need different things</h4><p>LV-focused management can harm the RV if PVR, CVP, and septal shift are ignored.</p>"
+      "content": "<h3>Clinical Pearls - Preload</h3>\n<h4>Pearl 1 - CVP is pressure, not volume</h4>\n<p>CVP reflects right-sided pressure and is altered by RV function, PEEP, PVR, tamponade, venous tone, and compliance.</p>\n<h4>Pearl 2 - Fluid responsiveness is not fluid tolerance</h4>\n<p>A patient may increase stroke volume after fluid but still be harmed by congestion.</p>\n<h4>Pearl 3 - Rising CVP with shock after cardiac surgery is dangerous</h4>\n<p>This pattern should trigger concern for tamponade, RV failure, high PVR, high PEEP, or tension physiology.</p>"
     },
     "equipment": {
-      "content": "<h3>Equipment Tie-In - Preload: LVEDP and CVP</h3><p><strong>Arterial line:</strong> shows pressure, pulse pressure, upstroke, damping, and response to therapy.</p><p><strong>CVP/PAC:</strong> helps separate filling pressure, PA pressure, CO/CI, SVR, PVR, and SvO₂ when present.</p><p><strong>Echo:</strong> identifies chamber size, LV/RV function, septal shift, tamponade, valve problems, and gross filling state.</p><p><strong>Ventilator:</strong> affects venous return, PVR, oxygenation, PaCO₂, pH, and work of breathing.</p><p><strong>ABG/POCT:</strong> provides lactate, pH, PaCO₂, PaO₂, Hb, potassium, ionised calcium, and other variables that change haemodynamics.</p>"
+      "content": "<h3>Equipment Tie-In - Preload</h3>\n<p><strong>CVP transducers</strong> must be levelled and zeroed correctly. The waveform should be assessed, not just the number.</p>\n<p><strong>PAC</strong> gives CVP, PA pressures, PAWP, CO/CI, and SvO₂.</p>\n<p><strong>Echo</strong> identifies underfilling, RV dilation, septal shift, tamponade, and LV dysfunction.</p>\n<p><strong>Ventilator settings</strong> affect preload through intrathoracic pressure, venous return, and RV afterload.</p>"
     },
     "targets": {
-      "content": "<h3>Targets and Numbers - Preload: LVEDP and CVP</h3><p>Targets are pattern-based rather than isolated. Common CTICU reference points include MAP 65-85 mmHg, CI ≥2.2 L/min/m², urine output ≥0.5 mL/kg/hr, lactate <2 mmol/L or falling, SvO₂ 60-80% or ≥65-70% when appropriate, CVP often 5-12 mmHg depending context, and PAWP often 8-15 mmHg if valid. Patient type, surgical procedure, RV risk, bleeding risk, valve repair, aortic surgery, and chronic hypertension may shift targets.</p>",
+      "content": "<h3>Targets and Numbers - Preload</h3>\n<p>CVP is often 5-12 mmHg, but context matters more than the range. PAWP/PCWP is often 8-15 mmHg if valid. The aim is adequate stroke volume and tissue perfusion without excessive filling pressure, pulmonary oedema, RV dilation, or renal venous congestion.</p>",
       "tables": [
         {
-          "heading": "Core values and interpretation",
+          "heading": "Preload markers",
           "headers": [
-            "Parameter",
-            "Common target/range",
+            "Marker",
+            "Typical value",
             "Meaning",
-            "CTICU interpretation"
+            "Caution"
           ],
           "rows": [
             [
-              "MAP",
-              "Often 65-85 mmHg",
-              "Perfusion pressure",
-              "Must be matched with CI, lactate, UO, and SvO₂"
-            ],
-            [
-              "CI",
-              "≥2.2 L/min/m²",
-              "Forward flow indexed to size",
-              "Low with poor perfusion suggests low-output physiology"
-            ],
-            [
               "CVP",
-              "Often 5-12 mmHg, context dependent",
-              "Right-sided pressure",
-              "High with shock suggests RV/obstructive/congestive physiology"
+              "5-12 mmHg context dependent",
+              "Right-sided filling pressure",
+              "Affected by RV failure, PEEP, tamponade, PVR, compliance"
             ],
             [
               "PAWP",
-              "Often 8-15 mmHg if valid",
+              "8-15 mmHg if valid",
               "Left-sided filling estimate",
-              "High with hypoxia suggests congestion or LV dysfunction"
+              "Invalid wedge/high PEEP/mitral disease can mislead"
             ],
             [
-              "Lactate",
-              "<2 mmol/L or falling",
-              "Perfusion/metabolic stress",
-              "Rising suggests delivery-demand mismatch or severe stress"
+              "Fluid response",
+              "SV/CO rise 10-15%",
+              "Preload responsiveness",
+              "Does not prove tolerance"
             ],
             [
-              "Urine output",
+              "UO",
               "≥0.5 mL/kg/hr",
-              "Renal perfusion/congestion marker",
-              "Low in low flow, venous congestion, AKI, or vasoconstriction"
-            ],
-            [
-              "SvO₂",
-              "60-80%; often ≥65-70%",
-              "Global oxygen extraction",
-              "Low suggests delivery-demand mismatch"
-            ]
-          ]
-        },
-        {
-          "heading": "CTICU pattern recognition",
-          "headers": [
-            "Pattern",
-            "Likely mechanism",
-            "Early signs",
-            "Escalation trigger"
-          ],
-          "rows": [
-            [
-              "Low MAP + high CI",
-              "Low SVR/vasoplegia",
-              "Warm, bounding pulse, low diastolic pressure",
-              "Persistent hypotension or rising lactate"
-            ],
-            [
-              "Low MAP + low CI",
-              "Low output",
-              "Narrow pulse pressure, cool, low UO",
-              "CI <2.2 with worsening markers"
-            ],
-            [
-              "Low MAP + rising CVP",
-              "RV/obstructive physiology",
-              "Narrow pulse pressure, rising lactate",
-              "Tamponade/RV failure concern"
-            ],
-            [
-              "Normal MAP + low CI",
-              "Pressure without flow",
-              "High SVR, cool, low SvO₂",
-              "Rising lactate despite MAP"
+              "Perfusion/congestion marker",
+              "Low in low flow or venous congestion"
             ]
           ]
         }
@@ -114,42 +61,42 @@
   "quizQuestions": [
     {
       "level": "basic",
-      "question": "What is the safest way to interpret Preload: LVEDP and CVP in CTICU?",
+      "question": "What is the central bedside concept in Preload: LVEDP and CVP?",
       "type": "multipleChoice",
       "options": [
-        "As part of a full haemodynamic pattern",
-        "As a single isolated number",
-        "By ignoring waveform quality",
-        "By treating every abnormal value with fluid"
+        "Interpret the value as part of a haemodynamic pattern, not as an isolated number",
+        "Treat every abnormal number with fluid",
+        "Ignore the waveform and rely only on MAP",
+        "Use SpO₂ as the only marker of perfusion"
       ],
       "correct": 0,
-      "explanation": "Preload: LVEDP and CVP must be interpreted with pressure, flow, waveform quality, rhythm, oxygen delivery, demand, and clinical response."
+      "explanation": "Preload: LVEDP and CVP must be interpreted in context. CTICU physiology depends on patterns across pressure, flow, filling, oxygen delivery, demand, waveforms, and clinical response."
     },
     {
       "level": "reasoning",
-      "question": "A patient has conflicting data related to Preload: LVEDP and CVP. What should happen first?",
+      "question": "A post-cardiac surgery patient deteriorates and the Preload: LVEDP and CVP data conflict with the clinical picture. What is the safest action?",
       "type": "multipleChoice",
       "options": [
-        "Validate the measurement and correlate with the clinical picture",
-        "Assume the number is correct and treat immediately",
-        "Ignore the patient examination",
-        "Give a large fluid bolus automatically"
+        "Validate the measurement and integrate it with rhythm, waveform, lactate, urine output, echo, and perfusion",
+        "Assume the single number is correct and treat it alone",
+        "Ignore the patient because the monitor is always right",
+        "Give repeated fluid without reassessment"
       ],
       "correct": 0,
-      "explanation": "Measurement validity and clinical correlation come first because transducer error, sampling error, damping, rhythm, ventilation, and patient position can all change interpretation."
+      "explanation": "The safest CTICU approach is to validate the measurement, check equipment and waveform quality, then interpret it against the whole clinical pattern before acting."
     },
     {
       "level": "expert",
-      "question": "Why is isolated interpretation of Preload: LVEDP and CVP dangerous after cardiac surgery?",
+      "question": "Why is isolated interpretation dangerous in Preload: LVEDP and CVP?",
       "type": "multipleChoice",
       "options": [
-        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and demand interact",
-        "Because CTICU patients do not need haemodynamic monitoring",
-        "Because normal MAP always proves normal flow",
-        "Because all post-op cardiac patients have identical physiology"
+        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and metabolic demand interact",
+        "Because cardiac physiology has no relationship to clinical signs",
+        "Because all post-operative patients have identical targets",
+        "Because monitors cannot display useful information"
       ],
       "correct": 0,
-      "explanation": "After cardiac surgery the haemodynamic system is interactive. A single value can reflect multiple mechanisms and can be misleading unless interpreted with the full CTICU pattern."
+      "explanation": "Isolated interpretation is dangerous because CTICU haemodynamics are interactive. The same value may mean different things depending on ventricular function, vascular tone, rhythm, ventilation, oxygen delivery, and surgical context."
     }
   ]
 }
