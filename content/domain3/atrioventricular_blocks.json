@@ -1,0 +1,359 @@
+{
+  "id": "domain3_atrioventricular_blocks",
+  "domain": 3,
+  "domainTitle": "Cardiac Conditions and Rhythms",
+  "title": "Atrioventricular Blocks",
+  "file": "atrioventricular_blocks.json",
+  "sections": {
+    "abridged": {
+      "title": "Abridged Snapshot",
+      "content": [
+        {
+          "type": "keyterm",
+          "term": "AV block",
+          "definition": "AV block is impaired conduction from atria to ventricles through the AV node, His bundle or bundle branches."
+        },
+        {
+          "type": "paragraph",
+          "text": "In CTICU, AV block is important after aortic valve surgery, mitral valve surgery, TAVI, septal surgery, inferior MI, anterior MI, electrolyte disturbance and AV nodal blocking drugs."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Block",
+            "ECG recognition",
+            "Clinical risk"
+          ],
+          "rows": [
+            [
+              "First-degree",
+              "PR above 200 ms; every P conducts",
+              "Usually low risk but long PR can impair filling."
+            ],
+            [
+              "Mobitz I",
+              "Progressive PR prolongation then dropped QRS",
+              "Often nodal and transient."
+            ],
+            [
+              "Mobitz II",
+              "Fixed PR with intermittent dropped QRS",
+              "High risk of complete heart block."
+            ],
+            [
+              "2:1 block",
+              "Every second P not conducted",
+              "Cannot classify reliably; treat cautiously."
+            ],
+            [
+              "High-grade block",
+              "Two or more consecutive non-conducted P waves",
+              "High risk of severe bradycardia."
+            ],
+            [
+              "Complete heart block",
+              "AV dissociation",
+              "Pacing often required if unstable or escape unreliable."
+            ]
+          ]
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Assess perfusion, not just ECG: MAP, pulse pressure, mentation, chest pain, pulmonary oedema, lactate and urine output.",
+            "Print rhythm strip and 12-lead to assess PR pattern, QRS width, escape rhythm and MI territory.",
+            "Check drugs, electrolytes, temperature and ischaemia.",
+            "If epicardial wires are present, check capture and sensing early.",
+            "Escalate Mobitz II, high-grade block, complete heart block or any block with hypoperfusion."
+          ]
+        }
+      ]
+    },
+    "expanded": {
+      "title": "Expanded Deep-Dive",
+      "content": [
+        {
+          "type": "heading",
+          "text": "AV conduction physiology"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinus impulses pass through atrial myocardium to the AV node, pause, then conduct through His bundle, bundle branches and Purkinje system. Nodal block is often more atropine-responsive; infranodal block is less reliable and more likely to require pacing."
+        },
+        {
+          "type": "heading",
+          "text": "First-degree block"
+        },
+        {
+          "type": "paragraph",
+          "text": "First-degree AV block is PR above 200 ms with 1:1 conduction. Very long PR intervals, especially above 300 ms, can impair filling because atrial contraction occurs too early relative to ventricular filling."
+        },
+        {
+          "type": "heading",
+          "text": "Mobitz I"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mobitz I or Wenckebach shows progressive PR lengthening until a QRS drops. It is often AV nodal, seen with inferior MI, high vagal tone or AV nodal drugs, and may be transient."
+        },
+        {
+          "type": "heading",
+          "text": "Mobitz II"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mobitz II shows dropped QRS complexes without progressive PR prolongation. It usually reflects infranodal His-Purkinje disease and can progress suddenly to complete heart block. Atropine may not work reliably."
+        },
+        {
+          "type": "heading",
+          "text": "2:1 and high-grade block"
+        },
+        {
+          "type": "paragraph",
+          "text": "2:1 block cannot always be classified as Mobitz I or II because every second P is blocked. High-grade block means two or more consecutive non-conducted P waves. Wide QRS, structural disease, TAVI, valve surgery or anterior MI should be treated as high risk."
+        },
+        {
+          "type": "heading",
+          "text": "Complete heart block"
+        },
+        {
+          "type": "paragraph",
+          "text": "Complete heart block is AV dissociation. A narrow junctional escape may be 40-60/min; a wide ventricular escape may be 20-40/min and unreliable. AV synchrony is lost and cardiac output may fall severely."
+        },
+        {
+          "type": "heading",
+          "text": "Post-valve, TAVI and MI relevance"
+        },
+        {
+          "type": "paragraph",
+          "text": "The conduction system lies close to the aortic annulus, membranous septum and mitral-aortic continuity. AVR, TAVI, mitral surgery, septal myectomy and aortic root surgery can injure or compress conduction tissue. Inferior MI often causes nodal block; anterior MI block is more ominous."
+        },
+        {
+          "type": "heading",
+          "text": "Pacing and atropine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Epicardial wires are first-line if present and functioning. Transcutaneous pacing is an emergency bridge. Transvenous pacing is used when reliable temporary pacing is needed. Atropine 1 mg IV may help nodal bradycardia but should not delay pacing in Mobitz II or complete heart block with shock."
+        }
+      ]
+    },
+    "pearls": {
+      "title": "Clinical Pearls",
+      "content": [
+        {
+          "type": "pearl",
+          "text": "Mobitz II is a high-risk rhythm, not a slightly worse Mobitz I."
+        },
+        {
+          "type": "pearl",
+          "text": "2:1 block is a trap; in post-TAVI, post-AVR or anterior MI patients, assume danger."
+        },
+        {
+          "type": "pearl",
+          "text": "VVI pacing fixes rate but not AV synchrony; DDD or AV sequential pacing may improve MAP."
+        },
+        {
+          "type": "warning",
+          "text": "Do not rely on atropine for infranodal block or wide escape complete heart block."
+        }
+      ]
+    },
+    "equipment": {
+      "title": "Equipment Tie-In",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ECG and monitor setup"
+        },
+        {
+          "type": "paragraph",
+          "text": "For atrioventricular block, the ECG monitor must be treated as a clinical device, not wallpaper. Use a lead that shows atrial activity when P waves matter, print strips during events, check electrode contact, and repeat a 12-lead when rhythm diagnosis, ischaemia or conduction disease is uncertain."
+        },
+        {
+          "type": "heading",
+          "text": "Arterial waveform correlation"
+        },
+        {
+          "type": "paragraph",
+          "text": "The arterial line determines whether electrical activity is producing mechanical output. Rate, rhythm and monitor labels are secondary to MAP, pulse pressure, waveform amplitude, lactate, urine output and clinical perfusion."
+        },
+        {
+          "type": "heading",
+          "text": "Defibrillator and pacing readiness"
+        },
+        {
+          "type": "paragraph",
+          "text": "High-grade block may require transcutaneous, epicardial or transvenous pacing requires early access to pads, synchronised cardioversion, defibrillation or pacing depending on stability. In post-cardiac surgery patients, also check epicardial wires, pacing box battery, output, sensitivity, capture and sensing."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Equipment",
+            "What to check",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "ECG monitor",
+              "Lead quality, rhythm strip, alarm limits and artefact.",
+              "Avoids missed rhythm change or false diagnosis."
+            ],
+            [
+              "12-lead ECG",
+              "Conduction, QRS width, ischaemia and baseline comparison.",
+              "Clarifies rhythm and identifies dangerous mimics."
+            ],
+            [
+              "Arterial line",
+              "Level, zero, damping, pulse pressure and waveform presence.",
+              "Shows haemodynamic consequence."
+            ],
+            [
+              "Defibrillator",
+              "Pads, sync markers, battery and energy pathway.",
+              "Supports immediate cardioversion or defibrillation."
+            ],
+            [
+              "Pacing box",
+              "Mode, rate, output, sensitivity and capture threshold.",
+              "Essential when rate or AV synchrony fails."
+            ]
+          ]
+        }
+      ]
+    },
+    "targets": {
+      "title": "Targets and Numbers",
+      "content": [
+        {
+          "type": "targetTable",
+          "columns": [
+            "Parameter",
+            "Usual target",
+            "CT-ICU interpretation"
+          ],
+          "rows": [
+            [
+              "PR interval",
+              "Normal 120-200 ms; first-degree above 200 ms",
+              "Very long PR can impair filling."
+            ],
+            [
+              "Mobitz II",
+              "Fixed PR with dropped QRS",
+              "High risk; prepare pacing."
+            ],
+            [
+              "Complete heart block escape",
+              "Junctional 40-60/min; ventricular 20-40/min",
+              "Wide slow escape is unstable."
+            ],
+            [
+              "Atropine",
+              "1 mg IV every 3-5 min to maximum 3 mg",
+              "Less effective in infranodal block."
+            ],
+            [
+              "Pacing output",
+              "Often set 2-3 times capture threshold",
+              "Confirm mechanical capture."
+            ],
+            [
+              "MAP",
+              "At least 65 mmHg or patient-specific target",
+              "Low MAP with block is an emergency."
+            ]
+          ]
+        },
+        {
+          "type": "escalation",
+          "tier": "Tier 1",
+          "text": "Escalate new conduction change after valve/TAVI surgery or Mobitz I with symptoms."
+        },
+        {
+          "type": "escalation",
+          "tier": "Tier 2",
+          "text": "Escalate urgently for Mobitz II, 2:1 block in structural disease, high-grade block or complete heart block."
+        },
+        {
+          "type": "escalation",
+          "tier": "Tier 3",
+          "text": "Activate emergency response for bradycardic shock, asystolic pauses, loss of arterial waveform or peri-arrest block."
+        }
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "difficulty": "Bedside Basics",
+      "question": "What defines first-degree AV block?",
+      "options": [
+        "PR interval greater than 200 ms with every P conducted.",
+        "No P-QRS relationship.",
+        "Irregularly irregular rhythm.",
+        "Progressive QRS widening only."
+      ],
+      "answer": 0,
+      "explanation": "First-degree block is delayed conduction with 1:1 P-QRS relationship."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "Why is Mobitz II dangerous?",
+      "options": [
+        "It is usually infranodal and can progress to complete heart block.",
+        "It is always benign.",
+        "It always resolves with coughing.",
+        "It cannot occur after valve surgery."
+      ],
+      "answer": 0,
+      "explanation": "Mobitz II indicates His-Purkinje disease and requires pacing readiness."
+    },
+    {
+      "difficulty": "Expert Level",
+      "question": "Why is 2:1 block treated cautiously?",
+      "options": [
+        "It may not be classifiable as Mobitz I or II from surface ECG.",
+        "It is always sinus tachycardia.",
+        "It never affects cardiac output.",
+        "It excludes structural disease."
+      ],
+      "answer": 0,
+      "explanation": "The PR pattern may not reveal the level of block; context determines danger."
+    }
+  ],
+  "references": [
+    {
+      "name": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes",
+      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
+    },
+    {
+      "name": "2023 ESC Guidelines for the management of acute coronary syndromes",
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/"
+    },
+    {
+      "name": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
+      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
+    },
+    {
+      "name": "AHA 2025 Adult Tachycardia With a Pulse Algorithm",
+      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
+    },
+    {
+      "name": "ANZCOR Guideline 11.2 Protocols for Adult Advanced Life Support",
+      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-2-protocols-for-adult-advanced-life-support"
+    },
+    {
+      "name": "ANZCOR Guideline 11.9 Managing Acute Dysrhythmias",
+      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias"
+    },
+    {
+      "name": "2024 ESC Guidelines for the management of atrial fibrillation",
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation"
+    },
+    {
+      "name": "LITFL ECG Library",
+      "url": "https://litfl.com/ecg-library/"
+    }
+  ]
+}

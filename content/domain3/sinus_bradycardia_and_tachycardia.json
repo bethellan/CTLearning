@@ -1,0 +1,370 @@
+{
+  "id": "domain3_sinus_bradycardia_and_tachycardia",
+  "domain": 3,
+  "domainTitle": "Cardiac Conditions and Rhythms",
+  "title": "Sinus Bradycardia and Sinus Tachycardia",
+  "file": "sinus_bradycardia_and_tachycardia.json",
+  "sections": {
+    "abridged": {
+      "title": "Abridged Snapshot",
+      "content": [
+        {
+          "type": "keyterm",
+          "term": "Sinus rhythm",
+          "definition": "Sinus rhythm is atrial activation from the sinoatrial node, usually with upright P waves in lead II, one P wave before each QRS and a consistent PR interval."
+        },
+        {
+          "type": "keyterm",
+          "term": "Sinus bradycardia",
+          "definition": "Sinus bradycardia is sinus rhythm below 60/min. It is dangerous when it causes hypotension, shock, ischaemia, altered mentation, low urine output or low cardiac output."
+        },
+        {
+          "type": "keyterm",
+          "term": "Sinus tachycardia",
+          "definition": "Sinus tachycardia is sinus rhythm above 100/min. In CTICU it is usually compensatory: pain, anxiety, fever, hypovolaemia, bleeding, sepsis, low cardiac output, tamponade, hypoxia or catecholamines."
+        },
+        {
+          "type": "paragraph",
+          "text": "The bedside question is whether the rate is the problem or the compensation. Suppressing sinus tachycardia before correcting bleeding, tamponade, hypoxia or low stroke volume can collapse cardiac output."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Confirm sinus P waves and stable PR interval.",
+            "Assess arterial waveform, MAP, pulse pressure, lactate, urine output and skin perfusion.",
+            "For bradycardia, check hypothermia, vagal stimulus, beta-blockers, amiodarone, dexmedetomidine, opioids, hyperkalaemia and inferior MI.",
+            "For tachycardia, search for pain, fever, hypovolaemia, bleeding, sepsis, hypoxia, low cardiac output and tamponade.",
+            "Escalate HR below 50/min or sustained above 120-130/min when associated with hypoperfusion."
+          ]
+        }
+      ]
+    },
+    "expanded": {
+      "title": "Expanded Deep-Dive",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Sinus rhythm criteria"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinus rhythm has upright P waves in lead II, a P before every QRS, a QRS after every P, and a stable PR interval usually 120-200 ms. The QRS may be wide from bundle branch block or pacing, but atrial origin remains sinus if P-wave morphology and conduction are consistent."
+        },
+        {
+          "type": "heading",
+          "text": "Why sinus bradycardia occurs after cardiac surgery"
+        },
+        {
+          "type": "paragraph",
+          "text": "Post-operative sinus bradycardia may result from hypothermia, high vagal tone, beta-blockers, amiodarone, dexmedetomidine, opioids, inferior MI/RCA ischaemia, sinus node dysfunction, hyperkalaemia, atrial surgery or oedema near conduction tissue."
+        },
+        {
+          "type": "heading",
+          "text": "When bradycardia is benign or dangerous"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinus bradycardia may be benign when the patient is asleep, warm, perfusing, with stable MAP, good pulse pressure, urine output at least 0.5 mL/kg/hr and falling lactate. It is dangerous when stroke volume cannot rise enough to maintain CO, especially in LV dysfunction, RV failure, pulmonary hypertension, tamponade, vasoplegia or post-valve diastolic dysfunction."
+        },
+        {
+          "type": "heading",
+          "text": "Drug causes"
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Cause",
+            "Mechanism",
+            "Nursing implication"
+          ],
+          "rows": [
+            [
+              "Beta-blockers",
+              "Slow SA node and AV node; reduce oxygen demand.",
+              "Useful but can worsen shock or AV block."
+            ],
+            [
+              "Amiodarone",
+              "Class III with beta-blocking/calcium-channel effects.",
+              "Can cause bradycardia, hypotension during IV loading and QT prolongation."
+            ],
+            [
+              "Dexmedetomidine",
+              "Alpha-2 sympatholysis.",
+              "Can cause marked bradycardia, especially with vagal triggers."
+            ],
+            [
+              "Opioids/sedatives",
+              "Reduce sympathetic tone.",
+              "Assess sedation, ventilation and haemodynamics."
+            ],
+            [
+              "Digoxin/calcium-channel blockers",
+              "Slow AV node.",
+              "Consider toxicity, renal function and drug interaction."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Inferior MI, RV involvement and pacing wires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inferior MI can involve RCA supply to the sinus and AV nodes. If RV infarction is also present, bradycardia is harmful because RV output and LV preload are already low. Temporary epicardial wires should be checked early in valve, aortic and post-CABG patients at risk of bradycardia or AV block."
+        },
+        {
+          "type": "heading",
+          "text": "Sinus tachycardia as compensation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinus tachycardia is often the body's attempt to maintain CO when stroke volume is low. Causes include pain, anxiety, fever, shivering, hypovolaemia, bleeding, tamponade, sepsis, hypoxia, anaemia, PE, withdrawal, low cardiac output and inotrope exposure. Treat the cause before suppressing the rate."
+        },
+        {
+          "type": "heading",
+          "text": "Haemodynamic consequences"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bradycardia reduces CO when stroke volume cannot compensate. Tachycardia shortens diastole, reduces coronary perfusion, increases oxygen demand and reduces ventricular filling. Many post-cardiac surgery patients perform best around 70-90/min, but the target must be judged by perfusion, not a generic number."
+        },
+        {
+          "type": "heading",
+          "text": "Nursing actions"
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Print a rhythm strip or 12-lead if uncertain.",
+            "Check temperature, ABG, K, Mg, Ca, Hb, pain, sedation, fluid balance, chest drain output and vasoactive doses.",
+            "For compromised bradycardia, prepare atropine 1 mg IV, pacing and senior review.",
+            "For tachycardia, treat pain, fever, bleeding, hypovolaemia, sepsis, hypoxia, tamponade or low cardiac output before rate suppression."
+          ]
+        }
+      ]
+    },
+    "pearls": {
+      "title": "Clinical Pearls",
+      "content": [
+        {
+          "type": "pearl",
+          "text": "Sinus tachycardia after cardiac surgery may be the first visible sign of bleeding or tamponade."
+        },
+        {
+          "type": "pearl",
+          "text": "Dexmedetomidine plus beta-blockade plus suctioning is a classic bradycardia setup."
+        },
+        {
+          "type": "pearl",
+          "text": "A lower HR after beta-blocker is not success unless MAP, lactate, urine output and symptoms improve."
+        },
+        {
+          "type": "warning",
+          "text": "Do not reflexively beta-block sinus tachycardia until bleeding, tamponade, sepsis, hypoxia and low output are considered."
+        }
+      ]
+    },
+    "equipment": {
+      "title": "Equipment Tie-In",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ECG and monitor setup"
+        },
+        {
+          "type": "paragraph",
+          "text": "For sinus bradycardia and tachycardia, the ECG monitor must be treated as a clinical device, not wallpaper. Use a lead that shows atrial activity when P waves matter, print strips during events, check electrode contact, and repeat a 12-lead when rhythm diagnosis, ischaemia or conduction disease is uncertain."
+        },
+        {
+          "type": "heading",
+          "text": "Arterial waveform correlation"
+        },
+        {
+          "type": "paragraph",
+          "text": "The arterial line determines whether electrical activity is producing mechanical output. Rate, rhythm and monitor labels are secondary to MAP, pulse pressure, waveform amplitude, lactate, urine output and clinical perfusion."
+        },
+        {
+          "type": "heading",
+          "text": "Defibrillator and pacing readiness"
+        },
+        {
+          "type": "paragraph",
+          "text": "Symptomatic bradycardia may require pacing; unstable tachycardia may reveal shock physiology requires early access to pads, synchronised cardioversion, defibrillation or pacing depending on stability. In post-cardiac surgery patients, also check epicardial wires, pacing box battery, output, sensitivity, capture and sensing."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Equipment",
+            "What to check",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "ECG monitor",
+              "Lead quality, rhythm strip, alarm limits and artefact.",
+              "Avoids missed rhythm change or false diagnosis."
+            ],
+            [
+              "12-lead ECG",
+              "Conduction, QRS width, ischaemia and baseline comparison.",
+              "Clarifies rhythm and identifies dangerous mimics."
+            ],
+            [
+              "Arterial line",
+              "Level, zero, damping, pulse pressure and waveform presence.",
+              "Shows haemodynamic consequence."
+            ],
+            [
+              "Defibrillator",
+              "Pads, sync markers, battery and energy pathway.",
+              "Supports immediate cardioversion or defibrillation."
+            ],
+            [
+              "Pacing box",
+              "Mode, rate, output, sensitivity and capture threshold.",
+              "Essential when rate or AV synchrony fails."
+            ]
+          ]
+        }
+      ]
+    },
+    "targets": {
+      "title": "Targets and Numbers",
+      "content": [
+        {
+          "type": "targetTable",
+          "columns": [
+            "Parameter",
+            "Usual target",
+            "CT-ICU interpretation"
+          ],
+          "rows": [
+            [
+              "Sinus bradycardia",
+              "HR below 60/min",
+              "Treat if hypoperfusion or high-risk cause exists."
+            ],
+            [
+              "Symptomatic bradycardia",
+              "Usually HR below 50/min with compromise",
+              "Atropine, pacing readiness and senior review."
+            ],
+            [
+              "Atropine",
+              "1 mg IV every 3-5 min to maximum 3 mg",
+              "Less effective in infranodal block."
+            ],
+            [
+              "Dopamine",
+              "5-20 mcg/kg/min",
+              "Bridge for unstable bradycardia if needed."
+            ],
+            [
+              "Adrenaline",
+              "2-10 mcg/min",
+              "Bridge for unstable bradycardia/shock with senior direction."
+            ],
+            [
+              "Sinus tachycardia",
+              "HR above 100/min",
+              "Search for cause."
+            ],
+            [
+              "Concerning tachycardia",
+              "Sustained above 120-130/min with low pulse pressure, ischaemia or shock",
+              "Investigate bleeding, tamponade, sepsis, hypoxia and low output."
+            ]
+          ]
+        },
+        {
+          "type": "escalation",
+          "tier": "Tier 1",
+          "text": "Escalate bradycardia below 50/min or tachycardia above 120-130/min with hypoperfusion."
+        },
+        {
+          "type": "escalation",
+          "tier": "Tier 2",
+          "text": "Escalate urgently for bradycardia with high-grade block or tachycardia with suspected bleeding, tamponade, sepsis or LCOS."
+        },
+        {
+          "type": "escalation",
+          "tier": "Tier 3",
+          "text": "Activate emergency response for peri-arrest bradycardia, shock, loss of arterial waveform or VT/VF."
+        }
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "difficulty": "Bedside Basics",
+      "question": "Why can suppressing sinus tachycardia after cardiac surgery be harmful?",
+      "options": [
+        "It may be maintaining cardiac output when stroke volume is low.",
+        "It always means SVT.",
+        "It never affects blood pressure.",
+        "It cannot be compensatory."
+      ],
+      "answer": 0,
+      "explanation": "If stroke volume is low, HR may preserve CO; suppressing it can collapse perfusion."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "Which bradycardia pattern is dangerous?",
+      "options": [
+        "HR 42/min with hypotension and rising lactate.",
+        "HR 56/min asleep with stable MAP.",
+        "HR 58/min with warm peripheries.",
+        "HR 55/min with normal urine output."
+      ],
+      "answer": 0,
+      "explanation": "Bradycardia with hypoperfusion is symptomatic and needs urgent management."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "What drug combination commonly contributes to bradycardia?",
+      "options": [
+        "Dexmedetomidine plus beta-blockade plus vagal stimulation.",
+        "Aspirin plus statin.",
+        "Furosemide plus potassium.",
+        "Paracetamol plus oxygen."
+      ],
+      "answer": 0,
+      "explanation": "Sympatholysis plus AV nodal slowing and vagal stimulus can produce marked bradycardia."
+    }
+  ],
+  "references": [
+    {
+      "name": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes",
+      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
+    },
+    {
+      "name": "2023 ESC Guidelines for the management of acute coronary syndromes",
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/"
+    },
+    {
+      "name": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
+      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
+    },
+    {
+      "name": "AHA 2025 Adult Tachycardia With a Pulse Algorithm",
+      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
+    },
+    {
+      "name": "ANZCOR Guideline 11.2 Protocols for Adult Advanced Life Support",
+      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-2-protocols-for-adult-advanced-life-support"
+    },
+    {
+      "name": "ANZCOR Guideline 11.9 Managing Acute Dysrhythmias",
+      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias"
+    },
+    {
+      "name": "2024 ESC Guidelines for the management of atrial fibrillation",
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation"
+    },
+    {
+      "name": "LITFL ECG Library",
+      "url": "https://litfl.com/ecg-library/"
+    }
+  ]
+}

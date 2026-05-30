@@ -1,0 +1,47 @@
+{
+  "domain": 3,
+  "domainTitle": "Cardiac Conditions and Rhythms",
+  "folder": "content/domain3/",
+  "files": [
+    {
+      "file": "stemi_nstemi_pathophysiology_management.json",
+      "title": "STEMI and NSTEMI Pathophysiology and Management"
+    },
+    {
+      "file": "post_mi_complications_and_nursing_priorities.json",
+      "title": "Post-MI Complications and Nursing Priorities"
+    },
+    {
+      "file": "sinus_bradycardia_and_tachycardia.json",
+      "title": "Sinus Bradycardia and Sinus Tachycardia"
+    },
+    {
+      "file": "new_onset_postoperative_atrial_fibrillation.json",
+      "title": "New-Onset Postoperative Atrial Fibrillation"
+    },
+    {
+      "file": "supraventricular_tachycardia.json",
+      "title": "Supraventricular Tachycardia"
+    },
+    {
+      "file": "ventricular_tachycardia_and_ventricular_fibrillation.json",
+      "title": "Ventricular Tachycardia and Ventricular Fibrillation"
+    },
+    {
+      "file": "atrioventricular_blocks.json",
+      "title": "Atrioventricular Blocks"
+    },
+    {
+      "file": "junctional_and_paced_rhythms.json",
+      "title": "Junctional and Paced Rhythms"
+    },
+    {
+      "file": "cardiac_tamponade.json",
+      "title": "Cardiac Tamponade"
+    },
+    {
+      "file": "low_cardiac_output_syndrome.json",
+      "title": "Low Cardiac Output Syndrome"
+    }
+  ]
+}

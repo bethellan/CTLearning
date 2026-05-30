@@ -1,0 +1,347 @@
+{
+  "id": "domain3_junctional_and_paced_rhythms",
+  "domain": 3,
+  "domainTitle": "Cardiac Conditions and Rhythms",
+  "title": "Junctional and Paced Rhythms",
+  "file": "junctional_and_paced_rhythms.json",
+  "sections": {
+    "abridged": {
+      "title": "Abridged Snapshot",
+      "content": [
+        {
+          "type": "keyterm",
+          "term": "Junctional rhythm",
+          "definition": "Junctional rhythm originates from the AV junction rather than the sinus node. P waves may be absent, inverted, after the QRS or before the QRS with short PR."
+        },
+        {
+          "type": "keyterm",
+          "term": "Paced rhythm",
+          "definition": "Paced rhythm occurs when an artificial pacemaker depolarises atrial myocardium, ventricular myocardium or both."
+        },
+        {
+          "type": "paragraph",
+          "text": "Junctional and paced rhythms matter because rate alone is not enough. AV synchrony determines atrial contribution and ventricular filling, especially after valve surgery, RV failure, pulmonary hypertension and LV diastolic dysfunction."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Identify P-wave relationship: sinus, retrograde, absent or paced.",
+            "Assess rate, QRS width, AV relationship and arterial waveform response.",
+            "If junctional rhythm causes low output, consider atrial or AV sequential pacing if wires are present.",
+            "For paced rhythms, check mode, rate, output, sensitivity, capture and sensing.",
+            "Escalate failure to capture, failure to sense, oversensing with pauses or hypotension."
+          ]
+        }
+      ]
+    },
+    "expanded": {
+      "title": "Expanded Deep-Dive",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Junctional rhythms"
+        },
+        {
+          "type": "paragraph",
+          "text": "Junctional escape rhythm is usually 40-60/min. Accelerated junctional rhythm is 60-100/min. Junctional tachycardia is above 100/min. QRS is usually narrow unless aberrancy exists."
+        },
+        {
+          "type": "heading",
+          "text": "Why junctional rhythms occur after cardiac surgery"
+        },
+        {
+          "type": "paragraph",
+          "text": "Causes include sinus node suppression, atrial oedema, atrial incision, valve surgery, ischaemia, hypothermia, electrolyte disturbance, digoxin, beta-blockers, amiodarone and catecholamines."
+        },
+        {
+          "type": "heading",
+          "text": "Loss of atrial contribution"
+        },
+        {
+          "type": "paragraph",
+          "text": "In junctional rhythm, atrial activation may be retrograde or absent. Atria may contract against closed AV valves, raising venous pressure and reducing ventricular filling. This is poorly tolerated in stiff LV, AVR, mitral disease, RV dysfunction and LCOS."
+        },
+        {
+          "type": "heading",
+          "text": "Epicardial pacing overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "Temporary epicardial atrial and ventricular wires allow pacing and sensing after surgery. Wires exit the chest and connect to an external pacing box. Terminals must be insulated when not connected."
+        },
+        {
+          "type": "heading",
+          "text": "Atrial, ventricular and AV sequential pacing"
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Mode concept",
+            "What it does",
+            "Use"
+          ],
+          "rows": [
+            [
+              "Atrial pacing",
+              "Stimulates atrium when AV conduction intact",
+              "Sinus node dysfunction."
+            ],
+            [
+              "Ventricular pacing",
+              "Stimulates ventricle",
+              "AV block or failed atrial conduction."
+            ],
+            [
+              "AV sequential pacing",
+              "Atrial then ventricular pacing after AV delay",
+              "Restores atrial contribution."
+            ],
+            [
+              "Demand pacing",
+              "Paces only below set rate",
+              "Usual temporary support when sensing reliable."
+            ],
+            [
+              "Fixed pacing",
+              "Paces regardless of intrinsic rhythm",
+              "Emergency/sensing failure; pacing-on-T risk."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Sensing and capture basics"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capture means output depolarises myocardium. Atrial capture produces a P wave after atrial spike; ventricular capture produces a wide QRS after ventricular spike. Sensing means the pacer detects intrinsic activity. Output is in mA. Sensitivity is in mV; lower mV means more sensitive."
+        },
+        {
+          "type": "heading",
+          "text": "Failure modes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Failure to capture is spike without P wave or QRS. Causes include low output, wire displacement, poor connection, battery failure, oedema, ischaemia, hyperkalaemia and acidosis. Undersensing causes inappropriate spikes despite intrinsic beats. Oversensing causes pacing inhibition and pauses."
+        }
+      ]
+    },
+    "pearls": {
+      "title": "Clinical Pearls",
+      "content": [
+        {
+          "type": "pearl",
+          "text": "Junctional rhythm at 70/min can still be low-output if atrial contraction is mistimed."
+        },
+        {
+          "type": "pearl",
+          "text": "The arterial waveform is the truth test for pacing effectiveness."
+        },
+        {
+          "type": "pearl",
+          "text": "Sensitivity is inverse: lower mV means more sensitive."
+        },
+        {
+          "type": "warning",
+          "text": "Never leave temporary epicardial wire terminals exposed."
+        }
+      ]
+    },
+    "equipment": {
+      "title": "Equipment Tie-In",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ECG and monitor setup"
+        },
+        {
+          "type": "paragraph",
+          "text": "For junctional and paced rhythms, the ECG monitor must be treated as a clinical device, not wallpaper. Use a lead that shows atrial activity when P waves matter, print strips during events, check electrode contact, and repeat a 12-lead when rhythm diagnosis, ischaemia or conduction disease is uncertain."
+        },
+        {
+          "type": "heading",
+          "text": "Arterial waveform correlation"
+        },
+        {
+          "type": "paragraph",
+          "text": "The arterial line determines whether electrical activity is producing mechanical output. Rate, rhythm and monitor labels are secondary to MAP, pulse pressure, waveform amplitude, lactate, urine output and clinical perfusion."
+        },
+        {
+          "type": "heading",
+          "text": "Defibrillator and pacing readiness"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pacing boxes, epicardial wires and defibrillator pads are central safety equipment requires early access to pads, synchronised cardioversion, defibrillation or pacing depending on stability. In post-cardiac surgery patients, also check epicardial wires, pacing box battery, output, sensitivity, capture and sensing."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Equipment",
+            "What to check",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "ECG monitor",
+              "Lead quality, rhythm strip, alarm limits and artefact.",
+              "Avoids missed rhythm change or false diagnosis."
+            ],
+            [
+              "12-lead ECG",
+              "Conduction, QRS width, ischaemia and baseline comparison.",
+              "Clarifies rhythm and identifies dangerous mimics."
+            ],
+            [
+              "Arterial line",
+              "Level, zero, damping, pulse pressure and waveform presence.",
+              "Shows haemodynamic consequence."
+            ],
+            [
+              "Defibrillator",
+              "Pads, sync markers, battery and energy pathway.",
+              "Supports immediate cardioversion or defibrillation."
+            ],
+            [
+              "Pacing box",
+              "Mode, rate, output, sensitivity and capture threshold.",
+              "Essential when rate or AV synchrony fails."
+            ]
+          ]
+        }
+      ]
+    },
+    "targets": {
+      "title": "Targets and Numbers",
+      "content": [
+        {
+          "type": "targetTable",
+          "columns": [
+            "Parameter",
+            "Usual target",
+            "CT-ICU interpretation"
+          ],
+          "rows": [
+            [
+              "Junctional escape",
+              "40-60/min",
+              "May be tolerated or low-output depending on AV synchrony."
+            ],
+            [
+              "Accelerated junctional",
+              "60-100/min",
+              "Can still reduce output if atrial contribution lost."
+            ],
+            [
+              "Junctional tachycardia",
+              "Above 100/min",
+              "Reduces filling and raises demand."
+            ],
+            [
+              "Pacing output",
+              "Often 2-3 times capture threshold",
+              "Thresholds can rise after surgery."
+            ],
+            [
+              "Sensitivity",
+              "Lower mV is more sensitive; higher mV is less sensitive",
+              "Adjust for undersensing or oversensing."
+            ],
+            [
+              "Post-op pacing support rate",
+              "Often 70-90/min depending on haemodynamics",
+              "Individualise to MAP, pulse pressure and lactate."
+            ]
+          ]
+        },
+        {
+          "type": "escalation",
+          "tier": "Tier 1",
+          "text": "Escalate junctional rhythm with hypotension, raised CVP, low urine output or low output."
+        },
+        {
+          "type": "escalation",
+          "tier": "Tier 2",
+          "text": "Escalate failure to capture, undersensing, oversensing, rising thresholds or pacing dependence."
+        },
+        {
+          "type": "escalation",
+          "tier": "Tier 3",
+          "text": "Activate emergency response for pacing failure with shock, prolonged pauses, asystole or VT/VF."
+        }
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "difficulty": "Bedside Basics",
+      "question": "Why can junctional rhythm reduce cardiac output at a normal-looking rate?",
+      "options": [
+        "Atrial contraction may be absent or mistimed.",
+        "QRS is always absent.",
+        "It always causes VF.",
+        "It guarantees high stroke volume."
+      ],
+      "answer": 0,
+      "explanation": "Loss of AV synchrony can reduce filling even when rate seems acceptable."
+    },
+    {
+      "difficulty": "Bedside Basics",
+      "question": "What is failure to capture?",
+      "options": [
+        "Pacing spikes not followed by expected P wave or QRS.",
+        "No spikes because patient is in sinus rhythm.",
+        "Irregularly irregular rhythm.",
+        "Progressive PR prolongation."
+      ],
+      "answer": 0,
+      "explanation": "The pacer fires but myocardium does not depolarise."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "How do you make a pacer more sensitive?",
+      "options": [
+        "Lower the mV setting.",
+        "Raise the mV setting.",
+        "Turn output off.",
+        "Disconnect the wire."
+      ],
+      "answer": 0,
+      "explanation": "Lower mV detects smaller intrinsic signals."
+    }
+  ],
+  "references": [
+    {
+      "name": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes",
+      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
+    },
+    {
+      "name": "2023 ESC Guidelines for the management of acute coronary syndromes",
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/"
+    },
+    {
+      "name": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
+      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
+    },
+    {
+      "name": "AHA 2025 Adult Tachycardia With a Pulse Algorithm",
+      "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
+    },
+    {
+      "name": "ANZCOR Guideline 11.2 Protocols for Adult Advanced Life Support",
+      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-2-protocols-for-adult-advanced-life-support"
+    },
+    {
+      "name": "ANZCOR Guideline 11.9 Managing Acute Dysrhythmias",
+      "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias"
+    },
+    {
+      "name": "2024 ESC Guidelines for the management of atrial fibrillation",
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation"
+    },
+    {
+      "name": "LITFL ECG Library",
+      "url": "https://litfl.com/ecg-library/"
+    }
+  ]
+}
