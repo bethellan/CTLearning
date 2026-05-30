@@ -6,99 +6,105 @@
   "title": "Afterload: SVR and PVR",
   "sections": {
     "abridged": {
-      "content": "<h3>Afterload - the load the ventricle must eject against</h3><p><strong>Afterload</strong> is the resistance or load the ventricle must overcome to eject blood. For the LV, afterload is reflected by arterial pressure, aortic valve resistance, arterial compliance, vascular tone, and <strong>SVR</strong>. For the RV, afterload is reflected by pulmonary artery pressure, lung mechanics, hypoxia, hypercapnia, acidosis, PEEP, pulmonary vascular tone, and <strong>PVR</strong>.</p><p>Typical <strong>SVR</strong> is about <strong>800-1200 dyn·s/cm⁵</strong> or <strong>900-1200 dyn·s/cm⁵</strong> depending on reference. Typical <strong>PVR</strong> is much lower, usually <strong>&lt;2 Wood units</strong> or about <strong>24-160 dyn·s/cm⁵</strong>. The LV is built for systemic pressure. The RV is built for a low-pressure pulmonary circuit and can fail quickly when PVR rises.</p><p>Afterload management is diagnosis-specific. Post-bypass vasoplegia is a low-SVR problem. LV failure with hypertension or excessive vasopressor is high-SVR intolerance. RV failure after pulmonary hypertension, mitral surgery, hypoxia, hypercapnia, acidosis, high PEEP, or protamine reaction is often high-PVR physiology.</p>"
+      "content": "<h3>Afterload - the load the ventricle ejects against</h3>\n<p>Afterload is the load a ventricle must overcome to eject. LV afterload is reflected by arterial pressure, systemic vascular resistance, aortic valve resistance, arterial compliance, and wall stress. RV afterload is reflected by pulmonary vascular resistance, PA pressures, oxygenation, CO₂, pH, PEEP, and lung volume.</p>\n<p>SVR is commonly 800-1200 dyn·s/cm⁵. PVR is usually less than 2 Wood units or about 24-160 dyn·s/cm⁵. The LV is built for a high-pressure systemic circuit. The RV is built for a low-pressure pulmonary circuit and can fail quickly when PVR rises.</p>\n<p>Low SVR after bypass produces vasoplegia: low MAP, warm peripheries, bounding pulses, low diastolic pressure, and normal/high CI. High SVR can preserve pressure while reducing stroke volume in a weak LV. High PVR can cause RV dilation, septal shift, low LV filling, low CI, rising CVP, and shock.</p>\n<p>Afterload management is diagnosis-specific. Vasoplegia needs vascular tone. Excessive LV afterload may need reduction. High PVR needs oxygenation, ventilation, pH correction, careful PEEP, and RV support.</p>"
     },
     "expanded": {
-      "content": "<h3>Afterload - resistance to ventricular ejection</h3><p><strong>Afterload</strong> is the load faced by a ventricle during ejection. True afterload includes vascular resistance, arterial compliance, valve obstruction, chamber radius, wall stress, blood pressure, and intrathoracic pressure effects. Clinically we approximate LV afterload using MAP and SVR, and RV afterload using PA pressures, PVR, oxygenation, ventilation, acid-base state, and RV echo findings.</p><p>Increasing afterload usually reduces stroke volume if preload and contractility are unchanged. A healthy ventricle may tolerate this. A stunned, hypertrophied, ischaemic, or failing ventricle may not. In CTICU, excessive afterload can turn compensated ventricular dysfunction into low-output shock.</p><h4>LV afterload and SVR</h4><p><strong>Systemic vascular resistance</strong> is calculated as <strong>SVR = 80 × (MAP - CVP) / CO</strong>. It estimates systemic vascular tone. Normal is roughly <strong>800-1200 dyn·s/cm⁵</strong>. High SVR increases LV work and myocardial oxygen demand. Low SVR reduces arterial pressure despite flow.</p><p>A high SVR can preserve MAP while reducing LV stroke volume. The patient may look cold, have narrow pulse pressure, low CI, rising lactate, falling SvO₂, and oliguria. Escalating vasopressor may improve MAP but worsen forward flow if the LV cannot eject against the increased load.</p><h4>Low SVR and vasoplegia</h4><p><strong>Vasoplegia</strong> is low vascular tone, common after cardiopulmonary bypass. The patient may be warm, vasodilated, hypotensive, with low diastolic pressure, wide pulse pressure, bounding pulses, low SVR, and normal or high CI. This is primarily a vascular tone problem, although vasoplegia and myocardial stunning can coexist.</p><p>Vasopressors such as noradrenaline and vasopressin may restore vascular tone. Fluid may help if effective venous return is low, but excessive fluid without flow benefit causes oedema and later respiratory compromise.</p><h4>RV afterload and PVR</h4><p>The RV ejects into the pulmonary circuit. <strong>PVR</strong> can be calculated as <strong>(mean PAP - PAWP) / CO</strong> in Wood units, or multiplied by 80 for dyn·s/cm⁵. Normal PVR is usually <strong>&lt;2 Wood units</strong>. Acute PVR increases can cause RV dilation, septal shift, reduced LV filling, low CO, rising CVP, hypotension, renal venous congestion, and arrest.</p><p>PVR rises with hypoxia, hypercapnia, acidosis, high PEEP/overdistension, pulmonary embolus, pulmonary hypertension, atelectasis, pain, agitation, sympathetic surge, and severe protamine reaction. Ventilation is therefore haemodynamic management in RV-risk patients.</p><table><tr><th>PVR trigger</th><th>Mechanism</th><th>Bedside clue</th><th>Action focus</th></tr><tr><td>Hypoxia</td><td>Hypoxic pulmonary vasoconstriction</td><td>Low SpO₂, rising PA pressure</td><td>Improve oxygenation</td></tr><tr><td>Hypercapnia</td><td>CO₂-mediated pulmonary vasoconstriction</td><td>High PaCO₂, acidosis</td><td>Improve ventilation</td></tr><tr><td>Acidosis</td><td>Raises PVR and impairs contractility</td><td>Low pH, rising lactate</td><td>Treat shock and ventilation cause</td></tr><tr><td>High PEEP</td><td>Overdistension compresses pulmonary vessels</td><td>CVP rises, BP/CI falls after PEEP increase</td><td>Review pressures and RV response</td></tr><tr><td>Protamine reaction</td><td>Acute pulmonary vasoconstriction</td><td>Sudden PA pressure rise and RV failure</td><td>Immediate escalation and RV support</td></tr></table><h4>Afterload and myocardial oxygen demand</h4><p>High LV afterload increases wall stress and myocardial oxygen consumption. This can threaten a fresh CABG patient, worsen ischaemia, and stress valve or aortic repairs. High RV afterload increases RV wall stress. If systemic pressure falls at the same time, RV coronary perfusion falls and RV failure can spiral.</p><h4>Afterload decisions</h4><p>The treatment depends on the failing circuit. Low SVR requires vascular tone support. Excessive LV afterload may require analgesia, sedation, reducing vasopressor, vasodilator therapy, or improving rhythm and contractility. High PVR requires oxygenation, ventilation, pH correction, careful PEEP, pulmonary vasodilators if prescribed, and RV support.</p><p>Drug effects are physiology-dependent. Noradrenaline may help vasoplegia and RV coronary perfusion but can worsen LV afterload if excessive. Milrinone may improve contractility and reduce PVR but can cause hypotension. GTN can reduce preload and afterload but may harm RV preload if overdone.</p><h4>CTICU patterns</h4><p>Low-SVR vasoplegia presents with warm hypotension, low diastolic pressure, low SVR, wide pulse pressure, and preserved/high CI. High-SVR LV intolerance presents with high or supported MAP, narrow pulse pressure, low CI, cool peripheries, high lactate, and low SvO₂. High-PVR RV crisis presents with rising CVP, rising PA pressures, RV dilation, septal shift, low CI, hypotension, and sensitivity to hypoxia, hypercapnia, acidosis, and PEEP.</p>"
+      "content": "<h3>Afterload - the load the ventricle ejects against</h3>\n<p>This topic must be understood as a mechanism, not as a list of numbers. In CTICU, the same numerical value can mean different things depending on rhythm, ventricular function, vascular tone, ventilation, oxygen content, temperature, bleeding, surgical context, and the patient’s response over time.</p>\n<h4>SVR</h4>\n<p><strong>SVR</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, SVR affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess SVR by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>PVR</h4>\n<p><strong>PVR</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, PVR affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess PVR by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>LV afterload</h4>\n<p><strong>LV afterload</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, LV afterload affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess LV afterload by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>RV afterload</h4>\n<p><strong>RV afterload</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, RV afterload affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess RV afterload by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Vasoplegia</h4>\n<p><strong>vasoplegia</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, vasoplegia affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess vasoplegia by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>High SVR low flow</h4>\n<p><strong>high SVR low flow</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, high SVR low flow affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess high SVR low flow by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>PVR triggers</h4>\n<p><strong>PVR triggers</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, PVR triggers affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess PVR triggers by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>RV failure</h4>\n<p><strong>RV failure</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, RV failure affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess RV failure by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>CTICU bedside integration</h4>\n<p>Start by confirming the measurement is real: level, zero, waveform quality, sampling site, timing, rhythm, and patient position. Then separate pressure from flow. Ask whether the patient has adequate cardiac output, adequate vascular tone, acceptable filling pressures, tolerable afterload, adequate oxygen content, and acceptable oxygen demand.</p>\n<p>Next, decide which mechanism is most likely failing: preload, afterload, contractility, rhythm, obstruction, oxygen content, or oxygen demand. The intervention follows the mechanism. Fluid is for preload-responsive and fluid-tolerant physiology. Vasopressor is for inadequate vascular tone or perfusion pressure. Inotropy is for inadequate pump force. Ventilation and oxygenation changes are haemodynamic interventions when PVR or work of breathing is part of the problem.</p>\n<p>Finally, reassess after every intervention. A useful intervention improves flow or oxygen economy: stronger pulse pressure, improved CI, better urine output, falling lactate, improved SvO₂, improved skin perfusion, or reduced vasoactive requirement. A harmful intervention raises filling pressure, worsens oxygenation, worsens RV dilation, increases afterload excessively, or improves MAP while lactate and SvO₂ worsen.</p>\n<h4>Pattern table</h4><table><tr><th>Finding</th><th>Meaning</th><th>CTICU action</th></tr><tr><td>Rising lactate</td><td>Oxygen delivery-demand mismatch or metabolic stress</td><td>Check CO/CI, Hb, SaO₂, temperature, vasoactive dose, and perfusion</td></tr><tr><td>Low urine output</td><td>Low renal perfusion, venous congestion, AKI, or vasoconstriction</td><td>Assess MAP, CI, CVP, fluid balance, renal trend, and congestion</td></tr><tr><td>Falling SvO₂</td><td>Increased extraction from low delivery or high demand</td><td>Assess flow, Hb, oxygenation, fever, shivering, pain, and WOB</td></tr></table>"
     },
     "pearls": {
-      "content": "<h3>Clinical Pearls - Afterload</h3><h4>Pearl 1 - MAP is not afterload by itself</h4><p>Afterload includes resistance, compliance, valve obstruction, wall stress, and pressure. A normal MAP can still coexist with high SVR and low flow.</p><h4>Pearl 2 - High SVR can preserve pressure while starving flow</h4><p>Cold peripheries, rising lactate, falling SvO₂, oliguria, and narrow pulse pressure suggest pressure is being maintained at the cost of forward flow.</p><h4>Pearl 3 - The RV hates pressure</h4><p>Hypoxia, hypercapnia, acidosis, pulmonary hypertension, high PEEP, and protamine reactions increase PVR and can rapidly cause RV failure.</p><h4>Pearl 4 - Vasoplegia is low afterload, not necessarily low flow</h4><p>Warm hypotension with low SVR and normal/high CI is primarily vascular tone failure.</p><h4>Pearl 5 - Treat the failing circuit</h4><p>LV afterload, RV afterload, and systemic vascular tone are different problems. Identify which circuit is limiting flow.</p>"
+      "content": "<h3>Clinical Pearls - Afterload: SVR and PVR</h3><h4>Pearl 1 - Treat the mechanism, not the number</h4><p>Afterload: SVR and PVR becomes clinically useful only when linked to preload, afterload, contractility, rhythm, oxygen delivery, and demand.</p><h4>Pearl 2 - Trends beat snapshots</h4><p>A changing trend with worsening lactate, urine output, pulse pressure, or SvO₂ is more important than a single apparently acceptable value.</p><h4>Pearl 3 - Validate before acting</h4><p>Check waveform, zero, level, sample site, timing, rhythm, ventilation, and patient position before escalating therapy based on a number.</p><h4>Pearl 4 - The RV and LV may need different things</h4><p>LV-focused management can harm the RV if PVR, CVP, and septal shift are ignored.</p>"
     },
     "equipment": {
-      "content": "<h3>Equipment Tie-In - Afterload</h3><h4>Arterial line</h4><p>Low diastolic pressure and wide pulse pressure suggest vasoplegia. High pressure with narrow pulse pressure and poor perfusion suggests excessive afterload or low SV. Check damping.</p><h4>PAC</h4><p>PAC allows SVR and PVR calculation and helps distinguish vasoplegia, low output, and RV afterload crisis.</p><h4>Ventilator</h4><p>Hypoxia, hypercapnia, acidosis, excessive PEEP, and overdistension increase PVR and can worsen RV failure.</p><h4>Echo</h4><p>Echo shows RV dilation, septal shift, LV underfilling, LV dysfunction, valve pathology, and afterload intolerance.</p><h4>IABP</h4><p>IABP reduces LV afterload by deflating before systole and augments diastolic pressure by inflating after aortic valve closure.</p>"
+      "content": "<h3>Equipment Tie-In - Afterload: SVR and PVR</h3><p><strong>Arterial line:</strong> shows pressure, pulse pressure, upstroke, damping, and response to therapy.</p><p><strong>CVP/PAC:</strong> helps separate filling pressure, PA pressure, CO/CI, SVR, PVR, and SvO₂ when present.</p><p><strong>Echo:</strong> identifies chamber size, LV/RV function, septal shift, tamponade, valve problems, and gross filling state.</p><p><strong>Ventilator:</strong> affects venous return, PVR, oxygenation, PaCO₂, pH, and work of breathing.</p><p><strong>ABG/POCT:</strong> provides lactate, pH, PaCO₂, PaO₂, Hb, potassium, ionised calcium, and other variables that change haemodynamics.</p>"
     },
     "targets": {
-      "content": "<h3>Targets and Numbers - Afterload</h3><p>SVR is usually about <strong>800-1200 dyn·s/cm⁵</strong> or <strong>900-1200 dyn·s/cm⁵</strong>. PVR is usually <strong>&lt;2 Wood units</strong> or <strong>24-160 dyn·s/cm⁵</strong>. MAP is often targeted around <strong>65-85 mmHg</strong>, but depends on CABG graft perfusion, valve repair, aortic surgery, chronic hypertension, neurological risk, bleeding risk, and cardiac output.</p>",
+      "content": "<h3>Targets and Numbers - Afterload: SVR and PVR</h3><p>Targets are pattern-based rather than isolated. Common CTICU reference points include MAP 65-85 mmHg, CI ≥2.2 L/min/m², urine output ≥0.5 mL/kg/hr, lactate <2 mmol/L or falling, SvO₂ 60-80% or ≥65-70% when appropriate, CVP often 5-12 mmHg depending context, and PAWP often 8-15 mmHg if valid. Patient type, surgical procedure, RV risk, bleeding risk, valve repair, aortic surgery, and chronic hypertension may shift targets.</p>",
       "tables": [
         {
-          "heading": "Afterload values",
+          "heading": "Core values and interpretation",
           "headers": [
             "Parameter",
-            "Typical value",
-            "Circuit",
-            "Interpretation"
+            "Common target/range",
+            "Meaning",
+            "CTICU interpretation"
           ],
           "rows": [
             [
-              "SVR",
-              "800-1200 or 900-1200 dyn·s/cm⁵",
-              "Systemic/LV",
-              "Low in vasoplegia; high in vasoconstriction or LV afterload intolerance"
-            ],
-            [
-              "PVR",
-              "<2 Wood units or 24-160 dyn·s/cm⁵",
-              "Pulmonary/RV",
-              "High PVR increases RV afterload"
-            ],
-            [
               "MAP",
               "Often 65-85 mmHg",
-              "Systemic pressure",
-              "Interpret with CI, lactate, SvO₂, UO"
+              "Perfusion pressure",
+              "Must be matched with CI, lactate, UO, and SvO₂"
             ],
             [
-              "SpO₂",
-              "Usually ≥94% post-cardiac surgery unless otherwise prescribed",
-              "PVR/DO₂",
-              "Hypoxia raises PVR"
+              "CI",
+              "≥2.2 L/min/m²",
+              "Forward flow indexed to size",
+              "Low with poor perfusion suggests low-output physiology"
             ],
             [
-              "PaCO₂",
-              "Often 35-45 mmHg unless specific strategy",
-              "PVR",
-              "Hypercapnia can worsen RV failure"
+              "CVP",
+              "Often 5-12 mmHg, context dependent",
+              "Right-sided pressure",
+              "High with shock suggests RV/obstructive/congestive physiology"
             ],
             [
-              "pH",
-              "Near normal; avoid severe acidosis",
-              "PVR/contractility",
-              "Acidosis raises PVR and impairs myocardium"
+              "PAWP",
+              "Often 8-15 mmHg if valid",
+              "Left-sided filling estimate",
+              "High with hypoxia suggests congestion or LV dysfunction"
+            ],
+            [
+              "Lactate",
+              "<2 mmol/L or falling",
+              "Perfusion/metabolic stress",
+              "Rising suggests delivery-demand mismatch or severe stress"
+            ],
+            [
+              "Urine output",
+              "≥0.5 mL/kg/hr",
+              "Renal perfusion/congestion marker",
+              "Low in low flow, venous congestion, AKI, or vasoconstriction"
+            ],
+            [
+              "SvO₂",
+              "60-80%; often ≥65-70%",
+              "Global oxygen extraction",
+              "Low suggests delivery-demand mismatch"
             ]
           ]
         },
         {
-          "heading": "Afterload patterns",
+          "heading": "CTICU pattern recognition",
           "headers": [
             "Pattern",
-            "SVR/PVR",
-            "Clinical picture",
-            "Primary focus"
+            "Likely mechanism",
+            "Early signs",
+            "Escalation trigger"
           ],
           "rows": [
             [
-              "Post-CPB vasoplegia",
-              "Low SVR",
-              "Low MAP, warm, bounding pulses, wide pulse pressure",
-              "Vascular tone support"
+              "Low MAP + high CI",
+              "Low SVR/vasoplegia",
+              "Warm, bounding pulse, low diastolic pressure",
+              "Persistent hypotension or rising lactate"
             ],
             [
-              "LV high-afterload intolerance",
-              "High SVR",
-              "Low CI, narrow pulse pressure, cool, rising lactate",
-              "Reduce excessive afterload while preserving perfusion"
+              "Low MAP + low CI",
+              "Low output",
+              "Narrow pulse pressure, cool, low UO",
+              "CI <2.2 with worsening markers"
             ],
             [
-              "RV afterload crisis",
-              "High PVR",
-              "Rising CVP/PA pressures, RV dilation, low CI",
-              "Reduce PVR and support RV"
+              "Low MAP + rising CVP",
+              "RV/obstructive physiology",
+              "Narrow pulse pressure, rising lactate",
+              "Tamponade/RV failure concern"
             ],
             [
-              "Mixed vasoplegia and stunning",
-              "Low SVR plus poor contractility",
-              "Low MAP and inadequate flow",
-              "Balance vasopressor and inotropy"
+              "Normal MAP + low CI",
+              "Pressure without flow",
+              "High SVR, cool, low SvO₂",
+              "Rising lactate despite MAP"
             ]
           ]
         }
@@ -108,42 +114,42 @@
   "quizQuestions": [
     {
       "level": "basic",
-      "question": "Which variable approximates LV afterload at the bedside when CO data are available?",
+      "question": "What is the safest way to interpret Afterload: SVR and PVR in CTICU?",
       "type": "multipleChoice",
       "options": [
-        "Systemic vascular resistance",
-        "CVP alone",
-        "Haemoglobin",
-        "Urine sodium"
+        "As part of a full haemodynamic pattern",
+        "As a single isolated number",
+        "By ignoring waveform quality",
+        "By treating every abnormal value with fluid"
       ],
       "correct": 0,
-      "explanation": "SVR reflects systemic vascular tone and resistance to LV ejection."
+      "explanation": "Afterload: SVR and PVR must be interpreted with pressure, flow, waveform quality, rhythm, oxygen delivery, demand, and clinical response."
     },
     {
       "level": "reasoning",
-      "question": "Warm hypotension, bounding pulses, low diastolic pressure, CI 3.5 and low SVR after bypass suggests what?",
+      "question": "A patient has conflicting data related to Afterload: SVR and PVR. What should happen first?",
       "type": "multipleChoice",
       "options": [
-        "Low-SVR vasoplegia",
-        "High-SVR LV failure",
-        "High-PVR RV failure",
-        "Aortic obstruction"
+        "Validate the measurement and correlate with the clinical picture",
+        "Assume the number is correct and treat immediately",
+        "Ignore the patient examination",
+        "Give a large fluid bolus automatically"
       ],
       "correct": 0,
-      "explanation": "This is classic vasoplegia: inadequate vascular tone despite preserved or high flow."
+      "explanation": "Measurement validity and clinical correlation come first because transducer error, sampling error, damping, rhythm, ventilation, and patient position can all change interpretation."
     },
     {
       "level": "expert",
-      "question": "Why can hypercapnia worsen RV failure?",
+      "question": "Why is isolated interpretation of Afterload: SVR and PVR dangerous after cardiac surgery?",
       "type": "multipleChoice",
       "options": [
-        "It increases PVR and therefore RV afterload",
-        "It directly raises Hb",
-        "It opens the aortic valve",
-        "It makes SVR zero"
+        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and demand interact",
+        "Because CTICU patients do not need haemodynamic monitoring",
+        "Because normal MAP always proves normal flow",
+        "Because all post-op cardiac patients have identical physiology"
       ],
       "correct": 0,
-      "explanation": "Hypercapnia and acidosis raise pulmonary vascular tone. The RV must eject against higher resistance, worsening dilation, septal shift, low LV filling, and low output."
+      "explanation": "After cardiac surgery the haemodynamic system is interactive. A single value can reflect multiple mechanisms and can be misleading unless interpreted with the full CTICU pattern."
     }
   ]
 }

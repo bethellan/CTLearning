@@ -1,1 +1,0 @@
-Place your existing Domain 1 JSON files in this folder beside index.json. If you add a new file, add one object to index.json under the files array.

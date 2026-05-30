@@ -6,99 +6,105 @@
   "title": "Mixed Venous Saturations: SvO2 and ScvO2",
   "sections": {
     "abridged": {
-      "content": "<h3>Mixed venous saturation - the global oxygen balance signal</h3><p><strong>Mixed venous oxygen saturation (SvO₂)</strong> is oxygen saturation of pulmonary artery blood after venous return from the body has mixed. It is measured from a pulmonary artery catheter and reflects the balance between oxygen delivery and oxygen consumption. A usual adult SvO₂ is about <strong>60-80%</strong>, with many CTICU clinicians using <strong>≥65-70%</strong> as a practical target when the rest of the picture agrees.</p><p><strong>Central venous oxygen saturation (ScvO₂)</strong> is measured from the SVC/right atrial region via a central venous catheter. It is not identical to SvO₂ because it does not include the same whole-body and coronary sinus mixture. ScvO₂ is often slightly higher, but the relationship varies in shock.</p><p>Low SvO₂ usually means extraction is increased because delivery is low, demand is high, or both. High SvO₂ is not automatically reassuring; it can indicate impaired extraction, microcirculatory shunting, severe sepsis, hypothermia, deep sedation, mitochondrial dysfunction, or sampling error. Interpret SvO₂ with CI, Hb, SpO₂, lactate, urine output, temperature, vasoactive dose, and trend.</p>"
+      "content": "<h3>Mixed venous saturation - the global oxygen balance signal</h3>\n<p>SvO₂ is the oxygen saturation of pulmonary artery blood after systemic venous blood has mixed. It reflects the balance between oxygen delivery and oxygen consumption. A usual adult range is 60-80%, with many CTICU targets around ≥65-70% if the rest of the picture agrees.</p>\n<p>ScvO₂ is central venous oxygen saturation from the SVC/right atrial region. It is not identical to SvO₂ because it does not fully include lower body and coronary sinus contributions. Trends can help, but direct equivalence is unsafe in shock.</p>\n<p>Low SvO₂ usually means increased extraction because delivery is low, demand is high, or both. Causes include low CO, anaemia, hypoxaemia, fever, shivering, pain, agitation, sepsis, seizures, and increased work of breathing.</p>\n<p>High SvO₂ is not automatically reassuring. It may mean high delivery and low demand, but it may also indicate impaired extraction, microcirculatory shunting, sepsis, hypothermia, deep sedation, mitochondrial dysfunction, or sampling error.</p>"
     },
     "expanded": {
-      "content": "<h3>Mixed venous saturations - oxygen left after tissue extraction</h3><p><strong>SvO₂</strong> is the percentage of haemoglobin still saturated with oxygen after blood has passed through systemic tissues and returned to the pulmonary artery. It is called mixed venous because it includes venous blood from the SVC, IVC, and coronary sinus after mixing in the right heart.</p><p>SvO₂ is a global measure of oxygen delivery-consumption balance. It does not identify which organ is underperfused and can hide regional ischaemia, but it is very useful in CTICU because cardiac output, haemoglobin, oxygenation, temperature, shivering, sedation, pain, and vasoactive support change rapidly.</p><h4>Physiology</h4><p>Arterial blood leaves the lungs with high saturation. Tissues extract oxygen according to metabolic need and delivery. Blood returning to the right heart has lower saturation. If delivery is generous relative to demand, extraction is lower and SvO₂ remains higher. If delivery is inadequate or demand is high, extraction increases and SvO₂ falls.</p><p>SvO₂ is shaped by four major variables: cardiac output, haemoglobin, arterial oxygen saturation, and oxygen consumption. Low CO, low Hb, low SaO₂, or high VO₂ can all lower SvO₂.</p><h4>Normal range and target</h4><p>Usual adult SvO₂ is about <strong>60-80%</strong>. A practical CTICU target is often <strong>≥65-70%</strong>, but it must agree with lactate, CI, urine output, and clinical perfusion. A value of <strong>68%</strong> is not reassuring if lactate is rising and urine output is falling. A fall from <strong>75%</strong> to <strong>58%</strong> may be highly significant.</p><p>ScvO₂ is often <strong>&gt;70%</strong>, but it is not equivalent to SvO₂. It samples upper body venous return and does not fully include lower body or coronary sinus contributions. In shock, regional blood flow changes make ScvO₂-SvO₂ relationships unpredictable.</p><h4>Low SvO₂</h4><p>Low SvO₂ means more oxygen has been extracted. Causes include low cardiac output, anaemia, hypoxaemia, fever, shivering, pain, agitation, seizures, sepsis, and increased work of breathing.</p><table><tr><th>Cause</th><th>Mechanism</th><th>Bedside clues</th><th>Correction focus</th></tr><tr><td>Low CO</td><td>Less O₂ delivered per minute</td><td>Low CI, cool, narrow pulse pressure, oliguria, lactate</td><td>Fix preload, rhythm, contractility, afterload, obstruction</td></tr><tr><td>Anaemia</td><td>Lower oxygen content</td><td>Low Hb, bleeding, high extraction</td><td>Assess bleeding/transfusion need</td></tr><tr><td>Hypoxaemia</td><td>Lower SaO₂/CaO₂</td><td>Low SpO₂/PaO₂</td><td>Improve oxygenation/ventilation</td></tr><tr><td>Fever/shivering</td><td>Higher VO₂</td><td>Temperature, shivering, tachycardia</td><td>Treat demand</td></tr><tr><td>Work of breathing</td><td>Respiratory muscles use more O₂</td><td>Tachypnoea, accessory muscles</td><td>Increase support</td></tr></table><h4>High SvO₂</h4><p>High SvO₂ may mean good delivery and low demand, such as a sedated, cooled, well-perfused patient. It may also be pathological if tissues cannot extract or use oxygen. Severe sepsis, distributive shock, microcirculatory shunting, mitochondrial dysfunction, hypothermia, deep sedation, cyanide/toxin physiology, severe liver disease, or sampling error can produce high venous saturation with tissue hypoxia.</p><p>High SvO₂ with rising lactate is concerning. It suggests impaired extraction, microcirculatory failure, shunt, beta-adrenergic lactate, liver clearance issues, or technical error. Do not call it reassuring unless organ perfusion, lactate, CI, and clinical trajectory support that conclusion.</p><h4>SvO₂ and lactate</h4><p>Low SvO₂ plus rising lactate strongly suggests delivery-demand mismatch. Normal or high SvO₂ plus rising lactate suggests impaired extraction, microcirculatory failure, beta-agonist lactate, liver clearance issues, or another metabolic driver. Falling lactate with stable SvO₂ and improving urine output is generally reassuring.</p><p>Adrenaline can increase lactate through beta-2 metabolic effects, but do not dismiss lactate as drug-related if CI is low, SvO₂ is low, urine output is poor, and the patient is cold or mottled.</p><h4>Sampling problems</h4><p>Venous saturation can be wrong. A PAC sample must be from the pulmonary artery, not wedged. A CVC sample can be contaminated by infusions or flush. Continuous fibreoptic systems require correct positioning and calibration. If the value does not match the patient, verify source, line position, waveform, port, sampling technique, recent flushes, oxygenation, Hb, temperature, rhythm, sedation, and vasoactive changes.</p><h4>Clinical patterns</h4><p>A post-CABG patient with SvO₂ falling from <strong>72%</strong> to <strong>55%</strong>, rising lactate, narrowing pulse pressure, and oliguria has an oxygen economy problem. Causes include bleeding, tamponade, low cardiac output, graft issue, arrhythmia, anaemia, or increased demand.</p><p>A post-valve patient with AF at <strong>145/min</strong>, falling SvO₂, low MAP, and lactate rise may have rhythm-driven loss of atrial kick and diastolic filling time. A vasoplegic patient may have low MAP but normal/high SvO₂ if CI is high; if lactate rises, mixed shock or impaired extraction must be considered.</p><h4>Bedside use</h4><ol><li><p><strong>Confirm validity.</strong> Check source, waveform, line position, sampling technique, and contamination.</p></li><li><p><strong>Check delivery.</strong> Review CO/CI, Hb, SaO₂, PaO₂, MAP, and perfusion pressure.</p></li><li><p><strong>Check consumption.</strong> Review fever, shivering, pain, agitation, seizures, sepsis, and work of breathing.</p></li><li><p><strong>Compare lactate and organs.</strong> Review lactate, base excess, urine output, skin, mentation if awake, renal/liver function.</p></li><li><p><strong>Act on the pattern.</strong> Low SvO₂ requires search for low delivery or high demand. High SvO₂ with deterioration requires concern for impaired extraction or error.</p></li></ol>"
+      "content": "<h3>Mixed venous saturation - the global oxygen balance signal</h3>\n<p>This topic must be understood as a mechanism, not as a list of numbers. In CTICU, the same numerical value can mean different things depending on rhythm, ventricular function, vascular tone, ventilation, oxygen content, temperature, bleeding, surgical context, and the patient’s response over time.</p>\n<h4>SvO2 physiology</h4>\n<p><strong>SvO2 physiology</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, SvO2 physiology affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess SvO2 physiology by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Normal range</h4>\n<p><strong>normal range</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, normal range affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess normal range by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Low SvO2</h4>\n<p><strong>low SvO2</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, low SvO2 affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess low SvO2 by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>High SvO2</h4>\n<p><strong>high SvO2</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, high SvO2 affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess high SvO2 by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>SvO2 with lactate</h4>\n<p><strong>SvO2 with lactate</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, SvO2 with lactate affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess SvO2 with lactate by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>ScvO2 differences</h4>\n<p><strong>ScvO2 differences</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, ScvO2 differences affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess ScvO2 differences by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Sampling errors</h4>\n<p><strong>sampling errors</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, sampling errors affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess sampling errors by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Bedside algorithm</h4>\n<p><strong>bedside algorithm</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, bedside algorithm affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess bedside algorithm by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>CTICU bedside integration</h4>\n<p>Start by confirming the measurement is real: level, zero, waveform quality, sampling site, timing, rhythm, and patient position. Then separate pressure from flow. Ask whether the patient has adequate cardiac output, adequate vascular tone, acceptable filling pressures, tolerable afterload, adequate oxygen content, and acceptable oxygen demand.</p>\n<p>Next, decide which mechanism is most likely failing: preload, afterload, contractility, rhythm, obstruction, oxygen content, or oxygen demand. The intervention follows the mechanism. Fluid is for preload-responsive and fluid-tolerant physiology. Vasopressor is for inadequate vascular tone or perfusion pressure. Inotropy is for inadequate pump force. Ventilation and oxygenation changes are haemodynamic interventions when PVR or work of breathing is part of the problem.</p>\n<p>Finally, reassess after every intervention. A useful intervention improves flow or oxygen economy: stronger pulse pressure, improved CI, better urine output, falling lactate, improved SvO₂, improved skin perfusion, or reduced vasoactive requirement. A harmful intervention raises filling pressure, worsens oxygenation, worsens RV dilation, increases afterload excessively, or improves MAP while lactate and SvO₂ worsen.</p>\n<h4>Pattern table</h4><table><tr><th>Finding</th><th>Meaning</th><th>CTICU action</th></tr><tr><td>Rising lactate</td><td>Oxygen delivery-demand mismatch or metabolic stress</td><td>Check CO/CI, Hb, SaO₂, temperature, vasoactive dose, and perfusion</td></tr><tr><td>Low urine output</td><td>Low renal perfusion, venous congestion, AKI, or vasoconstriction</td><td>Assess MAP, CI, CVP, fluid balance, renal trend, and congestion</td></tr><tr><td>Falling SvO₂</td><td>Increased extraction from low delivery or high demand</td><td>Assess flow, Hb, oxygenation, fever, shivering, pain, and WOB</td></tr></table>"
     },
     "pearls": {
-      "content": "<h3>Clinical Pearls - Mixed Venous Saturations</h3><h4>Pearl 1 - SvO₂ is oxygen left over</h4><p>SvO₂ reflects how much oxygen remains after tissues extract their share. It falls when delivery is low or demand is high.</p><h4>Pearl 2 - Low SvO₂ is a delivery-demand alarm</h4><p>Assess CO, Hb, oxygenation, fever, shivering, agitation, pain, work of breathing, and sepsis.</p><h4>Pearl 3 - High SvO₂ is not automatically good</h4><p>High SvO₂ with rising lactate may mean impaired extraction, shunting, mitochondrial dysfunction, sepsis, or sampling error.</p><h4>Pearl 4 - ScvO₂ is not SvO₂</h4><p>ScvO₂ is easier to obtain but does not fully represent mixed venous blood, especially coronary sinus and lower body contributions.</p><h4>Pearl 5 - Read SvO₂ with lactate</h4><p>Low SvO₂ plus rising lactate suggests inadequate DO₂ or high VO₂. High SvO₂ plus rising lactate suggests impaired extraction, microcirculatory failure, beta-adrenergic lactate, clearance issues, or error.</p>"
+      "content": "<h3>Clinical Pearls - Mixed Venous Saturations: SvO2 and ScvO2</h3><h4>Pearl 1 - Treat the mechanism, not the number</h4><p>Mixed Venous Saturations: SvO2 and ScvO2 becomes clinically useful only when linked to preload, afterload, contractility, rhythm, oxygen delivery, and demand.</p><h4>Pearl 2 - Trends beat snapshots</h4><p>A changing trend with worsening lactate, urine output, pulse pressure, or SvO₂ is more important than a single apparently acceptable value.</p><h4>Pearl 3 - Validate before acting</h4><p>Check waveform, zero, level, sample site, timing, rhythm, ventilation, and patient position before escalating therapy based on a number.</p><h4>Pearl 4 - The RV and LV may need different things</h4><p>LV-focused management can harm the RV if PVR, CVP, and septal shift are ignored.</p>"
     },
     "equipment": {
-      "content": "<h3>Equipment Tie-In - Mixed Venous Saturations</h3><h4>PAC</h4><p>A pulmonary artery catheter measures true SvO₂. Confirm PA waveform and avoid wedged sampling.</p><h4>CVC</h4><p>A central line can provide ScvO₂. Avoid infusion contamination and recognise it is not identical to SvO₂.</p><h4>Co-oximetry/ABG analyser</h4><p>Co-oximetry measures venous saturation and can identify dyshemoglobins if available. Label sample type correctly.</p><h4>Haemodynamic monitor</h4><p>Interpret SvO₂ with CI, SVR/PVR, MAP, CVP, PAWP, temperature, vasoactive support, and waveform quality.</p><h4>Ventilator and temperature equipment</h4><p>Ventilation affects oxygenation, PaCO₂, work of breathing, and PVR. Temperature affects VO₂ and therefore SvO₂.</p>"
+      "content": "<h3>Equipment Tie-In - Mixed Venous Saturations: SvO2 and ScvO2</h3><p><strong>Arterial line:</strong> shows pressure, pulse pressure, upstroke, damping, and response to therapy.</p><p><strong>CVP/PAC:</strong> helps separate filling pressure, PA pressure, CO/CI, SVR, PVR, and SvO₂ when present.</p><p><strong>Echo:</strong> identifies chamber size, LV/RV function, septal shift, tamponade, valve problems, and gross filling state.</p><p><strong>Ventilator:</strong> affects venous return, PVR, oxygenation, PaCO₂, pH, and work of breathing.</p><p><strong>ABG/POCT:</strong> provides lactate, pH, PaCO₂, PaO₂, Hb, potassium, ionised calcium, and other variables that change haemodynamics.</p>"
     },
     "targets": {
-      "content": "<h3>Targets and Numbers - Mixed Venous Saturations</h3><p>Usual adult SvO₂ is about <strong>60-80%</strong>. A practical CTICU target is often <strong>≥65-70%</strong> if lactate, urine output, CI, and clinical perfusion agree. ScvO₂ is often <strong>&gt;70%</strong> but is not equivalent. Low values suggest high extraction from low delivery or high demand. High values with deterioration suggest impaired extraction, shunt, sepsis, hypothermia, deep sedation, mitochondrial dysfunction, or technical error.</p>",
+      "content": "<h3>Targets and Numbers - Mixed Venous Saturations: SvO2 and ScvO2</h3><p>Targets are pattern-based rather than isolated. Common CTICU reference points include MAP 65-85 mmHg, CI ≥2.2 L/min/m², urine output ≥0.5 mL/kg/hr, lactate <2 mmol/L or falling, SvO₂ 60-80% or ≥65-70% when appropriate, CVP often 5-12 mmHg depending context, and PAWP often 8-15 mmHg if valid. Patient type, surgical procedure, RV risk, bleeding risk, valve repair, aortic surgery, and chronic hypertension may shift targets.</p>",
       "tables": [
         {
-          "heading": "Venous saturation values",
+          "heading": "Core values and interpretation",
           "headers": [
             "Parameter",
-            "Typical value/target",
-            "Source",
-            "Interpretation"
+            "Common target/range",
+            "Meaning",
+            "CTICU interpretation"
           ],
           "rows": [
             [
+              "MAP",
+              "Often 65-85 mmHg",
+              "Perfusion pressure",
+              "Must be matched with CI, lactate, UO, and SvO₂"
+            ],
+            [
+              "CI",
+              "≥2.2 L/min/m²",
+              "Forward flow indexed to size",
+              "Low with poor perfusion suggests low-output physiology"
+            ],
+            [
+              "CVP",
+              "Often 5-12 mmHg, context dependent",
+              "Right-sided pressure",
+              "High with shock suggests RV/obstructive/congestive physiology"
+            ],
+            [
+              "PAWP",
+              "Often 8-15 mmHg if valid",
+              "Left-sided filling estimate",
+              "High with hypoxia suggests congestion or LV dysfunction"
+            ],
+            [
+              "Lactate",
+              "<2 mmol/L or falling",
+              "Perfusion/metabolic stress",
+              "Rising suggests delivery-demand mismatch or severe stress"
+            ],
+            [
+              "Urine output",
+              "≥0.5 mL/kg/hr",
+              "Renal perfusion/congestion marker",
+              "Low in low flow, venous congestion, AKI, or vasoconstriction"
+            ],
+            [
               "SvO₂",
               "60-80%; often ≥65-70%",
-              "Pulmonary artery catheter",
-              "True mixed venous global oxygen balance"
-            ],
-            [
-              "ScvO₂",
-              "Often >70%",
-              "Central venous/SVC region",
-              "Central estimate; not identical to SvO₂"
-            ],
-            [
-              "Low SvO₂",
-              "<60-65% depending context",
-              "PAC",
-              "High extraction from low delivery or high demand"
-            ],
-            [
-              "High SvO₂",
-              ">80% depending context",
-              "PAC/CVC",
-              "May be adequate delivery/low demand or impaired extraction/shunt/error"
-            ],
-            [
-              "O₂ extraction",
-              "20-30%",
-              "Calculated",
-              "Rises when delivery falls or demand rises"
+              "Global oxygen extraction",
+              "Low suggests delivery-demand mismatch"
             ]
           ]
         },
         {
-          "heading": "SvO₂ patterns",
+          "heading": "CTICU pattern recognition",
           "headers": [
             "Pattern",
-            "Likely meaning",
-            "Check immediately",
-            "Common CTICU causes"
+            "Likely mechanism",
+            "Early signs",
+            "Escalation trigger"
           ],
           "rows": [
             [
-              "Low SvO₂ + rising lactate",
-              "Delivery-demand mismatch",
-              "CI, Hb, SpO₂, bleeding, rhythm, temperature",
-              "Low output, anaemia, hypoxaemia, shivering, pain"
+              "Low MAP + high CI",
+              "Low SVR/vasoplegia",
+              "Warm, bounding pulse, low diastolic pressure",
+              "Persistent hypotension or rising lactate"
             ],
             [
-              "Low SvO₂ + low CI",
-              "Low-flow delivery failure",
-              "Preload, afterload, contractility, rhythm, obstruction",
-              "Tamponade, stunning, RV failure, bleeding"
+              "Low MAP + low CI",
+              "Low output",
+              "Narrow pulse pressure, cool, low UO",
+              "CI <2.2 with worsening markers"
             ],
             [
-              "Low SvO₂ + normal CI",
-              "High demand or low content",
-              "Hb, fever, shivering, respiratory effort",
-              "Anaemia, pain, fever, extubation stress"
+              "Low MAP + rising CVP",
+              "RV/obstructive physiology",
+              "Narrow pulse pressure, rising lactate",
+              "Tamponade/RV failure concern"
             ],
             [
-              "High SvO₂ + stable lactate",
-              "Possibly adequate delivery/low demand",
-              "Sedation, temperature, CI, trend",
-              "Sedation, hypothermia, high flow"
-            ],
-            [
-              "High SvO₂ + rising lactate",
-              "Impaired extraction/shunt/error",
-              "Sampling validity, sepsis, microcirculation, adrenaline",
-              "Distributive shock, mitochondrial dysfunction"
+              "Normal MAP + low CI",
+              "Pressure without flow",
+              "High SVR, cool, low SvO₂",
+              "Rising lactate despite MAP"
             ]
           ]
         }
@@ -108,42 +114,42 @@
   "quizQuestions": [
     {
       "level": "basic",
-      "question": "Where is true mixed venous oxygen saturation measured?",
+      "question": "What is the safest way to interpret Mixed Venous Saturations: SvO2 and ScvO2 in CTICU?",
       "type": "multipleChoice",
       "options": [
-        "Pulmonary artery",
-        "Radial artery",
-        "Peripheral IV",
-        "Endotracheal tube"
+        "As part of a full haemodynamic pattern",
+        "As a single isolated number",
+        "By ignoring waveform quality",
+        "By treating every abnormal value with fluid"
       ],
       "correct": 0,
-      "explanation": "True SvO₂ is sampled from pulmonary artery blood via PAC after systemic venous return has mixed."
+      "explanation": "Mixed Venous Saturations: SvO2 and ScvO2 must be interpreted with pressure, flow, waveform quality, rhythm, oxygen delivery, demand, and clinical response."
     },
     {
       "level": "reasoning",
-      "question": "Falling SvO₂, rising lactate, oliguria, and narrowing pulse pressure after CABG suggest what?",
+      "question": "A patient has conflicting data related to Mixed Venous Saturations: SvO2 and ScvO2. What should happen first?",
       "type": "multipleChoice",
       "options": [
-        "Delivery-demand mismatch requiring urgent haemodynamic assessment",
-        "Over-oxygenation",
-        "PAC is always wrong",
-        "Normal oxygen economy"
+        "Validate the measurement and correlate with the clinical picture",
+        "Assume the number is correct and treat immediately",
+        "Ignore the patient examination",
+        "Give a large fluid bolus automatically"
       ],
       "correct": 0,
-      "explanation": "The pattern suggests inadequate oxygen delivery or increased demand. Causes include low output, bleeding, tamponade, anaemia, arrhythmia, or high VO₂."
+      "explanation": "Measurement validity and clinical correlation come first because transducer error, sampling error, damping, rhythm, ventilation, and patient position can all change interpretation."
     },
     {
       "level": "expert",
-      "question": "Why is high SvO₂ with rising lactate concerning?",
+      "question": "Why is isolated interpretation of Mixed Venous Saturations: SvO2 and ScvO2 dangerous after cardiac surgery?",
       "type": "multipleChoice",
       "options": [
-        "It may indicate impaired extraction, shunting, mitochondrial dysfunction, sepsis, or sampling error",
-        "It proves tissues use oxygen normally",
-        "It means CO is zero",
-        "It only occurs with high Hb"
+        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and demand interact",
+        "Because CTICU patients do not need haemodynamic monitoring",
+        "Because normal MAP always proves normal flow",
+        "Because all post-op cardiac patients have identical physiology"
       ],
       "correct": 0,
-      "explanation": "High venous oxygen with lactate can mean oxygen is delivered but not extracted or used normally, or the sample is invalid."
+      "explanation": "After cardiac surgery the haemodynamic system is interactive. A single value can reflect multiple mechanisms and can be misleading unless interpreted with the full CTICU pattern."
     }
   ]
 }

@@ -6,111 +6,105 @@
   "title": "Contractility and Inotropy",
   "sections": {
     "abridged": {
-      "content": "<h3>Contractility and inotropy - pump strength at a given load</h3><p><strong>Contractility</strong> is the intrinsic force-generating ability of the myocardium at a given preload and afterload. <strong>Inotropy</strong> means a change in that contractile force. Positive inotropes increase contraction strength. Negative inotropes reduce it.</p><p>Contractility is not the same as blood pressure, cardiac output, or ejection fraction. A patient can have normal MAP because SVR is high while contractility and flow are poor. EF is load-dependent: vasodilation can make EF look good, while high afterload can make EF look poor.</p><p>After cardiac surgery, contractility may be impaired by myocardial stunning, ischaemia-reperfusion injury, cardioplegia, graft problems, valve-related loading changes, hypothermia, acidosis, hypocalcaemia, potassium or magnesium abnormalities, RV strain, and prolonged bypass. Poor contractility looks like low CI, weak arterial upstroke, narrow pulse pressure, cool peripheries, rising lactate, low SvO₂, oliguria, pulmonary congestion, and escalating support.</p>"
+      "content": "<h3>Contractility - intrinsic myocardial force generation</h3>\n<p>Contractility is intrinsic myocardial force generation at a given preload and afterload. Inotropy refers to a change in that force. Positive inotropes increase contractility; negative inotropes reduce it.</p>\n<p>Contractility is not the same as EF, MAP, or CO. EF is load-dependent. A vasodilated patient may appear hyperdynamic while hypotensive. A high-afterload patient may appear to have reduced systolic function because the ventricle cannot eject against resistance.</p>\n<p>After cardiac surgery, contractility can be impaired by myocardial stunning, ischaemia-reperfusion, cardioplegia, graft problems, hypothermia, acidosis, hypocalcaemia, potassium or magnesium abnormalities, RV strain, and prolonged bypass.</p>\n<p>Poor contractility appears as low CI, weak arterial upstroke, narrow pulse pressure, rising lactate, low SvO₂, oliguria, pulmonary congestion, and escalating support. The solution is not always fluid; it may be rhythm correction, afterload optimisation, metabolic correction, inotropy, echo, or surgical escalation.</p>"
     },
     "expanded": {
-      "content": "<h3>Contractility - intrinsic myocardial force generation</h3><p><strong>Contractility</strong> is the ability of cardiac muscle to generate force independent of preload and afterload. It reflects the myocardium's performance at a given fibre length and against a given load. It is influenced by intracellular calcium handling, beta-adrenergic stimulation, myocardial oxygen supply, coronary perfusion, pH, temperature, electrolytes, ischaemia, and structural disease.</p><p>Contractility is one of the three major stroke volume determinants. If preload is adequate and afterload is reasonable, poor contractility still produces low stroke volume. In CTICU this is common after cardiopulmonary bypass and cross-clamp because the heart may be stunned, oedematous, ischaemic, hypothermic, acidotic, or recovering from cardioplegia.</p><h4>Cellular mechanism</h4><p>Contraction depends on calcium-mediated actin-myosin interaction. The action potential triggers calcium entry and calcium release from the sarcoplasmic reticulum. Calcium binds troponin C, enabling cross-bridge cycling. Improved calcium availability and cycling generally increase force. Relaxation also requires calcium reuptake, so calcium handling affects systole and diastole.</p><p>Beta-1 stimulation increases cyclic AMP and improves calcium entry and sarcoplasmic reticulum calcium handling. This increases inotropy and often chronotropy. Adrenaline and dobutamine use this pathway to different degrees. Milrinone increases cyclic AMP by phosphodiesterase inhibition, improving inotropy while also causing systemic and pulmonary vasodilation.</p><h4>Inotropy</h4><p><strong>Positive inotropy</strong> increases contractile force. Inotropes are used when cardiac output is inadequate because myocardial force generation is insufficient, after preload, afterload, rhythm, oxygenation, and obstruction have been considered. Inotropes are not benign. They can increase myocardial oxygen demand, provoke arrhythmias, increase heart rate, alter SVR/PVR, and worsen hypotension depending on the agent.</p><p>Adrenaline increases inotropy and chronotropy but may increase lactate via beta-2 metabolic effects and increase arrhythmia risk. Dobutamine improves beta-1 inotropy and may lower SVR via beta-2 effects. Milrinone improves inotropy and reduces PVR/SVR but can cause hypotension and accumulates in renal dysfunction. Noradrenaline is mainly a vasopressor but has some beta-1 effect.</p><h4>Contractility versus ejection fraction</h4><p>Ejection fraction is <strong>EF = SV / EDV × 100</strong>. It is useful but not a pure contractility measure. A vasodilated ventricle may eject a high percentage because afterload is low. A severely afterloaded ventricle may eject a lower percentage because resistance is high. A small underfilled hyperdynamic LV can have a high EF but a low stroke volume.</p><p>Therefore, EF must be interpreted with chamber size, CI, pulse pressure, filling pressures, afterload, valve function, RV function, rhythm, and perfusion markers. A post-bypass patient with a small hyperdynamic LV may be underfilled or vasodilated, not necessarily well perfused. A reduced EF may reflect stunning, ischaemia, high afterload, acidosis, or dyssynchrony.</p><h4>Post-bypass myocardial stunning</h4><p><strong>Myocardial stunning</strong> is transient mechanical dysfunction after ischaemia-reperfusion despite restored blood flow. During bypass and cross-clamping, the heart experiences cardioplegia, altered temperature, inflammation, reperfusion stress, and sometimes variable myocardial protection. After bypass, it may not immediately generate normal force.</p><p>Stunning can affect LV, RV, or both. It may present as low CI, weak pulse pressure, high filling pressures, low SvO₂, rising lactate, and increasing inotrope requirement. It may improve over hours as temperature, electrolytes, acid-base status, and coronary perfusion improve. However, not every low-output state is benign stunning. Graft occlusion, valve dysfunction, tamponade, coronary spasm, air embolism, RV infarction, pulmonary hypertension crisis, and surgical complications can look similar and require urgent escalation.</p><h4>RV contractility</h4><p>The RV is thin-walled and afterload-sensitive. It may fail after mitral surgery, pulmonary hypertension, protamine reaction, hypoxia, hypercapnia, acidosis, high PEEP, RV infarction, LVAD placement, or prolonged bypass. RV failure reduces LV preload because blood is not delivered effectively through the lungs.</p><p>Signs include rising CVP, low CI, hypotension, low PA pulsatility, hepatic congestion, reduced urine output from venous congestion, RV dilation on echo, septal shift, TR, and sensitivity to ventilation changes. Management often requires PVR reduction, oxygenation, ventilation, pH correction, RV inotropy, rhythm optimisation, cautious preload, and systemic pressure for RV coronary perfusion.</p><h4>Clinical recognition</h4><table><tr><th>Finding</th><th>Mechanism</th><th>Interpretation</th></tr><tr><td>Low CI</td><td>Weak ejection reduces forward flow</td><td>Assess preload, afterload, rhythm, contractility, obstruction</td></tr><tr><td>Narrow pulse pressure</td><td>Reduced stroke volume</td><td>May be poor contractility, underfilling, tamponade, RV failure, damping</td></tr><tr><td>Rising lactate</td><td>DO₂ inadequate relative to demand</td><td>Low-flow shock if paired with poor perfusion</td></tr><tr><td>Low SvO₂</td><td>High extraction from low delivery/high demand</td><td>Supports inadequate flow/content or excessive demand</td></tr><tr><td>High PAWP/pulmonary oedema</td><td>LV cannot eject effectively</td><td>More fluid may worsen oxygenation</td></tr><tr><td>High CVP with low flow</td><td>RV failure or compression</td><td>Consider RV failure, tamponade, PVR, PEEP, tension physiology</td></tr></table><h4>Decision-making</h4><ol><li><p><strong>Check rhythm and rate.</strong> AF, heart block, bradycardia, tachycardia, loss of AV synchrony, and pacing problems can mimic poor contractility.</p></li><li><p><strong>Check preload and congestion.</strong> A weak circulation may be underfilled or overloaded. Use CVP, PAWP, echo, drains, and response.</p></li><li><p><strong>Check afterload.</strong> High SVR can make the LV appear weak. High PVR can make the RV fail.</p></li><li><p><strong>Check myocardial oxygen supply.</strong> Review diastolic pressure, Hb, oxygenation, ST changes, graft risk, and arrhythmias.</p></li><li><p><strong>Correct metabolic factors.</strong> Hypothermia, acidosis, ionised hypocalcaemia, potassium or magnesium abnormalities, and hypoxia impair contractility.</p></li><li><p><strong>Escalate early.</strong> Refractory low output after cardiac surgery can represent tamponade, graft failure, valve dysfunction, or need for mechanical support.</p></li></ol>"
+      "content": "<h3>Contractility - intrinsic myocardial force generation</h3>\n<p>This topic must be understood as a mechanism, not as a list of numbers. In CTICU, the same numerical value can mean different things depending on rhythm, ventricular function, vascular tone, ventilation, oxygen content, temperature, bleeding, surgical context, and the patient’s response over time.</p>\n<h4>Cellular calcium</h4>\n<p><strong>cellular calcium</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, cellular calcium affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess cellular calcium by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Inotropy</h4>\n<p><strong>inotropy</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, inotropy affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess inotropy by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>EF limitations</h4>\n<p><strong>EF limitations</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, EF limitations affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess EF limitations by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Post-bypass stunning</h4>\n<p><strong>post-bypass stunning</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, post-bypass stunning affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess post-bypass stunning by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>LV contractility</h4>\n<p><strong>LV contractility</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, LV contractility affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess LV contractility by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>RV contractility</h4>\n<p><strong>RV contractility</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, RV contractility affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess RV contractility by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Metabolic causes</h4>\n<p><strong>metabolic causes</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, metabolic causes affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess metabolic causes by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Decision loop</h4>\n<p><strong>decision loop</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, decision loop affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess decision loop by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>CTICU bedside integration</h4>\n<p>Start by confirming the measurement is real: level, zero, waveform quality, sampling site, timing, rhythm, and patient position. Then separate pressure from flow. Ask whether the patient has adequate cardiac output, adequate vascular tone, acceptable filling pressures, tolerable afterload, adequate oxygen content, and acceptable oxygen demand.</p>\n<p>Next, decide which mechanism is most likely failing: preload, afterload, contractility, rhythm, obstruction, oxygen content, or oxygen demand. The intervention follows the mechanism. Fluid is for preload-responsive and fluid-tolerant physiology. Vasopressor is for inadequate vascular tone or perfusion pressure. Inotropy is for inadequate pump force. Ventilation and oxygenation changes are haemodynamic interventions when PVR or work of breathing is part of the problem.</p>\n<p>Finally, reassess after every intervention. A useful intervention improves flow or oxygen economy: stronger pulse pressure, improved CI, better urine output, falling lactate, improved SvO₂, improved skin perfusion, or reduced vasoactive requirement. A harmful intervention raises filling pressure, worsens oxygenation, worsens RV dilation, increases afterload excessively, or improves MAP while lactate and SvO₂ worsen.</p>\n<h4>Pattern table</h4><table><tr><th>Finding</th><th>Meaning</th><th>CTICU action</th></tr><tr><td>Rising lactate</td><td>Oxygen delivery-demand mismatch or metabolic stress</td><td>Check CO/CI, Hb, SaO₂, temperature, vasoactive dose, and perfusion</td></tr><tr><td>Low urine output</td><td>Low renal perfusion, venous congestion, AKI, or vasoconstriction</td><td>Assess MAP, CI, CVP, fluid balance, renal trend, and congestion</td></tr><tr><td>Falling SvO₂</td><td>Increased extraction from low delivery or high demand</td><td>Assess flow, Hb, oxygenation, fever, shivering, pain, and WOB</td></tr></table>"
     },
     "pearls": {
-      "content": "<h3>Clinical Pearls - Contractility</h3><h4>Pearl 1 - EF is not pure contractility</h4><p>EF changes with preload and afterload. A hyperdynamic small LV can still have poor SV. A low EF may reflect high afterload or stunning rather than irreversible failure.</p><h4>Pearl 2 - Do not keep filling a weak ventricle</h4><p>If preload is adequate and contractility is poor, fluid raises filling pressures more than output and can worsen pulmonary oedema and venous congestion.</p><h4>Pearl 3 - Stunning is common but not the only cause</h4><p>Low output may be stunning, but graft occlusion, tamponade, valve dysfunction, coronary spasm, RV failure, and surgical complications must be considered.</p><h4>Pearl 4 - Chemistry is haemodynamics</h4><p>Hypothermia, acidosis, low ionised calcium, potassium abnormalities, magnesium abnormalities, and hypoxia impair electrical and mechanical function.</p><h4>Pearl 5 - RV weakness may be afterload-driven</h4><p>Reducing PVR by correcting hypoxia, hypercapnia, acidosis, and overdistension may improve RV performance.</p>"
+      "content": "<h3>Clinical Pearls - Contractility and Inotropy</h3><h4>Pearl 1 - Treat the mechanism, not the number</h4><p>Contractility and Inotropy becomes clinically useful only when linked to preload, afterload, contractility, rhythm, oxygen delivery, and demand.</p><h4>Pearl 2 - Trends beat snapshots</h4><p>A changing trend with worsening lactate, urine output, pulse pressure, or SvO₂ is more important than a single apparently acceptable value.</p><h4>Pearl 3 - Validate before acting</h4><p>Check waveform, zero, level, sample site, timing, rhythm, ventilation, and patient position before escalating therapy based on a number.</p><h4>Pearl 4 - The RV and LV may need different things</h4><p>LV-focused management can harm the RV if PVR, CVP, and septal shift are ignored.</p>"
     },
     "equipment": {
-      "content": "<h3>Equipment Tie-In - Contractility</h3><h4>Arterial line</h4><p>Weak upstroke and narrow pulse pressure can suggest low SV from poor contractility, but damping and preload must be checked.</p><h4>PAC</h4><p>Low CI, filling pressures, SVR/PVR, and SvO₂ help distinguish poor contractility from vasoplegia, underfilling, high afterload, and RV afterload crisis.</p><h4>Echo</h4><p>Echo directly assesses LV/RV systolic function, chamber size, septal motion, valve function, regional wall motion, and tamponade.</p><h4>ECG</h4><p>ST changes, conduction blocks, AF, bradycardia, ventricular arrhythmias, and pacing issues can cause or signal contractility problems.</p><h4>ABG/POC testing</h4><p>pH, lactate, potassium, ionised calcium, haemoglobin, PaO₂, and PaCO₂ are directly relevant to pump performance.</p>"
+      "content": "<h3>Equipment Tie-In - Contractility and Inotropy</h3><p><strong>Arterial line:</strong> shows pressure, pulse pressure, upstroke, damping, and response to therapy.</p><p><strong>CVP/PAC:</strong> helps separate filling pressure, PA pressure, CO/CI, SVR, PVR, and SvO₂ when present.</p><p><strong>Echo:</strong> identifies chamber size, LV/RV function, septal shift, tamponade, valve problems, and gross filling state.</p><p><strong>Ventilator:</strong> affects venous return, PVR, oxygenation, PaCO₂, pH, and work of breathing.</p><p><strong>ABG/POCT:</strong> provides lactate, pH, PaCO₂, PaO₂, Hb, potassium, ionised calcium, and other variables that change haemodynamics.</p>"
     },
     "targets": {
-      "content": "<h3>Targets and Numbers - Contractility</h3><p>Contractility is judged indirectly by adequate forward flow and oxygen delivery: CI usually <strong>≥2.2 L/min/m²</strong>, lactate <strong>&lt;2 mmol/L</strong> or falling, SvO₂ <strong>60-80%</strong> or target <strong>≥65-70%</strong>, urine output <strong>≥0.5 mL/kg/hr</strong>, acceptable pulse pressure, stable rhythm, and echo evidence of adequate ventricular function. Metabolic targets commonly include potassium <strong>4.0-4.5 mmol/L</strong>, magnesium <strong>≥0.8-1.0 mmol/L</strong>, and ionised calcium <strong>1.1-1.3 mmol/L</strong>, depending on local protocol.</p>",
+      "content": "<h3>Targets and Numbers - Contractility and Inotropy</h3><p>Targets are pattern-based rather than isolated. Common CTICU reference points include MAP 65-85 mmHg, CI ≥2.2 L/min/m², urine output ≥0.5 mL/kg/hr, lactate <2 mmol/L or falling, SvO₂ 60-80% or ≥65-70% when appropriate, CVP often 5-12 mmHg depending context, and PAWP often 8-15 mmHg if valid. Patient type, surgical procedure, RV risk, bleeding risk, valve repair, aortic surgery, and chronic hypertension may shift targets.</p>",
       "tables": [
         {
-          "heading": "Contractility assessment targets",
+          "heading": "Core values and interpretation",
           "headers": [
             "Parameter",
             "Common target/range",
-            "Why it matters",
-            "Concern"
+            "Meaning",
+            "CTICU interpretation"
           ],
           "rows": [
             [
+              "MAP",
+              "Often 65-85 mmHg",
+              "Perfusion pressure",
+              "Must be matched with CI, lactate, UO, and SvO₂"
+            ],
+            [
               "CI",
-              "≥2.2 L/min/m²; often 2.5-4.0",
-              "Flow adequacy",
-              "Low CI with poor perfusion suggests inadequate pump output"
+              "≥2.2 L/min/m²",
+              "Forward flow indexed to size",
+              "Low with poor perfusion suggests low-output physiology"
             ],
             [
-              "Pulse pressure",
-              "Often 30-50 mmHg context dependent",
-              "SV clue",
-              "Narrowing suggests falling SV or damping"
+              "CVP",
+              "Often 5-12 mmHg, context dependent",
+              "Right-sided pressure",
+              "High with shock suggests RV/obstructive/congestive physiology"
             ],
             [
-              "SvO₂",
-              "60-80%; often ≥65-70%",
-              "Delivery-demand balance",
-              "Low value supports low delivery/high demand"
+              "PAWP",
+              "Often 8-15 mmHg if valid",
+              "Left-sided filling estimate",
+              "High with hypoxia suggests congestion or LV dysfunction"
             ],
             [
               "Lactate",
               "<2 mmol/L or falling",
-              "Perfusion/metabolic marker",
-              "Rising value suggests inadequate DO₂/metabolic stress"
+              "Perfusion/metabolic stress",
+              "Rising suggests delivery-demand mismatch or severe stress"
             ],
             [
-              "Ionised calcium",
-              "1.1-1.3 mmol/L",
-              "Contraction, tone, coagulation",
-              "Low Ca can impair contractility"
+              "Urine output",
+              "≥0.5 mL/kg/hr",
+              "Renal perfusion/congestion marker",
+              "Low in low flow, venous congestion, AKI, or vasoconstriction"
             ],
             [
-              "Potassium",
-              "Often 4.0-4.5 mmol/L",
-              "Electrical stability",
-              "Low/high K increases arrhythmia risk"
-            ],
-            [
-              "Magnesium",
-              "Often ≥0.8-1.0 mmol/L",
-              "Electrical stability",
-              "Low Mg increases AF/VT risk"
+              "SvO₂",
+              "60-80%; often ≥65-70%",
+              "Global oxygen extraction",
+              "Low suggests delivery-demand mismatch"
             ]
           ]
         },
         {
-          "heading": "Poor contractility causes",
+          "heading": "CTICU pattern recognition",
           "headers": [
-            "Cause",
-            "Mechanism",
-            "Bedside signs",
-            "Escalation concern"
+            "Pattern",
+            "Likely mechanism",
+            "Early signs",
+            "Escalation trigger"
           ],
           "rows": [
             [
-              "Myocardial stunning",
-              "Post-ischaemia/reperfusion dysfunction",
-              "Low CI, weak pulse, low SvO₂",
-              "Persistent shock needs review"
+              "Low MAP + high CI",
+              "Low SVR/vasoplegia",
+              "Warm, bounding pulse, low diastolic pressure",
+              "Persistent hypotension or rising lactate"
             ],
             [
-              "Graft/coronary problem",
-              "Impaired myocardial oxygen supply",
-              "ST changes, regional wall-motion abnormality",
-              "Immediate senior escalation"
+              "Low MAP + low CI",
+              "Low output",
+              "Narrow pulse pressure, cool, low UO",
+              "CI <2.2 with worsening markers"
             ],
             [
-              "Hypothermia/acidosis",
-              "Enzyme/calcium handling impairment",
-              "Poor inotrope response, low output",
-              "Correct rapidly"
+              "Low MAP + rising CVP",
+              "RV/obstructive physiology",
+              "Narrow pulse pressure, rising lactate",
+              "Tamponade/RV failure concern"
             ],
             [
-              "Electrolyte abnormality",
-              "Electrical/mechanical instability",
-              "Arrhythmia, poor capture, weak contraction",
-              "Urgent correction if severe"
-            ],
-            [
-              "RV failure",
-              "Poor RV output reduces LV preload",
-              "High CVP, low CI, RV dilation",
-              "RV-focused management"
+              "Normal MAP + low CI",
+              "Pressure without flow",
+              "High SVR, cool, low SvO₂",
+              "Rising lactate despite MAP"
             ]
           ]
         }
@@ -120,42 +114,42 @@
   "quizQuestions": [
     {
       "level": "basic",
-      "question": "What does contractility mean?",
+      "question": "What is the safest way to interpret Contractility and Inotropy in CTICU?",
       "type": "multipleChoice",
       "options": [
-        "Intrinsic myocardial force generation at a given preload and afterload",
-        "Total body fluid",
-        "Arterial line resistance",
-        "Arterial oxygen saturation"
+        "As part of a full haemodynamic pattern",
+        "As a single isolated number",
+        "By ignoring waveform quality",
+        "By treating every abnormal value with fluid"
       ],
       "correct": 0,
-      "explanation": "Contractility is the heart muscle's intrinsic ability to generate force, influenced by calcium, sympathetic tone, oxygen supply, pH, temperature, electrolytes, and injury."
+      "explanation": "Contractility and Inotropy must be interpreted with pressure, flow, waveform quality, rhythm, oxygen delivery, demand, and clinical response."
     },
     {
       "level": "reasoning",
-      "question": "Low CI, high PAWP, pulmonary oedema, narrow pulse pressure and rising lactate after bypass: why may repeated fluid harm?",
+      "question": "A patient has conflicting data related to Contractility and Inotropy. What should happen first?",
       "type": "multipleChoice",
       "options": [
-        "The ventricle may be filled but too weak to eject, so fluid raises pressure more than flow",
-        "Fluid always lowers PAWP",
-        "Fluid directly fixes contractility",
-        "Pulmonary oedema proves vasoplegia only"
+        "Validate the measurement and correlate with the clinical picture",
+        "Assume the number is correct and treat immediately",
+        "Ignore the patient examination",
+        "Give a large fluid bolus automatically"
       ],
       "correct": 0,
-      "explanation": "If contractility is poor and left-sided filling pressure is high, extra fluid raises LVEDP/PAWP and pulmonary oedema without improving output."
+      "explanation": "Measurement validity and clinical correlation come first because transducer error, sampling error, damping, rhythm, ventilation, and patient position can all change interpretation."
     },
     {
       "level": "expert",
-      "question": "Why is EF an imperfect marker of contractility?",
+      "question": "Why is isolated interpretation of Contractility and Inotropy dangerous after cardiac surgery?",
       "type": "multipleChoice",
       "options": [
-        "EF is load-dependent and changes with preload and afterload",
-        "EF only measures CVP",
-        "EF is always normal after bypass",
-        "EF equals SVR"
+        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and demand interact",
+        "Because CTICU patients do not need haemodynamic monitoring",
+        "Because normal MAP always proves normal flow",
+        "Because all post-op cardiac patients have identical physiology"
       ],
       "correct": 0,
-      "explanation": "EF is affected by loading. Low afterload can make EF look good, high afterload can make it look poor, and a small LV can have high EF but low SV."
+      "explanation": "After cardiac surgery the haemodynamic system is interactive. A single value can reflect multiple mechanisms and can be misleading unless interpreted with the full CTICU pattern."
     }
   ]
 }

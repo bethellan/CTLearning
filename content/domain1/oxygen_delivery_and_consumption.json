@@ -6,111 +6,105 @@
   "title": "Oxygen Delivery and Consumption: DO2 and VO2",
   "sections": {
     "abridged": {
-      "content": "<h3>Oxygen delivery and consumption - the purpose of haemodynamics</h3><p><strong>Oxygen delivery (DO₂)</strong> is the amount of oxygen delivered to tissues each minute. It depends mainly on cardiac output and arterial oxygen content. The formula is <strong>DO₂ = CO × CaO₂ × 10</strong>. <strong>CaO₂</strong> is <strong>(1.34 × Hb × SaO₂) + (0.003 × PaO₂)</strong>.</p><p>Haemoglobin-bound oxygen is the major contributor. Dissolved oxygen from PaO₂ is small. A patient can have SpO₂ <strong>100%</strong> and PaO₂ <strong>200 mmHg</strong> but still have poor DO₂ if haemoglobin or cardiac output is low. CTICU oxygen delivery is a flow, haemoglobin, and saturation problem, not just an oxygen saturation problem.</p><p><strong>Oxygen consumption (VO₂)</strong> is oxygen used by tissues each minute. Resting adult VO₂ is roughly <strong>200-250 mL/min</strong>. It rises with fever, shivering, pain, agitation, seizures, sepsis, catecholamine excess, and increased work of breathing. Normal oxygen extraction is about <strong>20-30%</strong>.</p><p>Wake-up and extubation often reveal marginal oxygen delivery because VO₂ rises. A sedated ventilated patient may look stable, then develop falling SvO₂ and rising lactate when shivering, pain, or work of breathing increases demand.</p>"
+      "content": "<h3>Oxygen delivery and consumption - the purpose of haemodynamics</h3>\n<p>Oxygen delivery is the amount of oxygen delivered to tissues each minute. The formula is <strong>DO₂ = CO × CaO₂ × 10</strong>. Arterial oxygen content is <strong>CaO₂ = (1.34 × Hb × SaO₂) + (0.003 × PaO₂)</strong>.</p>\n<p>Haemoglobin-bound oxygen is the major component. Dissolved oxygen from PaO₂ is small once saturation is high. A patient can have SpO₂ 100% and PaO₂ 200 mmHg but poor oxygen delivery if haemoglobin or cardiac output is low.</p>\n<p>Oxygen consumption is the amount tissues use each minute. Resting adult VO₂ is about 200-250 mL/min. It rises with fever, shivering, pain, agitation, seizures, sepsis, work of breathing, and catecholamine excess.</p>\n<p>In CTICU, DO₂ and VO₂ explain why patients can deteriorate during wake-up or extubation. Demand rises. If CO or Hb cannot rise to match demand, SvO₂ falls and lactate rises.</p>"
     },
     "expanded": {
-      "content": "<h3>DO₂ and VO₂ - the oxygen economy</h3><p>The cardiovascular system exists to maintain cellular oxygen supply. Blood pressure, cardiac output, haemoglobin, oxygen saturation, ventilation, and microcirculation matter because they support oxygen delivery and waste removal. <strong>DO₂</strong> is oxygen delivered per minute. <strong>VO₂</strong> is oxygen consumed per minute.</p><p>In CTICU, oxygen economy can fail despite reassuring isolated numbers. SpO₂ may be normal while cardiac output is low. MAP may be normal while SVR is high and flow is poor. Hb may seem acceptable but demand may be high from shivering, fever, pain, or respiratory distress.</p><h4>Oxygen delivery formula</h4><p><strong>DO₂ = CO × CaO₂ × 10</strong>. CO is in L/min. CaO₂ is in mL O₂/dL. The multiplier 10 converts dL to L.</p><p><strong>CaO₂ = (1.34 × Hb × SaO₂) + (0.003 × PaO₂)</strong>. Hb is in g/dL, SaO₂ is a decimal, and PaO₂ is in mmHg. The constant 1.34 is the approximate mL of oxygen carried by each gram of fully saturated haemoglobin. The 0.003 term is dissolved oxygen.</p><h4>Haemoglobin dominates oxygen content</h4><p>Most oxygen is carried on haemoglobin. If Hb is <strong>10 g/dL</strong>, SaO₂ <strong>98%</strong>, and PaO₂ <strong>100 mmHg</strong>, haemoglobin-bound oxygen is <strong>13.1 mL/dL</strong> and dissolved oxygen is only <strong>0.3 mL/dL</strong>. CaO₂ is about <strong>13.4 mL/dL</strong>.</p><p>Increasing PaO₂ from <strong>100</strong> to <strong>200 mmHg</strong> adds only about <strong>0.3 mL/dL</strong> dissolved oxygen. Increasing cardiac output or haemoglobin usually has a much larger effect on DO₂. This is why high oxygen saturation cannot compensate for severe anaemia or low cardiac output.</p><h4>Cardiac output as the multiplier</h4><p>If CaO₂ is <strong>13.4 mL/dL</strong> and CO is <strong>5 L/min</strong>, DO₂ is about <strong>670 mL/min</strong>. If CO falls to <strong>3 L/min</strong>, DO₂ falls to about <strong>402 mL/min</strong> with the same saturation and haemoglobin. This is a common CTICU trap: oxygenation can look excellent while delivery is failing.</p><h4>Haemoglobin as oxygen carrying capacity</h4><p>When Hb falls, CaO₂ falls. If Hb decreases from <strong>100 g/L</strong> to <strong>70 g/L</strong>, DO₂ can drop markedly even when SaO₂ remains high. The body compensates by increasing CO and oxygen extraction. Post-cardiac surgery patients may not be able to compensate because of stunning, RV failure, arrhythmia, vasoplegia, or myocardial ischaemia.</p><p>Transfusion decisions are clinical and protocol-driven, but the physiology is clear: anaemia reduces oxygen content, and either cardiac output or extraction must rise to maintain VO₂. If compensation fails, lactate rises and venous saturation falls.</p><h4>SaO₂ and PaO₂</h4><p>SaO₂ is the percentage of haemoglobin binding sites occupied by oxygen. Once SaO₂ is near full saturation, extra PaO₂ contributes little to content. PaO₂ still matters for gas exchange reserve, lung severity, and PVR, but it is not the main oxygen content driver once saturation is high.</p><p>In RV-risk patients, avoiding hypoxia is vital because hypoxia raises PVR. In low-output patients, however, improving PaO₂ alone will not fix poor DO₂ if CO and Hb are inadequate.</p><h4>Oxygen consumption</h4><p><strong>VO₂</strong> is tissue oxygen use per minute. Resting adult VO₂ is about <strong>200-250 mL/min</strong>. It increases with fever, shivering, pain, agitation, seizures, sepsis, catecholamine excess, respiratory distress, mobilisation, and inadequate analgesia. It decreases with hypothermia, deep sedation, paralysis, and reduced metabolic activity.</p><p>Post-cardiac surgery patients often shift VO₂ quickly. Rewarming and shivering can markedly raise VO₂. Wake-up increases sympathetic tone. Extubation increases work of breathing. If CO or Hb cannot rise to match demand, oxygen extraction rises, SvO₂ falls, and lactate may increase.</p><h4>Oxygen extraction</h4><p><strong>Oxygen extraction ratio</strong> is <strong>VO₂ / DO₂</strong>. Normal extraction is around <strong>20-30%</strong>. When DO₂ falls, tissues extract more oxygen and venous saturation falls. This compensation has limits. When extraction is maximised, VO₂ becomes supply-dependent and lactate rises.</p><h4>Supply dependency</h4><p>Normally VO₂ is maintained despite moderate DO₂ changes because extraction adjusts. In shock, severe anaemia, hypoxaemia, low CO, or microcirculatory failure, VO₂ may become supply-dependent. That means tissues cannot use the oxygen they need because delivery is inadequate or extraction is impaired. Organ dysfunction and lactic acidosis follow.</p><h4>Worked examples</h4><p>Example 1: Hb <strong>100 g/L</strong> or <strong>10 g/dL</strong>, SaO₂ <strong>98%</strong>, PaO₂ <strong>100 mmHg</strong>, CO <strong>5 L/min</strong>. CaO₂ is about <strong>13.4 mL/dL</strong>. DO₂ is <strong>670 mL/min</strong>.</p><p>Example 2: Same oxygen content but CO falls to <strong>3 L/min</strong>. DO₂ falls to about <strong>402 mL/min</strong>. SpO₂ may still read <strong>98%</strong>.</p><p>Example 3: Hb falls to <strong>70 g/L</strong>, SaO₂ remains <strong>98%</strong>, PaO₂ remains <strong>100 mmHg</strong>, and CO remains <strong>5 L/min</strong>. CaO₂ becomes about <strong>9.5 mL/dL</strong>. DO₂ becomes about <strong>475 mL/min</strong>.</p><p>Example 4: Hb <strong>80 g/L</strong>, SpO₂ <strong>96%</strong>, CO <strong>3.2 L/min</strong>, fever and shivering. DO₂ is reduced by low Hb and low CO while VO₂ is increased by shivering and fever. This is a high-risk delivery-demand mismatch.</p><h4>Bedside application</h4><ol><li><p><strong>Assess content.</strong> Check Hb, SaO₂/SpO₂, PaO₂, and whether oxygenation is adequate for RV and organ needs.</p></li><li><p><strong>Assess flow.</strong> Check CO/CI, pulse pressure, arterial waveform, echo, lactate, urine output, and skin perfusion.</p></li><li><p><strong>Assess demand.</strong> Check fever, shivering, pain, agitation, seizures, respiratory distress, sepsis, and catecholamine load.</p></li><li><p><strong>Assess extraction.</strong> Use SvO₂/ScvO₂, lactate, base excess, and organ function.</p></li><li><p><strong>Treat the limiting variable.</strong> Improve CO, Hb, SaO₂, perfusion pressure, ventilation, analgesia, sedation, temperature, or source control as indicated.</p></li></ol>"
+      "content": "<h3>Oxygen delivery and consumption - the purpose of haemodynamics</h3>\n<p>This topic must be understood as a mechanism, not as a list of numbers. In CTICU, the same numerical value can mean different things depending on rhythm, ventricular function, vascular tone, ventilation, oxygen content, temperature, bleeding, surgical context, and the patient’s response over time.</p>\n<h4>DO2 formula</h4>\n<p><strong>DO2 formula</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, DO2 formula affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess DO2 formula by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>CaO2 formula</h4>\n<p><strong>CaO2 formula</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, CaO2 formula affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess CaO2 formula by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Haemoglobin dominance</h4>\n<p><strong>haemoglobin dominance</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, haemoglobin dominance affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess haemoglobin dominance by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Cardiac output multiplier</h4>\n<p><strong>cardiac output multiplier</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, cardiac output multiplier affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess cardiac output multiplier by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>VO2</h4>\n<p><strong>VO2</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, VO2 affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess VO2 by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Oxygen extraction</h4>\n<p><strong>oxygen extraction</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, oxygen extraction affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess oxygen extraction by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Supply dependency</h4>\n<p><strong>supply dependency</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, supply dependency affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess supply dependency by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>Worked examples</h4>\n<p><strong>worked examples</strong> is a core component of this topic. It must be interpreted through the CTICU pattern rather than as an isolated number. The clinical meaning depends on pressure, flow, filling, oxygen delivery, oxygen demand, waveform quality, and surgical context.</p>\n<p>Mechanistically, worked examples affects the relationship between ventricular filling, pressure generation, ejection, venous return, and tissue oxygen delivery. When this variable changes, the arterial waveform, pulse pressure, cardiac index, filling pressures, lactate, urine output, and venous saturation may change before the patient looks obviously unstable.</p>\n<p>At the bedside, assess worked examples by looking for concordance. A trustworthy interpretation requires the monitor value, waveform, clinical perfusion, recent trend, and response to therapy to point in the same direction. If the number and patient disagree, validate the equipment and escalate the physiological question rather than treating the number alone.</p>\n<h4>CTICU bedside integration</h4>\n<p>Start by confirming the measurement is real: level, zero, waveform quality, sampling site, timing, rhythm, and patient position. Then separate pressure from flow. Ask whether the patient has adequate cardiac output, adequate vascular tone, acceptable filling pressures, tolerable afterload, adequate oxygen content, and acceptable oxygen demand.</p>\n<p>Next, decide which mechanism is most likely failing: preload, afterload, contractility, rhythm, obstruction, oxygen content, or oxygen demand. The intervention follows the mechanism. Fluid is for preload-responsive and fluid-tolerant physiology. Vasopressor is for inadequate vascular tone or perfusion pressure. Inotropy is for inadequate pump force. Ventilation and oxygenation changes are haemodynamic interventions when PVR or work of breathing is part of the problem.</p>\n<p>Finally, reassess after every intervention. A useful intervention improves flow or oxygen economy: stronger pulse pressure, improved CI, better urine output, falling lactate, improved SvO₂, improved skin perfusion, or reduced vasoactive requirement. A harmful intervention raises filling pressure, worsens oxygenation, worsens RV dilation, increases afterload excessively, or improves MAP while lactate and SvO₂ worsen.</p>\n<h4>Pattern table</h4><table><tr><th>Finding</th><th>Meaning</th><th>CTICU action</th></tr><tr><td>Rising lactate</td><td>Oxygen delivery-demand mismatch or metabolic stress</td><td>Check CO/CI, Hb, SaO₂, temperature, vasoactive dose, and perfusion</td></tr><tr><td>Low urine output</td><td>Low renal perfusion, venous congestion, AKI, or vasoconstriction</td><td>Assess MAP, CI, CVP, fluid balance, renal trend, and congestion</td></tr><tr><td>Falling SvO₂</td><td>Increased extraction from low delivery or high demand</td><td>Assess flow, Hb, oxygenation, fever, shivering, pain, and WOB</td></tr></table>"
     },
     "pearls": {
-      "content": "<h3>Clinical Pearls - DO₂ and VO₂</h3><h4>Pearl 1 - SpO₂ is not oxygen delivery</h4><p>SpO₂ does not measure haemoglobin or cardiac output. A patient can be fully saturated and still have poor DO₂.</p><h4>Pearl 2 - PaO₂ adds little content once saturation is high</h4><p>Most oxygen is haemoglobin-bound. Dissolved oxygen is small, so very high PaO₂ cannot compensate well for low Hb or low CO.</p><h4>Pearl 3 - Wake-up increases demand</h4><p>Shivering, pain, agitation, and work of breathing increase VO₂ and can expose marginal delivery.</p><h4>Pearl 4 - Low SvO₂ usually means extraction has increased</h4><p>Low delivery or high demand makes tissues extract more oxygen, lowering venous saturation.</p><h4>Pearl 5 - Treat the limiting variable</h4><p>More oxygen will not fix low DO₂ if the key issue is low cardiac output or anaemia. Sedation, warming, analgesia, ventilation, transfusion, or inotropy may be the more relevant intervention depending on the pattern.</p>"
+      "content": "<h3>Clinical Pearls - Oxygen Delivery and Consumption: DO2 and VO2</h3><h4>Pearl 1 - Treat the mechanism, not the number</h4><p>Oxygen Delivery and Consumption: DO2 and VO2 becomes clinically useful only when linked to preload, afterload, contractility, rhythm, oxygen delivery, and demand.</p><h4>Pearl 2 - Trends beat snapshots</h4><p>A changing trend with worsening lactate, urine output, pulse pressure, or SvO₂ is more important than a single apparently acceptable value.</p><h4>Pearl 3 - Validate before acting</h4><p>Check waveform, zero, level, sample site, timing, rhythm, ventilation, and patient position before escalating therapy based on a number.</p><h4>Pearl 4 - The RV and LV may need different things</h4><p>LV-focused management can harm the RV if PVR, CVP, and septal shift are ignored.</p>"
     },
     "equipment": {
-      "content": "<h3>Equipment Tie-In - DO₂ and VO₂</h3><h4>Pulse oximeter</h4><p>SpO₂ estimates saturation but not Hb or CO. Poor waveform, low perfusion, motion, nail polish, dyshemoglobins, and vasoconstriction can affect accuracy.</p><h4>ABG analyser</h4><p>ABG provides PaO₂, pH, PaCO₂, lactate, base excess, and often Hb/co-oximetry. These assess content, ventilation, acid-base status, and metabolic stress.</p><h4>PAC/haemodynamic monitor</h4><p>CO/CI is central because it multiplies oxygen content. PAC also gives SvO₂, a delivery-demand marker.</p><h4>Temperature monitoring</h4><p>Fever and shivering increase VO₂. Hypothermia reduces metabolism but impairs coagulation and contractility.</p><h4>Ventilator</h4><p>Ventilation affects oxygenation, PaCO₂, work of breathing, PVR, venous return, and therefore both DO₂ and VO₂.</p>"
+      "content": "<h3>Equipment Tie-In - Oxygen Delivery and Consumption: DO2 and VO2</h3><p><strong>Arterial line:</strong> shows pressure, pulse pressure, upstroke, damping, and response to therapy.</p><p><strong>CVP/PAC:</strong> helps separate filling pressure, PA pressure, CO/CI, SVR, PVR, and SvO₂ when present.</p><p><strong>Echo:</strong> identifies chamber size, LV/RV function, septal shift, tamponade, valve problems, and gross filling state.</p><p><strong>Ventilator:</strong> affects venous return, PVR, oxygenation, PaCO₂, pH, and work of breathing.</p><p><strong>ABG/POCT:</strong> provides lactate, pH, PaCO₂, PaO₂, Hb, potassium, ionised calcium, and other variables that change haemodynamics.</p>"
     },
     "targets": {
-      "content": "<h3>Targets and Numbers - DO₂ and VO₂</h3><p>Resting adult VO₂ is about <strong>200-250 mL/min</strong>. Normal DO₂ is often roughly <strong>900-1100 mL/min</strong> in a typical adult. Oxygen extraction is about <strong>20-30%</strong>. Practical CTICU targets include SpO₂ usually <strong>≥94%</strong> unless otherwise prescribed, CI <strong>≥2.2 L/min/m²</strong>, lactate <strong>&lt;2 mmol/L</strong> or falling, urine output <strong>≥0.5 mL/kg/hr</strong>, and SvO₂ usually <strong>60-80%</strong> or at least <strong>≥65-70%</strong> when used as a target.</p>",
+      "content": "<h3>Targets and Numbers - Oxygen Delivery and Consumption: DO2 and VO2</h3><p>Targets are pattern-based rather than isolated. Common CTICU reference points include MAP 65-85 mmHg, CI ≥2.2 L/min/m², urine output ≥0.5 mL/kg/hr, lactate <2 mmol/L or falling, SvO₂ 60-80% or ≥65-70% when appropriate, CVP often 5-12 mmHg depending context, and PAWP often 8-15 mmHg if valid. Patient type, surgical procedure, RV risk, bleeding risk, valve repair, aortic surgery, and chronic hypertension may shift targets.</p>",
       "tables": [
         {
-          "heading": "Oxygen economy values",
+          "heading": "Core values and interpretation",
           "headers": [
             "Parameter",
-            "Typical value/target",
+            "Common target/range",
             "Meaning",
-            "CTICU relevance"
+            "CTICU interpretation"
           ],
           "rows": [
             [
-              "DO₂",
-              "~900-1100 mL/min in typical adult",
-              "Oxygen delivered per minute",
-              "Falls with low CO, Hb, or SaO₂"
-            ],
-            [
-              "VO₂",
-              "200-250 mL/min at rest",
-              "Oxygen consumed per minute",
-              "Rises with fever, shivering, pain, work of breathing"
-            ],
-            [
-              "O₂ extraction",
-              "20-30%",
-              "Fraction extracted",
-              "Rises when delivery falls or demand rises"
-            ],
-            [
-              "CaO₂",
-              "Mainly Hb and SaO₂",
-              "Arterial oxygen content",
-              "PaO₂ adds little once saturated"
-            ],
-            [
-              "SpO₂",
-              "Usually ≥94% post-op unless otherwise prescribed",
-              "Saturation estimate",
-              "Not flow or Hb"
+              "MAP",
+              "Often 65-85 mmHg",
+              "Perfusion pressure",
+              "Must be matched with CI, lactate, UO, and SvO₂"
             ],
             [
               "CI",
               "≥2.2 L/min/m²",
-              "Flow multiplier",
-              "Low CI causes poor DO₂ despite normal SpO₂"
+              "Forward flow indexed to size",
+              "Low with poor perfusion suggests low-output physiology"
+            ],
+            [
+              "CVP",
+              "Often 5-12 mmHg, context dependent",
+              "Right-sided pressure",
+              "High with shock suggests RV/obstructive/congestive physiology"
+            ],
+            [
+              "PAWP",
+              "Often 8-15 mmHg if valid",
+              "Left-sided filling estimate",
+              "High with hypoxia suggests congestion or LV dysfunction"
             ],
             [
               "Lactate",
-              "<2 or falling",
-              "Perfusion/metabolic marker",
-              "Rising suggests mismatch or metabolic stress"
+              "<2 mmol/L or falling",
+              "Perfusion/metabolic stress",
+              "Rising suggests delivery-demand mismatch or severe stress"
+            ],
+            [
+              "Urine output",
+              "≥0.5 mL/kg/hr",
+              "Renal perfusion/congestion marker",
+              "Low in low flow, venous congestion, AKI, or vasoconstriction"
+            ],
+            [
+              "SvO₂",
+              "60-80%; often ≥65-70%",
+              "Global oxygen extraction",
+              "Low suggests delivery-demand mismatch"
             ]
           ]
         },
         {
-          "heading": "DO₂ problem-solving",
+          "heading": "CTICU pattern recognition",
           "headers": [
-            "Problem",
-            "Effect",
-            "Clues",
-            "Correction focus"
+            "Pattern",
+            "Likely mechanism",
+            "Early signs",
+            "Escalation trigger"
           ],
           "rows": [
             [
-              "Low CO",
-              "Reduces DO₂",
-              "Low CI, low SvO₂, lactate, oliguria",
-              "Fix preload, rhythm, contractility, afterload, obstruction"
+              "Low MAP + high CI",
+              "Low SVR/vasoplegia",
+              "Warm, bounding pulse, low diastolic pressure",
+              "Persistent hypotension or rising lactate"
             ],
             [
-              "Anaemia",
-              "Reduces CaO₂",
-              "Low Hb, bleeding, extraction",
-              "Assess bleeding/transfusion/DO₂"
+              "Low MAP + low CI",
+              "Low output",
+              "Narrow pulse pressure, cool, low UO",
+              "CI <2.2 with worsening markers"
             ],
             [
-              "Hypoxaemia",
-              "Reduces SaO₂ and raises PVR",
-              "Low SpO₂/PaO₂",
-              "Improve oxygenation/ventilation"
+              "Low MAP + rising CVP",
+              "RV/obstructive physiology",
+              "Narrow pulse pressure, rising lactate",
+              "Tamponade/RV failure concern"
             ],
             [
-              "Shivering/fever",
-              "Raises VO₂",
-              "Visible shivering, fever, tachycardia",
-              "Treat shivering, fever, pain"
-            ],
-            [
-              "Work of breathing",
-              "Raises VO₂",
-              "Tachypnoea, fatigue",
-              "Increase respiratory support"
+              "Normal MAP + low CI",
+              "Pressure without flow",
+              "High SVR, cool, low SvO₂",
+              "Rising lactate despite MAP"
             ]
           ]
         }
@@ -120,42 +114,42 @@
   "quizQuestions": [
     {
       "level": "basic",
-      "question": "Which three variables mainly determine oxygen delivery?",
+      "question": "What is the safest way to interpret Oxygen Delivery and Consumption: DO2 and VO2 in CTICU?",
       "type": "multipleChoice",
       "options": [
-        "Cardiac output, haemoglobin, and arterial oxygen saturation",
-        "CVP, sodium, and temperature",
-        "Respiratory rate, urine output, and potassium",
-        "PEEP, INR, and platelet count"
+        "As part of a full haemodynamic pattern",
+        "As a single isolated number",
+        "By ignoring waveform quality",
+        "By treating every abnormal value with fluid"
       ],
       "correct": 0,
-      "explanation": "DO₂ depends on CO and arterial oxygen content. Content depends mainly on Hb and SaO₂."
+      "explanation": "Oxygen Delivery and Consumption: DO2 and VO2 must be interpreted with pressure, flow, waveform quality, rhythm, oxygen delivery, demand, and clinical response."
     },
     {
       "level": "reasoning",
-      "question": "SpO₂ 100%, Hb 70 g/L, CI 1.8, rising lactate, low SvO₂. Best interpretation?",
+      "question": "A patient has conflicting data related to Oxygen Delivery and Consumption: DO2 and VO2. What should happen first?",
       "type": "multipleChoice",
       "options": [
-        "Oxygen delivery is likely inadequate despite normal saturation",
-        "DO₂ is definitely normal",
-        "VO₂ must be zero",
-        "Anaemia is impossible"
+        "Validate the measurement and correlate with the clinical picture",
+        "Assume the number is correct and treat immediately",
+        "Ignore the patient examination",
+        "Give a large fluid bolus automatically"
       ],
       "correct": 0,
-      "explanation": "Saturation is normal but content and flow are low, so DO₂ is likely inadequate."
+      "explanation": "Measurement validity and clinical correlation come first because transducer error, sampling error, damping, rhythm, ventilation, and patient position can all change interpretation."
     },
     {
       "level": "expert",
-      "question": "Why can shivering cause haemodynamic deterioration after cardiac surgery?",
+      "question": "Why is isolated interpretation of Oxygen Delivery and Consumption: DO2 and VO2 dangerous after cardiac surgery?",
       "type": "multipleChoice",
       "options": [
-        "It increases VO₂ so marginal DO₂ may no longer meet demand",
-        "It directly raises haemoglobin",
-        "It always lowers PVR",
-        "It prevents lactate"
+        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and demand interact",
+        "Because CTICU patients do not need haemodynamic monitoring",
+        "Because normal MAP always proves normal flow",
+        "Because all post-op cardiac patients have identical physiology"
       ],
       "correct": 0,
-      "explanation": "Shivering markedly raises oxygen consumption. If CO or Hb cannot increase, extraction rises, SvO₂ falls, and lactate may rise."
+      "explanation": "After cardiac surgery the haemodynamic system is interactive. A single value can reflect multiple mechanisms and can be misleading unless interpreted with the full CTICU pattern."
     }
   ]
 }
