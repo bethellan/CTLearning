@@ -1,0 +1,227 @@
+{
+  "id": "the-cardiac-cycle",
+  "domain": "domain1",
+  "domainName": "Physiology Foundations",
+  "domainColour": "#0B5FFF",
+  "title": "The Cardiac Cycle",
+  "sections": {
+    "abridged": {
+      "content": "<h3>The cardiac cycle - one beat as pressure-driven valve movement</h3><p>The <strong>cardiac cycle</strong> is one full heartbeat: ventricular filling, ventricular contraction, ejection, relaxation, and refilling. It is not primarily electrical. The ECG triggers the mechanical cycle, but <strong>pressure gradients open and close valves</strong>. The QRS comes first, then ventricular pressure rises, then the AV valves close, then the semilunar valves open once ventricular pressure exceeds aortic or pulmonary artery pressure.</p><p><strong>Diastole</strong> starts after aortic and pulmonary valve closure and is the time when the ventricles relax and refill. <strong>Systole</strong> starts after mitral and tricuspid closure and is the time when the ventricles build pressure and eject.</p><p>At the bedside, every arterial waveform is a pressure story from this cycle. The arterial upstroke reflects LV ejection. The <strong>dicrotic notch</strong> reflects aortic valve closure. A weak upstroke may mean poor LV contractility, severe aortic stenosis, low stroke volume, or excessive damping. A bounding upstroke and wide pulse pressure may mean vasodilation, aortic regurgitation, high stroke volume, or underdamping.</p><p>In a post-CABG or valve patient, waveform shape matters because the number alone can hide poor stroke volume, vasoplegia, tamponade, or RV failure. The useful bedside question is not only whether the blood pressure is acceptable, but whether the pressure waveform is showing effective forward ejection and whether the rest of the perfusion picture agrees.</p>"
+    },
+    "expanded": {
+      "content": "<h3>The cardiac cycle - electrical trigger, mechanical pressure event</h3><p>The cardiac cycle is best understood as a sequence of <strong>pressure gradients</strong>. Valves do not actively open because the heart decides to open them. They open when upstream pressure exceeds downstream pressure and close when the gradient reverses. This is why valve disease, ventricular stiffness, afterload, rhythm, pacing, and ventilation all distort the same cycle in predictable ways.</p><p>The ECG is the electrical trigger, but the patient deteriorates or improves because of mechanical events: filling, pressure generation, ejection, relaxation, and refilling. In CTICU, this distinction matters because the monitor may show an electrical rhythm that looks organised while mechanical output is poor. A paced rhythm, sinus rhythm, or narrow-complex rhythm does not guarantee adequate stroke volume. The arterial line, pulse pressure, CVP, PA pressures, echo, urine output, lactate, and venous saturations tell you whether the mechanical cycle is producing useful circulation.</p><h4>Phase 1 - Late diastole and atrial systole</h4><p>During late diastole, the ventricles are relaxed. The <strong>mitral and tricuspid valves are open</strong>, and the <strong>aortic and pulmonary valves are closed</strong>. Blood flows from the atria into the ventricles because atrial pressure is higher than ventricular pressure. Most ventricular filling is passive. At normal heart rates, about <strong>70-80%</strong> of ventricular filling occurs before atrial contraction, with the final component supplied by atrial systole, often called the <strong>atrial kick</strong>.</p><p>This phase is highly dependent on ventricular relaxation and compliance. A compliant ventricle accepts blood with only a small rise in pressure. A stiff ventricle develops a large pressure rise from a small volume increase. This is why two patients can have the same end-diastolic volume but very different filling pressures. A post-aortic stenosis patient, hypertrophied LV, post-bypass oedematous ventricle, or patient with diastolic dysfunction may require adequate filling but also tolerate excess filling poorly.</p><p>Atrial systole becomes more important when the ventricle is stiff. In a normal compliant ventricle, losing atrial kick may be tolerated. In a stiff post-cardiac surgery ventricle, new atrial fibrillation can cause a major fall in stroke volume because the atrium no longer provides organised late filling. If the AF is also rapid, diastolic filling time shortens further. Clinically, this may look like falling MAP, narrowing pulse pressure, rising filling pressures, reduced urine output, increasing lactate, and falling mixed venous saturation.</p><p>In CTICU, this is why rhythm is physiology, not just ECG interpretation. A patient after valve surgery, CABG, or prolonged bypass may be dependent on sinus rhythm and atrioventricular synchrony. Loss of atrial contribution can convert a marginal circulation into low cardiac output syndrome.</p><h4>Phase 2 - Isovolumetric contraction</h4><p>After the QRS, ventricular muscle begins contracting. Ventricular pressure rises. Once LV pressure exceeds LA pressure, the <strong>mitral valve closes</strong>. Once RV pressure exceeds RA pressure, the <strong>tricuspid valve closes</strong>. This closure produces <strong>S1</strong>. At this moment, both inflow and outflow valves are closed, so ventricular volume does not change. Pressure rises rapidly, but no blood is ejected yet.</p><p>This is the <strong>isovolumetric contraction</strong> phase, meaning same-volume contraction. It is short, but it is clinically important because it reflects the ventricle's ability to generate pressure before ejection. The LV must build enough pressure to exceed aortic diastolic pressure before the aortic valve opens. The RV must build enough pressure to exceed pulmonary artery pressure before the pulmonary valve opens.</p><p>If contractility is poor, the pressure rise is slow and weak. If afterload is very high, the ventricle must generate more pressure before ejection can begin. In severe aortic stenosis physiology, marked hypertension, or excessive vasopressor-driven SVR, the LV may struggle to reach the pressure needed for effective ejection. In severe mitral regurgitation, isovolumetric contraction may be shortened or functionally altered because blood can escape backwards into the left atrium as soon as LV pressure rises above LA pressure.</p><p>At the monitor, poor pressure generation can appear as a weak arterial upstroke once ejection begins, a narrow pulse pressure, or low measured cardiac output if invasive monitoring is present. At the bedside, this must be integrated with cool peripheries, low urine output, falling SvO₂, rising lactate, escalating vasoactive support, and echo findings.</p><h4>Phase 3 - Ventricular ejection</h4><p>When LV pressure exceeds aortic pressure, the <strong>aortic valve opens</strong>. When RV pressure exceeds pulmonary artery pressure, the <strong>pulmonary valve opens</strong>. Blood leaves the ventricles. This is <strong>ventricular ejection</strong>.</p><p>The arterial waveform upstroke is generated during this phase. The steepness of the upstroke depends on LV contractility, stroke volume, aortic valve function, vascular tone, and arterial line fidelity. A crisp, steep upstroke with a strong systolic peak suggests brisk ejection and/or low vascular impedance. A slow-rising upstroke suggests low contractility, aortic stenosis, low stroke volume, excessive afterload, or a damped arterial line.</p><p>In early systole, ejection is rapid. Later, as the ventricle begins repolarising and relaxing, ejection slows. The T wave broadly corresponds to ventricular repolarisation and late systole, not immediate mechanical relaxation. This matters in pacing, cardioversion, intra-aortic balloon pump timing, and interpretation of arterial waveforms because electrical and mechanical events are related but not identical.</p><p>Stroke volume is produced during this phase, but it is determined before and during ejection by preload, contractility, and afterload. A well-filled ventricle with good contractility and manageable afterload ejects an adequate stroke volume. A stunned ventricle, an underfilled ventricle, a severely afterloaded ventricle, or a ventricle compressed by tamponade may generate a poor stroke volume despite an apparently organised ECG.</p><p>In post-cardiac surgery patients, ejection quality is often reflected by pulse pressure. A narrowing pulse pressure can indicate falling stroke volume, tamponade, hypovolaemia, severe LV dysfunction, RV failure with LV underfilling, or excessive arterial line damping. A widening pulse pressure may indicate low SVR, vasoplegia, aortic regurgitation, high stroke volume, or arterial line underdamping. The waveform must be interpreted with the clinical picture.</p><h4>Phase 4 - Aortic valve closure and isovolumetric relaxation</h4><p>As LV pressure falls below aortic pressure, a brief reverse flow tendency snaps the <strong>aortic valve closed</strong>. This produces <strong>S2</strong> and the <strong>dicrotic notch</strong> on the arterial waveform. The pulmonary valve closes similarly on the right side. Systole ends with semilunar valve closure, and diastole begins after this closure.</p><p>After aortic and pulmonary valve closure, all valves are closed again. The ventricles relax at the same volume, so this phase is called <strong>isovolumetric relaxation</strong>. Ventricular pressure falls rapidly. Once LV pressure falls below LA pressure, the mitral valve opens and ventricular filling begins again. Once RV pressure falls below RA pressure, the tricuspid valve opens and right ventricular filling begins again.</p><p>Diastole is not downtime. Diastole is when the ventricles refill and when coronary perfusion mainly occurs, especially to the LV. The LV myocardium is compressed during systole, so much of left coronary flow occurs during diastole. Tachycardia shortens diastole disproportionately. This is why a heart rate of <strong>130-150/min</strong> in a fresh CABG or valve patient can be dangerous even if the MAP appears acceptable. Coronary filling time falls, myocardial oxygen demand rises, LV filling falls, and stroke volume can deteriorate.</p><p>In CTICU, diastolic time is a therapeutic target. Pain, agitation, fever, hypovolaemia, inotrope excess, atrial fibrillation, SVT, pacing set too fast, or inadequate sedation can all drive tachycardia. A fast heart may initially maintain cardiac output by rate, but once filling time becomes too short, stroke volume falls and total cardiac output may worsen. This is especially true in stiff ventricles, RV failure, LV hypertrophy, and after prolonged bypass.</p><h4>Valve timing summary</h4><table><tr><th>Phase</th><th>Mitral/tricuspid valves</th><th>Aortic/pulmonary valves</th><th>Main mechanical event</th></tr><tr><td>Late diastole</td><td>Open</td><td>Closed</td><td>Passive ventricular filling, then atrial systole adds final filling.</td></tr><tr><td>Isovolumetric contraction</td><td>Closed</td><td>Closed</td><td>Ventricular pressure rises without volume change.</td></tr><tr><td>Ventricular ejection</td><td>Closed</td><td>Open</td><td>Blood is ejected into the aorta and pulmonary artery.</td></tr><tr><td>Isovolumetric relaxation</td><td>Closed</td><td>Closed</td><td>Ventricular pressure falls without volume change.</td></tr><tr><td>Early diastolic filling</td><td>Open</td><td>Closed</td><td>Ventricles refill once ventricular pressure falls below atrial pressure.</td></tr></table><h4>CTICU interpretation of cycle abnormalities</h4><p>The cardiac cycle becomes clinically useful when you connect each phase to bedside failure patterns. Poor late diastolic filling can be caused by hypovolaemia, tachycardia, tamponade, high intrathoracic pressure, RV failure, or stiff ventricles. Poor isovolumetric contraction can be caused by myocardial stunning, ischaemia, acidosis, hypocalcaemia, hypothermia, or excessive afterload. Poor ejection can be caused by low contractility, high afterload, valve obstruction, dyssynchrony, or poor preload. Poor relaxation can be caused by hypertrophy, ischaemia, tachycardia, diastolic dysfunction, and post-bypass myocardial oedema.</p><p>The monitor rarely labels these phases for you. Instead, you infer them. A patient with sinus tachycardia, high filling pressures, pulmonary oedema, and preserved systolic pressure may have impaired diastolic filling and relaxation. A patient with a weak arterial upstroke, low cardiac index, falling SvO₂, and rising lactate may have poor contractility or obstructed ejection. A patient with falling MAP, rising CVP, narrowing pulse pressure, and increasing drain concern may have impaired filling from tamponade until proven otherwise.</p><p>This is the essential CTICU skill: do not treat the number in isolation. Identify which part of the cardiac cycle is failing, why it is failing, and which intervention will improve forward flow without worsening another part of the system.</p>"
+    },
+    "pearls": {
+      "content": "<h3>Clinical Pearls - The Cardiac Cycle</h3><h4>Pearl 1 - The ECG is not the circulation</h4><p>An organised ECG rhythm does not guarantee effective mechanical output. The QRS triggers ventricular contraction, but the patient survives because the ventricle fills, generates pressure, ejects, relaxes, and fills again. A paced rhythm or sinus rhythm can still produce poor cardiac output if the ventricle is underfilled, stunned, compressed, severely afterloaded, dyssynchronous, or losing atrial contribution.</p><h4>Pearl 2 - Valve movement is pressure-driven</h4><p>Valves open and close because pressure gradients change. The mitral valve closes when LV pressure exceeds LA pressure. The aortic valve opens when LV pressure exceeds aortic pressure. The aortic valve closes when aortic pressure again exceeds falling LV pressure. This is why afterload, preload, valve disease, and ventricular compliance all alter the mechanical cycle.</p><h4>Pearl 3 - The dicrotic notch is aortic valve closure</h4><p>The dicrotic notch on the arterial waveform represents aortic valve closure. If the notch is absent or distorted, consider low flow, vasodilation, severe damping, underdamping, line artefact, or altered aortic valve physiology. Do not interpret arterial pressure without looking at waveform quality.</p><h4>Pearl 4 - Diastole is active clinical time</h4><p>Diastole is when ventricular filling occurs and when most LV coronary perfusion occurs. Tachycardia shortens diastole more than systole. A fresh CABG, valve, hypertrophied LV, or stunned myocardium patient may deteriorate rapidly when heart rate rises because filling time decreases, coronary perfusion time decreases, and myocardial oxygen demand increases.</p><h4>Pearl 5 - Atrial kick matters most when the ventricle is stiff</h4><p>Loss of atrial systole may be tolerated in a normal compliant ventricle, but it can be poorly tolerated in CTICU patients with LV hypertrophy, diastolic dysfunction, post-bypass myocardial oedema, aortic stenosis physiology, or valve surgery. New AF after cardiac surgery is therefore a mechanical filling problem as well as an arrhythmia.</p><h4>Pearl 6 - Pulse pressure is a stroke-volume clue</h4><p>A narrowing pulse pressure can indicate falling stroke volume from hypovolaemia, tamponade, LV dysfunction, RV failure with LV underfilling, excessive afterload, or a damped arterial line. A wide pulse pressure can indicate vasoplegia, aortic regurgitation, high stroke volume, or underdamping. Always match the arterial waveform with the patient, the transducer system, and perfusion markers.</p><h4>Pearl 7 - Tachycardia can preserve cardiac output before it destroys it</h4><p>At first, increasing heart rate can maintain cardiac output because cardiac output equals heart rate multiplied by stroke volume. Beyond a point, stroke volume falls because diastolic filling time is too short. In CTICU, this transition can be abrupt, especially in stiff ventricles, RV dysfunction, hypovolaemia, tamponade, or high catecholamine states.</p>"
+    },
+    "equipment": {
+      "content": "<h3>Equipment Tie-In - How the Cardiac Cycle Appears on Devices</h3><h4>Arterial line waveform</h4><p>The arterial line is the most immediate device representation of the cardiac cycle. The systolic upstroke reflects ventricular ejection. The peak systolic pressure reflects the interaction between stroke volume, LV contractility, aortic compliance, and arterial resistance. The downstroke reflects arterial runoff during late systole and diastole. The dicrotic notch reflects aortic valve closure.</p><table><tr><th>Arterial waveform finding</th><th>Cardiac cycle interpretation</th><th>Likely causes</th><th>Immediate nursing checks</th></tr><tr><td>Slow systolic upstroke</td><td>Delayed or weak ventricular ejection.</td><td>Low LV contractility, low stroke volume, aortic stenosis, excessive afterload, overdamped line.</td><td>Check pulse, line level, square wave test, tubing for air/clot, cardiac output data, echo findings, and vasoactive trend.</td></tr><tr><td>Narrow pulse pressure</td><td>Reduced stroke volume during ejection.</td><td>Hypovolaemia, tamponade, LV dysfunction, RV failure with LV underfilling, excessive afterload, overdamping.</td><td>Check drains, CVP trend, lactate, urine output, rhythm, echo, and whether the arterial line is damped.</td></tr><tr><td>Wide pulse pressure</td><td>High stroke volume or low diastolic runoff resistance.</td><td>Vasoplegia, aortic regurgitation, high stroke volume, underdamped arterial trace.</td><td>Check diastolic pressure, SVR if available, warmth, capillary refill, flush test, and valve history.</td></tr><tr><td>Absent or unclear dicrotic notch</td><td>Aortic valve closure is not clearly represented or waveform transmission is poor.</td><td>Low flow, low SVR, damping, artefact, altered aortic valve mechanics.</td><td>Check arterial line quality, perform square wave test, correlate with NIBP and clinical perfusion.</td></tr></table><h4>Cardiac monitor and ECG</h4><p>The ECG shows the electrical trigger, not the full mechanical cycle. The P wave represents atrial depolarisation, which should produce atrial systole and late ventricular filling. The QRS represents ventricular depolarisation, which should lead to ventricular contraction, AV valve closure, pressure generation, and ejection. The T wave represents ventricular repolarisation and occurs around late systole.</p><p>In CTICU, always ask whether the electrical rhythm is producing mechanical output. Paced complexes, sinus rhythm, junctional rhythm, AF, heart block, and ectopy all alter timing between atrial filling and ventricular contraction. AV synchrony matters because atrial contraction must occur before ventricular contraction to support filling. If atrial contraction occurs against a closed AV valve, filling is impaired and venous pressures may rise.</p><h4>Pacing box relevance</h4><p>Temporary pacing changes the timing of atrial and ventricular activation. AAI pacing can preserve atrial timing if AV conduction is intact. VVI pacing can maintain ventricular rate but may lose atrial contribution. DDD pacing attempts to coordinate atrial and ventricular timing. The cardiac cycle explains why pacing mode affects haemodynamics: it changes filling time, atrial contribution, AV synchrony, and ventricular activation sequence.</p><p>For a stiff post-cardiac surgery ventricle, AV synchrony can be the difference between adequate and poor cardiac output. A patient may have a technically captured ventricular paced rhythm but still have low output if the rate is too slow, too fast, AV timing is poor, atrial contribution is lost, or ventricular activation is dyssynchronous.</p><h4>Intra-aortic balloon pump relevance</h4><p>The IABP is timed to the cardiac cycle. Balloon inflation should occur at the dicrotic notch, immediately after aortic valve closure, to augment diastolic pressure and coronary perfusion. Balloon deflation should occur just before systole to reduce LV afterload and improve forward ejection. The cardiac cycle is therefore essential to recognising early or late inflation and early or late deflation.</p><p>If the balloon inflates too early, it can oppose LV ejection because the aortic valve may still be open. If it inflates too late, diastolic augmentation is reduced. If it deflates too early, afterload reduction is lost before systole. If it deflates too late, the LV ejects against an inflated balloon and afterload rises. All of these are timing errors against the mechanical cardiac cycle.</p><h4>Echo relevance</h4><p>Echo shows the cardiac cycle directly. It can demonstrate ventricular filling, chamber size, systolic contraction, valve opening and closure, septal movement, RV dilation, LV underfilling, valve pathology, and pericardial collection. When the arterial line and CVP suggest a cycle problem but the mechanism is unclear, echo often identifies whether the failure is preload, contractility, afterload, rhythm-related dyssynchrony, valve-related obstruction/regurgitation, or tamponade.</p>"
+    },
+    "targets": {
+      "content": "<h3>Targets and Numbers - The Cardiac Cycle</h3><p>The cardiac cycle itself is not managed by one isolated target. It is managed by ensuring that each beat has enough filling time, coordinated atrial and ventricular timing, adequate ventricular pressure generation, effective ejection, and sufficient diastolic time for coronary perfusion. The numbers below help identify whether the cycle is mechanically effective.</p><p>In CTICU, the most important cardiac-cycle targets are heart rate, rhythm, MAP, pulse pressure, cardiac index, filling-pressure trend, lactate, urine output, and venous saturation. A single normal number does not prove adequate physiology. The pattern determines whether the cycle is delivering useful flow.</p><p>For most stable post-cardiac surgery patients, a heart rate around <strong>70-90/min</strong> is often physiologically useful because it preserves cardiac output while maintaining diastolic filling and coronary perfusion time. A slower rate may reduce cardiac output if stroke volume cannot compensate. A faster rate may reduce filling time and increase myocardial oxygen demand.</p><p>A MAP around <strong>65-85 mmHg</strong> is commonly used, but the correct target depends on the patient. Post-CABG patients need adequate coronary and graft perfusion without hypertension that increases bleeding or graft stress. Post-valve patients need protection of repairs or prostheses and avoidance of severe hypertension. Cardiogenic shock patients need enough MAP for organ and coronary perfusion, but not at the cost of excessive afterload and falling cardiac output.</p>",
+      "tables": [
+        {
+          "heading": "Cardiac cycle bedside parameters",
+          "headers": [
+            "Parameter",
+            "Common adult target/range",
+            "Cardiac-cycle meaning",
+            "CTICU interpretation"
+          ],
+          "rows": [
+            [
+              "Heart rate",
+              "Usually 60-100/min; often 70-90/min post-cardiac surgery if stable",
+              "Determines cycle frequency and diastolic filling time.",
+              "Too slow may reduce CO; too fast may reduce filling and coronary perfusion."
+            ],
+            [
+              "Rhythm",
+              "Sinus rhythm preferred when atrial contribution is important",
+              "Coordinates atrial systole before ventricular systole.",
+              "New AF can remove atrial kick and reduce stroke volume, especially with stiff ventricles."
+            ],
+            [
+              "MAP",
+              "Usually 65-85 mmHg",
+              "Represents pressure generated by flow and vascular tone.",
+              "Acceptable MAP does not guarantee adequate stroke volume or cardiac output."
+            ],
+            [
+              "Pulse pressure",
+              "Often roughly 30-50 mmHg, context dependent",
+              "Reflects stroke volume, arterial compliance, and waveform fidelity.",
+              "Narrowing suggests low SV, tamponade, hypovolaemia, LV/RV failure, or damping."
+            ],
+            [
+              "Cardiac index",
+              "Minimum practical target usually ≥2.2 L/min/m²; often 2.5-4.0 L/min/m²",
+              "Indicates whether repeated cardiac cycles are producing enough flow for body size.",
+              "Interpret with lactate, urine output, SvO₂, skin perfusion, and vasoactive dose."
+            ],
+            [
+              "CVP",
+              "Often 5-12 mmHg depending ventilation and RV state",
+              "Reflects right-sided filling pressure and venous pressure interaction.",
+              "Rising CVP with shock suggests RV failure, tamponade, high PEEP, tension physiology, or congestion."
+            ],
+            [
+              "PAWP/PCWP",
+              "Often 8-15 mmHg if waveform is valid",
+              "Approximates left-sided filling pressure.",
+              "High values suggest left-sided congestion or poor LV compliance; low values may suggest underfilling."
+            ],
+            [
+              "Lactate",
+              "Ideally <2 mmol/L and falling",
+              "Reflects adequacy of oxygen delivery relative to demand and perfusion.",
+              "Rising lactate suggests the cardiac cycle is not delivering adequate systemic oxygen economy or there is another major metabolic driver."
+            ],
+            [
+              "Urine output",
+              "≥0.5 mL/kg/hr",
+              "Reflects renal perfusion and venous congestion balance.",
+              "Low urine output after cardiac surgery may reflect poor forward flow, venous congestion, hypovolaemia, AKI, or excessive vasoconstriction."
+            ],
+            [
+              "SvO₂",
+              "Usually 60-80%; often target ≥65-70% if available",
+              "Reflects global oxygen extraction after repeated cardiac cycles.",
+              "Low SvO₂ suggests inadequate delivery, high demand, or both; high SvO₂ is not always reassuring."
+            ]
+          ]
+        },
+        {
+          "heading": "Valve timing and cycle phases",
+          "headers": [
+            "Cycle phase",
+            "Valve state",
+            "Pressure event",
+            "Bedside relevance"
+          ],
+          "rows": [
+            [
+              "Late diastole",
+              "Mitral/tricuspid open; aortic/pulmonary closed",
+              "Atrial pressure exceeds ventricular pressure, allowing filling.",
+              "Loss of atrial kick or tachycardia reduces filling, especially in stiff ventricles."
+            ],
+            [
+              "Isovolumetric contraction",
+              "All valves closed",
+              "Ventricular pressure rises without ejection.",
+              "Poor contractility or excessive afterload delays effective ejection."
+            ],
+            [
+              "Ventricular ejection",
+              "Aortic/pulmonary open; AV valves closed",
+              "Ventricular pressure exceeds arterial pressure.",
+              "Arterial upstroke and pulse pressure reflect ejection quality and stroke volume."
+            ],
+            [
+              "Isovolumetric relaxation",
+              "All valves closed",
+              "Ventricular pressure falls after semilunar valve closure.",
+              "Dicrotic notch marks aortic valve closure; diastole begins."
+            ],
+            [
+              "Early filling",
+              "Mitral/tricuspid open; aortic/pulmonary closed",
+              "Ventricular pressure falls below atrial pressure.",
+              "Shortened filling time from tachycardia can reduce stroke volume."
+            ]
+          ]
+        },
+        {
+          "heading": "Patient-type emphasis for cardiac cycle interpretation",
+          "headers": [
+            "Patient group",
+            "Main cycle vulnerability",
+            "Target emphasis",
+            "Clinical trap"
+          ],
+          "rows": [
+            [
+              "Post-CABG",
+              "Coronary perfusion occurs mainly in diastole and myocardium may be stunned.",
+              "Avoid tachycardia, maintain MAP often 65-80/85 mmHg, preserve oxygen delivery, watch ST changes.",
+              "A normal MAP on high vasopressor may hide poor cardiac output and poor graft/coronary perfusion."
+            ],
+            [
+              "Post-valve surgery",
+              "Ventricular compliance, atrial contribution, and afterload sensitivity may be abnormal.",
+              "Maintain sinus rhythm where important, avoid severe hypertension, avoid excessive filling pressures.",
+              "New AF may cause major haemodynamic deterioration because atrial kick is lost."
+            ],
+            [
+              "RV-risk or pulmonary hypertension patient",
+              "RV ejection is highly sensitive to PVR and intrathoracic pressure.",
+              "Avoid hypoxia, hypercapnia, acidosis, excessive PEEP, and hypotension.",
+              "Giving repeated fluid for low BP may worsen RV dilation and reduce LV filling."
+            ],
+            [
+              "Cardiogenic shock or postcardiotomy low-output patient",
+              "Mechanical ejection is inadequate despite electrical activity.",
+              "Aim for MAP ≥65 mmHg, CI ≥2.2 L/min/m² if achievable, falling lactate, UO ≥0.5 mL/kg/hr, SvO₂ improving.",
+              "Treating pressure alone may worsen afterload and reduce forward flow."
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "quizQuestions": [
+    {
+      "level": "basic",
+      "question": "Which cardiac-cycle event is represented by the dicrotic notch on a correctly functioning arterial line waveform?",
+      "type": "multipleChoice",
+      "options": [
+        "Aortic valve closure at the end of ventricular ejection",
+        "Mitral valve opening at the start of ventricular filling",
+        "Tricuspid valve closure at the start of systole",
+        "Atrial contraction during late diastole"
+      ],
+      "correct": 0,
+      "explanation": "The dicrotic notch represents closure of the aortic valve. As LV pressure falls below aortic pressure at the end of ventricular ejection, brief reverse-flow tendency closes the aortic valve. This marks the end of systole and the beginning of diastole. In CTICU, the notch is useful because it helps identify arterial waveform fidelity and is also central to timing devices such as an intra-aortic balloon pump. If the notch is absent or distorted, the cause may be low flow, vasodilation, damping, artefact, or altered valve physiology."
+    },
+    {
+      "level": "reasoning",
+      "question": "A fresh post-valve surgery patient develops new rapid atrial fibrillation at 145/min. MAP falls, pulse pressure narrows, urine output drops, and CVP rises slightly. What is the most important cardiac-cycle mechanism explaining this deterioration?",
+      "type": "multipleChoice",
+      "options": [
+        "Loss of atrial kick plus shortened diastolic filling time reduces ventricular filling and stroke volume",
+        "Atrial fibrillation increases ventricular preload and therefore must always improve cardiac output",
+        "The aortic valve closes earlier, causing isolated diastolic hypertension",
+        "The pulmonary valve remains open throughout diastole, causing right-to-left shunting"
+      ],
+      "correct": 0,
+      "explanation": "The key mechanism is loss of coordinated atrial systole combined with excessive rate. In a stiff post-cardiac surgery ventricle, atrial kick may contribute substantially to final ventricular filling. Rapid AF also shortens diastole, which reduces ventricular filling time and coronary perfusion time while increasing myocardial oxygen demand. The result can be reduced stroke volume, narrowing pulse pressure, falling MAP, reduced renal perfusion, rising lactate, and falling venous saturation. This is why new AF after cardiac surgery is a haemodynamic event, not just an ECG rhythm label."
+    },
+    {
+      "level": "expert",
+      "question": "A post-CABG patient has an apparently organised paced rhythm at 80/min and MAP 70 mmHg, but the arterial waveform has a weak slow upstroke and narrow pulse pressure. Lactate is rising and SvO₂ is falling. What is the safest interpretation?",
+      "type": "multipleChoice",
+      "options": [
+        "The electrical rhythm is organised, but the mechanical cardiac cycle may be producing inadequate stroke volume and low forward flow",
+        "The MAP is acceptable, so the cardiac cycle is definitely producing adequate oxygen delivery",
+        "The pacing spikes prove ventricular contraction is normal and no further haemodynamic assessment is needed",
+        "A narrow pulse pressure always means the arterial line is underdamped and the patient is hyperdynamic"
+      ],
+      "correct": 0,
+      "explanation": "An organised paced rhythm confirms electrical activation and capture only if capture is truly present, but it does not prove adequate mechanical output. The slow arterial upstroke and narrow pulse pressure suggest poor ejection or low stroke volume, and the rising lactate plus falling SvO₂ indicate inadequate oxygen delivery relative to demand. MAP can be maintained by vasoconstriction despite poor flow. In CTICU this pattern requires assessment of preload, contractility, afterload, rhythm timing, tamponade, RV failure, graft or ischaemic problems, arterial line fidelity, and echo findings rather than reassurance from the MAP alone."
+    },
+    {
+      "level": "reasoning",
+      "question": "Why can tachycardia become harmful in a CTICU patient even though cardiac output equals heart rate multiplied by stroke volume?",
+      "type": "multipleChoice",
+      "options": [
+        "Because excessive heart rate shortens diastole, reducing ventricular filling and coronary perfusion while increasing myocardial oxygen demand",
+        "Because systole becomes longer than diastole only when the aortic valve is stenosed",
+        "Because tachycardia always increases stroke volume in proportion to rate",
+        "Because high heart rate prevents the mitral valve from closing"
+      ],
+      "correct": 0,
+      "explanation": "Heart rate can initially maintain cardiac output, but excessive rate shortens diastole disproportionately. Diastole is when ventricular filling occurs and when most LV coronary perfusion occurs. In a post-CABG, valve, stiff-ventricle, RV failure, hypovolaemic, or stunned-myocardium patient, reduced filling time can lower stroke volume enough that total cardiac output falls despite the faster rate. Tachycardia also increases myocardial oxygen consumption, which can worsen ischaemia or low-output physiology."
+    }
+  ]
+}

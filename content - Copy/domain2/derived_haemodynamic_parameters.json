@@ -1,0 +1,290 @@
+{
+  "id": "derived_haemodynamic_parameters",
+  "domain": 2,
+  "domainTitle": "Haemodynamic Monitoring",
+  "title": "Derived Haemodynamic Parameters",
+  "file": "derived_haemodynamic_parameters.json",
+  "sections": {
+    "abridged": {
+      "title": "Abridged Snapshot",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Bedside purpose"
+        },
+        {
+          "type": "paragraph",
+          "text": "Derived haemodynamic parameters convert raw pressures and cardiac output into clinically useful patterns. In CT-ICU they help identify cardiogenic shock, hypovolaemia, vasoplegia, RV failure, pulmonary hypertension and tamponade. They should be interpreted as patterns, not isolated numbers."
+        },
+        {
+          "type": "targetTable",
+          "columns": [
+            "Parameter",
+            "Formula / unit",
+            "Usual range"
+          ],
+          "rows": [
+            [
+              "Cardiac index (CI)",
+              "CO / BSA, L/min/m²",
+              "2.5-4.0"
+            ],
+            [
+              "Stroke volume (SV)",
+              "CO / HR x 1000, mL/beat",
+              "60-100 mL/beat"
+            ],
+            [
+              "SVR",
+              "(MAP - CVP) / CO x 80, dyn·s/cm5",
+              "800-1200"
+            ],
+            [
+              "PVR",
+              "(mPAP - PAOP) / CO x 80, dyn·s/cm5",
+              "<250, often 20-130"
+            ],
+            [
+              "MAP",
+              "DBP + 1/3 pulse pressure, mmHg",
+              "65-100 depending target"
+            ]
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "A normal MAP can coexist with dangerous low cardiac output if SVR is high. This is why cold, oliguric patients with a MAP of 70 still need escalation."
+        }
+      ]
+    },
+    "expanded": {
+      "title": "Expanded Deep-Dive",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Core calculations"
+        },
+        {
+          "type": "keyterm",
+          "term": "Cardiac index",
+          "definition": "Cardiac output adjusted for body surface area. It is the central flow number in many CT-ICU haemodynamic assessments."
+        },
+        {
+          "type": "keyterm",
+          "term": "Stroke volume",
+          "definition": "The amount of blood ejected per beat. It falls with poor preload, poor contractility, excessive afterload, tamponade, severe valve dysfunction or RV failure."
+        },
+        {
+          "type": "keyterm",
+          "term": "Systemic vascular resistance",
+          "definition": "The calculated resistance the LV/systemic circulation works against. It rises with vasoconstriction and falls with vasoplegia."
+        },
+        {
+          "type": "keyterm",
+          "term": "Pulmonary vascular resistance",
+          "definition": "The calculated resistance the RV pumps against. It rises with hypoxia, hypercarbia, acidosis, pulmonary hypertension, PE, high airway pressure and pulmonary vasoconstriction."
+        },
+        {
+          "type": "paragraph",
+          "text": "SVR is calculated from pressure gradient divided by flow: (MAP - CVP) / CO x 80. PVR is calculated as (mean PA pressure - PAOP) / CO x 80. These formulae show why resistance can appear high when flow is very low, and why calculated values must be interpreted with the patient condition."
+        },
+        {
+          "type": "subheading",
+          "text": "Shock patterns"
+        },
+        {
+          "type": "targetTable",
+          "columns": [
+            "Pattern",
+            "CI",
+            "SVR",
+            "CVP/PAOP",
+            "Typical CT-ICU causes"
+          ],
+          "rows": [
+            [
+              "Cardiogenic shock",
+              "Low <2.2",
+              "High or normal",
+              "PAOP often high if LV failure; CVP high if RV failure",
+              "LV failure after bypass, myocardial stunning, graft/ischaemia, valve dysfunction, arrhythmia."
+            ],
+            [
+              "Hypovolaemic shock",
+              "Low",
+              "High",
+              "CVP/PAOP low or falling",
+              "Bleeding, vasodilation with inadequate volume, diuresis, third spacing."
+            ],
+            [
+              "Vasoplegic shock",
+              "Normal/high or low-normal",
+              "Low <800",
+              "Filling pressures variable",
+              "Post-CPB inflammatory vasodilation, sepsis, ACE inhibitor effect."
+            ],
+            [
+              "Obstructive/tamponade",
+              "Low",
+              "High",
+              "CVP high, PAOP may equalise",
+              "Tamponade/clot, tension pneumothorax, massive PE, severe RV afterload."
+            ],
+            [
+              "RV failure",
+              "Low or low-normal",
+              "Variable",
+              "CVP high, PA pressures/PVR high, PAOP normal/low unless LV disease",
+              "Pulmonary hypertension, hypoxia, acidosis, protamine reaction, RV infarct, high PEEP."
+            ]
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Stroke work indices"
+        },
+        {
+          "type": "paragraph",
+          "text": "RVSWI and LVSWI estimate ventricular work per beat adjusted for body surface area. LVSWI falls with LV systolic failure or low filling. RVSWI falls in RV failure and can be misleadingly strained when PVR is high. These are advanced trend tools rather than single-decision values."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Start with flow: cardiac index and stroke volume.",
+            "Then assess pressure: MAP, CVP, PA pressures and wedge.",
+            "Then assess resistance: SVR and PVR.",
+            "Match the pattern to clinical markers: skin, mentation, urine output, lactate, SvO2, drains and echo.",
+            "Escalate if numbers suggest low flow even when MAP appears acceptable."
+          ]
+        }
+      ]
+    },
+    "pearls": {
+      "title": "Clinical Pearls",
+      "content": [
+        {
+          "type": "pearl",
+          "text": "MAP is pressure, not flow. A clamped-down patient can have a reasonable MAP and terrible cardiac output."
+        },
+        {
+          "type": "pearl",
+          "text": "Vasoplegia after bypass often has low diastolic pressure, warm peripheries and high vasopressor requirement. The treatment focus is vascular tone, not just fluid."
+        },
+        {
+          "type": "pearl",
+          "text": "High CVP with low CI and high PVR is RV danger territory. Avoid hypoxia, hypercarbia, acidosis and excessive airway pressure."
+        },
+        {
+          "type": "warning",
+          "text": "Do not calculate SVR/PVR from bad inputs. A wrong wedge, wrong CVP level or inaccurate CO makes the derived value wrong with mathematical confidence."
+        }
+      ]
+    },
+    "equipment": {
+      "title": "Equipment Tie-In",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Equipment tie-in"
+        },
+        {
+          "type": "paragraph",
+          "text": "Derived parameters are only as reliable as their inputs. The monitor may calculate CI, SVR and PVR automatically, but it requires correct height/weight or BSA, accurate CO, correct pressure transducer levelling, valid wedge and correct channel mapping."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Verify patient height/weight/BSA in the monitor if indexed values are used.",
+            "Confirm arterial, CVP and PA channels are labelled correctly and zeroed/levelled.",
+            "Check wedge validity before using PAOP in PVR or LV filling interpretation.",
+            "Check cardiac output method and quality before accepting CI/SVR/PVR.",
+            "If a derived number is surprising, audit the inputs before escalating therapy solely on the calculation."
+          ]
+        }
+      ]
+    },
+    "targets": {
+      "title": "Targets and Numbers",
+      "content": [
+        {
+          "type": "targetTable",
+          "columns": [
+            "Parameter",
+            "Usual value",
+            "Actionable interpretation"
+          ],
+          "rows": [
+            [
+              "CI",
+              "2.5-4.0 L/min/m²",
+              "<2.2 with hypoperfusion = low cardiac output syndrome until proven otherwise."
+            ],
+            [
+              "SVI",
+              "35-65 mL/beat/m²",
+              "Low SVI with high HR can hide poor beat-to-beat output."
+            ],
+            [
+              "SVR",
+              "800-1200 dyn·s/cm5",
+              "<800 suggests vasoplegia; >1200 suggests vasoconstriction/compensation or excessive pressor."
+            ],
+            [
+              "PVR",
+              "<250 dyn·s/cm5",
+              "High PVR strains RV; correct hypoxia, hypercarbia, acidosis and excessive airway pressure."
+            ],
+            [
+              "PAOP",
+              "6-12 mmHg",
+              "High suggests LV filling/pulmonary congestion if valid; low may support hypovolaemia."
+            ],
+            [
+              "CVP",
+              "2-8 mmHg; ventilated often 5-12",
+              "High with low CI suggests RV failure/obstruction; low with low CI may be hypovolaemia."
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "A patient has MAP 75, CI 1.7, cool peripheries, lactate rising and SVR high. What is the main problem?",
+      "options": [
+        "Adequate perfusion because MAP is normal",
+        "Low cardiac output with compensatory vasoconstriction",
+        "Pure vasoplegia",
+        "Normal post-op finding"
+      ],
+      "answer": 1,
+      "explanation": "Pressure is preserved by high SVR, but flow is inadequate. CI and perfusion markers indicate low cardiac output."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "What is the formula for SVR?",
+      "options": [
+        "(MAP - CVP) / CO x 80",
+        "(mPAP - PAOP) / CO x 80",
+        "CO / BSA",
+        "HR x MAP"
+      ],
+      "answer": 0,
+      "explanation": "SVR is systemic pressure gradient divided by flow multiplied by 80."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "Which pattern best fits vasoplegia after bypass?",
+      "options": [
+        "Low SVR, low diastolic pressure, warm peripheries, vasopressor need",
+        "High PVR only",
+        "High SVR and cold peripheries always",
+        "High wedge and pulmonary oedema only"
+      ],
+      "answer": 0,
+      "explanation": "Vasoplegia is loss of vascular tone after CPB/inflammation, producing low SVR and often low diastolic pressure."
+    }
+  ]
+}

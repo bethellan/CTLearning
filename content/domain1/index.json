@@ -1,0 +1,38 @@
+{
+  "domain": 1,
+  "domainTitle": "Physiology Foundations",
+  "files": [
+    {
+      "file": "cardiac-cycle.json",
+      "title": "Cardiac Cycle"
+    },
+    {
+      "file": "afterload_svr_and_pvr.json",
+      "title": "Afterload - SVR and PVR"
+    },
+    {
+      "file": "cardiac_output_and_determinants.json",
+      "title": "Cardiac Output and Determinants"
+    },
+    {
+      "file": "contractility_and_inotropy.json",
+      "title": "Contractility and Inotropy"
+    },
+    {
+      "file": "frank_starling_mechanism.json",
+      "title": "Frank-Starling Mechanism"
+    },
+    {
+      "file": "mixed_venous_saturations.json",
+      "title": "Mixed Venous Saturations"
+    },
+    {
+      "file": "oxygen_delivery_and_consumption.json",
+      "title": "Oxygen Delivery and Consumption"
+    },
+    {
+      "file": "preload_lvedp_and_cvp.json",
+      "title": "Preload - LVEDP and CVP"
+    }
+  ]
+}

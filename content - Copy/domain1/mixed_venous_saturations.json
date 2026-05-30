@@ -1,0 +1,149 @@
+{
+  "id": "mixed-venous-saturations",
+  "domain": "domain1",
+  "domainName": "Physiology Foundations",
+  "domainColour": "#0B5FFF",
+  "title": "Mixed Venous Saturations: SvO2 and ScvO2",
+  "sections": {
+    "abridged": {
+      "content": "<h3>Mixed venous saturation - the global oxygen balance signal</h3><p><strong>Mixed venous oxygen saturation (SvO₂)</strong> is oxygen saturation of pulmonary artery blood after venous return from the body has mixed. It is measured from a pulmonary artery catheter and reflects the balance between oxygen delivery and oxygen consumption. A usual adult SvO₂ is about <strong>60-80%</strong>, with many CTICU clinicians using <strong>≥65-70%</strong> as a practical target when the rest of the picture agrees.</p><p><strong>Central venous oxygen saturation (ScvO₂)</strong> is measured from the SVC/right atrial region via a central venous catheter. It is not identical to SvO₂ because it does not include the same whole-body and coronary sinus mixture. ScvO₂ is often slightly higher, but the relationship varies in shock.</p><p>Low SvO₂ usually means extraction is increased because delivery is low, demand is high, or both. High SvO₂ is not automatically reassuring; it can indicate impaired extraction, microcirculatory shunting, severe sepsis, hypothermia, deep sedation, mitochondrial dysfunction, or sampling error. Interpret SvO₂ with CI, Hb, SpO₂, lactate, urine output, temperature, vasoactive dose, and trend.</p>"
+    },
+    "expanded": {
+      "content": "<h3>Mixed venous saturations - oxygen left after tissue extraction</h3><p><strong>SvO₂</strong> is the percentage of haemoglobin still saturated with oxygen after blood has passed through systemic tissues and returned to the pulmonary artery. It is called mixed venous because it includes venous blood from the SVC, IVC, and coronary sinus after mixing in the right heart.</p><p>SvO₂ is a global measure of oxygen delivery-consumption balance. It does not identify which organ is underperfused and can hide regional ischaemia, but it is very useful in CTICU because cardiac output, haemoglobin, oxygenation, temperature, shivering, sedation, pain, and vasoactive support change rapidly.</p><h4>Physiology</h4><p>Arterial blood leaves the lungs with high saturation. Tissues extract oxygen according to metabolic need and delivery. Blood returning to the right heart has lower saturation. If delivery is generous relative to demand, extraction is lower and SvO₂ remains higher. If delivery is inadequate or demand is high, extraction increases and SvO₂ falls.</p><p>SvO₂ is shaped by four major variables: cardiac output, haemoglobin, arterial oxygen saturation, and oxygen consumption. Low CO, low Hb, low SaO₂, or high VO₂ can all lower SvO₂.</p><h4>Normal range and target</h4><p>Usual adult SvO₂ is about <strong>60-80%</strong>. A practical CTICU target is often <strong>≥65-70%</strong>, but it must agree with lactate, CI, urine output, and clinical perfusion. A value of <strong>68%</strong> is not reassuring if lactate is rising and urine output is falling. A fall from <strong>75%</strong> to <strong>58%</strong> may be highly significant.</p><p>ScvO₂ is often <strong>&gt;70%</strong>, but it is not equivalent to SvO₂. It samples upper body venous return and does not fully include lower body or coronary sinus contributions. In shock, regional blood flow changes make ScvO₂-SvO₂ relationships unpredictable.</p><h4>Low SvO₂</h4><p>Low SvO₂ means more oxygen has been extracted. Causes include low cardiac output, anaemia, hypoxaemia, fever, shivering, pain, agitation, seizures, sepsis, and increased work of breathing.</p><table><tr><th>Cause</th><th>Mechanism</th><th>Bedside clues</th><th>Correction focus</th></tr><tr><td>Low CO</td><td>Less O₂ delivered per minute</td><td>Low CI, cool, narrow pulse pressure, oliguria, lactate</td><td>Fix preload, rhythm, contractility, afterload, obstruction</td></tr><tr><td>Anaemia</td><td>Lower oxygen content</td><td>Low Hb, bleeding, high extraction</td><td>Assess bleeding/transfusion need</td></tr><tr><td>Hypoxaemia</td><td>Lower SaO₂/CaO₂</td><td>Low SpO₂/PaO₂</td><td>Improve oxygenation/ventilation</td></tr><tr><td>Fever/shivering</td><td>Higher VO₂</td><td>Temperature, shivering, tachycardia</td><td>Treat demand</td></tr><tr><td>Work of breathing</td><td>Respiratory muscles use more O₂</td><td>Tachypnoea, accessory muscles</td><td>Increase support</td></tr></table><h4>High SvO₂</h4><p>High SvO₂ may mean good delivery and low demand, such as a sedated, cooled, well-perfused patient. It may also be pathological if tissues cannot extract or use oxygen. Severe sepsis, distributive shock, microcirculatory shunting, mitochondrial dysfunction, hypothermia, deep sedation, cyanide/toxin physiology, severe liver disease, or sampling error can produce high venous saturation with tissue hypoxia.</p><p>High SvO₂ with rising lactate is concerning. It suggests impaired extraction, microcirculatory failure, shunt, beta-adrenergic lactate, liver clearance issues, or technical error. Do not call it reassuring unless organ perfusion, lactate, CI, and clinical trajectory support that conclusion.</p><h4>SvO₂ and lactate</h4><p>Low SvO₂ plus rising lactate strongly suggests delivery-demand mismatch. Normal or high SvO₂ plus rising lactate suggests impaired extraction, microcirculatory failure, beta-agonist lactate, liver clearance issues, or another metabolic driver. Falling lactate with stable SvO₂ and improving urine output is generally reassuring.</p><p>Adrenaline can increase lactate through beta-2 metabolic effects, but do not dismiss lactate as drug-related if CI is low, SvO₂ is low, urine output is poor, and the patient is cold or mottled.</p><h4>Sampling problems</h4><p>Venous saturation can be wrong. A PAC sample must be from the pulmonary artery, not wedged. A CVC sample can be contaminated by infusions or flush. Continuous fibreoptic systems require correct positioning and calibration. If the value does not match the patient, verify source, line position, waveform, port, sampling technique, recent flushes, oxygenation, Hb, temperature, rhythm, sedation, and vasoactive changes.</p><h4>Clinical patterns</h4><p>A post-CABG patient with SvO₂ falling from <strong>72%</strong> to <strong>55%</strong>, rising lactate, narrowing pulse pressure, and oliguria has an oxygen economy problem. Causes include bleeding, tamponade, low cardiac output, graft issue, arrhythmia, anaemia, or increased demand.</p><p>A post-valve patient with AF at <strong>145/min</strong>, falling SvO₂, low MAP, and lactate rise may have rhythm-driven loss of atrial kick and diastolic filling time. A vasoplegic patient may have low MAP but normal/high SvO₂ if CI is high; if lactate rises, mixed shock or impaired extraction must be considered.</p><h4>Bedside use</h4><ol><li><p><strong>Confirm validity.</strong> Check source, waveform, line position, sampling technique, and contamination.</p></li><li><p><strong>Check delivery.</strong> Review CO/CI, Hb, SaO₂, PaO₂, MAP, and perfusion pressure.</p></li><li><p><strong>Check consumption.</strong> Review fever, shivering, pain, agitation, seizures, sepsis, and work of breathing.</p></li><li><p><strong>Compare lactate and organs.</strong> Review lactate, base excess, urine output, skin, mentation if awake, renal/liver function.</p></li><li><p><strong>Act on the pattern.</strong> Low SvO₂ requires search for low delivery or high demand. High SvO₂ with deterioration requires concern for impaired extraction or error.</p></li></ol>"
+    },
+    "pearls": {
+      "content": "<h3>Clinical Pearls - Mixed Venous Saturations</h3><h4>Pearl 1 - SvO₂ is oxygen left over</h4><p>SvO₂ reflects how much oxygen remains after tissues extract their share. It falls when delivery is low or demand is high.</p><h4>Pearl 2 - Low SvO₂ is a delivery-demand alarm</h4><p>Assess CO, Hb, oxygenation, fever, shivering, agitation, pain, work of breathing, and sepsis.</p><h4>Pearl 3 - High SvO₂ is not automatically good</h4><p>High SvO₂ with rising lactate may mean impaired extraction, shunting, mitochondrial dysfunction, sepsis, or sampling error.</p><h4>Pearl 4 - ScvO₂ is not SvO₂</h4><p>ScvO₂ is easier to obtain but does not fully represent mixed venous blood, especially coronary sinus and lower body contributions.</p><h4>Pearl 5 - Read SvO₂ with lactate</h4><p>Low SvO₂ plus rising lactate suggests inadequate DO₂ or high VO₂. High SvO₂ plus rising lactate suggests impaired extraction, microcirculatory failure, beta-adrenergic lactate, clearance issues, or error.</p>"
+    },
+    "equipment": {
+      "content": "<h3>Equipment Tie-In - Mixed Venous Saturations</h3><h4>PAC</h4><p>A pulmonary artery catheter measures true SvO₂. Confirm PA waveform and avoid wedged sampling.</p><h4>CVC</h4><p>A central line can provide ScvO₂. Avoid infusion contamination and recognise it is not identical to SvO₂.</p><h4>Co-oximetry/ABG analyser</h4><p>Co-oximetry measures venous saturation and can identify dyshemoglobins if available. Label sample type correctly.</p><h4>Haemodynamic monitor</h4><p>Interpret SvO₂ with CI, SVR/PVR, MAP, CVP, PAWP, temperature, vasoactive support, and waveform quality.</p><h4>Ventilator and temperature equipment</h4><p>Ventilation affects oxygenation, PaCO₂, work of breathing, and PVR. Temperature affects VO₂ and therefore SvO₂.</p>"
+    },
+    "targets": {
+      "content": "<h3>Targets and Numbers - Mixed Venous Saturations</h3><p>Usual adult SvO₂ is about <strong>60-80%</strong>. A practical CTICU target is often <strong>≥65-70%</strong> if lactate, urine output, CI, and clinical perfusion agree. ScvO₂ is often <strong>&gt;70%</strong> but is not equivalent. Low values suggest high extraction from low delivery or high demand. High values with deterioration suggest impaired extraction, shunt, sepsis, hypothermia, deep sedation, mitochondrial dysfunction, or technical error.</p>",
+      "tables": [
+        {
+          "heading": "Venous saturation values",
+          "headers": [
+            "Parameter",
+            "Typical value/target",
+            "Source",
+            "Interpretation"
+          ],
+          "rows": [
+            [
+              "SvO₂",
+              "60-80%; often ≥65-70%",
+              "Pulmonary artery catheter",
+              "True mixed venous global oxygen balance"
+            ],
+            [
+              "ScvO₂",
+              "Often >70%",
+              "Central venous/SVC region",
+              "Central estimate; not identical to SvO₂"
+            ],
+            [
+              "Low SvO₂",
+              "<60-65% depending context",
+              "PAC",
+              "High extraction from low delivery or high demand"
+            ],
+            [
+              "High SvO₂",
+              ">80% depending context",
+              "PAC/CVC",
+              "May be adequate delivery/low demand or impaired extraction/shunt/error"
+            ],
+            [
+              "O₂ extraction",
+              "20-30%",
+              "Calculated",
+              "Rises when delivery falls or demand rises"
+            ]
+          ]
+        },
+        {
+          "heading": "SvO₂ patterns",
+          "headers": [
+            "Pattern",
+            "Likely meaning",
+            "Check immediately",
+            "Common CTICU causes"
+          ],
+          "rows": [
+            [
+              "Low SvO₂ + rising lactate",
+              "Delivery-demand mismatch",
+              "CI, Hb, SpO₂, bleeding, rhythm, temperature",
+              "Low output, anaemia, hypoxaemia, shivering, pain"
+            ],
+            [
+              "Low SvO₂ + low CI",
+              "Low-flow delivery failure",
+              "Preload, afterload, contractility, rhythm, obstruction",
+              "Tamponade, stunning, RV failure, bleeding"
+            ],
+            [
+              "Low SvO₂ + normal CI",
+              "High demand or low content",
+              "Hb, fever, shivering, respiratory effort",
+              "Anaemia, pain, fever, extubation stress"
+            ],
+            [
+              "High SvO₂ + stable lactate",
+              "Possibly adequate delivery/low demand",
+              "Sedation, temperature, CI, trend",
+              "Sedation, hypothermia, high flow"
+            ],
+            [
+              "High SvO₂ + rising lactate",
+              "Impaired extraction/shunt/error",
+              "Sampling validity, sepsis, microcirculation, adrenaline",
+              "Distributive shock, mitochondrial dysfunction"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "quizQuestions": [
+    {
+      "level": "basic",
+      "question": "Where is true mixed venous oxygen saturation measured?",
+      "type": "multipleChoice",
+      "options": [
+        "Pulmonary artery",
+        "Radial artery",
+        "Peripheral IV",
+        "Endotracheal tube"
+      ],
+      "correct": 0,
+      "explanation": "True SvO₂ is sampled from pulmonary artery blood via PAC after systemic venous return has mixed."
+    },
+    {
+      "level": "reasoning",
+      "question": "Falling SvO₂, rising lactate, oliguria, and narrowing pulse pressure after CABG suggest what?",
+      "type": "multipleChoice",
+      "options": [
+        "Delivery-demand mismatch requiring urgent haemodynamic assessment",
+        "Over-oxygenation",
+        "PAC is always wrong",
+        "Normal oxygen economy"
+      ],
+      "correct": 0,
+      "explanation": "The pattern suggests inadequate oxygen delivery or increased demand. Causes include low output, bleeding, tamponade, anaemia, arrhythmia, or high VO₂."
+    },
+    {
+      "level": "expert",
+      "question": "Why is high SvO₂ with rising lactate concerning?",
+      "type": "multipleChoice",
+      "options": [
+        "It may indicate impaired extraction, shunting, mitochondrial dysfunction, sepsis, or sampling error",
+        "It proves tissues use oxygen normally",
+        "It means CO is zero",
+        "It only occurs with high Hb"
+      ],
+      "correct": 0,
+      "explanation": "High venous oxygen with lactate can mean oxygen is delivered but not extracted or used normally, or the sample is invalid."
+    }
+  ]
+}

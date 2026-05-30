@@ -1,36 +1,38 @@
-# CT ICU Learning App
+# CT ICU Learning App - v007 Manifest Loader
 
-GitHub Pages-ready static app.
+This build uses one manifest per domain so the app does not hard-code topic filenames in JavaScript.
 
-## Required repository structure
+## GitHub Pages structure
 
 ```text
 index.html
 .nojekyll
 content/
   domain1/
+    index.json
     cardiac-cycle.json
     afterload_svr_and_pvr.json
-    cardiac_output_and_determinants.json
-    contractility_and_inotropy.json
-    frank_starling_mechanism.json
-    mixed_venous_saturations.json
-    oxygen_delivery_and_consumption.json
-    preload_lvedp_and_cvp.json
+    ...
+  domain2/
+    index.json
+    arterial_line_waveform_interpretation.json
+    ...
 versions/
-  CT-ICU-Learning-App_v006_github_pages_ready.html
+  CT-ICU-Learning-App_v007_manifest_loader.html
 ```
 
-## GitHub Pages setup
+## Adding a new topic
 
-1. Create a GitHub repository, for example `ct-icu-learning-app`.
-2. Upload all files and folders in this package to the repository root.
-3. Add your real JSON files to `content/domain1/`.
-4. Go to repository Settings > Pages.
-5. Under Build and deployment, choose Deploy from a branch.
-6. Choose branch `main` and folder `/root`, then Save.
-7. Open the Pages URL shown by GitHub after deployment.
+1. Drop the new JSON file into the relevant domain folder.
+2. Open `content/domainX/index.json`.
+3. Add one object to the `files` array:
 
-## Why index.html exists
+```json
+{ "file": "new_topic_file.json", "title": "New Topic Title" }
+```
 
-GitHub Pages automatically serves `index.html` at the site root. The versioned HTML copy is preserved in `versions/` so each build remains traceable.
+That is the only required app-side update.
+
+## Important
+
+Browsers cannot scan local folders directly. The manifest is the directory index. GitHub Pages will serve these files over HTTPS, so `fetch()` can load the manifest and topic files normally.

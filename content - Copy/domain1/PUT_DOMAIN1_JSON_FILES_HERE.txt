@@ -1,0 +1,15 @@
+Put these files in this folder:
+
+cardiac-cycle.json
+afterload_svr_and_pvr.json
+cardiac_output_and_determinants.json
+contractility_and_inotropy.json
+frank_starling_mechanism.json
+mixed_venous_saturations.json
+oxygen_delivery_and_consumption.json
+preload_lvedp_and_cvp.json
+
+The app loads them using relative paths like:
+content/domain1/cardiac-cycle.json
+
+On GitHub Pages this will work once the folder is uploaded beside index.html.

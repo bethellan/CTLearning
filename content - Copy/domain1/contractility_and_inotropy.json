@@ -1,0 +1,161 @@
+{
+  "id": "contractility-and-inotropy",
+  "domain": "domain1",
+  "domainName": "Physiology Foundations",
+  "domainColour": "#0B5FFF",
+  "title": "Contractility and Inotropy",
+  "sections": {
+    "abridged": {
+      "content": "<h3>Contractility and inotropy - pump strength at a given load</h3><p><strong>Contractility</strong> is the intrinsic force-generating ability of the myocardium at a given preload and afterload. <strong>Inotropy</strong> means a change in that contractile force. Positive inotropes increase contraction strength. Negative inotropes reduce it.</p><p>Contractility is not the same as blood pressure, cardiac output, or ejection fraction. A patient can have normal MAP because SVR is high while contractility and flow are poor. EF is load-dependent: vasodilation can make EF look good, while high afterload can make EF look poor.</p><p>After cardiac surgery, contractility may be impaired by myocardial stunning, ischaemia-reperfusion injury, cardioplegia, graft problems, valve-related loading changes, hypothermia, acidosis, hypocalcaemia, potassium or magnesium abnormalities, RV strain, and prolonged bypass. Poor contractility looks like low CI, weak arterial upstroke, narrow pulse pressure, cool peripheries, rising lactate, low SvO₂, oliguria, pulmonary congestion, and escalating support.</p>"
+    },
+    "expanded": {
+      "content": "<h3>Contractility - intrinsic myocardial force generation</h3><p><strong>Contractility</strong> is the ability of cardiac muscle to generate force independent of preload and afterload. It reflects the myocardium's performance at a given fibre length and against a given load. It is influenced by intracellular calcium handling, beta-adrenergic stimulation, myocardial oxygen supply, coronary perfusion, pH, temperature, electrolytes, ischaemia, and structural disease.</p><p>Contractility is one of the three major stroke volume determinants. If preload is adequate and afterload is reasonable, poor contractility still produces low stroke volume. In CTICU this is common after cardiopulmonary bypass and cross-clamp because the heart may be stunned, oedematous, ischaemic, hypothermic, acidotic, or recovering from cardioplegia.</p><h4>Cellular mechanism</h4><p>Contraction depends on calcium-mediated actin-myosin interaction. The action potential triggers calcium entry and calcium release from the sarcoplasmic reticulum. Calcium binds troponin C, enabling cross-bridge cycling. Improved calcium availability and cycling generally increase force. Relaxation also requires calcium reuptake, so calcium handling affects systole and diastole.</p><p>Beta-1 stimulation increases cyclic AMP and improves calcium entry and sarcoplasmic reticulum calcium handling. This increases inotropy and often chronotropy. Adrenaline and dobutamine use this pathway to different degrees. Milrinone increases cyclic AMP by phosphodiesterase inhibition, improving inotropy while also causing systemic and pulmonary vasodilation.</p><h4>Inotropy</h4><p><strong>Positive inotropy</strong> increases contractile force. Inotropes are used when cardiac output is inadequate because myocardial force generation is insufficient, after preload, afterload, rhythm, oxygenation, and obstruction have been considered. Inotropes are not benign. They can increase myocardial oxygen demand, provoke arrhythmias, increase heart rate, alter SVR/PVR, and worsen hypotension depending on the agent.</p><p>Adrenaline increases inotropy and chronotropy but may increase lactate via beta-2 metabolic effects and increase arrhythmia risk. Dobutamine improves beta-1 inotropy and may lower SVR via beta-2 effects. Milrinone improves inotropy and reduces PVR/SVR but can cause hypotension and accumulates in renal dysfunction. Noradrenaline is mainly a vasopressor but has some beta-1 effect.</p><h4>Contractility versus ejection fraction</h4><p>Ejection fraction is <strong>EF = SV / EDV × 100</strong>. It is useful but not a pure contractility measure. A vasodilated ventricle may eject a high percentage because afterload is low. A severely afterloaded ventricle may eject a lower percentage because resistance is high. A small underfilled hyperdynamic LV can have a high EF but a low stroke volume.</p><p>Therefore, EF must be interpreted with chamber size, CI, pulse pressure, filling pressures, afterload, valve function, RV function, rhythm, and perfusion markers. A post-bypass patient with a small hyperdynamic LV may be underfilled or vasodilated, not necessarily well perfused. A reduced EF may reflect stunning, ischaemia, high afterload, acidosis, or dyssynchrony.</p><h4>Post-bypass myocardial stunning</h4><p><strong>Myocardial stunning</strong> is transient mechanical dysfunction after ischaemia-reperfusion despite restored blood flow. During bypass and cross-clamping, the heart experiences cardioplegia, altered temperature, inflammation, reperfusion stress, and sometimes variable myocardial protection. After bypass, it may not immediately generate normal force.</p><p>Stunning can affect LV, RV, or both. It may present as low CI, weak pulse pressure, high filling pressures, low SvO₂, rising lactate, and increasing inotrope requirement. It may improve over hours as temperature, electrolytes, acid-base status, and coronary perfusion improve. However, not every low-output state is benign stunning. Graft occlusion, valve dysfunction, tamponade, coronary spasm, air embolism, RV infarction, pulmonary hypertension crisis, and surgical complications can look similar and require urgent escalation.</p><h4>RV contractility</h4><p>The RV is thin-walled and afterload-sensitive. It may fail after mitral surgery, pulmonary hypertension, protamine reaction, hypoxia, hypercapnia, acidosis, high PEEP, RV infarction, LVAD placement, or prolonged bypass. RV failure reduces LV preload because blood is not delivered effectively through the lungs.</p><p>Signs include rising CVP, low CI, hypotension, low PA pulsatility, hepatic congestion, reduced urine output from venous congestion, RV dilation on echo, septal shift, TR, and sensitivity to ventilation changes. Management often requires PVR reduction, oxygenation, ventilation, pH correction, RV inotropy, rhythm optimisation, cautious preload, and systemic pressure for RV coronary perfusion.</p><h4>Clinical recognition</h4><table><tr><th>Finding</th><th>Mechanism</th><th>Interpretation</th></tr><tr><td>Low CI</td><td>Weak ejection reduces forward flow</td><td>Assess preload, afterload, rhythm, contractility, obstruction</td></tr><tr><td>Narrow pulse pressure</td><td>Reduced stroke volume</td><td>May be poor contractility, underfilling, tamponade, RV failure, damping</td></tr><tr><td>Rising lactate</td><td>DO₂ inadequate relative to demand</td><td>Low-flow shock if paired with poor perfusion</td></tr><tr><td>Low SvO₂</td><td>High extraction from low delivery/high demand</td><td>Supports inadequate flow/content or excessive demand</td></tr><tr><td>High PAWP/pulmonary oedema</td><td>LV cannot eject effectively</td><td>More fluid may worsen oxygenation</td></tr><tr><td>High CVP with low flow</td><td>RV failure or compression</td><td>Consider RV failure, tamponade, PVR, PEEP, tension physiology</td></tr></table><h4>Decision-making</h4><ol><li><p><strong>Check rhythm and rate.</strong> AF, heart block, bradycardia, tachycardia, loss of AV synchrony, and pacing problems can mimic poor contractility.</p></li><li><p><strong>Check preload and congestion.</strong> A weak circulation may be underfilled or overloaded. Use CVP, PAWP, echo, drains, and response.</p></li><li><p><strong>Check afterload.</strong> High SVR can make the LV appear weak. High PVR can make the RV fail.</p></li><li><p><strong>Check myocardial oxygen supply.</strong> Review diastolic pressure, Hb, oxygenation, ST changes, graft risk, and arrhythmias.</p></li><li><p><strong>Correct metabolic factors.</strong> Hypothermia, acidosis, ionised hypocalcaemia, potassium or magnesium abnormalities, and hypoxia impair contractility.</p></li><li><p><strong>Escalate early.</strong> Refractory low output after cardiac surgery can represent tamponade, graft failure, valve dysfunction, or need for mechanical support.</p></li></ol>"
+    },
+    "pearls": {
+      "content": "<h3>Clinical Pearls - Contractility</h3><h4>Pearl 1 - EF is not pure contractility</h4><p>EF changes with preload and afterload. A hyperdynamic small LV can still have poor SV. A low EF may reflect high afterload or stunning rather than irreversible failure.</p><h4>Pearl 2 - Do not keep filling a weak ventricle</h4><p>If preload is adequate and contractility is poor, fluid raises filling pressures more than output and can worsen pulmonary oedema and venous congestion.</p><h4>Pearl 3 - Stunning is common but not the only cause</h4><p>Low output may be stunning, but graft occlusion, tamponade, valve dysfunction, coronary spasm, RV failure, and surgical complications must be considered.</p><h4>Pearl 4 - Chemistry is haemodynamics</h4><p>Hypothermia, acidosis, low ionised calcium, potassium abnormalities, magnesium abnormalities, and hypoxia impair electrical and mechanical function.</p><h4>Pearl 5 - RV weakness may be afterload-driven</h4><p>Reducing PVR by correcting hypoxia, hypercapnia, acidosis, and overdistension may improve RV performance.</p>"
+    },
+    "equipment": {
+      "content": "<h3>Equipment Tie-In - Contractility</h3><h4>Arterial line</h4><p>Weak upstroke and narrow pulse pressure can suggest low SV from poor contractility, but damping and preload must be checked.</p><h4>PAC</h4><p>Low CI, filling pressures, SVR/PVR, and SvO₂ help distinguish poor contractility from vasoplegia, underfilling, high afterload, and RV afterload crisis.</p><h4>Echo</h4><p>Echo directly assesses LV/RV systolic function, chamber size, septal motion, valve function, regional wall motion, and tamponade.</p><h4>ECG</h4><p>ST changes, conduction blocks, AF, bradycardia, ventricular arrhythmias, and pacing issues can cause or signal contractility problems.</p><h4>ABG/POC testing</h4><p>pH, lactate, potassium, ionised calcium, haemoglobin, PaO₂, and PaCO₂ are directly relevant to pump performance.</p>"
+    },
+    "targets": {
+      "content": "<h3>Targets and Numbers - Contractility</h3><p>Contractility is judged indirectly by adequate forward flow and oxygen delivery: CI usually <strong>≥2.2 L/min/m²</strong>, lactate <strong>&lt;2 mmol/L</strong> or falling, SvO₂ <strong>60-80%</strong> or target <strong>≥65-70%</strong>, urine output <strong>≥0.5 mL/kg/hr</strong>, acceptable pulse pressure, stable rhythm, and echo evidence of adequate ventricular function. Metabolic targets commonly include potassium <strong>4.0-4.5 mmol/L</strong>, magnesium <strong>≥0.8-1.0 mmol/L</strong>, and ionised calcium <strong>1.1-1.3 mmol/L</strong>, depending on local protocol.</p>",
+      "tables": [
+        {
+          "heading": "Contractility assessment targets",
+          "headers": [
+            "Parameter",
+            "Common target/range",
+            "Why it matters",
+            "Concern"
+          ],
+          "rows": [
+            [
+              "CI",
+              "≥2.2 L/min/m²; often 2.5-4.0",
+              "Flow adequacy",
+              "Low CI with poor perfusion suggests inadequate pump output"
+            ],
+            [
+              "Pulse pressure",
+              "Often 30-50 mmHg context dependent",
+              "SV clue",
+              "Narrowing suggests falling SV or damping"
+            ],
+            [
+              "SvO₂",
+              "60-80%; often ≥65-70%",
+              "Delivery-demand balance",
+              "Low value supports low delivery/high demand"
+            ],
+            [
+              "Lactate",
+              "<2 mmol/L or falling",
+              "Perfusion/metabolic marker",
+              "Rising value suggests inadequate DO₂/metabolic stress"
+            ],
+            [
+              "Ionised calcium",
+              "1.1-1.3 mmol/L",
+              "Contraction, tone, coagulation",
+              "Low Ca can impair contractility"
+            ],
+            [
+              "Potassium",
+              "Often 4.0-4.5 mmol/L",
+              "Electrical stability",
+              "Low/high K increases arrhythmia risk"
+            ],
+            [
+              "Magnesium",
+              "Often ≥0.8-1.0 mmol/L",
+              "Electrical stability",
+              "Low Mg increases AF/VT risk"
+            ]
+          ]
+        },
+        {
+          "heading": "Poor contractility causes",
+          "headers": [
+            "Cause",
+            "Mechanism",
+            "Bedside signs",
+            "Escalation concern"
+          ],
+          "rows": [
+            [
+              "Myocardial stunning",
+              "Post-ischaemia/reperfusion dysfunction",
+              "Low CI, weak pulse, low SvO₂",
+              "Persistent shock needs review"
+            ],
+            [
+              "Graft/coronary problem",
+              "Impaired myocardial oxygen supply",
+              "ST changes, regional wall-motion abnormality",
+              "Immediate senior escalation"
+            ],
+            [
+              "Hypothermia/acidosis",
+              "Enzyme/calcium handling impairment",
+              "Poor inotrope response, low output",
+              "Correct rapidly"
+            ],
+            [
+              "Electrolyte abnormality",
+              "Electrical/mechanical instability",
+              "Arrhythmia, poor capture, weak contraction",
+              "Urgent correction if severe"
+            ],
+            [
+              "RV failure",
+              "Poor RV output reduces LV preload",
+              "High CVP, low CI, RV dilation",
+              "RV-focused management"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "quizQuestions": [
+    {
+      "level": "basic",
+      "question": "What does contractility mean?",
+      "type": "multipleChoice",
+      "options": [
+        "Intrinsic myocardial force generation at a given preload and afterload",
+        "Total body fluid",
+        "Arterial line resistance",
+        "Arterial oxygen saturation"
+      ],
+      "correct": 0,
+      "explanation": "Contractility is the heart muscle's intrinsic ability to generate force, influenced by calcium, sympathetic tone, oxygen supply, pH, temperature, electrolytes, and injury."
+    },
+    {
+      "level": "reasoning",
+      "question": "Low CI, high PAWP, pulmonary oedema, narrow pulse pressure and rising lactate after bypass: why may repeated fluid harm?",
+      "type": "multipleChoice",
+      "options": [
+        "The ventricle may be filled but too weak to eject, so fluid raises pressure more than flow",
+        "Fluid always lowers PAWP",
+        "Fluid directly fixes contractility",
+        "Pulmonary oedema proves vasoplegia only"
+      ],
+      "correct": 0,
+      "explanation": "If contractility is poor and left-sided filling pressure is high, extra fluid raises LVEDP/PAWP and pulmonary oedema without improving output."
+    },
+    {
+      "level": "expert",
+      "question": "Why is EF an imperfect marker of contractility?",
+      "type": "multipleChoice",
+      "options": [
+        "EF is load-dependent and changes with preload and afterload",
+        "EF only measures CVP",
+        "EF is always normal after bypass",
+        "EF equals SVR"
+      ],
+      "correct": 0,
+      "explanation": "EF is affected by loading. Low afterload can make EF look good, high afterload can make it look poor, and a small LV can have high EF but low SV."
+    }
+  ]
+}
