@@ -1,0 +1,291 @@
+{
+  "id": "arterial_line_waveform_interpretation",
+  "domain": 2,
+  "domainTitle": "Haemodynamic Monitoring",
+  "title": "Arterial Line Waveform Interpretation",
+  "file": "arterial_line_waveform_interpretation.json",
+  "sections": {
+    "abridged": {
+      "title": "Abridged Snapshot",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Bedside purpose"
+        },
+        {
+          "type": "paragraph",
+          "text": "The invasive arterial waveform is a beat-to-beat mechanical picture of left ventricular ejection, arterial tone and the integrity of the monitoring system. In CT-ICU it is used to detect low cardiac output, tamponade, bleeding, vasoplegia, valve-related flow problems, aortic surgery pressure risk and rhythm-related instability."
+        },
+        {
+          "type": "keyterm",
+          "term": "Systolic upstroke",
+          "definition": "The rapid pressure rise caused by LV ejection into the aorta. A steep upstroke usually means brisk ejection; a slow or delayed upstroke suggests low stroke volume, poor contractility, severe aortic stenosis, severe vasoconstriction or damping."
+        },
+        {
+          "type": "keyterm",
+          "term": "Dicrotic notch",
+          "definition": "The deflection marking aortic valve closure and transition from systole to diastole. Loss of the notch can be technical damping, tachycardia, low stroke volume or severe vasodilation."
+        },
+        {
+          "type": "targetTable",
+          "columns": [
+            "Waveform finding",
+            "Likely meaning",
+            "Immediate nursing response"
+          ],
+          "rows": [
+            [
+              "Narrow pulse pressure <25-30 mmHg",
+              "Low stroke volume, tamponade, RV failure, hypovolaemia or severe vasoconstriction.",
+              "Assess perfusion, rhythm, pacing, drains, CVP trend, lactate and urine output; escalate early if MAP or perfusion is falling."
+            ],
+            [
+              "Wide pulse pressure >60 mmHg",
+              "Vasoplegia, aortic regurgitation, high stroke volume state, stiff arteries or IABP augmentation.",
+              "Use MAP and clinical perfusion rather than systolic alone; review valve/aortic context and vasopressor needs."
+            ],
+            [
+              "Tall spiky trace",
+              "Underdamping or catheter whip; systolic falsely high and diastolic falsely low.",
+              "Secure limb and tubing, remove extra tubing, check for air, perform square-wave test, and prefer MAP while troubleshooting."
+            ],
+            [
+              "Flat low-amplitude trace",
+              "True hypotension or overdamping from clot, kink, air, loose connection or catheter position.",
+              "Check patient first, then flush system, inspect pressure bag/tubing/transducer and compare cuff BP."
+            ]
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Do not treat a surprising arterial pressure number until you have checked the waveform shape and the patient. Technical artefact is common, but true CT-ICU deterioration can be abrupt."
+        }
+      ]
+    },
+    "expanded": {
+      "title": "Expanded Deep-Dive",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Waveform generation"
+        },
+        {
+          "type": "paragraph",
+          "text": "An arterial catheter transmits intra-arterial pressure through a stiff fluid column to a transducer. The monitor displays pressure over time. The trace starts when the LV ejects blood through the aortic valve, rises to the systolic peak, falls after ejection slows, shows the dicrotic notch at aortic valve closure, then runs off during diastole as blood leaves the arterial tree."
+        },
+        {
+          "type": "paragraph",
+          "text": "In CT-ICU, waveform interpretation is inseparable from procedure type. After CABG, a new narrow pulse pressure with cool peripheries and oliguria suggests low cardiac output or tamponade. After valve surgery, an abnormal runoff may point toward residual regurgitation, prosthetic dysfunction or altered loading. After aortic surgery, a high systolic pressure may threaten suture lines, but underdamping can exaggerate systolic values."
+        },
+        {
+          "type": "keyterm",
+          "term": "Anacrotic limb",
+          "definition": "The rising limb of the waveform. It reflects LV pressure generation, aortic valve opening and arterial impedance."
+        },
+        {
+          "type": "keyterm",
+          "term": "Anacrotic notch",
+          "definition": "A small notch on the upstroke sometimes associated with abnormal ejection dynamics such as aortic stenosis or altered arterial reflection. It is not always visible and should not be over-interpreted without the clinical picture."
+        },
+        {
+          "type": "keyterm",
+          "term": "Pulse pressure",
+          "definition": "Systolic pressure minus diastolic pressure. It is a rough bedside surrogate for stroke volume and arterial compliance, but it is distorted by damping, arterial stiffness, vasoplegia and IABP."
+        },
+        {
+          "type": "subheading",
+          "text": "Narrow pulse pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "A narrow pulse pressure means the systolic peak and diastolic pressure are close together. Mechanically this usually means low stroke volume, high afterload, restricted filling or impaired ejection. In a fresh post-op cardiac patient, narrow pulse pressure plus rising CVP, falling urine output and increasing vasopressor requirement should trigger concern for tamponade, RV failure, LV failure, bleeding with hypovolaemia or pacing/rhythm failure."
+        },
+        {
+          "type": "subheading",
+          "text": "Wide pulse pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "A wide pulse pressure means the systolic pressure is much higher than diastolic pressure. It occurs when stroke volume is high, arteries are stiff, SVR is low, diastolic runoff is rapid, or aortic regurgitation allows blood to fall back into the LV. After bypass, vasoplegia often gives a warm patient with low diastolic pressure, acceptable or high systolic pressure and MAP that may still be low."
+        },
+        {
+          "type": "subheading",
+          "text": "Low amplitude waveform"
+        },
+        {
+          "type": "paragraph",
+          "text": "Low amplitude may be true low pressure or signal damping. True low amplitude with cool skin, delayed capillary refill, reduced urine output and rising lactate is clinical deterioration. Low amplitude in a comfortable, warm patient with a normal cuff pressure is more likely line/transducer failure. The nurse action is to check patient first, confirm with cuff, then troubleshoot the system."
+        },
+        {
+          "type": "subheading",
+          "text": "Catheter whip"
+        },
+        {
+          "type": "paragraph",
+          "text": "Catheter whip is motion-induced oscillation of the catheter or tubing. It produces a sharp, tall, sometimes jagged systolic peak and may falsely elevate systolic pressure. It is common in radial lines with wrist movement, unsecured tubing or excessive extension tubing. MAP is usually less affected than systolic pressure."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Assess the patient and rhythm before changing vasoactive therapy.",
+            "Check waveform morphology: upstroke, peak, notch and runoff.",
+            "Check MAP, pulse pressure and trend over several minutes, not a single beat.",
+            "Compare with cuff pressure if waveform shape is implausible.",
+            "Escalate if waveform change matches clinical shock: MAP <60-65 mmHg, urine output <0.5 mL/kg/hr, lactate rising, new arrhythmia, new ST change, increasing drains or escalating vasopressor requirement."
+          ]
+        }
+      ]
+    },
+    "pearls": {
+      "title": "Clinical Pearls",
+      "content": [
+        {
+          "type": "pearl",
+          "text": "In an underdamped line the systolic number may frighten everyone, but the MAP is often the safer value to use while you fix the trace."
+        },
+        {
+          "type": "pearl",
+          "text": "A sudden narrow pulse pressure after cardiac surgery is a red flag. Think low stroke volume first: tamponade, bleeding, RV failure, LV failure, severe bradycardia or loss of pacing capture."
+        },
+        {
+          "type": "pearl",
+          "text": "Loss of the dicrotic notch is not automatically an emergency. Loss of notch plus low MAP, oliguria, mottling or rising lactate is clinically meaningful."
+        },
+        {
+          "type": "warning",
+          "text": "Never flush an arterial line repeatedly to make a bad trace look better without asking why it is bad. A clot, kink, loose connection or catheter migration can conceal true haemodynamic deterioration."
+        }
+      ]
+    },
+    "equipment": {
+      "title": "Equipment Tie-In",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Equipment tie-in"
+        },
+        {
+          "type": "paragraph",
+          "text": "The arterial waveform depends on the whole pressure monitoring chain: catheter, stiff non-compliant tubing, flush device, 300 mmHg pressure bag, transducer, cable, monitor scale and correct levelling. A fault anywhere in the chain can produce a believable but wrong number."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Confirm the pressure bag is inflated to 300 mmHg and flush solution is present.",
+            "Inspect for air bubbles, blood clot, kinks, loose connections, excessive extension tubing and soft tubing.",
+            "Level the transducer at the phlebostatic axis, approximately the right atrium, usually fourth intercostal space mid-axillary line supine.",
+            "Zero the transducer to atmospheric pressure with the stopcock open to air and closed to the patient.",
+            "Perform a fast-flush square-wave test if damping is suspected, then interpret the number only after the waveform is technically acceptable."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For nurse-technician practice, set up the line so it is short, stiff, secure and visible. Avoid adding unnecessary extension tubing. Make sure monitor scale does not hide morphology; a waveform squeezed into a poor scale can make normal changes look pathological."
+        }
+      ]
+    },
+    "targets": {
+      "title": "Targets and Numbers",
+      "content": [
+        {
+          "type": "targetTable",
+          "columns": [
+            "Parameter",
+            "Usual target/range",
+            "CT-ICU interpretation"
+          ],
+          "rows": [
+            [
+              "MAP",
+              "65-80 mmHg for most stable post-cardiac surgery patients; 70-90 mmHg often used when renal, cerebral, aortic or graft perfusion is a concern.",
+              "Interpret with urine output, lactate, mentation, skin perfusion and surgical target. A MAP of 65 can be inadequate in chronic hypertension or after aortic/neurological risk surgery."
+            ],
+            [
+              "Pulse pressure",
+              "Usually 30-50 mmHg.",
+              "Narrow pulse pressure suggests low stroke volume, tamponade, severe vasoconstriction or RV failure. Very wide pulse pressure suggests low SVR, aortic regurgitation or IABP augmentation."
+            ],
+            [
+              "Urine output",
+              "At least 0.5 mL/kg/hr; commonly aim 30 mL/hr minimum in average adult.",
+              "Falling urine output with a deteriorating waveform is an early perfusion warning after cardiac surgery."
+            ],
+            [
+              "Lactate",
+              "Usually <2 mmol/L; trend should fall after bypass and resuscitation.",
+              "Persistent or rising lactate >3-4 mmol/L suggests ongoing oxygen debt, low cardiac output, vasoplegia, bleeding, sepsis or limb/mesenteric ischaemia."
+            ]
+          ]
+        },
+        {
+          "type": "targetTable",
+          "columns": [
+            "Escalation trigger",
+            "Why it matters",
+            "Action"
+          ],
+          "rows": [
+            [
+              "MAP <60-65 mmHg for more than a few minutes or any hypotension with poor perfusion",
+              "Coronary, renal and cerebral perfusion may be inadequate.",
+              "Check waveform and patient, increase surveillance, call senior nurse/medical team, prepare vasoactive or volume intervention as ordered."
+            ],
+            [
+              "Pulse pressure <25 mmHg with rising CVP or falling urine output",
+              "Suggests restricted filling or poor stroke volume; tamponade/RV failure are time-critical.",
+              "Check drains, heart sounds if possible, rhythm/pacing, lactate and urgent escalation for echo/medical review."
+            ],
+            [
+              "Sudden systolic hypertension >140-160 mmHg after aortic surgery",
+              "May stress suture lines or graft/anastomosis depending on surgical target.",
+              "Confirm waveform quality and escalate for BP control according to surgical target."
+            ],
+            [
+              "New waveform distortion after patient movement",
+              "May be catheter/tubing artefact rather than physiology.",
+              "Reposition limb, check fixation, flush and square-wave test before changing therapy if patient is stable."
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "A fresh post-valve patient develops a narrow arterial pulse pressure of 90/75 mmHg, cool hands and urine output 10 mL/hr. What is the safest interpretation?",
+      "options": [
+        "Likely low stroke volume until proven otherwise",
+        "Normal post-bypass vasoplegia",
+        "Underdamped line only",
+        "Benign effect of sedation"
+      ],
+      "answer": 0,
+      "explanation": "Narrow pulse pressure with poor perfusion and oliguria suggests low stroke volume. In CT-ICU the differential includes tamponade, RV failure, LV failure, hypovolaemia, bradyarrhythmia or pacing failure."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "A tall spiky arterial waveform shows BP 190/40 but the patient is warm and the MAP is 82. What technical issue is most likely?",
+      "options": [
+        "Overdamping",
+        "Underdamping or catheter whip",
+        "Zeroing 10 cm too low",
+        "True severe hypertension only"
+      ],
+      "answer": 1,
+      "explanation": "Underdamping exaggerates systolic and lowers diastolic values. MAP is less affected. Troubleshoot before treating the systolic value alone."
+    },
+    {
+      "difficulty": "Bedside Basics",
+      "question": "What does the dicrotic notch usually represent?",
+      "options": [
+        "Mitral valve closure",
+        "Aortic valve closure",
+        "Pulmonary valve opening",
+        "Atrial contraction"
+      ],
+      "answer": 1,
+      "explanation": "The dicrotic notch marks aortic valve closure and elastic recoil at the transition from systole to diastole."
+    }
+  ]
+}

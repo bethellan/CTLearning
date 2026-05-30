@@ -1,0 +1,230 @@
+{
+  "id": "trusting_numbers_vs_clinical_picture",
+  "domain": 2,
+  "domainTitle": "Haemodynamic Monitoring",
+  "title": "Trusting Numbers Versus the Clinical Picture",
+  "file": "trusting_numbers_vs_clinical_picture.json",
+  "sections": {
+    "abridged": {
+      "title": "Abridged Snapshot",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Bedside purpose"
+        },
+        {
+          "type": "paragraph",
+          "text": "Haemodynamic numbers are decision-support, not truth. In CT-ICU, wrong numbers can come from technical error, catheter position, ventilation, rhythm, damping, levelling, zeroing and calculation assumptions. The safe nurse matches every number to the patient’s perfusion and post-operative risk."
+        },
+        {
+          "type": "targetTable",
+          "columns": [
+            "Conflict",
+            "Likely issue",
+            "Action"
+          ],
+          "rows": [
+            [
+              "Low arterial pressure but patient warm, awake, good urine and normal cuff",
+              "Line/transducer problem possible",
+              "Check waveform, level, zero, square-wave and cuff before escalating therapy if stable."
+            ],
+            [
+              "Normal MAP but cool, oliguric, lactate rising",
+              "Low flow masked by high SVR",
+              "Escalate for low cardiac output assessment despite acceptable pressure."
+            ],
+            [
+              "High CVP but dry-looking patient",
+              "RV failure, tamponade, high PEEP or measurement issue",
+              "Assess waveform, ventilation pressures, echo need and full haemodynamic pattern."
+            ],
+            [
+              "Unexpected wedge or PA value",
+              "Catheter position or wedge validity issue",
+              "Check waveform, balloon status, depth and repeat/confirm before acting."
+            ]
+          ]
+        }
+      ]
+    },
+    "expanded": {
+      "title": "Expanded Deep-Dive",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Why numbers go wrong"
+        },
+        {
+          "type": "paragraph",
+          "text": "Technical errors include wrong levelling, failure to zero, air bubbles, clot, kinks, loose connections, damping, wrong cable, wrong monitor scale and channel mislabelling. Physiological distortions include arrhythmia, positive pressure ventilation, high PEEP, respiratory variation, ventricular interaction, altered compliance, pulmonary hypertension and valve pathology."
+        },
+        {
+          "type": "paragraph",
+          "text": "The post-cardiac surgery patient is especially vulnerable to misleading numbers because several problems can coexist. A patient can be vasoplegic and bleeding. A patient can have RV failure and LV diastolic dysfunction. A patient can have tamponade with drains that look deceptively quiet. A patient can have acceptable MAP because noradrenaline is high while cardiac output remains poor."
+        },
+        {
+          "type": "subheading",
+          "text": "Clinical perfusion markers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skin perfusion includes warmth, colour, mottling and capillary refill. Mentation is useful once sedation is light enough; new agitation or drowsiness can be hypoperfusion, hypercapnia, stroke, delirium or drug effect. Urine output should generally be at least 0.5 mL/kg/hr. Lactate should trend down after surgery; persistent rise suggests oxygen debt or impaired clearance. Mixed venous saturation or central venous saturation helps judge oxygen delivery versus consumption but must be interpreted with Hb, SaO2, CO and metabolic state."
+        },
+        {
+          "type": "subheading",
+          "text": "Trend versus single value"
+        },
+        {
+          "type": "paragraph",
+          "text": "A single number can be noise. A trend is physiology. CVP rising from 7 to 18, pulse pressure narrowing, noradrenaline doubling and urine falling is a pattern. CI drifting from 2.5 to 1.8 with lactate increasing is a pattern. A single wedge of 24 in a coughing patient during ventilator dyssynchrony is not enough for a major decision."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Pause and ask whether the patient looks perfused: brain, skin, kidneys, lactate and SvO2/ScvO2.",
+            "Check whether the waveform or number is technically plausible: level, zero, damping, catheter position and channel labels.",
+            "Compare independent sources: cuff versus arterial MAP, CVP trend versus echo, CO versus lactate/urine output, chest drains versus Hb/coagulation.",
+            "Consider procedure-specific threats: tamponade after any cardiac surgery, RV failure after mitral/pulmonary hypertension cases, vasoplegia after CPB, bleeding after complex/aortic surgery, graft/ischaemia after CABG.",
+            "Escalate when clinical deterioration and haemodynamic trend align, even if one number appears reassuring."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Echo and chest drains"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bedside echo can confirm ventricular filling, contractility, tamponade, RV dilation and valve issues. Chest drain output gives surgical bleeding clues, but low output does not exclude tamponade because drains can block or blood can clot around the heart. Sudden haemodynamic deterioration with quiet drains is often more concerning than reassuring."
+        }
+      ]
+    },
+    "pearls": {
+      "title": "Clinical Pearls",
+      "content": [
+        {
+          "type": "pearl",
+          "text": "The best CT-ICU question is: does this number explain the patient? If not, either the number is wrong or you have not found the right physiology yet."
+        },
+        {
+          "type": "pearl",
+          "text": "A normal blood pressure on high-dose noradrenaline is not normal haemodynamics. Look at flow and perfusion."
+        },
+        {
+          "type": "pearl",
+          "text": "A quiet chest drain in a shocked post-op patient can mean blocked drains and tamponade, not absence of bleeding."
+        },
+        {
+          "type": "warning",
+          "text": "Do not wait for every number to be perfect before escalating a deteriorating cardiac surgery patient. Tamponade, graft failure, massive bleeding and RV failure are time-critical."
+        }
+      ]
+    },
+    "equipment": {
+      "title": "Equipment Tie-In",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Equipment tie-in"
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Audit transducer level and zero for arterial, CVP and PA channels at the start of the shift and after position changes.",
+            "Perform square-wave testing when arterial morphology is suspicious.",
+            "Check PA catheter depth, waveform and balloon status before interpreting PAOP or derived values.",
+            "Check monitor patient data such as height/weight/BSA if indexed values appear wrong.",
+            "Document the context of haemodynamic measurements: rhythm, ventilation, vasoactive doses, sedation, temperature and patient position."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For nurse-technician work, the priority is to make hidden technical error visible. Correct labelling, cable integrity, pressure bag inflation, waveform scale, transducer position and line security prevent false clinical conclusions."
+        }
+      ]
+    },
+    "targets": {
+      "title": "Targets and Numbers",
+      "content": [
+        {
+          "type": "targetTable",
+          "columns": [
+            "Clinical marker",
+            "Target/threshold",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "Urine output",
+              ">0.5 mL/kg/hr",
+              "Low output is an early sign of inadequate renal perfusion or congestion."
+            ],
+            [
+              "Lactate",
+              "<2 mmol/L or falling trend",
+              "Rising lactate suggests oxygen debt, low output, sepsis, bleeding or impaired clearance."
+            ],
+            [
+              "MAP",
+              "Usually 65-80 mmHg, higher if ordered",
+              "Pressure target must match perfusion and surgical context."
+            ],
+            [
+              "SvO2",
+              "Usually 60-80%",
+              "Low suggests inadequate oxygen delivery or high consumption; high can be sepsis/shunting or impaired extraction."
+            ],
+            [
+              "Chest drains",
+              "Concern often >100-150 mL/hr early or sudden increase; local surgical thresholds vary",
+              "High output suggests bleeding; sudden low output with shock may suggest blockage/tamponade."
+            ],
+            [
+              "Capillary refill",
+              "Usually <2-3 sec",
+              "Delayed refill suggests poor peripheral perfusion, vasoconstriction or shock."
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "A post-CABG patient has MAP 72 on high-dose noradrenaline, cool mottled legs, urine 5 mL/hr and lactate rising. What should you do with the 'normal' MAP?",
+      "options": [
+        "Accept it as reassuring",
+        "Treat it as incomplete because perfusion markers suggest shock",
+        "Ignore lactate until morning",
+        "Turn off arterial alarms"
+      ],
+      "answer": 1,
+      "explanation": "MAP alone is not flow. High SVR/pressor can preserve pressure while cardiac output and tissue perfusion are poor."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "Which is the safest response to a surprising haemodynamic number?",
+      "options": [
+        "Act immediately on the number alone",
+        "Check the patient, waveform, setup and independent markers",
+        "Ignore all invasive monitoring",
+        "Only use cuff BP"
+      ],
+      "answer": 1,
+      "explanation": "Safe practice matches the number to clinical perfusion and verifies technical setup."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "Quiet chest drains in a hypotensive post-cardiac surgery patient should be interpreted how?",
+      "options": [
+        "Always reassuring",
+        "Possible blocked drains/tamponade if shock signs are present",
+        "Proof there is no bleeding",
+        "Only a documentation issue"
+      ],
+      "answer": 1,
+      "explanation": "Blood may clot in the mediastinum or drains may block, so low output does not exclude tamponade."
+    }
+  ]
+}
