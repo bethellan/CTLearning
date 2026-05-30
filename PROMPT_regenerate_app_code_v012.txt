@@ -1,0 +1,41 @@
+You are regenerating the CT-ICU Learning App code.
+
+Use the uploaded GitHub repository as the source of truth. Create a GitHub Pages-ready ZIP.
+
+Code requirements:
+1. Keep a single app entry file named index.html at repository root.
+2. Also save the versioned build under /versions/ as CT-ICU-Learning-App_v012_external_content_integrated.html.
+3. Load all external domains using manifests:
+   content/domain1/index.json
+   content/domain2/index.json
+   content/domain3/index.json
+   ... up to content/domain8/index.json when present.
+4. Do not hardcode topic filenames in index.html.
+5. The app must tolerate missing domain manifests. If content/domain4/index.json is absent, use the built-in placeholder/hardcoded domain or show a graceful "not yet loaded" card.
+6. The app must tolerate missing individual topic JSON files. It should load the rest and show a warning listing missing files.
+7. GitHub Pages paths are case-sensitive. Error messages must show the exact path attempted.
+8. Search must index all loaded external topic JSON content, not only static built-in content.
+9. Quiz Mode must merge all external topic quiz arrays into the quiz pool.
+10. Dashboard progress must count topic-section completion, not only five domain-level sections. Example: Domain 1 with 9 topics x 5 sections = 45 reviewable sections.
+11. Sidebar badges must reflect topic-section progress.
+12. Mark as Reviewed must persist using localStorage with key:
+    domain:<domainNumber>:<topicFile>:<sectionKey>
+13. The app must render block-based JSON:
+    paragraph, heading, subheading, keyterm, pearl, warning, remember, escalation, steps, table, targetTable, diagram.
+14. The app must still sanitise legacy HTML strings safely, but the preferred rendering path is block-based JSON.
+15. Diagram blocks should render as styled teaching diagram cards. Use CSS-only diagrams/icons where possible:
+    - waveform line placeholders
+    - pressure-volume loop placeholders
+    - flowchart boxes/arrows
+    - rhythm strip placeholder
+    - algorithm pathway boxes
+16. Mobile layout must remain functional on iPhone.
+17. No external dependencies.
+18. Include .nojekyll.
+19. Do not overwrite old version files. Keep previous /versions/ files and add the new version.
+
+After regenerating:
+- Run JSON validation on all content/**/*.json.
+- Run JavaScript syntax validation on index.html script.
+- Confirm no visible literal <h3>, <p>, or markdown code fence artifacts appear from JSON text.
+- Create a GitHub-ready ZIP with index.html, .nojekyll, README.md, content/, versions/, AUDIT file, and prompts.

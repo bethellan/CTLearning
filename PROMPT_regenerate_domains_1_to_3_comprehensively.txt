@@ -1,0 +1,144 @@
+You are updating my CT-ICU Learning App content repository.
+
+Use the uploaded repository as the source of truth for filenames and app structure.
+
+Goal:
+Regenerate or expand Domains 1, 2 and 3 into comprehensive, source-supported, block-based JSON files suitable for a senior ICU nurse moving into cardiothoracic ICU/HDU.
+
+Non-negotiable requirements:
+1. Do not summarise, compress, or abridge.
+2. Preserve all useful teaching content already present in the existing JSON files.
+3. Replace any thin section with a complete senior-level module.
+4. Use real-world, reputable sources where the existing content is lacking.
+5. Include diagrams and illustrations as JSON-friendly metadata blocks, not external image files unless explicitly provided.
+6. Do not insert HTML tags inside JSON text fields.
+7. Do not use markdown headings, markdown tables, code fences, or escaped HTML.
+8. Output valid JSON files only.
+
+Source requirements:
+Use current and reputable clinical sources:
+- AHA CPR/ECC adult ALS algorithms and peri-arrest guidance.
+- ESC acute coronary syndrome guidelines.
+- LITFL ECG Library for rhythm/ECG recognition.
+- NCBI Bookshelf / StatPearls only as secondary support when consistent with ICU practice.
+- Peer-reviewed cardiac surgery / cardiothoracic ICU reviews where available.
+- Standard haemodynamic monitoring references for arterial lines, CVP, PA catheter, thermodilution, SVR/PVR and oxygen delivery.
+
+Each topic file must use this structure exactly:
+
+{
+  "id": "unique_topic_id",
+  "domain": 1,
+  "domainTitle": "Domain Title Here",
+  "title": "Topic Title Here",
+  "file": "exact_filename_here.json",
+  "sections": {
+    "abridged": {
+      "title": "Abridged Snapshot",
+      "content": []
+    },
+    "expanded": {
+      "title": "Expanded Deep-Dive",
+      "content": []
+    },
+    "pearls": {
+      "title": "Clinical Pearls",
+      "content": []
+    },
+    "equipment": {
+      "title": "Equipment Tie-In",
+      "content": []
+    },
+    "targets": {
+      "title": "Targets and Numbers",
+      "content": []
+    }
+  },
+  "quiz": [],
+  "diagrams": [],
+  "references": []
+}
+
+Allowed content block types:
+- paragraph
+- heading
+- subheading
+- keyterm
+- pearl
+- warning
+- remember
+- escalation
+- steps
+- table
+- targetTable
+- diagram
+
+Use this diagram block format inside section content where useful:
+{
+  "type": "diagram",
+  "title": "Diagram title",
+  "description": "What the diagram should show and why it matters clinically.",
+  "layout": "flowchart | waveform | pressure-volume-loop | anatomy | rhythm-strip | algorithm | comparison",
+  "elements": [
+    "Element 1",
+    "Element 2",
+    "Element 3"
+  ],
+  "teachingPoints": [
+    "Point 1",
+    "Point 2"
+  ]
+}
+
+Also include the same diagram in the top-level "diagrams" array if it is central to the topic.
+
+Depth targets:
+- Abridged Snapshot: minimum 600 words or equivalent structured content.
+- Expanded Deep-Dive: minimum 1,500 words.
+- Clinical Pearls: minimum 700 words.
+- Equipment Tie-In: minimum 700 words.
+- Targets and Numbers: minimum 700 words and must include numeric tables.
+- Quiz: at least 6 questions per topic: 2 Bedside Basics, 2 Clinical Reasoning, 2 Expert Level.
+- References: at least 4 reputable references per topic, with source name, title, URL, and what it supports.
+
+Style:
+- Cardiothoracic ICU framing throughout.
+- Mechanism → clinical appearance → nursing action → escalation.
+- Real numbers and units.
+- Separate post-CABG, post-valve/TAVI, aortic surgery, RV failure, vasoplegia, tamponade and cardiogenic shock implications where relevant.
+- Avoid vague terms such as "monitor closely" unless followed by exact parameters and thresholds.
+- Do not say "follow local protocol" as the main answer. Give evidence-based standards first, then note local variation.
+
+Domain 1 files currently present:
+content/domain1/overview.json
+content/domain1/cardiac_cycle.json
+content/domain1/cardiac_output_and_determinants.json
+content/domain1/preload_lvedp_and_cvp.json
+content/domain1/afterload_svr_and_pvr.json
+content/domain1/contractility_and_inotropy.json
+content/domain1/frank_starling_mechanism.json
+content/domain1/oxygen_delivery_and_consumption.json
+content/domain1/mixed_venous_saturations.json
+
+Domain 2 files currently present:
+content/domain2/arterial_line_waveform_interpretation.json
+content/domain2/arterial_line_damping_zeroing_and_levelling.json
+content/domain2/cvp_waveform_interpretation.json
+content/domain2/pulmonary_artery_catheter_basics.json
+content/domain2/thermodilution_cardiac_output.json
+content/domain2/derived_haemodynamic_parameters.json
+content/domain2/trusting_numbers_vs_clinical_picture.json
+
+Domain 3 files currently present:
+content/domain3/stemi_nstemi_pathophysiology_management.json
+content/domain3/sinus_bradycardia_and_tachycardia.json
+content/domain3/new_onset_postoperative_atrial_fibrillation.json
+content/domain3/supraventricular_tachycardia.json
+content/domain3/ventricular_tachycardia_and_ventricular_fibrillation.json
+content/domain3/atrioventricular_blocks.json
+content/domain3/junctional_and_paced_rhythms.json
+content/domain3/cardiac_tamponade.json
+content/domain3/low_cardiac_output_syndrome.json
+content/domain3/post_mi_complications_and_nursing_priorities.json
+
+Generate one file at a time unless specifically asked to generate a ZIP. After regenerating all files in a domain, regenerate that domain's index.json manifest using exact filenames present in the folder.

@@ -7,202 +7,23 @@
   "sections": {
     "abridged": {
       "title": "Abridged Snapshot",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Bedside purpose"
-        },
-        {
-          "type": "paragraph",
-          "text": "A pulmonary artery catheter gives direct right-sided and pulmonary artery pressure data and allows cardiac output measurement. In CT-ICU it helps separate LV failure, RV failure, pulmonary hypertension, tamponade, vasoplegia and hypovolaemia when the clinical picture is complex."
-        },
-        {
-          "type": "keyterm",
-          "term": "PAOP / wedge pressure",
-          "definition": "Pressure measured when the balloon occludes a small pulmonary artery branch. It estimates downstream left atrial pressure and may approximate LVEDP when conditions are suitable."
-        },
-        {
-          "type": "targetTable",
-          "columns": [
-            "Catheter location",
-            "Typical waveform/pressure",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "Right atrium",
-              "Low pressure CVP waveform, usually 2-8 mmHg",
-              "Venous/right atrial pressure."
-            ],
-            [
-              "Right ventricle",
-              "Systolic 15-30 mmHg, diastolic 0-8 mmHg",
-              "RV pressure; no dicrotic notch."
-            ],
-            [
-              "Pulmonary artery",
-              "Systolic 15-30, diastolic 8-15 mmHg, mean 10-20 mmHg",
-              "PA pressure with dicrotic notch."
-            ],
-            [
-              "Wedge/PAOP",
-              "Usually 6-12 mmHg",
-              "Estimated LA pressure/LV filling pressure if valid."
-            ]
-          ]
-        },
-        {
-          "type": "warning",
-          "text": "Never leave a PA catheter wedged. Prolonged balloon inflation can cause pulmonary infarction or PA rupture."
-        }
-      ]
+      "content": "<h3>Bedside purpose</h3>\n<p>A pulmonary artery catheter gives direct right-sided and pulmonary artery pressure data and allows cardiac output measurement. In CT-ICU it helps separate LV failure, RV failure, pulmonary hypertension, tamponade, vasoplegia and hypovolaemia when the clinical picture is complex.</p>\n<p><strong>PAOP / wedge pressure</strong> — Pressure measured when the balloon occludes a small pulmonary artery branch. It estimates downstream left atrial pressure and may approximate LVEDP when conditions are suitable.</p>\n<table><thead><tr>\n<th>Catheter location</th>\n<th>Typical waveform/pressure</th>\n<th>Meaning</th>\n</tr></thead><tbody>\n<tr>\n<td>Right atrium</td>\n<td>Low pressure CVP waveform, usually 2-8 mmHg</td>\n<td>Venous/right atrial pressure.</td>\n</tr>\n<tr>\n<td>Right ventricle</td>\n<td>Systolic 15-30 mmHg, diastolic 0-8 mmHg</td>\n<td>RV pressure; no dicrotic notch.</td>\n</tr>\n<tr>\n<td>Pulmonary artery</td>\n<td>Systolic 15-30, diastolic 8-15 mmHg, mean 10-20 mmHg</td>\n<td>PA pressure with dicrotic notch.</td>\n</tr>\n<tr>\n<td>Wedge/PAOP</td>\n<td>Usually 6-12 mmHg</td>\n<td>Estimated LA pressure/LV filling pressure if valid.</td>\n</tr>\n</tbody></table>\n<div class=\"warning\"><p>Never leave a PA catheter wedged. Prolonged balloon inflation can cause pulmonary infarction or PA rupture.</p></div>"
     },
     "expanded": {
       "title": "Expanded Deep-Dive",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Path and measurements"
-        },
-        {
-          "type": "paragraph",
-          "text": "A Swan-Ganz catheter is inserted through a large central vein, commonly internal jugular or subclavian, then advanced through the right atrium, right ventricle, pulmonary artery and into a smaller PA branch for wedge measurement. The distal lumen measures pressure at the catheter tip. The balloon assists flotation with blood flow and allows temporary occlusion for wedge pressure."
-        },
-        {
-          "type": "paragraph",
-          "text": "The waveform changes as the catheter advances. RA waveform resembles CVP with a and v waves. RV waveform has a sharp systolic rise and low diastolic pressure. PA waveform has similar systolic pressure but higher diastolic pressure and a dicrotic notch from pulmonary valve closure. Wedge waveform is lower amplitude and resembles left atrial pressure."
-        },
-        {
-          "type": "subheading",
-          "text": "When wedge approximates LVEDP"
-        },
-        {
-          "type": "paragraph",
-          "text": "PAOP approximates LVEDP when there is an uninterrupted fluid column from wedged PA branch through pulmonary veins and left atrium to the LV, and when mitral valve/pulmonary venous conditions are normal. It is most useful for estimating left-sided filling pressure in LV failure and guiding fluid versus inotrope/vasodilator decisions."
-        },
-        {
-          "type": "subheading",
-          "text": "When wedge does not approximate LVEDP"
-        },
-        {
-          "type": "paragraph",
-          "text": "PAOP may be misleading in mitral stenosis, severe mitral regurgitation, high PEEP, pulmonary venous obstruction, severe pulmonary hypertension, non-zone-3 catheter position, tachyarrhythmia, large V waves, LV compliance problems and catheter overwedging. After mitral valve surgery, wedge interpretation requires extra caution because LA/mitral physiology has just been altered."
-        },
-        {
-          "type": "subheading",
-          "text": "Balloon inflation safety"
-        },
-        {
-          "type": "paragraph",
-          "text": "The balloon is inflated only with the prescribed volume, commonly up to 1.5 mL of air, and only long enough to obtain a wedge waveform. If wedge occurs with less than full volume, stop inflating. If the waveform overwedges or the patient coughs, deteriorates or bleeds, deflate immediately and escalate."
-        },
-        {
-          "type": "subheading",
-          "text": "Complications"
-        },
-        {
-          "type": "paragraph",
-          "text": "Insertion can cause ventricular ectopy, VT, bundle branch block, knotting or catheter malposition. Ongoing risks include infection, thrombosis, PA rupture, pulmonary infarction, valve injury and inaccurate data. PA rupture is rare but catastrophic, associated with pulmonary hypertension, anticoagulation, hypothermia, older age and repeated/prolonged wedge attempts."
-        },
-        {
-          "type": "steps",
-          "items": [
-            "Confirm waveform, insertion depth and ordered parameters at handover.",
-            "Check that balloon is deflated except during an intentional wedge measurement.",
-            "Use the smallest balloon volume that achieves wedge and never exceed the catheter recommendation.",
-            "Record PA systolic/diastolic/mean, CVP, PAOP if measured, cardiac output/index and clinical context.",
-            "Escalate inability to wedge, spontaneous wedge waveform, blood from airway, sudden hypoxia, haemodynamic collapse, sustained arrhythmia or waveform migration."
-          ]
-        }
-      ]
+      "content": "<h3>Path and measurements</h3>\n<p>A Swan-Ganz catheter is inserted through a large central vein, commonly internal jugular or subclavian, then advanced through the right atrium, right ventricle, pulmonary artery and into a smaller PA branch for wedge measurement. The distal lumen measures pressure at the catheter tip. The balloon assists flotation with blood flow and allows temporary occlusion for wedge pressure.</p>\n<p>The waveform changes as the catheter advances. RA waveform resembles CVP with a and v waves. RV waveform has a sharp systolic rise and low diastolic pressure. PA waveform has similar systolic pressure but higher diastolic pressure and a dicrotic notch from pulmonary valve closure. Wedge waveform is lower amplitude and resembles left atrial pressure.</p>\n<h4>When wedge approximates LVEDP</h4>\n<p>PAOP approximates LVEDP when there is an uninterrupted fluid column from wedged PA branch through pulmonary veins and left atrium to the LV, and when mitral valve/pulmonary venous conditions are normal. It is most useful for estimating left-sided filling pressure in LV failure and guiding fluid versus inotrope/vasodilator decisions.</p>\n<h4>When wedge does not approximate LVEDP</h4>\n<p>PAOP may be misleading in mitral stenosis, severe mitral regurgitation, high PEEP, pulmonary venous obstruction, severe pulmonary hypertension, non-zone-3 catheter position, tachyarrhythmia, large V waves, LV compliance problems and catheter overwedging. After mitral valve surgery, wedge interpretation requires extra caution because LA/mitral physiology has just been altered.</p>\n<h4>Balloon inflation safety</h4>\n<p>The balloon is inflated only with the prescribed volume, commonly up to 1.5 mL of air, and only long enough to obtain a wedge waveform. If wedge occurs with less than full volume, stop inflating. If the waveform overwedges or the patient coughs, deteriorates or bleeds, deflate immediately and escalate.</p>\n<h4>Complications</h4>\n<p>Insertion can cause ventricular ectopy, VT, bundle branch block, knotting or catheter malposition. Ongoing risks include infection, thrombosis, PA rupture, pulmonary infarction, valve injury and inaccurate data. PA rupture is rare but catastrophic, associated with pulmonary hypertension, anticoagulation, hypothermia, older age and repeated/prolonged wedge attempts.</p>"
     },
     "pearls": {
       "title": "Clinical Pearls",
-      "content": [
-        {
-          "type": "pearl",
-          "text": "A spontaneous wedge waveform means the catheter may have migrated distally. This is dangerous because the vessel can be occluded without balloon inflation."
-        },
-        {
-          "type": "pearl",
-          "text": "PA diastolic pressure can sometimes trend with wedge, but this relationship fails in pulmonary hypertension and high PVR."
-        },
-        {
-          "type": "pearl",
-          "text": "During insertion, frequent PVCs often mean the catheter is irritating the RV. Sustained VT is an emergency."
-        },
-        {
-          "type": "warning",
-          "text": "Blood in the endotracheal tube with a PA catheter in place is PA rupture until proven otherwise. Deflate balloon, call for immediate senior help, isolate/protect airway as directed and prepare for major deterioration."
-        }
-      ]
+      "content": "<div class=\"pearl\"><p>A spontaneous wedge waveform means the catheter may have migrated distally. This is dangerous because the vessel can be occluded without balloon inflation.</p></div>\n<div class=\"pearl\"><p>PA diastolic pressure can sometimes trend with wedge, but this relationship fails in pulmonary hypertension and high PVR.</p></div>\n<div class=\"pearl\"><p>During insertion, frequent PVCs often mean the catheter is irritating the RV. Sustained VT is an emergency.</p></div>\n<div class=\"warning\"><p>Blood in the endotracheal tube with a PA catheter in place is PA rupture until proven otherwise. Deflate balloon, call for immediate senior help, isolate/protect airway as directed and prepare for major deterioration.</p></div>"
     },
     "equipment": {
       "title": "Equipment Tie-In",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Equipment and setup"
-        },
-        {
-          "type": "paragraph",
-          "text": "The PA catheter usually has multiple lumens: distal PA lumen, proximal RA/CVP lumen, balloon inflation port and thermistor connector. Some catheters include continuous cardiac output or mixed venous oxygen saturation capability. Correct monitor labelling matters because confusing distal PA with proximal CVP produces unsafe interpretation."
-        },
-        {
-          "type": "steps",
-          "items": [
-            "Level all pressure transducers at the phlebostatic axis.",
-            "Zero each pressure channel separately: arterial, CVP/proximal, PA/distal and any additional pressure modules.",
-            "Check waveform labels and scales so RA, RV, PA and wedge waveforms are recognisable.",
-            "Keep the balloon syringe locked/controlled according to unit practice and ensure balloon volume limit is visible.",
-            "At shift checks, confirm insertion depth, waveform, balloon deflated status, dressing, line security and alarm limits."
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "PA alarms should reflect patient condition. A post-op pulmonary hypertension/RV failure patient needs meaningful PA pressure alarms, while a stable patient may need broader limits. Alarm fatigue is dangerous, but disabled alarms are worse."
-        }
-      ]
+      "content": "<h3>Equipment and setup</h3>\n<p>The PA catheter usually has multiple lumens: distal PA lumen, proximal RA/CVP lumen, balloon inflation port and thermistor connector. Some catheters include continuous cardiac output or mixed venous oxygen saturation capability. Correct monitor labelling matters because confusing distal PA with proximal CVP produces unsafe interpretation.</p>\n<p>PA alarms should reflect patient condition. A post-op pulmonary hypertension/RV failure patient needs meaningful PA pressure alarms, while a stable patient may need broader limits. Alarm fatigue is dangerous, but disabled alarms are worse.</p>"
     },
     "targets": {
       "title": "Targets and Numbers",
-      "content": [
-        {
-          "type": "targetTable",
-          "columns": [
-            "Parameter",
-            "Typical adult range",
-            "CT-ICU interpretation"
-          ],
-          "rows": [
-            [
-              "RA/CVP",
-              "2-8 mmHg; ventilated CT-ICU often 5-12 mmHg",
-              "High with hypotension suggests RV failure/tamponade/pressure effects; low may suggest hypovolaemia or vasodilation."
-            ],
-            [
-              "RV pressure",
-              "15-30/0-8 mmHg",
-              "High systolic suggests pulmonary hypertension/RV afterload. RV waveform at distal PA port suggests catheter has withdrawn."
-            ],
-            [
-              "PA pressure",
-              "15-30/8-15 mmHg, mean 10-20 mmHg",
-              "High PA pressures increase RV workload and affect weaning, ventilation and inotrope/vasodilator strategy."
-            ],
-            [
-              "PAOP/wedge",
-              "6-12 mmHg",
-              "High suggests left-sided filling pressure/pulmonary congestion if valid; low suggests low preload if waveform and zone are valid."
-            ],
-            [
-              "Balloon volume",
-              "Usually maximum 1.5 mL air; use catheter-specific limit",
-              "Use minimum volume to wedge; never leave inflated."
-            ]
-          ]
-        }
-      ]
+      "content": "<table><thead><tr>\n<th>Parameter</th>\n<th>Typical adult range</th>\n<th>CT-ICU interpretation</th>\n</tr></thead><tbody>\n<tr>\n<td>RA/CVP</td>\n<td>2-8 mmHg; ventilated CT-ICU often 5-12 mmHg</td>\n<td>High with hypotension suggests RV failure/tamponade/pressure effects; low may suggest hypovolaemia or vasodilation.</td>\n</tr>\n<tr>\n<td>RV pressure</td>\n<td>15-30/0-8 mmHg</td>\n<td>High systolic suggests pulmonary hypertension/RV afterload. RV waveform at distal PA port suggests catheter has withdrawn.</td>\n</tr>\n<tr>\n<td>PA pressure</td>\n<td>15-30/8-15 mmHg, mean 10-20 mmHg</td>\n<td>High PA pressures increase RV workload and affect weaning, ventilation and inotrope/vasodilator strategy.</td>\n</tr>\n<tr>\n<td>PAOP/wedge</td>\n<td>6-12 mmHg</td>\n<td>High suggests left-sided filling pressure/pulmonary congestion if valid; low suggests low preload if waveform and zone are valid.</td>\n</tr>\n<tr>\n<td>Balloon volume</td>\n<td>Usually maximum 1.5 mL air; use catheter-specific limit</td>\n<td>Use minimum volume to wedge; never leave inflated.</td>\n</tr>\n</tbody></table>"
     }
   },
   "quiz": [

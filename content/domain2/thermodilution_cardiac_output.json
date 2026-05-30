@@ -7,195 +7,23 @@
   "sections": {
     "abridged": {
       "title": "Abridged Snapshot",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Bedside purpose"
-        },
-        {
-          "type": "paragraph",
-          "text": "Thermodilution cardiac output estimates forward flow through the right heart by injecting a known volume of cooler fluid into the proximal port of a PA catheter and detecting temperature change downstream at the thermistor. In CT-ICU it helps separate low cardiac output from vasoplegia and guides inotrope, vasopressor, volume and mechanical support decisions."
-        },
-        {
-          "type": "keyterm",
-          "term": "Indicator dilution",
-          "definition": "A measurement method where a known indicator is injected and its downstream concentration/time curve is used to calculate flow."
-        },
-        {
-          "type": "keyterm",
-          "term": "Thermodilution curve",
-          "definition": "The temperature change over time after cold injectate. A larger and prolonged temperature change generally indicates lower cardiac output; a smaller rapid change indicates higher output."
-        },
-        {
-          "type": "targetTable",
-          "columns": [
-            "Reading issue",
-            "Effect",
-            "Action"
-          ],
-          "rows": [
-            [
-              "Slow/irregular injection",
-              "Distorts curve and reduces reliability.",
-              "Inject smoothly and consistently, usually within about 4 seconds."
-            ],
-            [
-              "Tricuspid regurgitation",
-              "Indicator recirculates in right heart and may underestimate or distort output.",
-              "Interpret with echo and trends, not isolated numbers."
-            ],
-            [
-              "Intracardiac shunt",
-              "Indicator takes abnormal path.",
-              "Values may be invalid; escalate interpretation to medical team."
-            ],
-            [
-              "Large respiratory variation",
-              "Readings vary across ventilator cycle.",
-              "Average 3 valid readings with <10% variation where possible."
-            ]
-          ]
-        }
-      ]
+      "content": "<h3>Bedside purpose</h3>\n<p>Thermodilution cardiac output estimates forward flow through the right heart by injecting a known volume of cooler fluid into the proximal port of a PA catheter and detecting temperature change downstream at the thermistor. In CT-ICU it helps separate low cardiac output from vasoplegia and guides inotrope, vasopressor, volume and mechanical support decisions.</p>\n<p><strong>Indicator dilution</strong> — A measurement method where a known indicator is injected and its downstream concentration/time curve is used to calculate flow.</p>\n<p><strong>Thermodilution curve</strong> — The temperature change over time after cold injectate. A larger and prolonged temperature change generally indicates lower cardiac output; a smaller rapid change indicates higher output.</p>\n<table><thead><tr>\n<th>Reading issue</th>\n<th>Effect</th>\n<th>Action</th>\n</tr></thead><tbody>\n<tr>\n<td>Slow/irregular injection</td>\n<td>Distorts curve and reduces reliability.</td>\n<td>Inject smoothly and consistently, usually within about 4 seconds.</td>\n</tr>\n<tr>\n<td>Tricuspid regurgitation</td>\n<td>Indicator recirculates in right heart and may underestimate or distort output.</td>\n<td>Interpret with echo and trends, not isolated numbers.</td>\n</tr>\n<tr>\n<td>Intracardiac shunt</td>\n<td>Indicator takes abnormal path.</td>\n<td>Values may be invalid; escalate interpretation to medical team.</td>\n</tr>\n<tr>\n<td>Large respiratory variation</td>\n<td>Readings vary across ventilator cycle.</td>\n<td>Average 3 valid readings with <10% variation where possible.</td>\n</tr>\n</tbody></table>"
     },
     "expanded": {
       "title": "Expanded Deep-Dive",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Mechanism"
-        },
-        {
-          "type": "paragraph",
-          "text": "A bolus of cooler fluid is injected into the proximal catheter port in the right atrium. It mixes with blood and passes through the right ventricle into the pulmonary artery. The thermistor near the catheter tip detects the change in blood temperature. The monitor uses the area under the temperature-time curve to calculate cardiac output."
-        },
-        {
-          "type": "paragraph",
-          "text": "If cardiac output is high, the cold indicator is rapidly carried past the thermistor and diluted, creating a smaller, shorter curve. If cardiac output is low, the indicator passes more slowly and creates a larger, prolonged curve. This is why low-output states after cardiac surgery often produce broad curves."
-        },
-        {
-          "type": "subheading",
-          "text": "Technique"
-        },
-        {
-          "type": "paragraph",
-          "text": "Reliable technique matters. Injectate volume is commonly 10 mL in adults, although catheter/monitor protocols vary. The injectate may be room temperature or iced depending on system. The key is consistency: same volume, same temperature method, smooth injection speed, correct port and timing. Many units average three readings that agree within about 10%."
-        },
-        {
-          "type": "subheading",
-          "text": "Sources of error"
-        },
-        {
-          "type": "paragraph",
-          "text": "Tricuspid regurgitation can make injectate swirl backward and forward in the right heart, prolonging the curve and distorting output. Intracardiac shunts alter indicator path. Incorrect injectate volume, wrong temperature entry, slow injection, injection through the wrong lumen, catheter malposition, arrhythmia, rapid fluid temperature changes, fever, hypothermia and respiratory variation all affect accuracy."
-        },
-        {
-          "type": "subheading",
-          "text": "Continuous cardiac output"
-        },
-        {
-          "type": "paragraph",
-          "text": "Continuous systems use a thermal filament to generate small heat signals and calculate output repeatedly. They are useful for trends but can lag behind abrupt changes. In a patient who suddenly bleeds or tamponades, the arterial waveform, CVP, rhythm, drains and echo may show deterioration before continuous CO fully reflects it."
-        },
-        {
-          "type": "steps",
-          "items": [
-            "Confirm catheter type, monitor setup and injectate method.",
-            "Ensure patient is not being moved, suctioned or undergoing major ventilator changes during measurement if possible.",
-            "Inject the specified volume smoothly through the correct proximal port.",
-            "Obtain at least three technically valid readings and average those within about 10% variation.",
-            "Document CO, CI, rhythm, vasoactive support, ventilator state and relevant events."
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Trends are safer than isolated values. A CI falling from 2.6 to 1.8 L/min/m² with rising lactate and oliguria is important even if a single value might be questioned. Conversely, one unexpected low reading in a warm patient with good urine output should prompt repeat measurement and equipment check before major treatment change."
-        }
-      ]
+      "content": "<h3>Mechanism</h3>\n<p>A bolus of cooler fluid is injected into the proximal catheter port in the right atrium. It mixes with blood and passes through the right ventricle into the pulmonary artery. The thermistor near the catheter tip detects the change in blood temperature. The monitor uses the area under the temperature-time curve to calculate cardiac output.</p>\n<p>If cardiac output is high, the cold indicator is rapidly carried past the thermistor and diluted, creating a smaller, shorter curve. If cardiac output is low, the indicator passes more slowly and creates a larger, prolonged curve. This is why low-output states after cardiac surgery often produce broad curves.</p>\n<h4>Technique</h4>\n<p>Reliable technique matters. Injectate volume is commonly 10 mL in adults, although catheter/monitor protocols vary. The injectate may be room temperature or iced depending on system. The key is consistency: same volume, same temperature method, smooth injection speed, correct port and timing. Many units average three readings that agree within about 10%.</p>\n<h4>Sources of error</h4>\n<p>Tricuspid regurgitation can make injectate swirl backward and forward in the right heart, prolonging the curve and distorting output. Intracardiac shunts alter indicator path. Incorrect injectate volume, wrong temperature entry, slow injection, injection through the wrong lumen, catheter malposition, arrhythmia, rapid fluid temperature changes, fever, hypothermia and respiratory variation all affect accuracy.</p>\n<h4>Continuous cardiac output</h4>\n<p>Continuous systems use a thermal filament to generate small heat signals and calculate output repeatedly. They are useful for trends but can lag behind abrupt changes. In a patient who suddenly bleeds or tamponades, the arterial waveform, CVP, rhythm, drains and echo may show deterioration before continuous CO fully reflects it.</p>\n<p>Trends are safer than isolated values. A CI falling from 2.6 to 1.8 L/min/m² with rising lactate and oliguria is important even if a single value might be questioned. Conversely, one unexpected low reading in a warm patient with good urine output should prompt repeat measurement and equipment check before major treatment change.</p>"
     },
     "pearls": {
       "title": "Clinical Pearls",
-      "content": [
-        {
-          "type": "pearl",
-          "text": "Do not compare thermodilution values unless technique is consistent. Changing injectate volume, temperature or speed changes the measurement."
-        },
-        {
-          "type": "pearl",
-          "text": "In severe tricuspid regurgitation, thermodilution may look worse than forward systemic flow or may be inconsistent. Echo and clinical perfusion become more important."
-        },
-        {
-          "type": "pearl",
-          "text": "Continuous cardiac output is not truly instantaneous. Treat sudden collapse clinically while confirming numbers."
-        },
-        {
-          "type": "warning",
-          "text": "A cardiac output value without body size is incomplete. Cardiac index is usually the more useful CT-ICU number because it adjusts output to body surface area."
-        }
-      ]
+      "content": "<div class=\"pearl\"><p>Do not compare thermodilution values unless technique is consistent. Changing injectate volume, temperature or speed changes the measurement.</p></div>\n<div class=\"pearl\"><p>In severe tricuspid regurgitation, thermodilution may look worse than forward systemic flow or may be inconsistent. Echo and clinical perfusion become more important.</p></div>\n<div class=\"pearl\"><p>Continuous cardiac output is not truly instantaneous. Treat sudden collapse clinically while confirming numbers.</p></div>\n<div class=\"warning\"><p>A cardiac output value without body size is incomplete. Cardiac index is usually the more useful CT-ICU number because it adjusts output to body surface area.</p></div>"
     },
     "equipment": {
       "title": "Equipment Tie-In",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Equipment tie-in"
-        },
-        {
-          "type": "steps",
-          "items": [
-            "Check the PA catheter thermistor cable is connected to the correct monitor module.",
-            "Check injectate port and avoid using a lumen with infusions running during bolus measurement unless the system is designed for it.",
-            "Verify the monitor is set to the correct injectate volume and temperature mode.",
-            "Discard readings with obvious curve artefact, ectopy, interruption or wrong technique.",
-            "If values are unexpected, repeat measurement and compare with arterial waveform, lactate, SvO2/ScvO2, urine output and echo."
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "For nurse-technician support, check cables, modules, injectate setup, pressure channels and labels. A disconnected thermistor or wrong injectate setting can make the clinical team chase a false haemodynamic problem."
-        }
-      ]
+      "content": "<h3>Equipment tie-in</h3>\n<p>For nurse-technician support, check cables, modules, injectate setup, pressure channels and labels. A disconnected thermistor or wrong injectate setting can make the clinical team chase a false haemodynamic problem.</p>"
     },
     "targets": {
       "title": "Targets and Numbers",
-      "content": [
-        {
-          "type": "targetTable",
-          "columns": [
-            "Parameter",
-            "Typical target/range",
-            "Interpretation"
-          ],
-          "rows": [
-            [
-              "Cardiac output",
-              "4-8 L/min in many adults",
-              "Depends on body size; use cardiac index for decisions."
-            ],
-            [
-              "Cardiac index",
-              "2.5-4.0 L/min/m²",
-              "CI <2.2 with hypoperfusion suggests low cardiac output syndrome."
-            ],
-            [
-              "Acceptable repeated bolus variation",
-              "Ideally <10% between valid readings",
-              "Greater variation suggests technique, rhythm, respiration or catheter issue."
-            ],
-            [
-              "Injectate volume",
-              "Often 10 mL in adults",
-              "Use system/unit-specific setting; monitor must match actual volume."
-            ],
-            [
-              "Low-output concern",
-              "CI <2.0-2.2 plus lactate rise, oliguria or cool peripheries",
-              "Escalate for inotrope/volume/echo/mechanical support assessment."
-            ]
-          ]
-        }
-      ]
+      "content": "<table><thead><tr>\n<th>Parameter</th>\n<th>Typical target/range</th>\n<th>Interpretation</th>\n</tr></thead><tbody>\n<tr>\n<td>Cardiac output</td>\n<td>4-8 L/min in many adults</td>\n<td>Depends on body size; use cardiac index for decisions.</td>\n</tr>\n<tr>\n<td>Cardiac index</td>\n<td>2.5-4.0 L/min/m²</td>\n<td>CI <2.2 with hypoperfusion suggests low cardiac output syndrome.</td>\n</tr>\n<tr>\n<td>Acceptable repeated bolus variation</td>\n<td>Ideally <10% between valid readings</td>\n<td>Greater variation suggests technique, rhythm, respiration or catheter issue.</td>\n</tr>\n<tr>\n<td>Injectate volume</td>\n<td>Often 10 mL in adults</td>\n<td>Use system/unit-specific setting; monitor must match actual volume.</td>\n</tr>\n<tr>\n<td>Low-output concern</td>\n<td>CI <2.0-2.2 plus lactate rise, oliguria or cool peripheries</td>\n<td>Escalate for inotrope/volume/echo/mechanical support assessment.</td>\n</tr>\n</tbody></table>"
     }
   },
   "quiz": [
