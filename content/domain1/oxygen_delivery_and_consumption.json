@@ -1,108 +1,901 @@
 {
   "id": "oxygen-delivery-and-consumption",
-  "domain": "domain1",
-  "domainName": "Physiology Foundations",
-  "domainColour": "#0B5FFF",
+  "domain": 1,
+  "domainTitle": "Physiology Foundations",
   "title": "Oxygen Delivery and Consumption: DO2 and VO2",
+  "file": "oxygen_delivery_and_consumption.json",
   "sections": {
     "abridged": {
-      "content": "<h3>Oxygen delivery and consumption - the purpose of haemodynamics</h3>\n<p><strong>Oxygen delivery (DO₂)</strong> is oxygen delivered to tissues each minute. <strong>DO₂ = CO × CaO₂ × 10</strong>. <strong>CaO₂ = (1.34 × Hb × SaO₂) + (0.003 × PaO₂)</strong>.</p>\n<p>Haemoglobin-bound oxygen is the major component. Dissolved oxygen from PaO₂ is small once saturation is high. A patient can have SpO₂ 100% but poor DO₂ if Hb or cardiac output is low.</p>\n<p><strong>VO₂</strong> is oxygen used by tissues each minute. Resting adult VO₂ is roughly 200-250 mL/min and rises with fever, shivering, pain, agitation, seizures, sepsis, work of breathing, and catecholamines.</p>"
+      "title": "Abridged Snapshot",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Oxygen delivery and consumption: the purpose of haemodynamics"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oxygen delivery is the amount of oxygen delivered to the tissues each minute. Oxygen consumption is the amount of oxygen the tissues use each minute. In CT-ICU, haemodynamic management exists to keep oxygen delivery high enough for oxygen demand. A patient does not survive because the monitor shows a normal MAP or SpO2. The patient survives because oxygenated blood reaches the tissues in sufficient quantity, at sufficient pressure, with enough haemoglobin and enough cardiac output to meet metabolic demand."
+        },
+        {
+          "type": "keyterm",
+          "term": "DO2",
+          "definition": "DO2 means oxygen delivery. It is the amount of oxygen delivered to the systemic tissues each minute. The formula is DO2 = cardiac output x arterial oxygen content x 10. The factor 10 converts dL to L."
+        },
+        {
+          "type": "keyterm",
+          "term": "VO2",
+          "definition": "VO2 means oxygen consumption. It is the amount of oxygen used by tissues each minute. Resting adult VO2 is commonly around 200 to 250 mL/min, but it rises with fever, shivering, pain, agitation, seizures, work of breathing, sepsis and catecholamine stress."
+        },
+        {
+          "type": "keyterm",
+          "term": "CaO2",
+          "definition": "CaO2 means arterial oxygen content. It is the amount of oxygen carried in arterial blood. Most oxygen is bound to haemoglobin. The formula is CaO2 = (1.34 x Hb x SaO2) + (0.003 x PaO2), where Hb is in g/dL and SaO2 is written as a decimal."
+        },
+        {
+          "type": "paragraph",
+          "text": "The essential formula is DO2 = CO x CaO2 x 10. This means oxygen delivery depends mainly on cardiac output and arterial oxygen content. Arterial oxygen content depends mainly on haemoglobin and arterial oxygen saturation. PaO2 contributes only a small dissolved oxygen component once haemoglobin is well saturated. This is why SpO2 of 100 percent can be falsely reassuring if haemoglobin is low or cardiac output is poor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Haemoglobin is the major oxygen carrier. One gram of fully saturated haemoglobin carries about 1.34 mL of oxygen. Dissolved oxygen contributes only about 0.003 mL O2 per dL blood per mmHg PaO2. Therefore, when saturation is already high, increasing PaO2 further adds very little oxygen content compared with improving haemoglobin or cardiac output. In practical terms, oxygen delivery usually fails because flow is low, haemoglobin is low, saturation is low, or demand is too high."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cardiac output is the multiplier. A patient with good haemoglobin and saturation can still have poor oxygen delivery if cardiac output is low. For example, a fresh post-CABG patient with SpO2 100 percent and Hb 100 g/L can still be in oxygen delivery failure if cardiac index is 1.6 L/min/m2, lactate is rising, urine output is low and SvO2 is falling. The saturation looks perfect, but the oxygen is not being delivered at adequate flow."
+        },
+        {
+          "type": "paragraph",
+          "text": "Oxygen consumption is dynamic. A deeply sedated, normothermic, ventilated patient may have relatively low VO2. During wake-up, shivering, pain, agitation, fever, respiratory distress or extubation, VO2 can rise sharply. A circulation that was adequate during deep sedation may fail when demand rises. This is one reason CT-ICU patients can deteriorate during rewarming, sedation weaning, coughing, physiotherapy or extubation."
+        },
+        {
+          "type": "paragraph",
+          "text": "When DO2 falls or VO2 rises, tissues extract more oxygen. Mixed venous oxygen saturation falls because less oxygen is left in venous blood after tissue extraction. If extraction reserve is exhausted, oxygen consumption becomes supply-dependent and lactate rises. This is a dangerous state. It means the patient cannot increase extraction enough to maintain aerobic metabolism."
+        },
+        {
+          "type": "paragraph",
+          "text": "In CT-ICU, DO2 and VO2 explain why nursing interventions matter. Treating pain, fever, shivering, agitation and work of breathing reduces VO2. Optimising rhythm, preload, afterload, contractility and haemoglobin improves DO2. Correcting hypoxaemia improves CaO2 and can reduce PVR. Rewarming safely avoids hypothermic complications but may increase metabolic demand. Extubation readiness is partly a DO2/VO2 question: can the patient tolerate the increased work of breathing and sympathetic demand?"
+        },
+        {
+          "type": "remember",
+          "text": "SpO2 is not oxygen delivery. MAP is not oxygen delivery. DO2 requires cardiac output, haemoglobin and arterial oxygen saturation. VO2 rises with stress. The bedside nurse must ask whether delivery is enough for demand."
+        }
+      ]
     },
     "expanded": {
-      "content": "<h3>DO₂ and VO₂ - the oxygen economy</h3>\n<p>Haemodynamics exist to deliver oxygen. <strong>DO₂</strong> is oxygen delivery per minute. <strong>VO₂</strong> is oxygen consumption per minute. CTICU patients deteriorate when delivery cannot match demand.</p>\n<h4>Formula</h4>\n<p><strong>DO₂ = CO × CaO₂ × 10</strong>. The multiplier converts dL to L. <strong>CaO₂ = (1.34 × Hb × SaO₂) + (0.003 × PaO₂)</strong>. Hb is in g/dL, SaO₂ is decimal saturation, and PaO₂ is mmHg.</p>\n<h4>Haemoglobin dominates oxygen content</h4>\n<p>Most oxygen is bound to haemoglobin. If Hb is 10 g/dL, SaO₂ is 98%, and PaO₂ is 100, CaO₂ is about 13.4 mL/dL. The dissolved PaO₂ contribution is only 0.3 mL/dL. Raising PaO₂ from 100 to 200 adds little oxygen content compared with improving Hb or CO.</p>\n<h4>Cardiac output is the multiplier</h4>\n<p>If CaO₂ is 13.4 and CO is 5 L/min, DO₂ is about 670 mL/min. If CO falls to 3 L/min, DO₂ falls to about 402 mL/min even if SpO₂ remains 98%. This is why normal saturation does not exclude shock.</p>\n<h4>Haemoglobin</h4>\n<p>Anaemia lowers CaO₂. The body compensates by increasing CO and extraction. Post-cardiac surgery patients may not compensate because of myocardial dysfunction, arrhythmia, vasoplegia, RV failure, or sedation. Transfusion decisions depend on bleeding, ischaemia, Hb, DO₂, lactate, SvO₂, and institutional practice.</p>\n<h4>Oxygen consumption</h4>\n<p>Resting adult VO₂ is about 200-250 mL/min. It rises with fever, shivering, pain, agitation, seizures, sepsis, respiratory distress, and catecholamine excess. A patient stable while sedated can deteriorate during wake-up or extubation because VO₂ rises.</p>\n<h4>Oxygen extraction</h4>\n<p>Oxygen extraction ratio is VO₂/DO₂, usually around 20-30%. When DO₂ falls, tissues extract more oxygen and SvO₂ falls. Once extraction reserve is exhausted, VO₂ becomes supply-dependent and lactate rises.</p>\n<h4>Worked examples</h4>\n<p>Hb 100 g/L, SaO₂ 98%, PaO₂ 100, CO 5 gives CaO₂ about 13.4 mL/dL and DO₂ about 670 mL/min. If CO falls to 3, DO₂ falls to 402. If Hb falls to 70 g/L with CO 5, CaO₂ falls to about 9.5 and DO₂ to about 475. Both examples can have normal SpO₂ but poor delivery.</p>\n<h4>Bedside application</h4>\n<ol><li><p>Assess oxygen content: Hb, SaO₂/SpO₂, PaO₂.</p></li><li><p>Assess flow: CO/CI, pulse pressure, arterial waveform, lactate, UO, echo.</p></li><li><p>Assess demand: fever, shivering, pain, agitation, work of breathing, sepsis.</p></li><li><p>Assess extraction: SvO₂/ScvO₂, lactate, base excess, organ function.</p></li><li><p>Treat the limiting variable: flow, Hb, oxygenation, ventilation, or demand.</p></li></ol>"
+      "title": "Expanded Deep-Dive",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Oxygen delivery: the endpoint of circulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oxygen delivery is the physiological reason haemodynamics matter. Blood pressure, cardiac output, haemoglobin, oxygen saturation, ventilation, temperature, sedation and vasoactive support all matter because they influence whether tissues receive enough oxygen to maintain aerobic metabolism. If tissues cannot receive or use enough oxygen, anaerobic metabolism increases, lactate rises, acidosis worsens and organ function fails."
+        },
+        {
+          "type": "paragraph",
+          "text": "In CT-ICU, oxygen delivery can fail for several simultaneous reasons. Cardiac output may be low from myocardial stunning, tamponade, RV failure, arrhythmia, poor preload, excessive afterload or valve obstruction. Haemoglobin may be low after surgery, haemodilution or bleeding. Saturation may be reduced from atelectasis, pulmonary oedema, pleural effusion, pneumothorax, pneumonia, pulmonary hypertension, low cardiac output or ventilator mismatch. Demand may be high from shivering, fever, pain, agitation, seizures, respiratory distress or catecholamine stress."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why CT-ICU assessment must move beyond isolated numbers. A patient with SpO2 100 percent may still have low DO2 because haemoglobin or cardiac output is low. A patient with MAP 75 mmHg may still have poor oxygen delivery because the MAP is being generated by high SVR with low cardiac output. A patient with Hb 90 g/L may be fine if cardiac output is good and demand is low, but inadequate if cardiac output is low and VO2 is high."
+        },
+        {
+          "type": "subheading",
+          "text": "The DO2 formula"
+        },
+        {
+          "type": "paragraph",
+          "text": "The standard oxygen delivery formula is DO2 = CO x CaO2 x 10. DO2 is measured in mL oxygen per minute. CO is cardiac output in L/min. CaO2 is arterial oxygen content in mL oxygen per dL blood. The factor 10 converts decilitres to litres because CaO2 is expressed per dL while cardiac output is expressed per litre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Arterial oxygen content is calculated as CaO2 = (1.34 x Hb x SaO2) + (0.003 x PaO2). The first part is haemoglobin-bound oxygen. The second part is dissolved oxygen. Hb must be in g/dL, and SaO2 is expressed as a decimal. For example, 98 percent saturation is written as 0.98. PaO2 is measured in mmHg."
+        },
+        {
+          "type": "paragraph",
+          "text": "The formula shows why haemoglobin and cardiac output dominate oxygen delivery. The haemoglobin-bound component is large because each gram of fully saturated haemoglobin carries about 1.34 mL of oxygen. The dissolved component is small because only about 0.003 mL oxygen dissolves per dL per mmHg PaO2. Even a PaO2 of 100 mmHg adds only about 0.3 mL/dL of dissolved oxygen. This is tiny compared with the oxygen carried by haemoglobin."
+        },
+        {
+          "type": "subheading",
+          "text": "Worked example: normal saturation but low cardiac output"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a patient with Hb 100 g/L, which is 10 g/dL, SaO2 98 percent and PaO2 100 mmHg. CaO2 = (1.34 x 10 x 0.98) + (0.003 x 100). The haemoglobin-bound oxygen is 13.132 mL/dL. The dissolved oxygen is 0.3 mL/dL. Total CaO2 is about 13.4 mL/dL."
+        },
+        {
+          "type": "paragraph",
+          "text": "If cardiac output is 5 L/min, DO2 = 5 x 13.4 x 10 = about 670 mL/min. If cardiac output falls to 3 L/min with the same haemoglobin and saturation, DO2 falls to about 402 mL/min. The SpO2 has not changed, but oxygen delivery has fallen dramatically because flow has fallen. This is the key bedside lesson: saturation is concentration, not delivery."
+        },
+        {
+          "type": "subheading",
+          "text": "Worked example: normal cardiac output but anaemia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Now consider Hb 70 g/L, which is 7 g/dL, SaO2 98 percent and PaO2 100 mmHg. CaO2 = (1.34 x 7 x 0.98) + 0.3. The haemoglobin-bound component is about 9.2 mL/dL. Total CaO2 is about 9.5 mL/dL. If cardiac output is 5 L/min, DO2 = 5 x 9.5 x 10 = about 475 mL/min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Again, SpO2 can remain 98 to 100 percent while oxygen delivery is much lower because haemoglobin is reduced. The body may compensate by increasing cardiac output and oxygen extraction. A post-cardiac surgery patient may not have enough cardiac reserve to compensate, especially if the myocardium is stunned, the rhythm is unstable, or the patient is vasoplegic, bleeding or shivering."
+        },
+        {
+          "type": "subheading",
+          "text": "Haemoglobin and arterial oxygen content"
+        },
+        {
+          "type": "paragraph",
+          "text": "Haemoglobin is the main oxygen transport molecule. Anaemia reduces arterial oxygen content and therefore oxygen delivery. In cardiac surgery, haemoglobin may be reduced by haemodilution from bypass prime, blood loss, repeated sampling, surgical bleeding, coagulopathy, haemolysis or dilution from fluid resuscitation. The tolerance of anaemia depends on cardiac output reserve, coronary disease, oxygen demand, age, comorbidities and active bleeding."
+        },
+        {
+          "type": "paragraph",
+          "text": "Transfusion decisions are not based on the DO2 formula alone. They must consider bleeding, ischaemia, haemoglobin level, oxygen delivery markers, lactate, SvO2, cardiac output, coronary disease, oxygenation and local transfusion policy. The physiology remains important: if haemoglobin is low and the patient cannot raise cardiac output or extraction enough, DO2 fails."
+        },
+        {
+          "type": "subheading",
+          "text": "Oxygen saturation and PaO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oxygen saturation reflects the percentage of haemoglobin binding sites occupied by oxygen. Once haemoglobin is nearly fully saturated, raising PaO2 further has limited effect on total oxygen content because the dissolved oxygen component is small. This does not mean PaO2 is irrelevant. Severe hypoxaemia lowers saturation and CaO2. Hypoxaemia also increases pulmonary vascular resistance through hypoxic pulmonary vasoconstriction, which can worsen RV function."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the ventilated CT-ICU patient, oxygenation must be balanced against ventilator harm. Increasing FiO2 may improve saturation but prolonged high FiO2 has risks. Increasing PEEP may recruit lung and improve oxygenation, but excessive PEEP can reduce venous return, increase RV afterload and reduce cardiac output. Oxygenation strategies are therefore also haemodynamic strategies."
+        },
+        {
+          "type": "subheading",
+          "text": "Cardiac output as the delivery multiplier"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cardiac output is the flow multiplier in the DO2 equation. If cardiac output halves, oxygen delivery approximately halves unless arterial oxygen content increases enough to compensate. In CT-ICU, low cardiac output may be caused by myocardial stunning, LV failure, RV failure, tamponade, hypovolaemia, arrhythmia, pacing failure, high afterload, high PVR, valve dysfunction or surgical complication."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cardiac output must be interpreted as indexed flow when possible. A cardiac index below 2.2 L/min/m2 with rising lactate, low SvO2, oliguria or cool peripheries suggests inadequate oxygen delivery. However, cardiac index slightly above 2.2 may still be inadequate if VO2 is high. Flow must match demand."
+        },
+        {
+          "type": "subheading",
+          "text": "Oxygen consumption"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oxygen consumption is the amount of oxygen used by tissues each minute. Resting adult VO2 is commonly around 200 to 250 mL/min. It is not fixed. VO2 increases with fever, shivering, pain, agitation, seizures, respiratory distress, increased work of breathing, sepsis, catecholamine excess, mobilisation and sometimes during rewarming."
+        },
+        {
+          "type": "paragraph",
+          "text": "VO2 decreases with deep sedation, paralysis, hypothermia and reduced metabolic activity. This is why a sedated ventilated patient can appear haemodynamically stable with marginal cardiac output, then deteriorate when sedation is reduced, temperature rises, shivering starts or spontaneous breathing increases work. The circulation may not have enough reserve to meet the new oxygen demand."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nursing care directly affects VO2. Treating pain reduces sympathetic drive. Preventing or treating shivering reduces a major oxygen demand. Managing fever lowers metabolic demand. Reducing agitation lowers catecholamine stress. Optimising ventilator support reduces work of breathing. Careful timing of physiotherapy, turning and extubation matters because these interventions can increase VO2."
+        },
+        {
+          "type": "subheading",
+          "text": "Oxygen extraction"
+        },
+        {
+          "type": "paragraph",
+          "text": "When oxygen delivery falls, tissues compensate by extracting a higher fraction of delivered oxygen. This lowers venous oxygen saturation. The oxygen extraction ratio is VO2 divided by DO2. Normal extraction is often around 20 to 30 percent. If DO2 falls or VO2 rises, extraction increases and SvO2 falls."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is a limit to extraction. Once tissues extract as much as they can, VO2 becomes supply-dependent. This means oxygen consumption can no longer be maintained because delivery is too low. Anaerobic metabolism increases and lactate rises. This is critical oxygen delivery failure. At that point, a normal MAP or SpO2 is not reassuring if lactate is rising and SvO2 is low."
+        },
+        {
+          "type": "subheading",
+          "text": "Mixed venous saturation as a DO2/VO2 signal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mixed venous saturation reflects the oxygen left in blood after tissues have extracted oxygen. If DO2 is adequate for VO2, SvO2 is usually within a normal or acceptable range. If DO2 falls or VO2 rises, tissues extract more oxygen and SvO2 falls. Usual SvO2 is about 60 to 80 percent, with many CT-ICU targets around at least 65 to 70 percent if the rest of the picture agrees."
+        },
+        {
+          "type": "paragraph",
+          "text": "A low SvO2 can result from low cardiac output, low haemoglobin, low arterial saturation or high oxygen consumption. These four categories map directly to the oxygen delivery and consumption framework. If SvO2 is low, ask whether flow is low, content is low, saturation is low or demand is high."
+        },
+        {
+          "type": "paragraph",
+          "text": "A high SvO2 is not always good. If lactate is rising and SvO2 is high, consider impaired extraction, microcirculatory shunting, sepsis, mitochondrial dysfunction, hypothermia, deep sedation, cyanide toxicity in rare contexts, or sampling error. The number must match the clinical picture."
+        },
+        {
+          "type": "subheading",
+          "text": "Lactate in oxygen delivery interpretation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lactate is often used as a marker of oxygen delivery-demand mismatch, but it is not specific. Lactate can rise from tissue hypoxia, adrenergic stimulation, seizures, shivering, liver dysfunction, impaired clearance, beta-agonist effects including adrenaline, sepsis and major stress. In CT-ICU, lactate trend is more useful than one isolated value."
+        },
+        {
+          "type": "paragraph",
+          "text": "A rising lactate with low cardiac index and low SvO2 strongly suggests inadequate oxygen delivery. A rising lactate with high adrenaline dose and improving perfusion may partly reflect catecholamine metabolism, but it must still be interpreted carefully. A persistently rising or non-clearing lactate after cardiac surgery should trigger reassessment of flow, haemoglobin, oxygenation, bleeding, tamponade, RV failure, sepsis, limb or gut ischaemia, seizures, shivering and hepatic function."
+        },
+        {
+          "type": "subheading",
+          "text": "CABG-specific oxygen delivery concerns"
+        },
+        {
+          "type": "paragraph",
+          "text": "After CABG, oxygen delivery must meet systemic needs and myocardial needs. The myocardium may be vulnerable from ischaemia-reperfusion, graft flow issues, native coronary disease, anaemia and tachycardia. Diastolic pressure and diastolic time matter because LV coronary perfusion occurs predominantly during diastole. Tachycardia both increases myocardial oxygen demand and reduces diastolic coronary perfusion time."
+        },
+        {
+          "type": "paragraph",
+          "text": "A post-CABG patient with rising lactate, new ST changes, ventricular ectopy, falling SvO2 or low cardiac output needs urgent evaluation. The issue may be global oxygen delivery failure, graft compromise, myocardial stunning, anaemia, low diastolic pressure, vasoplegia, tamponade or excessive myocardial oxygen demand. The nurse should connect rhythm, pressure, flow, haemoglobin and lactate rather than treating any one number alone."
+        },
+        {
+          "type": "subheading",
+          "text": "Valve and TAVI oxygen delivery concerns"
+        },
+        {
+          "type": "paragraph",
+          "text": "Valve and TAVI patients may have oxygen delivery problems from altered loading, conduction disturbance, pulmonary hypertension, RV dysfunction, diastolic dysfunction or new arrhythmia. A stiff LV may require atrial contribution and adequate diastolic filling time to maintain stroke volume. Rapid AF can reduce DO2 by reducing cardiac output while increasing demand."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mitral valve patients may have pulmonary hypertension and RV strain. Hypoxia, hypercapnia and acidosis can raise PVR, reduce RV output and therefore reduce LV preload and systemic cardiac output. TAVI patients can develop heart block or bradycardia, reducing cardiac output and oxygen delivery. Rhythm monitoring is therefore oxygen delivery monitoring."
+        },
+        {
+          "type": "subheading",
+          "text": "Aortic surgery oxygen delivery concerns"
+        },
+        {
+          "type": "paragraph",
+          "text": "After aortic surgery, oxygen delivery must be balanced with protection of the repair and perfusion of vulnerable vascular territories. Hypotension can compromise brain, spinal cord, renal, coronary or visceral perfusion depending on the operation. Hypertension and tachycardia can increase aortic wall stress and bleeding risk. Anaemia, low cardiac output and hypoxaemia reduce DO2, while agitation, pain and shivering raise VO2."
+        },
+        {
+          "type": "paragraph",
+          "text": "The nurse should monitor neurological status if assessable, urine output, lactate, acid-base state, limb perfusion, abdominal signs, blood pressure targets, haemoglobin and cardiac output. Oxygen delivery failure after aortic surgery may present as lactate rise, renal dysfunction, neurological change, gut hypoperfusion or limb malperfusion."
+        },
+        {
+          "type": "subheading",
+          "text": "Extubation and the DO2/VO2 balance"
+        },
+        {
+          "type": "paragraph",
+          "text": "Extubation is a major oxygen economy test. Work of breathing increases. Sympathetic tone may rise. Coughing, pain and anxiety increase VO2. The circulation must increase oxygen delivery enough to match that demand. A patient with marginal cardiac output, low haemoglobin, ongoing bleeding, poor pain control, shivering, low reserve or RV failure may fail extubation because oxygen demand exceeds delivery."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before extubation, the nurse should think beyond respiratory mechanics. The patient should have acceptable haemodynamics, manageable vasoactive support, stable rhythm, adequate haemoglobin, controlled temperature, good pain control, acceptable lactate trend and adequate urine output. After extubation, rising lactate, falling SvO2, tachycardia, hypertension, hypotension, agitation or rising work of breathing may indicate VO2 stress and delivery failure."
+        },
+        {
+          "type": "subheading",
+          "text": "Bedside DO2/VO2 interpretation sequence"
+        },
+        {
+          "type": "steps",
+          "title": "Oxygen delivery and consumption interpretation sequence",
+          "items": [
+            "Start with the clinical concern: rising lactate, falling SvO2, oliguria, hypotension, cool peripheries, agitation, increased work of breathing or failure to wake/extubate smoothly.",
+            "Assess oxygen content: haemoglobin, SaO2 or SpO2, PaO2 and any dyshemoglobin issue if co-oximetry suggests one.",
+            "Assess flow: cardiac output or cardiac index if available, pulse pressure, arterial waveform, rhythm, pacing, preload, afterload and contractility.",
+            "Assess demand: fever, shivering, pain, agitation, seizures, catecholamine dose, work of breathing, physiotherapy, coughing and sepsis.",
+            "Assess extraction: SvO2 or ScvO2, lactate, base excess and organ function.",
+            "Identify the dominant failure: low flow, low haemoglobin, low saturation, high demand, impaired extraction or mixed physiology.",
+            "Treat the limiting factor: improve cardiac output, correct oxygenation, address bleeding or anaemia, reduce VO2, correct acidosis, optimise ventilation or escalate for surgical/haemodynamic cause.",
+            "Reassess after intervention using lactate trend, SvO2, urine output, cardiac index, arterial waveform and clinical perfusion rather than one number alone."
+          ]
+        },
+        {
+          "type": "diagram",
+          "title": "DO2 and VO2 balance map",
+          "description": "A flowchart showing how cardiac output, haemoglobin, SaO2 and PaO2 create oxygen delivery, and how fever, shivering, pain and work of breathing increase oxygen consumption.",
+          "layout": "flowchart",
+          "elements": [
+            "Cardiac output",
+            "Haemoglobin",
+            "SaO2",
+            "PaO2 dissolved oxygen contribution",
+            "Arterial oxygen content",
+            "Oxygen delivery",
+            "Oxygen consumption",
+            "Fever",
+            "Shivering",
+            "Pain and agitation",
+            "Work of breathing",
+            "SvO2 and lactate as balance markers"
+          ],
+          "teachingPoints": [
+            "SpO2 alone is not oxygen delivery.",
+            "Cardiac output is the delivery multiplier.",
+            "VO2 rises during stress and extubation.",
+            "SvO2 and lactate show whether the balance is failing."
+          ]
+        }
+      ]
     },
     "pearls": {
-      "content": "<h3>Clinical Pearls - DO₂ and VO₂</h3>\n<h4>Pearl 1 - SpO₂ is not delivery</h4>\n<p>SpO₂ says saturation, not haemoglobin or flow.</p>\n<h4>Pearl 2 - PaO₂ adds little once saturated</h4>\n<p>Haemoglobin and CO dominate DO₂.</p>\n<h4>Pearl 3 - Shivering can unmask marginal DO₂</h4>\n<p>Shivering raises VO₂ and can drop SvO₂ and raise lactate.</p>"
+      "title": "Clinical Pearls",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Clinical Pearls"
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 1: SpO2 is not oxygen delivery",
+          "text": "SpO2 only tells you haemoglobin saturation. It does not tell you haemoglobin concentration or cardiac output. A patient can have SpO2 100 percent and still have critically low DO2 if Hb or cardiac output is low."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 2: cardiac output is the multiplier",
+          "text": "If cardiac output falls, oxygen delivery falls even if oxygen saturation and haemoglobin are unchanged. Low-flow states can hide behind normal saturation."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 3: PaO2 adds little once haemoglobin is saturated",
+          "text": "Dissolved oxygen is a small component of CaO2. Once haemoglobin is well saturated, improving haemoglobin or cardiac output usually has a much larger effect on DO2 than pushing PaO2 higher."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 4: shivering is expensive",
+          "text": "Shivering can markedly increase oxygen consumption. A marginal post-cardiac surgery circulation may fail during shivering even if it looked acceptable while sedated and still."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 5: extubation is a cardiovascular test",
+          "text": "Extubation increases work of breathing, sympathetic tone and oxygen consumption. A patient with marginal DO2 may fail because demand rises beyond delivery."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 6: low SvO2 tells you the tissues are extracting hard",
+          "text": "Low SvO2 usually means DO2 is low, VO2 is high or both. Check flow, haemoglobin, saturation and demand before assuming one cause."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 7: high SvO2 plus high lactate is not reassuring",
+          "text": "This pattern can suggest impaired extraction, microcirculatory shunting, sepsis, hypothermia, deep sedation, mitochondrial dysfunction or sampling error. It should not be interpreted as good oxygen delivery automatically."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 8: adrenaline complicates lactate",
+          "text": "Adrenaline can raise lactate through beta-mediated metabolic effects. However, rising lactate must still trigger assessment of cardiac output, SvO2, urine output, bleeding, oxygenation and perfusion."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 9: reducing VO2 is a nursing intervention",
+          "text": "Analgesia, warming strategy, anti-shivering measures, fever control, reassurance, sedation titration and ventilator support can all reduce oxygen demand and stabilise a marginal circulation."
+        }
+      ]
     },
     "equipment": {
-      "content": "<h3>Equipment Tie-In - DO₂ and VO₂</h3>\n<p><strong>Pulse oximetry</strong> estimates saturation but not Hb or CO.</p>\n<p><strong>ABG/co-oximetry</strong> provides PaO₂, SaO₂, Hb, lactate, pH, PaCO₂, and base excess.</p>\n<p><strong>PAC/CO monitoring</strong> provides the flow component and SvO₂.</p>\n<p><strong>Temperature monitoring</strong> identifies fever or shivering-related VO₂ load.</p>\n<p><strong>Ventilator</strong> affects oxygenation, CO₂, PVR, and work of breathing.</p>"
-    },
-    "targets": {
-      "content": "<h3>Targets and Numbers - DO₂ and VO₂</h3>\n<p>Resting VO₂ is about 200-250 mL/min. DO₂ is often around 900-1100 mL/min in a typical adult but varies. O₂ extraction is usually 20-30%. Practical CTICU targets include SpO₂ ≥94% unless otherwise ordered, CI ≥2.2 L/min/m², lactate <2 or falling, UO ≥0.5 mL/kg/hr, and SvO₂ 60-80% or ≥65-70%.</p>",
-      "tables": [
+      "title": "Equipment Tie-In",
+      "content": [
         {
-          "heading": "Oxygen economy values",
+          "type": "heading",
+          "text": "Equipment Tie-In"
+        },
+        {
+          "type": "subheading",
+          "text": "Pulse oximeter"
+        },
+        {
+          "type": "paragraph",
+          "text": "The pulse oximeter estimates oxygen saturation, not oxygen delivery. It does not measure haemoglobin concentration, cardiac output or tissue extraction. A good pleth waveform supports measurement quality, but even a reliable SpO2 of 100 percent does not prove adequate DO2. Poor perfusion, motion, nail products, dyshemoglobins and low pulsatility can affect accuracy."
+        },
+        {
+          "type": "subheading",
+          "text": "ABG and co-oximetry"
+        },
+        {
+          "type": "paragraph",
+          "text": "ABG provides PaO2, PaCO2, pH, lactate and acid-base information. Co-oximetry provides measured haemoglobin species and oxygen saturation where available. These values allow calculation or interpretation of arterial oxygen content. Hb, SaO2 and PaO2 should be interpreted together. A high PaO2 does not compensate much for severe anaemia or low cardiac output."
+        },
+        {
+          "type": "subheading",
+          "text": "Haemodynamic monitor"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cardiac output or cardiac index monitoring provides the flow component of DO2. Without flow, oxygen content cannot be delivered. A cardiac index below 2.2 L/min/m2 with rising lactate or low SvO2 is a major oxygen delivery concern. Pulse contour systems, PA catheters and echo-derived measures each have limitations, so trends and clinical fit matter."
+        },
+        {
+          "type": "subheading",
+          "text": "Pulmonary artery catheter"
+        },
+        {
+          "type": "paragraph",
+          "text": "The pulmonary artery catheter can provide cardiac output, cardiac index and true mixed venous saturation. This makes it especially useful for oxygen delivery interpretation. Low CI with low SvO2 suggests inadequate delivery. High or normal CI with low SvO2 suggests high demand, low haemoglobin or hypoxaemia. High SvO2 with high lactate suggests extraction failure or sampling/interpretation problem."
+        },
+        {
+          "type": "subheading",
+          "text": "Central venous catheter"
+        },
+        {
+          "type": "paragraph",
+          "text": "A central venous catheter can provide ScvO2 sampling if ordered and available. ScvO2 is not identical to true SvO2 because it samples central venous blood rather than fully mixed pulmonary artery blood. It can still provide useful trend information when interpreted with lactate, cardiac output, haemoglobin and clinical state."
+        },
+        {
+          "type": "subheading",
+          "text": "Ventilator"
+        },
+        {
+          "type": "paragraph",
+          "text": "The ventilator affects both oxygen delivery and oxygen consumption. It improves oxygenation and reduces work of breathing when set appropriately. It can also reduce venous return and increase RV afterload if pressures are excessive. During weaning, spontaneous work of breathing increases VO2. Ventilator changes should be assessed with ABG, haemodynamics, lactate and patient effort."
+        },
+        {
+          "type": "subheading",
+          "text": "Temperature monitoring"
+        },
+        {
+          "type": "paragraph",
+          "text": "Temperature is part of oxygen consumption management. Fever increases metabolic demand. Shivering can markedly raise VO2. Hypothermia reduces metabolism but impairs coagulation, rhythm stability and contractility. Controlled rewarming and anti-shivering care are therefore part of oxygen economy management."
+        },
+        {
+          "type": "table",
+          "title": "Equipment values in oxygen delivery interpretation",
           "headers": [
-            "Parameter",
-            "Typical value",
-            "Meaning",
-            "Relevance"
+            "Device or test",
+            "Value",
+            "What it tells you",
+            "What it does not tell you"
           ],
           "rows": [
             [
-              "DO₂",
-              "~900-1100 mL/min typical adult",
-              "Oxygen delivered",
-              "Falls with low CO/Hb/SaO₂"
+              "Pulse oximeter",
+              "SpO2",
+              "Haemoglobin saturation estimate",
+              "Haemoglobin level, cardiac output or tissue delivery"
             ],
             [
-              "VO₂",
-              "200-250 mL/min",
-              "Oxygen consumed",
-              "Rises with fever/shivering/pain/WOB"
+              "ABG",
+              "PaO2, PaCO2, pH, lactate",
+              "Oxygenation, ventilation, acid-base and stress",
+              "Cardiac output or full tissue extraction"
             ],
             [
-              "O₂ER",
-              "20-30%",
-              "Extraction fraction",
-              "Rises when delivery falls"
+              "Co-oximetry",
+              "SaO2, Hb species, Hb",
+              "Measured oxygen content components",
+              "Whether flow is adequate"
             ],
             [
-              "CI",
-              "≥2.2 L/min/m²",
-              "Flow",
-              "Major DO₂ determinant"
+              "PA catheter",
+              "CI and SvO2",
+              "Flow and extraction balance",
+              "Regional tissue perfusion"
+            ],
+            [
+              "CVC sample",
+              "ScvO2",
+              "Central venous oxygen trend",
+              "True fully mixed venous saturation"
+            ],
+            [
+              "Temperature probe",
+              "Core temperature",
+              "Metabolic demand and shivering risk context",
+              "Oxygen delivery by itself"
+            ],
+            [
+              "Ventilator",
+              "FiO2, PEEP, pressures, minute ventilation",
+              "Oxygenation, CO2 removal and work of breathing support",
+              "Tissue oxygen utilisation"
+            ]
+          ]
+        },
+        {
+          "type": "diagram",
+          "title": "Oxygen delivery monitoring dashboard",
+          "description": "A dashboard-style diagram linking monitor values to the oxygen delivery equation and oxygen demand.",
+          "layout": "dashboard",
+          "elements": [
+            "CO/CI from haemodynamic monitor",
+            "Hb from blood gas or lab",
+            "SaO2/SpO2 from co-oximetry or pulse oximeter",
+            "PaO2 from ABG",
+            "Lactate and base excess from ABG",
+            "SvO2 or ScvO2 from venous sample",
+            "Temperature and shivering assessment",
+            "Pain, agitation and work of breathing assessment"
+          ],
+          "teachingPoints": [
+            "No single value proves adequate oxygen delivery.",
+            "Combine flow, content, saturation and demand.",
+            "Watch trends before and after interventions."
+          ]
+        }
+      ]
+    },
+    "targets": {
+      "title": "Targets and Numbers",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Targets and Numbers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oxygen delivery targets are pattern-based. The aim is enough oxygen delivery to meet oxygen consumption. Because VO2 varies with temperature, shivering, pain, agitation, work of breathing and sepsis, a fixed cardiac index or haemoglobin target cannot be interpreted alone. The safest approach is to assess DO2 components and downstream markers together."
+        },
+        {
+          "type": "targetTable",
+          "title": "Core oxygen delivery and consumption values",
+          "headers": [
+            "Variable",
+            "Typical value or target",
+            "Meaning",
+            "Concern pattern"
+          ],
+          "rows": [
+            [
+              "DO2",
+              "Often roughly 900 to 1100 mL/min in a typical adult, highly size and state dependent",
+              "Total oxygen delivered to tissues each minute",
+              "Falls with low CO, low Hb or low SaO2"
+            ],
+            [
+              "VO2",
+              "Resting adult often around 200 to 250 mL/min",
+              "Oxygen consumed by tissues each minute",
+              "Rises with fever, shivering, pain, agitation, seizures, work of breathing or sepsis"
+            ],
+            [
+              "Oxygen extraction ratio",
+              "Often around 20 to 30 percent",
+              "Fraction of delivered oxygen extracted by tissues",
+              "Rises when DO2 falls or VO2 rises"
+            ],
+            [
+              "Cardiac index",
+              "At least 2.2 L/min/m2; often 2.5 to 4.0 when stable",
+              "Flow component of oxygen delivery",
+              "Low CI with rising lactate or low SvO2"
+            ],
+            [
+              "Haemoglobin",
+              "No universal CT-ICU target; often interpreted with bleeding, ischaemia and oxygen delivery markers",
+              "Main oxygen content carrier",
+              "Low Hb with low CI, ischaemia, bleeding, high VO2 or low SvO2"
+            ],
+            [
+              "SpO2 or SaO2",
+              "Often at least 94 percent post-cardiac surgery unless otherwise ordered",
+              "Haemoglobin saturation",
+              "Hypoxaemia reduces CaO2 and can raise PVR"
+            ],
+            [
+              "PaO2",
+              "Target depends on ventilation strategy; severe hypoxaemia must be avoided",
+              "Dissolved oxygen and oxygenation reserve",
+              "Low PaO2 with desaturation or high PVR risk"
+            ],
+            [
+              "SvO2",
+              "Usually 60 to 80 percent; often at least 65 to 70 percent if context agrees",
+              "Oxygen left after systemic extraction",
+              "Low value suggests low DO2 or high VO2"
+            ],
+            [
+              "ScvO2",
+              "Often above 70 percent, but not identical to SvO2",
+              "Central venous oxygen balance estimate",
+              "Trend down with shock or high demand"
             ],
             [
               "Lactate",
-              "<2 or falling",
-              "Perfusion/metabolic stress",
-              "Rising suggests mismatch"
+              "Less than 2 mmol/L or falling",
+              "Perfusion, stress and metabolic marker",
+              "Rising or non-clearing lactate requires reassessment"
+            ],
+            [
+              "Temperature",
+              "Normothermia unless a specific plan exists",
+              "Major VO2 determinant",
+              "Fever or shivering increases oxygen consumption"
             ]
+          ]
+        },
+        {
+          "type": "targetTable",
+          "title": "Low oxygen delivery differential",
+          "headers": [
+            "Problem",
+            "DO2 or VO2 mechanism",
+            "Common clues",
+            "Response focus"
+          ],
+          "rows": [
+            [
+              "Low cardiac output",
+              "Low flow reduces DO2",
+              "Low CI, narrow pulse pressure, low SvO2, rising lactate",
+              "Optimise preload, rhythm, afterload, contractility and obstruction"
+            ],
+            [
+              "Anaemia",
+              "Low Hb reduces CaO2",
+              "Low Hb, bleeding, low SvO2 if compensation inadequate",
+              "Assess bleeding, transfusion threshold, DO2 markers and ischaemia"
+            ],
+            [
+              "Hypoxaemia",
+              "Low SaO2 reduces CaO2 and may raise PVR",
+              "Low SpO2/PaO2, high FiO2 need, RV strain",
+              "Improve oxygenation and ventilation strategy"
+            ],
+            [
+              "High VO2",
+              "Demand exceeds delivery",
+              "Fever, shivering, pain, agitation, work of breathing",
+              "Reduce demand and improve delivery reserve"
+            ],
+            [
+              "Impaired extraction",
+              "Tissues fail to use delivered oxygen normally",
+              "High SvO2 with rising lactate",
+              "Consider sepsis, microcirculatory failure, hypothermia, sampling error"
+            ],
+            [
+              "Mixed shock",
+              "Multiple delivery and demand failures",
+              "Low flow, anaemia, inflammation, vasoplegia, lactate rise",
+              "Treat all limiting variables and escalate early"
+            ]
+          ]
+        },
+        {
+          "type": "targetTable",
+          "title": "Interventions mapped to DO2 and VO2",
+          "headers": [
+            "Intervention",
+            "Primary effect",
+            "Potential benefit",
+            "Potential risk"
+          ],
+          "rows": [
+            [
+              "Improve cardiac output",
+              "Increases flow component of DO2",
+              "Improves tissue delivery and SvO2",
+              "Inotropes may increase HR, arrhythmia and oxygen demand"
+            ],
+            [
+              "Correct significant anaemia",
+              "Increases CaO2",
+              "Improves oxygen content",
+              "Transfusion risk; must follow clinical indication and policy"
+            ],
+            [
+              "Improve oxygenation",
+              "Increases SaO2 and may reduce PVR",
+              "Improves CaO2 and RV afterload if hypoxic",
+              "High FiO2/PEEP risks depending strategy"
+            ],
+            [
+              "Treat shivering",
+              "Reduces VO2",
+              "Protects marginal oxygen balance",
+              "Sedation or medications may affect BP or ventilation"
+            ],
+            [
+              "Treat pain and agitation",
+              "Reduces sympathetic VO2 load",
+              "Lowers tachycardia and oxygen demand",
+              "Over-sedation can delay extubation or reduce ventilation"
+            ],
+            [
+              "Reduce work of breathing",
+              "Reduces respiratory muscle VO2",
+              "Improves reserve during weaning",
+              "Excess support may delay liberation; excess PEEP may affect haemodynamics"
+            ],
+            [
+              "Control fever",
+              "Reduces metabolic demand",
+              "Improves DO2/VO2 balance",
+              "Must identify and treat underlying cause"
+            ]
+          ]
+        },
+        {
+          "type": "steps",
+          "title": "Escalation triggers for oxygen delivery failure",
+          "items": [
+            "Rising lactate with low cardiac index or falling SvO2.",
+            "Low SvO2 despite normal SpO2, especially with oliguria or cool peripheries.",
+            "SpO2 is normal but haemoglobin or cardiac output is low and perfusion markers are worsening.",
+            "High SvO2 with rising lactate and clinical shock, suggesting impaired extraction or sampling problem.",
+            "Extubation or spontaneous breathing causes tachycardia, rising lactate, falling SvO2 or haemodynamic instability.",
+            "Shivering, fever, agitation or pain occur in a patient with marginal cardiac output.",
+            "Hypoxaemia, hypercapnia or acidosis worsens in an RV-risk patient.",
+            "Ongoing bleeding or falling haemoglobin occurs with low cardiac reserve or ischaemia concern.",
+            "Lactate fails to clear after apparently adequate MAP restoration."
           ]
         }
       ]
     }
   },
-  "quizQuestions": [
+  "quiz": [
     {
-      "level": "basic",
-      "question": "What is the central bedside concept in Oxygen Delivery and Consumption: DO2 and VO2?",
-      "type": "multipleChoice",
+      "difficulty": "Bedside Basics",
+      "question": "What are the main determinants of oxygen delivery?",
       "options": [
-        "Interpret the value as part of a haemodynamic pattern, not as an isolated number",
-        "Treat every abnormal number with fluid",
-        "Ignore the waveform and rely only on MAP",
-        "Use SpO₂ as the only marker of perfusion"
+        "Cardiac output, haemoglobin and arterial oxygen saturation.",
+        "Temperature, sodium and urine colour.",
+        "CVP alone.",
+        "Respiratory rate alone."
       ],
-      "correct": 0,
-      "explanation": "Oxygen Delivery and Consumption: DO2 and VO2 must be interpreted in context. CTICU physiology depends on patterns across pressure, flow, filling, oxygen delivery, demand, waveforms, and clinical response."
+      "answer": 0,
+      "explanation": "Oxygen delivery depends on cardiac output and arterial oxygen content. Arterial oxygen content depends mainly on haemoglobin and arterial saturation, with only a small dissolved oxygen contribution from PaO2."
     },
     {
-      "level": "reasoning",
-      "question": "A post-cardiac surgery patient deteriorates and the Oxygen Delivery and Consumption: DO2 and VO2 data conflict with the clinical picture. What is the safest action?",
-      "type": "multipleChoice",
+      "difficulty": "Bedside Basics",
+      "question": "Why can SpO2 100 percent be misleading?",
       "options": [
-        "Validate the measurement and integrate it with rhythm, waveform, lactate, urine output, echo, and perfusion",
-        "Assume the single number is correct and treat it alone",
-        "Ignore the patient because the monitor is always right",
-        "Give repeated fluid without reassessment"
+        "Because oxygen delivery can still be low if haemoglobin or cardiac output is low.",
+        "Because SpO2 directly measures cardiac output.",
+        "Because SpO2 directly measures lactate clearance.",
+        "Because SpO2 proves oxygen consumption is low."
       ],
-      "correct": 0,
-      "explanation": "The safest CTICU approach is to validate the measurement, check equipment and waveform quality, then interpret it against the whole clinical pattern before acting."
+      "answer": 0,
+      "explanation": "SpO2 tells you saturation, not haemoglobin concentration or cardiac output. Oxygen delivery may be poor despite full saturation if there is anaemia or low flow."
     },
     {
-      "level": "expert",
-      "question": "Why is isolated interpretation dangerous in Oxygen Delivery and Consumption: DO2 and VO2?",
-      "type": "multipleChoice",
+      "difficulty": "Clinical Reasoning",
+      "question": "A post-CABG patient has SpO2 100 percent, Hb 100 g/L, CI 1.6 L/min/m2, rising lactate and falling SvO2. What is the best interpretation?",
       "options": [
-        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and metabolic demand interact",
-        "Because cardiac physiology has no relationship to clinical signs",
-        "Because all post-operative patients have identical targets",
-        "Because monitors cannot display useful information"
+        "Oxygen delivery is likely inadequate because flow is low despite normal saturation.",
+        "Oxygen delivery is definitely adequate because SpO2 is 100 percent.",
+        "The patient has isolated anaemia.",
+        "The lactate must be ignored."
       ],
-      "correct": 0,
-      "explanation": "Isolated interpretation is dangerous because CTICU haemodynamics are interactive. The same value may mean different things depending on ventricular function, vascular tone, rhythm, ventilation, oxygen delivery, and surgical context."
+      "answer": 0,
+      "explanation": "Cardiac output is the flow multiplier in oxygen delivery. With low CI, tissues may receive inadequate oxygen despite normal saturation and reasonable haemoglobin. Rising lactate and falling SvO2 support oxygen delivery-demand mismatch."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "Why can shivering destabilise a marginal CT-ICU patient?",
+      "options": [
+        "It increases oxygen consumption and may exceed available oxygen delivery.",
+        "It always increases cardiac output enough to compensate.",
+        "It directly raises haemoglobin.",
+        "It prevents lactate production."
+      ],
+      "answer": 0,
+      "explanation": "Shivering markedly increases metabolic demand and VO2. A patient with limited cardiac output or oxygen delivery reserve may develop falling SvO2, rising lactate, tachycardia and haemodynamic deterioration."
+    },
+    {
+      "difficulty": "Expert Level",
+      "question": "Why does raising PaO2 from 100 to 200 mmHg add relatively little oxygen content when haemoglobin is already saturated?",
+      "options": [
+        "Because dissolved oxygen is only 0.003 mL/dL/mmHg and haemoglobin-bound oxygen dominates CaO2.",
+        "Because PaO2 has no relationship to oxygen at all.",
+        "Because haemoglobin disappears at high PaO2.",
+        "Because cardiac output automatically doubles."
+      ],
+      "answer": 0,
+      "explanation": "The dissolved oxygen term is 0.003 x PaO2, which is small. Most oxygen content comes from haemoglobin-bound oxygen. Once haemoglobin is saturated, further PaO2 increases have limited effect on total CaO2."
+    },
+    {
+      "difficulty": "Expert Level",
+      "question": "A patient has high SvO2 and rising lactate with clinical shock. What should be considered?",
+      "options": [
+        "Impaired extraction, microcirculatory shunting, sepsis, hypothermia, deep sedation or sampling error.",
+        "Guaranteed excellent tissue oxygen use.",
+        "A need to ignore lactate.",
+        "A diagnosis of isolated hypoxaemia."
+      ],
+      "answer": 0,
+      "explanation": "High SvO2 with rising lactate is not automatically reassuring. It can occur when tissues cannot extract or use oxygen normally, or when sampling is wrong. The clinical context and lactate trend require reassessment."
+    }
+  ],
+  "diagrams": [
+    {
+      "type": "diagram",
+      "title": "Oxygen delivery equation map",
+      "description": "A formula diagram showing DO2 = CO x CaO2 x 10 and CaO2 = haemoglobin-bound oxygen plus dissolved oxygen.",
+      "layout": "formula-map",
+      "elements": [
+        "DO2",
+        "Cardiac output",
+        "CaO2",
+        "Haemoglobin",
+        "SaO2",
+        "PaO2",
+        "Dissolved oxygen contribution",
+        "Factor 10 conversion"
+      ],
+      "teachingPoints": [
+        "Cardiac output is the flow multiplier.",
+        "Haemoglobin is the major oxygen carrier.",
+        "PaO2 contributes little once saturation is high."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "DO2 and VO2 balance map",
+      "description": "A flowchart showing how oxygen delivery and oxygen consumption determine SvO2 and lactate.",
+      "layout": "flowchart",
+      "elements": [
+        "Cardiac output",
+        "Haemoglobin",
+        "SaO2",
+        "Oxygen delivery",
+        "Fever",
+        "Shivering",
+        "Pain",
+        "Agitation",
+        "Work of breathing",
+        "Oxygen consumption",
+        "Oxygen extraction",
+        "SvO2",
+        "Lactate"
+      ],
+      "teachingPoints": [
+        "Low DO2 or high VO2 increases extraction.",
+        "SvO2 falls when tissues extract more oxygen.",
+        "Lactate rises when aerobic metabolism cannot be maintained."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Extubation as an oxygen economy test",
+      "description": "An algorithm showing how extubation increases VO2 and can reveal inadequate oxygen delivery reserve.",
+      "layout": "algorithm",
+      "elements": [
+        "Sedated ventilated state",
+        "Lower VO2",
+        "Wake-up",
+        "Pain or agitation",
+        "Spontaneous breathing",
+        "Increased work of breathing",
+        "Higher VO2",
+        "Need increased cardiac output",
+        "If reserve inadequate: tachycardia, lactate rise, falling SvO2, instability"
+      ],
+      "teachingPoints": [
+        "Extubation is cardiovascular as well as respiratory.",
+        "Good oxygen saturation does not prove adequate delivery reserve.",
+        "Control pain, shivering and work of breathing to reduce VO2."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "sourceName": "NCBI Bookshelf / StatPearls",
+      "title": "Oxygen Transport",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538336/",
+      "supports": "Supports oxygen transport physiology including haemoglobin-bound oxygen, dissolved oxygen and arterial oxygen content."
+    },
+    {
+      "sourceName": "NCBI Bookshelf / StatPearls",
+      "title": "Physiology, Oxygen Transport and Carbon Dioxide Dissociation Curve",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539815/",
+      "supports": "Supports oxygen transport, haemoglobin saturation and oxygen content principles."
+    },
+    {
+      "sourceName": "Deranged Physiology",
+      "title": "Oxygen delivery and oxygen consumption",
+      "url": "https://derangedphysiology.com/main/cicm-primary-exam/required-reading/respiratory-system/Chapter%20016/oxygen-delivery-and-consumption",
+      "supports": "Supports DO2, VO2, CaO2 formulae and oxygen extraction concepts."
+    },
+    {
+      "sourceName": "Critical Care / PMC",
+      "title": "Clinical review: use of venous oxygen saturations as a goal",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3334733/",
+      "supports": "Supports venous oxygen saturation as a marker of oxygen delivery-demand balance."
+    },
+    {
+      "sourceName": "Critical Care / PMC",
+      "title": "Central and Mixed Venous O2 Saturation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7001812/",
+      "supports": "Supports interpretation of SvO2 and ScvO2 in relation to oxygen delivery and consumption."
+    },
+    {
+      "sourceName": "Frontiers in Pediatrics / PMC",
+      "title": "Definitions of low cardiac output syndrome after cardiac surgery and their effect on incidence, treatment and outcome",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9558721/",
+      "supports": "Supports low cardiac output syndrome after cardiac surgery as inadequate pump function causing reduced oxygen delivery and tissue hypoxia."
+    },
+    {
+      "sourceName": "British Journal of Anaesthesia Education / PMC",
+      "title": "Physiology of oxygen transport",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7808065/",
+      "supports": "Supports oxygen content, delivery, consumption and extraction physiology."
     }
   ]
 }

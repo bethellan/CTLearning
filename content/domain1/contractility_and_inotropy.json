@@ -1,102 +1,908 @@
 {
-  "id": "contractility-and-inotropy",
-  "domain": "domain1",
-  "domainName": "Physiology Foundations",
-  "domainColour": "#0B5FFF",
-  "title": "Contractility and Inotropy",
-  "sections": {
-    "abridged": {
-      "content": "<h3>Contractility - intrinsic myocardial force generation</h3>\n<p><strong>Contractility</strong> is intrinsic myocardial force generation at a given preload and afterload. <strong>Inotropy</strong> refers to changes in that contractile force. Positive inotropes increase contraction strength.</p>\n<p>Contractility is not the same as EF, MAP, or CO. EF is load-dependent. A vasodilated patient may look hyperdynamic while hypotensive. A high-afterload patient may look worse because the ventricle cannot eject effectively.</p>\n<p>After surgery, contractility may be impaired by stunning, ischaemia-reperfusion, cardioplegia, graft problems, hypothermia, acidosis, electrolyte abnormalities, RV strain, or prolonged bypass.</p>"
-    },
-    "expanded": {
-      "content": "<h3>Contractility - intrinsic myocardial force generation</h3>\n<p><strong>Contractility</strong> is the ability of myocardium to generate force independent of preload and afterload. It reflects calcium handling, actin-myosin interaction, sympathetic stimulation, oxygen supply, pH, temperature, electrolytes, and myocardial integrity.</p>\n<h4>Cellular mechanism</h4>\n<p>Depolarisation triggers calcium entry and calcium release from the sarcoplasmic reticulum. Calcium binds troponin C, enabling actin-myosin cross-bridge cycling. Better calcium cycling increases force. Relaxation also requires calcium reuptake, so impaired calcium handling affects systole and diastole.</p>\n<h4>Inotropy</h4>\n<p><strong>Inotropy</strong> is alteration of contractile force. Positive inotropes such as adrenaline, dobutamine, milrinone, and levosimendan improve force through different mechanisms. They can improve flow but may increase arrhythmia risk, myocardial oxygen demand, hypotension, or lactate depending on the drug and physiology.</p>\n<h4>Contractility versus EF</h4>\n<p>Ejection fraction is SV divided by EDV. It is not pure contractility because it changes with preload and afterload. A small underfilled LV may look hyperdynamic but eject a low absolute volume. A high-afterload LV may show reduced EF because it cannot eject against resistance.</p>\n<h4>Post-bypass myocardial stunning</h4>\n<p>Myocardial stunning is transient mechanical dysfunction after ischaemia-reperfusion despite restored flow. Cardioplegia, cross-clamp, hypothermia, inflammation, haemodilution, and reperfusion stress contribute. It presents with low CI, weak pulse pressure, low SvO₂, rising lactate, high filling pressures, and inotrope requirement.</p>\n<p>Not all post-operative poor contractility is benign stunning. Graft occlusion, coronary spasm, air embolus, valve obstruction, tamponade, RV infarction, pulmonary hypertension crisis, and surgical complications can look similar. New ST changes, regional wall-motion abnormality, malignant arrhythmias, refractory shock, or sudden deterioration require urgent escalation.</p>\n<h4>RV contractility</h4>\n<p>The RV is afterload-sensitive. RV contractility may fail after mitral surgery, pulmonary hypertension, protamine reaction, hypoxia, hypercapnia, acidosis, high PEEP, RV infarction, or prolonged bypass. CVP rises while LV filling and cardiac output fall.</p>\n<table><tr><th>Finding</th><th>Mechanism</th><th>Interpretation</th></tr><tr><td>Low CI</td><td>Weak forward ejection</td><td>Assess contractility, preload, rhythm, afterload, obstruction</td></tr><tr><td>Narrow pulse pressure</td><td>Low stroke volume</td><td>Poor contractility or underfilling</td></tr><tr><td>Rising lactate</td><td>Inadequate DO₂ or stress</td><td>Low-flow concern if paired with poor perfusion</td></tr><tr><td>Low SvO₂</td><td>Increased extraction</td><td>Delivery-demand mismatch</td></tr><tr><td>High PAWP</td><td>LV cannot eject effectively</td><td>Fluid may worsen pulmonary oedema</td></tr></table>\n<h4>Decision loop</h4>\n<ol><li><p>Check rhythm and AV synchrony.</p></li><li><p>Check preload and congestion.</p></li><li><p>Check afterload, including SVR and PVR.</p></li><li><p>Check myocardial oxygen supply: Hb, SpO₂, diastolic pressure, ST changes.</p></li><li><p>Correct pH, temperature, potassium, magnesium, and ionised calcium.</p></li><li><p>Escalate for echo and senior review if low output is persistent or worsening.</p></li></ol>"
-    },
-    "pearls": {
-      "content": "<h3>Clinical Pearls - Contractility</h3>\n<h4>Pearl 1 - EF is load-dependent</h4>\n<p>EF changes with preload and afterload and must not be treated as pure contractility.</p>\n<h4>Pearl 2 - Do not keep filling a weak ventricle</h4>\n<p>If the heart is full but weak, fluid raises pressure more than flow.</p>\n<h4>Pearl 3 - Stunning is common but not a diagnosis of exclusion forever</h4>\n<p>Persistent shock requires investigation for graft, valve, tamponade, RV, or surgical causes.</p>"
-    },
-    "equipment": {
-      "content": "<h3>Equipment Tie-In - Contractility</h3>\n<p><strong>Arterial line</strong> shows upstroke and pulse pressure response.</p>\n<p><strong>PAC</strong> shows CI, filling pressures, SVR/PVR, and SvO₂.</p>\n<p><strong>Echo</strong> directly assesses LV/RV function, chamber size, valves, septum, and tamponade.</p>\n<p><strong>ABG/POCT</strong> identifies pH, lactate, potassium, ionised calcium, haemoglobin, oxygenation, and ventilation factors.</p>"
-    },
-    "targets": {
-      "content": "<h3>Targets and Numbers - Contractility</h3>\n<p>Contractility is judged indirectly. Aim for CI ≥2.2 L/min/m², falling lactate, SvO₂ 60-80% or ≥65-70%, UO ≥0.5 mL/kg/hr, improving pulse pressure, and acceptable filling pressures. Common supportive electrolyte goals include K⁺ 4.0-4.5 mmol/L, Mg²⁺ ≥0.8-1.0 mmol/L, and ionised Ca²⁺ 1.1-1.3 mmol/L depending local practice.</p>",
-      "tables": [
-        {
-          "heading": "Contractility markers",
-          "headers": [
-            "Parameter",
-            "Target/range",
-            "Meaning",
-            "Concern"
-          ],
-          "rows": [
-            [
-              "CI",
-              "≥2.2 L/min/m²",
-              "Forward flow",
-              "Low with poor perfusion suggests pump failure"
-            ],
-            [
-              "SvO₂",
-              "60-80%",
-              "Oxygen balance",
-              "Low suggests delivery-demand problem"
-            ],
-            [
-              "Lactate",
-              "<2 or falling",
-              "Perfusion/metabolic marker",
-              "Rising suggests inadequate DO₂/stress"
-            ],
-            [
-              "Ionised Ca²⁺",
-              "1.1-1.3 mmol/L",
-              "Contraction and tone",
-              "Low impairs contractility"
-            ]
-          ]
-        }
-      ]
-    }
-  },
-  "quizQuestions": [
-    {
-      "level": "basic",
-      "question": "What is the central bedside concept in Contractility and Inotropy?",
-      "type": "multipleChoice",
-      "options": [
-        "Interpret the value as part of a haemodynamic pattern, not as an isolated number",
-        "Treat every abnormal number with fluid",
-        "Ignore the waveform and rely only on MAP",
-        "Use SpO₂ as the only marker of perfusion"
-      ],
-      "correct": 0,
-      "explanation": "Contractility and Inotropy must be interpreted in context. CTICU physiology depends on patterns across pressure, flow, filling, oxygen delivery, demand, waveforms, and clinical response."
-    },
-    {
-      "level": "reasoning",
-      "question": "A post-cardiac surgery patient deteriorates and the Contractility and Inotropy data conflict with the clinical picture. What is the safest action?",
-      "type": "multipleChoice",
-      "options": [
-        "Validate the measurement and integrate it with rhythm, waveform, lactate, urine output, echo, and perfusion",
-        "Assume the single number is correct and treat it alone",
-        "Ignore the patient because the monitor is always right",
-        "Give repeated fluid without reassessment"
-      ],
-      "correct": 0,
-      "explanation": "The safest CTICU approach is to validate the measurement, check equipment and waveform quality, then interpret it against the whole clinical pattern before acting."
-    },
-    {
-      "level": "expert",
-      "question": "Why is isolated interpretation dangerous in Contractility and Inotropy?",
-      "type": "multipleChoice",
-      "options": [
-        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and metabolic demand interact",
-        "Because cardiac physiology has no relationship to clinical signs",
-        "Because all post-operative patients have identical targets",
-        "Because monitors cannot display useful information"
-      ],
-      "correct": 0,
-      "explanation": "Isolated interpretation is dangerous because CTICU haemodynamics are interactive. The same value may mean different things depending on ventricular function, vascular tone, rhythm, ventilation, oxygen delivery, and surgical context."
-    }
-  ]
+"id": "contractility-and-inotropy",
+"domain": 1,
+"domainTitle": "Physiology Foundations",
+"title": "Contractility and Inotropy",
+"file": "contractility_and_inotropy.json",
+"sections": {
+"abridged": {
+"title": "Abridged Snapshot",
+"content": [
+{
+"type": "heading",
+"text": "Contractility: how strongly the myocardium contracts"
+},
+{
+"type": "paragraph",
+"text": "Contractility is the intrinsic ability of cardiac muscle to generate force at a given preload and afterload. It is not the same as blood pressure, cardiac output or ejection fraction, although all of those can be affected by it. A ventricle with good contractility can generate pressure and eject effectively. A ventricle with poor contractility may be adequately filled and still produce low stroke volume, low cardiac output, rising lactate, low SvO2, oliguria and shock."
+},
+{
+"type": "keyterm",
+"term": "Contractility",
+"definition": "Contractility is intrinsic myocardial force generation independent of preload and afterload. At the bedside, it is inferred from stroke volume, cardiac output, pulse pressure, echo appearance, filling pressures, lactate, SvO2 and response to inotropes."
+},
+{
+"type": "keyterm",
+"term": "Inotropy",
+"definition": "Inotropy means alteration of myocardial contractile force. Positive inotropy increases force of contraction. Negative inotropy reduces force of contraction."
+},
+{
+"type": "keyterm",
+"term": "Myocardial stunning",
+"definition": "Myocardial stunning is temporary contractile dysfunction after ischaemia, reperfusion, cardioplegia or bypass despite restoration of blood flow. It is common after cardiac surgery but must not be assumed to be benign if shock is severe, persistent or worsening."
+},
+{
+"type": "paragraph",
+"text": "At cellular level, contractility depends heavily on calcium. Depolarisation allows calcium movement into the myocyte and release of calcium from the sarcoplasmic reticulum. Calcium binds to troponin C, allowing actin and myosin interaction. Cross-bridge cycling creates contraction. Relaxation requires calcium reuptake. Hypocalcaemia, acidosis, hypothermia, ischaemia and myocardial oedema can all impair this process."
+},
+{
+"type": "paragraph",
+"text": "After cardiothoracic surgery, contractility may be reduced by myocardial stunning, ischaemia-reperfusion injury, prolonged cross-clamp time, inadequate myocardial protection, graft compromise, coronary spasm, air embolus, valve obstruction, acidosis, hypothermia, electrolyte disturbance, inflammatory myocardial depression, RV strain or pre-existing ventricular dysfunction. Low contractility is therefore common, but the cause must be actively considered."
+},
+{
+"type": "paragraph",
+"text": "Poor contractility commonly appears as low cardiac index, narrow pulse pressure, weak arterial upstroke, rising lactate, falling SvO2, oliguria, cool peripheries, worsening base deficit and escalating vasoactive support. Filling pressures may be high if the ventricle is full but cannot eject, or low if poor contractility coexists with hypovolaemia or vasoplegia. The pattern must be interpreted as a whole."
+},
+{
+"type": "paragraph",
+"text": "Ejection fraction is not the same as contractility. EF is affected by preload and afterload. A small underfilled LV may look hyperdynamic but eject a low absolute stroke volume. A vasoplegic patient may look hyperdynamic because afterload is low. A high-SVR patient may appear to have poor EF partly because afterload is excessive. Echo findings must be interpreted with chamber size, cardiac output, filling pressures, afterload and perfusion markers."
+},
+{
+"type": "paragraph",
+"text": "Inotropes increase contractile performance but they are not interchangeable. Adrenaline increases beta-1 inotropy and chronotropy and also has alpha effects at higher doses. Dobutamine increases beta-mediated inotropy and may reduce SVR. Milrinone is a phosphodiesterase-3 inhibitor that improves inotropy and reduces SVR and PVR, but may cause hypotension and accumulates in renal dysfunction. Levosimendan is a calcium sensitiser used in selected contexts depending on local availability and practice."
+},
+{
+"type": "paragraph",
+"text": "The bedside goal is not simply to make the heart squeeze harder. The goal is useful forward flow with acceptable myocardial oxygen cost. Inotropy can improve cardiac output, but it can also increase heart rate, arrhythmia risk, myocardial oxygen demand and lactate depending on the drug. Contractility management must therefore also include rhythm, preload, afterload, oxygenation, haemoglobin, acid-base state, temperature, electrolytes and surgical causes."
+},
+{
+"type": "remember",
+"text": "Do not keep giving fluid to a ventricle that is already full but weak. If filling pressure rises and stroke volume does not improve, the limitation is probably not preload. Think contractility, afterload, rhythm, RV failure, tamponade, valve obstruction, graft problem or oxygen delivery-demand mismatch."
+}
+]
+},
+"expanded": {
+"title": "Expanded Deep-Dive",
+"content": [
+{
+"type": "heading",
+"text": "Contractility as intrinsic myocardial force generation"
+},
+{
+"type": "paragraph",
+"text": "Contractility is the intrinsic ability of the myocardium to generate force at a given preload and afterload. It is the pump-strength component of stroke volume. If preload is the amount of stretch available before contraction, and afterload is the resistance the ventricle ejects against, contractility is how effectively the myocardium converts electrical activation and cellular calcium cycling into mechanical force."
+},
+{
+"type": "paragraph",
+"text": "Contractility is not directly measured by a single routine bedside number. It is inferred. The nurse infers contractility from the relationship between filling pressures, arterial waveform, pulse pressure, cardiac index, echocardiography, lactate, SvO2, urine output, vasoactive support and clinical perfusion. A ventricle with poor contractility may be full but unable to eject. A ventricle with good contractility may maintain stroke volume despite modest loading changes."
+},
+{
+"type": "paragraph",
+"text": "In cardiothoracic ICU, contractility is especially important because the heart has often been exposed to cardioplegia, cross-clamping, reperfusion, inflammation, hypothermia, electrolyte shifts and altered loading conditions. A patient can leave theatre with temporary myocardial dysfunction even when the surgical repair or grafting is technically successful. The challenge is to recognise when the dysfunction is expected and improving versus when it suggests a reversible or dangerous cause."
+},
+{
+"type": "subheading",
+"text": "Cellular basis of contraction"
+},
+{
+"type": "paragraph",
+"text": "Myocardial contraction depends on excitation-contraction coupling. Electrical depolarisation travels through the myocardial cell membrane and T-tubule system. This opens L-type calcium channels, allowing a small amount of calcium to enter the cell. That calcium triggers a larger calcium release from the sarcoplasmic reticulum through ryanodine receptors. The rise in intracellular calcium allows calcium to bind to troponin C."
+},
+{
+"type": "paragraph",
+"text": "When calcium binds troponin C, the troponin-tropomyosin complex shifts, exposing binding sites between actin and myosin. Myosin heads bind to actin and perform cross-bridge cycling using ATP. This creates sarcomere shortening and myocardial contraction. The strength of contraction depends on how much calcium is available, how responsive the contractile proteins are to calcium, how much ATP is available, the sarcomere length, and the health of the myocardium."
+},
+{
+"type": "paragraph",
+"text": "Relaxation is also active. Calcium must be pumped back into the sarcoplasmic reticulum and removed from the cytosol. This requires energy. Ischaemia, acidosis, hypothermia and myocardial oedema can impair both contraction and relaxation. That is why a post-operative ventricle can be weak in systole and stiff in diastole at the same time."
+},
+{
+"type": "subheading",
+"text": "Why calcium, pH and temperature matter"
+},
+{
+"type": "paragraph",
+"text": "Ionised calcium is directly relevant to contraction because calcium is required for actin-myosin interaction. Hypocalcaemia can reduce contractility and vascular tone, especially after massive transfusion, citrate load, haemodilution or cardiopulmonary bypass. A low ionised calcium may present as hypotension, weak contractility, poor response to catecholamines and coagulopathy contribution."
+},
+{
+"type": "paragraph",
+"text": "Acidosis reduces myocardial contractility and reduces catecholamine responsiveness. Hydrogen ions interfere with calcium binding and cellular metabolism. Severe acidosis can make inotropes and vasopressors less effective. This is why correcting the cause of acidosis and restoring oxygen delivery is often more important than simply escalating vasoactive doses."
+},
+{
+"type": "paragraph",
+"text": "Hypothermia slows enzymatic activity, impairs calcium handling, increases arrhythmia risk and worsens coagulation. A cold post-bypass patient may have reduced contractility, increased SVR, coagulopathy and delayed lactate clearance. Rewarming is therefore a haemodynamic intervention, not merely a comfort measure."
+},
+{
+"type": "subheading",
+"text": "Contractility after cardiopulmonary bypass"
+},
+{
+"type": "paragraph",
+"text": "Cardiopulmonary bypass and cross-clamping expose the myocardium to non-physiological conditions. The heart may be arrested with cardioplegia, cooled, unloaded, reperfused and then restarted. Even with good myocardial protection, transient dysfunction is common. This is called myocardial stunning when contractile function is impaired despite restored blood flow and no irreversible infarction."
+},
+{
+"type": "paragraph",
+"text": "Myocardial stunning can affect the LV, RV or both. It may be mild and improve over hours, or severe enough to require inotropes, pacing, IABP, ECMO or return to theatre depending on cause and response. The bedside signs include low cardiac index, narrow pulse pressure, weak arterial upstroke, high filling pressures, low SvO2, rising lactate, oliguria and escalating support."
+},
+{
+"type": "paragraph",
+"text": "However, it is dangerous to label all post-operative low output as benign stunning. Graft occlusion, coronary spasm, air embolus, inadequate myocardial protection, valve obstruction, severe residual regurgitation, tamponade, RV infarction, pulmonary hypertension crisis and surgical bleeding can all mimic or contribute to pump failure. If shock is severe, sudden, persistent or associated with new ST changes, malignant arrhythmias, new regional wall-motion abnormality or escalating support, urgent senior review and imaging are required."
+},
+{
+"type": "subheading",
+"text": "LV contractility"
+},
+{
+"type": "paragraph",
+"text": "The LV is the main systemic pump. Poor LV contractility reduces forward systemic flow. The arterial waveform may show a slow or weak upstroke and narrow pulse pressure. Cardiac index may fall below 2.2 L/min/m2. SvO2 may fall because tissues extract more oxygen from reduced flow. Lactate may rise when oxygen delivery fails to meet demand. Urine output may decrease because renal blood flow and perfusion pressure are inadequate."
+},
+{
+"type": "paragraph",
+"text": "LV contractility must be interpreted with afterload. A weak LV may deteriorate when SVR is excessive. The MAP may be preserved by vasoconstriction, but stroke volume falls. This is pressure without flow. Conversely, a vasoplegic patient may have a hyperdynamic-looking LV because afterload is low, but MAP remains low because the vascular bed is dilated. Echo must therefore be interpreted with blood pressure, SVR, cardiac index and clinical perfusion."
+},
+{
+"type": "subheading",
+"text": "RV contractility"
+},
+{
+"type": "paragraph",
+"text": "The RV is a volume-handling chamber designed to eject into a low-pressure pulmonary circuit. It is highly sensitive to acute increases in pulmonary vascular resistance. RV contractility may be impaired by RV infarction, prolonged bypass, pulmonary hypertension, mitral valve disease, protamine reaction, hypoxia, hypercapnia, acidosis, high PEEP, pulmonary embolism or severe sepsis-like inflammatory depression."
+},
+{
+"type": "paragraph",
+"text": "When RV contractility fails, CVP rises and systemic cardiac output falls. The RV dilates, tricuspid regurgitation can worsen, the septum shifts toward the LV, LV filling falls and MAP drops. The patient may have high CVP, high PA pressures, low CI, hepatic congestion, renal venous congestion, oliguria and worsening lactate. Giving more fluid can worsen the problem if the RV is already dilated."
+},
+{
+"type": "paragraph",
+"text": "RV support focuses on reducing PVR, maintaining systemic pressure for RV coronary perfusion, supporting RV contractility, optimising rhythm and avoiding excessive preload. Oxygenation, PaCO2, pH and ventilator pressures are part of contractility management because they determine RV afterload and therefore RV performance."
+},
+{
+"type": "subheading",
+"text": "Contractility versus ejection fraction"
+},
+{
+"type": "paragraph",
+"text": "Ejection fraction is the percentage of end-diastolic volume ejected during systole. It is useful, but it is load-dependent. EF changes when preload and afterload change. This means EF is not a pure measure of contractility."
+},
+{
+"type": "paragraph",
+"text": "A small, underfilled LV may have a visually high EF because it squeezes down vigorously on a small volume, but the absolute stroke volume may be poor. The patient may still have low cardiac output. A vasoplegic patient may look hyperdynamic because afterload is low. A patient with high SVR may appear to have reduced EF because the LV cannot eject against the excessive load. A patient with severe mitral regurgitation may have an apparently good EF because blood ejects backward into the low-pressure left atrium, while forward systemic output remains poor."
+},
+{
+"type": "paragraph",
+"text": "Therefore, echo interpretation should include chamber size, stroke volume estimate, valve function, RV appearance, septal motion, filling pressures and haemodynamic context. The nurse should avoid equating a single EF description with the whole pump picture."
+},
+{
+"type": "subheading",
+"text": "Inotropy: increasing contractile force"
+},
+{
+"type": "paragraph",
+"text": "Inotropy means alteration of myocardial contractile force. Positive inotropes increase force generation. In CT-ICU, inotropes are used when cardiac output is inadequate because contractility is insufficient after preload, rhythm, afterload and mechanical causes have been considered. Inotropes should not be thought of as generic blood pressure drugs. Their endpoint is improved flow and oxygen delivery, not merely a higher arterial pressure."
+},
+{
+"type": "paragraph",
+"text": "The haemodynamic response to inotropy should be assessed by cardiac index, pulse pressure, arterial waveform, SvO2, lactate, urine output, echo, filling pressures and vasoactive balance. A useful inotropic response is improved forward flow without unacceptable tachycardia, arrhythmia, myocardial ischaemia, hypotension or excessive oxygen demand."
+},
+{
+"type": "subheading",
+"text": "Adrenaline"
+},
+{
+"type": "paragraph",
+"text": "Adrenaline is a catecholamine with beta-1, beta-2 and alpha effects depending on dose. Beta-1 stimulation increases heart rate and contractility. Beta-2 effects can cause vasodilation at lower doses. Alpha effects become more prominent at higher doses and increase vascular tone. In CT-ICU, adrenaline can improve cardiac output in severe myocardial dysfunction but may increase tachycardia, arrhythmia risk and myocardial oxygen demand."
+},
+{
+"type": "paragraph",
+"text": "Adrenaline can also increase lactate through beta-2 mediated metabolic effects. This means lactate interpretation becomes more complex. A rising lactate on adrenaline may reflect worsening oxygen delivery, increased metabolic production from the drug, or both. The nurse should interpret lactate with cardiac index, SvO2, urine output, acid-base state, dose trend and clinical perfusion."
+},
+{
+"type": "subheading",
+"text": "Dobutamine"
+},
+{
+"type": "paragraph",
+"text": "Dobutamine is primarily a beta-adrenergic inotrope. It increases contractility and can increase heart rate. It may reduce SVR through beta-2 vasodilation. This can be useful when low cardiac output is paired with high SVR, but it can worsen hypotension in vasoplegic patients if vascular tone is already low."
+},
+{
+"type": "paragraph",
+"text": "Dobutamine's bedside success should be judged by improved cardiac index, pulse pressure, SvO2, lactate trend and urine output. Watch for tachyarrhythmias, worsening myocardial ischaemia, hypotension and excessive heart rate. In a patient with new rapid AF, dobutamine may worsen rate control."
+},
+{
+"type": "subheading",
+"text": "Milrinone"
+},
+{
+"type": "paragraph",
+"text": "Milrinone is a phosphodiesterase-3 inhibitor. It increases intracellular cyclic AMP, improving inotropy and lusitropy, meaning relaxation. It also causes vasodilation in the systemic and pulmonary circulations, so it can reduce both SVR and PVR. This combination is sometimes called inodilation."
+},
+{
+"type": "paragraph",
+"text": "Milrinone is particularly relevant in RV dysfunction and pulmonary hypertension contexts because reducing PVR may help RV output. However, systemic vasodilation can cause hypotension, especially in vasoplegia. Milrinone is renally cleared, so accumulation can occur in renal dysfunction, increasing the risk of hypotension and arrhythmia. The nurse should watch MAP, vasopressor requirement, rhythm, urine output, renal function, lactate and cardiac output response."
+},
+{
+"type": "subheading",
+"text": "Levosimendan"
+},
+{
+"type": "paragraph",
+"text": "Levosimendan is a calcium sensitiser. It increases the sensitivity of troponin C to calcium, improving contractile force without the same degree of intracellular calcium increase as catecholamines. It also has vasodilatory effects through potassium channel opening. Use varies by country, centre and patient group. It may be considered in selected severe LV dysfunction, low-output or cardiac surgery contexts depending on local practice."
+},
+{
+"type": "paragraph",
+"text": "Because levosimendan can vasodilate, hypotension is a key concern. Its active metabolites can have prolonged effects. The nurse should understand that it is not an immediate titratable catecholamine-like rescue drug in the same way as adrenaline or dobutamine. Monitoring should focus on blood pressure, rhythm, cardiac output, lactate, SvO2 and vasopressor requirement."
+},
+{
+"type": "subheading",
+"text": "Negative inotropy and avoidable myocardial depression"
+},
+{
+"type": "paragraph",
+"text": "Negative inotropy means reduced contractile force. Some drugs can reduce contractility, including beta-blockers, some calcium-channel blockers, volatile anaesthetic effects, high-dose sedatives in vulnerable patients and antiarrhythmics depending on agent and dose. Acidosis, hypoxia, hypothermia and electrolyte derangement can also function as negative inotropic conditions."
+},
+{
+"type": "paragraph",
+"text": "This does not mean these drugs are always wrong. Beta-blockade may be appropriate for rate control or aortic protection. Sedation may reduce oxygen consumption and sympathetic stress. Amiodarone may stabilise rhythm. The point is that every intervention has haemodynamic consequences. The nurse should observe whether a treatment improves the overall physiology or causes falling cardiac output, hypotension, bradycardia or worsening perfusion."
+},
+{
+"type": "subheading",
+"text": "Electrolytes and contractility"
+},
+{
+"type": "paragraph",
+"text": "Electrolytes are contractility and rhythm tools. Potassium affects resting membrane potential and arrhythmia risk. Hypokalaemia increases ectopy and AF risk. Hyperkalaemia can cause conduction delay, bradyarrhythmia and arrest. Magnesium stabilises myocardial electrical activity and is often targeted after cardiac surgery to reduce atrial and ventricular arrhythmia risk. Ionised calcium affects contraction, vascular tone and coagulation."
+},
+{
+"type": "paragraph",
+"text": "In many post-cardiac surgery practices, potassium is often maintained around 4.0 to 4.5 mmol/L, magnesium at least around 0.8 to 1.0 mmol/L depending on local units and protocol, and ionised calcium around 1.1 to 1.3 mmol/L. Local replacement protocols vary, but the physiology is stable: deranged electrolytes make rhythm and contractility worse."
+},
+{
+"type": "subheading",
+"text": "Contractility, oxygen supply and myocardial oxygen demand"
+},
+{
+"type": "paragraph",
+"text": "The myocardium needs oxygen to contract. Myocardial oxygen supply depends on coronary perfusion pressure, diastolic time, arterial oxygen content and coronary patency. Myocardial oxygen demand rises with tachycardia, increased contractility, high wall stress, hypertension, agitation, shivering and pain. Inotropes can improve output but also increase demand. This is a major balancing act after CABG and in ischaemic patients."
+},
+{
+"type": "paragraph",
+"text": "A patient with low contractility from ischaemia may need improved coronary perfusion and reduced demand as much as inotropy. Tachycardia, hypertension, anaemia, hypoxaemia and fever all worsen the oxygen balance. New ST changes, ventricular ectopy, rising troponin in context, new regional wall motion abnormality or refractory low output require urgent escalation."
+},
+{
+"type": "subheading",
+"text": "Contractility in post-CABG patients"
+},
+{
+"type": "paragraph",
+"text": "After CABG, contractility may be impaired by global stunning or regional ischaemia. Global stunning may produce diffuse low output that improves with time and support. Regional ischaemia from graft occlusion, spasm or technical complication may produce new ST changes, arrhythmias, regional wall-motion abnormality and persistent shock. The bedside nurse should treat sudden or worsening pump failure as significant until proven otherwise."
+},
+{
+"type": "paragraph",
+"text": "Cardiac output must be interpreted alongside myocardial oxygen balance. High-dose inotropes may improve output but increase myocardial oxygen demand. Tachycardia shortens diastole and reduces coronary perfusion time. Anaemia reduces oxygen content. Hypotension reduces coronary perfusion pressure. The safe strategy is coordinated: maintain adequate perfusion pressure, optimise rhythm, avoid excessive rate, correct oxygen delivery factors and escalate for ischaemia concerns."
+},
+{
+"type": "subheading",
+"text": "Contractility in valve and TAVI patients"
+},
+{
+"type": "paragraph",
+"text": "Valve disease changes myocardial structure and loading. Aortic stenosis causes pressure overload and LV hypertrophy. The LV may remain stiff after valve replacement. Mitral disease can cause pulmonary hypertension and RV dysfunction. Severe regurgitation can create chronic volume loading. After valve intervention, the ventricle faces a new loading condition immediately, and contractility may appear different because preload and afterload have changed."
+},
+{
+"type": "paragraph",
+"text": "TAVI patients may develop conduction disturbance. Bradycardia, AV block or ventricular dyssynchrony can reduce effective output even if myocardial contractility is not the primary problem. In these patients, contractility assessment must be integrated with rhythm and AV timing."
+},
+{
+"type": "subheading",
+"text": "Contractility in aortic surgery patients"
+},
+{
+"type": "paragraph",
+"text": "Aortic surgery patients may have long bypass and cross-clamp times, circulatory arrest, myocardial protection complexity and major afterload management requirements. Contractility may be depressed, but blood pressure must also be controlled to protect the repair. This creates tension between maintaining organ perfusion and avoiding excessive wall stress. The nurse should monitor cardiac index, lactate, urine output, neurological status, bleeding, MAP and systolic pressure in relation to the ordered plan."
+},
+{
+"type": "subheading",
+"text": "Bedside contractility assessment sequence"
+},
+{
+"type": "steps",
+"title": "Bedside contractility interpretation sequence",
+"items": [
+"Confirm the arterial line is reliable. A damped trace can mimic weak ejection and narrow pulse pressure.",
+"Assess rhythm, rate, pacing mode, capture and AV synchrony. Poor rhythm can look like poor contractility because filling and ejection become inefficient.",
+"Assess preload and congestion. A weak arterial waveform may be underfilling, but high CVP or PAWP may suggest the ventricle is full and failing.",
+"Assess afterload. High SVR can reduce stroke volume in a weak LV. High PVR can cause RV failure and low LV filling.",
+"Review cardiac output or cardiac index if available. Low CI with poor perfusion supports clinically important pump dysfunction or low stroke volume.",
+"Review SvO2, lactate, urine output, base excess, skin perfusion and mentation if awake.",
+"Check metabolic contributors: temperature, pH, PaCO2, oxygenation, haemoglobin, potassium, magnesium and ionised calcium.",
+"Review surgical causes: graft compromise, valve obstruction, residual regurgitation, tamponade, bleeding, RV infarction or pulmonary hypertension crisis.",
+"Use echo when the mechanism is unclear or deterioration is significant. Echo can identify LV function, RV failure, tamponade, valve problems and chamber filling.",
+"Evaluate response to therapy by flow and perfusion, not just MAP. A useful inotropic response improves CI, pulse pressure, SvO2, lactate trajectory or urine output without unacceptable tachyarrhythmia or ischaemia."
+]
+},
+{
+"type": "diagram",
+"title": "Contractility assessment map",
+"description": "A flowchart showing how to separate poor contractility from preload, afterload, rhythm and obstruction problems.",
+"layout": "algorithm",
+"elements": [
+"Low cardiac output or poor perfusion",
+"Validate arterial waveform",
+"Check rhythm and pacing",
+"Assess preload and congestion",
+"Assess SVR and PVR",
+"Check metabolic factors",
+"Use echo for LV/RV function and obstruction",
+"Classify as contractility failure, preload problem, afterload problem, rhythm problem, tamponade or mixed state"
+],
+"teachingPoints": [
+"Poor contractility is a diagnosis made in context.",
+"A weak ventricle can be harmed by unnecessary fluid or excessive afterload.",
+"Inotropes should improve flow and oxygen delivery, not just monitor numbers."
+]
+}
+]
+},
+"pearls": {
+"title": "Clinical Pearls",
+"content": [
+{
+"type": "heading",
+"text": "Clinical Pearls"
+},
+{
+"type": "pearl",
+"title": "Pearl 1: EF is not contractility",
+"text": "Ejection fraction is load-dependent. A hyperdynamic underfilled LV may still produce poor stroke volume. A low-afterload vasoplegic patient may look vigorous but remain hypotensive. A high-afterload patient may look weak because ejection is opposed. Interpret EF with preload, afterload, stroke volume, cardiac index and perfusion."
+},
+{
+"type": "pearl",
+"title": "Pearl 2: a full weak ventricle does not need endless fluid",
+"text": "If CVP or PAWP rises without improved stroke volume or cardiac index, fluid is not solving the main problem. Consider contractility, afterload, rhythm, tamponade, RV failure, valve obstruction or surgical complication."
+},
+{
+"type": "pearl",
+"title": "Pearl 3: myocardial stunning is common but not a safe assumption forever",
+"text": "Post-bypass stunning can improve over time with support, but persistent, sudden or worsening low output requires investigation. Graft failure, coronary spasm, air embolus, valve obstruction, tamponade and RV failure can mimic stunning."
+},
+{
+"type": "pearl",
+"title": "Pearl 4: inotropy increases oxygen demand",
+"text": "Inotropes may improve cardiac output, but they can also increase heart rate, myocardial oxygen consumption and arrhythmia risk. The aim is improved oxygen delivery with acceptable myocardial cost."
+},
+{
+"type": "pearl",
+"title": "Pearl 5: adrenaline can complicate lactate interpretation",
+"text": "Adrenaline may raise lactate through beta-mediated metabolic effects. Rising lactate on adrenaline must still be taken seriously, but interpret it with cardiac index, SvO2, urine output, base excess and clinical perfusion."
+},
+{
+"type": "pearl",
+"title": "Pearl 6: milrinone is useful but can unmask hypotension",
+"text": "Milrinone improves inotropy and reduces PVR/SVR, which can help RV dysfunction or pulmonary hypertension. However, systemic vasodilation may cause hypotension, especially in vasoplegia. Renal dysfunction increases accumulation risk."
+},
+{
+"type": "pearl",
+"title": "Pearl 7: the RV fails from afterload as much as contractility",
+"text": "An RV that looks weak may be failing because PVR is high. Treat hypoxia, hypercapnia, acidosis and excessive PEEP. Supporting contractility alone will not work if RV afterload remains severe."
+},
+{
+"type": "pearl",
+"title": "Pearl 8: ionised calcium is a contractility variable",
+"text": "Low ionised calcium can impair myocardial contraction and vascular tone, particularly after transfusion, bypass or citrate exposure. Correcting calcium may improve haemodynamics when it is genuinely low."
+},
+{
+"type": "pearl",
+"title": "Pearl 9: response to therapy should be measured by flow and organs",
+"text": "A higher MAP is not enough. Look for improved cardiac index, stronger pulse pressure, better urine output, falling lactate, improved SvO2, improved skin perfusion and reduced filling pressure stress."
+}
+]
+},
+"equipment": {
+"title": "Equipment Tie-In",
+"content": [
+{
+"type": "heading",
+"text": "Equipment Tie-In"
+},
+{
+"type": "subheading",
+"text": "Arterial line"
+},
+{
+"type": "paragraph",
+"text": "The arterial line gives immediate mechanical clues about contractility. A brisk systolic upstroke and adequate pulse pressure suggest effective ejection if waveform fidelity is good. A slow upstroke, weak waveform and narrow pulse pressure may suggest poor contractility or low stroke volume. However, overdamping can mimic poor ejection, so line quality must be checked before interpreting contractility from the waveform."
+},
+{
+"type": "table",
+"title": "Arterial waveform clues to contractility",
+"headers": [
+"Finding",
+"Possible contractility meaning",
+"Other causes",
+"Action"
+],
+"rows": [
+[
+"Weak upstroke",
+"Poor LV pressure generation",
+"Overdamping, low preload, high afterload, aortic stenosis physiology",
+"Check line, preload, afterload, echo and CI"
+],
+[
+"Narrow pulse pressure",
+"Low stroke volume from weak contraction",
+"Tamponade, RV failure, hypovolaemia, overdamping",
+"Assess CVP, drains, echo, lactate, SvO2"
+],
+[
+"MAP rises but pulse pressure narrows",
+"Afterload may be worsening ejection",
+"Damping or vasopressor effect",
+"Check CI, SVR, lactate and perfusion"
+],
+[
+"Improved pulse pressure after inotrope",
+"Improved stroke volume",
+"Reduced afterload or rhythm change may also contribute",
+"Correlate with CI, SvO2, lactate and urine output"
+]
+]
+},
+{
+"type": "subheading",
+"text": "Pulmonary artery catheter"
+},
+{
+"type": "paragraph",
+"text": "A pulmonary artery catheter can show the haemodynamic consequences of contractility. Low cardiac index with high or rising PAWP may suggest LV systolic dysfunction or poor forward ejection. Low cardiac index with high CVP and high PA pressures may suggest RV failure or high PVR. SvO2 helps show whether the low output is causing high oxygen extraction. SVR and PVR calculations help determine whether afterload is contributing."
+},
+{
+"type": "subheading",
+"text": "Echo"
+},
+{
+"type": "paragraph",
+"text": "Echo is the central bedside tool for visualising contractility. It can show global LV dysfunction, regional wall-motion abnormality, RV dilation, poor RV free-wall movement, septal shift, valve obstruction, residual regurgitation and tamponade. Echo also identifies underfilling, which can mimic good contractility if the small LV squeezes vigorously but ejects little absolute volume."
+},
+{
+"type": "subheading",
+"text": "ECG and pacing box"
+},
+{
+"type": "paragraph",
+"text": "Rhythm and pacing strongly influence apparent contractility. A poorly timed rhythm can reduce filling and ejection even when the myocardium can contract. VVI pacing may produce electrical capture but poor haemodynamics if atrial contribution is lost. DDD pacing may improve output by restoring AV synchrony. Failure to capture or intermittent capture can present as low output or hypotension."
+},
+{
+"type": "subheading",
+"text": "ABG and blood gas analyser"
+},
+{
+"type": "paragraph",
+"text": "ABG and point-of-care testing reveal reversible contractility stressors. pH, PaCO2, lactate, ionised calcium, potassium, haemoglobin and oxygenation all matter. Acidosis and hypercapnia worsen myocardial performance and RV afterload. Low ionised calcium impairs contraction. Anaemia reduces oxygen content. Hypoxaemia worsens myocardial oxygen supply and raises PVR."
+},
+{
+"type": "subheading",
+"text": "Infusion pumps and vasoactive delivery"
+},
+{
+"type": "paragraph",
+"text": "Inotropes are delivered by infusion pumps and central access. Line accuracy matters. A disconnection, occlusion, wrong concentration, wrong pump programming, dead space delay or incompatible infusion can cause rapid haemodynamic change. Any sudden deterioration in a patient dependent on inotropes should prompt an immediate check of the line, pump, syringe, concentration, access site and recent bag/syringe changes."
+},
+{
+"type": "subheading",
+"text": "IABP and mechanical support"
+},
+{
+"type": "paragraph",
+"text": "The IABP does not directly increase contractility, but it reduces LV afterload and augments diastolic coronary perfusion. By reducing the load against which the LV ejects and improving myocardial oxygen supply, it can improve effective cardiac output in selected patients. ECMO or ventricular assist support may be required when native contractility is insufficient despite pharmacological and loading optimisation."
+},
+{
+"type": "diagram",
+"title": "Inotrope response monitoring map",
+"description": "A diagram showing what to check before and after starting or titrating inotrope support.",
+"layout": "algorithm",
+"elements": [
+"Baseline rhythm and pacing",
+"Arterial waveform and pulse pressure",
+"Cardiac index or stroke volume",
+"CVP, PAWP and PA pressures",
+"Lactate and base excess",
+"SvO2 or ScvO2",
+"Urine output",
+"Temperature, pH, ionised calcium, potassium and magnesium",
+"Arrhythmia and ischaemia monitoring",
+"Pump and line safety checks"
+],
+"teachingPoints": [
+"Inotrope success is measured by flow and organ response.",
+"Tachyarrhythmia and ischaemia are key adverse effects.",
+"Metabolic correction can improve inotrope responsiveness."
+]
+}
+]
+},
+"targets": {
+"title": "Targets and Numbers",
+"content": [
+{
+"type": "heading",
+"text": "Targets and Numbers"
+},
+{
+"type": "paragraph",
+"text": "Contractility has no single direct bedside number. It is interpreted through flow, pressure, filling, organ perfusion, echo and response to therapy. The goal is adequate forward flow and oxygen delivery with acceptable filling pressures, afterload and myocardial oxygen demand."
+},
+{
+"type": "targetTable",
+"title": "Contractility-related targets",
+"headers": [
+"Variable",
+"Typical value or target",
+"Why it matters",
+"Concern pattern"
+],
+"rows": [
+[
+"Cardiac index",
+"At least 2.2 L/min/m2; often 2.5 to 4.0 when stable",
+"Main flow marker",
+"Low CI with poor perfusion suggests pump or stroke volume problem"
+],
+[
+"Pulse pressure",
+"Often 30 to 50 mmHg, context-dependent",
+"Stroke volume clue",
+"Narrowing pulse pressure with weak upstroke and rising lactate"
+],
+[
+"SvO2",
+"Usually 60 to 80 percent; often at least 65 to 70 percent if context agrees",
+"Oxygen extraction marker",
+"Low SvO2 suggests oxygen delivery is inadequate or demand is high"
+],
+[
+"Lactate",
+"Less than 2 mmol/L or falling",
+"Perfusion and metabolic stress marker",
+"Rising lactate despite acceptable MAP"
+],
+[
+"Urine output",
+"At least 0.5 mL/kg/hr",
+"Renal perfusion and congestion marker",
+"Oliguria with low CI, rising CVP or rising lactate"
+],
+[
+"Ionised calcium",
+"Often around 1.1 to 1.3 mmol/L depending local practice",
+"Required for contraction and vascular tone",
+"Low ionised calcium with hypotension, poor contractility or transfusion"
+],
+[
+"Potassium",
+"Often 4.0 to 4.5 mmol/L after cardiac surgery depending local protocol",
+"Electrical stability and rhythm support",
+"Hypokalaemia or hyperkalaemia causing arrhythmia or conduction issues"
+],
+[
+"Magnesium",
+"Often at least 0.8 to 1.0 mmol/L depending local units and protocol",
+"Electrical stability and arrhythmia prevention",
+"Low magnesium with AF, ectopy or refractory hypokalaemia"
+],
+[
+"Temperature",
+"Aim normothermia unless otherwise directed",
+"Hypothermia impairs contractility and coagulation",
+"Persistent hypothermia with low output, arrhythmia or bleeding"
+],
+[
+"pH",
+"Near normal; avoid severe acidosis",
+"Acidosis reduces contractility and catecholamine responsiveness",
+"Low pH with rising lactate and escalating vasoactives"
+]
+]
+},
+{
+"type": "targetTable",
+"title": "Inotrope comparison in CT-ICU physiology",
+"headers": [
+"Drug",
+"Main mechanism",
+"Haemodynamic effect",
+"Key nursing concerns"
+],
+"rows": [
+[
+"Adrenaline",
+"Beta-1 inotropy/chronotropy with alpha effects at higher dose",
+"Increases contractility, HR and vascular tone depending dose",
+"Tachyarrhythmia, myocardial oxygen demand, lactate rise, ischaemia"
+],
+[
+"Dobutamine",
+"Beta-mediated inotropy with beta-2 vasodilation",
+"Increases contractility and may reduce SVR",
+"Hypotension, tachycardia, AF/ectopy, ischaemia"
+],
+[
+"Milrinone",
+"PDE-3 inhibition causing inotropy, lusitropy and vasodilation",
+"Increases contractility, reduces SVR and PVR",
+"Hypotension, arrhythmia, renal accumulation, need for vasopressor support"
+],
+[
+"Levosimendan",
+"Calcium sensitisation with vasodilatory effects",
+"Improves contractile efficiency in selected contexts",
+"Hypotension, prolonged effect, local availability and protocol variation"
+],
+[
+"Noradrenaline",
+"Mainly alpha vasoconstriction with some beta-1 effect",
+"Restores MAP and may support coronary/RV perfusion",
+"Excessive SVR can reduce LV stroke volume"
+],
+[
+"Vasopressin",
+"V1-mediated vasoconstriction",
+"Restores vascular tone in vasoplegia",
+"Excess vasoconstriction, ischaemia risk, local dosing protocols"
+]
+]
+},
+{
+"type": "targetTable",
+"title": "Contractility failure patterns",
+"headers": [
+"Pattern",
+"Likely findings",
+"Mechanism",
+"Priority"
+],
+"rows": [
+[
+"LV stunning",
+"Low CI, narrow pulse pressure, high/normal PAWP, low SvO2",
+"Post-bypass contractile dysfunction",
+"Support flow, correct metabolic factors, echo and exclude ischaemia"
+],
+[
+"RV failure",
+"High CVP, high PA pressure, RV dilation, low LV filling",
+"RV contractility failure or high PVR",
+"Reduce PVR, support RV and avoid excessive fluid"
+],
+[
+"Ischaemic dysfunction",
+"ST changes, arrhythmia, regional wall-motion abnormality, low output",
+"Graft/coronary supply problem or oxygen-demand mismatch",
+"Urgent escalation and coronary/echo assessment"
+],
+[
+"Metabolic myocardial depression",
+"Low output with acidosis, hypocalcaemia, hypothermia or electrolyte disturbance",
+"Cellular contraction impaired",
+"Correct pH, temperature, calcium, potassium and magnesium"
+],
+[
+"Afterload-induced poor output",
+"High SVR, normal/high MAP, low CI, cold peripheries",
+"LV cannot eject against resistance",
+"Review vasopressor burden, inotropy and afterload strategy"
+],
+[
+"Rhythm-related low output",
+"AF, bradycardia, AV block, pacing dyssynchrony with low perfusion",
+"Filling and timing problem mimicking pump failure",
+"Correct rate, rhythm, pacing and AV synchrony"
+]
+]
+},
+{
+"type": "steps",
+"title": "Escalation triggers for contractility concerns",
+"items": [
+"Cardiac index below 2.2 L/min/m2 with rising lactate, falling SvO2 or oliguria.",
+"Weak arterial upstroke and narrow pulse pressure despite apparently adequate preload.",
+"Rising PAWP or CVP without improved cardiac output after fluid.",
+"New ST changes, new ventricular arrhythmias or suspected graft compromise.",
+"New regional wall-motion abnormality or severe LV/RV dysfunction on echo.",
+"Escalating inotrope or vasopressor requirement without improved perfusion.",
+"Severe acidosis, hypocalcaemia or hypothermia contributing to low output.",
+"RV dilation, rising CVP, septal shift and low LV filling in a pulmonary hypertension or RV-risk patient.",
+"Sudden haemodynamic collapse in a patient dependent on inotrope infusion, prompting immediate pump and line check."
+]
+}
+]
+}
+},
+"quiz": [
+{
+"difficulty": "Bedside Basics",
+"question": "What is contractility?",
+"options": [
+"Intrinsic myocardial force generation at a given preload and afterload.",
+"The total amount of fluid in the body.",
+"The pressure in the right atrium only.",
+"The oxygen saturation measured by a pulse oximeter."
+],
+"answer": 0,
+"explanation": "Contractility is the myocardium's intrinsic ability to generate force, independent of preload and afterload. It is inferred from flow, waveform, echo and perfusion markers rather than measured directly by one simple number."
+},
+{
+"difficulty": "Bedside Basics",
+"question": "What does positive inotropy mean?",
+"options": [
+"Increased force of myocardial contraction.",
+"Reduced pulmonary vascular resistance only.",
+"Increased total body water.",
+"Reduced heart rate without changing contraction."
+],
+"answer": 0,
+"explanation": "Positive inotropy means increased contractile force. Inotropes are used to improve forward flow when contractility is inadequate, but they must be assessed by cardiac output, perfusion and adverse effects."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "A patient has CVP 16 mmHg, PAWP 20 mmHg, weak arterial upstroke, narrow pulse pressure, low CI and worsening oxygenation after repeated fluid. What is the safest interpretation?",
+"options": [
+"More fluid is unlikely to help; the ventricle may be full but failing to eject.",
+"The fluid strategy is successful because filling pressures increased.",
+"Low contractility is impossible if CVP is high.",
+"The patient must have isolated hypoxaemia only."
+],
+"answer": 0,
+"explanation": "Rising filling pressures without improved cardiac output suggest pressure without flow benefit. The limitation may be contractility, afterload, tamponade, RV failure or valve pathology. Repeated fluid may worsen pulmonary oedema and venous congestion."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "Why is ejection fraction not a pure measure of contractility?",
+"options": [
+"Because EF changes with preload and afterload.",
+"Because EF only measures potassium.",
+"Because EF is the same as CVP.",
+"Because EF directly measures lactate."
+],
+"answer": 0,
+"explanation": "EF is load-dependent. An underfilled LV can look hyperdynamic with low absolute stroke volume. A low-afterload ventricle can appear vigorous. A high-afterload ventricle can appear weak because ejection is opposed. Contractility must be interpreted with loading conditions and flow."
+},
+{
+"difficulty": "Expert Level",
+"question": "A patient on adrenaline has rising lactate. What is the most accurate interpretation?",
+"options": [
+"Adrenaline can contribute to lactate, but inadequate oxygen delivery must still be assessed.",
+"Adrenaline makes lactate meaningless and it should be ignored.",
+"Rising lactate always proves the patient is improving.",
+"Lactate only reflects oxygen saturation."
+],
+"answer": 0,
+"explanation": "Adrenaline can raise lactate through beta-mediated metabolic effects, but rising lactate may also reflect shock and inadequate oxygen delivery. Interpret it with cardiac index, SvO2, urine output, base excess, dose trend and clinical perfusion."
+},
+{
+"difficulty": "Expert Level",
+"question": "Why can milrinone help RV failure but worsen systemic hypotension?",
+"options": [
+"It improves inotropy and lowers PVR, but also lowers SVR through vasodilation.",
+"It only increases SVR.",
+"It directly transfuses haemoglobin.",
+"It has no effect on vascular tone."
+],
+"answer": 0,
+"explanation": "Milrinone is an inodilator. It improves contractility and can reduce PVR, which may help RV output. It also reduces systemic vascular resistance and can cause hypotension, especially in vasoplegia or hypovolaemia."
+}
+],
+"diagrams": [
+{
+"type": "diagram",
+"title": "Contractility determinant map",
+"description": "A flowchart showing the cellular and bedside factors that influence contractility.",
+"layout": "flowchart",
+"elements": [
+"Electrical depolarisation",
+"Calcium entry",
+"Sarcoplasmic reticulum calcium release",
+"Troponin C binding",
+"Actin-myosin cross-bridge cycling",
+"ATP availability",
+"Myocardial contraction",
+"Stroke volume",
+"Cardiac output",
+"Oxygen delivery"
+],
+"teachingPoints": [
+"Calcium is central to contraction.",
+"Acidosis, hypothermia and ischaemia impair cellular contraction.",
+"Contractility must be judged by flow and perfusion."
+]
+},
+{
+"type": "diagram",
+"title": "Poor contractility differential",
+"description": "An algorithm separating true pump weakness from preload, afterload, rhythm and obstruction problems.",
+"layout": "algorithm",
+"elements": [
+"Low cardiac output",
+"Check arterial waveform quality",
+"Check rhythm and pacing",
+"Assess preload and congestion",
+"Assess SVR and PVR",
+"Check pH, temperature and electrolytes",
+"Use echo for LV/RV function",
+"Exclude tamponade, graft problem, valve obstruction and RV failure"
+],
+"teachingPoints": [
+"Low output has several mechanisms.",
+"True contractility failure is diagnosed in context.",
+"Echo and haemodynamic trends are essential."
+]
+},
+{
+"type": "diagram",
+"title": "Inotrope effect comparison",
+"description": "A comparison chart showing adrenaline, dobutamine, milrinone and levosimendan effects on contractility, heart rate, SVR, PVR and key risks.",
+"layout": "comparison",
+"elements": [
+"Adrenaline: inotropy, chronotropy, alpha effect at higher doses, lactate and arrhythmia risk",
+"Dobutamine: beta-mediated inotropy, possible SVR reduction, tachyarrhythmia risk",
+"Milrinone: inotropy, lusitropy, SVR/PVR reduction, hypotension and renal accumulation risk",
+"Levosimendan: calcium sensitisation, vasodilation, prolonged effect"
+],
+"teachingPoints": [
+"Inotropes are not interchangeable.",
+"A drug can improve cardiac output but worsen hypotension or arrhythmia.",
+"Measure response by organ perfusion and oxygen delivery."
+]
+}
+],
+"references": [
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Physiology, Cardiac Muscle",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK572070/](https://www.ncbi.nlm.nih.gov/books/NBK572070/)",
+"supports": "Supports myocardial contraction physiology, excitation-contraction coupling and calcium-dependent contractile function."
+},
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Inotropes and Vasopressors",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK482411/](https://www.ncbi.nlm.nih.gov/books/NBK482411/)",
+"supports": "Supports mechanisms and clinical use of common inotropes and vasopressors."
+},
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Cardiac Output",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK470455/](https://www.ncbi.nlm.nih.gov/books/NBK470455/)",
+"supports": "Supports preload, afterload and contractility as determinants of stroke volume and cardiac output."
+},
+{
+"sourceName": "Journal of Cardiothoracic and Vascular Anesthesia / PMC",
+"title": "Postoperative Care of the Cardiac Surgical Patient",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC7120630/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7120630/)",
+"supports": "Supports post-cardiac surgery haemodynamic management, low cardiac output considerations and vasoactive support context."
+},
+{
+"sourceName": "Frontiers in Pediatrics / PMC",
+"title": "Definitions of low cardiac output syndrome after cardiac surgery and their effect on incidence, treatment and outcome",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC9558721/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9558721/)",
+"supports": "Supports low cardiac output syndrome after cardiac surgery as inadequate pump function causing reduced oxygen delivery and tissue hypoxia."
+},
+{
+"sourceName": "Critical Care / PMC",
+"title": "Clinical review: Practical recommendations on the management of perioperative heart failure in cardiac surgery",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC2887098/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2887098/)",
+"supports": "Supports perioperative cardiac surgery heart failure management, including inotropes and mechanical support considerations."
+},
+{
+"sourceName": "Pulmonary Circulation / PMC",
+"title": "Right ventricular failure in pulmonary hypertension: diagnosis and new perspectives on vascular and direct right ventricular treatment",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC4839096/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4839096/)",
+"supports": "Supports RV failure physiology, RV afterload sensitivity and pulmonary vascular interaction."
+},
+{
+"sourceName": "BJA Education / PMC",
+"title": "Levosimendan in cardiac surgery and critical care",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC7808086/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7808086/)",
+"supports": "Supports levosimendan mechanism as a calcium sensitiser and its haemodynamic considerations in cardiac surgery and critical care."
+}
+]
 }

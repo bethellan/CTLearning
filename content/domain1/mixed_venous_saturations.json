@@ -1,102 +1,893 @@
 {
   "id": "mixed-venous-saturations",
-  "domain": "domain1",
-  "domainName": "Physiology Foundations",
-  "domainColour": "#0B5FFF",
+  "domain": 1,
+  "domainTitle": "Physiology Foundations",
   "title": "Mixed Venous Saturations: SvO2 and ScvO2",
+  "file": "mixed_venous_saturations.json",
   "sections": {
     "abridged": {
-      "content": "<h3>Mixed venous saturation - the global oxygen balance signal</h3>\n<p><strong>SvO₂</strong> is oxygen saturation in pulmonary artery blood after venous blood from the whole body has mixed. It reflects the balance between oxygen delivery and oxygen consumption. A usual range is 60-80%, with many CTICU targets around ≥65-70% when the rest of the picture agrees.</p>\n<p><strong>ScvO₂</strong> is central venous oxygen saturation from the SVC/right atrial region. It is not identical to SvO₂ because it does not fully include lower body and coronary sinus contributions.</p>\n<p>Low SvO₂ usually means high extraction from low delivery, high demand, or both. High SvO₂ is not automatically good; it may indicate impaired extraction, shunting, sepsis, hypothermia, deep sedation, mitochondrial dysfunction, or sampling error.</p>"
+      "title": "Abridged Snapshot",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Mixed venous saturation: oxygen left after the tissues have taken what they need"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mixed venous oxygen saturation, or SvO2, is the oxygen saturation of blood in the pulmonary artery after venous blood from the whole body has mixed. It reflects the balance between oxygen delivery and oxygen consumption. If oxygen delivery is adequate for tissue demand, enough oxygen remains in venous blood and SvO2 stays within an acceptable range. If delivery falls or demand rises, tissues extract more oxygen and SvO2 falls."
+        },
+        {
+          "type": "keyterm",
+          "term": "SvO2",
+          "definition": "SvO2 means mixed venous oxygen saturation. It is measured from pulmonary artery blood, usually through a pulmonary artery catheter. It represents venous blood after mixing from the superior vena cava, inferior vena cava and coronary sinus."
+        },
+        {
+          "type": "keyterm",
+          "term": "ScvO2",
+          "definition": "ScvO2 means central venous oxygen saturation. It is usually measured from blood in the superior vena cava or near the right atrium through a central venous catheter. It is related to SvO2 but is not identical because it does not fully include lower body and coronary sinus venous blood."
+        },
+        {
+          "type": "keyterm",
+          "term": "Oxygen extraction",
+          "definition": "Oxygen extraction is the amount or fraction of delivered oxygen removed from arterial blood by tissues. When oxygen delivery falls or oxygen consumption rises, extraction increases and venous saturation usually falls."
+        },
+        {
+          "type": "paragraph",
+          "text": "A typical SvO2 range is about 60 to 80 percent. Many CT-ICU clinicians become concerned when SvO2 falls below about 60 to 65 percent, especially if lactate is rising, urine output is poor, cardiac index is low or perfusion looks poor. Some units use a practical target of at least 65 to 70 percent, but the number must always be interpreted with the clinical picture."
+        },
+        {
+          "type": "paragraph",
+          "text": "Low SvO2 is usually a sign that the tissues are extracting more oxygen than usual. The main causes are low cardiac output, low haemoglobin, low arterial oxygen saturation, or increased oxygen consumption. In CT-ICU this may occur with myocardial stunning, tamponade, RV failure, bleeding, anaemia, hypoxaemia, fever, shivering, pain, agitation, seizures, increased work of breathing, rapid AF or sepsis."
+        },
+        {
+          "type": "paragraph",
+          "text": "SvO2 falls when oxygen delivery is inadequate because tissues remove a larger proportion of oxygen from each unit of blood. For example, if cardiac output falls after cardiac surgery, the same haemoglobin and SpO2 may be present, but less oxygen reaches the tissues each minute. The tissues compensate by extracting more oxygen. Venous blood returns with less oxygen remaining, so SvO2 falls."
+        },
+        {
+          "type": "paragraph",
+          "text": "ScvO2 is easier to obtain because it can be sampled from a central venous catheter, but it is not the same as SvO2. ScvO2 samples upper-body venous return more than whole-body mixed venous blood. It does not fully include coronary sinus blood, which is very desaturated because the heart extracts large amounts of oxygen. In shock states, the relationship between ScvO2 and SvO2 can become unpredictable. Trends are useful, but exact equivalence should not be assumed."
+        },
+        {
+          "type": "paragraph",
+          "text": "High SvO2 is not automatically reassuring. A high value can mean oxygen delivery is high and demand is low, but it can also mean tissues are failing to extract or use oxygen. High SvO2 with rising lactate and clinical shock is concerning for impaired extraction, microcirculatory shunting, sepsis, mitochondrial dysfunction, hypothermia, deep sedation or sampling error. Venous saturation is a balance marker, not a standalone proof of safety."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the post-cardiac surgery patient, SvO2 is most useful when interpreted with cardiac index, haemoglobin, SpO2 or SaO2, lactate, urine output, arterial waveform, rhythm, temperature and vasoactive support. A low SvO2 with low cardiac index suggests low-flow oxygen delivery failure. A low SvO2 with normal cardiac output suggests anaemia, hypoxaemia or high demand. A high SvO2 with high lactate suggests impaired extraction or sampling problem until proven otherwise."
+        },
+        {
+          "type": "remember",
+          "text": "SvO2 is oxygen left over after tissue extraction. Low SvO2 usually means delivery is too low, demand is too high, or both. High SvO2 is not automatically good. Always interpret venous saturation with lactate, cardiac output, haemoglobin, oxygenation, temperature, rhythm, urine output and the clinical picture."
+        }
+      ]
     },
     "expanded": {
-      "content": "<h3>Mixed venous saturation - oxygen left after tissue extraction</h3>\n<p><strong>SvO₂</strong> is the percentage of haemoglobin still saturated with oxygen after blood has circulated through the body and returned to the pulmonary artery. It is true mixed venous blood because it includes venous return from the SVC, IVC, and coronary sinus.</p>\n<p>SvO₂ is a global balance marker. It depends on cardiac output, haemoglobin, SaO₂, and VO₂. It does not identify which organ is ischaemic, but it tells you whether whole-body oxygen extraction is under strain.</p>\n<h4>Normal range</h4>\n<p>Usual adult SvO₂ is about 60-80%. Many CTICU clinicians use ≥65-70% as a practical target if lactate, urine output, CI, and perfusion agree. Trends matter. A fall from 75% to 58% is important even if the patient has not yet crashed.</p>\n<h4>Low SvO₂</h4>\n<p>Low SvO₂ means tissues have extracted more oxygen. Causes include low cardiac output, anaemia, hypoxaemia, fever, shivering, agitation, pain, seizures, sepsis, and increased work of breathing.</p>\n<table><tr><th>Cause</th><th>Mechanism</th><th>Clues</th><th>Focus</th></tr><tr><td>Low CO</td><td>Less O₂ delivered/min</td><td>Low CI, cool, oliguria, lactate</td><td>Fix preload/rhythm/contractility/afterload/obstruction</td></tr><tr><td>Anaemia</td><td>Low CaO₂</td><td>Low Hb, bleeding</td><td>Assess bleeding/transfusion need</td></tr><tr><td>Hypoxaemia</td><td>Low SaO₂</td><td>Low SpO₂/PaO₂</td><td>Improve oxygenation</td></tr><tr><td>Shivering/fever</td><td>High VO₂</td><td>Temperature, shivering</td><td>Reduce demand</td></tr></table>\n<h4>High SvO₂</h4>\n<p>High SvO₂ may mean delivery is high and demand is low, but it can also be pathological. In sepsis, microcirculatory shunting, mitochondrial dysfunction, severe inflammation, hypothermia, deep sedation, or sampling error, tissues may fail to extract oxygen, so venous saturation remains high despite tissue hypoxia. High SvO₂ with rising lactate is therefore concerning.</p>\n<h4>SvO₂ versus ScvO₂</h4>\n<p>ScvO₂ is measured from central venous blood, usually near the SVC/right atrium. It is easier to obtain but not the same as SvO₂. It does not fully represent lower body or coronary sinus blood. In shock, the relationship becomes unpredictable, so trends and context are essential.</p>\n<h4>Measurement issues</h4>\n<p>Samples can be wrong if drawn from the wrong port, contaminated by infusions, taken during catheter wedging, or affected by catheter migration/calibration issues. If the number does not match the patient, verify source, waveform, port, sampling technique, calibration, Hb, SaO₂, temperature, rhythm, and recent therapy changes.</p>\n<h4>Bedside use</h4>\n<ol><li><p>Confirm technical validity.</p></li><li><p>Check delivery variables: CO/CI, Hb, SaO₂, MAP.</p></li><li><p>Check demand variables: fever, shivering, pain, work of breathing, sepsis.</p></li><li><p>Compare with lactate, urine output, skin perfusion, and acid-base status.</p></li><li><p>Act on the pattern, not the number alone.</p></li></ol>"
-    },
-    "pearls": {
-      "content": "<h3>Clinical Pearls - Mixed Venous Saturations</h3>\n<h4>Pearl 1 - SvO₂ is oxygen left over</h4>\n<p>It falls when tissues extract more because delivery is low or demand is high.</p>\n<h4>Pearl 2 - High SvO₂ is not always reassuring</h4>\n<p>High SvO₂ with rising lactate suggests impaired extraction, shunt, sepsis, or error.</p>\n<h4>Pearl 3 - ScvO₂ is not SvO₂</h4>\n<p>ScvO₂ trends are useful but cannot be assumed identical to pulmonary artery mixed venous saturation.</p>"
-    },
-    "equipment": {
-      "content": "<h3>Equipment Tie-In - Mixed Venous Saturations</h3>\n<p><strong>PAC</strong> measures true SvO₂ from pulmonary artery blood. Confirm PA waveform and avoid wedged sampling.</p>\n<p><strong>CVC</strong> can provide ScvO₂, but samples must avoid infusion contamination.</p>\n<p><strong>Co-oximetry</strong> measures saturation and can detect dyshemoglobins if available.</p>\n<p><strong>Haemodynamic monitor</strong> should display SvO₂ alongside CI, MAP, CVP, PAWP, SVR/PVR, temperature, and vasoactive support.</p>"
-    },
-    "targets": {
-      "content": "<h3>Targets and Numbers - Mixed Venous Saturations</h3>\n<p>SvO₂ is usually 60-80%. A practical target is often ≥65-70% in CTICU if lactate, urine output, CI, and perfusion agree. ScvO₂ is often >70%, but it is not identical. Low values require assessment for low CO, anaemia, hypoxaemia, or high VO₂. High values with deterioration require concern for impaired extraction, shunting, sepsis, hypothermia, sedation, or error.</p>",
-      "tables": [
+      "title": "Expanded Deep-Dive",
+      "content": [
         {
-          "heading": "Venous saturation interpretation",
+          "type": "heading",
+          "text": "What mixed venous saturation actually represents"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mixed venous oxygen saturation is one of the most useful global oxygen-balance markers available in cardiothoracic ICU, but it is often misunderstood. SvO2 is not a direct measure of cardiac output, not a direct measure of tissue perfusion, and not a direct measure of lactate. It is the oxygen saturation of haemoglobin in pulmonary artery blood after venous blood from the body has returned to the right heart and mixed."
+        },
+        {
+          "type": "paragraph",
+          "text": "The word mixed is important. True mixed venous blood includes venous return from the superior vena cava, inferior vena cava and coronary sinus. The coronary sinus contribution matters because the heart extracts a high proportion of delivered oxygen. Pulmonary artery blood is the best practical location for sampling this mixed venous blood because it has passed through the right heart and contains combined venous return before entering the lungs."
+        },
+        {
+          "type": "paragraph",
+          "text": "SvO2 answers a specific question: after the tissues have extracted oxygen from the arterial blood, how much oxygen remains? If oxygen delivery is high compared with demand, more oxygen remains and SvO2 is higher. If oxygen delivery is low or demand is high, tissues extract more oxygen and SvO2 falls. This is why SvO2 is best understood as a global supply-demand balance signal."
+        },
+        {
+          "type": "subheading",
+          "text": "The physiology behind SvO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oxygen delivery depends on cardiac output and arterial oxygen content. Arterial oxygen content depends mainly on haemoglobin concentration and arterial oxygen saturation. Oxygen consumption depends on metabolic demand. SvO2 sits downstream of these variables. If cardiac output falls, less oxygen is delivered each minute. If haemoglobin falls, less oxygen is carried in each unit of blood. If SaO2 falls, the haemoglobin carries less oxygen. If VO2 rises, tissues require more oxygen. Each of these can lower SvO2."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Fick relationship helps explain this. Oxygen consumption equals cardiac output multiplied by the arterial-venous oxygen content difference. Rearranged conceptually, if oxygen consumption stays the same and cardiac output falls, the arterial-venous oxygen difference must widen. The tissues extract more oxygen from each decilitre of blood. Venous oxygen content and venous saturation fall."
+        },
+        {
+          "type": "paragraph",
+          "text": "This means low SvO2 is not a diagnosis. It is a sign of increased extraction. The cause may be low flow, low haemoglobin, low arterial saturation, high demand or a combination. The value becomes powerful only when interpreted alongside cardiac output, haemoglobin, saturation, lactate and clinical signs."
+        },
+        {
+          "type": "subheading",
+          "text": "Normal and target values"
+        },
+        {
+          "type": "paragraph",
+          "text": "Typical SvO2 is about 60 to 80 percent. Many clinicians regard SvO2 below 60 to 65 percent as concerning, especially if accompanied by rising lactate, oliguria, cool peripheries, low cardiac index or increasing vasoactive requirement. A practical post-operative cardiac surgery target is often at least 65 to 70 percent, but this should not be used blindly."
+        },
+        {
+          "type": "paragraph",
+          "text": "A patient with SvO2 of 68 percent, falling lactate, good urine output, warm peripheries, stable cardiac index and improving support may be acceptable. A patient with SvO2 of 68 percent but lactate rising from 3 to 7 mmol/L, worsening acidosis and falling urine output is not automatically safe. Trends and context dominate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Similarly, a value of 55 percent may be expected briefly during shivering or mobilisation if it rapidly recovers and lactate remains stable, but persistent low SvO2 after cardiac surgery is a warning that oxygen delivery is not keeping up with demand. The nurse should escalate persistent low values, especially when paired with other poor perfusion markers."
+        },
+        {
+          "type": "subheading",
+          "text": "Low SvO2 from low cardiac output"
+        },
+        {
+          "type": "paragraph",
+          "text": "Low cardiac output is one of the most important causes of low SvO2 in CT-ICU. When cardiac output falls, less oxygen is delivered to tissues per minute. If oxygen consumption remains the same, tissues compensate by extracting more oxygen. Venous saturation falls. This is common in low cardiac output syndrome after cardiac surgery."
+        },
+        {
+          "type": "paragraph",
+          "text": "The pattern may include low cardiac index, narrow pulse pressure, weak arterial upstroke, cool peripheries, delayed capillary refill, oliguria, rising lactate, worsening base excess, escalating vasopressor or inotrope support and low SvO2. Causes include myocardial stunning, tamponade, bleeding, hypovolaemia, RV failure, high PVR, excessive LV afterload, pacing failure, bradycardia, rapid AF, valve obstruction or graft compromise."
+        },
+        {
+          "type": "paragraph",
+          "text": "The response should not be simply to chase the SvO2 number. The response is to diagnose why cardiac output is low. Check rhythm, pacing, preload, afterload, contractility, RV function, tamponade signs, chest drains, haemoglobin, ABG, lactate and echo. SvO2 tells you the oxygen economy is strained; it does not tell you which part of the circulation failed."
+        },
+        {
+          "type": "subheading",
+          "text": "Low SvO2 from anaemia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Anaemia lowers arterial oxygen content. If haemoglobin falls, each litre of blood carries less oxygen even if SpO2 remains 100 percent. To maintain oxygen consumption, the body must increase cardiac output or increase extraction. If cardiac output cannot rise enough, extraction increases and SvO2 falls."
+        },
+        {
+          "type": "paragraph",
+          "text": "After cardiac surgery, anaemia may result from haemodilution, surgical bleeding, coagulopathy, repeated sampling or ongoing drain losses. A patient with Hb 70 g/L, low cardiac output and low SvO2 has a very different oxygen delivery state from a stable patient with Hb 90 g/L, good cardiac output and low demand. Transfusion decisions require clinical judgement and local policy, but the physiology is clear: haemoglobin is a major determinant of oxygen delivery."
+        },
+        {
+          "type": "subheading",
+          "text": "Low SvO2 from hypoxaemia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Low arterial oxygen saturation reduces arterial oxygen content and therefore oxygen delivery. If SaO2 falls, tissues extract from a smaller arterial oxygen pool and venous saturation may fall. Hypoxaemia can also increase pulmonary vascular resistance through hypoxic pulmonary vasoconstriction, worsening RV output and further reducing systemic oxygen delivery."
+        },
+        {
+          "type": "paragraph",
+          "text": "In CT-ICU, hypoxaemia may occur from atelectasis, pulmonary oedema, pleural effusion, pneumothorax, pneumonia, aspiration, low cardiac output, pulmonary hypertension, phrenic nerve dysfunction or ventilator mismatch. Low SvO2 in this setting may improve only when oxygenation and the haemodynamic consequences of hypoxaemia are corrected."
+        },
+        {
+          "type": "subheading",
+          "text": "Low SvO2 from high oxygen consumption"
+        },
+        {
+          "type": "paragraph",
+          "text": "SvO2 can fall even when oxygen delivery has not changed if oxygen consumption rises. Fever, shivering, pain, agitation, seizures, increased work of breathing, catecholamine stress and sepsis all increase VO2. Tissues remove more oxygen from the blood, leaving less oxygen in venous return."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is clinically important during rewarming, wake-up, extubation, physiotherapy, coughing, agitation or uncontrolled pain. A patient may have an acceptable cardiac index while sedated and ventilated, then develop low SvO2 and rising lactate during spontaneous breathing because work of breathing and sympathetic demand increase. Reducing VO2 can be as important as increasing DO2."
+        },
+        {
+          "type": "subheading",
+          "text": "ScvO2 versus SvO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "ScvO2 is central venous oxygen saturation, usually measured from the superior vena cava or near the right atrium. It is easier to obtain than SvO2 because it can be sampled from a central venous catheter. It is related to global oxygen balance but does not equal true mixed venous saturation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The difference exists because ScvO2 does not fully include venous return from the lower body and coronary sinus. Coronary sinus blood is especially desaturated because the heart extracts a high proportion of oxygen. In normal circumstances, ScvO2 may be slightly higher than SvO2, but the relationship varies. In shock, sepsis, regional hypoperfusion, altered splanchnic flow, low cardiac output and high catecholamine states, the difference can become larger and less predictable."
+        },
+        {
+          "type": "paragraph",
+          "text": "This means ScvO2 is useful for trends but should not be treated as identical to SvO2. A falling ScvO2 is concerning. A low ScvO2 in the right clinical context suggests delivery-demand mismatch. A normal ScvO2 does not fully exclude regional hypoperfusion or impaired extraction. When a pulmonary artery catheter is present, SvO2 is the more complete mixed venous measurement."
+        },
+        {
+          "type": "table",
+          "title": "SvO2 versus ScvO2",
           "headers": [
-            "Pattern",
-            "Meaning",
-            "Check",
-            "Common causes"
+            "Feature",
+            "SvO2",
+            "ScvO2",
+            "Clinical implication"
           ],
           "rows": [
             [
-              "Low SvO₂ + high lactate",
-              "Delivery-demand mismatch",
-              "CI/Hb/SpO₂/temp/rhythm",
-              "Low output, anaemia, hypoxia, shivering"
+              "Sampling site",
+              "Pulmonary artery",
+              "Superior vena cava or near right atrium",
+              "SvO2 requires a pulmonary artery catheter; ScvO2 can use a central venous catheter"
             ],
             [
-              "Low SvO₂ + low CI",
-              "Low-flow failure",
-              "Preload/afterload/contractility/obstruction",
-              "Tamponade, stunning, RV failure"
+              "Blood represented",
+              "Mixed venous return from whole body including coronary sinus contribution",
+              "Mostly upper-body venous return",
+              "ScvO2 is not fully mixed venous blood"
             ],
             [
-              "High SvO₂ + high lactate",
-              "Impaired extraction or error",
-              "Sampling/sepsis/liver/adrenaline",
-              "Distributive shock, mitochondrial dysfunction"
+              "Typical value",
+              "About 60 to 80 percent",
+              "Often slightly higher than SvO2",
+              "Exact relationship varies, especially in shock"
             ],
             [
-              "Normal SvO₂ + poor organ perfusion",
-              "Regional/microcirculatory issue possible",
-              "Lactate/UO/skin/echo",
-              "Shock not excluded"
+              "Best use",
+              "Global oxygen balance marker",
+              "Trend marker when PAC is not present",
+              "Interpret both with lactate, CO, Hb and clinical picture"
+            ],
+            [
+              "Main limitation",
+              "Requires correct PAC position and sampling",
+              "Does not fully represent lower body or coronary sinus",
+              "Neither value excludes regional hypoperfusion"
             ]
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "High SvO2: when high is not good"
+        },
+        {
+          "type": "paragraph",
+          "text": "High SvO2 can be reassuring if it fits the rest of the picture. A sedated, warm, well-perfused patient with good cardiac output, stable lactate, adequate urine output and SvO2 of 75 percent may simply have adequate delivery relative to demand. However, high SvO2 is dangerous to overinterpret."
+        },
+        {
+          "type": "paragraph",
+          "text": "High SvO2 with rising lactate and clinical shock is concerning. It may suggest impaired oxygen extraction or utilisation. In sepsis and severe inflammatory states, microcirculatory shunting may allow oxygenated blood to bypass capillary exchange areas. Mitochondrial dysfunction may impair cellular oxygen use. Hypothermia and deep sedation can lower oxygen consumption. Sampling error can falsely elevate values if the sample is contaminated or taken incorrectly."
+        },
+        {
+          "type": "paragraph",
+          "text": "The key rule is that venous saturation should be interpreted with lactate. Low SvO2 and high lactate suggests delivery-demand mismatch with high extraction. High SvO2 and high lactate suggests extraction failure, shunting, metabolic issue or measurement error. Normal SvO2 and high lactate still requires investigation because global values can miss regional hypoperfusion."
+        },
+        {
+          "type": "subheading",
+          "text": "SvO2 in post-CABG patients"
+        },
+        {
+          "type": "paragraph",
+          "text": "After CABG, SvO2 helps identify whether myocardial and systemic oxygen delivery are adequate. Low SvO2 may reflect low cardiac output from myocardial stunning, graft compromise, tamponade, bleeding, arrhythmia or excessive afterload. It may also reflect anaemia, hypoxaemia, shivering, pain or agitation. New ST changes, ventricular arrhythmias, rising lactate and low SvO2 together require urgent escalation."
+        },
+        {
+          "type": "paragraph",
+          "text": "A low SvO2 after CABG should be paired with arterial waveform and cardiac index assessment. If cardiac index is low, identify the cause: preload, afterload, contractility, rhythm, RV function, tamponade or surgical issue. If cardiac index is acceptable, look for anaemia, hypoxaemia or high demand. If lactate rises despite a normal SvO2, do not dismiss it; consider impaired extraction, regional ischaemia, adrenaline effect or sampling issue."
+        },
+        {
+          "type": "subheading",
+          "text": "SvO2 in valve and TAVI patients"
+        },
+        {
+          "type": "paragraph",
+          "text": "Valve patients may have low SvO2 because rhythm and filling are unstable. Rapid AF removes atrial kick and shortens diastolic filling time. Heart block or bradycardia after TAVI reduces cardiac output. Pulmonary hypertension or RV dysfunction can reduce LV preload and systemic flow. A stiff LV can fail when preload or rhythm is not optimal."
+        },
+        {
+          "type": "paragraph",
+          "text": "A falling SvO2 after valve surgery should trigger rhythm assessment, pacing assessment, CVP and PA pressure review, oxygenation review and echo consideration. In mitral valve patients with pulmonary hypertension, hypoxaemia, hypercapnia and acidosis may worsen RV afterload and drive venous desaturation through low output."
+        },
+        {
+          "type": "subheading",
+          "text": "SvO2 in aortic surgery patients"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aortic surgery patients may have complex oxygen delivery problems. They may require tight blood pressure control to protect the repair, but excessive hypotension can compromise spinal cord, brain, kidney, gut or coronary perfusion depending on the operation. Low SvO2 can reflect low cardiac output, anaemia, hypoxaemia, high demand or malperfusion."
+        },
+        {
+          "type": "paragraph",
+          "text": "A normal global SvO2 does not exclude regional malperfusion. A patient can have acceptable mixed venous saturation while a vascular territory such as gut, kidney, limb or spinal cord is inadequately perfused. Therefore, SvO2 must be interpreted with lactate, neurological assessment, urine output, limb perfusion, abdominal signs and surgical context."
+        },
+        {
+          "type": "subheading",
+          "text": "Technical and sampling issues"
+        },
+        {
+          "type": "paragraph",
+          "text": "Venous saturation is only useful if the sample and catheter position are correct. For SvO2, the sample should come from the pulmonary artery port of a pulmonary artery catheter or from the continuous oximetry sensor if present and calibrated according to device requirements. Sampling from the wrong port can give CVP or infusion-contaminated blood rather than mixed venous blood."
+        },
+        {
+          "type": "paragraph",
+          "text": "Infusion contamination can falsely alter ScvO2. Drawing from a lumen where oxygenated flush, medications or parenteral nutrition are running can produce misleading results. Catheter migration, wedging, waveform changes, calibration errors, low signal quality and clot can affect readings. When venous saturation does not fit the patient, first verify the source and technique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Continuous SvO2 catheters require calibration and signal quality checks. Sudden changes may be real, but they may also reflect catheter position, calibration drift, optical signal issue or flush/line events. The nurse should compare the value with cardiac output, arterial saturation, haemoglobin, lactate and the patient's clinical state before acting on a single unexpected number."
+        },
+        {
+          "type": "subheading",
+          "text": "Bedside interpretation sequence"
+        },
+        {
+          "type": "steps",
+          "title": "SvO2 and ScvO2 interpretation sequence",
+          "items": [
+            "Confirm the source. Identify whether the value is SvO2 from a pulmonary artery catheter or ScvO2 from a central venous catheter.",
+            "Validate the measurement. Check catheter position, waveform if relevant, sampling port, contamination risk, calibration and whether the value fits the clinical picture.",
+            "Assess arterial oxygen saturation and haemoglobin. Low SaO2 or low Hb reduces arterial oxygen content and can lower venous saturation.",
+            "Assess flow. Review cardiac output or cardiac index if available, pulse pressure, arterial waveform, rhythm, pacing, preload, afterload and contractility.",
+            "Assess demand. Look for fever, shivering, agitation, pain, seizures, work of breathing, catecholamine dose, physiotherapy or sepsis.",
+            "Assess downstream markers. Compare with lactate trend, base excess, urine output, skin perfusion, mentation if awake and organ function.",
+            "Classify the pattern as low-flow delivery failure, anaemia/content problem, hypoxaemia problem, high-demand problem, impaired extraction problem, regional perfusion issue or sampling error.",
+            "Treat the mechanism rather than chasing the number. Improve flow, oxygen content, oxygenation or reduce demand depending on the pattern.",
+            "Escalate when low SvO2 is persistent, falling, paired with rising lactate, or associated with low cardiac index, oliguria, new rhythm instability or suspected surgical complication."
+          ]
+        },
+        {
+          "type": "diagram",
+          "title": "SvO2 interpretation map",
+          "description": "A flowchart showing how low, normal and high venous saturations should be interpreted with cardiac output, haemoglobin, saturation, demand and lactate.",
+          "layout": "algorithm",
+          "elements": [
+            "Start with SvO2 or ScvO2 value",
+            "Confirm source and sampling validity",
+            "Check lactate trend",
+            "Check cardiac output or cardiac index",
+            "Check haemoglobin",
+            "Check SaO2 or SpO2",
+            "Check VO2 triggers",
+            "Low SvO2: increased extraction",
+            "High SvO2 with high lactate: impaired extraction or error",
+            "Normal SvO2 with organ dysfunction: regional or mixed problem still possible"
+          ],
+          "teachingPoints": [
+            "Venous saturation is a balance marker.",
+            "Low values need a cause, not just correction.",
+            "High values can be dangerous when lactate is rising."
+          ]
+        }
+      ]
+    },
+    "pearls": {
+      "title": "Clinical Pearls",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Clinical Pearls"
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 1: SvO2 is oxygen left over",
+          "text": "SvO2 tells you how much oxygen remains after systemic extraction. It is not the oxygen delivered at the start; it is the oxygen left after tissues have taken what they need."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 2: low SvO2 means increased extraction",
+          "text": "Low SvO2 usually means delivery is low, demand is high, or both. The main causes are low cardiac output, low haemoglobin, low arterial saturation and increased VO2."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 3: ScvO2 is not SvO2",
+          "text": "ScvO2 comes from central venous blood and does not fully represent whole-body mixed venous blood. It is useful for trends, but it should not be treated as identical to pulmonary artery SvO2."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 4: high SvO2 can be bad",
+          "text": "High SvO2 with rising lactate can indicate impaired extraction, microcirculatory shunting, sepsis, mitochondrial dysfunction, hypothermia, deep sedation or sampling error. Do not call it reassuring without context."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 5: lactate and SvO2 should be read together",
+          "text": "Low SvO2 plus high lactate suggests delivery-demand mismatch. High SvO2 plus high lactate suggests impaired extraction, shunting, metabolic issue or measurement error. Normal SvO2 does not exclude regional hypoperfusion."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 6: a falling SvO2 may warn before the blood pressure crashes",
+          "text": "The body can maintain MAP by increasing SVR while oxygen extraction rises. A falling SvO2 with rising lactate and low urine output may reveal low-flow shock before MAP looks terrible."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 7: extubation and shivering can drop venous saturation",
+          "text": "When VO2 rises from shivering, work of breathing, pain or agitation, tissues extract more oxygen. SvO2 can fall even if cardiac output has not changed."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 8: sampling matters",
+          "text": "A venous saturation from the wrong port, a contaminated lumen or a migrated catheter can mislead. If the value does not fit the patient, verify the source before changing therapy."
+        },
+        {
+          "type": "pearl",
+          "title": "Pearl 9: SvO2 is global, not regional",
+          "text": "A normal global mixed venous saturation can miss regional malperfusion. Gut, limb, kidney, spinal cord or myocardial ischaemia may still exist. Always interpret SvO2 with organ-specific signs."
+        }
+      ]
+    },
+    "equipment": {
+      "title": "Equipment Tie-In",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Equipment Tie-In"
+        },
+        {
+          "type": "subheading",
+          "text": "Pulmonary artery catheter"
+        },
+        {
+          "type": "paragraph",
+          "text": "The pulmonary artery catheter is the usual device for true SvO2 measurement. Blood from the pulmonary artery represents mixed venous return after blood from the SVC, IVC and coronary sinus has combined. Some catheters provide continuous SvO2 monitoring through optical oximetry. Others require intermittent blood sampling from the PA port."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct catheter position and waveform recognition are essential. Sampling from the wrong port can produce CVP blood rather than mixed venous blood. Sampling while wedged, from an abnormal position, or after catheter migration can mislead. Continuous oximetry systems require calibration and signal quality awareness according to device instructions."
+        },
+        {
+          "type": "subheading",
+          "text": "Central venous catheter"
+        },
+        {
+          "type": "paragraph",
+          "text": "A central venous catheter can provide ScvO2 if ordered. The sample is usually drawn from a central venous location near the SVC/right atrium. It is easier to obtain than SvO2 but is not fully mixed venous blood. It can be useful for trends when no PAC is present."
+        },
+        {
+          "type": "paragraph",
+          "text": "Central line sampling must avoid infusion contamination. If a lumen is running vasoactive drugs, dextrose, parenteral nutrition or other infusions, sampling from that lumen can distort results or interrupt critical therapy. Use the correct lumen and local blood sampling procedure."
+        },
+        {
+          "type": "subheading",
+          "text": "Blood gas analyser and co-oximetry"
+        },
+        {
+          "type": "paragraph",
+          "text": "A blood gas analyser with co-oximetry can measure venous oxygen saturation and haemoglobin species. This is more reliable than calculating saturation from partial pressure alone. The result should be labelled correctly as venous, central venous or mixed venous depending on the source. Mislabelled samples create dangerous interpretation errors."
+        },
+        {
+          "type": "subheading",
+          "text": "Haemodynamic monitor"
+        },
+        {
+          "type": "paragraph",
+          "text": "The haemodynamic monitor should display venous saturation alongside cardiac index, MAP, CVP, PA pressures, PAWP if present, SVR, PVR, heart rate, rhythm and temperature. Venous saturation should rarely be interpreted without these variables. A low SvO2 with low CI means something different from low SvO2 with high CI and shivering."
+        },
+        {
+          "type": "subheading",
+          "text": "ABG, lactate and haemoglobin"
+        },
+        {
+          "type": "paragraph",
+          "text": "ABG values complete the SvO2 interpretation. Haemoglobin tells you oxygen content. SaO2 and PaO2 tell you arterial oxygenation. Lactate and base excess show metabolic consequence. PaCO2 and pH affect PVR and myocardial function. In CT-ICU, a venous saturation without ABG context is incomplete."
+        },
+        {
+          "type": "subheading",
+          "text": "Temperature and ventilator"
+        },
+        {
+          "type": "paragraph",
+          "text": "Temperature and ventilator data explain oxygen consumption. Fever and shivering lower SvO2 by increasing VO2. Respiratory distress and increased work of breathing do the same. Ventilator settings also influence oxygenation, PaCO2, pH and RV afterload, all of which can alter oxygen delivery and venous saturation."
+        },
+        {
+          "type": "table",
+          "title": "Venous saturation equipment checks",
+          "headers": [
+            "Check",
+            "Why it matters",
+            "Error pattern",
+            "Action"
+          ],
+          "rows": [
+            [
+              "Sample source",
+              "SvO2 and ScvO2 are not identical",
+              "Wrong label causes wrong interpretation",
+              "Confirm PA port versus central venous lumen"
+            ],
+            [
+              "Infusion contamination",
+              "Infusate can distort saturation or chemistry",
+              "Unexpected high/low value that does not fit patient",
+              "Use correct lumen and sampling procedure"
+            ],
+            [
+              "PAC waveform and position",
+              "Catheter migration changes sample meaning",
+              "Unreliable SvO2 or PA data",
+              "Check waveform, position and clinical fit"
+            ],
+            [
+              "Continuous oximetry calibration",
+              "Sensor drift can mislead",
+              "Gradual mismatch with sampled values",
+              "Follow device calibration and quality checks"
+            ],
+            [
+              "Haemoglobin and SaO2",
+              "Venous saturation depends on arterial oxygen content",
+              "Low SvO2 misattributed to flow alone",
+              "Review ABG/co-oximetry and Hb"
+            ],
+            [
+              "Lactate trend",
+              "Shows metabolic consequence",
+              "High SvO2 falsely reassuring",
+              "Interpret high lactate with extraction and sampling concerns"
+            ]
+          ]
+        },
+        {
+          "type": "diagram",
+          "title": "SvO2 sampling pathway",
+          "description": "A diagram showing venous blood returning from the SVC, IVC and coronary sinus into the right heart and pulmonary artery, compared with central venous sampling.",
+          "layout": "flowchart",
+          "elements": [
+            "Upper body venous return",
+            "Lower body venous return",
+            "Coronary sinus venous return",
+            "Right atrium",
+            "Right ventricle",
+            "Pulmonary artery",
+            "SvO2 sample from PA",
+            "ScvO2 sample from central venous catheter"
+          ],
+          "teachingPoints": [
+            "True SvO2 is mixed venous blood in the pulmonary artery.",
+            "ScvO2 is central venous and not identical.",
+            "Coronary sinus blood is an important low-saturation contributor."
+          ]
+        }
+      ]
+    },
+    "targets": {
+      "title": "Targets and Numbers",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Targets and Numbers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Venous saturation targets must be interpreted as trends and patterns. A single value is less useful than its direction and relationship to lactate, cardiac output, haemoglobin, oxygenation and oxygen consumption. The practical goal is not to normalise SvO2 in isolation. The goal is adequate oxygen delivery for tissue demand with stable or improving organ function."
+        },
+        {
+          "type": "targetTable",
+          "title": "Venous saturation values and interpretation",
+          "headers": [
+            "Variable",
+            "Typical value or target",
+            "Meaning",
+            "Concern pattern"
+          ],
+          "rows": [
+            [
+              "SvO2",
+              "Usually 60 to 80 percent",
+              "True mixed venous oxygen saturation from pulmonary artery blood",
+              "Below 60 to 65 percent with poor perfusion, or high with rising lactate"
+            ],
+            [
+              "Practical CT-ICU SvO2 goal",
+              "Often at least 65 to 70 percent if context agrees",
+              "Suggests acceptable global extraction when lactate and perfusion are improving",
+              "Do not use alone; normal value can miss regional malperfusion"
+            ],
+            [
+              "ScvO2",
+              "Often above 70 percent, but variable",
+              "Central venous oxygen saturation trend",
+              "Falling trend or mismatch with lactate/perfusion"
+            ],
+            [
+              "Oxygen extraction ratio",
+              "Often 20 to 30 percent",
+              "Fraction of delivered oxygen extracted",
+              "High extraction when DO2 falls or VO2 rises"
+            ],
+            [
+              "Lactate",
+              "Less than 2 mmol/L or falling",
+              "Metabolic stress and perfusion marker",
+              "Rising lactate with low or high SvO2 requires urgent reassessment"
+            ],
+            [
+              "Cardiac index",
+              "At least 2.2 L/min/m2; often 2.5 to 4.0 when stable",
+              "Flow component of oxygen delivery",
+              "Low CI with low SvO2 strongly suggests low-flow delivery failure"
+            ],
+            [
+              "Haemoglobin",
+              "No universal target; interpret with bleeding/ischaemia/DO2",
+              "Oxygen content component",
+              "Low Hb with low SvO2 and poor reserve"
+            ],
+            [
+              "SaO2 or SpO2",
+              "Often at least 94 percent post-cardiac surgery unless otherwise ordered",
+              "Arterial saturation component",
+              "Hypoxaemia lowers CaO2 and can raise PVR"
+            ]
+          ]
+        },
+        {
+          "type": "targetTable",
+          "title": "SvO2 pattern recognition",
+          "headers": [
+            "Pattern",
+            "Likely meaning",
+            "Common causes",
+            "Immediate checks"
+          ],
+          "rows": [
+            [
+              "Low SvO2 and low CI",
+              "Low-flow oxygen delivery failure",
+              "Stunning, tamponade, RV failure, bleeding, rhythm problem, high afterload",
+              "Rhythm, pacing, preload, afterload, contractility, drains, echo"
+            ],
+            [
+              "Low SvO2 and normal/high CI",
+              "High demand or low oxygen content",
+              "Shivering, fever, pain, agitation, anaemia, hypoxaemia",
+              "Temperature, pain, WOB, Hb, SaO2, lactate"
+            ],
+            [
+              "Low SvO2 and low Hb",
+              "Oxygen content failure with increased extraction",
+              "Bleeding, haemodilution, sampling loss",
+              "Hb trend, drains, coagulation, transfusion plan"
+            ],
+            [
+              "Low SvO2 and hypoxaemia",
+              "Low arterial oxygen content and possible raised PVR",
+              "Atelectasis, oedema, pneumothorax, pneumonia, RV failure",
+              "ABG, CXR/ultrasound, ventilator, PA pressures"
+            ],
+            [
+              "High SvO2 and high lactate",
+              "Impaired extraction, shunting, severe inflammatory state or error",
+              "Sepsis, microcirculatory failure, hypothermia, deep sedation, sampling error",
+              "Sampling source, perfusion, infection, temperature, liver function"
+            ],
+            [
+              "Normal SvO2 and organ dysfunction",
+              "Global value may miss regional issue",
+              "Gut, renal, limb, spinal or myocardial malperfusion",
+              "Organ-specific assessment and surgical context"
+            ]
+          ]
+        },
+        {
+          "type": "targetTable",
+          "title": "Interventions and expected venous saturation response",
+          "headers": [
+            "Intervention",
+            "Mechanism",
+            "Expected helpful response",
+            "Warning"
+          ],
+          "rows": [
+            [
+              "Improve cardiac output",
+              "Increases oxygen delivery",
+              "SvO2 rises and lactate stabilises/falls",
+              "If MAP rises but SvO2 falls, flow may still be inadequate"
+            ],
+            [
+              "Correct significant anaemia",
+              "Increases arterial oxygen content",
+              "Extraction burden falls and SvO2 may rise",
+              "Transfusion must follow indication and policy"
+            ],
+            [
+              "Improve oxygenation",
+              "Increases SaO2 and CaO2",
+              "SvO2 may rise if hypoxaemia was limiting",
+              "Excessive PEEP can worsen RV output"
+            ],
+            [
+              "Treat shivering or fever",
+              "Reduces VO2",
+              "SvO2 may rise as extraction falls",
+              "Oversedation or hypotension may create new problems"
+            ],
+            [
+              "Control pain and agitation",
+              "Reduces sympathetic oxygen demand",
+              "Heart rate and SvO2 may improve",
+              "Watch ventilation and delirium risk"
+            ],
+            [
+              "Correct sampling error",
+              "Restores valid interpretation",
+              "Value changes to match physiology",
+              "Do not treat an invalid number"
+            ]
+          ]
+        },
+        {
+          "type": "steps",
+          "title": "Escalation triggers for venous saturation concerns",
+          "items": [
+            "SvO2 persistently below 60 to 65 percent with rising lactate, low urine output or low cardiac index.",
+            "Rapidly falling SvO2 after rhythm change, pacing change, bleeding, extubation, shivering or ventilator deterioration.",
+            "Low SvO2 with normal SpO2, suggesting low flow, anaemia or high demand rather than oxygenation alone.",
+            "High SvO2 with rising lactate and clinical shock.",
+            "Normal SvO2 but worsening organ-specific signs such as neurological change, abdominal pain/distension, limb malperfusion or renal failure.",
+            "Venous saturation value that does not fit the clinical picture after source and sampling have been checked.",
+            "Low SvO2 paired with new ST changes, ventricular arrhythmia or suspected graft/valve complication.",
+            "Low SvO2 in an RV-risk patient with rising CVP, hypoxaemia, hypercapnia or acidosis."
           ]
         }
       ]
     }
   },
-  "quizQuestions": [
+  "quiz": [
     {
-      "level": "basic",
-      "question": "What is the central bedside concept in Mixed Venous Saturations: SvO2 and ScvO2?",
-      "type": "multipleChoice",
+      "difficulty": "Bedside Basics",
+      "question": "What does SvO2 represent?",
       "options": [
-        "Interpret the value as part of a haemodynamic pattern, not as an isolated number",
-        "Treat every abnormal number with fluid",
-        "Ignore the waveform and rely only on MAP",
-        "Use SpO₂ as the only marker of perfusion"
+        "The oxygen saturation of mixed venous blood after systemic tissue extraction.",
+        "The oxygen saturation measured at the finger probe.",
+        "The oxygen pressure inside the alveoli.",
+        "The haemoglobin concentration in arterial blood."
       ],
-      "correct": 0,
-      "explanation": "Mixed Venous Saturations: SvO2 and ScvO2 must be interpreted in context. CTICU physiology depends on patterns across pressure, flow, filling, oxygen delivery, demand, waveforms, and clinical response."
+      "answer": 0,
+      "explanation": "SvO2 is the oxygen saturation of mixed venous blood in the pulmonary artery after tissues have extracted oxygen. It reflects the balance between oxygen delivery and oxygen consumption."
     },
     {
-      "level": "reasoning",
-      "question": "A post-cardiac surgery patient deteriorates and the Mixed Venous Saturations: SvO2 and ScvO2 data conflict with the clinical picture. What is the safest action?",
-      "type": "multipleChoice",
+      "difficulty": "Bedside Basics",
+      "question": "Which sampling site gives true mixed venous saturation?",
       "options": [
-        "Validate the measurement and integrate it with rhythm, waveform, lactate, urine output, echo, and perfusion",
-        "Assume the single number is correct and treat it alone",
-        "Ignore the patient because the monitor is always right",
-        "Give repeated fluid without reassessment"
+        "Pulmonary artery blood from a pulmonary artery catheter.",
+        "Peripheral venous cannula blood.",
+        "Arterial line blood.",
+        "Capillary blood from a finger prick."
       ],
-      "correct": 0,
-      "explanation": "The safest CTICU approach is to validate the measurement, check equipment and waveform quality, then interpret it against the whole clinical pattern before acting."
+      "answer": 0,
+      "explanation": "True SvO2 is sampled from the pulmonary artery because venous blood from the SVC, IVC and coronary sinus has mixed. Central venous saturation is related but not identical."
     },
     {
-      "level": "expert",
-      "question": "Why is isolated interpretation dangerous in Mixed Venous Saturations: SvO2 and ScvO2?",
-      "type": "multipleChoice",
+      "difficulty": "Clinical Reasoning",
+      "question": "A post-cardiac surgery patient has SvO2 52 percent, CI 1.7 L/min/m2, rising lactate and oliguria. What is the best interpretation?",
       "options": [
-        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and metabolic demand interact",
-        "Because cardiac physiology has no relationship to clinical signs",
-        "Because all post-operative patients have identical targets",
-        "Because monitors cannot display useful information"
+        "Low-flow oxygen delivery failure is likely and the cause of low cardiac output must be assessed.",
+        "The patient is safe because SvO2 is above zero.",
+        "The problem must be isolated hypoxaemia.",
+        "The venous saturation should be ignored because MAP is the only important value."
       ],
-      "correct": 0,
-      "explanation": "Isolated interpretation is dangerous because CTICU haemodynamics are interactive. The same value may mean different things depending on ventricular function, vascular tone, rhythm, ventilation, oxygen delivery, and surgical context."
+      "answer": 0,
+      "explanation": "Low SvO2 with low cardiac index, rising lactate and oliguria strongly suggests inadequate oxygen delivery from low flow. The mechanism may be preload, rhythm, contractility, afterload, RV failure, tamponade or surgical complication."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "A patient has low SvO2 but cardiac index is normal. Which causes should be considered?",
+      "options": [
+        "Anaemia, hypoxaemia or increased oxygen consumption.",
+        "Only tamponade.",
+        "Only arterial line damping.",
+        "Only high haemoglobin."
+      ],
+      "answer": 0,
+      "explanation": "If flow is adequate but SvO2 is low, consider reduced oxygen content from anaemia or hypoxaemia, or increased oxygen demand from fever, shivering, agitation, pain, seizures or work of breathing."
+    },
+    {
+      "difficulty": "Expert Level",
+      "question": "Why can ScvO2 differ from SvO2?",
+      "options": [
+        "ScvO2 samples central venous blood and does not fully include lower body and coronary sinus venous return.",
+        "ScvO2 is always identical to pulmonary artery mixed venous blood.",
+        "ScvO2 is measured from arterial blood.",
+        "ScvO2 only measures PaCO2."
+      ],
+      "answer": 0,
+      "explanation": "ScvO2 is usually sampled from the SVC or near the right atrium and is not fully mixed venous blood. It does not fully include lower body and coronary sinus contributions. The relationship varies, especially in shock."
+    },
+    {
+      "difficulty": "Expert Level",
+      "question": "A patient has SvO2 82 percent, lactate rising rapidly and worsening shock. What is the safest interpretation?",
+      "options": [
+        "High SvO2 is not reassuring; impaired extraction, shunting, sepsis, hypothermia, sampling error or metabolic failure must be considered.",
+        "High SvO2 proves tissue oxygenation is perfect.",
+        "The lactate must be a lab error.",
+        "The patient cannot be in shock if SvO2 is high."
+      ],
+      "answer": 0,
+      "explanation": "High SvO2 with rising lactate and shock is concerning. It can reflect impaired oxygen extraction, microcirculatory shunting, severe inflammatory states, hypothermia, mitochondrial dysfunction or sampling error. It must be investigated."
+    }
+  ],
+  "diagrams": [
+    {
+      "type": "diagram",
+      "title": "Mixed venous oxygen pathway",
+      "description": "A flowchart showing arterial oxygen delivery to tissues, tissue extraction, venous return and pulmonary artery mixed venous sampling.",
+      "layout": "flowchart",
+      "elements": [
+        "Arterial oxygen content",
+        "Cardiac output",
+        "Oxygen delivery",
+        "Tissue oxygen extraction",
+        "SVC venous return",
+        "IVC venous return",
+        "Coronary sinus venous return",
+        "Right atrium and right ventricle",
+        "Pulmonary artery",
+        "SvO2 measurement"
+      ],
+      "teachingPoints": [
+        "SvO2 is measured after tissue extraction.",
+        "Pulmonary artery blood is mixed venous blood.",
+        "Low SvO2 means increased extraction from low delivery or high demand."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "SvO2 interpretation algorithm",
+      "description": "An algorithm for interpreting low, normal and high venous saturation with lactate and cardiac output.",
+      "layout": "algorithm",
+      "elements": [
+        "Confirm sample source",
+        "Check lactate",
+        "Check cardiac index",
+        "Check haemoglobin",
+        "Check SaO2 or SpO2",
+        "Check VO2 triggers",
+        "Low SvO2: increased extraction",
+        "High SvO2 with high lactate: impaired extraction or sampling issue",
+        "Normal SvO2 with organ dysfunction: consider regional malperfusion"
+      ],
+      "teachingPoints": [
+        "Treat the mechanism, not the saturation number alone.",
+        "Low values require flow, content, saturation and demand assessment.",
+        "High values are dangerous when lactate is rising."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "SvO2 versus ScvO2 sampling comparison",
+      "description": "A comparison diagram showing pulmonary artery mixed venous sampling versus central venous sampling.",
+      "layout": "comparison",
+      "elements": [
+        "SvO2: pulmonary artery sample",
+        "SvO2: includes SVC, IVC and coronary sinus after mixing",
+        "ScvO2: central venous sample",
+        "ScvO2: mostly upper-body venous return",
+        "Coronary sinus blood is highly desaturated",
+        "Shock states make the relationship less predictable"
+      ],
+      "teachingPoints": [
+        "ScvO2 is useful for trends but is not identical to SvO2.",
+        "SvO2 is the more complete global mixed venous measure.",
+        "Both values require lactate and clinical context."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "sourceName": "Critical Care / PMC",
+      "title": "Clinical review: use of venous oxygen saturations as a goal",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3334733/",
+      "supports": "Supports venous oxygen saturation as a marker of the balance between oxygen delivery and oxygen consumption."
+    },
+    {
+      "sourceName": "Critical Care / PMC",
+      "title": "Central and Mixed Venous O2 Saturation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7001812/",
+      "supports": "Supports interpretation of SvO2 and ScvO2, including physiological basis and limitations."
+    },
+    {
+      "sourceName": "NCBI Bookshelf / StatPearls",
+      "title": "Venous Oxygen Saturation",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK564395/",
+      "supports": "Supports venous oxygen saturation physiology, measurement and clinical interpretation."
+    },
+    {
+      "sourceName": "Deranged Physiology",
+      "title": "Mixed venous oxygen saturation and its meaning",
+      "url": "https://derangedphysiology.com/main/cicm-primary-exam/required-reading/cardiovascular-system/Chapter%20026/mixed-venous-oxygen-saturation-and-its-meaning",
+      "supports": "Supports mixed venous saturation interpretation using oxygen delivery, oxygen consumption and extraction concepts."
+    },
+    {
+      "sourceName": "Frontiers in Pediatrics / PMC",
+      "title": "Definitions of low cardiac output syndrome after cardiac surgery and their effect on incidence, treatment and outcome",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9558721/",
+      "supports": "Supports low cardiac output syndrome after cardiac surgery as inadequate pump function causing reduced oxygen delivery and tissue hypoxia."
+    },
+    {
+      "sourceName": "Critical Care / PMC",
+      "title": "Clinical review: Update on hemodynamic monitoring",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3387592/",
+      "supports": "Supports haemodynamic monitoring using cardiac output, filling pressures and venous oxygen saturation."
+    },
+    {
+      "sourceName": "British Journal of Anaesthesia Education / PMC",
+      "title": "Physiology of oxygen transport",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7808065/",
+      "supports": "Supports oxygen delivery, consumption, extraction and venous oxygen saturation physiology."
     }
   ]
 }

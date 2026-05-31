@@ -1,102 +1,843 @@
 {
-  "id": "cardiac-output-and-determinants",
-  "domain": "domain1",
-  "domainName": "Physiology Foundations",
-  "domainColour": "#0B5FFF",
-  "title": "Cardiac Output and Determinants",
-  "sections": {
-    "abridged": {
-      "content": "<h3>Cardiac output - the flow that actually perfuses organs</h3>\n<p><strong>Cardiac output (CO)</strong> is the volume of blood ejected by the heart each minute. It is the core flow variable behind organ perfusion. Blood pressure matters, but pressure is not the same as flow.</p>\n<p>The formula is <strong>CO = HR × SV</strong>. Heart rate is beats per minute. Stroke volume is blood ejected per beat. A typical resting adult CO is about <strong>4-8 L/min</strong>, commonly around <strong>5-6 L/min</strong>. Cardiac index corrects for body surface area; a common CTICU minimum is <strong>CI ≥2.2 L/min/m²</strong>.</p>\n<p>Stroke volume is determined by preload, afterload, and contractility. Heart rate modifies output, but excessive heart rate shortens diastolic filling and can reduce stroke volume.</p>\n<p>In CTICU, cardiac output must be interpreted with MAP, pulse pressure, vasoactive dose, urine output, lactate, SvO₂, echo, and skin perfusion. A normal MAP does not guarantee adequate oxygen delivery.</p>"
-    },
-    "expanded": {
-      "content": "<h3>Cardiac output - pressure is not enough</h3>\n<p><strong>Cardiac output</strong> is the amount of blood pumped by the heart per minute. It is the flow that carries oxygen, carbon dioxide, glucose, drugs, heat, electrolytes, clotting factors, inflammatory mediators, and waste products. In CTICU, cardiac output matters because organs fail when flow and oxygen delivery are inadequate.</p>\n<p>The equation is <strong>CO = HR × SV</strong>. The simplicity of the equation is deceptive because HR and SV are influenced by rhythm, AV synchrony, preload, afterload, contractility, valve function, ventricular compliance, intrathoracic pressure, temperature, metabolic demand, and vasoactive therapy.</p>\n<h4>Heart rate</h4>\n<p>Heart rate increases cardiac output only if stroke volume is maintained. If SV is 70 mL and HR is 70/min, CO is 4.9 L/min. If HR rises to 100/min and SV remains 70 mL, CO becomes 7.0 L/min. This explains why bradycardia can cause low output when SV cannot compensate.</p>\n<p>The limitation is diastolic filling time. At excessive rates, especially around 120-150/min in vulnerable post-cardiac surgery patients, diastole becomes too short. Ventricular filling falls, coronary perfusion time falls, myocardial oxygen demand rises, and stroke volume may fall enough that total cardiac output decreases.</p>\n<h4>Stroke volume</h4>\n<p>Stroke volume is the volume ejected per beat. It is usually around 60-100 mL/beat in many adults. It is determined by preload, afterload, and contractility. Low SV causes narrow pulse pressure and may produce compensatory tachycardia and vasoconstriction.</p>\n<p>Low SV may result from underfilling, bleeding, tamponade, poor contractility, excessive afterload, RV failure with LV underfilling, valve obstruction, valve regurgitation, dyssynchrony, or rapid arrhythmia. The treatment differs completely depending on the cause.</p>\n<h4>Preload, afterload, and contractility</h4>\n<p>Preload is filling/stretch before contraction. Fluid helps only if the ventricle is preload responsive and fluid tolerant. Afterload is the load against which the ventricle ejects. Excessive SVR can reduce LV stroke volume; excessive PVR can cause RV failure. Contractility is intrinsic myocardial force generation and may be impaired after bypass, ischaemia, hypothermia, acidosis, or electrolyte derangement.</p>\n<h4>MAP versus cardiac output</h4>\n<p>A useful relationship is <strong>MAP ≈ CO × SVR + CVP</strong>. This explains why MAP can mislead. MAP can be low because CO is low, SVR is low, or both. MAP can be normal because flow is adequate or because SVR is high despite low flow.</p>\n<table><tr><th>Pattern</th><th>MAP</th><th>CO/CI</th><th>SVR</th><th>Likely physiology</th></tr><tr><td>Vasoplegia</td><td>Low</td><td>Normal/high</td><td>Low</td><td>Post-CPB vasodilation; pressure problem more than pump problem</td></tr><tr><td>Low-output shock</td><td>Low or supported</td><td>Low</td><td>Normal/high</td><td>Pump, preload, rhythm, afterload, RV, or obstruction issue</td></tr><tr><td>Compensated low flow</td><td>Normal</td><td>Low</td><td>High</td><td>Vasoconstriction preserving MAP while organs receive poor flow</td></tr><tr><td>Mixed shock</td><td>Low</td><td>Low/normal</td><td>Low/variable</td><td>Vasoplegia plus myocardial dysfunction, bleeding, or inflammatory shock</td></tr></table>\n<h4>Cardiac index</h4>\n<p>Cardiac index is CO divided by body surface area. It is measured in L/min/m². A common minimum CTICU target is ≥2.2 L/min/m², but adequacy depends on demand. A CI of 2.3 may be acceptable in a sedated normothermic patient with falling lactate, but inadequate in fever, shivering, anaemia, sepsis, or respiratory distress.</p>\n<h4>Low cardiac output syndrome</h4>\n<p>Low cardiac output syndrome after cardiac surgery is a pattern. Concerning signs include CI below 2.2 L/min/m², weak arterial upstroke, narrow pulse pressure, cool peripheries, mottling, delayed capillary refill, urine output below 0.5 mL/kg/hr, rising lactate, worsening base excess, falling SvO₂, escalating vasopressors, and altered mentation if awake.</p>\n<p>The cause must be split into preload, rhythm, contractility, afterload, obstruction, and demand. Preload problems include bleeding, vasodilation, low stressed volume, tamponade, high PEEP, or RV failure. Rhythm problems include bradycardia, rapid AF, heart block, loss of AV synchrony, and poor pacing settings. Contractility problems include stunning, ischaemia, graft issues, hypothermia, acidosis, and electrolyte abnormalities. Afterload problems include high SVR for the LV or high PVR for the RV. Obstruction includes tamponade, tension pneumothorax, PE, valve obstruction, or graft/outflow complications.</p>\n<p>The endpoint is not a perfect monitor number. The endpoint is adequate oxygen delivery with acceptable haemodynamic cost: sufficient MAP, CI, pulse pressure, falling lactate, acceptable SvO₂, adequate urine output, stable rhythm, manageable filling pressures, and no worsening pulmonary oedema, RV congestion, bleeding, graft compromise, or valve stress.</p>"
-    },
-    "pearls": {
-      "content": "<h3>Clinical Pearls - Cardiac Output</h3>\n<h4>Pearl 1 - MAP is not flow</h4>\n<p>A normal MAP can hide low cardiac output if SVR is high.</p>\n<h4>Pearl 2 - Tachycardia helps until filling time collapses</h4>\n<p>Heart rate increases CO only while stroke volume is preserved.</p>\n<h4>Pearl 3 - Pulse pressure is often your stroke-volume clue</h4>\n<p>Narrowing pulse pressure in a fresh cardiac patient is a warning pattern.</p>\n<h4>Pearl 4 - CI must match demand</h4>\n<p>A borderline CI may be inadequate if VO₂ is high.</p>"
-    },
-    "equipment": {
-      "content": "<h3>Equipment Tie-In - Cardiac Output</h3>\n<p><strong>Arterial lines</strong> show pressure and waveform morphology, not CO directly.</p>\n<p><strong>PAC</strong> can measure CO/CI and calculate SVR/PVR while also showing filling pressures and SvO₂.</p>\n<p><strong>Pulse contour monitors</strong> estimate SV/CO from the arterial waveform but are limited by damping, arrhythmia, rapid SVR changes, valve disease, and IABP.</p>\n<p><strong>Echo</strong> shows chamber size, LV/RV function, tamponade, valve lesions, and gross filling.</p>"
-    },
-    "targets": {
-      "content": "<h3>Targets and Numbers - Cardiac Output</h3>\n<p>Typical adult CO is about 4-8 L/min. Common CI target is ≥2.2 L/min/m², with many stable patients around 2.5-4.0. Urine output should usually be ≥0.5 mL/kg/hr, lactate <2 mmol/L or falling, and SvO₂ 60-80% or ≥65-70% if the rest of the picture agrees.</p>",
-      "tables": [
-        {
-          "heading": "Cardiac output core values",
-          "headers": [
-            "Parameter",
-            "Target/range",
-            "Meaning",
-            "CTICU interpretation"
-          ],
-          "rows": [
-            [
-              "SV",
-              "60-100 mL/beat",
-              "Volume ejected per beat",
-              "Falls with underfilling, poor contractility, high afterload, tamponade, RV failure"
-            ],
-            [
-              "CO",
-              "4-8 L/min",
-              "Total flow per minute",
-              "Must match body size and metabolic demand"
-            ],
-            [
-              "CI",
-              "≥2.2 L/min/m²",
-              "Flow indexed to body surface area",
-              "Low with poor perfusion suggests low-output physiology"
-            ],
-            [
-              "UO",
-              "≥0.5 mL/kg/hr",
-              "Renal perfusion/congestion marker",
-              "Low in low flow or venous congestion"
-            ]
-          ]
-        }
-      ]
-    }
-  },
-  "quizQuestions": [
-    {
-      "level": "basic",
-      "question": "What is the central bedside concept in Cardiac Output and Determinants?",
-      "type": "multipleChoice",
-      "options": [
-        "Interpret the value as part of a haemodynamic pattern, not as an isolated number",
-        "Treat every abnormal number with fluid",
-        "Ignore the waveform and rely only on MAP",
-        "Use SpO₂ as the only marker of perfusion"
-      ],
-      "correct": 0,
-      "explanation": "Cardiac Output and Determinants must be interpreted in context. CTICU physiology depends on patterns across pressure, flow, filling, oxygen delivery, demand, waveforms, and clinical response."
-    },
-    {
-      "level": "reasoning",
-      "question": "A post-cardiac surgery patient deteriorates and the Cardiac Output and Determinants data conflict with the clinical picture. What is the safest action?",
-      "type": "multipleChoice",
-      "options": [
-        "Validate the measurement and integrate it with rhythm, waveform, lactate, urine output, echo, and perfusion",
-        "Assume the single number is correct and treat it alone",
-        "Ignore the patient because the monitor is always right",
-        "Give repeated fluid without reassessment"
-      ],
-      "correct": 0,
-      "explanation": "The safest CTICU approach is to validate the measurement, check equipment and waveform quality, then interpret it against the whole clinical pattern before acting."
-    },
-    {
-      "level": "expert",
-      "question": "Why is isolated interpretation dangerous in Cardiac Output and Determinants?",
-      "type": "multipleChoice",
-      "options": [
-        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and metabolic demand interact",
-        "Because cardiac physiology has no relationship to clinical signs",
-        "Because all post-operative patients have identical targets",
-        "Because monitors cannot display useful information"
-      ],
-      "correct": 0,
-      "explanation": "Isolated interpretation is dangerous because CTICU haemodynamics are interactive. The same value may mean different things depending on ventricular function, vascular tone, rhythm, ventilation, oxygen delivery, and surgical context."
-    }
-  ]
+"id": "cardiac-output-and-determinants",
+"domain": 1,
+"domainTitle": "Physiology Foundations",
+"title": "Cardiac Output and Determinants",
+"file": "cardiac_output_and_determinants.json",
+"sections": {
+"abridged": {
+"title": "Abridged Snapshot",
+"content": [
+{
+"type": "heading",
+"text": "Cardiac output: the flow that turns pressure into perfusion"
+},
+{
+"type": "paragraph",
+"text": "Cardiac output is the volume of blood pumped by the heart each minute. In CT-ICU, cardiac output is the practical flow variable behind organ perfusion and oxygen delivery. Blood pressure is important, but pressure and flow are not the same thing. A patient can have an apparently acceptable MAP while having critically inadequate cardiac output if systemic vascular resistance is high. Equally, a patient can have a low MAP but normal or high cardiac output if systemic vascular resistance is very low, as in post-bypass vasoplegia."
+},
+{
+"type": "keyterm",
+"term": "Cardiac output",
+"definition": "Cardiac output is heart rate multiplied by stroke volume. It is usually expressed in L/min. A typical resting adult cardiac output is roughly 4 to 8 L/min, commonly around 5 to 6 L/min, but adequacy depends on body size and metabolic demand."
+},
+{
+"type": "keyterm",
+"term": "Cardiac index",
+"definition": "Cardiac index is cardiac output divided by body surface area. It is expressed in L/min/m2. A commonly used minimum target in low-output assessment is at least 2.2 L/min/m2, with many stable adults around 2.5 to 4.0 L/min/m2."
+},
+{
+"type": "keyterm",
+"term": "Stroke volume",
+"definition": "Stroke volume is the amount of blood ejected by a ventricle with each beat. It is usually around 60 to 100 mL/beat in many adults, but it varies with preload, afterload, contractility, rhythm, valve function and ventricular compliance."
+},
+{
+"type": "paragraph",
+"text": "The core equation is simple: cardiac output equals heart rate multiplied by stroke volume. The bedside interpretation is more complex because stroke volume is determined by preload, afterload and contractility. Preload is the filling and stretch available before contraction. Afterload is the load the ventricle must eject against. Contractility is intrinsic myocardial force generation at a given preload and afterload. Rhythm and AV synchrony modify the efficiency of filling and ejection."
+},
+{
+"type": "paragraph",
+"text": "Heart rate is a double-edged determinant. If stroke volume remains constant, increasing heart rate increases cardiac output. This is why severe bradycardia can cause hypotension, especially after cardiac surgery when stroke volume cannot increase enough to compensate. However, excessive tachycardia shortens diastole, reduces ventricular filling time, reduces coronary perfusion time and increases myocardial oxygen demand. Above roughly 120 to 140/min in a vulnerable CT-ICU patient, stroke volume may fall enough that cardiac output deteriorates despite the faster rate."
+},
+{
+"type": "paragraph",
+"text": "Stroke volume is the mechanical output of one beat. A low stroke volume often appears as a narrow pulse pressure, weak arterial upstroke, low cardiac index, low SvO2, rising lactate and reduced urine output. In the fresh post-cardiac surgery patient, low stroke volume may be caused by hypovolaemia, bleeding, tamponade, RV failure, LV stunning, high SVR, high PVR, valve obstruction, severe regurgitation, pacing dyssynchrony or rapid arrhythmia. The cause matters because the treatment is different."
+},
+{
+"type": "paragraph",
+"text": "MAP is related to cardiac output and systemic vascular resistance. A useful bedside relationship is MAP is approximately cardiac output multiplied by SVR, with CVP contributing a small additional pressure term. This means a normal MAP can be produced by good cardiac output and normal vascular tone, or by poor cardiac output and high vascular tone. It also means a low MAP can occur from poor cardiac output, low SVR, or both."
+},
+{
+"type": "paragraph",
+"text": "After cardiopulmonary bypass, the patient may have vasoplegia, myocardial stunning or both. Vasoplegia is a low-SVR state: MAP is low because the vascular bed is dilated, often with warm peripheries, low diastolic pressure, wide pulse pressure and normal or high cardiac output. Myocardial stunning is a pump problem: cardiac output is low because contractility is impaired, often with narrow pulse pressure, cool peripheries, rising lactate and falling SvO2. Mixed shock is common."
+},
+{
+"type": "paragraph",
+"text": "For post-CABG patients, cardiac output must support myocardial oxygen delivery and graft perfusion. Tachycardia may raise oxygen demand and reduce diastolic coronary perfusion. For post-valve and TAVI patients, rhythm and ventricular filling can dominate cardiac output because the ventricles may be stiff and dependent on atrial contribution. For RV failure patients, cardiac output may be low because the RV cannot deliver blood through the pulmonary circulation to fill the LV. For vasoplegic patients, cardiac output may be adequate but MAP remains low because SVR is inadequate."
+},
+{
+"type": "remember",
+"text": "Do not equate blood pressure with cardiac output. In CT-ICU, always separate pressure from flow. Ask: what is the heart rate, what is the stroke volume likely doing, what is the cardiac index if available, what is SVR likely doing, and do lactate, urine output, skin perfusion and venous saturation agree with adequate oxygen delivery?"
+}
+]
+},
+"expanded": {
+"title": "Expanded Deep-Dive",
+"content": [
+{
+"type": "heading",
+"text": "Cardiac output as the central flow variable"
+},
+{
+"type": "paragraph",
+"text": "Cardiac output is the amount of blood pumped by the heart per minute. It is the flow that carries oxygen, carbon dioxide, glucose, lactate, electrolytes, hormones, heat, drugs, clotting factors and inflammatory mediators. In a cardiothoracic ICU patient, cardiac output is not just a number on a monitor; it is the flow side of every perfusion decision. Organs do not receive oxygen because the blood pressure number looks tidy. They receive oxygen because cardiac output delivers oxygen-containing blood at a pressure sufficient to distribute that flow through the microcirculation."
+},
+{
+"type": "paragraph",
+"text": "The standard formula is cardiac output equals heart rate multiplied by stroke volume. Heart rate is the number of beats per minute. Stroke volume is the volume ejected per beat. If a patient has a heart rate of 80/min and a stroke volume of 70 mL, the cardiac output is 5600 mL/min, or 5.6 L/min. If the stroke volume falls to 35 mL and the heart rate remains 80/min, cardiac output falls to 2.8 L/min. If the heart rate compensates to 120/min with the stroke volume still 35 mL, cardiac output becomes 4.2 L/min, but at the cost of reduced diastolic filling time and increased myocardial oxygen consumption."
+},
+{
+"type": "paragraph",
+"text": "Cardiac output alone does not adjust for body size, which is why cardiac index is commonly used in critical care and cardiac surgery. Cardiac index is cardiac output divided by body surface area. A cardiac output of 4.0 L/min may be acceptable for a small patient and inadequate for a large patient. A practical lower threshold often used in low-output assessment is cardiac index below 2.2 L/min/m2, particularly when associated with poor perfusion markers. However, adequacy is always context-dependent. A deeply sedated, normothermic patient with low metabolic demand may tolerate a lower value better than a febrile, shivering, anaemic or septic patient."
+},
+{
+"type": "subheading",
+"text": "Stroke volume: the mechanical output of one beat"
+},
+{
+"type": "paragraph",
+"text": "Stroke volume is the amount of blood ejected from the ventricle with each beat. It is often conceptually defined as end-diastolic volume minus end-systolic volume. End-diastolic volume is the volume in the ventricle after filling, just before contraction. End-systolic volume is the volume left in the ventricle after ejection. The difference is the amount ejected into the circulation."
+},
+{
+"type": "paragraph",
+"text": "Stroke volume is determined by preload, afterload and contractility. Preload determines how much volume and stretch are available before contraction. Contractility determines how forcefully the myocardium contracts at that preload and afterload. Afterload determines how much resistance the ventricle must overcome to eject. Rhythm, AV synchrony, valve function, ventricular compliance, intrathoracic pressure and ventricular interdependence all modify these three determinants."
+},
+{
+"type": "paragraph",
+"text": "At the bedside, stroke volume is often inferred from pulse pressure, arterial waveform morphology, cardiac output monitoring, echocardiography and perfusion markers. A larger stroke volume usually increases pulse pressure if arterial compliance is unchanged. A low stroke volume often produces a narrow pulse pressure and weak arterial upstroke. However, waveform fidelity matters. An overdamped arterial line can falsely narrow pulse pressure, while an underdamped line can exaggerate systolic pressure and pulse pressure. Always check the line before making major treatment decisions."
+},
+{
+"type": "subheading",
+"text": "Preload as a determinant of stroke volume"
+},
+{
+"type": "paragraph",
+"text": "Preload is end-diastolic myocardial stretch. Increasing preload can increase stroke volume through the Frank-Starling mechanism if the ventricle is on the ascending limb of the Starling curve. This is why a genuinely underfilled patient may improve after fluid. The pulse pressure may widen, cardiac index may rise, MAP may improve, SvO2 may increase and lactate may stabilise or fall."
+},
+{
+"type": "paragraph",
+"text": "Preload does not mean total body fluid volume. CVP, PAWP and LVEDP are pressures influenced by volume, compliance, intrathoracic pressure, PEEP, RV function, PVR and pericardial pressure. A high CVP with low cardiac output does not prove the patient needs less fluid or more fluid; it says right-sided pressure is high. The cause may be RV failure, tamponade, high PVR, high PEEP, tension pneumothorax, tricuspid regurgitation or venous congestion. The treatment depends on the mechanism."
+},
+{
+"type": "subheading",
+"text": "Afterload as a determinant of stroke volume"
+},
+{
+"type": "paragraph",
+"text": "Afterload is the load the ventricle must eject against. For the LV, systemic vascular resistance, arterial pressure, arterial compliance, wall stress and aortic valve function all contribute. If afterload rises and contractility does not increase, stroke volume usually falls. This is why severe hypertension or excessive vasoconstriction can reduce cardiac output in a weak LV, even while MAP looks acceptable."
+},
+{
+"type": "paragraph",
+"text": "For the RV, afterload is mainly the pulmonary vascular load. PVR rises with hypoxia, hypercapnia, acidosis, excessive PEEP, lung overdistension, pulmonary hypertension and pulmonary vascular obstruction. The RV is thin-walled and poorly tolerant of acute pressure overload. When RV output falls, LV preload falls because the RV is no longer delivering enough blood through the pulmonary circulation. The LV may look small and underfilled despite a high CVP."
+},
+{
+"type": "subheading",
+"text": "Contractility as a determinant of stroke volume"
+},
+{
+"type": "paragraph",
+"text": "Contractility is intrinsic myocardial force generation at a given preload and afterload. After cardiac surgery, contractility can be impaired by myocardial stunning, ischaemia-reperfusion injury, inadequate myocardial protection, graft compromise, coronary spasm, valve obstruction, acidosis, hypothermia, electrolyte disturbance, inflammatory myocardial depression or RV strain. Poor contractility reduces stroke volume and cardiac output even when preload is adequate."
+},
+{
+"type": "paragraph",
+"text": "A key CT-ICU trap is giving repeated fluid to a ventricle that is already filled but weak. If the limitation is contractility, more volume may increase LVEDP, PAWP, pulmonary oedema, CVP, RV dilation and renal venous congestion without improving forward flow. The haemodynamic picture may worsen despite a higher filling pressure."
+},
+{
+"type": "subheading",
+"text": "Heart rate: compensation and harm"
+},
+{
+"type": "paragraph",
+"text": "Heart rate is the second term in the cardiac output equation. A slow heart rate can reduce cardiac output when stroke volume cannot rise enough to compensate. This is common after cardiac surgery because stroke volume may be limited by myocardial stunning, stiff ventricles, RV dysfunction, tamponade, valve loading conditions or pacing dyssynchrony. Bradycardia at 40 to 50/min may be poorly tolerated even when it might be acceptable in a healthy resting person."
+},
+{
+"type": "paragraph",
+"text": "Temporary pacing can improve cardiac output by increasing heart rate and restoring AV synchrony, depending on mode and patient physiology. AAI pacing can support atrial rate if AV conduction is intact. VVI pacing can maintain ventricular rate but may sacrifice atrial contribution. DDD pacing can preserve AV synchrony if sensing and capture are appropriate. The best pacing mode is not just the one that produces electrical capture; it is the one that improves mechanical output and perfusion."
+},
+{
+"type": "paragraph",
+"text": "Tachycardia can also be harmful. At first, a higher rate may compensate for low stroke volume. Later, excessive rate shortens diastolic filling time and coronary perfusion time. Myocardial oxygen demand increases while supply may fall. This is particularly dangerous after CABG, in LV hypertrophy, after aortic valve surgery, during ischaemia, in RV failure and during hypovolaemia. A heart rate of 140/min in new AF may produce less cardiac output than a heart rate of 90/min in sinus rhythm because stroke volume collapses."
+},
+{
+"type": "subheading",
+"text": "Cardiac output, MAP and SVR"
+},
+{
+"type": "paragraph",
+"text": "MAP is related to cardiac output and systemic vascular resistance. A simplified relationship is MAP approximately equals cardiac output multiplied by SVR, with CVP contributing a smaller pressure term. This is not a perfect bedside equation, but it is clinically powerful because it explains why pressure and flow can diverge."
+},
+{
+"type": "paragraph",
+"text": "If cardiac output is low and SVR rises, MAP may remain normal while tissue flow is poor. This is compensated low-flow shock. If SVR is low and cardiac output is high, MAP may be low despite good flow. This is common in vasoplegia. If both cardiac output and SVR are low, the patient is profoundly unstable. If both are high, myocardial oxygen demand and afterload may become dangerous, especially after aortic surgery or in LV dysfunction."
+},
+{
+"type": "table",
+"title": "Pressure-flow patterns in CT-ICU",
+"headers": [
+"Pattern",
+"MAP",
+"Cardiac output or CI",
+"SVR",
+"Clinical appearance",
+"Likely physiology"
+],
+"rows": [
+[
+"Vasoplegia",
+"Low",
+"Normal or high",
+"Low",
+"Warm, bounding pulses, low diastolic pressure, wide pulse pressure",
+"Post-bypass low vascular tone"
+],
+[
+"Cold low-output shock",
+"Low or supported",
+"Low",
+"Normal or high",
+"Cold, narrow pulse pressure, oliguria, rising lactate, low SvO2",
+"Pump failure, hypovolaemia, tamponade, RV failure, high afterload or rhythm problem"
+],
+[
+"Compensated low flow",
+"Normal",
+"Low",
+"High",
+"MAP appears acceptable but perfusion markers worsen",
+"Vasoconstriction preserving pressure while flow is inadequate"
+],
+[
+"Mixed vasoplegia and stunning",
+"Low",
+"Low or borderline",
+"Low or variable",
+"Hypotension with poor perfusion and escalating support",
+"Common after prolonged bypass, inflammatory response or severe myocardial dysfunction"
+]
+]
+},
+{
+"type": "subheading",
+"text": "Post-CABG implications"
+},
+{
+"type": "paragraph",
+"text": "After CABG, cardiac output must support systemic organs and myocardial oxygen balance. Tachycardia raises myocardial oxygen demand and shortens diastolic coronary perfusion time. Hypotension may reduce graft and native coronary perfusion. Excessive afterload increases LV work. Low haemoglobin reduces oxygen content. A low cardiac output state after CABG may be caused by myocardial stunning, graft compromise, bleeding, tamponade, arrhythmia, hypovolaemia, RV failure or vasoplegia."
+},
+{
+"type": "paragraph",
+"text": "The nurse should not rely on MAP alone. A post-CABG patient with MAP 70 mmHg on high vasopressor, cool peripheries, narrow pulse pressure, lactate 4 mmol/L, urine output 10 mL/hr and SvO2 50 percent is not adequately perfused. The pressure is being held up, but flow and oxygen delivery are failing."
+},
+{
+"type": "subheading",
+"text": "Post-valve and TAVI implications"
+},
+{
+"type": "paragraph",
+"text": "Valve patients often have altered ventricular compliance and loading conditions. Aortic stenosis creates a hypertrophied stiff LV that may depend on adequate preload, sinus rhythm and controlled rate. Mitral valve disease may create pulmonary hypertension and RV strain. After valve repair or replacement, the ventricle faces a new loading condition immediately. Stroke volume may change rapidly as the regurgitant or stenotic lesion is corrected."
+},
+{
+"type": "paragraph",
+"text": "TAVI patients require rhythm vigilance. New conduction disturbance, bundle branch block or heart block can reduce effective cardiac output through bradycardia, AV dyssynchrony or need for pacing. Cardiac output interpretation must therefore include ECG trend, PR interval, QRS width, pacing readiness, blood pressure, pulse pressure and symptoms or perfusion markers."
+},
+{
+"type": "subheading",
+"text": "RV failure implications"
+},
+{
+"type": "paragraph",
+"text": "In RV failure, cardiac output may be low even if CVP is high. The RV cannot eject effectively into the pulmonary circulation, so LV preload falls. The patient may have rising CVP, dilated RV, septal shift, low PA pulsatility, low cardiac index, hypotension, oliguria and hepatic congestion. More fluid can worsen RV dilation and reduce LV filling further. The priorities are often reducing PVR, supporting RV contractility, maintaining systemic pressure for RV coronary perfusion, correcting rhythm and avoiding hypoxia, hypercapnia and acidosis."
+},
+{
+"type": "subheading",
+"text": "Vasoplegia implications"
+},
+{
+"type": "paragraph",
+"text": "Vasoplegia after bypass is a distributive physiology in which vascular tone is inadequate. Cardiac output may be normal or high, but MAP is low because SVR is low. The patient may be warm with bounding pulses and low diastolic pressure. Vasopressors can improve MAP by restoring vascular tone. Fluid may help if venous return is inadequate, but repeated fluid without stroke volume response increases oedema and may worsen later oxygenation."
+},
+{
+"type": "subheading",
+"text": "How cardiac output appears on monitors and clinically"
+},
+{
+"type": "paragraph",
+"text": "Low cardiac output appears clinically as cool peripheries, mottling, delayed capillary refill, low urine output, rising lactate, worsening base excess, altered mental state if awake, low SvO2, narrow pulse pressure, weak arterial upstroke and escalating vasoactive support. However, no one sign is perfect. A sedated patient may not show mental state changes. A vasoplegic patient may be warm despite shock. A patient on high vasopressors may have normal MAP despite low flow."
+},
+{
+"type": "paragraph",
+"text": "Monitor evidence depends on available devices. The arterial line shows pressure and waveform. A pulmonary artery catheter or calibrated cardiac output monitor can show CO and CI. A pulse contour system estimates stroke volume and CO from arterial waveform analysis, but accuracy depends on waveform quality and assumptions about vascular tone. Echo can estimate stroke volume using LVOT velocity-time integral and can show chamber size, RV function and contractility. Lactate and SvO2 show whether delivery is matching demand."
+},
+{
+"type": "steps",
+"title": "Bedside cardiac output interpretation sequence",
+"items": [
+"Confirm the arterial line is reliable. Check level, zero, damping, tubing, air bubbles, clot and correlation with cuff pressure if needed.",
+"Assess heart rate and rhythm. Identify bradycardia, tachycardia, AF, heart block, junctional rhythm, pacing mode, capture and AV synchrony.",
+"Assess pulse pressure and waveform morphology as stroke-volume clues, while excluding damping artefact.",
+"Check cardiac index or stroke volume if available from a PA catheter, pulse contour system, echo or other monitor.",
+"Assess preload and congestion using CVP, PAWP if present, drains, echo, lung mechanics, oxygenation and response to previous fluid.",
+"Assess afterload by looking at MAP, diastolic pressure, SVR if available, vascular tone, temperature and vasoactive dose.",
+"Assess contractility with echo, arterial waveform, CI, lactate, SvO2, ST changes, acid-base state, temperature and electrolytes.",
+"Assess oxygen economy using haemoglobin, SpO2 or SaO2, lactate, SvO2 or ScvO2, temperature, shivering, pain and work of breathing.",
+"Classify the pattern as vasoplegia, low-output pump failure, hypovolaemia, tamponade, RV failure, rhythm-related low output, high-afterload low output or mixed shock.",
+"Escalate early when CI is below 2.2 L/min/m2 with rising lactate, falling SvO2, oliguria, new rhythm instability, rising CVP or worsening shock."
+]
+},
+{
+"type": "diagram",
+"title": "Cardiac output determinant map",
+"description": "A flowchart showing how heart rate and stroke volume determine cardiac output, and how preload, afterload and contractility determine stroke volume.",
+"layout": "flowchart",
+"elements": [
+"Heart rate",
+"Stroke volume",
+"Preload",
+"Afterload",
+"Contractility",
+"Rhythm and AV synchrony",
+"Valve function",
+"Ventricular compliance",
+"Cardiac output",
+"Cardiac index",
+"Oxygen delivery",
+"Lactate, urine output and SvO2"
+],
+"teachingPoints": [
+"Cardiac output is not the same as MAP.",
+"Stroke volume falls when preload is inadequate, afterload is excessive or contractility is poor.",
+"Tachycardia can compensate early and worsen output later.",
+"Cardiac index must be interpreted against oxygen demand."
+]
+}
+]
+},
+"pearls": {
+"title": "Clinical Pearls",
+"content": [
+{
+"type": "heading",
+"text": "Clinical Pearls"
+},
+{
+"type": "pearl",
+"title": "Pearl 1: MAP is not cardiac output",
+"text": "A MAP of 70 mmHg can represent very different physiology. It may mean adequate cardiac output with normal vascular tone. It may also mean low cardiac output masked by high SVR and vasopressor support. Always pair MAP with pulse pressure, cardiac index if available, lactate, urine output, SvO2, skin perfusion and vasoactive dose."
+},
+{
+"type": "pearl",
+"title": "Pearl 2: tachycardia is compensation until it becomes the problem",
+"text": "A higher heart rate can maintain cardiac output when stroke volume falls. However, excessive tachycardia shortens diastole, reduces ventricular filling, reduces coronary perfusion time and increases myocardial oxygen demand. In a stiff ventricle or post-CABG patient, rate control or rhythm restoration can improve output by increasing stroke volume."
+},
+{
+"type": "pearl",
+"title": "Pearl 3: bradycardia after surgery is a cardiac output problem",
+"text": "A heart rate of 45/min may be tolerated by a healthy resting person, but a post-cardiac surgery patient with limited stroke volume may become hypotensive, oliguric and acidotic. Temporary pacing should be considered when bradycardia is associated with poor perfusion, low cardiac index or inability to maintain MAP."
+},
+{
+"type": "pearl",
+"title": "Pearl 4: pulse pressure is your immediate stroke-volume clue",
+"text": "A narrow pulse pressure often suggests low stroke volume, but arterial line damping must be excluded. In fresh cardiac surgery, narrowing pulse pressure with hypotension should trigger assessment for bleeding, tamponade, LV dysfunction, RV failure, excessive afterload, arrhythmia and pacing problems."
+},
+{
+"type": "pearl",
+"title": "Pearl 5: vasoplegia can have good flow and bad pressure",
+"text": "Post-bypass vasoplegia may show low MAP, low diastolic pressure, warm skin, bounding pulses, wide pulse pressure and normal or high cardiac output. This is a vascular tone problem. It is not the same as cold low-output shock, even though both can be hypotensive."
+},
+{
+"type": "pearl",
+"title": "Pearl 6: low cardiac output can have normal pressure",
+"text": "High SVR can preserve MAP while flow is inadequate. A cold patient with rising lactate, low SvO2 and oliguria is not safe just because the MAP is 65 to 75 mmHg. This is pressure without adequate flow."
+},
+{
+"type": "pearl",
+"title": "Pearl 7: RV failure causes LV underfilling",
+"text": "In RV failure, the CVP may be high while LV preload is low because the RV cannot move blood through the pulmonary circulation. Giving fluid may worsen RV dilation, septal shift and LV underfilling. Cardiac output improves when RV afterload, rhythm, contractility and perfusion pressure are addressed."
+},
+{
+"type": "pearl",
+"title": "Pearl 8: cardiac index is not automatically adequate just because it is above 2.2",
+"text": "A cardiac index of 2.3 L/min/m2 may be acceptable in a sedated, normothermic patient with falling lactate. It may be inadequate in fever, shivering, severe anaemia, sepsis, respiratory distress or high catecholamine states because oxygen consumption is higher."
+},
+{
+"type": "pearl",
+"title": "Pearl 9: clinical examination alone cannot reliably measure cardiac output",
+"text": "Warmth, capillary refill, urine output and mentation are important, but they are imperfect. Vasoactive drugs, sedation, temperature and shock phenotype can distort clinical signs. When available, combine exam with arterial waveform, cardiac output monitoring, echo, lactate and venous saturation."
+}
+]
+},
+"equipment": {
+"title": "Equipment Tie-In",
+"content": [
+{
+"type": "heading",
+"text": "Equipment Tie-In"
+},
+{
+"type": "subheading",
+"text": "Arterial line"
+},
+{
+"type": "paragraph",
+"text": "The arterial line measures pressure, not cardiac output. However, it provides important stroke-volume clues through pulse pressure and waveform morphology. A weak systolic upstroke and narrow pulse pressure may reflect low stroke volume, poor contractility, tamponade, hypovolaemia, RV failure or excessive afterload. A bounding waveform with wide pulse pressure and low diastolic pressure may suggest vasoplegia or aortic regurgitation. Damping must always be assessed before interpreting the trace."
+},
+{
+"type": "table",
+"title": "Arterial line patterns related to cardiac output",
+"headers": [
+"Arterial line finding",
+"Possible cardiac output meaning",
+"Alternative equipment explanation",
+"Bedside response"
+],
+"rows": [
+[
+"Narrow pulse pressure",
+"Low stroke volume and possible low cardiac output",
+"Overdamped arterial line",
+"Check flush response, tubing and transducer; assess drains, CVP, echo, lactate and SvO2"
+],
+[
+"Wide pulse pressure with low diastolic pressure",
+"Low SVR vasoplegia or high stroke volume state",
+"Underdamped arterial line",
+"Check waveform fidelity, temperature, SVR if available and clinical warmth"
+],
+[
+"Slow systolic upstroke",
+"Poor LV ejection, low contractility, high afterload or aortic stenosis physiology",
+"Overdamping",
+"Check arterial trace, echo, cardiac index and valve history"
+],
+[
+"Normal MAP with cold patient",
+"Possible high-SVR compensated low-flow state",
+"Incorrect level or waveform issue",
+"Check cardiac index, lactate, SvO2, urine output and vasoactive dose"
+]
+]
+},
+{
+"type": "subheading",
+"text": "Pulmonary artery catheter"
+},
+{
+"type": "paragraph",
+"text": "The pulmonary artery catheter can directly measure or derive several cardiac output-related variables. Thermodilution cardiac output uses injectate temperature change downstream in the pulmonary artery. Continuous cardiac output catheters use thermal filament technology depending on device. The PAC also provides cardiac index, right atrial pressure, PA pressures, PAWP, SVR, PVR and SvO2. This allows pressure-flow separation."
+},
+{
+"type": "paragraph",
+"text": "PAC values are not immune to error. Thermodilution can be affected by severe tricuspid regurgitation, intracardiac shunt, arrhythmia, inconsistent injectate technique and respiratory variation. Wedge pressure can be wrong if the catheter is overwedged, underwedged or not in West zone 3 conditions. The nurse must look at waveforms, trends and clinical fit rather than accepting every number uncritically."
+},
+{
+"type": "subheading",
+"text": "Pulse contour cardiac output monitors"
+},
+{
+"type": "paragraph",
+"text": "Pulse contour systems estimate stroke volume and cardiac output from arterial waveform analysis. They can be useful for trends, especially when the arterial waveform is good. Their accuracy may be reduced by poor arterial line quality, arrhythmias, rapid changes in SVR, severe valve disease, IABP use and calibration limitations. If the waveform is wrong, the derived flow may also be wrong."
+},
+{
+"type": "subheading",
+"text": "Echo"
+},
+{
+"type": "paragraph",
+"text": "Echo can estimate stroke volume by measuring LVOT diameter and velocity-time integral, although this is operator-dependent. More importantly, echo shows mechanism: LV underfilling, LV systolic dysfunction, RV dilation, septal shift, tamponade, valve obstruction, severe regurgitation and gross volume state. In a low cardiac output pattern, echo often determines whether the next priority is fluid, inotropy, afterload change, RV rescue, rhythm correction or surgical escalation."
+},
+{
+"type": "subheading",
+"text": "ECG and pacing equipment"
+},
+{
+"type": "paragraph",
+"text": "Heart rate and rhythm are central to cardiac output. The ECG monitor identifies bradycardia, tachycardia, AF, heart block, junctional rhythm, ventricular arrhythmias and paced rhythms. The pacing box can alter cardiac output by changing rate and synchrony. VVI pacing may increase rate but lose atrial contribution. DDD pacing may improve output if AV synchrony is restored. Pacing must be judged by mechanical response, not only electrical capture."
+},
+{
+"type": "subheading",
+"text": "ABG and point-of-care testing"
+},
+{
+"type": "paragraph",
+"text": "ABG and point-of-care testing do not measure cardiac output directly, but they show consequences and contributors. Lactate, pH, base excess, haemoglobin, potassium, ionised calcium, PaO2 and PaCO2 are all relevant. Rising lactate and worsening base excess can indicate inadequate oxygen delivery. Low ionised calcium can impair contractility. Anaemia reduces oxygen content. Hypercapnia and acidosis can worsen PVR and RV output."
+},
+{
+"type": "diagram",
+"title": "Cardiac output monitoring pathway",
+"description": "An algorithm showing how to move from MAP and arterial waveform to cardiac output interpretation using available devices.",
+"layout": "algorithm",
+"elements": [
+"Start with MAP and arterial waveform",
+"Check arterial line quality",
+"Assess heart rate and rhythm",
+"Assess pulse pressure",
+"Check cardiac index if PAC or CO monitor is present",
+"Check lactate, urine output and SvO2 or ScvO2",
+"Use echo to identify LV, RV, preload, valve or tamponade mechanism",
+"Classify as vasoplegia, low-output pump failure, hypovolaemia, RV failure, tamponade, rhythm problem or mixed shock"
+],
+"teachingPoints": [
+"The arterial line is pressure information, not direct flow.",
+"Cardiac index must be interpreted with perfusion markers.",
+"Echo clarifies mechanism when pressure-flow data conflict."
+]
+}
+]
+},
+"targets": {
+"title": "Targets and Numbers",
+"content": [
+{
+"type": "heading",
+"text": "Targets and Numbers"
+},
+{
+"type": "paragraph",
+"text": "Cardiac output targets are not isolated goals. The purpose is adequate oxygen delivery for the patient's size and metabolic demand. A sedated, normothermic, stable patient may tolerate lower flow than a febrile, shivering, anaemic or septic patient. A number such as CI 2.2 L/min/m2 must always be read with lactate, SvO2, urine output, skin perfusion, haemoglobin, rhythm, afterload and vasoactive dose."
+},
+{
+"type": "targetTable",
+"title": "Core cardiac output numbers",
+"headers": [
+"Variable",
+"Typical value or target",
+"Meaning",
+"Concern pattern"
+],
+"rows": [
+[
+"Cardiac output",
+"Approximately 4 to 8 L/min in many adults",
+"Total blood flow per minute",
+"Low CO with hypotension, oliguria, rising lactate or low SvO2"
+],
+[
+"Cardiac index",
+"At least 2.2 L/min/m2; often 2.5 to 4.0 when stable",
+"Cardiac output adjusted for body surface area",
+"CI below 2.2 with poor perfusion or high oxygen demand"
+],
+[
+"Stroke volume",
+"Often 60 to 100 mL/beat in many adults",
+"Volume ejected per beat",
+"Low SV suggested by narrow pulse pressure, weak upstroke and low CI"
+],
+[
+"Heart rate",
+"Usually 60 to 100/min; often 70 to 90/min if stable post-op",
+"Multiplier for stroke volume",
+"Bradycardia with low output; tachycardia above 120 to 140/min with falling filling and oxygen balance"
+],
+[
+"Pulse pressure",
+"Often 30 to 50 mmHg, context-dependent",
+"Surrogate clue to stroke volume and arterial compliance",
+"Narrowing pulse pressure with falling MAP, rising CVP or lactate"
+],
+[
+"Urine output",
+"At least 0.5 mL/kg/hr",
+"Practical renal perfusion and congestion marker",
+"Oliguria with low CI, high CVP, rising lactate or vasopressor escalation"
+],
+[
+"Lactate",
+"Less than 2 mmol/L or falling",
+"Oxygen delivery-demand and stress marker",
+"Rising or non-clearing lactate despite acceptable MAP"
+],
+[
+"SvO2",
+"Usually 60 to 80 percent; often at least 65 to 70 percent if context agrees",
+"Global oxygen extraction marker",
+"Falling SvO2 with normal SpO2 suggests low flow, low Hb or high demand"
+]
+]
+},
+{
+"type": "targetTable",
+"title": "Cardiac output profiles by CT-ICU scenario",
+"headers": [
+"Scenario",
+"Likely CO or CI",
+"Likely SVR",
+"Typical clues",
+"Priority interpretation"
+],
+"rows": [
+[
+"Post-bypass vasoplegia",
+"Normal or high",
+"Low",
+"Warm, low diastolic pressure, wide pulse pressure, low MAP",
+"Vascular tone problem; avoid assuming low flow"
+],
+[
+"LV pump failure or stunning",
+"Low",
+"Normal or high",
+"Cool, narrow pulse pressure, rising lactate, low SvO2",
+"Contractility or afterload problem after preload and rhythm assessed"
+],
+[
+"Hypovolaemia or bleeding",
+"Low",
+"High or compensatory",
+"Tachycardia, falling filling pressures early, drain loss, falling Hb",
+"Volume and bleeding source assessment"
+],
+[
+"Tamponade",
+"Low",
+"High or compensatory",
+"Rising CVP, narrowing pulse pressure, falling MAP, low output, possible low drain output if clot blocked",
+"Obstructed filling; urgent escalation"
+],
+[
+"RV failure",
+"Low",
+"Variable",
+"High CVP, RV dilation, septal shift, low LV preload, high PVR triggers",
+"Reduce PVR, support RV and avoid blind fluid loading"
+],
+[
+"Rapid AF in stiff ventricle",
+"Low or falling",
+"Variable",
+"Irregular rhythm, fast rate, loss of atrial kick, narrow pulse pressure",
+"Rate/rhythm and AV synchrony problem"
+]
+]
+},
+{
+"type": "targetTable",
+"title": "Operation-specific cardiac output priorities",
+"headers": [
+"Patient group",
+"Cardiac output risk",
+"Numbers to watch",
+"Escalation trigger"
+],
+"rows": [
+[
+"Post-CABG",
+"Low output from stunning, graft problem, bleeding, tamponade or arrhythmia",
+"CI, pulse pressure, ST changes, lactate, SvO2, urine output, diastolic pressure",
+"New ST change, rising lactate, CI below 2.2, low SvO2 or refractory hypotension"
+],
+[
+"Post-valve surgery",
+"Low output from altered loading, stiff ventricle, pulmonary hypertension, rhythm loss or RV dysfunction",
+"Rhythm, HR, CVP, PA pressure, PAWP, CI, oxygenation",
+"New AF or heart block with falling pulse pressure or urine output"
+],
+[
+"TAVI",
+"Low output from conduction disease, bradycardia, vascular complication or LV dysfunction",
+"PR interval, QRS width, HR, MAP, pulse pressure, Hb, lactate",
+"High-grade AV block, severe bradycardia, hypotension or access bleeding"
+],
+[
+"Aortic surgery",
+"Low output or malperfusion while pressure must be controlled",
+"MAP, systolic pressure, HR, lactate, renal function, neurological status",
+"Hypertension threatening repair or low output threatening organ perfusion"
+],
+[
+"RV failure or pulmonary hypertension",
+"Low LV preload because RV output fails",
+"CVP, PA pressures, CI, echo RV size, PaCO2, pH, SpO2",
+"Rising CVP plus falling CI/MAP or worsening oxygenation/acidosis"
+]
+]
+},
+{
+"type": "steps",
+"title": "Escalation triggers for cardiac output concerns",
+"items": [
+"Cardiac index below 2.2 L/min/m2 with rising lactate, oliguria, falling SvO2 or cool peripheries.",
+"MAP below 65 mmHg with narrowing pulse pressure or weak arterial upstroke after measurement error is excluded.",
+"Normal MAP with rising lactate, low SvO2, low urine output and high vasopressor requirement.",
+"New rapid AF, high-grade AV block, severe bradycardia or pacing failure with haemodynamic compromise.",
+"Rising CVP with falling MAP and narrowing pulse pressure, suggesting tamponade, RV failure or obstructive physiology.",
+"Low output with new ST changes, ventricular arrhythmias or new regional wall-motion abnormality.",
+"Low output with worsening hypoxaemia, hypercapnia or acidosis in an RV-risk patient."
+]
+}
+]
+}
+},
+"quiz": [
+{
+"difficulty": "Bedside Basics",
+"question": "What is the basic formula for cardiac output?",
+"options": [
+"Cardiac output equals heart rate multiplied by stroke volume.",
+"Cardiac output equals MAP multiplied by CVP.",
+"Cardiac output equals haemoglobin multiplied by PaO2.",
+"Cardiac output equals SVR divided by PVR."
+],
+"answer": 0,
+"explanation": "Cardiac output equals heart rate multiplied by stroke volume. Heart rate determines how often the heart ejects per minute. Stroke volume determines how much blood is ejected per beat. The formula is simple, but stroke volume itself depends on preload, afterload and contractility."
+},
+{
+"difficulty": "Bedside Basics",
+"question": "What does cardiac index represent?",
+"options": [
+"Cardiac output adjusted for body surface area.",
+"Stroke volume divided by CVP.",
+"MAP adjusted for haemoglobin.",
+"The percentage of oxygen extracted by tissues."
+],
+"answer": 0,
+"explanation": "Cardiac index is cardiac output divided by body surface area and is expressed in L/min/m2. It allows flow to be interpreted relative to patient size. A common minimum target in low-output assessment is at least 2.2 L/min/m2, but adequacy depends on oxygen demand and perfusion markers."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "A post-CABG patient has MAP 72 mmHg on high noradrenaline, CI 1.7 L/min/m2, lactate 4.2 mmol/L, SvO2 52 percent and urine output 10 mL/hr. What is the best interpretation?",
+"options": [
+"Pressure is supported, but forward flow and oxygen delivery are inadequate.",
+"The patient is adequately perfused because MAP is above 65 mmHg.",
+"The patient has isolated hypoxaemia.",
+"The patient must have high cardiac output because noradrenaline is running."
+],
+"answer": 0,
+"explanation": "The MAP is acceptable only because vascular tone is being supported. The low cardiac index, rising lactate, low SvO2 and oliguria indicate inadequate forward flow and oxygen delivery. This is a pressure-flow mismatch and requires urgent mechanism assessment."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "Why can rapid AF reduce cardiac output in a post-valve patient?",
+"options": [
+"It removes atrial kick, shortens diastolic filling time and increases myocardial oxygen demand.",
+"It always increases stroke volume.",
+"It reduces oxygen consumption by shortening diastole.",
+"It directly lowers pulmonary vascular resistance."
+],
+"answer": 0,
+"explanation": "Rapid AF removes organised atrial systole and shortens diastole. In a stiff post-valve ventricle, atrial kick may be important for filling. The fast rate also increases myocardial oxygen demand and reduces coronary perfusion time. Stroke volume and cardiac output can fall."
+},
+{
+"difficulty": "Expert Level",
+"question": "A patient is warm, hypotensive, has low diastolic pressure, wide pulse pressure, CI 3.4 L/min/m2 and low SVR after bypass. Which pattern is most likely?",
+"options": [
+"Post-bypass vasoplegia",
+"Cold low-output cardiogenic shock",
+"Tamponade",
+"Severe bradycardic low output"
+],
+"answer": 0,
+"explanation": "Warm hypotension with low diastolic pressure, wide pulse pressure, normal or high cardiac index and low SVR is typical of vasoplegia. The issue is inadequate vascular tone rather than primary low cardiac output, although mixed vasoplegia and myocardial dysfunction can coexist."
+},
+{
+"difficulty": "Expert Level",
+"question": "Why can escalating vasopressor improve MAP but worsen cardiac output in a weak LV?",
+"options": [
+"It can increase SVR and LV afterload enough to reduce stroke volume.",
+"It always improves stroke volume without trade-offs.",
+"It lowers afterload to zero.",
+"It directly increases haemoglobin concentration."
+],
+"answer": 0,
+"explanation": "Vasopressors can raise MAP by increasing vascular tone. In a weak LV, excessive SVR increases afterload, making ejection harder. Stroke volume and cardiac output may fall even while MAP improves. Rising lactate and falling SvO2 after vasopressor escalation suggest pressure without adequate flow."
+}
+],
+"diagrams": [
+{
+"type": "diagram",
+"title": "Cardiac output determinant map",
+"description": "A flowchart showing how heart rate and stroke volume determine cardiac output, and how preload, afterload and contractility determine stroke volume.",
+"layout": "flowchart",
+"elements": [
+"Heart rate",
+"Stroke volume",
+"Preload",
+"Afterload",
+"Contractility",
+"Rhythm and AV synchrony",
+"Valve function",
+"Ventricular compliance",
+"Cardiac output",
+"Cardiac index",
+"Oxygen delivery",
+"Lactate, urine output and SvO2"
+],
+"teachingPoints": [
+"Cardiac output is not the same as MAP.",
+"Stroke volume falls when preload is inadequate, afterload is excessive or contractility is poor.",
+"Tachycardia can compensate early and worsen output later.",
+"Cardiac index must be interpreted against oxygen demand."
+]
+},
+{
+"type": "diagram",
+"title": "Pressure-flow pattern comparison",
+"description": "A comparison diagram separating vasoplegia, low-output shock, compensated low flow and mixed shock using MAP, cardiac index and SVR.",
+"layout": "comparison",
+"elements": [
+"Vasoplegia: low MAP, normal/high CI, low SVR",
+"Low-output shock: low or supported MAP, low CI, normal/high SVR",
+"Compensated low flow: normal MAP, low CI, high SVR",
+"Mixed shock: low MAP, low or borderline CI, low or variable SVR"
+],
+"teachingPoints": [
+"Hypotension is not one diagnosis.",
+"Normal MAP does not exclude low cardiac output.",
+"CI and SVR together clarify the haemodynamic pattern."
+]
+},
+{
+"type": "diagram",
+"title": "Tachycardia compensation curve",
+"description": "A graph showing that heart rate initially increases cardiac output when stroke volume is preserved, but excessive tachycardia reduces filling time and may lower stroke volume enough to reduce cardiac output.",
+"layout": "comparison",
+"elements": [
+"Normal HR with adequate filling",
+"Moderate tachycardia with compensation",
+"Severe tachycardia with shortened diastole",
+"Falling stroke volume",
+"Reduced coronary perfusion time",
+"Rising myocardial oxygen demand"
+],
+"teachingPoints": [
+"Heart rate is helpful only while stroke volume is preserved.",
+"Rapid AF can reduce cardiac output despite a faster rate.",
+"Stiff ventricles and post-CABG patients are especially vulnerable to tachycardia."
+]
+}
+],
+"references": [
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Physiology, Cardiac Output",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK470455/](https://www.ncbi.nlm.nih.gov/books/NBK470455/)",
+"supports": "Supports cardiac output physiology, including heart rate, stroke volume, preload, afterload and contractility."
+},
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Physiology, Cardiac Index",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK539905/](https://www.ncbi.nlm.nih.gov/books/NBK539905/)",
+"supports": "Supports cardiac index concepts and stroke volume determinants including preload, afterload and contractility."
+},
+{
+"sourceName": "Critical Care / PMC",
+"title": "Clinical review: Update on hemodynamic monitoring",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC3387592/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3387592/)",
+"supports": "Supports haemodynamic monitoring using heart rate, arterial pressure, filling pressures, cardiac output and mixed venous oxygen saturation."
+},
+{
+"sourceName": "F1000Research / PMC",
+"title": "Hemodynamic monitoring in the critically ill: an overview of current cardiac output monitoring methods",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC5166586/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5166586/)",
+"supports": "Supports the role, methods and limitations of cardiac output monitoring in critically ill patients."
+},
+{
+"sourceName": "Frontiers in Pediatrics / PMC",
+"title": "Definitions of low cardiac output syndrome after cardiac surgery and their effect on incidence, treatment and outcome",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC9558721/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9558721/)",
+"supports": "Supports low cardiac output syndrome after cardiac surgery as inadequate cardiac pump function causing reduced oxygen delivery and tissue hypoxia."
+},
+{
+"sourceName": "Critical Care / PMC",
+"title": "Contemporary Review of Hemodynamic Monitoring in Circulatory Shock",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC11588176/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11588176/)",
+"supports": "Supports haemodynamic monitoring as an adjunct to examination and laboratory assessment in shock, including pulmonary artery catheter use."
+},
+{
+"sourceName": "Journal of Thoracic and Cardiovascular Surgery",
+"title": "Predictors of low cardiac output syndrome after coronary artery bypass",
+"url": "[https://www.sciencedirect.com/science/article/pii/S0022522396701769](https://www.sciencedirect.com/science/article/pii/S0022522396701769)",
+"supports": "Supports the use of cardiac index thresholds and inotropic or IABP support concepts in post-CABG low cardiac output syndrome definitions."
+}
+]
 }

@@ -1,67 +1,922 @@
 {
-  "id": "arterial_line_damping_zeroing_and_levelling",
-  "domain": 2,
-  "domainTitle": "Haemodynamic Monitoring",
-  "title": "Arterial Line Damping, Zeroing and Levelling",
-  "file": "arterial_line_damping_zeroing_and_levelling.json",
-  "sections": {
-    "abridged": {
-      "title": "Abridged Snapshot",
-      "content": "<h3>Bedside snapshot</h3>\n<p>Damping, zeroing and levelling decide whether the arterial pressure number is trustworthy. In CT-ICU, an inaccurate arterial line can drive harmful treatment: unnecessary vasodilators for a falsely high systolic pressure, missed hypotension from overdamping, or inappropriate fluid/vasopressor changes after cardiac surgery.</p>\n<p><strong>Dynamic response</strong> — The ability of the arterial monitoring system to reproduce the patient’s real arterial pressure without excessive blunting or ringing.</p>\n<p><strong>Overdamping</strong> — A sluggish system that blunts the waveform. It underestimates systolic pressure, overestimates diastolic pressure and may make pulse pressure falsely narrow.</p>\n<p><strong>Underdamping</strong> — An oscillating system that rings after pressure changes. It overestimates systolic pressure, underestimates diastolic pressure and creates a falsely wide pulse pressure.</p>\n<table><thead><tr>\n<th>Problem</th>\n<th>Typical appearance</th>\n<th>Immediate action</th>\n</tr></thead><tbody>\n<tr>\n<td>Overdamping</td>\n<td>Flattened upstroke, absent notch, narrow pulse pressure.</td>\n<td>Check for clot, air, kink, loose connection, low flush pressure, catheter against wall; flush and square-wave test.</td>\n</tr>\n<tr>\n<td>Underdamping</td>\n<td>Tall sharp systolic peak, oscillations after flush, wide pulse pressure.</td>\n<td>Remove excess tubing, secure limb, remove air, tighten connections, avoid soft/compliant tubing.</td>\n</tr>\n<tr>\n<td>Incorrect zero</td>\n<td>All values offset high or low.</td>\n<td>Open stopcock to air, close to patient, press zero, then return stopcock to patient monitoring position.</td>\n</tr>\n<tr>\n<td>Incorrect level</td>\n<td>Pressure wrong by height difference.</td>\n<td>Place transducer at right atrial/phlebostatic level.</td>\n</tr>\n</tbody></table>\n<div class=\"warning\"><p>A transducer 10 cm below the right atrium can over-read pressure by about 7.4 mmHg; 10 cm above can under-read by about 7.4 mmHg. This is enough to change vasopressor decisions.</p></div>"
-    },
-    "expanded": {
-      "title": "Expanded Deep-Dive",
-      "content": "<h3>Why damping matters</h3>\n<p>The arterial system is a dynamic pressure system. The catheter and tubing must transmit pressure rapidly and accurately to the transducer. If the system is too compliant, partially blocked or full of air, the pressure wave is absorbed and blunted. If the system resonates, the pressure wave overshoots and rings. Both errors can produce numbers that look precise but are physiologically wrong.</p>\n<p>Overdamping is dangerous in CT-ICU because it can hide hypertension and make pulse pressure appear narrow. Underdamping is dangerous because it can exaggerate systolic hypertension after aortic surgery or valve surgery, leading to unnecessary vasodilators or confusion about bleeding risk. MAP is generally less affected than systolic or diastolic pressure, but severe damping errors can distort all values.</p>\n<p><strong>Fast flush test</strong> — A dynamic response test where the flush device is briefly activated to create a square wave, then released to observe oscillations. It helps distinguish optimal damping, overdamping and underdamping.</p>\n<h4>Optimal square wave response</h4>\n<p>A good response has a rapid vertical rise, flat plateau, rapid fall and usually 1 to 2 oscillations before returning to baseline. This means the system is fast enough to transmit the waveform without excessive ringing.</p>\n<h4>Overdamped response</h4>\n<p>An overdamped response has slow rise/fall and little or no oscillation. Causes include clot at catheter tip, air bubbles, kinked tubing, loose connection, blood in tubing, catheter against vessel wall, low pressure bag, soft tubing or long extension tubing.</p>\n<h4>Underdamped response</h4>\n<p>An underdamped response has excessive oscillations, often more than 2 after the flush. Causes include long tubing, overly stiff or resonant setup, catheter whip, patient movement and poor limb positioning. The displayed systolic pressure can be falsely high by 10-30 mmHg or more in severe cases.</p>\n<p><strong>Phlebostatic axis</strong> — The approximate right atrial level, usually the fourth intercostal space at the mid-axillary line in the supine patient. It is the standard reference level for arterial, CVP and PA pressures.</p>\n<p>Hydrostatic pressure changes by approximately 0.74 mmHg per cm of height difference between transducer and the reference level. If the transducer is too low, the column of fluid adds pressure and the reading is falsely high. If it is too high, the reading is falsely low. For a patient sitting up, level to the right atrium, not the mattress or bed frame.</p>"
-    },
-    "pearls": {
-      "title": "Clinical Pearls",
-      "content": "<div class=\"pearl\"><p>If the waveform is overdamped, systolic pressure may be falsely low. This can make a hypertensive aortic surgery patient look safe when they are not.</p></div>\n<div class=\"pearl\"><p>If the waveform is underdamped, do not chase the systolic pressure blindly. Check MAP, square-wave response and clinical context.</p></div>\n<div class=\"pearl\"><p>Levelling errors are common after bed height changes, sitting the patient up, turning, mobilising, imaging transfers and return from theatre.</p></div>\n<div class=\"warning\"><p>Zeroing is not the same as levelling. Zeroing calibrates atmospheric pressure; levelling aligns the transducer to the patient’s right atrium. You need both.</p></div>"
-    },
-    "equipment": {
-      "title": "Equipment Tie-In",
-      "content": "<h3>Nurse-technician setup</h3>\n<p>Troubleshooting is equipment plus physiology. If the line is technically poor but the patient is unstable, escalate while troubleshooting. Do not spend ten minutes perfecting a trace while a tamponade, bleed or RV failure is evolving.</p>"
-    },
-    "targets": {
-      "title": "Targets and Numbers",
-      "content": "<table><thead><tr>\n<th>Parameter</th>\n<th>Usual target/range</th>\n<th>CT-ICU interpretation</th>\n</tr></thead><tbody>\n<tr>\n<td>MAP</td>\n<td>65-80 mmHg for most stable post-cardiac surgery patients; 70-90 mmHg often used when renal, cerebral, aortic or graft perfusion is a concern.</td>\n<td>Interpret with urine output, lactate, mentation, skin perfusion and surgical target. A MAP of 65 can be inadequate in chronic hypertension or after aortic/neurological risk surgery.</td>\n</tr>\n<tr>\n<td>Pulse pressure</td>\n<td>Usually 30-50 mmHg.</td>\n<td>Narrow pulse pressure suggests low stroke volume, tamponade, severe vasoconstriction or RV failure. Very wide pulse pressure suggests low SVR, aortic regurgitation or IABP augmentation.</td>\n</tr>\n<tr>\n<td>Urine output</td>\n<td>At least 0.5 mL/kg/hr; commonly aim 30 mL/hr minimum in average adult.</td>\n<td>Falling urine output with a deteriorating waveform is an early perfusion warning after cardiac surgery.</td>\n</tr>\n<tr>\n<td>Lactate</td>\n<td>Usually <2 mmol/L; trend should fall after bypass and resuscitation.</td>\n<td>Persistent or rising lactate >3-4 mmol/L suggests ongoing oxygen debt, low cardiac output, vasoplegia, bleeding, sepsis or limb/mesenteric ischaemia.</td>\n</tr>\n</tbody></table>\n<table><thead><tr>\n<th>Technical number</th>\n<th>Value</th>\n<th>Meaning</th>\n</tr></thead><tbody>\n<tr>\n<td>Hydrostatic error</td>\n<td>About 0.74 mmHg per cm height difference</td>\n<td>10 cm error equals about 7.4 mmHg BP error.</td>\n</tr>\n<tr>\n<td>Pressure bag</td>\n<td>300 mmHg</td>\n<td>Maintains continuous flush and prevents blood reflux.</td>\n</tr>\n<tr>\n<td>Optimal flush test</td>\n<td>1-2 oscillations</td>\n<td>Suggests acceptable dynamic response.</td>\n</tr>\n<tr>\n<td>Overdamped flush test</td>\n<td>No oscillation or slow return</td>\n<td>Blunted trace; check clot/air/kink/flush/catheter position.</td>\n</tr>\n<tr>\n<td>Underdamped flush test</td>\n<td>>2 oscillations/ringing</td>\n<td>Exaggerated systolic and low diastolic; secure/shorten system and remove air.</td>\n</tr>\n</tbody></table>"
-    }
-  },
-  "quiz": [
-    {
-      "difficulty": "Clinical Reasoning",
-      "question": "A transducer is 10 cm below the phlebostatic axis. What will happen?",
-      "options": [
-        "BP will read falsely high by about 7-8 mmHg",
-        "BP will read falsely low by about 7-8 mmHg",
-        "Only systolic pressure changes",
-        "No effect if zeroed"
-      ],
-      "answer": 0,
-      "explanation": "A transducer below the right atrium adds hydrostatic pressure. Zeroing does not correct levelling error."
-    },
-    {
-      "difficulty": "Clinical Reasoning",
-      "question": "A fast flush test shows no oscillation and a slow return to baseline. What is this?",
-      "options": [
-        "Optimal damping",
-        "Overdamping",
-        "Underdamping",
-        "Normal IABP augmentation"
-      ],
-      "answer": 1,
-      "explanation": "A sluggish square wave response with no oscillation indicates overdamping, which blunts systolic pressure and narrows pulse pressure."
-    },
-    {
-      "difficulty": "Bedside Basics",
-      "question": "Which value is usually least distorted by mild underdamping?",
-      "options": [
-        "Systolic pressure",
-        "Diastolic pressure",
-        "MAP",
-        "Pulse pressure"
-      ],
-      "answer": 2,
-      "explanation": "MAP is generally less affected than systolic and diastolic values in mild-moderate damping problems, though severe technical faults can affect all readings."
-    }
-  ]
+"id": "arterial_line_damping_zeroing_and_levelling",
+"domain": 2,
+"domainTitle": "Haemodynamic Monitoring",
+"title": "Arterial Line Damping, Zeroing and Levelling",
+"file": "arterial_line_damping_zeroing_and_levelling.json",
+"sections": {
+"abridged": {
+"title": "Abridged Snapshot",
+"content": [
+{
+"type": "paragraph",
+"text": "Arterial line accuracy depends on three separate things: the patient physiology, the pressure monitoring system, and the way the transducer is zeroed and levelled. In cardiothoracic ICU, this is not a minor technical detail. A false arterial pressure can cause real harm. If an overdamped arterial line falsely lowers the systolic pressure, the team may escalate vasopressors unnecessarily. If an underdamped line falsely exaggerates systolic pressure after aortic surgery, the team may give vasodilators and create true hypotension. If a transducer is positioned too low, the displayed pressure will be falsely high and real shock may be missed."
+},
+{
+"type": "keyterm",
+"term": "Dynamic response",
+"definition": "The ability of the catheter, tubing, flush system and transducer to reproduce the patient's true arterial pressure waveform without excessive blunting or excessive resonance."
+},
+{
+"type": "keyterm",
+"term": "Overdamping",
+"definition": "A monitoring-system problem where the pressure signal is excessively blunted. It typically causes a rounded low-amplitude waveform, loss of the dicrotic notch, falsely low systolic pressure, falsely high diastolic pressure and a falsely narrow pulse pressure."
+},
+{
+"type": "keyterm",
+"term": "Underdamping",
+"definition": "A monitoring-system problem where the pressure signal resonates excessively. It typically causes a tall sharp systolic spike, low diastolic trough, waveform ringing, falsely high systolic pressure, falsely low diastolic pressure and a falsely wide pulse pressure."
+},
+{
+"type": "keyterm",
+"term": "Zeroing",
+"definition": "The process of telling the monitor that atmospheric pressure is zero. The transducer is opened to air and closed to the patient, then the monitor's zero function is activated."
+},
+{
+"type": "keyterm",
+"term": "Levelling",
+"definition": "Positioning the transducer at the same vertical height as the patient's haemodynamic reference point, usually the phlebostatic axis, to prevent hydrostatic pressure error."
+},
+{
+"type": "paragraph",
+"text": "The fast flush test, also called the square wave test or dynamic response test, is the main bedside method for assessing arterial line damping. When the flush device is activated, the monitor should show a rapid vertical rise, a square plateau, a rapid fall and then a brief return to the arterial waveform. An optimally damped system usually has one to two oscillations after the flush release. No oscillation or a sluggish return suggests overdamping. Multiple oscillations or ringing suggests underdamping."
+},
+{
+"type": "targetTable",
+"title": "Fast bedside interpretation of arterial line damping",
+"columns": [
+"Finding",
+"Displayed waveform",
+"Likely BP error",
+"Immediate action"
+],
+"rows": [
+[
+"Optimal dynamic response",
+"Sharp square wave, rapid return, one to two oscillations, clear dicrotic notch.",
+"Systolic, diastolic and MAP are more likely to be reliable if zeroing and levelling are also correct.",
+"Use the arterial pressure if it fits the patient, trend and clinical picture."
+],
+[
+"Overdamping",
+"Rounded waveform, low amplitude, absent or reduced dicrotic notch, no oscillation after fast flush.",
+"Falsely low systolic pressure, falsely high diastolic pressure, falsely narrow pulse pressure. MAP may be less affected but can still be unreliable if severe.",
+"Check patient, then inspect for air bubbles, clot, kink, blood in tubing, loose connection, catheter tip obstruction, low pressure bag or wrong stopcock position."
+],
+[
+"Underdamping",
+"Tall spiky systolic peak, low diastolic trough, ringing and more than two oscillations after fast flush.",
+"Falsely high systolic pressure, falsely low diastolic pressure, falsely wide pulse pressure. MAP is often closer but must still be interpreted cautiously.",
+"Secure tubing, stabilise catheter and limb, remove excess tubing or stopcocks, repeat square wave test and compare with cuff or second arterial site."
+]
+]
+},
+{
+"type": "paragraph",
+"text": "Levelling error is predictable and clinically important. A vertical height difference creates a hydrostatic pressure error of about 0.74 mmHg per centimetre, or about 7.4 mmHg per 10 cm. If the transducer is below the right atrium, the displayed pressure is falsely high. If the transducer is above the right atrium, the displayed pressure is falsely low. A transducer 20 cm too low may falsely add about 15 mmHg to the MAP. That is the difference between a true MAP of 55 mmHg and a displayed MAP of 70 mmHg."
+},
+{
+"type": "paragraph",
+"text": "The usual levelling reference for arterial, CVP and PA pressures is the phlebostatic axis, approximating the right atrium. In a supine patient this is commonly located at the fourth intercostal space at the mid-axillary line. For standard systemic arterial pressure monitoring in CTICU, this reference is used because arterial pressure is being interpreted as the pressure driving systemic organ perfusion from the level of the heart. If cerebral perfusion pressure is the specific target, some specialist situations may require a different reference such as the external auditory meatus, but that is a separate ordered indication and not the routine post-cardiac surgery default."
+},
+{
+"type": "warning",
+"text": "Do not correct vasoactive drugs for an unexpected blood pressure until you have checked dynamic response, transducer level, zeroing, waveform shape, cuff correlation and the patient. In CTICU, a technical error can look exactly like bleeding, vasoplegia, tamponade, low cardiac output or severe hypertension."
+},
+{
+"type": "diagram",
+"title": "Square wave test interpretation",
+"description": "A three-part arterial waveform diagram showing optimal damping, overdamping and underdamping after a fast flush. It should show the square wave, post-flush oscillations and the expected blood pressure error.",
+"layout": "waveform",
+"elements": [
+"Optimal response with rapid rise, square plateau, rapid fall and one to two oscillations",
+"Overdamped response with sluggish return and no oscillation",
+"Underdamped response with multiple oscillations and ringing",
+"Labels for falsely low systolic pressure in overdamping",
+"Labels for falsely high systolic pressure in underdamping"
+],
+"teachingPoints": [
+"The square wave test assesses the whole catheter-tubing-transducer system.",
+"Systolic and diastolic pressures are more affected by damping error than MAP, but severe error can make all values unsafe.",
+"The waveform must be corrected before high-risk vasoactive decisions are made."
+]
+}
+]
+},
+"expanded": {
+"title": "Expanded Deep-Dive",
+"content": [
+{
+"type": "heading",
+"text": "Why arterial pressure monitoring systems distort pressure"
+},
+{
+"type": "paragraph",
+"text": "An arterial line is a mechanical measurement system. The patient's arterial pressure wave is transmitted through the artery into the catheter, then through a column of fluid in rigid pressure tubing to a pressure transducer. The transducer converts mechanical pressure into an electrical signal displayed by the bedside monitor. The system must transmit a rapid pulsatile signal without excessive loss of energy and without excessive oscillation. This is why tubing stiffness, tubing length, air bubbles, clot, catheter position, stopcocks, flush pressure and transducer setup all matter."
+},
+{
+"type": "paragraph",
+"text": "The arterial waveform contains multiple frequency components. The slow component is the general rise and fall in pressure across the cardiac cycle. The faster components create sharper features such as the steep systolic upstroke and dicrotic notch. An overdamped system loses the faster components first, so the trace becomes rounded and the dicrotic notch disappears. An underdamped system resonates, exaggerating the systolic peak and producing extra oscillations that do not represent true arterial pressure."
+},
+{
+"type": "paragraph",
+"text": "The practical CTICU consequence is that the same patient can appear hypertensive, hypotensive or stable depending on the technical quality of the arterial line. This is especially dangerous after cardiothoracic surgery because treatment thresholds are narrow. A fresh aortic repair may have a tight systolic target. A vasoplegic post-bypass patient may need titrated vasopressors. A low-output CABG patient may need inotropy, pacing optimisation, urgent echo or surgical review. A false arterial pressure can push the team in the wrong direction."
+},
+{
+"type": "heading",
+"text": "Dynamic response"
+},
+{
+"type": "paragraph",
+"text": "Dynamic response describes how accurately the pressure monitoring system reproduces the true arterial waveform. It depends mainly on natural frequency and damping coefficient. Natural frequency is how quickly the system tends to oscillate when disturbed. Damping is how quickly those oscillations are controlled. An ideal monitoring system has a high natural frequency and appropriate damping, so it can follow fast arterial pressure changes without blunting the trace or ringing."
+},
+{
+"type": "paragraph",
+"text": "At the bedside, nurses do not usually calculate the damping coefficient or natural frequency. Instead, the fast flush test provides a practical assessment. The flush device applies pressure from the flush bag, usually around 300 mmHg, producing a square wave. When the flush is released, the system should briefly oscillate and settle back to the arterial waveform. One to two oscillations suggest acceptable response. No oscillation suggests overdamping. Multiple oscillations suggest underdamping."
+},
+{
+"type": "subheading",
+"text": "Optimal damping"
+},
+{
+"type": "paragraph",
+"text": "An optimally damped arterial line shows a crisp upstroke, a defined systolic peak, a visible dicrotic notch and a smooth diastolic runoff. After fast flush release, it returns to baseline with one to two oscillations. In this situation, the displayed systolic, diastolic and MAP are more likely to be reliable, provided the transducer is zeroed, levelled and the waveform fits the clinical picture."
+},
+{
+"type": "paragraph",
+"text": "Even an optimally damped line is not automatically the full truth. Peripheral arterial pressure differs from central aortic pressure, and radial pressure can differ from femoral pressure after cardiopulmonary bypass. Non-invasive cuff pressure has its own limitations. The arterial line is highly valuable because it provides continuous beat-to-beat pressure and waveform detail, but it still requires clinical correlation."
+},
+{
+"type": "subheading",
+"text": "Overdamping"
+},
+{
+"type": "paragraph",
+"text": "Overdamping means the monitoring system absorbs too much of the pressure signal. The displayed waveform becomes rounded and low amplitude. The dicrotic notch may disappear. The pulse pressure becomes falsely narrow. The systolic pressure is usually underestimated and the diastolic pressure is usually overestimated. MAP is often less affected than systolic and diastolic pressure, but if the trace is severely damped, even the MAP can be unsafe."
+},
+{
+"type": "paragraph",
+"text": "The common causes are mechanical. Air bubbles are compressible and absorb pressure energy. Clot or fibrin at the catheter tip obstructs pressure transmission. Blood in the tubing increases damping and clot risk. A kinked catheter or tubing physically blocks the pressure wave. A catheter tip against the vessel wall can create a positional low-amplitude trace. Loose connections and cracked components distort the system. Long, soft or compliant tubing dampens the signal. A pressure bag below 300 mmHg may allow blood to back up into the line and increase clot formation."
+},
+{
+"type": "paragraph",
+"text": "Overdamping can mimic genuine low stroke volume. A post-CABG patient with a rounded arterial trace and narrow pulse pressure may have a line problem, but may also be bleeding, tamponading or in low cardiac output syndrome. The distinguishing process is structured assessment. Check the patient first: skin temperature, capillary refill, mentation if awake, urine output, lactate, rhythm, chest drains, CVP or PA pressures, vasoactive trend and ventilator pressures. Then troubleshoot the line. If correcting a kink or clearing air restores the trace, the problem was technical. If the patient remains clinically shocked, escalate even if the line has technical problems."
+},
+{
+"type": "subheading",
+"text": "Underdamping"
+},
+{
+"type": "paragraph",
+"text": "Underdamping means the monitoring system resonates excessively. The trace becomes tall, sharp and spiky. The systolic pressure is overestimated, the diastolic pressure is underestimated and the pulse pressure appears falsely wide. After a fast flush, the waveform rings with more than two oscillations. This is often described as catheter whip or resonance, although catheter whip specifically implies movement-related artefact."
+},
+{
+"type": "paragraph",
+"text": "Underdamping is dangerous because it can create apparent severe systolic hypertension. This matters after aortic surgery, intracranial pathology, active bleeding, fresh vascular anastomoses and post-cardiac surgery hypertension management. If the trace is underdamped and the displayed systolic pressure is 170 mmHg, treating aggressively with vasodilators without confirming the pressure can cause true hypotension, reduced graft perfusion and organ hypoperfusion."
+},
+{
+"type": "paragraph",
+"text": "Common causes include excessive tubing length, multiple stopcocks, unsupported tubing, catheter movement, resonance within the catheter-tubing system, loose catheter fixation and high-frequency mechanical vibration. It can also be exaggerated in hyperdynamic states, but the diagnostic feature remains the fast flush response and mismatch between the spiky systolic pressure and the patient's clinical state."
+},
+{
+"type": "heading",
+"text": "Fast flush or square wave test"
+},
+{
+"type": "steps",
+"title": "How to perform and interpret a fast flush test",
+"items": [
+"Confirm that the patient is safe to assess and that the arterial line is connected, labelled and producing a waveform.",
+"Check that the flush bag is pressurised to approximately 300 mmHg and that the line is not visibly disconnected, kinked or bleeding.",
+"Activate the fast flush device briefly. The waveform should rapidly rise toward the flush pressure and form a square plateau.",
+"Release the flush device. The waveform should rapidly fall and then oscillate briefly before returning to the arterial pressure waveform.",
+"Interpret the response. One to two oscillations suggest acceptable dynamic response. No oscillation or a sluggish rounded return suggests overdamping. Multiple oscillations or ringing suggests underdamping.",
+"Do not flush repeatedly or forcefully against resistance. Resistance, pain, swelling, loss of distal perfusion or inability to flush should trigger escalation rather than force.",
+"After the test, confirm that the arterial waveform has returned, alarms are appropriate, and the displayed pressure fits the patient."
+]
+},
+{
+"type": "paragraph",
+"text": "The square wave test should not be performed mindlessly. It is most useful when the displayed pressure does not fit the patient, the waveform has changed, the dicrotic notch disappears, the systolic pressure seems unexpectedly high, the pulse pressure is unexpectedly narrow or wide, the line has been repositioned, or treatment decisions depend on precise arterial pressure. It is also useful during setup and after troubleshooting."
+},
+{
+"type": "heading",
+"text": "Zeroing the transducer"
+},
+{
+"type": "paragraph",
+"text": "Zeroing sets the atmospheric pressure reference. The transducer senses pressure relative to a reference point. If it has not been zeroed correctly, every displayed value may be offset. Zeroing is not the same as levelling. Levelling corrects the vertical height of the transducer relative to the patient. Zeroing tells the monitor what zero pressure is when the transducer is open to air."
+},
+{
+"type": "steps",
+"title": "How to zero an arterial transducer",
+"items": [
+"Level the transducer first to the correct reference point, usually the phlebostatic axis for routine arterial pressure monitoring.",
+"Identify the stopcock closest to the transducer used for zeroing.",
+"Turn the stopcock off to the patient and open the transducer to air.",
+"Press the zero function on the monitor for the arterial pressure channel.",
+"Confirm that the monitor displays zero or confirms zeroing is complete.",
+"Close the air port and turn the stopcock back open to the patient.",
+"Confirm that the arterial waveform returns and the pressure value is plausible.",
+"Document zeroing if required and communicate any persistent discrepancy."
+]
+},
+{
+"type": "paragraph",
+"text": "Zeroing should be performed during initial setup, at the start of a shift according to unit practice, after transducer or tubing changes, after disconnection, after major position changes if readings are questionable, and whenever the pressure does not match the clinical picture. Zeroing cannot fix a transducer that is at the wrong vertical height while connected to the patient. If the transducer is levelled incorrectly after zeroing, hydrostatic error still occurs."
+},
+{
+"type": "heading",
+"text": "Levelling the transducer"
+},
+{
+"type": "paragraph",
+"text": "Levelling corrects for hydrostatic pressure. The fluid column in the tubing has weight. If the transducer is below the heart, the fluid column adds pressure to the transducer and the displayed arterial pressure becomes falsely high. If the transducer is above the heart, the displayed pressure becomes falsely low. The approximate error is 0.74 mmHg for each centimetre of vertical height difference, or 7.4 mmHg for each 10 cm."
+},
+{
+"type": "paragraph",
+"text": "The usual reference point is the phlebostatic axis. In a supine adult, it is approximated at the fourth intercostal space and mid-axillary line, corresponding to the level of the right atrium. This reference is used for arterial, central venous and pulmonary artery pressures when the aim is to describe pressure relative to the heart. The practical bedside action is to re-level after bed height changes, head-of-bed changes, lateral turns, transfers, sitting the patient up, proning or any position change that alters the height relationship between the transducer and right atrium."
+},
+{
+"type": "targetTable",
+"title": "Hydrostatic levelling error",
+"columns": [
+"Transducer position",
+"Displayed pressure error",
+"Clinical risk"
+],
+"rows": [
+[
+"Transducer 5 cm below right atrium",
+"Pressure reads about 3.7 mmHg too high.",
+"Mild false reassurance if patient is hypotensive."
+],
+[
+"Transducer 10 cm below right atrium",
+"Pressure reads about 7.4 mmHg too high.",
+"True MAP 58 mmHg may display around 65 mmHg, potentially delaying treatment."
+],
+[
+"Transducer 20 cm below right atrium",
+"Pressure reads about 14.8 mmHg too high.",
+"True shock may be hidden and vasopressors or volume may be withheld."
+],
+[
+"Transducer 10 cm above right atrium",
+"Pressure reads about 7.4 mmHg too low.",
+"Patient may receive unnecessary vasopressors, fluid or reduced vasodilator therapy."
+],
+[
+"Transducer 20 cm above right atrium",
+"Pressure reads about 14.8 mmHg too low.",
+"False severe hypotension may be created, especially after bed movement or sitting up."
+]
+]
+},
+{
+"type": "heading",
+"text": "Invasive arterial pressure versus cuff pressure"
+},
+{
+"type": "paragraph",
+"text": "Neither invasive nor cuff pressure is perfect. The arterial line gives beat-to-beat data and waveform morphology, making it essential for unstable CTICU patients, vasoactive titration and rapid deterioration. The cuff gives intermittent non-invasive values that can be helpful when the arterial trace is suspect, but cuff accuracy is reduced by arrhythmia, movement, severe vasoconstriction, obesity, oedema, wrong cuff size, low-flow shock and rapid pressure changes."
+},
+{
+"type": "paragraph",
+"text": "Trust the arterial line when the waveform has appropriate morphology, the square wave test is acceptable, the transducer is correctly levelled and zeroed, the pressure trend is coherent, and the values fit the patient. Question the arterial line when the trace is damped or ringing, the transducer has moved, the pressure suddenly changes after position change, the waveform loses its dicrotic notch, systolic and diastolic values are extreme but the patient does not match, or the pressure conflicts with lactate, urine output, skin perfusion and mental state."
+},
+{
+"type": "paragraph",
+"text": "Use cuff pressure as a cross-check when the invasive trace is technically questionable. If arterial and cuff pressures differ, do not automatically choose one. Recheck cuff size and placement, transducer level, zeroing, arterial waveform quality, damping, limb position and patient condition. A second arterial site, such as femoral pressure when present, may be useful in post-bypass patients where radial pressure is unreliable."
+},
+{
+"type": "heading",
+"text": "CTICU-specific implications"
+},
+{
+"type": "paragraph",
+"text": "Post-CABG patients require reliable pressure for coronary perfusion and graft flow. A falsely high MAP from a low transducer can hide hypoperfusion. A falsely low systolic pressure from overdamping may lead to unnecessary vasopressors, increasing myocardial oxygen demand and afterload. A falsely low diastolic pressure from underdamping may exaggerate coronary perfusion concern, while a genuinely low diastolic pressure in vasoplegia can be clinically important."
+},
+{
+"type": "paragraph",
+"text": "Post-valve and TAVI patients require waveform interpretation tied to valve physiology. Wide pulse pressure may be artefact, vasoplegia or aortic regurgitation. Delayed upstroke may be overdamping, low output or outflow obstruction. In these patients, waveform interpretation should be integrated with echo findings, murmur changes, pulmonary oedema, cardiac index, rhythm and pacing status."
+},
+{
+"type": "paragraph",
+"text": "Aortic surgery patients are particularly vulnerable to wrong systolic pressure interpretation. Systolic targets are often tighter to reduce shear stress. Underdamping can create a falsely high systolic peak and provoke excessive vasodilation. Overdamping can hide true hypertension. After aortic repair, any high-risk blood pressure intervention should be based on a technically verified arterial trace and the ordered surgical target."
+},
+{
+"type": "paragraph",
+"text": "In vasoplegia, damping errors can confuse the pattern. True vasoplegia often produces wide pulse pressure, low diastolic pressure, low SVR and warm peripheries. Underdamping also produces a wide pulse pressure. The difference is that true vasoplegia should match the clinical picture and derived haemodynamics, whereas underdamping shows excessive ringing and may not match cuff or patient signs. In tamponade or low cardiac output, overdamping can mimic the narrow waveform, so the patient and filling pressure pattern must drive escalation."
+},
+{
+"type": "diagram",
+"title": "Levelling error and pressure direction",
+"description": "A bedside diagram showing the patient, right atrial level, transducer positions above and below the phlebostatic axis, and the expected direction of pressure error.",
+"layout": "anatomy",
+"elements": [
+"Patient supine with fourth intercostal space and mid-axillary line marked",
+"Transducer correctly levelled at right atrial height",
+"Transducer below right atrium labelled falsely high",
+"Transducer above right atrium labelled falsely low",
+"Hydrostatic error label of approximately 0.74 mmHg per cm"
+],
+"teachingPoints": [
+"Levelling error is predictable and clinically large.",
+"A 10 cm height error changes pressure by about 7.4 mmHg.",
+"Re-level after bed, head-of-bed or patient position changes."
+]
+}
+]
+},
+"pearls": {
+"title": "Clinical Pearls",
+"content": [
+{
+"type": "pearl",
+"text": "The arterial line number is only as trustworthy as the waveform. If the dicrotic notch disappears, the systolic upstroke becomes rounded, and the pulse pressure narrows, do not assume the patient suddenly developed low stroke volume. Check for overdamping. At the same time, do not dismiss the finding as technical if the patient is cool, oliguric, acidotic or requiring escalating vasopressors. In CTICU, equipment failure and patient deterioration often look similar at first glance."
+},
+{
+"type": "pearl",
+"text": "The square wave test is a clinical safety check, not an academic exercise. One to two oscillations after a fast flush suggests useful dynamic response. No oscillation suggests the system is swallowing the waveform. Multiple oscillations suggest the system is ringing. The decision consequence is immediate: an overdamped line can hide systolic pressure and mimic narrow pulse pressure shock, while an underdamped line can create false systolic hypertension and provoke harmful treatment."
+},
+{
+"type": "pearl",
+"text": "After cardiopulmonary bypass, radial arterial pressure may not perfectly reflect central pressure. Peripheral vasomotor changes, rewarming, vasopressors and altered vascular compliance can create clinically meaningful radial-to-femoral gradients. If a femoral arterial line is present, compare sites when the radial trace seems inconsistent. If no second arterial site is present, use cuff pressure, perfusion markers, lactate, urine output, echo and the overall haemodynamic pattern."
+},
+{
+"type": "pearl",
+"text": "Levelling mistakes are large enough to change treatment. A transducer 20 cm below the right atrium can make a true MAP of 55 mmHg display around 70 mmHg. That can delay treatment for bleeding, tamponade or low output. A transducer 20 cm too high can make a stable patient appear severely hypotensive and lead to unnecessary vasopressors or fluid. Always check transducer level after repositioning, sitting the patient up, changing bed height or moving the bedspace."
+},
+{
+"type": "pearl",
+"text": "Zeroing does not correct levelling error. Zeroing tells the monitor that atmospheric pressure is zero. Levelling aligns the transducer with the patient's reference point. You can zero perfectly and still have a dangerously wrong pressure if the transducer is hanging below the bed or clipped high on an IV pole. The correct sequence is level, zero, reopen to patient, confirm waveform."
+},
+{
+"type": "pearl",
+"text": "The cuff is a cross-check, not an absolute judge. If arterial pressure and cuff pressure disagree, check both systems. A cuff can be inaccurate with arrhythmia, vasoconstriction, oedema, movement, wrong cuff size, low cardiac output or rapid blood pressure swings. However, a cuff can prevent major error when an arterial line is clearly overdamped or underdamped. The best answer is often to fix the arterial line rather than argue which number is correct."
+},
+{
+"type": "pearl",
+"text": "Do not chase systolic pressure alone in an underdamped trace. Underdamping exaggerates the systolic peak and lowers the diastolic trough. The MAP may be closer to true pressure, but the overall system still needs correction. In aortic surgery, this is particularly important because the temptation is to treat a high systolic pressure aggressively. First verify that the systolic value is real."
+},
+{
+"type": "pearl",
+"text": "Diastolic pressure errors matter after CABG. Underdamping can falsely lower diastolic pressure, but true low diastolic pressure from vasoplegia may reduce coronary perfusion pressure, especially when tachycardia shortens diastole. If diastolic pressure is low, distinguish artefact from true vasodilatory physiology by checking the square wave response, SVR if available, warmth, cardiac index, lactate, ECG and vasoactive requirements."
+},
+{
+"type": "warning",
+"text": "Escalate urgently if arterial line troubleshooting does not rapidly resolve an abnormal trace in an unstable post-cardiac surgery patient. Specific triggers include MAP below ordered target, pulse pressure less than 20 to 25 mmHg, sudden change in waveform after initial stability, rising lactate, urine output less than 0.5 mL/kg/hr, new ECG changes, rapidly increasing vasopressor need, major chest drain output, sudden drain cessation with shock, or suspected tamponade."
+},
+{
+"type": "remember",
+"text": "The safest CTICU habit is to say: waveform, level, zero, patient, trend. If those five do not agree, pause before changing treatment."
+}
+]
+},
+"equipment": {
+"title": "Equipment Tie-In",
+"content": [
+{
+"type": "heading",
+"text": "The pressure monitoring chain"
+},
+{
+"type": "paragraph",
+"text": "The arterial monitoring chain includes the arterial catheter, catheter hub, pressure tubing, flush device, flush solution, pressure bag, stopcocks, transducer, cable, monitor module and monitor display. The system is only as reliable as its weakest point. A small air bubble, partially clotted catheter, loose connection, extra length of compliant tubing or wrong transducer height can alter the displayed pressure enough to affect treatment."
+},
+{
+"type": "paragraph",
+"text": "Rigid pressure tubing is used because soft tubing absorbs pressure energy. The flush bag is pressurised to approximately 300 mmHg to maintain a slow continuous flush through the catheter and prevent blood reflux. The transducer converts pressure into an electrical signal. Stopcocks allow zeroing, sampling and line access, but each extra component adds possible error, dead space, clot risk, leak risk and resonance."
+},
+{
+"type": "steps",
+"title": "Initial arterial transducer setup",
+"items": [
+"Prepare the pressure monitoring set using rigid pressure tubing and appropriate flush solution according to unit practice.",
+"Prime the line fully and remove air bubbles from the bag spike, drip chamber, tubing, stopcocks, flush device and transducer dome.",
+"Place the flush solution in a pressure bag and inflate the pressure bag to approximately 300 mmHg.",
+"Connect the transducer cable to the monitor and assign the correct pressure label, such as ART, ABP or radial arterial pressure.",
+"Mount the transducer so it can be levelled accurately to the patient's phlebostatic axis.",
+"Level the transducer at the fourth intercostal space and mid-axillary line for routine arterial pressure monitoring.",
+"Turn the stopcock off to the patient and open to air, then zero the arterial channel on the monitor.",
+"Return the stopcock open to the patient, confirm arterial waveform return and check alarm limits.",
+"Perform a square wave test and confirm an acceptable dynamic response.",
+"Secure tubing to reduce movement, accidental traction, stopcock twisting, catheter whip and disconnection risk."
+]
+},
+{
+"type": "heading",
+"text": "Troubleshooting overdamping"
+},
+{
+"type": "table",
+"title": "Overdamping causes and corrective actions",
+"columns": [
+"Cause",
+"Mechanism",
+"Corrective action"
+],
+"rows": [
+[
+"Air bubble",
+"Air is compressible and absorbs pressure energy, smoothing the waveform.",
+"Inspect tubing and stopcocks carefully. Remove air if trained and safe. Re-prime or replace tubing if needed."
+],
+[
+"Clot or fibrin at catheter tip",
+"Partial obstruction prevents faithful pressure transmission.",
+"Assess ability to flush and aspirate according to competency and policy. Do not force flush. Escalate if resistance or persistent poor trace."
+],
+[
+"Blood in tubing",
+"Blood increases damping and clot risk.",
+"Clear or replace affected tubing according to policy. Check pressure bag and flush function."
+],
+[
+"Kinked tubing or catheter",
+"Physical obstruction blunts the pressure wave.",
+"Trace the system from patient to transducer and correct kinks. Reposition wrist or limb if positional."
+],
+[
+"Catheter against vessel wall",
+"Pressure port is intermittently occluded by arterial wall.",
+"Reposition limb, neutralise wrist, check dressing tension and escalate if persistent."
+],
+[
+"Pressure bag under 300 mmHg",
+"Insufficient flush pressure allows blood reflux and clot formation.",
+"Reinflate pressure bag, check flush solution volume and inspect for blood tracking back."
+],
+[
+"Loose connection or stopcock issue",
+"Signal is lost or distorted through leak or partial closure.",
+"Tighten connections, verify stopcock alignment and check for fluid leakage."
+]
+]
+},
+{
+"type": "heading",
+"text": "Troubleshooting underdamping"
+},
+{
+"type": "table",
+"title": "Underdamping causes and corrective actions",
+"columns": [
+"Cause",
+"Mechanism",
+"Corrective action"
+],
+"rows": [
+[
+"Excessive tubing length",
+"Long tubing increases resonance and waveform distortion.",
+"Remove unnecessary extension tubing and keep the pressure set as short and direct as practical."
+],
+[
+"Multiple stopcocks",
+"Extra components alter resonance and add connection points.",
+"Remove non-essential stopcocks and simplify the system."
+],
+[
+"Unsupported tubing",
+"Movement creates whip artefact and oscillation.",
+"Secure tubing to the bed or arm board without tension on the catheter."
+],
+[
+"Catheter whip",
+"Catheter or tubing movement exaggerates the waveform.",
+"Stabilise the catheter site, limb and tubing. Reassess waveform during stillness."
+],
+[
+"High-frequency resonance",
+"The system oscillates after pressure changes.",
+"Repeat square wave test after simplifying and securing the setup."
+]
+]
+},
+{
+"type": "heading",
+"text": "Nurse-technician checks during a shift"
+},
+{
+"type": "steps",
+"title": "Routine reliability check",
+"items": [
+"Confirm the arterial waveform is visible, labelled correctly and scaled appropriately on the monitor.",
+"Check the pressure bag is at approximately 300 mmHg and the flush solution is not empty.",
+"Inspect for blood in the tubing, air bubbles, loose connections, leaks and kinked lines.",
+"Confirm the transducer remains level with the phlebostatic axis after any bed or patient movement.",
+"Check that stopcocks are correctly positioned and capped where required.",
+"Assess the insertion site for bleeding, swelling, pain, dislodgement or infection signs.",
+"Assess distal perfusion where relevant, including colour, warmth, capillary refill, pulse, sensation and movement if the patient can report symptoms.",
+"Check alarm limits are appropriate to the current ordered target, especially after changes in surgical plan or vasoactive strategy.",
+"Compare arterial pressure against cuff pressure if the waveform has changed or the value does not fit the patient.",
+"Report persistent damping problems, inability to aspirate or flush, suspected infection, bleeding, limb ischaemia or unreliable readings."
+]
+},
+{
+"type": "heading",
+"text": "When the arterial line and cuff disagree"
+},
+{
+"type": "paragraph",
+"text": "A disagreement between invasive and cuff pressures should trigger assessment rather than immediate selection of a favourite number. Check cuff size and placement. Check whether the cuff is on a limb with oedema, arterial disease, fistula, surgical restrictions or movement. Check arterial line waveform quality, square wave response, levelling, zeroing and limb position. Review whether the patient is in AF or another irregular rhythm. In unstable CTICU patients, the arterial line is often preferred when technically sound, but a technically unsound arterial line should not be trusted simply because it is invasive."
+},
+{
+"type": "diagram",
+"title": "Zeroing and levelling workflow",
+"description": "A stepwise equipment diagram showing transducer at phlebostatic axis, stopcock off to patient, open to air, zero pressed, stopcock reopened to patient and waveform confirmed.",
+"layout": "algorithm",
+"elements": [
+"Level transducer to phlebostatic axis",
+"Turn stopcock off to patient",
+"Open transducer to air",
+"Press zero on monitor",
+"Close air port",
+"Reopen to patient",
+"Confirm waveform and value"
+],
+"teachingPoints": [
+"Levelling should occur before zeroing.",
+"The patient must be protected from air entry by correct stopcock position.",
+"A waveform must return after zeroing before the pressure is used."
+]
+}
+]
+},
+"targets": {
+"title": "Targets and Numbers",
+"content": [
+{
+"type": "heading",
+"text": "Core numbers for arterial line reliability"
+},
+{
+"type": "targetTable",
+"title": "Technical target values",
+"columns": [
+"Parameter",
+"Target or expected value",
+"Clinical meaning"
+],
+"rows": [
+[
+"Pressure bag",
+"Approximately 300 mmHg",
+"Maintains continuous flush and helps prevent blood reflux into the arterial tubing."
+],
+[
+"Square wave response",
+"Rapid rise, square plateau, rapid fall, one to two oscillations",
+"Suggests acceptable dynamic response if waveform and patient also fit."
+],
+[
+"Overdamped response",
+"No oscillation or sluggish return after fast flush",
+"Suggests falsely low systolic pressure, falsely high diastolic pressure and narrowed pulse pressure."
+],
+[
+"Underdamped response",
+"More than two oscillations or ringing after fast flush",
+"Suggests falsely high systolic pressure, falsely low diastolic pressure and widened pulse pressure."
+],
+[
+"Levelling reference",
+"Phlebostatic axis: fourth intercostal space, mid-axillary line in supine adult",
+"Approximates right atrial level for routine arterial, CVP and PA pressure interpretation."
+],
+[
+"Hydrostatic error",
+"Approximately 0.74 mmHg per cm or 7.4 mmHg per 10 cm",
+"Predicts pressure error caused by transducer height difference from the reference point."
+]
+]
+},
+{
+"type": "heading",
+"text": "Hydrostatic pressure error table"
+},
+{
+"type": "targetTable",
+"title": "Approximate levelling errors",
+"columns": [
+"Height error",
+"If transducer is too low",
+"If transducer is too high"
+],
+"rows": [
+[
+"1 cm",
+"Displayed pressure about 0.74 mmHg too high.",
+"Displayed pressure about 0.74 mmHg too low."
+],
+[
+"5 cm",
+"Displayed pressure about 3.7 mmHg too high.",
+"Displayed pressure about 3.7 mmHg too low."
+],
+[
+"10 cm",
+"Displayed pressure about 7.4 mmHg too high.",
+"Displayed pressure about 7.4 mmHg too low."
+],
+[
+"15 cm",
+"Displayed pressure about 11.1 mmHg too high.",
+"Displayed pressure about 11.1 mmHg too low."
+],
+[
+"20 cm",
+"Displayed pressure about 14.8 mmHg too high.",
+"Displayed pressure about 14.8 mmHg too low."
+],
+[
+"30 cm",
+"Displayed pressure about 22.2 mmHg too high.",
+"Displayed pressure about 22.2 mmHg too low."
+]
+]
+},
+{
+"type": "heading",
+"text": "Clinical target interpretation by CTICU context"
+},
+{
+"type": "targetTable",
+"title": "When pressure accuracy matters most",
+"columns": [
+"Patient group",
+"Why small errors matter",
+"Practical target behaviour"
+],
+"rows": [
+[
+"Post-CABG",
+"Coronary perfusion, graft flow and myocardial oxygen balance depend on adequate MAP and diastolic pressure.",
+"Verify damping and level before increasing vasopressors for apparent hypotension or accepting low diastolic pressure as real."
+],
+[
+"Post-valve surgery",
+"Waveform shape may suggest valve physiology, but damping can mimic or hide delayed upstroke and wide pulse pressure.",
+"Correlate arterial waveform with echo, filling pressures, rhythm and clinical perfusion before drawing valve conclusions."
+],
+[
+"Post-TAVI",
+"Conduction disease, LVH, diastolic dysfunction, vascular access bleeding and aortic regurgitation can all affect haemodynamics.",
+"Treat pressure values as part of a pattern that includes rhythm, pulse pressure, access sites, echo and perfusion."
+],
+[
+"Aortic repair or dissection surgery",
+"Excess systolic pressure can stress fresh repair, but underdamping can falsely elevate systolic pressure.",
+"Confirm waveform reliability before escalating antihypertensive therapy for isolated systolic peaks."
+],
+[
+"Vasoplegia after bypass",
+"True low SVR may produce wide pulse pressure and low diastolic pressure; underdamping can look similar.",
+"Use square wave test, SVR if available, warmth, cardiac index, lactate trend and cuff comparison."
+],
+[
+"Tamponade concern",
+"Narrow pulse pressure may be real or overdamped, but missing tamponade is catastrophic.",
+"If narrow pulse pressure occurs with rising CVP, falling MAP, low output or drain changes, escalate while troubleshooting."
+],
+[
+"Cardiogenic shock",
+"Pressure can be maintained by high SVR while flow is inadequate.",
+"Do not accept an adequate MAP without checking cardiac output, lactate, urine output, skin and SvO2 where available."
+]
+]
+},
+{
+"type": "heading",
+"text": "Thresholds for immediate recheck or escalation"
+},
+{
+"type": "table",
+"title": "Action thresholds",
+"columns": [
+"Trigger",
+"Why it matters",
+"Action"
+],
+"rows": [
+[
+"Unexpected MAP change greater than 10 mmHg after bed movement",
+"Likely levelling error or true haemodynamic response to position change.",
+"Re-level transducer, check zero if required, assess patient and confirm trend before drug changes."
+],
+[
+"Pulse pressure suddenly less than 20 to 25 mmHg",
+"May indicate low stroke volume, tamponade, bleeding, RV failure or overdamping.",
+"Check waveform and square wave response immediately while assessing drains, filling pressures, perfusion and rhythm."
+],
+[
+"Systolic pressure unexpectedly above ordered aortic surgery target",
+"Could be true dangerous hypertension or underdamped systolic overshoot.",
+"Check dynamic response, cuff or alternate arterial site, pain, agitation and transducer level before treatment escalation."
+],
+[
+"Dicrotic notch disappears",
+"Early sign of overdamping or low stroke volume physiology.",
+"Inspect tubing, air, clot, kinks, catheter position and patient perfusion."
+],
+[
+"More than two oscillations after fast flush",
+"Suggests underdamping and falsely widened pulse pressure.",
+"Simplify and secure the system, compare cuff and avoid treating systolic pressure alone."
+],
+[
+"No oscillation after fast flush",
+"Suggests overdamping and falsely narrowed pulse pressure.",
+"Check for air, blood, clot, kink, low pressure bag, catheter walling and loose connections."
+],
+[
+"Arterial pressure conflicts with lactate, urine output, skin or mentation",
+"Numbers may be technically wrong or physiologically incomplete.",
+"Pause, recheck the measurement system, review the full haemodynamic picture and escalate if unresolved."
+]
+]
+},
+{
+"type": "remember",
+"text": "For routine CTICU arterial pressure monitoring, the transducer should be level with the right atrium. A simple height error can be larger than the difference between a stable MAP and a shock-level MAP. Re-levelling is mandatory after meaningful position changes."
+},
+{
+"type": "escalation",
+"text": "Escalate if pressure readings remain unreliable after basic troubleshooting, if there is resistance to flushing or aspirating, if the arterial site shows bleeding or compromised distal perfusion, if the arterial line disconnects, if pressure values are driving high-risk therapy but waveform quality is poor, or if any abnormal trace is associated with clinical deterioration."
+}
+]
+}
+},
+"quiz": [
+{
+"difficulty": "Bedside Basics",
+"question": "What does an optimally damped arterial line usually show after a fast flush test?",
+"options": [
+"No oscillations and a slow rounded return to baseline",
+"More than five oscillations before returning to baseline",
+"A rapid square wave response followed by one to two oscillations",
+"A flat line with no arterial waveform afterward"
+],
+"answer": 2,
+"explanation": "An acceptable square wave response has a sharp rise, square plateau, sharp fall and usually one to two oscillations before the arterial waveform resumes. No oscillation suggests overdamping. Multiple oscillations suggest underdamping."
+},
+{
+"difficulty": "Bedside Basics",
+"question": "If the arterial transducer is positioned below the patient's right atrium, what happens to the displayed blood pressure?",
+"options": [
+"It reads falsely low",
+"It reads falsely high",
+"Only the heart rate changes",
+"Only the waveform colour changes"
+],
+"answer": 1,
+"explanation": "A transducer below the reference level has extra hydrostatic pressure from the fluid column, so the displayed pressure is falsely high. A transducer above the reference level reads falsely low."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "A radial arterial trace is rounded, low amplitude and has no dicrotic notch. The fast flush test shows no oscillation. Which problem best fits?",
+"options": [
+"Underdamping",
+"Overdamping",
+"Correct dynamic response",
+"Normal post-CABG waveform"
+],
+"answer": 1,
+"explanation": "A rounded trace with absent dicrotic notch and no oscillation after fast flush is typical of overdamping. Causes include air bubbles, clot, kink, blood in tubing, catheter tip obstruction, loose connections and low pressure bag pressure."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "A post-aortic repair patient has displayed pressure 170/42 mmHg with a tall spiky trace and multiple oscillations after a fast flush. What is the safest first interpretation?",
+"options": [
+"The systolic pressure is definitely accurate and must be treated immediately without rechecking",
+"The system may be underdamped, causing falsely high systolic and falsely low diastolic pressure",
+"The system is overdamped, causing falsely low systolic pressure",
+"The transducer must be too high because the systolic pressure is high"
+],
+"answer": 1,
+"explanation": "Tall spiky systolic pressure with multiple post-flush oscillations suggests underdamping. This can falsely elevate systolic pressure and falsely lower diastolic pressure. In aortic surgery, verify pressure accuracy before aggressive vasodilator treatment."
+},
+{
+"difficulty": "Expert Level",
+"question": "A transducer is accidentally left 20 cm below the phlebostatic axis. Approximately how much falsely high pressure may be displayed?",
+"options": [
+"About 2 mmHg",
+"About 5 mmHg",
+"About 15 mmHg",
+"About 40 mmHg"
+],
+"answer": 2,
+"explanation": "Hydrostatic error is approximately 0.74 mmHg per cm, or 7.4 mmHg per 10 cm. A 20 cm error produces about 14.8 mmHg of pressure error, which is clinically significant."
+},
+{
+"difficulty": "Expert Level",
+"question": "Which statement best describes the relationship between zeroing and levelling?",
+"options": [
+"Zeroing corrects all levelling errors.",
+"Levelling is only needed for CVP, not arterial lines.",
+"Zeroing sets atmospheric pressure as zero, while levelling aligns the transducer with the patient's reference height.",
+"Zeroing should be done while the stopcock is open to the patient and closed to air."
+],
+"answer": 2,
+"explanation": "Zeroing and levelling are different safety steps. Zeroing sets the atmospheric reference. Levelling prevents hydrostatic pressure error by aligning the transducer with the right atrial reference point. Zeroing does not correct a transducer that is too high or too low."
+}
+],
+"diagrams": [
+{
+"type": "diagram",
+"title": "Square wave test interpretation",
+"description": "A three-part arterial waveform diagram showing optimal damping, overdamping and underdamping after a fast flush. It should show the square wave, post-flush oscillations and the expected blood pressure error.",
+"layout": "waveform",
+"elements": [
+"Optimal response with rapid rise, square plateau, rapid fall and one to two oscillations",
+"Overdamped response with sluggish return and no oscillation",
+"Underdamped response with multiple oscillations and ringing",
+"Labels for falsely low systolic pressure in overdamping",
+"Labels for falsely high systolic pressure in underdamping"
+],
+"teachingPoints": [
+"The square wave test assesses the whole catheter-tubing-transducer system.",
+"Systolic and diastolic pressures are more affected by damping error than MAP, but severe error can make all values unsafe.",
+"The waveform must be corrected before high-risk vasoactive decisions are made."
+]
+},
+{
+"type": "diagram",
+"title": "Levelling error and pressure direction",
+"description": "A bedside diagram showing the patient, right atrial level, transducer positions above and below the phlebostatic axis, and the expected direction of pressure error.",
+"layout": "anatomy",
+"elements": [
+"Patient supine with fourth intercostal space and mid-axillary line marked",
+"Transducer correctly levelled at right atrial height",
+"Transducer below right atrium labelled falsely high",
+"Transducer above right atrium labelled falsely low",
+"Hydrostatic error label of approximately 0.74 mmHg per cm"
+],
+"teachingPoints": [
+"Levelling error is predictable and clinically large.",
+"A 10 cm height error changes pressure by about 7.4 mmHg.",
+"Re-level after bed, head-of-bed or patient position changes."
+]
+},
+{
+"type": "diagram",
+"title": "Zeroing and levelling workflow",
+"description": "A stepwise equipment diagram showing transducer at phlebostatic axis, stopcock off to patient, open to air, zero pressed, stopcock reopened to patient and waveform confirmed.",
+"layout": "algorithm",
+"elements": [
+"Level transducer to phlebostatic axis",
+"Turn stopcock off to patient",
+"Open transducer to air",
+"Press zero on monitor",
+"Close air port",
+"Reopen to patient",
+"Confirm waveform and value"
+],
+"teachingPoints": [
+"Levelling should occur before zeroing.",
+"The patient must be protected from air entry by correct stopcock position.",
+"A waveform must return after zeroing before the pressure is used."
+]
+}
+],
+"references": [
+{
+"sourceName": "Deranged Physiology",
+"title": "Arterial line dynamic response testing",
+"url": "[https://derangedphysiology.com/main/cicm-primary-exam/cardiovascular-system/Chapter-759/arterial-line-dynamic-response-testing](https://derangedphysiology.com/main/cicm-primary-exam/cardiovascular-system/Chapter-759/arterial-line-dynamic-response-testing)",
+"supports": "Fast flush test interpretation, square wave morphology, overdamping, underdamping and post-flush oscillation patterns."
+},
+{
+"sourceName": "LITFL",
+"title": "Arterial line and pressure transducer",
+"url": "[https://litfl.com/arterial-line-and-pressure-transducer/](https://litfl.com/arterial-line-and-pressure-transducer/)",
+"supports": "Arterial line setup, pressure transducer function, square wave testing, damping recognition and troubleshooting."
+},
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Arterial Pressure Monitoring",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK556127/](https://www.ncbi.nlm.nih.gov/books/NBK556127/)",
+"supports": "Invasive arterial pressure monitoring principles, transducer levelling, hydrostatic pressure error and complications."
+},
+{
+"sourceName": "Saugel et al., Critical Care / PubMed Central",
+"title": "How to measure blood pressure using an arterial catheter",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC7183114/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7183114/)",
+"supports": "Practical arterial catheter blood pressure measurement, sources of error and systematic steps for accurate invasive pressure monitoring."
+},
+{
+"sourceName": "Romagnoli et al., Critical Care / PubMed Central",
+"title": "Accuracy of invasive arterial pressure monitoring in cardiovascular patients",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC4279904/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4279904/)",
+"supports": "Clinical relevance of underdamping and resonance causing inaccurate invasive arterial blood pressure readings, and the role of non-invasive pressure comparison."
+},
+{
+"sourceName": "EMRA",
+"title": "Arterial Lines Part 2: Waveforms and Damping",
+"url": "[https://www.emra.org/emresident/article/device-series-arterial-lines-part-2](https://www.emra.org/emresident/article/device-series-arterial-lines-part-2)",
+"supports": "Practical explanation of phlebostatic axis, zeroing, transducer position, damping errors and waveform interpretation."
+}
+]
 }

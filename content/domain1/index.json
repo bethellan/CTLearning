@@ -1,43 +1,17 @@
 {
   "domain": 1,
   "domainTitle": "Physiology Foundations",
-  "folder": "content/domain1/",
-  "files": [
+  "version": "domain1-block-json-files",
+  "topics": [
     {
-      "file": "overview.json",
-      "title": "Physiology Foundations Overview"
-    },
-    {
-      "file": "cardiac_cycle.json",
-      "title": "The Cardiac Cycle"
-    },
-    {
-      "file": "cardiac_output_and_determinants.json",
-      "title": "Cardiac Output and Determinants"
-    },
-    {
-      "file": "preload_lvedp_and_cvp.json",
-      "title": "Preload, LVEDP and CVP"
-    },
-    {
-      "file": "afterload_svr_and_pvr.json",
-      "title": "Afterload, SVR and PVR"
-    },
-    {
-      "file": "contractility_and_inotropy.json",
-      "title": "Contractility and Inotropy"
-    },
-    {
-      "file": "frank_starling_mechanism.json",
-      "title": "Frank-Starling Mechanism"
+      "file": "mixed_venous_saturations.json",
+      "id": "mixed-venous-saturations",
+      "title": "Mixed Venous Saturations: SvO2 and ScvO2"
     },
     {
       "file": "oxygen_delivery_and_consumption.json",
-      "title": "Oxygen Delivery and Consumption"
-    },
-    {
-      "file": "mixed_venous_saturations.json",
-      "title": "Mixed Venous Saturations"
+      "id": "oxygen-delivery-and-consumption",
+      "title": "Oxygen Delivery and Consumption: DO2 and VO2"
     }
   ]
 }

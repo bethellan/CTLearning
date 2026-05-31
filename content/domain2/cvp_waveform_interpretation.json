@@ -7,61 +7,926 @@
   "sections": {
     "abridged": {
       "title": "Abridged Snapshot",
-      "content": "<h3>Bedside purpose</h3>\n<p>CVP is a pressure measured in the thoracic vena cava/right atrium. In CT-ICU it is most useful as a trend and waveform, not as a stand-alone preload number. It helps identify right ventricular failure, tamponade, tricuspid regurgitation, hypovolaemia, excessive intrathoracic pressure and rhythm-related atrial contraction problems.</p>\n<p><strong>a wave</strong> — Right atrial contraction. It appears after the P wave and is absent in atrial fibrillation.</p>\n<p><strong>c wave</strong> — Tricuspid valve bulging into the right atrium during early RV systole. It is often small and may be hard to identify.</p>\n<p><strong>x descent</strong> — Right atrial relaxation and downward movement of the tricuspid annulus during systole.</p>\n<p><strong>v wave</strong> — Right atrial filling against a closed tricuspid valve during late systole.</p>\n<p><strong>y descent</strong> — Opening of the tricuspid valve and emptying of the right atrium into the right ventricle.</p>\n<table><thead><tr>\n<th>CVP pattern</th>\n<th>Likely meaning</th>\n<th>CT-ICU response</th>\n</tr></thead><tbody>\n<tr>\n<td>High CVP with hypotension and narrow pulse pressure</td>\n<td>Tamponade, RV failure, tension physiology or severe pulmonary hypertension.</td>\n<td>Escalate urgently; assess drains, echo need, ventilation pressures, rhythm and RV support.</td>\n</tr>\n<tr>\n<td>Large v waves</td>\n<td>Tricuspid regurgitation or RV dilation causing systolic backflow into RA.</td>\n<td>Correlate with echo, liver congestion, CVP trend, PA pressures and RV function.</td>\n</tr>\n<tr>\n<td>Cannon a waves</td>\n<td>Atria contracting against closed tricuspid valve, often AV dissociation or complete heart block.</td>\n<td>Check rhythm, pacing mode/capture/sensing and haemodynamic stability.</td>\n</tr>\n<tr>\n<td>Low CVP with hypotension</td>\n<td>Hypovolaemia, bleeding, vasodilation or excessive diuresis.</td>\n<td>Check drains, Hb, lactate, skin, fluid balance and response to volume/vasopressors.</td>\n</tr>\n</tbody></table>"
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Central venous pressure monitoring is often misunderstood because the displayed number is tempting to treat as a direct volume measurement. It is not. CVP is the pressure measured in the thoracic vena cava or right atrium, usually through a central venous catheter or the proximal port of a pulmonary artery catheter. It is influenced by venous return, right atrial compliance, right ventricular compliance, right ventricular systolic function, tricuspid valve function, pulmonary vascular resistance, intrathoracic pressure, PEEP, pericardial pressure, rhythm, atrioventricular synchrony and transducer position. In cardiothoracic ICU, the waveform frequently tells you more than the mean CVP number."
+        },
+        {
+          "type": "keyterm",
+          "term": "CVP",
+          "definition": "Central venous pressure is the pressure in the vena cava or right atrium. It approximates right atrial pressure when the catheter and transducer system are correctly positioned, levelled and zeroed. It does not directly measure blood volume or fluid responsiveness."
+        },
+        {
+          "type": "paragraph",
+          "text": "A normal CVP waveform has three positive waves and two descents: the a wave, c wave, x descent, v wave and y descent. The a wave is caused by right atrial contraction and occurs after the ECG P wave, just before the QRS complex. The c wave is caused by tricuspid valve closure and slight bulging of the tricuspid valve into the right atrium during early right ventricular systole. The x descent follows atrial relaxation and downward movement of the tricuspid annulus during right ventricular systole. The v wave is caused by venous filling of the right atrium while the tricuspid valve is closed. The y descent occurs after the tricuspid valve opens and blood flows from the right atrium into the right ventricle."
+        },
+        {
+          "type": "table",
+          "title": "CVP waveform components at the bedside",
+          "columns": [
+            "Component",
+            "Physiological event",
+            "Timing",
+            "Key abnormality"
+          ],
+          "rows": [
+            [
+              "a wave",
+              "Right atrial contraction against an open tricuspid valve.",
+              "After the P wave and before QRS.",
+              "Absent in atrial fibrillation; large in reduced RV compliance; cannon in AV dissociation."
+            ],
+            [
+              "c wave",
+              "Tricuspid valve closure and early RV systolic bulging into the right atrium.",
+              "Around QRS or early systole.",
+              "Usually small and often merges with the a wave; rarely interpreted alone."
+            ],
+            [
+              "x descent",
+              "Right atrial relaxation and downward tricuspid annular movement during RV systole.",
+              "After the a and c complex.",
+              "Blunted in tricuspid regurgitation and RV failure; may remain prominent in tamponade."
+            ],
+            [
+              "v wave",
+              "Right atrial filling while the tricuspid valve is closed.",
+              "After the T wave and before tricuspid opening.",
+              "Large v waves suggest tricuspid regurgitation, RV dilation or severe right-sided volume and pressure loading."
+            ],
+            [
+              "y descent",
+              "Tricuspid valve opening with early right ventricular filling.",
+              "After the v wave.",
+              "Blunted or absent in tamponade; steep in constrictive physiology or severe tricuspid regurgitation."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Normal CVP is commonly quoted around 2 to 6 mmHg in spontaneously breathing adults, but immediately after cardiac surgery the acceptable range depends on the operation, ventilation, ventricular function and the direction of change. A stable post-CABG patient may sit around 6 to 10 mmHg while ventilated. A patient with pulmonary hypertension or right ventricular dysfunction may require a higher filling pressure, sometimes 10 to 15 mmHg, but excessive right-sided pressure worsens hepatic congestion, renal venous congestion, tricuspid regurgitation and septal shift. A CVP of 16 mmHg is not automatically fluid overload, and a CVP of 4 mmHg is not automatically fluid responsiveness."
+        },
+        {
+          "type": "warning",
+          "text": "High CVP with shock after cardiac surgery is a red flag. Think right ventricular failure, tamponade, tension pneumothorax, dynamic hyperinflation, severe tricuspid regurgitation, pulmonary embolism, excessive PEEP, pulmonary hypertensive crisis or catheter/transducer error. Do not give fluid reflexively to a shocked patient with a high CVP unless the broader picture supports preload responsiveness."
+        },
+        {
+          "type": "paragraph",
+          "text": "The fastest practical interpretation is pattern-based. Absent a waves with an irregular rhythm strongly suggests atrial fibrillation. Intermittent giant cannon a waves suggest the atrium is contracting against a closed tricuspid valve, commonly from complete heart block, junctional rhythm with AV dissociation, ventricular tachycardia or poorly timed pacing. Giant v waves suggest tricuspid regurgitation or severe RV dilation. High CVP with a blunted y descent and narrowing arterial pulse pressure after cardiac surgery should trigger concern for tamponade. High CVP with high pulmonary artery pressure, low cardiac output and low or normal wedge pressure suggests right ventricular failure or pulmonary hypertension physiology."
+        },
+        {
+          "type": "diagram",
+          "title": "Normal CVP waveform across the cardiac cycle",
+          "description": "A labelled CVP waveform aligned with ECG and right-sided mechanical events. It should show a wave, c wave, x descent, v wave and y descent, with timing against P wave, QRS and T wave.",
+          "layout": "waveform",
+          "elements": [
+            "ECG P wave aligned before the a wave",
+            "a wave from right atrial contraction",
+            "c wave from tricuspid valve closure and early RV systole",
+            "x descent from right atrial relaxation and tricuspid annular descent",
+            "v wave from right atrial filling against a closed tricuspid valve",
+            "y descent from tricuspid opening and early RV filling"
+          ],
+          "teachingPoints": [
+            "CVP waveform morphology often gives more diagnostic information than the mean CVP number.",
+            "The a wave disappears in atrial fibrillation and becomes cannon-like when the atrium contracts against a closed tricuspid valve.",
+            "Large v waves strongly suggest tricuspid regurgitation or severe right-sided volume and pressure loading."
+          ]
+        },
+        {
+          "type": "remember",
+          "text": "CVP interpretation in CTICU is waveform plus trend plus clinical context. Mean CVP alone is not enough to diagnose hypovolaemia, fluid overload, RV failure or tamponade."
+        }
+      ]
     },
     "expanded": {
       "title": "Expanded Deep-Dive",
-      "content": "<h3>What CVP measures</h3>\n<p>CVP measures pressure near the right atrium. It does not directly measure circulating volume, left ventricular preload, cardiac output or fluid responsiveness. A high CVP can mean volume overload, RV failure, tamponade, high intrathoracic pressure or pulmonary hypertension. A low CVP can mean low venous return, vasodilation or simply a patient with good RV compliance.</p>\n<p>After cardiac surgery, CVP interpretation must include operation type and ventricular physiology. A post-CABG patient with falling BP, rising CVP, narrow pulse pressure and reduced drain output may have tamponade from clot. A post-mitral valve patient with pulmonary hypertension may have RV failure and high CVP. A post-aortic surgery patient may have tight BP targets where high afterload worsens ventricular performance.</p>\n<h4>Waveform components</h4>\n<p>The a wave is atrial contraction and depends on sinus rhythm or organised atrial activity. The c wave is small and occurs with tricuspid valve closure/bulging. The x descent reflects atrial relaxation and annular descent; it is often prominent in tamponade. The v wave reflects venous filling of the atrium while the tricuspid valve is closed. The y descent reflects early diastolic emptying into the RV.</p>\n<h4>Large a waves</h4>\n<p>Large a waves occur when the right atrium contracts against increased resistance, such as RV hypertrophy, pulmonary hypertension, tricuspid stenosis or reduced RV compliance. In CT-ICU, large a waves after valve or pulmonary hypertension cases can suggest the right heart is struggling against high PVR or poor RV compliance.</p>\n<h4>Cannon a waves</h4>\n<p>Cannon a waves occur when the atrium contracts against a closed tricuspid valve. This happens with AV dissociation, ventricular pacing without AV synchrony, junctional rhythm or complete heart block. In a post-op valve patient, cannon waves plus hypotension should trigger rhythm/pacing review.</p>\n<h4>Absent a waves</h4>\n<p>Absent a waves occur in atrial fibrillation because there is no coordinated atrial contraction. This matters after cardiac surgery because new AF can reduce ventricular filling and cardiac output, especially in stiff ventricles, LVH, diastolic dysfunction or RV failure.</p>\n<h4>Large v waves</h4>\n<p>Large v waves suggest tricuspid regurgitation or severe right-sided volume/pressure load. Systolic flow regurgitates into the right atrium, increasing pressure during the v wave. This can be seen with RV dilation, pulmonary hypertension, pacing lead effects or valve pathology.</p>\n<h4>Tamponade pattern</h4>\n<p>In tamponade, intrapericardial pressure restricts diastolic filling. CVP often rises, BP falls, pulse pressure narrows and tachycardia appears. The waveform may show prominent x descent and blunted y descent, because early diastolic filling is impaired. In post-cardiac surgery, classic Beck's triad may be incomplete, so waveform trend and clinical deterioration matter more.</p>"
+      "content": [
+        {
+          "type": "heading",
+          "text": "What CVP measures"
+        },
+        {
+          "type": "paragraph",
+          "text": "CVP is a pressure measurement from the central venous circulation. When the catheter tip is correctly positioned in the lower superior vena cava near the right atrium, and the transducer is levelled to the right atrium and zeroed, the measured pressure approximates right atrial pressure. Right atrial pressure is the downstream pressure for systemic venous return and the upstream filling pressure for the right ventricle. That makes it clinically useful, but it is not the same as circulating blood volume. Two patients can have the same CVP and completely different volume status, ventricular function and response to fluid."
+        },
+        {
+          "type": "paragraph",
+          "text": "The right atrium is a pressure chamber affected by everything around it. If venous return increases and the right ventricle accepts that volume easily, CVP may rise only slightly. If the right ventricle is stiff, ischaemic, pressure-loaded or compressed by pericardial blood, the same venous return may produce a large CVP rise. If intrathoracic pressure rises because of positive pressure ventilation, PEEP, coughing, high airway pressures or dynamic hyperinflation, the measured intrathoracic venous pressure rises even if transmural right atrial pressure has not improved. This is why CVP must be interpreted with ventilator settings and chest mechanics."
+        },
+        {
+          "type": "paragraph",
+          "text": "In cardiothoracic ICU, CVP is valuable because it provides continuous right-sided pressure trend and waveform morphology. It helps identify changes in right heart filling, venous congestion, AV synchrony, tricuspid regurgitation, tamponade physiology and ventilator interaction. Its danger is false simplicity. A single value such as CVP 12 mmHg does not tell you whether the patient needs fluid, diuresis, inotropy, pulmonary vasodilation, pacing optimisation, decompression or line troubleshooting."
+        },
+        {
+          "type": "heading",
+          "text": "What CVP does not measure"
+        },
+        {
+          "type": "paragraph",
+          "text": "CVP does not directly measure preload volume. It measures pressure, and pressure depends on volume and compliance. A compliant right ventricle may receive a large volume with little pressure rise. A non-compliant or failing right ventricle may generate a high CVP with little useful forward flow. CVP also does not reliably predict fluid responsiveness. Fluid responsiveness means stroke volume or cardiac output will increase meaningfully after a preload challenge. CVP is a poor standalone predictor because many factors alter the pressure-volume relationship."
+        },
+        {
+          "type": "paragraph",
+          "text": "CVP does not diagnose shock type alone. Low CVP can occur with bleeding, vasodilation, excessive diuresis or reduced venous return from high intrathoracic pressure. High CVP can occur with RV failure, tamponade, pulmonary hypertension, severe tricuspid regurgitation, tension pneumothorax, high PEEP, fluid overload, renal failure, pulmonary embolism or catheter malposition. The correct interpretation requires arterial pressure, pulse pressure, lactate, urine output, skin perfusion, rhythm, echo, chest drain output, ventilation pressures and, when available, pulmonary artery catheter data."
+        },
+        {
+          "type": "heading",
+          "text": "Normal CVP waveform"
+        },
+        {
+          "type": "paragraph",
+          "text": "The CVP waveform is a right atrial pressure waveform. It should be read with the ECG because timing is essential. The a wave follows atrial electrical depolarisation and represents mechanical atrial contraction. The c wave occurs during early ventricular systole when the tricuspid valve closes and bulges slightly into the right atrium. The x descent follows as the atrium relaxes and the tricuspid annulus moves downward during RV systole. The v wave rises as the right atrium fills from systemic venous return while the tricuspid valve is closed. The y descent occurs when the tricuspid valve opens and right atrial blood empties into the right ventricle."
+        },
+        {
+          "type": "paragraph",
+          "text": "The waveform is often small, so scale matters. If the monitor scale is too broad, the a, c and v waves may look flat. If the scale is too narrow, normal respiratory variation may look dramatic. The line must also be correctly levelled and zeroed. If the catheter is against the vessel wall, partially blocked, kinked, or connected through compliant tubing, the waveform may be damped. A flat CVP waveform with a number should never be accepted until the line and transducer are checked."
+        },
+        {
+          "type": "subheading",
+          "text": "a wave"
+        },
+        {
+          "type": "paragraph",
+          "text": "The a wave is caused by right atrial contraction. It appears after the P wave and before the QRS complex. It depends on organised atrial electrical activity, mechanical atrial contraction, an open tricuspid valve and the compliance of the right ventricle. In sinus rhythm, the a wave is usually a consistent wave before each ventricular complex. In atrial pacing, the timing depends on paced atrial depolarisation and AV delay."
+        },
+        {
+          "type": "paragraph",
+          "text": "Large a waves occur when the right atrium contracts against increased resistance to RV filling. Causes include reduced RV compliance, RV hypertrophy, pulmonary hypertension, RV infarction, tricuspid stenosis, high PEEP increasing RV afterload, or acute RV pressure loading. In a post-cardiac surgery patient, large a waves may appear with pulmonary hypertension, RV ischaemia, myocardial oedema after bypass, or a stiff ventricle needing atrial contribution."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cannon a waves are very large intermittent a waves caused by the right atrium contracting against a closed tricuspid valve. They are classically seen in AV dissociation, complete heart block, junctional rhythm, ventricular tachycardia and sometimes ventricular pacing without useful atrial synchrony. At the bedside, cannon a waves are not just a waveform curiosity. They may explain sudden hypotension after a rhythm change because atrial contraction is mistimed and venous pressure surges rather than assisting ventricular filling."
+        },
+        {
+          "type": "subheading",
+          "text": "Absent a waves"
+        },
+        {
+          "type": "paragraph",
+          "text": "Absent a waves occur when there is no organised atrial contraction. The most common CTICU cause is atrial fibrillation. Post-operative atrial fibrillation removes atrial kick and makes ventricular filling passive and irregular. This may be tolerated by a young compliant heart but can be poorly tolerated after cardiac surgery, especially in LV hypertrophy, diastolic dysfunction, mitral valve disease, pulmonary hypertension, RV dysfunction or low cardiac output syndrome. The CVP waveform becomes irregular and lacks the consistent a wave before each QRS."
+        },
+        {
+          "type": "paragraph",
+          "text": "The nursing implication is that AF is not only an ECG rhythm. It is a filling problem. A patient who becomes hypotensive, oliguric or more pressor-dependent after new AF may have lost the atrial contribution needed to fill a stiff ventricle. Assess rate, blood pressure, pulse pressure, perfusion, lactate, urine output, electrolytes, magnesium, potassium, atrial pacing options, anticoagulation plan, and escalation for rhythm or rate control."
+        },
+        {
+          "type": "subheading",
+          "text": "c wave"
+        },
+        {
+          "type": "paragraph",
+          "text": "The c wave reflects early RV systole. As the right ventricle contracts, the tricuspid valve closes and may bulge slightly into the right atrium, creating a small pressure rise. The c wave occurs around the QRS complex. In many bedside traces it is small, merges with the a wave, or is obscured by catheter and respiratory movement. It is usually less diagnostically useful than the a wave, v wave and descents."
+        },
+        {
+          "type": "paragraph",
+          "text": "A prominent c wave is not usually interpreted in isolation. It can be seen with strong RV contraction, altered tricuspid valve mechanics, tricuspid pathology or artefact. If a waveform seems to have large early systolic components, first confirm ECG timing, waveform scale, catheter position and whether the apparent feature may actually be a cannon a wave or large v wave."
+        },
+        {
+          "type": "subheading",
+          "text": "x descent"
+        },
+        {
+          "type": "paragraph",
+          "text": "The x descent is the fall in right atrial pressure after atrial contraction and during right ventricular systole. It is produced by right atrial relaxation and downward movement of the tricuspid annulus as the RV contracts. A clear x descent means right atrial pressure is falling during systole. In tamponade, the x descent may be preserved or even prominent because atrial relaxation still occurs, while later diastolic filling is restricted."
+        },
+        {
+          "type": "paragraph",
+          "text": "A blunted x descent can occur in tricuspid regurgitation because RV systole sends blood backward into the right atrium instead of allowing pressure to fall. It may also occur with severe RV failure, atrial fibrillation, very high right atrial pressure, waveform damping or poor catheter position. When the x descent is absent or blunted with giant systolic venous waves, severe tricuspid regurgitation or RV failure should move higher on the differential."
+        },
+        {
+          "type": "subheading",
+          "text": "v wave"
+        },
+        {
+          "type": "paragraph",
+          "text": "The v wave is generated as systemic venous return fills the right atrium while the tricuspid valve is closed. It rises during ventricular systole and peaks before the tricuspid valve opens. A modest v wave is normal. A large v wave is clinically important because it indicates high right atrial pressure during ventricular systole. The common CTICU causes are tricuspid regurgitation, RV dilation, pulmonary hypertension, RV failure, fluid overload and sometimes catheter position or waveform scale error."
+        },
+        {
+          "type": "paragraph",
+          "text": "In tricuspid regurgitation, the v wave becomes large because RV systole forces blood backward through an incompetent tricuspid valve into the right atrium. The mean CVP may be high, but it does not mean the right ventricle needs more preload. In fact, further fluid may worsen RV dilation, tricuspid regurgitation, hepatic congestion, renal venous congestion and septal shift. A large v wave should prompt evaluation of RV size and function, pulmonary pressures, hepatic congestion, urine output, lactate and echo findings."
+        },
+        {
+          "type": "subheading",
+          "text": "y descent"
+        },
+        {
+          "type": "paragraph",
+          "text": "The y descent occurs when the tricuspid valve opens and blood flows from the right atrium into the right ventricle. It reflects early diastolic RV filling. A normal y descent means the right atrium can empty into the right ventricle. A blunted or absent y descent suggests impaired early diastolic emptying, classically in cardiac tamponade where external pericardial pressure restricts chamber expansion. A steep y descent is more associated with constrictive physiology or severe tricuspid regurgitation."
+        },
+        {
+          "type": "paragraph",
+          "text": "After cardiac surgery, an elevated CVP with a blunted y descent must be interpreted urgently if accompanied by hypotension, low cardiac output, narrowing pulse pressure, rising lactate, oliguria or reduced chest drain output. The waveform supports the possibility of tamponade, but management must be driven by the full clinical pattern and urgent senior escalation. Do not wait for perfect textbook waveform confirmation."
+        },
+        {
+          "type": "heading",
+          "text": "Major abnormal CVP patterns in cardiothoracic ICU"
+        },
+        {
+          "type": "table",
+          "title": "Abnormal CVP waveform patterns",
+          "columns": [
+            "Pattern",
+            "Likely mechanism",
+            "Common CTICU setting",
+            "Nursing action"
+          ],
+          "rows": [
+            [
+              "Absent a waves",
+              "No organised atrial contraction.",
+              "New post-operative atrial fibrillation or atrial standstill.",
+              "Assess haemodynamic tolerance, rate, perfusion, potassium, magnesium, pacing options and need for escalation for rhythm management."
+            ],
+            [
+              "Large a waves",
+              "Right atrium contracts against a stiff or pressure-loaded RV.",
+              "Pulmonary hypertension, RV hypertrophy, RV infarct, high PEEP, RV dysfunction after bypass.",
+              "Assess RV failure pattern, PAP if available, oxygenation, CO2, pH, ventilator pressures and echo."
+            ],
+            [
+              "Cannon a waves",
+              "Atrial contraction against closed tricuspid valve.",
+              "Complete heart block, junctional rhythm, VT, AV dissociation, poorly timed ventricular pacing.",
+              "Check rhythm, pacing mode and AV synchrony; escalate if hypotension or low output occurs."
+            ],
+            [
+              "Giant v waves",
+              "Right atrial systolic filling from tricuspid regurgitation or severe RA/RV overload.",
+              "TR, RV failure, pulmonary hypertension, post-valve surgery, RV dilation.",
+              "Do not assume fluid responsiveness. Assess RV, TR, PAP, CI, hepatic and renal congestion, and echo."
+            ],
+            [
+              "Blunted y descent",
+              "Restricted early RV filling.",
+              "Tamponade, high pericardial pressure, severe external cardiac compression.",
+              "Escalate urgently if shock signs, rising CVP, narrow pulse pressure or drain concern are present."
+            ],
+            [
+              "Large respiratory swings",
+              "Intrathoracic pressure transmission or laboured breathing.",
+              "Positive pressure ventilation, high PEEP, coughing, ventilator dyssynchrony, obstructive lung disease.",
+              "Interpret mean CVP at end-expiration and correlate with airway pressures and clinical perfusion."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "CVP in tamponade"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cardiac tamponade after cardiothoracic surgery occurs when blood, clot or fluid within the pericardial or mediastinal space compresses the heart and restricts diastolic filling. Because the right-sided chambers are low-pressure structures, right atrial pressure often rises. The CVP trend may rise while arterial pulse pressure narrows, MAP falls, cardiac output falls and vasopressor requirement increases. The waveform may show elevated mean CVP, prominent x descent and impaired y descent. However, post-operative tamponade can be regional, clot-related and difficult to diagnose by classic textbook signs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The bedside pattern matters more than any single CVP feature. Rising CVP plus falling MAP, narrowing pulse pressure, falling cardiac index, rising lactate, oliguria, cool skin, new tachycardia or pacing dependence, and suddenly reduced chest drain output should trigger urgent senior and surgical review. Chest drains may be blocked by clot, so low output does not exclude bleeding into the mediastinum. Echo may help but may be technically limited after sternotomy. Nursing action is immediate recognition, rapid communication, preparation for urgent echo or re-exploration pathway, and avoidance of delays while repeatedly rechecking numbers."
+        },
+        {
+          "type": "heading",
+          "text": "CVP in right ventricular failure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Right ventricular failure produces high CVP because the RV cannot move venous return forward into the pulmonary circulation effectively. The CVP may rise while left-sided preload and systemic cardiac output fall. The patient may be hypotensive with cool peripheries, low urine output, rising lactate, high venous pressures, hepatic congestion and worsening oxygenation. If a PA catheter is present, the pattern may include high CVP, high PAP, raised PVR, low cardiac index and low or normal wedge pressure unless LV disease is also present."
+        },
+        {
+          "type": "paragraph",
+          "text": "The waveform may show large a waves if the RV is stiff and pressure-loaded, large v waves if RV dilation has caused tricuspid regurgitation, and a high mean CVP. The management logic is different from hypovolaemia. Excess fluid can worsen RV dilation and septal shift. Nursing priorities include maintaining oxygenation, avoiding hypercapnia, correcting acidosis, checking potassium and magnesium, reviewing PEEP and airway pressures, ensuring AV synchrony, supporting MAP for RV coronary perfusion, preparing inotrope or pulmonary vasodilator therapy as ordered, and escalating early."
+        },
+        {
+          "type": "heading",
+          "text": "CVP in tricuspid regurgitation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tricuspid regurgitation creates prominent systolic venous waves because RV contraction pushes blood backward into the right atrium. The CVP waveform may be dominated by giant v waves, and the mean CVP can be high. In severe TR, the CVP number may overstate useful RV preload because much of the pressure reflects regurgitant systolic flow and venous congestion rather than effective forward filling."
+        },
+        {
+          "type": "paragraph",
+          "text": "This pattern is important after valve surgery, pulmonary hypertension, RV infarction, RV dilation, infective endocarditis, congenital disease or pacing lead-related valve dysfunction. If severe TR is present, fluid decisions should be cautious and guided by echo, cardiac output, renal perfusion, lactate, hepatic congestion and pulmonary pressures. Large v waves should prompt the question: is the right heart congested and failing rather than empty and needing fluid?"
+        },
+        {
+          "type": "heading",
+          "text": "CVP in hypovolaemia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Low CVP may support hypovolaemia when it fits the whole clinical picture: low or falling MAP, narrow pulse pressure, tachycardia, low filling pressures, high drain output, low urine output, rising lactate, cool peripheries and improvement after a carefully assessed preload challenge. After cardiac surgery, bleeding is a critical cause. Chest drain output, clotting status, haemoglobin trend, temperature, calcium, fibrinogen, platelets and surgical communication are central."
+        },
+        {
+          "type": "paragraph",
+          "text": "Low CVP alone is not enough to prescribe fluid. A vasodilated patient may have low CVP because venous capacitance is high, yet cardiac output may be preserved. A patient on high levels of positive pressure ventilation may have impaired venous return and low effective preload. A patient with RV failure may have high CVP and still have inadequate LV preload. Fluid should be treated as a haemodynamic intervention with an expected response, not as a reflex to one number."
+        },
+        {
+          "type": "heading",
+          "text": "CVP in positive pressure ventilation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Positive pressure ventilation raises intrathoracic pressure, which is transmitted to the thoracic vena cava and right atrium. This can increase measured CVP even when the transmural filling pressure of the right heart has not improved. PEEP, high plateau pressure, high mean airway pressure, coughing, ventilator dyssynchrony, obstructive lung disease and dynamic hyperinflation can all increase CVP. The measured number must therefore be interpreted with ventilator settings and the respiratory waveform pattern."
+        },
+        {
+          "type": "paragraph",
+          "text": "CVP should usually be read at end-expiration because intrathoracic pressure is closest to baseline at that point. In passive positive pressure ventilation, inspiration may increase CVP; in spontaneous breathing, inspiration may decrease intrathoracic pressure and lower CVP. Large respiratory swings can make a single displayed value misleading. In CTICU, sudden CVP rise with high airway pressure and hypotension should trigger consideration of tension pneumothorax, bronchospasm, mucus plugging, dynamic hyperinflation or excessive PEEP causing RV impairment."
+        },
+        {
+          "type": "diagram",
+          "title": "Abnormal CVP waveform pattern comparison",
+          "description": "A comparison diagram showing atrial fibrillation with absent a waves, complete heart block with cannon a waves, tricuspid regurgitation with giant v waves, and tamponade with high CVP and impaired y descent.",
+          "layout": "comparison",
+          "elements": [
+            "Normal CVP waveform",
+            "Absent a waves in atrial fibrillation",
+            "Intermittent cannon a waves in AV dissociation",
+            "Giant v waves in tricuspid regurgitation",
+            "Blunted y descent and elevated mean CVP in tamponade"
+          ],
+          "teachingPoints": [
+            "Absent a waves are expected in atrial fibrillation and help explain loss of atrial contribution to ventricular filling.",
+            "Cannon a waves are a haemodynamic clue to AV dissociation, junctional rhythm, complete heart block, VT or mistimed pacing.",
+            "Tamponade is a clinical emergency; waveform clues support escalation but should not delay urgent senior review."
+          ]
+        },
+        {
+          "type": "diagram",
+          "title": "CVP interpretation algorithm in post-cardiac surgery shock",
+          "description": "A bedside algorithm beginning with CVP value and waveform quality, then separating low CVP hypovolaemia, high CVP RV failure, high CVP tamponade, high CVP tricuspid regurgitation and artificially high CVP from positive pressure ventilation.",
+          "layout": "algorithm",
+          "elements": [
+            "Step 1: confirm level, zero and waveform quality",
+            "Step 2: determine whether CVP is low, normal or high and whether the trend is changing",
+            "Step 3: inspect waveform for a waves, cannon a waves, v waves, x and y descents",
+            "Step 4: integrate MAP, pulse pressure, drain output, lactate, urine output, echo, rhythm and ventilator pressures",
+            "Step 5: escalate according to suspected hypovolaemia, tamponade, RV failure, tricuspid regurgitation or ventilation effect"
+          ],
+          "teachingPoints": [
+            "CVP is a pressure, not a direct measurement of intravascular volume.",
+            "High CVP with shock is dangerous and should trigger consideration of RV failure, tamponade, tension physiology, severe TR or excessive intrathoracic pressure.",
+            "Low CVP with shock after cardiac surgery should prompt assessment for bleeding, vasodilation and inadequate venous return, not automatic blind fluid loading."
+          ]
+        }
+      ]
     },
     "pearls": {
       "title": "Clinical Pearls",
-      "content": "<div class=\"pearl\"><p>CVP is most useful when it changes. A rise from 8 to 18 mmHg with falling MAP after cardiac surgery is more important than a single CVP of 12.</p></div>\n<div class=\"pearl\"><p>In tamponade after cardiac surgery, chest drain output may fall because the blood is clotting in the mediastinum rather than draining.</p></div>\n<div class=\"pearl\"><p>AF removes the a wave and atrial kick. A patient with stiff ventricles can drop cardiac output quickly when AF starts.</p></div>\n<div class=\"warning\"><p>Do not give fluid just because the CVP is low. Low CVP can coexist with vasoplegia, and fluid responsiveness must be assessed with the whole picture.</p></div>"
+      "content": [
+        {
+          "type": "pearl",
+          "text": "CVP is not a fuel gauge. It is a pressure gauge. A low number does not prove the tank is empty, and a high number does not prove the patient is overloaded. The number is produced by the relationship between volume, venous tone, RV compliance, RV systolic function, tricuspid valve function, pericardial pressure and intrathoracic pressure. In CTICU, the waveform and trend are often more valuable than the absolute mean value."
+        },
+        {
+          "type": "pearl",
+          "text": "Atrial fibrillation is visible on the CVP trace because the a wave disappears. This is more than a waveform observation. Post-operative AF removes coordinated atrial contraction, which can reduce ventricular filling in stiff post-bypass ventricles. A patient with diastolic dysfunction, LV hypertrophy, mitral valve disease, pulmonary hypertension or RV dysfunction may deteriorate significantly when the a wave disappears."
+        },
+        {
+          "type": "pearl",
+          "text": "Cannon a waves are a clue that timing is wrong. When the atrium contracts against a closed tricuspid valve, pressure shoots back into the venous system instead of assisting ventricular filling. In complete heart block, junctional rhythm, VT or mistimed ventricular pacing, cannon a waves can explain hypotension and low output. Restoring AV synchrony with appropriate pacing can be a haemodynamic treatment, not just an electrical correction."
+        },
+        {
+          "type": "pearl",
+          "text": "Giant v waves should make you cautious with fluid. They often indicate tricuspid regurgitation or severe RV dilation. The mean CVP may be high because pressure is being driven backward into the right atrium during systole. Giving more fluid may increase RV size, worsen TR, push the interventricular septum into the LV, reduce LV filling and worsen cardiac output."
+        },
+        {
+          "type": "pearl",
+          "text": "Tamponade after cardiac surgery is not always classic. Beck's triad may be absent or useless in an intubated, sedated, recently sternotomised patient. The more practical pattern is rising CVP, narrowing arterial pulse pressure, falling MAP, increasing vasopressor requirement, falling cardiac output, oliguria, rising lactate, cool skin and concerning drain behaviour. A sudden fall in drain output can be dangerous if it means the drains are blocked by clot."
+        },
+        {
+          "type": "pearl",
+          "text": "High CVP with low urine output may be renal venous congestion, not underfilling. In RV failure or severe TR, the kidney drains into a high-pressure venous system. Renal perfusion pressure is roughly MAP minus venous pressure, so a MAP of 70 mmHg with CVP 25 mmHg gives a much worse renal perfusion gradient than MAP 70 mmHg with CVP 8 mmHg. This is one reason venous congestion contributes to AKI after cardiac surgery."
+        },
+        {
+          "type": "pearl",
+          "text": "Ventilation can fake or worsen high CVP. PEEP and high airway pressure increase intrathoracic pressure and can elevate measured CVP. They can also increase RV afterload and reduce venous return. If CVP rises suddenly with hypotension and high airway pressures, look for tension pneumothorax, mucus plugging, severe bronchospasm, breath stacking, dynamic hyperinflation or ventilator dyssynchrony."
+        },
+        {
+          "type": "pearl",
+          "text": "The best CVP interpretation is comparative. Compare the CVP trend with arterial pulse pressure, MAP, urine output, lactate, drain output, rhythm, ventilation, echo and PA catheter data if present. A CVP rising from 8 to 18 mmHg over 30 minutes in a deteriorating fresh post-op patient is much more important than a stable CVP of 12 mmHg in a ventilated patient with good urine output and falling lactate."
+        },
+        {
+          "type": "warning",
+          "text": "Escalate immediately for high or rising CVP with hypotension, narrowing pulse pressure, rising lactate, oliguria, new arrhythmia, new pacing dependence, sudden chest drain cessation, major bleeding, high airway pressures or suspected RV failure. These are not watch-and-wait findings in a fresh cardiothoracic surgical patient."
+        },
+        {
+          "type": "remember",
+          "text": "Read CVP in this order: confirm the trace is real, identify the waveform pattern, interpret the trend, then match it to the patient. Never make a fluid decision from the mean CVP alone."
+        }
+      ]
     },
     "equipment": {
       "title": "Equipment Tie-In",
-      "content": "<h3>Equipment tie-in</h3>\n<p>CVP waveform quality depends on correct transducer setup, levelling, zeroing and catheter position. The transducer should be levelled to the phlebostatic axis. The waveform scale should be low enough to show a, c, v waves and descents; if the scale is too wide, the trace appears flat and interpretation is lost.</p>\n<p>In ventilated patients, CVP is affected by intrathoracic pressure. High PEEP, breath stacking and high airway pressures can increase measured CVP without improving preload. This is especially important in RV failure, where high airway pressure can worsen venous return and increase RV afterload.</p>"
+      "content": [
+        {
+          "type": "heading",
+          "text": "CVP monitoring setup"
+        },
+        {
+          "type": "paragraph",
+          "text": "CVP can be measured through a central venous catheter, introducer sheath, multi-lumen central line, or the proximal port of a pulmonary artery catheter if that port lies in the right atrium or central venous circulation. Accurate measurement requires a patent catheter lumen, rigid pressure tubing, an air-free fluid column, a functioning transducer, correct levelling, correct zeroing and an appropriate monitor scale. The same hydrostatic rules that apply to arterial pressure apply to venous pressure. A transducer below the right atrium reads falsely high; a transducer above the right atrium reads falsely low."
+        },
+        {
+          "type": "steps",
+          "title": "CVP setup and verification sequence",
+          "items": [
+            "Confirm which catheter lumen is being used for CVP monitoring and whether it is appropriate for pressure monitoring rather than infusion-only use.",
+            "Connect the lumen to rigid pressure tubing and a pressure transducer using an air-free primed system.",
+            "Level the transducer to the phlebostatic axis, usually the fourth intercostal space at the mid-axillary line in a supine adult.",
+            "Turn the stopcock off to the patient and open the transducer to air, then zero the CVP channel on the monitor.",
+            "Return the stopcock open to the patient and confirm that a venous waveform is present.",
+            "Adjust the waveform scale so a, c, v waves and x and y descents can be seen. A scale that is too broad hides useful morphology.",
+            "Label the waveform correctly as CVP, RAP or the local monitor label used in the unit.",
+            "Confirm the waveform varies appropriately with respiration and cardiac cycle, and that it is not accidentally measuring an arterial line or infusion pressure.",
+            "Document or hand over the CVP value, waveform quality, patient position, ventilation status and relevant trend."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Troubleshooting poor CVP waveform"
+        },
+        {
+          "type": "table",
+          "title": "CVP waveform troubleshooting",
+          "columns": [
+            "Problem",
+            "Likely causes",
+            "Action"
+          ],
+          "rows": [
+            [
+              "Flat trace with no waveform",
+              "Stopcock off to patient, disconnected cable, clotted lumen, kinked tubing, catheter against vessel wall, wrong monitor channel or transducer failure.",
+              "Check patient and line connections, stopcock position, cable, transducer, tubing, lumen patency according to competency and policy, and monitor label."
+            ],
+            [
+              "CVP number present but no visible a, c or v waves",
+              "Scale too broad, waveform damped, catheter malposition, air or clot in tubing, excessive filtering or very low amplitude physiology.",
+              "Reduce waveform scale, inspect line for damping, confirm transducer setup and compare with clinical context."
+            ],
+            [
+              "Large respiratory swings",
+              "Positive pressure ventilation, spontaneous effort, coughing, dyssynchrony, high PEEP, high airway pressure, obstructive lung disease or dynamic hyperinflation.",
+              "Read at end-expiration where possible, assess ventilator pressures and do not overinterpret a single instantaneous value."
+            ],
+            [
+              "Sudden high CVP",
+              "True RV failure, tamponade, tension pneumothorax, pulmonary embolism, severe TR, high PEEP, catheter issue or transducer lowered below patient.",
+              "Check transducer level first, then assess arterial pressure, pulse pressure, airway pressures, drain output, rhythm, echo need and urgent escalation triggers."
+            ],
+            [
+              "CVP suddenly low",
+              "Disconnection, transducer raised too high, bleeding, vasodilation, hypovolaemia, reduced venous return or catheter problem.",
+              "Check for line disconnection and transducer position immediately, then assess bleeding, drains, MAP, pulse pressure and perfusion."
+            ],
+            [
+              "Waveform looks arterial",
+              "Wrong line connected or catheter in artery.",
+              "Stop and verify line identity urgently. Check pressure scale, colour coding, waveform shape, blood colour if sampled and escalate according to line safety policy."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Scale and display settings"
+        },
+        {
+          "type": "paragraph",
+          "text": "CVP waveform amplitude is small compared with arterial pressure. A normal CVP waveform may sit within a range of only a few mmHg. If the monitor scale is set from 0 to 100 mmHg, the waveform may look flat. A scale such as 0 to 20 mmHg or 0 to 30 mmHg is often more useful, depending on the patient's pressure. A patient with severe RV failure or tamponade may need a higher scale to display the full waveform without clipping. The goal is to see morphology, not just the mean number."
+        },
+        {
+          "type": "paragraph",
+          "text": "The waveform should be aligned mentally with ECG. The a wave should follow the P wave. If the patient is in AF, there should be no consistent a wave. If there are large intermittent waves unrelated to normal atrial timing, think cannon a waves and AV dissociation. If a large wave occurs during ventricular systole and dominates the trace, think v wave from tricuspid regurgitation or RV overload."
+        },
+        {
+          "type": "heading",
+          "text": "Line use and contamination issues"
+        },
+        {
+          "type": "paragraph",
+          "text": "CVP monitoring lumens may also be used for infusions in some settings, but pressure measurement through a lumen with active rapid infusion, incompatible medications, viscous products or intermittent flushing may be unreliable. Infusion pressure, pump occlusion, stopcock manipulation and sampling can distort the waveform. If accurate CVP waveform interpretation is needed during shock assessment, minimise interference from infusions where possible and ensure the line is configured according to local safety practice."
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood sampling from a CVP-monitored central line can leave blood in tubing and increase damping or clot risk if the system is not managed correctly. Air bubbles must be avoided because central venous lines communicate with the venous circulation and air entrainment can be dangerous. Stopcocks must be capped and positioned deliberately. Accidental opening to air, line disconnection, or unclamped tubing can create serious risk."
+        },
+        {
+          "type": "heading",
+          "text": "Nurse-technician practical checks"
+        },
+        {
+          "type": "steps",
+          "title": "Shift-level CVP reliability check",
+          "items": [
+            "Confirm the CVP waveform is labelled correctly and connected to the intended central venous lumen.",
+            "Confirm the transducer is level with the right atrium and has been zeroed according to unit routine or after setup changes.",
+            "Inspect pressure tubing for air, blood, kinks, loose connections and stopcock errors.",
+            "Set the pressure scale low enough to visualise waveform components while avoiding waveform clipping.",
+            "Assess the waveform with the ECG to identify a waves, absent a waves, cannon a waves and large v waves.",
+            "Read the value in relation to respiratory phase, especially if the patient is ventilated or making strong spontaneous efforts.",
+            "Trend CVP against MAP, pulse pressure, drain output, urine output, lactate, rhythm, ventilator pressure and vasoactive dose.",
+            "Escalate if the waveform is unreliable and the number is being used for active haemodynamic decision-making."
+          ]
+        },
+        {
+          "type": "diagram",
+          "title": "Normal CVP waveform across the cardiac cycle",
+          "description": "A labelled CVP waveform aligned with ECG and right-sided mechanical events. It should show a wave, c wave, x descent, v wave and y descent, with timing against P wave, QRS and T wave.",
+          "layout": "waveform",
+          "elements": [
+            "ECG P wave aligned before the a wave",
+            "a wave from right atrial contraction",
+            "c wave from tricuspid valve closure and early RV systole",
+            "x descent from right atrial relaxation and tricuspid annular descent",
+            "v wave from right atrial filling against a closed tricuspid valve",
+            "y descent from tricuspid opening and early RV filling"
+          ],
+          "teachingPoints": [
+            "CVP waveform morphology often gives more diagnostic information than the mean CVP number.",
+            "The a wave disappears in atrial fibrillation and becomes cannon-like when the atrium contracts against a closed tricuspid valve.",
+            "Large v waves strongly suggest tricuspid regurgitation or severe right-sided volume and pressure loading."
+          ]
+        }
+      ]
     },
     "targets": {
       "title": "Targets and Numbers",
-      "content": "<table><thead><tr>\n<th>Finding</th>\n<th>Typical value/pattern</th>\n<th>Interpretation</th>\n</tr></thead><tbody>\n<tr>\n<td>Usual CVP range</td>\n<td>2-6 mmHg in many spontaneously breathing adults; 5-12 mmHg commonly seen in ventilated CT-ICU patients.</td>\n<td>Target depends on RV function, ventilation and surgery. A normal number does not exclude shock.</td>\n</tr>\n<tr>\n<td>High-risk CVP trend</td>\n<td>Rise >5 mmHg with falling MAP or narrowing pulse pressure</td>\n<td>Concerning for tamponade, RV failure, tension physiology or worsening pulmonary hypertension.</td>\n</tr>\n<tr>\n<td>Low CVP</td>\n<td>0-5 mmHg</td>\n<td>May be hypovolaemia, vasodilation or good compliance; interpret with perfusion and fluid responsiveness.</td>\n</tr>\n<tr>\n<td>High CVP</td>\n<td>>12-15 mmHg</td>\n<td>May be RV failure, tamponade, volume overload, high PEEP, pulmonary hypertension or tricuspid regurgitation.</td>\n</tr>\n<tr>\n<td>Urine output target</td>\n<td>>0.5 mL/kg/hr</td>\n<td>Low output with rising CVP means congestion/low forward flow until proven otherwise.</td>\n</tr>\n</tbody></table>"
+      "content": [
+        {
+          "type": "heading",
+          "text": "Reference CVP ranges"
+        },
+        {
+          "type": "paragraph",
+          "text": "CVP targets are context-specific. The commonly quoted normal range in adults is about 2 to 6 mmHg, but a ventilated post-cardiac surgery patient may sit above this without being overloaded, and a patient with RV dysfunction may need a higher right-sided filling pressure while still being at risk from venous congestion. The safest approach is to use CVP as a trend and waveform, not an isolated target. The right question is whether the CVP pattern explains the patient's perfusion state."
+        },
+        {
+          "type": "targetTable",
+          "title": "Typical CVP ranges and interpretation",
+          "columns": [
+            "CVP value or trend",
+            "Possible meaning",
+            "CTICU interpretation"
+          ],
+          "rows": [
+            [
+              "2 to 6 mmHg",
+              "Common adult reference range.",
+              "May be normal in a spontaneously breathing stable adult; may be low for some ventilated or RV-dependent post-op patients."
+            ],
+            [
+              "6 to 10 mmHg",
+              "Commonly seen in stable ventilated post-cardiac surgery patients.",
+              "May be acceptable if MAP, urine output, lactate and perfusion are adequate."
+            ],
+            [
+              "10 to 15 mmHg",
+              "Higher right-sided filling pressure or intrathoracic pressure effect.",
+              "Interpret carefully in ventilated patients, RV dysfunction, pulmonary hypertension, valve surgery and tamponade risk."
+            ],
+            [
+              "Greater than 15 mmHg",
+              "Right-sided pressure elevation, venous congestion, RV failure, tamponade, TR, high PEEP or fluid overload.",
+              "Concerning if rising or associated with hypotension, oliguria, low output, high airway pressure or lactate rise."
+            ],
+            [
+              "Rapid rise by more than 5 mmHg",
+              "Acute change in right-sided pressure, pericardial pressure, ventilation pressure or measurement error.",
+              "Re-level and check waveform, then assess for tamponade, RV failure, tension physiology, PE, high PEEP or line issue."
+            ],
+            [
+              "Low or falling CVP with shock",
+              "Reduced venous return, bleeding, vasodilation, hypovolaemia or transducer error.",
+              "Check drains, bleeding, pulse pressure, MAP, lactate, urine output and fluid responsiveness rather than giving blind fluid."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Pattern-specific target interpretation"
+        },
+        {
+          "type": "targetTable",
+          "title": "CVP patterns by CTICU condition",
+          "columns": [
+            "Condition",
+            "Typical CVP pattern",
+            "Other expected findings",
+            "Priority action"
+          ],
+          "rows": [
+            [
+              "Uncomplicated post-CABG",
+              "Often 6 to 10 mmHg while ventilated, stable waveform.",
+              "MAP 65 to 80 mmHg, warm or improving perfusion, urine output at least 0.5 mL/kg/hr, lactate falling.",
+              "Trend CVP rather than treating the number; ensure waveform quality and drain correlation."
+            ],
+            [
+              "Surgical bleeding or hypovolaemia",
+              "Low or falling CVP if RV function is preserved; may not be low if tamponade or RV failure coexists.",
+              "High drain output, narrowing pulse pressure, tachycardia, falling MAP, rising lactate, falling haemoglobin later.",
+              "Escalate bleeding concern, check coagulation, temperature, calcium, fibrinogen and surgical review pathway."
+            ],
+            [
+              "Tamponade",
+              "Rising CVP, often greater than 15 mmHg, with impaired filling waveform features such as blunted y descent.",
+              "Falling MAP, narrow pulse pressure, low output, rising lactate, oliguria, sudden drain reduction or clot concern.",
+              "Urgent senior and surgical escalation; prepare for echo, resuscitation and possible re-exploration."
+            ],
+            [
+              "Right ventricular failure",
+              "High CVP, often 15 to 25 mmHg or higher in severe cases, with large a waves or v waves depending on mechanism.",
+              "Low cardiac output, high PAP/PVR if measured, low or normal wedge if isolated RV failure, hepatic and renal congestion.",
+              "Optimise oxygenation, CO2, pH, PEEP, rhythm, AV synchrony and RV perfusion pressure; escalate for inotrope or pulmonary vasodilator strategy."
+            ],
+            [
+              "Tricuspid regurgitation",
+              "High CVP with giant v waves; mean CVP may overstate useful preload.",
+              "Pulsatile venous waveform, RV dilation, hepatic congestion, poor forward output if severe.",
+              "Avoid reflex fluid; seek echo correlation and manage RV loading and pulmonary pressures."
+            ],
+            [
+              "Positive pressure ventilation or high PEEP",
+              "Measured CVP elevated or with large respiratory swings.",
+              "High airway pressure, reduced venous return, possible RV afterload increase, ventilation-related blood pressure variation.",
+              "Read at end-expiration, review ventilator pressures and assess for dynamic hyperinflation or tension pathology."
+            ],
+            [
+              "New post-operative AF",
+              "Absent a waves and irregular waveform.",
+              "Irregular arterial pulse pressure, possible hypotension, reduced cardiac output in stiff ventricles.",
+              "Assess haemodynamic tolerance, electrolytes, rate, anticoagulation context and need for rhythm strategy."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Escalation thresholds"
+        },
+        {
+          "type": "table",
+          "title": "When CVP findings require urgent escalation",
+          "columns": [
+            "Finding",
+            "Why it matters",
+            "Immediate nursing response"
+          ],
+          "rows": [
+            [
+              "CVP rising above 15 mmHg with falling MAP",
+              "Suggests obstructive or right-sided shock until proven otherwise.",
+              "Check level and waveform, assess pulse pressure, drains, airway pressure and rhythm, then escalate urgently."
+            ],
+            [
+              "CVP high with pulse pressure less than 20 to 25 mmHg",
+              "Low stroke volume pattern; tamponade, RV failure or severe LV failure possible.",
+              "Escalate to senior clinician, prepare for echo and review surgical bleeding/tamponade pathway."
+            ],
+            [
+              "Giant v waves with shock",
+              "Severe TR or RV failure may be impairing forward flow.",
+              "Avoid blind fluid, assess RV pattern, PAP if available, echo, lactate and urine output."
+            ],
+            [
+              "Cannon a waves with hypotension",
+              "AV dyssynchrony may be reducing cardiac output.",
+              "Check rhythm and pacing, ensure pacing equipment readiness and escalate for rhythm/pacing optimisation."
+            ],
+            [
+              "Absent a waves with new AF and deterioration",
+              "Loss of atrial kick may destabilise post-op ventricles.",
+              "Assess rate, perfusion, electrolytes, anticoagulation context and escalate for rate/rhythm control plan."
+            ],
+            [
+              "CVP suddenly rises with high airway pressure and hypotension",
+              "Tension pneumothorax, dynamic hyperinflation, mucus plugging or severe bronchospasm may be causing obstructive/RV shock.",
+              "Assess ventilation, chest movement, drain status if thoracic drains present, call senior help immediately."
+            ],
+            [
+              "CVP waveform unreliable while being used for decisions",
+              "Treatment may be based on false data.",
+              "Stop and troubleshoot line, level, zero, scale, catheter patency and transducer before relying on the value."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Perfusion numbers that must be interpreted with CVP"
+        },
+        {
+          "type": "targetTable",
+          "title": "CVP plus perfusion markers",
+          "columns": [
+            "Marker",
+            "Concerning threshold",
+            "How it changes CVP interpretation"
+          ],
+          "rows": [
+            [
+              "Urine output",
+              "Less than 0.5 mL/kg/hr or less than about 30 mL/hr in an average adult.",
+              "Low urine with high CVP suggests venous congestion, RV failure or tamponade; low urine with low CVP suggests possible low preload or shock."
+            ],
+            [
+              "Lactate",
+              "Greater than 2 mmol/L or rising trend.",
+              "Rising lactate with abnormal CVP trend suggests inadequate oxygen delivery; do not dismiss high CVP as simple overload or low CVP as harmless."
+            ],
+            [
+              "MAP",
+              "Usually less than 65 mmHg or below patient-specific target.",
+              "Low MAP with high CVP is obstructive/RV failure pattern until proven otherwise; low MAP with low CVP may be hypovolaemia or vasodilation."
+            ],
+            [
+              "Pulse pressure",
+              "Less than 20 to 25 mmHg is concerning.",
+              "Narrow pulse pressure with rising CVP strongly supports low stroke volume or tamponade physiology."
+            ],
+            [
+              "SvO2 if available",
+              "Less than 60 percent is concerning.",
+              "Low SvO2 with high CVP suggests poor forward flow despite venous congestion; low SvO2 with low CVP may suggest inadequate preload or oxygen delivery."
+            ],
+            [
+              "Chest drain output",
+              "Greater than 100 to 200 mL/hr depending on timing and local concern, or sudden cessation with shock.",
+              "High output with low/falling CVP suggests bleeding; sudden low output with rising CVP and shock suggests possible blocked drains and tamponade."
+            ]
+          ]
+        },
+        {
+          "type": "remember",
+          "text": "Use CVP targets as guardrails, not commands. The trend and waveform decide whether the number means preload deficit, venous congestion, RV failure, tamponade, tricuspid regurgitation, ventilation effect or measurement error."
+        }
+      ]
     }
   },
   "quiz": [
     {
       "difficulty": "Bedside Basics",
-      "question": "Which CVP waveform component represents right atrial contraction?",
+      "question": "What does the a wave on a CVP waveform represent?",
       "options": [
-        "a wave",
-        "c wave",
-        "v wave",
-        "y descent"
+        "Right atrial contraction",
+        "Tricuspid valve opening",
+        "Pulmonary valve closure",
+        "Left ventricular ejection"
       ],
       "answer": 0,
-      "explanation": "The a wave is generated by right atrial contraction and disappears in atrial fibrillation."
+      "explanation": "The a wave is caused by right atrial contraction. It occurs after the ECG P wave and before the QRS complex. It disappears in atrial fibrillation because organised atrial contraction is absent."
     },
     {
-      "difficulty": "Clinical Reasoning",
-      "question": "A post-CABG patient has falling MAP, narrowing pulse pressure, CVP rising from 8 to 20 and falling drain output. What must be considered urgently?",
+      "difficulty": "Bedside Basics",
+      "question": "Which CVP waveform feature is most associated with tricuspid regurgitation?",
       "options": [
-        "Benign fluid overload",
-        "Cardiac tamponade/clot",
-        "Line underdamping",
-        "Normal post-op trend"
+        "Absent a waves",
+        "Giant v waves",
+        "A perfectly flat waveform",
+        "A narrow arterial pulse pressure"
       ],
       "answer": 1,
-      "explanation": "This pattern is classic for obstructive physiology after cardiac surgery. Drain output can fall if blood clots in the mediastinum."
+      "explanation": "Tricuspid regurgitation causes blood to move backward from the right ventricle into the right atrium during systole, producing large systolic venous waves, usually seen as giant v waves."
     },
     {
       "difficulty": "Clinical Reasoning",
-      "question": "Cannon a waves suggest what mechanism?",
+      "question": "A fresh post-CABG patient develops rising CVP, falling MAP, narrowing arterial pulse pressure, oliguria and suddenly reduced drain output. What should you suspect?",
       "options": [
-        "Atrial contraction against a closed tricuspid valve",
-        "Aortic valve closure",
-        "Tricuspid regurgitation during systole",
-        "Left ventricular failure only"
+        "Simple hypovolaemia only",
+        "Cardiac tamponade or blocked drains with obstructive shock physiology",
+        "Normal post-operative recovery",
+        "Isolated transducer levelling error with no need to escalate"
+      ],
+      "answer": 1,
+      "explanation": "Rising CVP with falling MAP, narrowing pulse pressure, oliguria and sudden drain reduction after cardiac surgery is highly concerning for tamponade or clot-blocked drainage. Check the system quickly, but escalate urgently."
+    },
+    {
+      "difficulty": "Clinical Reasoning",
+      "question": "A ventilated patient has CVP 16 mmHg with large respiratory swings and high airway pressures. Which interpretation is safest?",
+      "options": [
+        "The patient is definitely fluid overloaded and needs diuresis immediately",
+        "The CVP may be influenced by intrathoracic pressure, PEEP or ventilator mechanics and should be interpreted at end-expiration with the full clinical picture",
+        "The CVP proves the patient is fluid responsive",
+        "The CVP waveform is irrelevant in ventilated patients"
+      ],
+      "answer": 1,
+      "explanation": "Positive pressure ventilation, high PEEP, coughing, dyssynchrony and high airway pressure can elevate measured CVP and create respiratory swings. CVP should be interpreted at end-expiration and correlated with airway pressures and perfusion."
+    },
+    {
+      "difficulty": "Expert Level",
+      "question": "Intermittent very large a waves are seen on the CVP trace in a hypotensive patient with complete heart block. What is the mechanism?",
+      "options": [
+        "Right atrial contraction against a closed tricuspid valve due to AV dissociation",
+        "Normal right atrial filling during ventricular systole",
+        "Tricuspid valve opening during early diastole",
+        "Left atrial contraction transmitted through the pulmonary veins"
       ],
       "answer": 0,
-      "explanation": "Cannon a waves occur with AV dissociation, complete heart block, junctional rhythm or poorly synchronised ventricular pacing."
+      "explanation": "Cannon a waves occur when the atrium contracts against a closed tricuspid valve, usually due to AV dissociation such as complete heart block, junctional rhythm, VT or mistimed ventricular pacing. They can be associated with hypotension because atrial contraction is not contributing effectively to ventricular filling."
+    },
+    {
+      "difficulty": "Expert Level",
+      "question": "A patient with RV failure has CVP 24 mmHg, oliguria and rising creatinine. Why can high CVP worsen renal function?",
+      "options": [
+        "High CVP always improves renal perfusion pressure",
+        "Renal perfusion is affected by the gradient between arterial pressure and venous pressure, so venous congestion can reduce effective kidney perfusion",
+        "CVP has no relationship to kidney function",
+        "High CVP means the patient is always fluid responsive"
+      ],
+      "answer": 1,
+      "explanation": "Venous congestion raises renal venous pressure and reduces the effective perfusion gradient across the kidney. In RV failure or severe TR, high CVP can contribute to AKI even when MAP appears acceptable."
+    }
+  ],
+  "diagrams": [
+    {
+      "type": "diagram",
+      "title": "Normal CVP waveform across the cardiac cycle",
+      "description": "A labelled CVP waveform aligned with ECG and right-sided mechanical events. It should show a wave, c wave, x descent, v wave and y descent, with timing against P wave, QRS and T wave.",
+      "layout": "waveform",
+      "elements": [
+        "ECG P wave aligned before the a wave",
+        "a wave from right atrial contraction",
+        "c wave from tricuspid valve closure and early RV systole",
+        "x descent from right atrial relaxation and tricuspid annular descent",
+        "v wave from right atrial filling against a closed tricuspid valve",
+        "y descent from tricuspid opening and early RV filling"
+      ],
+      "teachingPoints": [
+        "CVP waveform morphology often gives more diagnostic information than the mean CVP number.",
+        "The a wave disappears in atrial fibrillation and becomes cannon-like when the atrium contracts against a closed tricuspid valve.",
+        "Large v waves strongly suggest tricuspid regurgitation or severe right-sided volume and pressure loading."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Abnormal CVP waveform pattern comparison",
+      "description": "A comparison diagram showing atrial fibrillation with absent a waves, complete heart block with cannon a waves, tricuspid regurgitation with giant v waves, and tamponade with high CVP and impaired y descent.",
+      "layout": "comparison",
+      "elements": [
+        "Normal CVP waveform",
+        "Absent a waves in atrial fibrillation",
+        "Intermittent cannon a waves in AV dissociation",
+        "Giant v waves in tricuspid regurgitation",
+        "Blunted y descent and elevated mean CVP in tamponade"
+      ],
+      "teachingPoints": [
+        "Absent a waves are expected in atrial fibrillation and help explain loss of atrial contribution to ventricular filling.",
+        "Cannon a waves are a haemodynamic clue to AV dissociation, junctional rhythm, complete heart block, VT or mistimed pacing.",
+        "Tamponade is a clinical emergency; waveform clues support escalation but should not delay urgent senior review."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "CVP interpretation algorithm in post-cardiac surgery shock",
+      "description": "A bedside algorithm beginning with CVP value and waveform quality, then separating low CVP hypovolaemia, high CVP RV failure, high CVP tamponade, high CVP tricuspid regurgitation and artificially high CVP from positive pressure ventilation.",
+      "layout": "algorithm",
+      "elements": [
+        "Step 1: confirm level, zero and waveform quality",
+        "Step 2: determine whether CVP is low, normal or high and whether the trend is changing",
+        "Step 3: inspect waveform for a waves, cannon a waves, v waves, x and y descents",
+        "Step 4: integrate MAP, pulse pressure, drain output, lactate, urine output, echo, rhythm and ventilator pressures",
+        "Step 5: escalate according to suspected hypovolaemia, tamponade, RV failure, tricuspid regurgitation or ventilation effect"
+      ],
+      "teachingPoints": [
+        "CVP is a pressure, not a direct measurement of intravascular volume.",
+        "High CVP with shock is dangerous and should trigger consideration of RV failure, tamponade, tension physiology, severe TR or excessive intrathoracic pressure.",
+        "Low CVP with shock after cardiac surgery should prompt assessment for bleeding, vasodilation and inadequate venous return, not automatic blind fluid loading."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "sourceName": "Deranged Physiology",
+      "title": "Interpretation of the central venous pressure waveform",
+      "url": "https://derangedphysiology.com/main/cicm-primary-exam/cardiovascular-system/Chapter-783/interpretation-central-venous-pressure-waveform",
+      "supports": "CVP waveform components, a wave, c wave, v wave, x and y descents, cannon waves, tricuspid regurgitation and tamponade waveform patterns."
+    },
+    {
+      "sourceName": "LITFL",
+      "title": "Central venous pressure waveform",
+      "url": "https://litfl.com/central-venous-pressure-cvp-waveform/",
+      "supports": "Bedside CVP waveform interpretation, timing against ECG, abnormal a and v waves, and clinical pattern recognition."
+    },
+    {
+      "sourceName": "NCBI Bookshelf / StatPearls",
+      "title": "Central Venous Pressure Monitoring",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519493/",
+      "supports": "CVP monitoring principles, indications, waveform use, measurement limitations and complications."
+    },
+    {
+      "sourceName": "Marik et al., Chest",
+      "title": "Does central venous pressure predict fluid responsiveness? A systematic review of the literature and the tale of seven mares",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18628220/",
+      "supports": "Evidence that CVP is poor as a standalone predictor of fluid responsiveness and should not be treated as a direct volume gauge."
+    },
+    {
+      "sourceName": "EMCrit Internet Book of Critical Care",
+      "title": "Right ventricular failure",
+      "url": "https://emcrit.org/ibcc/rv/",
+      "supports": "Clinical interpretation of elevated CVP in RV failure, venous congestion, RV afterload, pulmonary hypertension and management priorities."
+    },
+    {
+      "sourceName": "EMCrit Internet Book of Critical Care",
+      "title": "Postoperative cardiac surgical patients",
+      "url": "https://emcrit.org/ibcc/cts/",
+      "supports": "Post-cardiac surgery shock patterns, tamponade recognition, low cardiac output, vasoplegia and CTICU-specific escalation logic."
     }
   ]
 }

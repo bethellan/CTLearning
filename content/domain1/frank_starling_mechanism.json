@@ -1,102 +1,874 @@
 {
-  "id": "frank-starling-mechanism",
-  "domain": "domain1",
-  "domainName": "Physiology Foundations",
-  "domainColour": "#0B5FFF",
-  "title": "Frank-Starling Mechanism",
-  "sections": {
-    "abridged": {
-      "content": "<h3>Frank-Starling - why filling helps until it harms</h3>\n<p>The <strong>Frank-Starling mechanism</strong> explains how increased ventricular filling stretches myocardial fibres and increases contraction force, increasing stroke volume within a useful range.</p>\n<p>The curve has a steep responsive part, a shoulder, and a flat non-responsive part. On the steep part, fluid improves stroke volume. On the flat part, fluid mostly raises CVP, PAWP, PA pressures, pulmonary oedema, RV dilation, and venous congestion without improving flow.</p>\n<p>CTICU patients often reach the flat part early because ventricles may be stiff, oedematous, stunned, hypertrophied, paced, dyssynchronous, afterloaded, or compressed.</p>"
-    },
-    "expanded": {
-      "content": "<h3>Frank-Starling mechanism - preload to stroke volume relationship</h3>\n<p>The <strong>Frank-Starling mechanism</strong> describes the relationship between ventricular filling and stroke volume. When venous return increases, ventricular end-diastolic volume rises, myocardial fibres stretch, and contraction force increases within an optimal range.</p>\n<p>This mechanism allows the heart to match output to venous return. In ICU, every fluid bolus is effectively a test of this mechanism.</p>\n<h4>The curve</h4>\n<table><tr><th>Position</th><th>Effect of fluid</th><th>Response</th><th>Interpretation</th></tr><tr><td>Steep limb</td><td>Increases fibre stretch</td><td>SV/CO rises</td><td>Preload responsive</td></tr><tr><td>Shoulder</td><td>Small flow gain</td><td>Filling pressures rise</td><td>Caution with further fluid</td></tr><tr><td>Flat limb</td><td>Pressure rises more than flow</td><td>CVP/PAWP rise, little CO gain</td><td>Stop fluid and seek another strategy</td></tr></table>\n<h4>Sarcomere mechanism</h4>\n<p>At sarcomere level, too little stretch gives suboptimal actin-myosin interaction. Moderate stretch improves force. Excessive stretch becomes inefficient and can worsen performance. The intact heart is further shaped by pericardial constraint, ventricular interdependence, afterload, contractility, and coronary perfusion.</p>\n<h4>Why CTICU hearts flatten early</h4>\n<p>Post-bypass oedema, myocardial stunning, hypertrophy, diastolic dysfunction, RV failure, tamponade, pacing dyssynchrony, high PEEP, pulmonary hypertension, and valve disease all reduce the ability to convert preload into stroke volume.</p>\n<h4>Fluid responsiveness and tolerance</h4>\n<p>Fluid responsiveness means SV or CO rises after a preload challenge, often by 10-15%. Fluid tolerance means the patient can safely accept the volume without harmful congestion. A patient can be responsive but not tolerant, especially in RV failure or stiff LV physiology.</p>\n<p>Useful response markers include increased pulse pressure, SV, CI, MAP, SvO₂, urine output, falling lactate, and improved skin perfusion. Harm markers include rising CVP without flow gain, rising PAWP, worsening oxygenation, falling lung compliance, RV dilation, septal shift, hepatic congestion, and worsening urine output from venous congestion.</p>\n<h4>Ventricular interdependence</h4>\n<p>The RV and LV share the septum and pericardial space. When the RV dilates, the septum shifts into the LV, reducing LV filling and stroke volume. This is why fluid can worsen shock in RV failure. In tamponade, external pericardial pressure restricts filling; fluid may briefly support pressure but does not solve obstruction.</p>\n<h4>Practical loop</h4>\n<ol><li><p>Define the problem: MAP, CI, urine output, lactate, SvO₂, or pulse pressure.</p></li><li><p>Look for fluid intolerance: high CVP, high PAWP, RV dilation, pulmonary oedema, poor oxygenation.</p></li><li><p>Predict response using echo, monitor trends, dynamic indices only when valid, and recent response.</p></li><li><p>Give a measured challenge if appropriate.</p></li><li><p>Stop when pressure rises without flow.</p></li></ol>"
-    },
-    "pearls": {
-      "content": "<h3>Clinical Pearls - Frank-Starling</h3>\n<h4>Pearl 1 - Fluid is a test</h4>\n<p>Fluid should produce measurable flow benefit. If it only raises filling pressure, stop.</p>\n<h4>Pearl 2 - The flat part is where harm occurs</h4>\n<p>Fluid on the flat part causes congestion, not perfusion.</p>\n<h4>Pearl 3 - RV failure is a fluid trap</h4>\n<p>More fluid can worsen RV dilation, septal shift, TR, CVP, and LV underfilling.</p>"
-    },
-    "equipment": {
-      "content": "<h3>Equipment Tie-In - Frank-Starling</h3>\n<p><strong>Arterial line</strong> shows pulse pressure response, but damping must be excluded.</p>\n<p><strong>CO monitors</strong> quantify SV/CO response.</p>\n<p><strong>PAC</strong> shows whether fluid improves CI or only raises CVP/PAWP.</p>\n<p><strong>Echo</strong> identifies RV dilation, LV underfilling, septal shift, tamponade, and gross response.</p>"
-    },
-    "targets": {
-      "content": "<h3>Targets and Numbers - Frank-Starling</h3>\n<p>A useful preload response is commonly an SV or CO increase of 10-15%. The goal is improved flow without harmful congestion. CI should usually be ≥2.2 L/min/m², UO ≥0.5 mL/kg/hr, lactate <2 or falling, and SvO₂ around 60-80% or ≥65-70% if appropriate.</p>",
-      "tables": [
-        {
-          "heading": "Fluid challenge response",
-          "headers": [
-            "Response",
-            "Flow",
-            "Pressure",
-            "Interpretation"
-          ],
-          "rows": [
-            [
-              "Good",
-              "SV/CO rises ≥10-15%",
-              "Small CVP/PAWP rise",
-              "Responsive and likely tolerant"
-            ],
-            [
-              "Marginal",
-              "Small rise",
-              "Noticeable pressure rise",
-              "Near shoulder"
-            ],
-            [
-              "Poor",
-              "No rise",
-              "Pressure rises",
-              "Flat curve"
-            ],
-            [
-              "Harmful",
-              "No rise/worse",
-              "Oxygenation/RV worsens",
-              "Fluid intolerance"
-            ]
-          ]
-        }
-      ]
-    }
-  },
-  "quizQuestions": [
-    {
-      "level": "basic",
-      "question": "What is the central bedside concept in Frank-Starling Mechanism?",
-      "type": "multipleChoice",
-      "options": [
-        "Interpret the value as part of a haemodynamic pattern, not as an isolated number",
-        "Treat every abnormal number with fluid",
-        "Ignore the waveform and rely only on MAP",
-        "Use SpO₂ as the only marker of perfusion"
-      ],
-      "correct": 0,
-      "explanation": "Frank-Starling Mechanism must be interpreted in context. CTICU physiology depends on patterns across pressure, flow, filling, oxygen delivery, demand, waveforms, and clinical response."
-    },
-    {
-      "level": "reasoning",
-      "question": "A post-cardiac surgery patient deteriorates and the Frank-Starling Mechanism data conflict with the clinical picture. What is the safest action?",
-      "type": "multipleChoice",
-      "options": [
-        "Validate the measurement and integrate it with rhythm, waveform, lactate, urine output, echo, and perfusion",
-        "Assume the single number is correct and treat it alone",
-        "Ignore the patient because the monitor is always right",
-        "Give repeated fluid without reassessment"
-      ],
-      "correct": 0,
-      "explanation": "The safest CTICU approach is to validate the measurement, check equipment and waveform quality, then interpret it against the whole clinical pattern before acting."
-    },
-    {
-      "level": "expert",
-      "question": "Why is isolated interpretation dangerous in Frank-Starling Mechanism?",
-      "type": "multipleChoice",
-      "options": [
-        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and metabolic demand interact",
-        "Because cardiac physiology has no relationship to clinical signs",
-        "Because all post-operative patients have identical targets",
-        "Because monitors cannot display useful information"
-      ],
-      "correct": 0,
-      "explanation": "Isolated interpretation is dangerous because CTICU haemodynamics are interactive. The same value may mean different things depending on ventricular function, vascular tone, rhythm, ventilation, oxygen delivery, and surgical context."
-    }
-  ]
+"id": "frank-starling-mechanism",
+"domain": 1,
+"domainTitle": "Physiology Foundations",
+"title": "Frank-Starling Mechanism",
+"file": "frank_starling_mechanism.json",
+"sections": {
+"abridged": {
+"title": "Abridged Snapshot",
+"content": [
+{
+"type": "heading",
+"text": "Frank-Starling mechanism: why filling improves stroke volume until it does not"
+},
+{
+"type": "paragraph",
+"text": "The Frank-Starling mechanism describes the relationship between ventricular filling and stroke volume. As ventricular end-diastolic volume increases, myocardial fibres stretch. Within a useful range, that stretch improves actin-myosin overlap and calcium sensitivity, allowing the ventricle to contract more forcefully and eject a larger stroke volume. This is why a genuinely underfilled patient may improve after a fluid bolus."
+},
+{
+"type": "keyterm",
+"term": "Frank-Starling mechanism",
+"definition": "The Frank-Starling mechanism is the intrinsic ability of the heart to increase stroke volume in response to increased ventricular filling, provided the ventricle is still on the preload-responsive part of the curve."
+},
+{
+"type": "keyterm",
+"term": "Preload responsiveness",
+"definition": "Preload responsiveness means stroke volume or cardiac output increases after an increase in preload. A common practical response threshold is an increase in stroke volume or cardiac output of around 10 to 15 percent, depending on the method used."
+},
+{
+"type": "keyterm",
+"term": "Fluid tolerance",
+"definition": "Fluid tolerance means the patient can safely receive extra fluid without harmful congestion, pulmonary oedema, RV dilation, rising venous pressures or worsening oxygenation. It is separate from fluid responsiveness."
+},
+{
+"type": "paragraph",
+"text": "The Frank-Starling curve has three clinically useful regions. On the steep ascending limb, a small increase in preload produces a meaningful increase in stroke volume. On the shoulder of the curve, further filling produces only a small stroke volume gain and a larger pressure rise. On the flat limb, extra filling mostly raises filling pressures without improving stroke volume. In that region, fluid causes congestion rather than perfusion."
+},
+{
+"type": "paragraph",
+"text": "This mechanism explains why fluid can be lifesaving in one CT-ICU patient and harmful in another. A bleeding, underfilled, preload-responsive patient may increase pulse pressure, cardiac index, MAP, urine output and SvO2 after volume replacement. A patient with RV failure, tamponade, stiff LV physiology or myocardial stunning may develop higher CVP, higher PAWP, pulmonary oedema, RV dilation and worse oxygenation without meaningful flow improvement."
+},
+{
+"type": "paragraph",
+"text": "Post-cardiac surgery patients often reach the flat part of the curve early. The ventricle may be stiff from longstanding hypertension or aortic stenosis. It may be oedematous after bypass. It may be stunned after cross-clamp and reperfusion. It may be externally compressed by tamponade. It may be limited by RV failure and septal shift. It may be paced in a way that reduces filling efficiency. All of these reduce the amount of useful stroke volume gained from extra preload."
+},
+{
+"type": "paragraph",
+"text": "Fluid responsiveness and fluid tolerance must be separated. Fluid responsiveness asks: will stroke volume or cardiac output rise if preload increases? Fluid tolerance asks: can this patient accept the extra volume safely? A patient may be responsive but not tolerant. For example, a failing RV may temporarily increase output after a small bolus but then dilate further, worsen tricuspid regurgitation, shift the septum into the LV, increase CVP and reduce renal perfusion."
+},
+{
+"type": "paragraph",
+"text": "A good preload challenge should produce flow benefit, not merely pressure increase. Useful endpoints include improved stroke volume, cardiac index, pulse pressure, MAP with less vasopressor, SvO2, urine output, skin perfusion or lactate trajectory. Harmful endpoints include rising CVP or PAWP without flow improvement, worse oxygenation, pulmonary oedema, falling lung compliance, RV dilation, septal shift, hepatic congestion or worsening urine output from venous congestion."
+},
+{
+"type": "paragraph",
+"text": "In CT-ICU, the Frank-Starling mechanism should make fluid administration deliberate. The question is not simply, “Is the blood pressure low?” The safer question is, “Is this ventricle underfilled and preload responsive, or is it already pressure-loaded, stiff, failing or compressed?” The same hypotension can require fluid, vasopressor, inotrope, afterload reduction, rhythm correction, ventilator adjustment, drainage of tamponade or return to theatre."
+},
+{
+"type": "remember",
+"text": "Fluid is a physiological test. If preload increases stroke volume and improves oxygen delivery without congestion, it has helped. If preload only raises CVP, PAWP or pulmonary oedema without improving flow, it has failed. The Frank-Starling curve explains the difference."
+}
+]
+},
+"expanded": {
+"title": "Expanded Deep-Dive",
+"content": [
+{
+"type": "heading",
+"text": "The Frank-Starling mechanism as the preload-stroke volume relationship"
+},
+{
+"type": "paragraph",
+"text": "The Frank-Starling mechanism describes how the heart adjusts stroke volume in response to changes in ventricular filling. When venous return increases, ventricular end-diastolic volume increases. This stretches myocardial fibres. Within an optimal physiological range, increased fibre stretch improves contraction and increases stroke volume. The heart can therefore match output to venous return without requiring an external neural signal for every small change in filling."
+},
+{
+"type": "paragraph",
+"text": "This mechanism is fundamental to CT-ICU because fluid administration, venous tone, bleeding, tamponade, RV failure, PEEP changes and vasoactive drugs all alter ventricular filling. The mechanism explains why the same fluid bolus can improve one patient and harm another. It also explains why filling pressure alone is not enough. The clinically important question is whether extra preload will increase stroke volume and oxygen delivery."
+},
+{
+"type": "paragraph",
+"text": "The Frank-Starling relationship is usually drawn as a curve with preload on the horizontal axis and stroke volume or cardiac output on the vertical axis. At low preload, the curve rises steeply. At moderate preload, it reaches a shoulder. At high preload, it flattens. This shape is the whole point. More preload is helpful only while the ventricle remains on the ascending portion of the curve."
+},
+{
+"type": "subheading",
+"text": "Sarcomere mechanism: why stretch increases force"
+},
+{
+"type": "paragraph",
+"text": "At cellular level, myocardial force depends partly on sarcomere length. A sarcomere is the contractile unit of muscle made of actin and myosin filaments. When the sarcomere is too short, actin and myosin overlap inefficiently and force generation is suboptimal. When stretch moves the sarcomere toward a more optimal length, cross-bridge formation improves and contraction becomes more effective."
+},
+{
+"type": "paragraph",
+"text": "Stretch also increases calcium sensitivity of the myofilaments. This means that, at a given intracellular calcium concentration, the stretched myocardial fibre can generate more force. In simple terms, more useful filling produces a stronger contraction because the contractile machinery is placed in a better mechanical and biochemical position."
+},
+{
+"type": "paragraph",
+"text": "However, this mechanism has limits. Excessive stretch does not produce endless force. At high filling volumes or pressures, the ventricle becomes overdistended, wall stress rises, oxygen demand increases and contractile efficiency falls. The ventricle may become more congested without producing better output. This is clinically visible as rising CVP or PAWP without improved pulse pressure, cardiac index or perfusion."
+},
+{
+"type": "subheading",
+"text": "The steep limb: where fluid improves flow"
+},
+{
+"type": "paragraph",
+"text": "On the steep ascending limb of the Frank-Starling curve, the ventricle is preload responsive. A small increase in preload produces a meaningful increase in stroke volume. This is the physiology behind a useful fluid bolus in hypovolaemia or bleeding. The ventricle is underfilled, and added volume improves end-diastolic volume enough to increase ejection."
+},
+{
+"type": "paragraph",
+"text": "At the bedside, a patient on the steep limb may show a wider pulse pressure, stronger arterial upstroke, improved MAP, increased cardiac index, improved SvO2, better urine output and a stabilising or falling lactate after volume. Filling pressures may rise slightly, but the key feature is that flow improves more than pressure worsens."
+},
+{
+"type": "paragraph",
+"text": "This response is most plausible when the patient has a credible preload deficit: bleeding, diuresis, vasodilation with reduced stressed volume, inadequate venous return, early post-bypass vasodilation or a low filling pattern on echo. However, the presence of hypotension alone does not prove the patient is on the steep limb."
+},
+{
+"type": "subheading",
+"text": "The shoulder: where the benefit becomes marginal"
+},
+{
+"type": "paragraph",
+"text": "The shoulder of the curve is the transition zone. Additional preload still produces some increase in stroke volume, but the gain is smaller and the pressure rise is larger. This is where fluid decisions become more delicate. A patient may show a small improvement after fluid, but each additional bolus produces less benefit and more congestion."
+},
+{
+"type": "paragraph",
+"text": "At the shoulder, the nurse may notice that the first bolus helped but the next one helped less. Pulse pressure may increase only slightly. CVP or PAWP may rise more noticeably. Oxygenation may begin to worsen. Urine output may not improve as expected. This pattern should trigger caution. It suggests the ventricle is approaching the point where preload is no longer the main limitation."
+},
+{
+"type": "subheading",
+"text": "The flat limb: where fluid causes congestion rather than perfusion"
+},
+{
+"type": "paragraph",
+"text": "On the flat limb of the Frank-Starling curve, increasing preload produces little or no stroke volume improvement. Filling pressures rise because the heart cannot convert additional volume into forward flow. This is where fluid becomes harmful. The added volume increases venous pressure, pulmonary venous pressure or chamber dilation without improving oxygen delivery."
+},
+{
+"type": "paragraph",
+"text": "Flat-limb physiology is common after cardiac surgery. The ventricle may be stiff, stunned, oedematous, failing, compressed by tamponade, limited by valve pathology, constrained by the pericardium or affected by RV-LV interdependence. Repeated fluid in this setting can worsen pulmonary oedema, prolong ventilation, worsen RV dilation, raise CVP, increase hepatic congestion and reduce renal perfusion by increasing renal venous pressure."
+},
+{
+"type": "paragraph",
+"text": "A flat-limb response looks like rising CVP or PAWP without a meaningful rise in cardiac index or pulse pressure. Lactate does not improve. SvO2 does not improve. Urine output remains poor or worsens. Oxygenation may deteriorate. The patient may require more ventilatory support. This is not a successful fluid response; it is a sign that the limiting physiology is somewhere else."
+},
+{
+"type": "table",
+"title": "Frank-Starling curve regions",
+"headers": [
+"Curve region",
+"Effect of extra preload",
+"Bedside appearance",
+"Clinical meaning"
+],
+"rows": [
+[
+"Steep ascending limb",
+"Large stroke volume increase",
+"Pulse pressure, CI, SvO2 and perfusion improve with modest pressure rise",
+"Patient is preload responsive"
+],
+[
+"Shoulder",
+"Small stroke volume increase",
+"Some flow gain but CVP/PAWP rise more noticeably",
+"Further fluid needs caution"
+],
+[
+"Flat limb",
+"Little or no stroke volume increase",
+"CVP/PAWP rise without better flow; oxygenation or congestion may worsen",
+"Fluid is unlikely to help and may harm"
+]
+]
+},
+{
+"type": "subheading",
+"text": "Fluid responsiveness"
+},
+{
+"type": "paragraph",
+"text": "Fluid responsiveness means that the patient's stroke volume or cardiac output increases after preload increases. A commonly used practical threshold is a 10 to 15 percent rise in stroke volume or cardiac output after a fluid challenge, passive leg raise or other preload-altering manoeuvre. This suggests that the heart is operating on the ascending part of the Frank-Starling curve at that moment."
+},
+{
+"type": "paragraph",
+"text": "Fluid responsiveness is not the same as needing fluid. It only says that flow can rise when preload rises. The patient may still be harmed by the fluid if congestion, RV dilation, pulmonary oedema or surgical risk is high. The decision to give fluid should combine responsiveness, tolerance and clinical goal."
+},
+{
+"type": "paragraph",
+"text": "In CT-ICU, fluid responsiveness can change quickly. A patient who was responsive immediately after theatre may no longer be responsive after several boluses. A patient who was fluid intolerant during high PEEP ventilation may behave differently after extubation. A patient with vasoplegia may become less fluid responsive once venous tone improves. Therefore, every fluid intervention should be reassessed rather than assuming the previous response will continue."
+},
+{
+"type": "subheading",
+"text": "Fluid tolerance"
+},
+{
+"type": "paragraph",
+"text": "Fluid tolerance is the ability to receive fluid without clinically important harm. This is separate from responsiveness. A patient may be fluid responsive but not fluid tolerant. For example, a patient with pulmonary hypertension and RV dysfunction may show a temporary stroke volume rise after a small bolus, but the added preload may also worsen RV dilation, tricuspid regurgitation, septal shift, CVP, hepatic congestion and renal venous congestion."
+},
+{
+"type": "paragraph",
+"text": "A patient with a stiff LV may also be responsive but poorly tolerant. A small volume increase may raise stroke volume slightly, but LVEDP and PAWP may rise sharply, causing pulmonary oedema and impaired oxygenation. This is especially relevant in patients with longstanding hypertension, aortic stenosis, diastolic dysfunction or post-bypass myocardial oedema."
+},
+{
+"type": "paragraph",
+"text": "Fluid tolerance should be assessed before and after fluid. Warning signs of poor tolerance include high or rapidly rising CVP, high or rising PAWP, worsening oxygenation, increasing ventilator pressures, new pulmonary oedema, RV dilation, septal shift, worsening tricuspid regurgitation, hepatic congestion, abdominal distension and falling urine output despite higher arterial pressure."
+},
+{
+"type": "subheading",
+"text": "Why CT-ICU patients reach the flat limb early"
+},
+{
+"type": "paragraph",
+"text": "Post-cardiac surgery patients often have limited preload reserve. Cardiopulmonary bypass can cause inflammatory capillary leak, myocardial oedema and impaired relaxation. Cross-clamp and reperfusion can cause myocardial stunning. Hypothermia and acidosis can depress contractility. Longstanding valve disease can remodel the ventricle. Pericardial constraint or clot can externally limit filling. Positive pressure ventilation changes venous return and intrathoracic pressures."
+},
+{
+"type": "paragraph",
+"text": "Aortic stenosis patients often have hypertrophied, stiff LVs. After valve replacement, the valve obstruction is relieved, but the LV compliance problem does not instantly disappear. These patients may need careful preload, but they may not tolerate excess volume. Rapid AF can remove atrial contribution and make preload dependence worse."
+},
+{
+"type": "paragraph",
+"text": "Mitral valve patients may have pulmonary hypertension and RV strain. In these patients, fluid can worsen right-sided congestion and septal shift. CABG patients may have myocardial stunning or ischaemia; excess preload can raise wall stress and oxygen demand. Aortic surgery patients may require careful pressure control and may not tolerate excessive volume because it can contribute to hypertension, bleeding or organ congestion."
+},
+{
+"type": "subheading",
+"text": "Ventricular interdependence"
+},
+{
+"type": "paragraph",
+"text": "The RV and LV share the interventricular septum and sit within the same pericardial space. When the RV dilates, it can push the septum toward the LV. This reduces LV end-diastolic volume and impairs LV stroke volume. This is ventricular interdependence. It is one reason fluid can worsen systemic output in RV failure."
+},
+{
+"type": "paragraph",
+"text": "A failing RV on the flat part of its curve may respond to fluid by dilating further rather than ejecting more. CVP rises. Tricuspid regurgitation worsens. Septal shift reduces LV preload. LV stroke volume falls. Systemic MAP falls. Renal venous pressure rises, worsening urine output. The bedside picture can look paradoxical: more preload causes less systemic output."
+},
+{
+"type": "subheading",
+"text": "Tamponade as an external Starling problem"
+},
+{
+"type": "paragraph",
+"text": "Tamponade restricts diastolic filling by increasing pressure around the heart. The ventricles cannot expand normally. The Frank-Starling mechanism is limited because extra venous return cannot translate into adequate end-diastolic volume. CVP rises because venous blood cannot enter the compressed heart effectively. Stroke volume falls because filling is restricted."
+},
+{
+"type": "paragraph",
+"text": "Fluid may transiently increase venous pressure enough to maintain some filling, but it does not fix the external compression. In post-cardiac surgery tamponade, the definitive solution is urgent recognition and surgical or procedural decompression as directed by the treating team. The nurse should escalate urgently when falling MAP, rising CVP, narrowing pulse pressure, oliguria and rising lactate occur, especially if chest drain output is suddenly low because of possible clot obstruction."
+},
+{
+"type": "subheading",
+"text": "Dynamic assessment of the Starling response"
+},
+{
+"type": "paragraph",
+"text": "Because static pressures are poor predictors of fluid responsiveness, dynamic assessment is often more useful. Dynamic methods test whether stroke volume changes when preload changes. Examples include passive leg raise, mini-fluid challenge, pulse pressure variation, stroke volume variation, end-expiratory occlusion test and echo assessment of flow response."
+},
+{
+"type": "paragraph",
+"text": "Each method has limitations. Pulse pressure variation and stroke volume variation are most reliable in fully mechanically ventilated patients with regular rhythm, adequate tidal volume, no spontaneous respiratory effort, closed chest and no major RV dysfunction. Many CT-ICU patients have AF, ectopy, low tidal volume ventilation, spontaneous breathing, open chest effects, RV failure, high PEEP or poor arterial waveform quality. In these situations, dynamic indices can mislead."
+},
+{
+"type": "paragraph",
+"text": "Passive leg raise is a reversible preload challenge that shifts venous blood from the legs and abdomen toward the central circulation. It is most useful when paired with a real-time stroke volume or cardiac output measurement. Watching only blood pressure during passive leg raise is less reliable because BP depends on both flow and vascular tone."
+},
+{
+"type": "subheading",
+"text": "Fluid challenge principles"
+},
+{
+"type": "paragraph",
+"text": "A fluid challenge should be deliberate, measured and reassessed. The endpoint should be defined before giving the fluid. The nurse should know what improvement is expected: wider pulse pressure, increased cardiac index, improved MAP with less vasopressor, higher SvO2, better urine output, improved lactate trend or improved echo flow assessment."
+},
+{
+"type": "paragraph",
+"text": "The nurse should also know what harm will stop further fluid. Harm endpoints include rising CVP without improved flow, rising PAWP, worsening oxygenation, new crackles or pulmonary oedema, higher ventilator pressures, RV dilation, septal shift, abdominal congestion, worsening urine output or escalating vasoactive requirement. Fluid should not continue simply because the MAP is still low if the physiology shows no preload benefit."
+},
+{
+"type": "subheading",
+"text": "Operation-specific Frank-Starling implications"
+},
+{
+"type": "paragraph",
+"text": "After CABG, the ventricle may be stunned or ischaemic. Fluid may improve output if the patient is underfilled, but excess preload increases wall stress and myocardial oxygen demand. Tachycardia and anaemia can make this worse. If lactate rises and SvO2 falls despite adequate filling pressures, the problem may be contractility, ischaemia, afterload or oxygen demand rather than preload."
+},
+{
+"type": "paragraph",
+"text": "After aortic valve surgery, the LV may be stiff from chronic pressure loading. These patients can be preload sensitive, meaning they need enough filling, but also preload intolerant, meaning they develop high LVEDP and pulmonary oedema quickly. Sinus rhythm and controlled rate are often important because atrial contribution and filling time support stroke volume."
+},
+{
+"type": "paragraph",
+"text": "After mitral valve surgery, pulmonary hypertension and RV dysfunction may dominate. Fluid can worsen RV dilation and septal shift. The Frank-Starling question must be asked separately for RV and LV. The RV may be overdistended while the LV is underfilled."
+},
+{
+"type": "paragraph",
+"text": "After aortic surgery, excessive fluid can contribute to hypertension, bleeding risk, lung oedema and organ congestion, while underfilling can compromise perfusion. The balance is narrow and must follow the surgical haemodynamic plan. After TAVI, conduction disturbance and rhythm changes can alter filling and stroke volume even when preload volume has not changed."
+},
+{
+"type": "subheading",
+"text": "Bedside Frank-Starling interpretation sequence"
+},
+{
+"type": "steps",
+"title": "Frank-Starling bedside sequence",
+"items": [
+"Define the clinical problem: hypotension, low CI, narrow pulse pressure, oliguria, rising lactate, falling SvO2 or poor skin perfusion.",
+"Validate the measurements: arterial line quality, CVP or PAWP level and waveform, rhythm, ventilator settings and recent changes.",
+"Assess whether preload deficiency is plausible: bleeding, low filling pressures, small LV on echo, recent fluid loss, vasodilation or previous positive response.",
+"Assess fluid intolerance risk: high CVP, high PAWP, pulmonary oedema, RV dilation, septal shift, high PA pressures, poor oxygenation or renal venous congestion.",
+"Use dynamic assessment if appropriate: passive leg raise, mini-fluid challenge, stroke volume trend, cardiac output change or echo flow response.",
+"If giving fluid, state the desired endpoint before starting.",
+"Reassess stroke volume, cardiac index, pulse pressure, MAP, SvO2, lactate, urine output and filling pressures after the intervention.",
+"Stop fluid when pressure rises without flow, oxygenation worsens or RV/LV congestion increases.",
+"Escalate when hypotension persists despite lack of fluid responsiveness, because the mechanism is likely contractility, afterload, rhythm, obstruction, tamponade, RV failure or surgical bleeding."
+]
+},
+{
+"type": "diagram",
+"title": "Frank-Starling curve for CT-ICU fluid decisions",
+"description": "A curve diagram with preload on the x-axis and stroke volume on the y-axis, showing the steep limb, shoulder and flat limb. Add CT-ICU examples to each region.",
+"layout": "curve",
+"elements": [
+"X-axis: preload",
+"Y-axis: stroke volume",
+"Steep limb: underfilled and fluid responsive",
+"Shoulder: diminishing flow benefit",
+"Flat limb: pressure and congestion without flow",
+"Hypovolaemia example on steep limb",
+"Stiff LV example near shoulder",
+"RV failure or tamponade example on flat limb"
+],
+"teachingPoints": [
+"Fluid helps only while stroke volume rises.",
+"A rising CVP without better flow means the patient is moving onto the flat limb.",
+"Fluid tolerance must be assessed separately from responsiveness."
+]
+}
+]
+},
+"pearls": {
+"title": "Clinical Pearls",
+"content": [
+{
+"type": "heading",
+"text": "Clinical Pearls"
+},
+{
+"type": "pearl",
+"title": "Pearl 1: fluid is a test, not a reflex",
+"text": "A fluid bolus should test whether increased preload improves stroke volume and oxygen delivery. If it only increases CVP or PAWP, it has not solved the haemodynamic problem."
+},
+{
+"type": "pearl",
+"title": "Pearl 2: a good fluid response improves flow",
+"text": "Look for wider pulse pressure, higher cardiac index, improved SvO2, better urine output, improved skin perfusion or improving lactate trend. A higher filling pressure alone is not a successful response."
+},
+{
+"type": "pearl",
+"title": "Pearl 3: fluid responsiveness does not equal fluid tolerance",
+"text": "A patient can increase stroke volume after fluid and still be harmed by pulmonary oedema, RV dilation or venous congestion. The decision requires both flow response and safety assessment."
+},
+{
+"type": "pearl",
+"title": "Pearl 4: the flat limb is where harm lives",
+"text": "On the flat part of the Frank-Starling curve, additional volume increases pressure and congestion more than stroke volume. This produces pulmonary oedema, high CVP, high PAWP, RV dilation and poor oxygenation."
+},
+{
+"type": "pearl",
+"title": "Pearl 5: RV failure turns fluid into septal shift",
+"text": "A failing RV may respond to fluid by dilating further. This shifts the septum into the LV, reduces LV filling and can lower systemic output. High CVP does not mean the LV is well filled."
+},
+{
+"type": "pearl",
+"title": "Pearl 6: tamponade breaks the preload-output relationship",
+"text": "In tamponade, the heart is externally constrained. Venous pressure rises, but the ventricle cannot fill normally. Fluid may briefly temporise but definitive treatment requires urgent decompression or surgical management."
+},
+{
+"type": "pearl",
+"title": "Pearl 7: the first bolus does not justify the fifth",
+"text": "Fluid responsiveness changes. A patient may respond to the first bolus and not the next. Reassess after each intervention rather than assuming the same physiology persists."
+},
+{
+"type": "pearl",
+"title": "Pearl 8: dynamic tests need valid conditions",
+"text": "Pulse pressure variation and stroke volume variation are unreliable with AF, spontaneous breathing, low tidal volume ventilation, poor arterial waveform, open chest physiology or severe RV dysfunction. Know when not to trust them."
+},
+{
+"type": "pearl",
+"title": "Pearl 9: stiff ventricles are preload sensitive and preload intolerant",
+"text": "A hypertrophied or diastolic dysfunction LV may need enough filling to eject, but small additional volumes can cause a large pressure rise and pulmonary oedema. This is common after aortic stenosis and in older hypertensive patients."
+}
+]
+},
+"equipment": {
+"title": "Equipment Tie-In",
+"content": [
+{
+"type": "heading",
+"text": "Equipment Tie-In"
+},
+{
+"type": "subheading",
+"text": "Arterial line"
+},
+{
+"type": "paragraph",
+"text": "The arterial line is the fastest way to see whether a preload intervention changes mechanical output. If stroke volume improves, pulse pressure often widens and the systolic upstroke may become stronger. If CVP rises but pulse pressure does not improve, the fluid has not clearly improved ejection. However, this interpretation requires a reliable waveform. Overdamping can hide pulse pressure changes, and underdamping can exaggerate them."
+},
+{
+"type": "subheading",
+"text": "Cardiac output monitoring"
+},
+{
+"type": "paragraph",
+"text": "Cardiac output monitoring is ideal for assessing fluid responsiveness because it directly or indirectly measures the flow response. A rise in stroke volume or cardiac output of around 10 to 15 percent after a preload challenge suggests responsiveness. Pulse contour systems require a high-quality arterial waveform and may be less reliable during arrhythmias, rapid vascular tone changes, severe valve disease or IABP use."
+},
+{
+"type": "subheading",
+"text": "Pulmonary artery catheter"
+},
+{
+"type": "paragraph",
+"text": "A pulmonary artery catheter allows assessment of both pressure and flow. CVP, PA pressure, PAWP, cardiac output, cardiac index, SVR, PVR and SvO2 can be interpreted together. A useful fluid response would improve cardiac index or SvO2 with acceptable pressure rise. A poor response would raise CVP or PAWP without improved cardiac index, or worsen PA pressures and oxygenation."
+},
+{
+"type": "subheading",
+"text": "Echo"
+},
+{
+"type": "paragraph",
+"text": "Echo can show where the patient sits functionally on the Starling curve. A small, underfilled LV may suggest preload responsiveness if the rest of the pattern fits. A dilated RV with septal shift suggests poor fluid tolerance. Tamponade physiology suggests external restriction. A poorly contracting LV with high filling pressures suggests that fluid is unlikely to solve low output."
+},
+{
+"type": "subheading",
+"text": "Passive leg raise monitoring"
+},
+{
+"type": "paragraph",
+"text": "Passive leg raise acts like a reversible autotransfusion. It transfers venous blood from the legs and abdomen into the central circulation. It is most useful when paired with real-time stroke volume or cardiac output monitoring. A blood pressure-only response is less reliable because pressure depends on vascular tone as well as flow."
+},
+{
+"type": "subheading",
+"text": "Ventilator"
+},
+{
+"type": "paragraph",
+"text": "Ventilator settings alter the Starling relationship by changing venous return, intrathoracic pressure and RV afterload. High PEEP can reduce venous return and increase PVR if it causes overdistension. Recruitment that improves oxygenation and reduces hypoxic pulmonary vasoconstriction may help RV output. Fluid response should be interpreted alongside airway pressure, PEEP, oxygenation, PaCO2 and pH."
+},
+{
+"type": "table",
+"title": "Equipment signs during a preload challenge",
+"headers": [
+"Observation",
+"Likely meaning",
+"Useful response",
+"Warning response"
+],
+"rows": [
+[
+"Arterial pulse pressure widens",
+"Stroke volume may be increasing",
+"Supports preload responsiveness if waveform reliable",
+"Check for underdamping if change seems exaggerated"
+],
+[
+"Cardiac index rises",
+"Flow improved",
+"Useful preload response",
+"Still assess tolerance and congestion"
+],
+[
+"CVP rises only",
+"Pressure increased without clear flow gain",
+"Not a success by itself",
+"Stop and reassess if no perfusion improvement"
+],
+[
+"PAWP rises with worsening oxygenation",
+"Left-sided congestion",
+"Fluid intolerance",
+"Escalate and reassess LV function/afterload"
+],
+[
+"RV dilates on echo",
+"Right-sided intolerance",
+"Avoid further blind fluid",
+"Assess PVR, ventilation, RV support and tamponade"
+],
+[
+"SvO2 improves",
+"Oxygen delivery may have improved",
+"Useful if lactate/perfusion agree",
+"Interpret with Hb, SaO2 and demand"
+]
+]
+},
+{
+"type": "diagram",
+"title": "Fluid challenge monitoring dashboard",
+"description": "A dashboard-style diagram showing which variables to compare before and after a fluid challenge.",
+"layout": "dashboard",
+"elements": [
+"Before: MAP, pulse pressure, CI, CVP, PAWP, SvO2, lactate, urine output, oxygenation, echo",
+"During: fluid amount, timing, vasoactive changes, ventilator changes",
+"After: repeat pulse pressure, CI, CVP, PAWP, SvO2, oxygenation and urine output trend",
+"Decision: continue, stop fluid, switch to vasopressor/inotrope, assess RV, assess tamponade, call for echo"
+],
+"teachingPoints": [
+"Define the endpoint before giving fluid.",
+"Measure flow response, not just pressure response.",
+"Stop if congestion rises without perfusion benefit."
+]
+}
+]
+},
+"targets": {
+"title": "Targets and Numbers",
+"content": [
+{
+"type": "heading",
+"text": "Targets and Numbers"
+},
+{
+"type": "paragraph",
+"text": "The Frank-Starling mechanism has no single target value. The goal is to place the patient on a useful part of the preload-stroke volume relationship: enough preload to support stroke volume, but not so much that filling pressures, venous congestion or pulmonary oedema worsen. The target is a response pattern, not a CVP number alone."
+},
+{
+"type": "targetTable",
+"title": "Frank-Starling response markers",
+"headers": [
+"Variable",
+"Useful response",
+"Poor or harmful response",
+"Interpretation"
+],
+"rows": [
+[
+"Stroke volume or cardiac output",
+"Increase around 10 to 15 percent after preload challenge",
+"No meaningful increase",
+"Flow response is the best sign of preload responsiveness"
+],
+[
+"Pulse pressure",
+"Wider pulse pressure with reliable arterial trace",
+"No change or narrowing despite higher CVP",
+"Useful bedside surrogate for stroke volume"
+],
+[
+"Cardiac index",
+"Rises toward or above 2.2 L/min/m2 with perfusion improvement",
+"Remains low despite higher filling pressures",
+"Suggests preload is not the main limitation"
+],
+[
+"CVP",
+"Small rise with better flow may be acceptable",
+"Large rise without better flow",
+"Pressure-only response suggests flat curve or intolerance"
+],
+[
+"PAWP",
+"Small rise with better output may be acceptable",
+"Rise with hypoxaemia or pulmonary oedema",
+"Left-sided congestion and poor tolerance"
+],
+[
+"SvO2",
+"Improves if oxygen delivery improves",
+"No improvement or falls",
+"Delivery remains inadequate or demand is high"
+],
+[
+"Lactate",
+"Stabilises or falls over time",
+"Continues rising",
+"Oxygen delivery-demand mismatch persists"
+],
+[
+"Urine output",
+"Improves toward at least 0.5 mL/kg/hr",
+"No improvement or worsens with high CVP",
+"May indicate low flow or venous congestion"
+],
+[
+"Oxygenation",
+"Stable or improved",
+"Worsens after fluid",
+"Possible pulmonary oedema or RV deterioration"
+]
+]
+},
+{
+"type": "targetTable",
+"title": "Fluid responsiveness versus tolerance",
+"headers": [
+"Category",
+"Flow response",
+"Congestion response",
+"Meaning",
+"Action"
+],
+"rows": [
+[
+"Responsive and tolerant",
+"SV/CO rises meaningfully",
+"CVP/PAWP rise modestly; oxygenation stable",
+"Fluid likely helped",
+"Reassess before any further fluid"
+],
+[
+"Responsive but intolerant",
+"SV/CO rises",
+"RV dilation, PAWP rise, oxygenation or congestion worsens",
+"Flow gain has unacceptable cost",
+"Stop fluid and reassess strategy"
+],
+[
+"Not responsive but tolerant",
+"No meaningful SV/CO rise",
+"No immediate congestion harm",
+"Preload not main limitation",
+"Look for contractility, afterload, rhythm or obstruction"
+],
+[
+"Not responsive and intolerant",
+"No flow gain",
+"CVP/PAWP, oxygenation or RV congestion worsens",
+"Fluid is harmful",
+"Stop immediately and escalate"
+]
+]
+},
+{
+"type": "targetTable",
+"title": "CT-ICU situations that flatten the curve",
+"headers": [
+"Situation",
+"Why preload response is limited",
+"Bedside clues",
+"Fluid risk"
+],
+"rows": [
+[
+"LV diastolic dysfunction",
+"Stiff LV raises pressure quickly",
+"High PAWP, pulmonary oedema, AF intolerance",
+"Pulmonary oedema and hypoxaemia"
+],
+[
+"Post-bypass myocardial oedema",
+"Reduced compliance and impaired relaxation",
+"High filling pressures, low output, slow recovery",
+"Pressure rise without flow"
+],
+[
+"LV systolic failure",
+"Weak ventricle cannot eject added volume",
+"Low CI, high PAWP, weak waveform",
+"Pulmonary oedema and wall stress"
+],
+[
+"RV failure",
+"RV dilates instead of ejecting",
+"High CVP, RV dilation, septal shift",
+"Worse LV filling and renal venous congestion"
+],
+[
+"Tamponade",
+"External compression prevents filling",
+"Rising CVP, narrow pulse pressure, falling MAP",
+"Temporary pressure gain only; definitive decompression needed"
+],
+[
+"High PEEP or overdistension",
+"Reduced venous return and increased PVR",
+"Rising CVP/falling MAP after ventilator change",
+"Worsened RV output"
+]
+]
+},
+{
+"type": "steps",
+"title": "Escalation triggers during preload or fluid assessment",
+"items": [
+"CVP rises without improved pulse pressure, cardiac index, SvO2, lactate trend or urine output.",
+"PAWP rises with worsening oxygenation, pulmonary oedema or falling lung compliance.",
+"RV dilation, septal shift or worsening tricuspid regurgitation appears after fluid.",
+"MAP remains low despite repeated fluid and filling pressures are rising.",
+"Low cardiac output continues despite apparent preload adequacy.",
+"Falling MAP is paired with rising CVP and narrowing pulse pressure after cardiac surgery.",
+"Chest drain output is low but haemodynamics suggest tamponade.",
+"A dynamic index suggests responsiveness but the patient has AF, spontaneous breathing, poor arterial waveform or severe RV dysfunction, making the test unreliable.",
+"Fluid response is transient and deterioration recurs, suggesting ongoing bleeding, vasoplegia, tamponade or pump failure."
+]
+}
+]
+}
+},
+"quiz": [
+{
+"difficulty": "Bedside Basics",
+"question": "What does the Frank-Starling mechanism describe?",
+"options": [
+"The relationship between ventricular filling and stroke volume.",
+"The relationship between haemoglobin and oxygen saturation only.",
+"The electrical conduction through the AV node.",
+"The oxygen content of venous blood only."
+],
+"answer": 0,
+"explanation": "The Frank-Starling mechanism describes how increased ventricular filling can increase stroke volume by increasing myocardial fibre stretch, provided the ventricle is on the preload-responsive part of the curve."
+},
+{
+"difficulty": "Bedside Basics",
+"question": "What usually happens on the flat part of the Frank-Starling curve when more fluid is given?",
+"options": [
+"Filling pressures rise with little or no improvement in stroke volume.",
+"Stroke volume increases indefinitely.",
+"CVP falls to zero.",
+"Pulmonary oedema becomes impossible."
+],
+"answer": 0,
+"explanation": "On the flat limb, extra preload produces little stroke volume gain. CVP, PAWP, pulmonary oedema, RV dilation or venous congestion may worsen because pressure rises more than flow."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "After a fluid bolus, CVP rises from 10 to 16 mmHg, but pulse pressure, cardiac index, SvO2 and urine output do not improve. What does this suggest?",
+"options": [
+"The bolus increased pressure without useful flow improvement.",
+"The bolus was successful because CVP increased.",
+"The patient definitely needs more fluid.",
+"The Frank-Starling mechanism does not apply to ICU patients."
+],
+"answer": 0,
+"explanation": "A useful preload response should improve flow or perfusion markers. A rise in CVP alone suggests pressure increase without meaningful stroke volume improvement and should prompt reassessment."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "Why can fluid worsen systemic output in RV failure?",
+"options": [
+"It can worsen RV dilation, septal shift and LV underfilling.",
+"It always lowers CVP and improves LV filling.",
+"It directly lowers pulmonary vascular resistance to zero.",
+"It stops tricuspid regurgitation immediately."
+],
+"answer": 0,
+"explanation": "In RV failure, extra preload can dilate the RV further. The dilated RV shifts the septum toward the LV, reduces LV filling, worsens tricuspid regurgitation and raises CVP. Systemic output may fall despite more volume."
+},
+{
+"difficulty": "Expert Level",
+"question": "Why is fluid responsiveness not the same as fluid tolerance?",
+"options": [
+"Responsiveness measures flow increase; tolerance measures whether the extra volume causes harm.",
+"They mean exactly the same thing.",
+"Tolerance only refers to whether the patient dislikes cannulas.",
+"Responsiveness is measured only by SpO2."
+],
+"answer": 0,
+"explanation": "Fluid responsiveness means stroke volume or cardiac output rises after preload increases. Fluid tolerance means the patient can receive that volume without harmful congestion, pulmonary oedema, RV dilation or worsening oxygenation. Both must be assessed."
+},
+{
+"difficulty": "Expert Level",
+"question": "Which condition can make pulse pressure variation unreliable as a fluid responsiveness predictor?",
+"options": [
+"Atrial fibrillation with irregular ventricular filling.",
+"Controlled ventilation with regular rhythm and good waveform.",
+"A reliable arterial trace.",
+"Stable closed-chest conditions."
+],
+"answer": 0,
+"explanation": "Pulse pressure variation assumes regular rhythm and predictable ventilation-heart interaction. Atrial fibrillation causes irregular filling and beat-to-beat stroke volume variation, making PPV unreliable. Spontaneous breathing, low tidal volume, poor waveform and RV failure also limit reliability."
+}
+],
+"diagrams": [
+{
+"type": "diagram",
+"title": "Frank-Starling curve for CT-ICU",
+"description": "A curve diagram showing preload on the x-axis and stroke volume on the y-axis, with steep limb, shoulder and flat limb.",
+"layout": "curve",
+"elements": [
+"Preload on x-axis",
+"Stroke volume on y-axis",
+"Steep limb: fluid responsive",
+"Shoulder: diminishing returns",
+"Flat limb: pressure without flow",
+"Hypovolaemia on steep limb",
+"Stiff LV near shoulder",
+"RV failure and tamponade on flat limb"
+],
+"teachingPoints": [
+"Fluid helps when stroke volume rises.",
+"A rising filling pressure without flow suggests flattening.",
+"CT-ICU patients often reach the flat limb early."
+]
+},
+{
+"type": "diagram",
+"title": "Fluid responsiveness versus fluid tolerance matrix",
+"description": "A two-by-two matrix comparing flow response and congestion harm.",
+"layout": "matrix",
+"elements": [
+"Responsive and tolerant",
+"Responsive but intolerant",
+"Not responsive but tolerant",
+"Not responsive and intolerant"
+],
+"teachingPoints": [
+"A patient can respond and still be harmed.",
+"The best response is improved flow with acceptable pressure rise.",
+"No flow gain plus congestion means stop fluid and reassess."
+]
+},
+{
+"type": "diagram",
+"title": "RV failure fluid trap",
+"description": "A flowchart showing how fluid can worsen RV failure and reduce LV filling.",
+"layout": "flowchart",
+"elements": [
+"Fluid bolus",
+"RV preload rises",
+"Failing RV dilates",
+"Tricuspid regurgitation worsens",
+"Septum shifts toward LV",
+"LV filling falls",
+"Systemic stroke volume falls",
+"CVP and renal venous pressure rise"
+],
+"teachingPoints": [
+"High CVP does not mean good LV preload.",
+"RV dilation can reduce systemic output.",
+"Fluid can worsen venous congestion and urine output."
+]
+}
+],
+"references": [
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Physiology, Frank Starling Law",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK470295/](https://www.ncbi.nlm.nih.gov/books/NBK470295/)",
+"supports": "Supports the Frank-Starling law as the relationship between ventricular filling and stroke volume."
+},
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Physiology, Cardiac Preload",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK541109/](https://www.ncbi.nlm.nih.gov/books/NBK541109/)",
+"supports": "Supports preload physiology and its relationship with the Frank-Starling mechanism."
+},
+{
+"sourceName": "Critical Care / PMC",
+"title": "Fluid responsiveness and the six guiding principles of fluid resuscitation",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC9894650/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9894650/)",
+"supports": "Supports the distinction between fluid responsiveness, fluid administration decisions and fluid-related harm."
+},
+{
+"sourceName": "Annals of Intensive Care / PMC",
+"title": "Prediction of fluid responsiveness: an update",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC5114218/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5114218/)",
+"supports": "Supports dynamic assessment of fluid responsiveness and limitations of static markers."
+},
+{
+"sourceName": "Critical Care / PMC",
+"title": "Does central venous pressure predict fluid responsiveness? A systematic review of the literature and the tale of seven mares",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC2700148/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2700148/)",
+"supports": "Supports the limitation that CVP alone poorly predicts fluid responsiveness."
+},
+{
+"sourceName": "Pulmonary Circulation / PMC",
+"title": "Right ventricular failure in pulmonary hypertension: diagnosis and new perspectives on vascular and direct right ventricular treatment",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC4839096/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4839096/)",
+"supports": "Supports RV failure physiology, RV dilation and the importance of pulmonary vascular load."
+},
+{
+"sourceName": "Journal of Clinical Medicine / PMC",
+"title": "Cardiac Tamponade: A Clinical Challenge",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC8109153/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8109153/)",
+"supports": "Supports tamponade physiology as impaired cardiac filling from pericardial pressure."
+}
+]
 }

@@ -1,102 +1,837 @@
 {
-  "id": "preload-lvedp-and-cvp",
-  "domain": "domain1",
-  "domainName": "Physiology Foundations",
-  "domainColour": "#0B5FFF",
-  "title": "Preload: LVEDP and CVP",
-  "sections": {
-    "abridged": {
-      "content": "<h3>Preload - filling pressure, stretch, and compliance</h3>\n<p><strong>Preload</strong> is myocardial fibre stretch at end-diastole, just before contraction. Left-sided preload is approximated by LVEDV, LVEDP, PAWP/PCWP, and echo. Right-sided preload is often approximated by CVP or right atrial pressure.</p>\n<p>CVP is a pressure, not a tank gauge. A CVP of 14 mmHg can reflect RV failure, pulmonary hypertension, tamponade, high PEEP, tension pneumothorax, poor compliance, or venous congestion rather than simple fluid excess.</p>\n<p>Preload is interpreted through trends and response: CVP, PAWP, pulse pressure, stroke volume, cardiac index, drains, fluid balance, urine output, lactate, SvO₂, echo, lung compliance, oxygenation, and clinical perfusion.</p>"
-    },
-    "expanded": {
-      "content": "<h3>Preload - the filling condition before contraction</h3>\n<p><strong>Preload</strong> is end-diastolic myocardial stretch. It is related to ventricular end-diastolic volume but is often inferred from pressure and response because sarcomere stretch cannot be measured at the bedside.</p>\n<p>Preload matters because of Frank-Starling physiology. On the responsive part of the curve, extra filling increases stroke volume. On the flat part, extra filling raises pressure and congestion more than flow.</p>\n<h4>LVEDP and left-sided preload</h4>\n<p><strong>LVEDP</strong> is left ventricular end-diastolic pressure. It reflects the relationship between LV volume and LV compliance. A compliant ventricle accepts volume with little pressure rise. A stiff ventricle develops high pressure with small volume changes.</p>\n<p>Post-aortic stenosis, LV hypertrophy, diastolic dysfunction, post-bypass oedema, myocardial ischaemia, and restrictive physiology all reduce compliance. These patients may need enough preload to fill but can develop pulmonary oedema quickly if LVEDP rises.</p>\n<h4>CVP and right-sided preload</h4>\n<p><strong>CVP</strong> reflects pressure in the central venous/right atrial region. It is commonly used as a right-sided filling pressure estimate. A typical reference range is often 5-12 mmHg, but context matters more than the number.</p>\n<p>CVP rises with RV failure, high PVR, tamponade, high PEEP, tension pneumothorax, venous congestion, tricuspid regurgitation, and increased intrathoracic pressure. CVP may be low in hypovolaemia, vasodilation, and reduced stressed volume.</p>\n<table><tr><th>Condition</th><th>CVP effect</th><th>Mechanism</th><th>Fluid implication</th></tr><tr><td>Hypovolaemia</td><td>Often low</td><td>Low stressed volume and venous return</td><td>Fluid may help if SV rises</td></tr><tr><td>Vasoplegia</td><td>Low/normal</td><td>Venous capacitance increases</td><td>Vasopressor may recruit stressed volume</td></tr><tr><td>RV failure</td><td>High</td><td>RV cannot eject forward</td><td>Repeated fluid may worsen RV dilation</td></tr><tr><td>Tamponade</td><td>High/rising</td><td>External compression restricts filling</td><td>Urgent escalation; fluid may only temporise</td></tr><tr><td>High PEEP</td><td>High</td><td>Intrathoracic pressure transmitted to veins</td><td>Review ventilation and transmural filling</td></tr></table>\n<h4>Stressed volume</h4>\n<p>Only part of blood volume generates pressure for venous return. This is stressed volume. The rest is unstressed volume. After bypass, vasoplegia can increase venous capacitance, lowering effective venous return despite adequate total body fluid.</p>\n<h4>Fluid responsiveness and fluid tolerance</h4>\n<p>Fluid responsiveness means SV or CO rises after fluid, often by 10-15%. Fluid tolerance means the patient can safely accept the extra volume. A patient can be responsive but not tolerant, especially with RV failure or stiff LV physiology.</p>\n<p>Poor tolerance appears as rising CVP without flow gain, rising PAWP, worsening oxygenation, falling lung compliance, RV dilation, septal shift, hepatic congestion, or falling urine output from venous congestion.</p>\n<h4>Practical preload decision loop</h4>\n<ol><li><p><strong>Validate measurements.</strong> Check zero, level, waveform, position, ventilation, and catheter source.</p></li><li><p><strong>Assess congestion.</strong> Review CVP, PAWP, oxygenation, lung mechanics, echo, PA pressures, and renal venous congestion signs.</p></li><li><p><strong>Predict response.</strong> Use echo, stroke volume response, pulse pressure response, passive leg raise if appropriate, and dynamic indices only when valid.</p></li><li><p><strong>Assess tolerance.</strong> Stop if filling pressures rise without improved flow or oxygenation/RV function worsens.</p></li><li><p><strong>Escalate dangerous patterns.</strong> Low MAP plus rising CVP and narrowing pulse pressure after cardiac surgery is obstructive/RV physiology until proven otherwise.</p></li></ol>"
-    },
-    "pearls": {
-      "content": "<h3>Clinical Pearls - Preload</h3>\n<h4>Pearl 1 - CVP is pressure, not volume</h4>\n<p>CVP reflects right-sided pressure and is altered by RV function, PEEP, PVR, tamponade, venous tone, and compliance.</p>\n<h4>Pearl 2 - Fluid responsiveness is not fluid tolerance</h4>\n<p>A patient may increase stroke volume after fluid but still be harmed by congestion.</p>\n<h4>Pearl 3 - Rising CVP with shock after cardiac surgery is dangerous</h4>\n<p>This pattern should trigger concern for tamponade, RV failure, high PVR, high PEEP, or tension physiology.</p>"
-    },
-    "equipment": {
-      "content": "<h3>Equipment Tie-In - Preload</h3>\n<p><strong>CVP transducers</strong> must be levelled and zeroed correctly. The waveform should be assessed, not just the number.</p>\n<p><strong>PAC</strong> gives CVP, PA pressures, PAWP, CO/CI, and SvO₂.</p>\n<p><strong>Echo</strong> identifies underfilling, RV dilation, septal shift, tamponade, and LV dysfunction.</p>\n<p><strong>Ventilator settings</strong> affect preload through intrathoracic pressure, venous return, and RV afterload.</p>"
-    },
-    "targets": {
-      "content": "<h3>Targets and Numbers - Preload</h3>\n<p>CVP is often 5-12 mmHg, but context matters more than the range. PAWP/PCWP is often 8-15 mmHg if valid. The aim is adequate stroke volume and tissue perfusion without excessive filling pressure, pulmonary oedema, RV dilation, or renal venous congestion.</p>",
-      "tables": [
-        {
-          "heading": "Preload markers",
-          "headers": [
-            "Marker",
-            "Typical value",
-            "Meaning",
-            "Caution"
-          ],
-          "rows": [
-            [
-              "CVP",
-              "5-12 mmHg context dependent",
-              "Right-sided filling pressure",
-              "Affected by RV failure, PEEP, tamponade, PVR, compliance"
-            ],
-            [
-              "PAWP",
-              "8-15 mmHg if valid",
-              "Left-sided filling estimate",
-              "Invalid wedge/high PEEP/mitral disease can mislead"
-            ],
-            [
-              "Fluid response",
-              "SV/CO rise 10-15%",
-              "Preload responsiveness",
-              "Does not prove tolerance"
-            ],
-            [
-              "UO",
-              "≥0.5 mL/kg/hr",
-              "Perfusion/congestion marker",
-              "Low in low flow or venous congestion"
-            ]
-          ]
-        }
-      ]
-    }
-  },
-  "quizQuestions": [
-    {
-      "level": "basic",
-      "question": "What is the central bedside concept in Preload: LVEDP and CVP?",
-      "type": "multipleChoice",
-      "options": [
-        "Interpret the value as part of a haemodynamic pattern, not as an isolated number",
-        "Treat every abnormal number with fluid",
-        "Ignore the waveform and rely only on MAP",
-        "Use SpO₂ as the only marker of perfusion"
-      ],
-      "correct": 0,
-      "explanation": "Preload: LVEDP and CVP must be interpreted in context. CTICU physiology depends on patterns across pressure, flow, filling, oxygen delivery, demand, waveforms, and clinical response."
-    },
-    {
-      "level": "reasoning",
-      "question": "A post-cardiac surgery patient deteriorates and the Preload: LVEDP and CVP data conflict with the clinical picture. What is the safest action?",
-      "type": "multipleChoice",
-      "options": [
-        "Validate the measurement and integrate it with rhythm, waveform, lactate, urine output, echo, and perfusion",
-        "Assume the single number is correct and treat it alone",
-        "Ignore the patient because the monitor is always right",
-        "Give repeated fluid without reassessment"
-      ],
-      "correct": 0,
-      "explanation": "The safest CTICU approach is to validate the measurement, check equipment and waveform quality, then interpret it against the whole clinical pattern before acting."
-    },
-    {
-      "level": "expert",
-      "question": "Why is isolated interpretation dangerous in Preload: LVEDP and CVP?",
-      "type": "multipleChoice",
-      "options": [
-        "Because preload, afterload, contractility, rhythm, ventilation, oxygen content, and metabolic demand interact",
-        "Because cardiac physiology has no relationship to clinical signs",
-        "Because all post-operative patients have identical targets",
-        "Because monitors cannot display useful information"
-      ],
-      "correct": 0,
-      "explanation": "Isolated interpretation is dangerous because CTICU haemodynamics are interactive. The same value may mean different things depending on ventricular function, vascular tone, rhythm, ventilation, oxygen delivery, and surgical context."
-    }
-  ]
+"id": "preload-lvedp-and-cvp",
+"domain": 1,
+"domainTitle": "Physiology Foundations",
+"title": "Preload: LVEDP and CVP",
+"file": "preload_lvedp_and_cvp.json",
+"sections": {
+"abridged": {
+"title": "Abridged Snapshot",
+"content": [
+{
+"type": "heading",
+"text": "Preload: filling, stretch and pressure before contraction"
+},
+{
+"type": "paragraph",
+"text": "Preload is the stretch on myocardial fibres at the end of diastole, immediately before contraction. At the bedside, we cannot directly measure myocardial fibre stretch, so we estimate preload using pressure, volume appearance and response. For the left ventricle, preload is approximated by LV end-diastolic volume, LV end-diastolic pressure, PAWP or PCWP if a pulmonary artery catheter is present, and echocardiographic assessment of LV filling. For the right ventricle, preload is commonly approximated by CVP or right atrial pressure."
+},
+{
+"type": "keyterm",
+"term": "Preload",
+"definition": "Preload is ventricular myocardial stretch at end-diastole. Clinically, it refers to the filling condition of the ventricle before systole. It is related to end-diastolic volume and pressure, but pressure is only an indirect estimate because compliance strongly affects the number."
+},
+{
+"type": "keyterm",
+"term": "LVEDP",
+"definition": "LVEDP means left ventricular end-diastolic pressure. It is the pressure in the left ventricle just before systole. It reflects both LV volume and LV compliance. A stiff LV can have a high LVEDP with only modest volume."
+},
+{
+"type": "keyterm",
+"term": "CVP",
+"definition": "CVP means central venous pressure. It reflects pressure in the thoracic vena cava or right atrium and is used as a right-sided filling pressure estimate. It is not a direct measure of circulating volume."
+},
+{
+"type": "paragraph",
+"text": "The most important preload rule in CT-ICU is that filling pressure is not the same as fluid volume. CVP is a pressure, not a tank gauge. A CVP of 14 mmHg may occur because the patient is full, but it may also occur because the RV is failing, pulmonary vascular resistance is high, tamponade is restricting filling, PEEP is high, intrathoracic pressure is elevated, a tension pneumothorax is present, the tricuspid valve is regurgitant or venous congestion is severe. A CVP of 4 mmHg may suggest low right-sided filling pressure, but it does not automatically prove the patient needs fluid."
+},
+{
+"type": "paragraph",
+"text": "Preload matters because of the Frank-Starling mechanism. If the ventricle is on the responsive part of the curve, extra filling increases myocardial stretch and improves stroke volume. If the ventricle is already full, stiff, compressed or failing, extra filling mostly raises pressure rather than flow. In that situation, fluid can worsen pulmonary oedema, RV dilation, hepatic congestion, renal venous congestion and oxygenation."
+},
+{
+"type": "paragraph",
+"text": "After cardiac surgery, preload interpretation is difficult because many factors distort pressure measurements. Cardiopulmonary bypass can cause myocardial oedema and reduced compliance. Longstanding valve disease can leave the ventricle hypertrophied or dilated. Positive pressure ventilation and PEEP increase intrathoracic pressure and affect venous return. RV dysfunction can raise CVP while reducing LV preload. Tamponade can raise filling pressures while preventing effective filling."
+},
+{
+"type": "paragraph",
+"text": "The bedside question is not, “What is the CVP?” The safer question is, “Will more filling increase stroke volume, and can this patient tolerate the extra volume?” Fluid responsiveness means stroke volume or cardiac output rises after a preload challenge. Fluid tolerance means the patient can accept that fluid without harmful congestion. A patient can be fluid responsive but not fluid tolerant, especially with RV failure, pulmonary hypertension or a stiff LV."
+},
+{
+"type": "paragraph",
+"text": "In a fresh post-operative cardiac patient, falling MAP with low or falling CVP, bleeding drains, tachycardia and narrowing pulse pressure may suggest hypovolaemia or haemorrhage. Falling MAP with rising CVP, narrowing pulse pressure, oliguria and rising lactate is much more concerning for tamponade, RV failure, high PVR, excessive PEEP or tension physiology. The pattern determines the urgency and the response."
+},
+{
+"type": "remember",
+"text": "Preload is about useful filling, not filling pressure alone. CVP and PAWP are clues, not instructions. In CT-ICU, fluid is a physiological test: it should improve stroke volume, cardiac index, pulse pressure, urine output, lactate trend or venous saturation without causing harmful rises in CVP, PAWP, PA pressure, pulmonary oedema, RV dilation or renal venous congestion."
+}
+]
+},
+"expanded": {
+"title": "Expanded Deep-Dive",
+"content": [
+{
+"type": "heading",
+"text": "Preload as end-diastolic myocardial stretch"
+},
+{
+"type": "paragraph",
+"text": "Preload is one of the core determinants of stroke volume. Physiologically, it is the stretch of myocardial fibres at the end of diastole, immediately before systole. That stretch is related to ventricular end-diastolic volume, but in clinical practice we often estimate it from pressures such as CVP, PAWP or LVEDP because direct measurement of ventricular fibre stretch is not possible at the bedside."
+},
+{
+"type": "paragraph",
+"text": "The reason preload matters is the Frank-Starling mechanism. Within a useful physiological range, increased ventricular filling stretches myocardial fibres and improves contraction force, increasing stroke volume. This is the mechanism behind fluid responsiveness. However, once the ventricle reaches the shoulder or flat part of the Starling curve, additional volume produces little increase in stroke volume and a disproportionate increase in filling pressure. In CT-ICU, this is where fluid becomes harmful."
+},
+{
+"type": "paragraph",
+"text": "Preload must therefore be interpreted as a relationship between volume, pressure, compliance and output. Volume is how much blood is present. Pressure is what that volume produces inside the chamber. Compliance is how easily the chamber accepts volume. Output is whether the added filling produces useful forward flow. A compliant ventricle accepts volume with little rise in pressure. A stiff ventricle develops high pressure with smaller volume changes. This is why the same PAWP or CVP can mean different things in different patients."
+},
+{
+"type": "subheading",
+"text": "LVEDP: left-sided filling pressure"
+},
+{
+"type": "paragraph",
+"text": "LVEDP is left ventricular end-diastolic pressure. It is the pressure inside the LV at the end of filling, immediately before ventricular contraction. LVEDP is influenced by LV volume and LV compliance. If the LV is compliant, it can accept a reasonable volume without a large pressure rise. If the LV is stiff, even a moderate volume can produce a high LVEDP."
+},
+{
+"type": "paragraph",
+"text": "This is a common issue in cardiothoracic ICU. A patient with longstanding aortic stenosis may have concentric LV hypertrophy and poor compliance. After valve replacement, the obstruction is relieved, but the LV does not instantly become compliant. The patient may require adequate preload to generate stroke volume, but excessive volume can rapidly raise LVEDP and cause pulmonary oedema. A patient with chronic hypertension or diastolic dysfunction behaves similarly."
+},
+{
+"type": "paragraph",
+"text": "Cardiopulmonary bypass can also impair LV compliance. Myocardial oedema, reperfusion injury, hypothermia, inflammation and stunning can make the ventricle less able to relax. The ventricle may be mechanically full at a lower volume than expected. Fluid loading such a ventricle may raise PAWP, worsen oxygenation and increase work of breathing after extubation without improving cardiac output."
+},
+{
+"type": "subheading",
+"text": "PAWP or PCWP as a left-sided preload estimate"
+},
+{
+"type": "paragraph",
+"text": "When a pulmonary artery catheter is present, PAWP or PCWP may be used as an estimate of left atrial pressure and left-sided filling pressure. The catheter balloon is inflated in a branch of the pulmonary artery, creating a static column of blood between the catheter tip and the left atrium. If the measurement is valid, the wedge pressure approximates downstream pulmonary venous and left atrial pressure."
+},
+{
+"type": "paragraph",
+"text": "PAWP is not automatically LV preload. It is a pressure estimate and must be interpreted carefully. It can be misleading with incorrect catheter position, overwedging, underwedging, severe mitral regurgitation, high PEEP, poor lung zone conditions, pulmonary venous obstruction or large respiratory swings. PAWP also reflects pressure, not volume. A stiff LV can have a high PAWP without being massively volume loaded. A vasodilated patient can have a low PAWP and still be globally fluid overloaded in the tissues."
+},
+{
+"type": "paragraph",
+"text": "In CT-ICU, PAWP is most useful when interpreted with cardiac index, CVP, PA pressures, SvO2, oxygenation, lung mechanics and echo. A PAWP of 18 mmHg with pulmonary oedema, low cardiac index and poor LV contraction suggests left-sided congestion and pump failure. A PAWP of 8 mmHg with low CVP, narrow pulse pressure, bleeding drains and fluid responsiveness suggests underfilling. A PAWP of 14 mmHg with low cardiac index and rising CVP may still be inadequate LV preload if RV failure is limiting pulmonary flow, but the pattern must be confirmed."
+},
+{
+"type": "subheading",
+"text": "CVP: right-sided pressure, not right-sided volume"
+},
+{
+"type": "paragraph",
+"text": "CVP is central venous pressure, usually measured from the superior vena cava or right atrium. It is commonly used as a right-sided filling pressure estimate. A typical reference range is often 5 to 12 mmHg, but this range is not a treatment target by itself. CVP is affected by right atrial pressure, venous return, RV compliance, RV systolic function, tricuspid valve function, pulmonary vascular resistance, intrathoracic pressure, PEEP, abdominal pressure and pericardial pressure."
+},
+{
+"type": "paragraph",
+"text": "A low CVP can occur with hypovolaemia, vasodilation, reduced stressed volume or venous pooling. A high CVP can occur with volume loading, RV failure, high PVR, tamponade, high PEEP, tension pneumothorax, severe tricuspid regurgitation, pulmonary embolism, raised intra-abdominal pressure or venous congestion. Therefore, CVP must be read as part of a pattern. It is more useful as a trend than as an isolated value."
+},
+{
+"type": "paragraph",
+"text": "The common novice error is to treat CVP as an intravascular fuel gauge. It is not. A CVP of 3 mmHg does not automatically mandate fluid, and a CVP of 16 mmHg does not automatically mean fluid overload. The correct question is whether the right heart is adequately filled, whether it can eject, whether the LV is being filled, whether tissue perfusion is adequate, and whether adding fluid would improve stroke volume without causing harm."
+},
+{
+"type": "subheading",
+"text": "Venous return and stressed volume"
+},
+{
+"type": "paragraph",
+"text": "Venous return is driven by the pressure gradient between the systemic venous reservoir and the right atrium. Only part of the blood volume creates pressure that drives venous return. This portion is called stressed volume. The rest sits in the venous capacitance system as unstressed volume. Vasodilation increases venous capacitance, shifting blood into unstressed volume and reducing effective venous return even if total body blood volume has not changed dramatically."
+},
+{
+"type": "paragraph",
+"text": "After cardiopulmonary bypass, vasoplegia can reduce venous tone and stressed volume. A patient may have low effective preload because the venous system is too dilated, not because the absolute blood volume is profoundly low. In that situation, vasopressors can sometimes improve preload by recruiting unstressed volume into stressed volume and restoring venous return. Fluid may help if the patient is fluid responsive, but repeated fluid without stroke volume response can worsen oedema and oxygenation."
+},
+{
+"type": "subheading",
+"text": "Positive pressure ventilation and preload"
+},
+{
+"type": "paragraph",
+"text": "Positive pressure ventilation changes preload physiology. During spontaneous breathing, negative intrathoracic pressure tends to support venous return. During positive pressure ventilation, intrathoracic pressure rises during inspiration. This can reduce the pressure gradient for venous return and increase measured right-sided pressures. PEEP maintains positive pressure at end-expiration and may further reduce venous return, especially if intravascular volume is low or RV function is poor."
+},
+{
+"type": "paragraph",
+"text": "PEEP can also increase RV afterload if it causes alveolar overdistension and compression of pulmonary vessels. This creates a double hit: venous return can fall, and the RV may face higher afterload. In an RV-risk patient, increasing PEEP may raise CVP, reduce cardiac output and worsen hypotension. Conversely, appropriate PEEP can improve oxygenation and reduce hypoxic pulmonary vasoconstriction. The haemodynamic effect depends on lung mechanics, volume status, RV function, PVR and oxygenation response."
+},
+{
+"type": "paragraph",
+"text": "This is why filling pressures in ventilated patients need context. A CVP of 12 mmHg on high PEEP may not represent the same transmural cardiac filling as a CVP of 12 mmHg in a spontaneously breathing patient. When numbers do not fit the patient, look at airway pressures, PEEP, respiratory variation, echo and response to ventilator changes."
+},
+{
+"type": "subheading",
+"text": "Preload in RV failure"
+},
+{
+"type": "paragraph",
+"text": "RV failure is one of the most important preload traps. The CVP may be high because the RV cannot eject forward. The LV may be underfilled because the RV is failing to deliver blood through the pulmonary circulation. This means the patient can have high right-sided filling pressure and low left-sided preload at the same time."
+},
+{
+"type": "paragraph",
+"text": "Giving fluid in RV failure can be harmful. Extra volume may dilate the RV further, worsen tricuspid regurgitation, shift the septum toward the LV, reduce LV end-diastolic volume, increase CVP, worsen hepatic congestion and reduce renal perfusion by increasing renal venous pressure. The patient may become more hypotensive despite higher CVP. This is why RV failure is often managed by optimising oxygenation, lowering PVR, correcting hypercapnia and acidosis, supporting RV contractility, maintaining systemic pressure for RV coronary perfusion and using cautious preload rather than blind fluid loading."
+},
+{
+"type": "subheading",
+"text": "Preload in tamponade"
+},
+{
+"type": "paragraph",
+"text": "Tamponade is an external filling problem. Blood or clot in the pericardial space raises external pressure around the heart and restricts diastolic filling. The ventricles cannot expand normally. Stroke volume falls. Venous pressure rises. Pulse pressure narrows. MAP falls. Tachycardia develops as compensation. In a ventilated post-cardiac surgery patient, classic signs such as muffled heart sounds or pulsus paradoxus may be absent or difficult to detect."
+},
+{
+"type": "paragraph",
+"text": "A dangerous post-operative pattern is falling MAP, rising CVP, narrowing pulse pressure, falling urine output and rising lactate. Chest drain output may be high if bleeding is freely draining, but drain output may also be low if clot blocks the drains and blood accumulates around the heart. Low drain output does not exclude tamponade. In this pattern, repeated fluid may briefly support pressure, but it does not correct the external compression. Urgent escalation and echo or surgical assessment are required."
+},
+{
+"type": "subheading",
+"text": "Preload in hypovolaemia and bleeding"
+},
+{
+"type": "paragraph",
+"text": "Hypovolaemia reduces venous return and ventricular filling. In early bleeding, CVP and PAWP may fall, pulse pressure may narrow, heart rate may rise, urine output may decrease and lactate may rise. The arterial waveform may show reduced stroke volume. If the patient is fluid responsive and fluid tolerant, volume replacement may improve stroke volume and MAP. However, after cardiac surgery the cause of volume loss matters: ongoing surgical bleeding, coagulopathy, drain blockage and tamponade require different actions."
+},
+{
+"type": "paragraph",
+"text": "In haemorrhage, preload management is not just crystalloid administration. The nurse must track chest drain output, haemoglobin trend, coagulation results, temperature, calcium, acid-base status and haemodynamic response. Excess crystalloid can worsen haemodilution, tissue oedema and pulmonary mechanics. Blood products and surgical review may be required depending on bleeding volume, trend and local protocol."
+},
+{
+"type": "subheading",
+"text": "Preload in vasoplegia"
+},
+{
+"type": "paragraph",
+"text": "In vasoplegia, the vascular system is dilated. Venous capacitance increases and stressed volume decreases. The patient may have low MAP, low SVR, warm peripheries, low diastolic pressure and normal or high cardiac output. Effective venous return may still be inadequate if venous tone is very low. Fluid may temporarily improve filling, but vasopressor support is often needed to restore vascular tone and recruit stressed volume."
+},
+{
+"type": "paragraph",
+"text": "The risk is over-resuscitating the vasoplegic patient with fluid when the main problem is vascular tone. This can produce tissue oedema, pulmonary oedema, impaired oxygenation and delayed recovery. The better question is whether a measured fluid challenge improves stroke volume or whether vasopressor optimisation is the more physiological intervention."
+},
+{
+"type": "subheading",
+"text": "Fluid responsiveness versus fluid tolerance"
+},
+{
+"type": "paragraph",
+"text": "Fluid responsiveness means that stroke volume or cardiac output increases after a preload challenge. A commonly used threshold is an increase in stroke volume or cardiac output of around 10 to 15 percent. This tells you that the heart is operating on the preload-responsive part of the Starling curve at that moment. It does not prove that the patient should receive unlimited fluid."
+},
+{
+"type": "paragraph",
+"text": "Fluid tolerance means the patient can accept extra volume without harmful consequences. A patient with RV failure may be responsive to a small bolus but intolerant because the extra volume worsens RV dilation and venous congestion. A patient with a stiff LV may show a small cardiac output increase but develop pulmonary oedema from a large rise in LVEDP or PAWP. A patient with poor oxygenation may not tolerate fluid-induced lung water."
+},
+{
+"type": "paragraph",
+"text": "A good fluid response is not simply a higher CVP. A good response is improved stroke volume, cardiac index, pulse pressure, MAP with less vasopressor, SvO2, lactate trajectory, urine output or skin perfusion, with only an acceptable rise in filling pressures and no worsening oxygenation. A poor response is a rise in CVP or PAWP without improved flow. A harmful response is worse oxygenation, falling lung compliance, RV dilation, rising venous congestion or worsening urine output."
+},
+{
+"type": "subheading",
+"text": "Dynamic preload assessment"
+},
+{
+"type": "paragraph",
+"text": "Dynamic preload assessment tries to predict whether stroke volume will rise if preload is increased. Methods include passive leg raise, stroke volume variation, pulse pressure variation, end-expiratory occlusion testing, mini-fluid challenge and echo-based assessment. These methods are useful only when their assumptions are valid."
+},
+{
+"type": "paragraph",
+"text": "Pulse pressure variation and stroke volume variation are most reliable in fully mechanically ventilated patients with regular rhythm, sufficient tidal volume, closed chest conditions and no major RV failure. They become unreliable with atrial fibrillation, frequent ectopy, spontaneous breathing, low tidal volume ventilation, open chest, poor arterial waveform quality, high respiratory effort, severe RV dysfunction or major changes in vascular tone. In CT-ICU, many patients violate these assumptions, so dynamic indices must be interpreted cautiously."
+},
+{
+"type": "subheading",
+"text": "Practical preload decision sequence"
+},
+{
+"type": "steps",
+"title": "Bedside preload interpretation sequence",
+"items": [
+"Confirm measurement reliability. Check CVP or PAWP transducer level, zeroing, waveform quality, catheter source, respiratory timing and patient position.",
+"Identify the clinical problem. Decide whether the issue is low MAP, narrow pulse pressure, low cardiac index, rising lactate, falling SvO2, oliguria, pulmonary oedema or rising CVP.",
+"Assess right-sided pressure. Review CVP trend, CVP waveform if visible, RV size on echo, PA pressures if present, oxygenation, PaCO2, pH and PEEP.",
+"Assess left-sided filling. Review PAWP if valid, oxygenation, lung compliance, crackles, CXR pattern, echo LV size and signs of pulmonary congestion.",
+"Assess whether the patient is likely to be fluid responsive. Use previous fluid response, passive leg raise if appropriate, stroke volume trend, pulse pressure response, echo and dynamic indices only if valid.",
+"Assess whether the patient is fluid tolerant. Look for high CVP, high PAWP, RV dilation, septal shift, pulmonary oedema, worsening oxygenation, high PA pressures, renal venous congestion and liver congestion.",
+"If fluid is given, define the endpoint before starting. Look for improved stroke volume, cardiac index, pulse pressure, MAP, SvO2, urine output or lactate trajectory.",
+"Stop fluid if filling pressures rise without flow improvement or if oxygenation, RV function or venous congestion worsens.",
+"Escalate urgently when falling MAP is paired with rising CVP, narrowing pulse pressure, oliguria or rising lactate after cardiac surgery."
+]
+},
+{
+"type": "diagram",
+"title": "Preload interpretation map",
+"description": "A flowchart separating preload deficiency, poor fluid tolerance, RV failure, tamponade and vasoplegia using CVP, PAWP, pulse pressure, cardiac output and clinical perfusion.",
+"layout": "algorithm",
+"elements": [
+"Start with low MAP, low CI or poor perfusion",
+"Validate transducer level and waveform",
+"Assess CVP trend",
+"Assess pulse pressure and cardiac index",
+"Assess PAWP or echo LV filling if available",
+"Check drains, haemoglobin and fluid balance",
+"Check RV size, PA pressures, PEEP, oxygenation, PaCO2 and pH",
+"Classify as underfilled, vasoplegic, RV failure, tamponade, LV congestion or mixed"
+],
+"teachingPoints": [
+"CVP is pressure, not volume.",
+"Fluid responsiveness and fluid tolerance are different.",
+"Rising CVP with falling output after cardiac surgery is a high-risk pattern."
+]
+}
+]
+},
+"pearls": {
+"title": "Clinical Pearls",
+"content": [
+{
+"type": "heading",
+"text": "Clinical Pearls"
+},
+{
+"type": "pearl",
+"title": "Pearl 1: CVP is not a tank gauge",
+"text": "CVP is right-sided pressure. It is affected by RV function, PVR, PEEP, intrathoracic pressure, tamponade, tricuspid regurgitation, venous tone and compliance. It does not directly measure circulating volume. Treating CVP alone as a fluid instruction is unsafe."
+},
+{
+"type": "pearl",
+"title": "Pearl 2: LVEDP depends on compliance",
+"text": "A stiff LV can have a high LVEDP with modest volume. This is common after aortic stenosis, LV hypertrophy, hypertension, ischaemia and bypass-related myocardial oedema. Extra fluid may raise pulmonary venous pressure and cause pulmonary oedema without improving stroke volume."
+},
+{
+"type": "pearl",
+"title": "Pearl 3: fluid responsiveness is not fluid tolerance",
+"text": "A patient can increase stroke volume after a small preload challenge but still be harmed by the volume. This is common in RV failure, pulmonary hypertension and stiff LV physiology. Always look for congestion harm as well as flow benefit."
+},
+{
+"type": "pearl",
+"title": "Pearl 4: rising CVP with shock after cardiac surgery is dangerous",
+"text": "Falling MAP with rising CVP, narrowing pulse pressure, oliguria and rising lactate should trigger concern for tamponade, RV failure, high PVR, excessive PEEP or tension physiology. This pattern needs urgent escalation and mechanical assessment, not reflex fluid loading."
+},
+{
+"type": "pearl",
+"title": "Pearl 5: RV failure can cause high CVP and low LV preload at the same time",
+"text": "When the RV cannot eject through the pulmonary circulation, blood backs up into the venous system and less blood reaches the LV. The CVP rises while LV filling and systemic cardiac output fall. More fluid may worsen RV dilation and septal shift."
+},
+{
+"type": "pearl",
+"title": "Pearl 6: PEEP changes preload interpretation",
+"text": "Positive pressure and PEEP can raise measured CVP while reducing venous return and changing transmural filling pressure. Ventilator settings are part of haemodynamic interpretation, especially in RV-risk patients."
+},
+{
+"type": "pearl",
+"title": "Pearl 7: low drain output does not exclude tamponade",
+"text": "A blocked or clotted mediastinal drain can give falsely reassuring low output while blood accumulates around the heart. Haemodynamic pattern matters: rising CVP, narrowing pulse pressure, falling MAP and rising lactate are more important than a single drain number."
+},
+{
+"type": "pearl",
+"title": "Pearl 8: venous tone is part of preload",
+"text": "After bypass, vasoplegia can reduce stressed volume and venous return even when the patient has received significant fluid. Vasopressors may improve preload physiology by recruiting venous capacitance, not just by raising arterial pressure."
+},
+{
+"type": "pearl",
+"title": "Pearl 9: a good fluid bolus improves flow, not just pressure",
+"text": "The useful endpoint is improved stroke volume, cardiac index, pulse pressure, SvO2, urine output or lactate trend. A rise in CVP alone is not a success. A rise in CVP with worse oxygenation or no flow improvement is a warning."
+}
+]
+},
+"equipment": {
+"title": "Equipment Tie-In",
+"content": [
+{
+"type": "heading",
+"text": "Equipment Tie-In"
+},
+{
+"type": "subheading",
+"text": "CVP transducer setup and interpretation"
+},
+{
+"type": "paragraph",
+"text": "CVP accuracy depends on correct transducer setup. The transducer should be levelled to the phlebostatic axis or local reference point, zeroed to atmospheric pressure according to unit procedure and checked for waveform quality. If the transducer is too low, the pressure reads falsely high. If it is too high, the pressure reads falsely low. Air bubbles, clot, loose connections, catheter whip or occlusion can distort the waveform."
+},
+{
+"type": "paragraph",
+"text": "The CVP number should be interpreted with respiratory phase, ventilation mode, PEEP and patient position. In mechanically ventilated patients, pressures may vary with positive pressure breaths. Trends are usually more useful than isolated values. A sudden rise in CVP with falling MAP and narrowing pulse pressure is more clinically meaningful than a chronically elevated but stable CVP in a known pulmonary hypertension patient."
+},
+{
+"type": "subheading",
+"text": "CVP waveform"
+},
+{
+"type": "paragraph",
+"text": "The CVP waveform can provide rhythm and right-heart information. The a wave reflects atrial contraction and disappears in AF. Large a waves can occur when the right atrium contracts against a stiff RV or closed tricuspid valve timing. The c wave relates to tricuspid closure and early RV contraction. The v wave reflects venous filling of the right atrium while the tricuspid valve is closed. Detailed CVP waveform interpretation belongs in Domain 2, but preload interpretation improves when the nurse understands that the waveform reflects events, not just a number."
+},
+{
+"type": "subheading",
+"text": "Pulmonary artery catheter and PAWP"
+},
+{
+"type": "paragraph",
+"text": "The pulmonary artery catheter can provide PA pressures, PAWP, cardiac output, cardiac index, SVR, PVR and SvO2. PAWP is used as a left-sided filling pressure estimate only when the wedge is valid. A proper wedge waveform should be recognised and the balloon should not be left inflated. Overwedging can risk pulmonary artery injury. Underwedging or catheter migration gives misleading values."
+},
+{
+"type": "paragraph",
+"text": "PAWP should be read with the patient's respiratory phase and ventilator settings. High PEEP can influence measured pressures. If PAWP does not fit oxygenation, echo or clinical signs, it should be questioned. In CT-ICU, PAWP is most valuable when combined with cardiac index, CVP, PA pressure, SvO2 and echo."
+},
+{
+"type": "subheading",
+"text": "Arterial line response to preload"
+},
+{
+"type": "paragraph",
+"text": "The arterial line can show response to preload changes. If a fluid challenge improves stroke volume, pulse pressure often widens and the systolic upstroke may become stronger. If pulse pressure does not improve and CVP rises, fluid is probably not improving forward flow. However, arterial line damping must be excluded before interpreting pulse pressure response."
+},
+{
+"type": "subheading",
+"text": "Cardiac output monitors"
+},
+{
+"type": "paragraph",
+"text": "Cardiac output monitors can quantify whether preload changes improve stroke volume or cardiac output. A 10 to 15 percent increase in stroke volume or cardiac output after a preload challenge suggests fluid responsiveness. Reliability depends on the monitor type, arterial waveform quality, rhythm, calibration, vascular tone and clinical conditions."
+},
+{
+"type": "subheading",
+"text": "Echo"
+},
+{
+"type": "paragraph",
+"text": "Echo is the most useful tool when preload numbers conflict. It can show a small underfilled LV, a dilated failing RV, septal shift, tamponade, LV systolic dysfunction, valve obstruction, severe regurgitation and gross volume state. It can also show whether fluid is likely to worsen RV dilation or pulmonary congestion."
+},
+{
+"type": "subheading",
+"text": "Ventilator"
+},
+{
+"type": "paragraph",
+"text": "The ventilator influences preload. PEEP and inspiratory pressure affect venous return, right-heart loading and measured filling pressures. A change in PEEP can change CVP and cardiac output without any change in intravascular volume. In RV-risk patients, ventilation and preload must be interpreted together."
+},
+{
+"type": "table",
+"title": "Equipment problems that can mislead preload interpretation",
+"headers": [
+"Device or measurement",
+"Potential error",
+"Effect",
+"What to check"
+],
+"rows": [
+[
+"CVP transducer",
+"Incorrect level",
+"False high or false low CVP",
+"Re-level to reference point and rezero if needed"
+],
+[
+"CVP line",
+"Air, clot, kink or occlusion",
+"Damped or absent waveform",
+"Inspect tubing, aspirate/flush according to policy, check waveform"
+],
+[
+"PAWP",
+"Overwedging or underwedging",
+"False wedge pressure and risk of harm",
+"Check waveform, balloon volume, catheter position and operator technique"
+],
+[
+"Arterial line",
+"Overdamping",
+"Falsely narrow pulse pressure",
+"Fast flush/square wave test and tubing inspection"
+],
+[
+"Ventilator",
+"High PEEP or high intrathoracic pressure",
+"Raised measured filling pressures and reduced venous return",
+"Review PEEP, plateau pressure, driving pressure and haemodynamic response"
+],
+[
+"CO monitor",
+"Arrhythmia or poor waveform",
+"Unreliable stroke volume trend",
+"Check rhythm, waveform quality and monitor limitations"
+]
+]
+},
+{
+"type": "diagram",
+"title": "CVP is pressure, not volume",
+"description": "A comparison diagram showing different clinical states that can all produce a high CVP.",
+"layout": "comparison",
+"elements": [
+"High CVP from volume loading",
+"High CVP from RV failure",
+"High CVP from tamponade",
+"High CVP from high PEEP",
+"High CVP from high PVR",
+"High CVP from tension pneumothorax",
+"High CVP from tricuspid regurgitation"
+],
+"teachingPoints": [
+"The same CVP number can mean several different mechanisms.",
+"Treatment depends on the pattern, not the pressure alone.",
+"High CVP with low output is a warning pattern after cardiac surgery."
+]
+}
+]
+},
+"targets": {
+"title": "Targets and Numbers",
+"content": [
+{
+"type": "heading",
+"text": "Targets and Numbers"
+},
+{
+"type": "paragraph",
+"text": "Preload targets are contextual. The target is not a specific CVP or PAWP for every patient. The target is adequate stroke volume and oxygen delivery without harmful filling pressures or congestion. A useful preload state is one where the ventricle can fill enough to eject effectively, but not so much that pulmonary oedema, RV dilation, hepatic congestion or renal venous congestion worsen."
+},
+{
+"type": "targetTable",
+"title": "Preload-related values",
+"headers": [
+"Variable",
+"Typical value or target",
+"What it means",
+"Important caution"
+],
+"rows": [
+[
+"CVP",
+"Often 5 to 12 mmHg, highly context-dependent",
+"Right-sided filling pressure and venous congestion clue",
+"Not a volume gauge; affected by RV failure, PEEP, PVR, tamponade and compliance"
+],
+[
+"PAWP or PCWP",
+"Often 8 to 15 mmHg if waveform is valid",
+"Left-sided filling pressure estimate",
+"Can be misleading with invalid wedge, high PEEP, mitral disease or poor catheter position"
+],
+[
+"LVEDP",
+"Often around 5 to 12 mmHg in normal physiology, but variable in disease",
+"LV filling pressure before systole",
+"High in stiff LV or diastolic dysfunction even without massive volume"
+],
+[
+"Fluid responsiveness",
+"SV or CO increase around 10 to 15 percent after preload challenge",
+"Suggests the ventricle is on the responsive part of the Frank-Starling curve",
+"Does not prove fluid tolerance"
+],
+[
+"Fluid tolerance",
+"No fixed number; judged by absence of harmful congestion",
+"Determines whether extra volume is safe",
+"Poor tolerance shown by rising CVP/PAWP, pulmonary oedema, RV dilation or worsening oxygenation"
+],
+[
+"Urine output",
+"At least 0.5 mL/kg/hr",
+"Perfusion and venous congestion marker",
+"Low output may reflect low flow, AKI, venous congestion or obstruction"
+],
+[
+"Lactate",
+"Less than 2 mmol/L or falling",
+"Oxygen delivery-demand marker",
+"Rising lactate despite fluid suggests flow has not improved or demand remains high"
+],
+[
+"SvO2",
+"Usually 60 to 80 percent; often target at least 65 to 70 percent if context agrees",
+"Global oxygen extraction marker",
+"Low value after fluid suggests delivery still inadequate or demand high"
+]
+]
+},
+{
+"type": "targetTable",
+"title": "Preload patterns and likely mechanisms",
+"headers": [
+"Pattern",
+"CVP",
+"Pulse pressure",
+"Other clues",
+"Likely physiology"
+],
+"rows": [
+[
+"Hypovolaemia or bleeding",
+"Low or falling early",
+"Narrow",
+"Drain output, falling Hb, tachycardia, low filling pressures",
+"Reduced venous return and preload"
+],
+[
+"Tamponade",
+"Rising or high",
+"Narrow",
+"Falling MAP, oliguria, rising lactate, possible low drain output if blocked",
+"External compression preventing filling"
+],
+[
+"RV failure",
+"High",
+"Narrow or variable",
+"RV dilation, high PA pressure, septal shift, hypoxaemia or acidosis",
+"Right heart cannot eject; LV underfilled"
+],
+[
+"High PEEP or tension physiology",
+"High or rising",
+"Narrow or falling",
+"Ventilator change, high airway pressures, sudden hypotension, hypoxaemia",
+"Reduced venous return and increased RV afterload"
+],
+[
+"Vasoplegia",
+"Low, normal or variable",
+"Often wide if high flow",
+"Warm, low diastolic pressure, low SVR, normal/high CI",
+"Reduced vascular tone and stressed volume"
+],
+[
+"Stiff LV or LV congestion",
+"Variable",
+"Variable or narrow",
+"High PAWP, pulmonary oedema, poor compliance, hypoxaemia",
+"High filling pressure with limited useful preload reserve"
+]
+]
+},
+{
+"type": "targetTable",
+"title": "Fluid challenge interpretation",
+"headers": [
+"Response",
+"Flow result",
+"Pressure result",
+"Interpretation",
+"Next step"
+],
+"rows": [
+[
+"Good response",
+"SV or CO rises at least 10 to 15 percent",
+"CVP/PAWP rise modestly",
+"Fluid responsive and likely tolerant",
+"Reassess before further fluid"
+],
+[
+"Pressure-only response",
+"No meaningful SV or CO rise",
+"CVP/PAWP rise",
+"Flat Starling response or wrong problem",
+"Stop fluid and reassess mechanism"
+],
+[
+"Harmful response",
+"No flow gain or worsening flow",
+"Rising CVP/PAWP with worse oxygenation or RV dilation",
+"Fluid intolerance",
+"Stop fluid, escalate, assess RV/LV/tamponade"
+],
+[
+"Transient response",
+"Temporary improvement then deterioration",
+"May rise or remain high",
+"Ongoing bleeding, vasoplegia, RV failure or unresolved obstruction possible",
+"Look for cause rather than repeating boluses blindly"
+]
+]
+},
+{
+"type": "steps",
+"title": "Escalation triggers for preload-related deterioration",
+"items": [
+"Falling MAP with rising CVP and narrowing pulse pressure after cardiac surgery.",
+"Rising CVP with falling cardiac index, oliguria, rising lactate or falling SvO2.",
+"High CVP with RV dilation, septal shift, worsening oxygenation, hypercapnia or acidosis.",
+"High PAWP with worsening pulmonary oedema, hypoxaemia or falling lung compliance.",
+"Ongoing bleeding with falling Hb, increasing drain output, tachycardia or falling filling pressures.",
+"Low drain output with worsening haemodynamics and rising CVP, suggesting possible drain blockage and tamponade.",
+"No improvement in stroke volume or cardiac output after a preload challenge despite rising filling pressures.",
+"Sudden haemodynamic deterioration after ventilator or PEEP changes."
+]
+}
+]
+}
+},
+"quiz": [
+{
+"difficulty": "Bedside Basics",
+"question": "What does preload most accurately describe?",
+"options": [
+"Myocardial fibre stretch at end-diastole before contraction.",
+"The total amount of water in the body.",
+"The systolic blood pressure.",
+"The oxygen saturation of venous blood."
+],
+"answer": 0,
+"explanation": "Preload is the stretch on myocardial fibres at the end of diastole. It is related to ventricular filling, but bedside measures such as CVP and PAWP are pressure estimates and not direct measurements of total volume."
+},
+{
+"difficulty": "Bedside Basics",
+"question": "Which statement about CVP is safest?",
+"options": [
+"CVP is a right-sided pressure estimate and must be interpreted with RV function, PEEP, PVR and the clinical picture.",
+"CVP directly measures total circulating volume.",
+"A low CVP always means the patient needs fluid.",
+"A high CVP always means the patient is overfilled."
+],
+"answer": 0,
+"explanation": "CVP is a pressure, not a tank gauge. It is affected by RV function, pulmonary vascular resistance, intrathoracic pressure, PEEP, tamponade, tricuspid regurgitation and compliance. It must be interpreted as part of a pattern."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "A fresh post-cardiac surgery patient has falling MAP, rising CVP, narrowing pulse pressure, oliguria and rising lactate. What is the safest interpretation?",
+"options": [
+"This is a high-risk pattern for tamponade, RV failure, high PVR, excessive PEEP or tension physiology.",
+"This always proves simple hypovolaemia.",
+"This proves the patient needs repeated large crystalloid boluses.",
+"This is reassuring because CVP is high."
+],
+"answer": 0,
+"explanation": "Falling MAP with rising CVP and narrowing pulse pressure suggests impaired filling or forward flow despite high right-sided pressure. After cardiac surgery, tamponade and RV failure must be considered urgently. Excess fluid may worsen the situation if the heart is compressed or the RV is failing."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "A fluid bolus increases CVP from 12 to 17 mmHg, but cardiac index and pulse pressure do not improve and oxygenation worsens. What does this suggest?",
+"options": [
+"The patient is not deriving useful flow benefit and is showing poor fluid tolerance.",
+"The bolus was successful because CVP increased.",
+"The patient definitely needs more fluid until CVP is above 20.",
+"The arterial line must be underdamped."
+],
+"answer": 0,
+"explanation": "A useful fluid response should improve flow or perfusion markers. A rise in CVP without improved cardiac index or pulse pressure, especially with worse oxygenation, suggests pressure without flow benefit and poor fluid tolerance."
+},
+{
+"difficulty": "Expert Level",
+"question": "Why can RV failure cause high CVP but low systemic cardiac output?",
+"options": [
+"The RV cannot eject forward, so venous pressure rises while less blood reaches the LV.",
+"High CVP always means LV preload is high.",
+"The LV automatically increases stroke volume when the RV fails.",
+"RV failure directly lowers systemic vascular resistance to zero."
+],
+"answer": 0,
+"explanation": "In RV failure, blood backs up into the venous system, raising CVP. At the same time, the RV delivers less blood through the pulmonary circulation, so LV preload falls. Systemic cardiac output may drop despite high right-sided pressure."
+},
+{
+"difficulty": "Expert Level",
+"question": "Why can high PEEP make preload interpretation difficult?",
+"options": [
+"It can raise measured intrathoracic filling pressures while reducing venous return and altering transmural pressure.",
+"It directly measures LVEDP.",
+"It always increases stroke volume.",
+"It makes CVP equal to total blood volume."
+],
+"answer": 0,
+"explanation": "High PEEP increases intrathoracic pressure, which can raise measured CVP and affect venous return. It can also alter RV afterload depending on lung volume and pulmonary vascular effects. Therefore CVP must be interpreted with ventilator settings and clinical response."
+}
+],
+"diagrams": [
+{
+"type": "diagram",
+"title": "Preload interpretation algorithm",
+"description": "A bedside decision pathway for interpreting CVP, PAWP, pulse pressure, cardiac output and clinical perfusion in CT-ICU.",
+"layout": "algorithm",
+"elements": [
+"Start with hypotension, low CI, oliguria, rising lactate or falling SvO2",
+"Validate CVP and arterial line setup",
+"Assess CVP trend",
+"Assess pulse pressure and cardiac index",
+"Assess PAWP or LV filling if available",
+"Assess RV size, PA pressure, PEEP, oxygenation, PaCO2 and pH",
+"Assess drains, haemoglobin and bleeding",
+"Classify as preload deficiency, vasoplegia, RV failure, tamponade, LV congestion or mixed pattern"
+],
+"teachingPoints": [
+"A CVP number alone is never enough.",
+"Fluid should improve flow, not just filling pressure.",
+"Rising CVP with falling output after cardiac surgery is a danger pattern."
+]
+},
+{
+"type": "diagram",
+"title": "CVP is pressure, not volume",
+"description": "A comparison diagram showing several mechanisms that can produce the same high CVP value.",
+"layout": "comparison",
+"elements": [
+"Volume loading",
+"RV failure",
+"High PVR",
+"Tamponade",
+"High PEEP",
+"Tension pneumothorax",
+"Tricuspid regurgitation",
+"Venous congestion"
+],
+"teachingPoints": [
+"Same number, different mechanism.",
+"Treatment depends on cause.",
+"High CVP can coexist with low LV preload."
+]
+},
+{
+"type": "diagram",
+"title": "Fluid responsiveness versus fluid tolerance",
+"description": "A two-axis diagram showing whether a patient increases stroke volume after fluid and whether the patient develops congestion harm.",
+"layout": "comparison",
+"elements": [
+"Responsive and tolerant: flow improves, pressure rise acceptable",
+"Responsive but intolerant: flow improves but congestion worsens",
+"Not responsive but tolerant: little flow gain, no immediate harm",
+"Not responsive and intolerant: no flow gain, pressure and congestion worsen"
+],
+"teachingPoints": [
+"Responsiveness is about stroke volume increase.",
+"Tolerance is about avoiding harm.",
+"A good fluid decision requires both concepts."
+]
+}
+],
+"references": [
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Physiology, Cardiac Preload",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK541109/](https://www.ncbi.nlm.nih.gov/books/NBK541109/)",
+"supports": "Supports preload definition as ventricular stretch at end-diastole and its relationship to stroke volume through Frank-Starling physiology."
+},
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Physiology, Central Venous Pressure",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK519493/](https://www.ncbi.nlm.nih.gov/books/NBK519493/)",
+"supports": "Supports central venous pressure physiology, measurement and interpretation as right atrial pressure rather than direct blood volume."
+},
+{
+"sourceName": "Critical Care / PMC",
+"title": "Central venous pressure: we need to bring clinical use into physiological context",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC10690575/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10690575/)",
+"supports": "Supports interpreting CVP in physiological context rather than using it as an isolated volume marker."
+},
+{
+"sourceName": "Critical Care / PMC",
+"title": "Does central venous pressure predict fluid responsiveness? A systematic review of the literature and the tale of seven mares",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC2700148/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2700148/)",
+"supports": "Supports the limitation that CVP alone poorly predicts fluid responsiveness."
+},
+{
+"sourceName": "Annals of Intensive Care / PMC",
+"title": "Prediction of fluid responsiveness: an update",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC5114218/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5114218/)",
+"supports": "Supports dynamic assessment of fluid responsiveness and limitations of static preload markers."
+},
+{
+"sourceName": "Critical Care / PMC",
+"title": "Fluid responsiveness and the six guiding principles of fluid resuscitation",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC9894650/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9894650/)",
+"supports": "Supports fluid responsiveness as a physiological response and the need to consider fluid tolerance and harm."
+},
+{
+"sourceName": "Pulmonary Circulation / PMC",
+"title": "Right ventricular failure in pulmonary hypertension: diagnosis and new perspectives on vascular and direct right ventricular treatment",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC4839096/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4839096/)",
+"supports": "Supports RV failure physiology, including high right-sided pressures, RV-pulmonary vascular interaction and systemic consequences."
+},
+{
+"sourceName": "Journal of Clinical Medicine / PMC",
+"title": "Cardiac Tamponade: A Clinical Challenge",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC8109153/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8109153/)",
+"supports": "Supports tamponade physiology as impaired cardiac filling due to pericardial pressure and its haemodynamic consequences."
+}
+]
 }
