@@ -1,114 +1,796 @@
 {
-  "id": "domain1-overview",
-  "domain": "domain1",
-  "domainName": "Physiology Foundations",
-  "domainColour": "#0B5FFF",
-  "title": "Domain 1 Overview: Physiology Foundations",
-  "sections": {
-    "abridged": {
-      "content": "<h3>Domain 1 overview - what physiology is for in CTICU</h3>\n<p><strong>Physiology Foundations</strong> is the base layer for every CTICU decision. The purpose is not to memorise definitions. The purpose is to look at a fresh post-cardiac surgery patient and understand why the arterial pressure, pulse pressure, CVP, PA pressure, cardiac output, lactate, urine output, temperature, rhythm, pacing mode, ventilator settings, and venous saturation are changing.</p>\n<p>The central question is: <strong>is this patient delivering enough oxygenated blood to the tissues at an acceptable filling pressure and afterload?</strong> A normal SpO₂ does not prove oxygen delivery. A normal MAP does not prove cardiac output. A high CVP does not prove volume overload, and a low CVP does not prove the patient needs fluid. Every number is a clue inside a wider mechanical system.</p>\n<p>Domain 1 covers the cardiac cycle, cardiac output, preload, afterload, contractility, Frank-Starling physiology, oxygen delivery and consumption, and mixed venous saturations. These concepts connect directly to Domain 2 haemodynamic monitoring, Domain 4 pacing/IABP/mechanical support, Domain 5 post-operative cardiac surgery care, and Domain 6 pharmacology.</p>"
-    },
-    "expanded": {
-      "content": "<h3>Domain 1 - the CTICU haemodynamic map</h3>\n<p>A cardiothoracic ICU patient is a live physiology problem. The patient may have just returned from bypass with myocardial stunning, vasoplegia, hypothermia, bleeding risk, fluid shifts, coagulopathy, pacing wires, chest drains, ventilator effects, and new loading conditions after CABG, valve surgery, aortic surgery, or mechanical support. The bedside nurse must interpret changes quickly because deterioration can be rapid.</p>\n<p>The heart is not simply a pump that makes blood pressure. It is a pressure-generating, flow-generating, oxygen-delivery system. The right heart must accept venous return and eject through a low-pressure pulmonary circuit. The left heart must receive pulmonary venous return and eject into a high-pressure systemic circuit. The two ventricles share the septum and pericardial space, so failure of one side can compromise the other.</p>\n<p>The first anchor is the <strong>cardiac cycle</strong>. Each beat includes diastolic filling, atrial contribution, isovolumetric contraction, ejection, valve closure, relaxation, and refilling. This explains why rhythm and timing matter. A good-looking ECG does not guarantee mechanical output. A paced rhythm may capture electrically but still produce poor haemodynamics if rate, AV delay, ventricular synchrony, filling, or afterload are wrong.</p>\n<p>The second anchor is <strong>cardiac output</strong>. CO equals heart rate multiplied by stroke volume. Stroke volume is determined by preload, afterload, and contractility. A patient can have a MAP of 70 mmHg because flow is adequate, or because SVR is high and flow is poor. Therefore CTICU assessment must separate pressure from flow.</p>\n<p>The third anchor is <strong>preload</strong>. Preload is end-diastolic stretch, not total body water. CVP and PAWP are pressures, not tank gauges. They are affected by compliance, PEEP, intrathoracic pressure, RV failure, pulmonary hypertension, tamponade, and venous tone. Fluid decisions should be judged by response and tolerance, not by a single filling pressure.</p>\n<p>The fourth anchor is <strong>afterload</strong>. LV afterload is related to SVR, arterial pressure, arterial compliance, wall stress, and aortic valve function. RV afterload is related to PVR, oxygenation, PaCO₂, pH, PEEP, lung volume, and pulmonary vascular tone. This is why ventilation can be a haemodynamic intervention, especially in RV failure.</p>\n<p>The fifth anchor is <strong>contractility</strong>. Contractility is intrinsic myocardial force generation at a given preload and afterload. It may be impaired after bypass due to stunning, ischaemia-reperfusion, cardioplegia, hypothermia, acidosis, electrolyte derangement, graft issues, valve problems, or RV strain. Poor contractility is not fixed by endless fluid if the heart is already adequately filled.</p>\n<p>The sixth anchor is the <strong>Frank-Starling mechanism</strong>. A ventricle on the steep part of the curve increases stroke volume when preload increases. A ventricle on the flat part mostly increases pressure, congestion, and oedema when preload increases. CTICU patients often reach the flat part early because their ventricles are stiff, stunned, oedematous, hypertrophied, paced, afterloaded, or compressed.</p>\n<p>The final anchor is <strong>oxygen economy</strong>. Oxygen delivery depends on cardiac output, haemoglobin, and arterial saturation. Oxygen consumption rises with fever, shivering, agitation, pain, work of breathing, seizures, sepsis, and catecholamines. Mixed venous saturation tells you how much oxygen is left after tissue extraction. Lactate, urine output, mental state, skin perfusion, and acid-base status tell you whether the economy is working.</p>\n<p>The practical CTICU approach is pattern recognition with mechanism. Do not ask only whether the MAP is low. Ask whether flow is low, SVR is low, PVR is high, preload is inadequate, the ventricle is overloaded, the heart is compressed, the rhythm has removed atrial contribution, the ventricle is stunned, or oxygen demand has increased.</p>"
-    },
-    "pearls": {
-      "content": "<h3>Clinical Pearls - Domain 1 Overview</h3>\n<h4>Pearl 1 - Pressure is not perfusion</h4>\n<p>MAP is necessary but not sufficient. A vasoconstricted patient can maintain MAP while cardiac index, SvO₂, lactate, and urine output worsen.</p>\n<h4>Pearl 2 - Filling pressure is not fluid volume</h4>\n<p>CVP and PAWP are pressures shaped by compliance, ventilation, RV function, PVR, and pericardial pressure. They do not directly equal intravascular volume.</p>\n<h4>Pearl 3 - The RV and LV are different organs under different loads</h4>\n<p>The LV is built for pressure. The RV is built for low resistance. Hypoxia, hypercapnia, acidosis, and high PEEP can break the RV quickly.</p>\n<h4>Pearl 4 - Oxygen saturation is not oxygen delivery</h4>\n<p>SpO₂ can be perfect while DO₂ is poor because haemoglobin or cardiac output is low.</p>\n<h4>Pearl 5 - Treat the mechanism, not the monitor number</h4>\n<p>The same low MAP may require fluid, vasopressor, inotropy, rhythm correction, ventilation change, return to theatre, or mechanical support depending on physiology.</p>"
-    },
-    "equipment": {
-      "content": "<h3>Equipment Tie-In - Domain 1 Overview</h3>\n<p><strong>Arterial lines</strong> show pressure and waveform morphology. They do not directly show tissue flow. Damping, transducer level, waveform shape, and pulse pressure all matter.</p>\n<p><strong>CVP and PA catheters</strong> provide pressure, flow, resistance, and venous saturation data, but only if the waveform, zeroing, levelling, catheter position, and measurement technique are valid.</p>\n<p><strong>Echo</strong> connects numbers to anatomy and motion. It can show LV function, RV dilation, septal shift, tamponade, valve problems, underfilling, and congestion.</p>\n<p><strong>Ventilators</strong> influence haemodynamics through intrathoracic pressure, venous return, oxygenation, PaCO₂, pH, PEEP, and PVR.</p>\n<p><strong>Pacing boxes and IABP systems</strong> are timing devices. Their effect depends on the cardiac cycle, AV synchrony, capture, sensing, dicrotic notch timing, and ventricular loading.</p>"
-    },
-    "targets": {
-      "content": "<h3>Targets and Numbers - Domain 1 Overview</h3>\n<p>Targets must be individualised, but typical CTICU orientation values include MAP 65-85 mmHg, CI ≥2.2 L/min/m², SvO₂ 60-80% or commonly ≥65-70% if the rest of the picture agrees, urine output ≥0.5 mL/kg/hr, lactate <2 mmol/L or clearly falling, potassium often 4.0-4.5 mmol/L, magnesium ≥0.8-1.0 mmol/L, and ionised calcium around 1.1-1.3 mmol/L depending on local protocols.</p>",
-      "tables": [
-        {
-          "heading": "Domain 1 physiology map",
-          "headers": [
-            "Concept",
-            "Bedside question",
-            "Useful data",
-            "Common CTICU trap"
-          ],
-          "rows": [
-            [
-              "Cardiac cycle",
-              "Is the electrical rhythm producing useful mechanical output?",
-              "ECG, arterial waveform, pulse pressure, echo, pacing settings",
-              "Assuming organised ECG means adequate output"
-            ],
-            [
-              "Cardiac output",
-              "Is there enough forward flow?",
-              "CI, pulse pressure, lactate, UO, SvO₂, skin perfusion",
-              "Being reassured by MAP alone"
-            ],
-            [
-              "Preload",
-              "Would more filling improve stroke volume?",
-              "CVP, PAWP, echo, response to fluid, drains",
-              "Treating CVP as a volume gauge"
-            ],
-            [
-              "Afterload",
-              "Is the ventricle ejecting against too much or too little resistance?",
-              "SVR, PVR, MAP, PA pressures, echo, ventilation",
-              "Using vasopressor when high afterload is worsening flow"
-            ],
-            [
-              "Contractility",
-              "Can the myocardium generate enough force?",
-              "Echo, CI, pulse pressure, lactate, SvO₂",
-              "Giving repeated fluid to a weak full ventricle"
-            ],
-            [
-              "DO₂/VO₂",
-              "Is delivery matching demand?",
-              "CO, Hb, SpO₂, lactate, SvO₂, temperature",
-              "Thinking SpO₂ equals oxygen delivery"
-            ]
-          ]
-        }
-      ]
-    }
-  },
-  "quizQuestions": [
-    {
-      "level": "basic",
-      "question": "What is the central purpose of Domain 1 physiology in CTICU?",
-      "type": "multipleChoice",
-      "options": [
-        "To understand whether the patient is producing adequate oxygen delivery and perfusion",
-        "To memorise isolated normal values",
-        "To replace clinical assessment with monitor readings",
-        "To ignore ventilation effects on haemodynamics"
-      ],
-      "correct": 0,
-      "explanation": "The goal is mechanism-based interpretation of pressure, flow, filling, oxygen delivery, and demand so deterioration can be recognised and treated correctly."
-    },
-    {
-      "level": "reasoning",
-      "question": "Why can a normal MAP be misleading?",
-      "type": "multipleChoice",
-      "options": [
-        "Because high SVR can preserve pressure despite poor cardiac output",
-        "Because MAP never matters",
-        "Because MAP directly measures lactate",
-        "Because MAP only reflects SpO₂"
-      ],
-      "correct": 0,
-      "explanation": "MAP may be maintained by vasoconstriction even when forward flow is low. CI, lactate, urine output, pulse pressure, skin perfusion, and SvO₂ show whether perfusion is adequate."
-    },
-    {
-      "level": "expert",
-      "question": "Why are ventilator settings part of haemodynamic physiology?",
-      "type": "multipleChoice",
-      "options": [
-        "They affect venous return, RV afterload, oxygenation, PaCO₂, pH, and PVR",
-        "They only affect oxygen saturation and never circulation",
-        "They directly measure cardiac output",
-        "They prevent tamponade"
-      ],
-      "correct": 0,
-      "explanation": "Positive pressure, PEEP, oxygenation, PaCO₂, and pH all affect preload and RV afterload, especially in pulmonary hypertension or RV failure."
-    }
-  ]
+"id": "domain1-overview",
+"domain": 1,
+"domainTitle": "Physiology Foundations",
+"title": "Physiology Foundations Overview",
+"file": "overview.json",
+"sections": {
+"abridged": {
+"title": "Abridged Snapshot",
+"content": [
+{
+"type": "heading",
+"text": "Domain 1 overview: the physiology map for CT-ICU"
+},
+{
+"type": "paragraph",
+"text": "Physiology Foundations is the base layer for safe cardiothoracic ICU practice. In CT-ICU, the patient is often unstable because several systems have changed at once: the myocardium may be stunned after cross-clamp and bypass, systemic vascular resistance may be low from post-bypass vasoplegia, filling pressures may be misleading because the ventricles are stiff or externally compressed, pulmonary vascular resistance may be elevated because of hypoxia, hypercapnia, acidosis or high airway pressures, and rhythm may be mechanically ineffective even when the ECG appears organised. Domain 1 gives you the bedside framework to interpret those changes rather than treating isolated monitor numbers."
+},
+{
+"type": "paragraph",
+"text": "The central question throughout Domain 1 is: is this patient delivering enough oxygenated blood to the tissues, at an acceptable filling pressure and afterload, without injuring the heart, lungs, kidneys, brain, grafts, valves or surgical repairs? This question is deliberately broader than asking whether the blood pressure is acceptable. A mean arterial pressure of 70 mmHg can mean adequate perfusion if cardiac output is good, lactate is falling, urine output is at least 0.5 mL/kg/hr, skin is warm and SvO2 is acceptable. The same MAP can hide low cardiac output if systemic vascular resistance is high and the patient is cold, oliguric, acidotic and extracting heavily."
+},
+{
+"type": "paragraph",
+"text": "The first concept is the cardiac cycle. Each beat has a filling phase, atrial contribution, isovolumetric contraction, ventricular ejection, semilunar valve closure, isovolumetric relaxation and refilling. The ECG triggers this sequence, but pressure gradients open and close valves. The QRS does not prove forward flow. A paced QRS does not prove adequate stroke volume. A sinus rhythm does not prove the ventricles are filling or ejecting effectively. In CT-ICU, the mechanical result of each beat is read through the arterial waveform, pulse pressure, CVP trend, PA catheter data, echo, lactate, urine output and venous oxygen saturation."
+},
+{
+"type": "paragraph",
+"text": "The second concept is cardiac output. Cardiac output equals heart rate multiplied by stroke volume. Stroke volume depends on preload, afterload and contractility. Cardiac index is cardiac output corrected for body surface area; a common practical minimum target is at least 2.2 L/min/m2, with many stable adults sitting around 2.5 to 4.0 L/min/m2. Heart rate is not automatically helpful. Tachycardia can compensate for low stroke volume early, but excessive rate shortens diastole, reduces ventricular filling, reduces coronary perfusion time and raises myocardial oxygen demand. Bradycardia after surgery may require pacing if stroke volume cannot compensate."
+},
+{
+"type": "paragraph",
+"text": "The third concept is preload. Preload is end-diastolic myocardial stretch, not simply fluid volume. LVEDP, PAWP and echo help estimate left-sided filling. CVP helps estimate right-sided filling pressure, but CVP is not a tank gauge. A high CVP may mean RV failure, high PVR, tamponade, high PEEP, tension pneumothorax, tricuspid regurgitation or venous congestion. A low CVP may occur with hypovolaemia or vasodilation. The key question is whether extra preload will improve stroke volume and whether the patient can tolerate the added filling pressure."
+},
+{
+"type": "paragraph",
+"text": "The fourth concept is afterload. LV afterload is the load the LV ejects against and is approximated clinically by systemic vascular resistance, arterial pressure, aortic valve resistance, arterial compliance and wall stress. RV afterload is the load the RV ejects against and is approximated by pulmonary vascular resistance, PA pressures, oxygenation, PaCO2, pH, lung volume and PEEP. Post-bypass vasoplegia is a low-SVR problem. Pulmonary hypertension and RV failure are high-PVR problems. Aortic surgery hypertension is a high-wall-stress problem. These patterns require different responses."
+},
+{
+"type": "paragraph",
+"text": "The fifth concept is contractility and inotropy. Contractility is intrinsic myocardial force generation at a given preload and afterload. Inotropy is alteration of that force. After cardiac surgery, poor contractility may reflect myocardial stunning, ischaemia, graft compromise, valve obstruction, acidosis, hypothermia, hypocalcaemia, hyperkalaemia, hypokalaemia, hypomagnesaemia, inflammatory myocardial depression or RV strain. A weak ventricle that is already adequately filled will not be fixed by repeated fluid; it may need rhythm correction, afterload optimisation, metabolic correction, inotropy, imaging or mechanical support escalation."
+},
+{
+"type": "paragraph",
+"text": "The sixth concept is the Frank-Starling mechanism. More filling improves stroke volume only while the ventricle is on the ascending limb of the curve. Once the ventricle reaches the flat limb, fluid mainly raises CVP, PAWP, pulmonary oedema, RV dilation, hepatic congestion and renal venous congestion. Post-cardiac surgery patients often reach the flat limb early because ventricles are stiff, stunned, oedematous, hypertrophied, paced, dyssynchronous or compressed."
+},
+{
+"type": "paragraph",
+"text": "The seventh concept is oxygen delivery and consumption. Oxygen delivery depends mainly on cardiac output, haemoglobin and arterial oxygen saturation. The dissolved oxygen contribution from PaO2 is small once haemoglobin is well saturated. A patient can have SpO2 100 percent and still have inadequate oxygen delivery if haemoglobin is 70 g/L or cardiac index is 1.6 L/min/m2. Oxygen consumption rises with fever, shivering, pain, agitation, seizures, respiratory distress and catecholamine excess. During wake-up and extubation, a marginal circulation may fail because oxygen demand suddenly rises."
+},
+{
+"type": "paragraph",
+"text": "The final concept is venous oxygen saturation. SvO2 from a pulmonary artery catheter reflects the oxygen left in mixed venous blood after systemic extraction. ScvO2 from a central venous catheter is related but not identical. Low SvO2 usually means oxygen delivery is low, oxygen consumption is high, or both. High SvO2 is not always reassuring; in sepsis, microcirculatory shunting, impaired extraction, hypothermia or deep sedation, venous saturation may be high despite tissue hypoxia. SvO2 must be interpreted with lactate, cardiac output, haemoglobin, oxygenation, temperature, urine output and perfusion."
+},
+{
+"type": "remember",
+"text": "In Domain 1, no number is interpreted alone. MAP is interpreted with cardiac output and SVR. CVP is interpreted with RV function, ventilation and echo. Pulse pressure is interpreted with arterial line fidelity and stroke volume. SvO2 is interpreted with DO2, VO2 and lactate. The CT-ICU nurse uses physiology to decide what to check first, what deterioration pattern is emerging, and when escalation is urgent."
+}
+]
+},
+"expanded": {
+"title": "Expanded Deep-Dive",
+"content": [
+{
+"type": "heading",
+"text": "Why physiology matters in cardiothoracic ICU"
+},
+{
+"type": "paragraph",
+"text": "A cardiothoracic ICU patient is not simply a generic ICU patient with a sternotomy. The circulation has often been deliberately stopped, cooled, bypassed, reperfused, anticoagulated, reversed, rewarmed and surgically reconstructed. The heart may have been arrested with cardioplegia. The myocardium may be stunned. Systemic vascular tone may be profoundly altered by cardiopulmonary bypass. The patient may have pacing wires, chest drains, a pulmonary artery catheter, vasoactive infusions, residual anaesthesia, coagulopathy, hypothermia, fluid shifts, new valve loading conditions, grafts that need coronary perfusion pressure and a sternum that may hide tamponade until haemodynamics are already deteriorating."
+},
+{
+"type": "paragraph",
+"text": "Domain 1 is the mechanism layer beneath everything else. Without it, the nurse sees numbers but not the pattern. With it, the nurse can recognise that falling MAP plus rising CVP plus narrowing pulse pressure after cardiac surgery is not the same problem as falling MAP plus warm peripheries plus wide pulse pressure. The first pattern may be tamponade, RV failure, high PVR or tension physiology. The second may be vasoplegia. Both are hypotension, but the physiology and priorities are different."
+},
+{
+"type": "paragraph",
+"text": "The bedside task is not to memorise a static normal range. It is to ask what the heart and circulation are doing right now. Is the rhythm producing mechanical output? Is the ventricle filling? Is the ventricle too full? Can it generate pressure? Can it eject against the current afterload? Is the RV failing because PVR is high? Is the LV underfilled because the RV cannot deliver preload? Is the MAP acceptable only because SVR is high? Is oxygen delivery enough for oxygen demand? Is lactate rising because delivery is failing, demand is high, adrenaline is contributing, or extraction is impaired?"
+},
+{
+"type": "subheading",
+"text": "The cardiac cycle connects rhythm to mechanical output"
+},
+{
+"type": "paragraph",
+"text": "The cardiac cycle is the mechanical sequence of one heartbeat. The ECG shows electrical activation, but valves open and close according to pressure gradients. Atrial systole contributes to ventricular filling. Isovolumetric contraction generates pressure with all valves closed. Ventricular ejection creates stroke volume and the arterial waveform upstroke. Aortic valve closure produces the dicrotic notch. Isovolumetric relaxation allows ventricular pressure to fall until AV valves open and filling begins again."
+},
+{
+"type": "paragraph",
+"text": "In CT-ICU, this matters because electrical and mechanical success can diverge. A patient can have ventricular pacing spikes and broad QRS complexes but poor stroke volume. A patient can be in sinus rhythm but have severe tamponade or RV failure and therefore inadequate filling. A patient can have rapid AF and lose atrial kick, which may be catastrophic in a stiff hypertrophied LV after aortic valve surgery. A patient can have bradycardia after surgery and need temporary pacing because stroke volume cannot rise enough to preserve cardiac output."
+},
+{
+"type": "paragraph",
+"text": "For post-CABG patients, diastole is especially important because coronary perfusion occurs predominantly during diastole. Tachycardia shortens diastole, increases myocardial oxygen demand and may reduce graft and native coronary perfusion reserve. For valve patients, atrial contribution and ventricular compliance matter because pre-operative pressure or volume loading may have remodelled the ventricle. For TAVI patients, conduction disturbance and heart block can alter mechanical timing. For aortic surgery patients, hypertension during systole increases wall stress on repairs and residual aorta."
+},
+{
+"type": "diagram",
+"title": "Cardiac cycle pressure-gradient map",
+"description": "A flowchart showing electrical activation leading to pressure changes, valve opening and closure, ejection, relaxation and refilling. This diagram helps the nurse connect ECG timing to arterial waveform timing and mechanical output.",
+"layout": "flowchart",
+"elements": [
+"P wave: atrial depolarisation",
+"Atrial systole: final ventricular filling",
+"QRS: ventricular depolarisation",
+"AV valve closure: S1",
+"Isovolumetric contraction",
+"Aortic and pulmonary valve opening",
+"Ventricular ejection and arterial upstroke",
+"Aortic valve closure: dicrotic notch and S2",
+"Isovolumetric relaxation",
+"AV valve opening and ventricular filling"
+],
+"teachingPoints": [
+"Electrical activity starts the cycle but pressure gradients move the valves.",
+"A paced rhythm or organised ECG does not prove adequate stroke volume.",
+"The arterial line waveform is a mechanical trace of LV ejection and aortic valve closure."
+]
+},
+{
+"type": "subheading",
+"text": "Cardiac output connects the cardiac cycle to organ perfusion"
+},
+{
+"type": "paragraph",
+"text": "Cardiac output is the volume of blood ejected per minute. The formula is CO equals heart rate multiplied by stroke volume. Cardiac index corrects this value for body surface area. A common minimum adult target in low-output assessment is at least 2.2 L/min/m2, although a sedated patient with low demand may tolerate this better than a febrile, shivering or anaemic patient. Stable adults are often around 2.5 to 4.0 L/min/m2."
+},
+{
+"type": "paragraph",
+"text": "Stroke volume is the volume ejected per beat. It depends on preload, afterload and contractility. Heart rate determines how often that stroke volume is delivered. The problem is that heart rate and stroke volume are not independent. A rising heart rate can compensate for low stroke volume at first. Beyond a point, tachycardia shortens diastolic filling, lowers stroke volume, reduces coronary perfusion time and increases oxygen demand. The total cardiac output can fall despite a faster rate."
+},
+{
+"type": "paragraph",
+"text": "This is why post-operative AF at 140 to 160/min can destabilise a fresh valve or CABG patient. The ventricle loses atrial contribution, diastole shortens, myocardial oxygen demand rises and stroke volume falls. Conversely, bradycardia at 40 to 50/min may be poorly tolerated after cardiac surgery if stroke volume cannot increase enough to maintain cardiac output. Temporary pacing is therefore not only rhythm management; it is cardiac output management."
+},
+{
+"type": "subheading",
+"text": "Preload is filling and stretch, not simply fluid volume"
+},
+{
+"type": "paragraph",
+"text": "Preload is end-diastolic myocardial fibre stretch. Left-sided preload is approximated by LVEDV, LVEDP, PAWP or echo assessment. Right-sided preload is often approximated by CVP or right atrial pressure. These are estimates and pressures, not direct measurements of total circulating volume. A ventricle with poor compliance can have a high filling pressure at modest volume. A vasodilated patient can have reduced effective venous return despite having large total body water."
+},
+{
+"type": "paragraph",
+"text": "CVP is especially prone to misinterpretation. A CVP of 14 mmHg can be caused by RV failure, high PVR, tamponade, high PEEP, tension pneumothorax, venous congestion or tricuspid regurgitation. It does not automatically mean the patient is overfilled. A CVP of 4 mmHg can suggest low right-sided filling pressure, but fluid should still be judged by whether stroke volume increases and whether the patient can tolerate added volume."
+},
+{
+"type": "paragraph",
+"text": "Positive pressure ventilation changes preload interpretation because intrathoracic pressure is transmitted to the great veins and heart. PEEP can increase measured CVP while reducing venous return and changing transmural filling pressure. In RV failure, the CVP may be high because the RV cannot eject forward; the LV may still be underfilled because blood is not crossing the pulmonary circulation effectively."
+},
+{
+"type": "warning",
+"text": "A falling MAP with rising CVP and narrowing pulse pressure after cardiac surgery is an escalation pattern. Consider tamponade, RV failure, high PVR, tension pneumothorax, excessive PEEP or severe congestion. Do not treat this pattern as simple hypovolaemia without urgent senior review and mechanical assessment."
+},
+{
+"type": "subheading",
+"text": "Afterload separates LV problems from RV problems"
+},
+{
+"type": "paragraph",
+"text": "Afterload is the load against which a ventricle ejects. LV afterload is related to systemic vascular resistance, arterial pressure, aortic valve resistance, arterial compliance and wall stress. RV afterload is related to pulmonary vascular resistance, pulmonary artery pressure, oxygenation, PaCO2, pH, PEEP, lung volume and pulmonary vascular tone."
+},
+{
+"type": "paragraph",
+"text": "Systemic vascular resistance is commonly around 800 to 1200 dyn s/cm5. Pulmonary vascular resistance is usually below 2 Wood units or approximately 24 to 160 dyn s/cm5. The LV is designed to eject into a high-pressure systemic circuit. The RV is designed to eject into a low-pressure pulmonary circuit. Therefore, an acute rise in PVR can cause RV dilation, tricuspid regurgitation, septal shift, reduced LV filling, low cardiac output, rising CVP and hypotension."
+},
+{
+"type": "paragraph",
+"text": "Post-bypass vasoplegia is a low-SVR state. The patient may be hypotensive, warm, vasodilated and have a wide pulse pressure with normal or high cardiac output. This differs from cold low-output shock, where cardiac index is low and SVR may be high. Aortic surgery creates a different afterload concern: hypertension increases wall stress on the repair and residual aorta. RV failure creates another afterload concern: hypoxia, hypercapnia, acidosis and high PEEP may all worsen PVR and collapse forward flow."
+},
+{
+"type": "subheading",
+"text": "Contractility and inotropy explain pump failure"
+},
+{
+"type": "paragraph",
+"text": "Contractility is intrinsic myocardial force generation at a given preload and afterload. Inotropy is alteration of that force. After cardiopulmonary bypass, contractility may be impaired by myocardial stunning, ischaemia-reperfusion injury, cardioplegia, hypothermia, acidosis, electrolyte disturbance, inflammatory myocardial depression, graft compromise, valve dysfunction or RV strain."
+},
+{
+"type": "paragraph",
+"text": "Ejection fraction is useful but imperfect because it is load-dependent. A small underfilled LV may look hyperdynamic while ejecting a low absolute stroke volume. A vasodilated patient may appear to have a strong EF because afterload is low. A high-SVR patient may look worse because the ventricle cannot eject effectively against resistance. Contractility must therefore be interpreted with chamber size, stroke volume, cardiac index, filling pressures, afterload and perfusion markers."
+},
+{
+"type": "paragraph",
+"text": "Inotropes such as adrenaline, dobutamine, milrinone and levosimendan conceptually improve contractile performance through different pathways, but none should be thought of as generic blood pressure drugs. Adrenaline can increase inotropy and heart rate but can raise lactate and arrhythmia risk. Dobutamine improves beta-mediated inotropy but may reduce SVR. Milrinone improves inotropy and reduces PVR/SVR but can cause hypotension and accumulates with renal dysfunction. Levosimendan increases calcium sensitivity and may be used in selected severe ventricular dysfunction contexts depending on local availability and practice."
+},
+{
+"type": "subheading",
+"text": "Frank-Starling explains why fluid helps some patients and harms others"
+},
+{
+"type": "paragraph",
+"text": "The Frank-Starling mechanism links preload to stroke volume. On the ascending limb of the curve, more preload increases myocardial fibre stretch and improves stroke volume. On the flat limb, more preload mostly increases filling pressure without improving flow. In CT-ICU, this distinction is crucial because many post-operative hearts are stiff, oedematous, stunned, hypertrophied, paced or compressed."
+},
+{
+"type": "paragraph",
+"text": "Fluid responsiveness means stroke volume or cardiac output increases after a preload challenge, often by 10 to 15 percent depending on the method used. Fluid tolerance means the patient can safely receive the fluid without harmful congestion. A patient can be fluid responsive but not fluid tolerant. This is common in RV failure or stiff LV physiology, where added volume may raise CVP, PAWP, pulmonary oedema, RV dilation and renal venous congestion."
+},
+{
+"type": "subheading",
+"text": "Oxygen delivery and consumption define whether the physiology is adequate"
+},
+{
+"type": "paragraph",
+"text": "Oxygen delivery is calculated as cardiac output multiplied by arterial oxygen content. Arterial oxygen content depends mainly on haemoglobin and arterial oxygen saturation. The formula is CaO2 equals 1.34 multiplied by haemoglobin multiplied by SaO2, plus 0.003 multiplied by PaO2. The dissolved oxygen component from PaO2 is small once saturation is high. This is why SpO2 100 percent does not guarantee oxygen delivery if haemoglobin or cardiac output is low."
+},
+{
+"type": "paragraph",
+"text": "Oxygen consumption is the oxygen used by tissues per minute. Resting adult VO2 is roughly 200 to 250 mL/min, but it rises with fever, shivering, pain, agitation, seizures, sepsis, work of breathing and catecholamine excess. A post-cardiac surgery patient can appear stable while sedated and ventilated, then deteriorate during wake-up or extubation because VO2 rises and the heart cannot increase delivery to match demand."
+},
+{
+"type": "subheading",
+"text": "Venous oxygen saturation shows the downstream balance"
+},
+{
+"type": "paragraph",
+"text": "SvO2 is oxygen saturation in pulmonary artery blood after venous return from the whole body has mixed. It reflects the relationship between oxygen delivery and oxygen consumption. A usual range is about 60 to 80 percent, and many CT-ICU targets use at least 65 to 70 percent if the rest of the clinical picture agrees. ScvO2 is central venous oxygen saturation from the SVC or right atrial region. It is easier to obtain but is not identical to SvO2."
+},
+{
+"type": "paragraph",
+"text": "Low SvO2 usually means oxygen extraction is increased because delivery is low, demand is high or both. Common causes include low cardiac output, anaemia, hypoxaemia, shivering, fever, pain, agitation, seizures and respiratory distress. High SvO2 is not automatically reassuring. It may mean delivery is high and demand is low, but it may also mean impaired extraction, microcirculatory shunting, sepsis, mitochondrial dysfunction, hypothermia, deep sedation or sampling error."
+},
+{
+"type": "steps",
+"title": "Domain 1 bedside interpretation sequence",
+"items": [
+"Confirm the number is real. Check arterial line level and damping, CVP or PA catheter waveform, sampling source, ECG rhythm, pulse oximetry waveform and recent transducer zeroing.",
+"Separate pressure from flow. Ask whether MAP is low because cardiac output is low, SVR is low, or both. Ask whether MAP is normal only because SVR is high.",
+"Assess rhythm and mechanical timing. Look for AF, bradycardia, heart block, pacing capture, loss of AV synchrony and excessive rate.",
+"Assess preload and congestion together. Use CVP, PAWP, pulse pressure, echo, drains, oxygenation, lung mechanics, fluid balance and response to fluid.",
+"Assess afterload separately for LV and RV. Use SVR, PVR, PA pressures, MAP, diastolic pressure, oxygenation, PaCO2, pH and ventilator settings.",
+"Assess contractility. Use echo, CI, pulse pressure, lactate, SvO2, vasoactive requirement, ST changes, temperature and electrolytes.",
+"Assess oxygen economy. Review cardiac output, haemoglobin, SaO2, PaO2, lactate, SvO2 or ScvO2, temperature, shivering, work of breathing and pain.",
+"Escalate early when a dangerous pattern appears, especially low MAP with rising CVP, narrowing pulse pressure, rising lactate, falling urine output or new rhythm deterioration after cardiac surgery."
+]
+}
+]
+},
+"pearls": {
+"title": "Clinical Pearls",
+"content": [
+{
+"type": "heading",
+"text": "Clinical Pearls"
+},
+{
+"type": "pearl",
+"title": "Pearl 1: pressure is not perfusion",
+"text": "MAP is necessary, but it is not the same as cardiac output or oxygen delivery. A patient with MAP 70 mmHg, CI 3.0 L/min/m2, falling lactate, warm skin and urine output above 0.5 mL/kg/hr is very different from a patient with MAP 70 mmHg on high noradrenaline, CI 1.6 L/min/m2, rising lactate, low SvO2 and cold peripheries. The second patient has pressure support, not adequate flow."
+},
+{
+"type": "pearl",
+"title": "Pearl 2: the ECG is electrical; the arterial line is mechanical",
+"text": "An organised ECG rhythm does not prove effective ejection. The arterial line upstroke, pulse pressure and dicrotic notch provide mechanical information about LV ejection and aortic valve closure. A paced rhythm can be electrically captured but haemodynamically inadequate if rate, AV timing, ventricular synchrony, preload, afterload or contractility are poor."
+},
+{
+"type": "pearl",
+"title": "Pearl 3: CVP is a congestion clue, not a fluid instruction",
+"text": "CVP must be interpreted with RV function, PVR, ventilation, PEEP, intrathoracic pressure, tricuspid valve function and pericardial pressure. A high CVP with shock after cardiac surgery is dangerous until proven otherwise. It may indicate tamponade, RV failure, high PVR, tension pneumothorax, high PEEP or severe venous congestion."
+},
+{
+"type": "pearl",
+"title": "Pearl 4: the RV fails differently from the LV",
+"text": "The LV often fails backward into the lungs and forward into low systemic output. The RV fails into the venous system and underfills the LV. RV failure commonly shows rising CVP, hepatic congestion, renal venous congestion, RV dilation, septal shift, low CI and hypotension. Hypoxia, hypercapnia, acidosis and high PEEP are haemodynamic threats because they raise PVR."
+},
+{
+"type": "pearl",
+"title": "Pearl 5: post-bypass vasoplegia is not the same as low-output shock",
+"text": "Vasoplegia is a low-SVR distributive state after bypass. The patient may be warm, hypotensive, vasodilated, have low diastolic pressure, wide pulse pressure and normal or high cardiac output. Cold low-output shock has poor flow, often high SVR, low pulse pressure, rising lactate and falling SvO2. Treating both patterns the same way can harm the patient."
+},
+{
+"type": "pearl",
+"title": "Pearl 6: fluid responsiveness is not fluid tolerance",
+"text": "A patient may increase stroke volume after fluid but still be harmed by the added volume. This matters in RV failure, stiff LV physiology, pulmonary hypertension and post-bypass myocardial oedema. A good response is improved flow with acceptable pressure rise. A bad response is rising CVP or PAWP without better cardiac output, worsening oxygenation or increasing RV dilation."
+},
+{
+"type": "pearl",
+"title": "Pearl 7: SpO2 is not oxygen delivery",
+"text": "Oxygen delivery depends on cardiac output, haemoglobin and saturation. A patient can have SpO2 100 percent but poor delivery if CI is 1.7 L/min/m2 or haemoglobin is 70 g/L. When lactate rises and SvO2 falls despite good SpO2, look at flow, haemoglobin and oxygen demand."
+},
+{
+"type": "pearl",
+"title": "Pearl 8: high SvO2 can be bad",
+"text": "A high SvO2 may mean adequate delivery and low demand, but it may also mean impaired extraction. In sepsis, inflammatory shock, microcirculatory shunting, mitochondrial dysfunction, hypothermia or deep sedation, venous blood may return with high saturation while tissues are still hypoxic. High SvO2 plus rising lactate is not reassuring."
+},
+{
+"type": "pearl",
+"title": "Pearl 9: post-operative deterioration should be translated into a physiology pattern",
+"text": "Do not label a patient as simply hypotensive. Decide whether the pattern is vasoplegic, hypovolaemic, tamponade-like, RV failure, LV pump failure, high-afterload, rhythm-related, oxygen-delivery failure or mixed. The right escalation depends on the pattern."
+}
+]
+},
+"equipment": {
+"title": "Equipment Tie-In",
+"content": [
+{
+"type": "heading",
+"text": "Equipment Tie-In"
+},
+{
+"type": "paragraph",
+"text": "Domain 1 physiology becomes visible through CT-ICU equipment. The monitor is not just displaying numbers; it is displaying pressure, flow surrogates, rhythm timing, oxygenation, ventilation, filling pressure, extraction and device-patient interaction. The nurse must know what each device actually measures and what it only implies."
+},
+{
+"type": "subheading",
+"text": "Arterial line"
+},
+{
+"type": "paragraph",
+"text": "The arterial line measures pressure in an artery. It does not directly measure cardiac output. The upstroke reflects LV ejection, the pulse pressure reflects stroke volume and arterial compliance, the dicrotic notch reflects aortic valve closure, and the diastolic pressure contributes to coronary perfusion. A narrow pulse pressure can suggest low stroke volume, but overdamping can mimic this. A high systolic pressure with low diastolic pressure may suggest underdamping or vasoplegia depending on waveform and clinical context."
+},
+{
+"type": "table",
+"title": "Arterial waveform physiology",
+"headers": [
+"Observation",
+"Possible physiology",
+"Equipment check",
+"Clinical action focus"
+],
+"rows": [
+[
+"Slow upstroke",
+"Low contractility, low stroke volume, aortic stenosis physiology or excessive afterload",
+"Check damping, transducer level, tubing, flush test and NIBP correlation",
+"Assess CI, echo, lactate, SvO2 and valve history"
+],
+[
+"Narrow pulse pressure",
+"Low stroke volume from hypovolaemia, tamponade, LV failure, RV failure or high afterload",
+"Exclude overdamping",
+"Check drains, CVP trend, echo, lactate and urine output"
+],
+[
+"Wide pulse pressure",
+"Vasoplegia, aortic regurgitation, high output or underdamping",
+"Exclude underdamping",
+"Assess SVR, warmth, diastolic pressure and valve status"
+],
+[
+"Dicrotic notch absent",
+"Low flow, damping, low SVR or waveform artefact",
+"Perform square-wave/fast-flush assessment according to local practice",
+"Do not make IABP timing or haemodynamic conclusions until trace quality is known"
+]
+]
+},
+{
+"type": "subheading",
+"text": "CVP monitoring"
+},
+{
+"type": "paragraph",
+"text": "CVP monitoring gives right-sided pressure information. It is useful for trends, waveform interpretation and identifying venous congestion patterns. It is not a direct measure of circulating volume. CVP must be levelled, zeroed and interpreted with ventilation, PEEP, RV function and PVR. A rising CVP with falling output is more concerning than a stable CVP value outside a textbook range."
+},
+{
+"type": "subheading",
+"text": "Pulmonary artery catheter"
+},
+{
+"type": "paragraph",
+"text": "The pulmonary artery catheter connects multiple Domain 1 concepts in one device. It can provide CVP, PA pressures, PAWP, cardiac output, cardiac index, SVR, PVR and SvO2. This allows separation of preload, afterload, flow and oxygen extraction. It is valuable when used correctly, but the numbers are vulnerable to waveform error, wedging error, catheter migration, arrhythmias, severe tricuspid regurgitation, intracardiac shunts and thermodilution technique problems."
+},
+{
+"type": "subheading",
+"text": "Echo"
+},
+{
+"type": "paragraph",
+"text": "Echo is the fastest way to connect numbers to anatomy and movement. It can show LV size and systolic function, RV dilation, septal shift, valve lesions, tamponade, LV underfilling, RV pressure overload and gross volume state. When the arterial line, CVP and clinical picture do not agree, echo often clarifies the mechanism."
+},
+{
+"type": "subheading",
+"text": "Ventilator"
+},
+{
+"type": "paragraph",
+"text": "The ventilator is a haemodynamic device as well as a respiratory device. PEEP and positive pressure ventilation affect venous return, RV afterload and measured filling pressures. Hypoxia raises PVR. Hypercapnia and acidosis raise PVR and can worsen RV failure. Excessive lung volume can compress pulmonary vessels and reduce venous return. In RV-risk patients, ventilator changes can produce immediate haemodynamic consequences."
+},
+{
+"type": "subheading",
+"text": "Pacing box"
+},
+{
+"type": "paragraph",
+"text": "Temporary pacing changes heart rate, atrial contribution, AV synchrony and ventricular activation. AAI, VVI and DDD modes have different haemodynamic consequences. VVI pacing can maintain rate but lose atrial contribution. DDD pacing can restore AV synchrony if sensing and capture are correct. Rate must be high enough to support CO but not so high that diastolic filling and coronary perfusion are compromised."
+},
+{
+"type": "subheading",
+"text": "IABP"
+},
+{
+"type": "paragraph",
+"text": "The intra-aortic balloon pump is timed to the cardiac cycle. Inflation after aortic valve closure augments diastolic pressure and coronary perfusion. Deflation just before systole reduces LV afterload. Early inflation can oppose LV ejection. Late inflation loses augmentation. Late deflation increases afterload. IABP interpretation therefore requires understanding systole, diastole and the dicrotic notch."
+},
+{
+"type": "diagram",
+"title": "Monitor-to-physiology interpretation map",
+"description": "A comparison diagram linking common CT-ICU devices to the physiology they measure or infer.",
+"layout": "comparison",
+"elements": [
+"Arterial line: pressure, waveform, pulse pressure, dicrotic notch",
+"CVP: right-sided pressure and venous congestion clue",
+"PA catheter: PA pressures, PAWP, cardiac output, SVR, PVR, SvO2",
+"Echo: chamber size, contractility, RV dilation, septal shift, tamponade",
+"Ventilator: preload and PVR effects",
+"Pacing box: rate, AV synchrony, capture and mechanical timing",
+"IABP: diastolic augmentation and afterload reduction timing"
+],
+"teachingPoints": [
+"Every device measures some physiology directly and infers other physiology indirectly.",
+"When numbers conflict, check the measurement first and then use physiology to decide which pattern fits.",
+"The same MAP may mean different things depending on cardiac output, SVR and clinical perfusion."
+]
+}
+]
+},
+"targets": {
+"title": "Targets and Numbers",
+"content": [
+{
+"type": "heading",
+"text": "Targets and Numbers"
+},
+{
+"type": "paragraph",
+"text": "Domain 1 targets are not rigid universal goals. They are interpretation anchors. The correct target depends on operation type, ventricular function, bleeding risk, neurological risk, chronic hypertension, pulmonary hypertension, RV function, valve pathology and phase of recovery. However, real numbers matter because vague terms such as adequate, normal or stable are not safe enough at the bedside."
+},
+{
+"type": "targetTable",
+"title": "Core adult CT-ICU physiology targets",
+"headers": [
+"Parameter",
+"Common target or range",
+"Why it matters",
+"Escalation concern"
+],
+"rows": [
+[
+"MAP",
+"Commonly 65 to 85 mmHg",
+"Systemic perfusion pressure and coronary perfusion support",
+"MAP below 65 with rising lactate, low urine output or falling SvO2; MAP too high after aortic surgery or active bleeding"
+],
+[
+"Cardiac index",
+"At least 2.2 L/min/m2; often 2.5 to 4.0 L/min/m2 when stable",
+"Forward flow indexed to body size",
+"CI below 2.2 with poor perfusion markers suggests low-output physiology"
+],
+[
+"Urine output",
+"At least 0.5 mL/kg/hr",
+"Practical renal perfusion and congestion marker",
+"Falling urine output with low CI, rising CVP or rising lactate"
+],
+[
+"Lactate",
+"Less than 2 mmol/L or clearly falling",
+"Marker of oxygen delivery-demand mismatch or metabolic stress",
+"Rising or non-clearing lactate after initial resuscitation"
+],
+[
+"SvO2",
+"Usually 60 to 80 percent; often target at least 65 to 70 percent if context agrees",
+"Global oxygen extraction marker",
+"Low SvO2 with rising lactate; high SvO2 with rising lactate and shock"
+],
+[
+"ScvO2",
+"Often above 70 percent, but not identical to SvO2",
+"Central venous oxygen balance estimate",
+"Falling trend or mismatch with lactate/perfusion"
+],
+[
+"CVP",
+"Often 5 to 12 mmHg, highly context-dependent",
+"Right-sided pressure and congestion clue",
+"Rising CVP with falling MAP, narrowing pulse pressure or oliguria"
+],
+[
+"PAWP/PCWP",
+"Often 8 to 15 mmHg if waveform is valid",
+"Left-sided filling pressure estimate",
+"High PAWP with hypoxaemia or pulmonary oedema; low PAWP with low output and underfilling pattern"
+],
+[
+"SVR",
+"Approximately 800 to 1200 dyn s/cm5",
+"LV/systemic vascular load",
+"Low SVR with warm hypotension; high SVR with low CI and cold shock"
+],
+[
+"PVR",
+"Usually below 2 Wood units or 24 to 160 dyn s/cm5",
+"RV/pulmonary vascular load",
+"High PVR with rising CVP, RV dilation, low CI or hypoxaemia"
+],
+[
+"Potassium",
+"Often 4.0 to 4.5 mmol/L in many post-cardiac surgery practices",
+"Electrical stability and pacing/arrhythmia risk",
+"Hypokalaemia, hyperkalaemia, ventricular ectopy, AF or pacing instability"
+],
+[
+"Magnesium",
+"Often at least 0.8 to 1.0 mmol/L depending local units and policy",
+"Electrical stability and AF/VT risk reduction",
+"Low magnesium with ectopy, AF, torsades risk or refractory hypokalaemia"
+],
+[
+"Ionised calcium",
+"Often around 1.1 to 1.3 mmol/L",
+"Contractility, vascular tone and coagulation",
+"Low ionised calcium with hypotension, poor contractility or massive transfusion"
+]
+]
+},
+{
+"type": "targetTable",
+"title": "Operation-specific emphasis",
+"headers": [
+"Patient group",
+"Physiology priority",
+"Typical bedside emphasis",
+"Common trap"
+],
+"rows": [
+[
+"Post-CABG",
+"Maintain coronary and graft perfusion while avoiding tachycardia and excessive afterload",
+"Avoid sustained tachycardia; protect diastolic pressure; assess ST changes, pulse pressure, lactate and urine output",
+"Being reassured by MAP while CI and SvO2 fall"
+],
+[
+"Post-valve surgery",
+"Match preload and rhythm to altered ventricular compliance and new valve loading",
+"Preserve sinus rhythm where important; avoid severe hypertension; watch pulmonary oedema and filling pressures",
+"Underestimating the haemodynamic effect of new AF"
+],
+[
+"TAVI",
+"Watch conduction disturbance, heart block, vascular complications and LV loading changes",
+"Assess rhythm, PR/QRS changes, pacing need, BP, vascular access bleeding and neurological status",
+"Assuming a stable ECG earlier excludes later conduction deterioration"
+],
+[
+"Aortic surgery",
+"Protect the repair and residual aorta from excessive pressure and shear",
+"Avoid hypertension while maintaining organ perfusion; monitor neurological, renal and bleeding markers",
+"Treating hypertension as benign because urine output is adequate"
+],
+[
+"RV failure or pulmonary hypertension",
+"Reduce PVR and maintain RV coronary perfusion",
+"Avoid hypoxia, hypercapnia, acidosis and excessive PEEP; watch CVP, PA pressures, RV echo and CI",
+"Giving repeated fluid for hypotension while the RV dilates further"
+],
+[
+"Vasoplegia after bypass",
+"Restore vascular tone while preserving flow",
+"Look for warm hypotension, low diastolic pressure, wide pulse pressure, low SVR and normal/high CI",
+"Confusing vasoplegia with hypovolaemic low-output shock"
+],
+[
+"Tamponade",
+"Recognise impaired filling and escalate early",
+"Watch rising CVP, falling MAP, narrowing pulse pressure, low drain output from clot, oliguria and lactate rise",
+"Waiting for classic Beck triad in a ventilated post-operative patient"
+],
+[
+"Cardiogenic shock",
+"Restore forward flow and oxygen delivery",
+"Use CI, lactate, SvO2, urine output, echo, filling pressures and vasoactive dose trend",
+"Treating pressure alone while afterload worsens low output"
+]
+]
+},
+{
+"type": "steps",
+"title": "Escalation triggers using Domain 1 physiology",
+"items": [
+"Escalate urgently for falling MAP with rising CVP, narrowing pulse pressure, falling urine output or rising lactate after cardiac surgery.",
+"Escalate urgently for CI below 2.2 L/min/m2 with rising lactate, low SvO2, oliguria or cold peripheries.",
+"Escalate urgently for new rapid AF, high-grade AV block, severe bradycardia or pacing failure with haemodynamic compromise.",
+"Escalate urgently for rising PA pressures, rising CVP, RV dilation, hypoxaemia, hypercapnia or acidosis in an RV-risk patient.",
+"Escalate urgently for high or rising lactate that does not match apparently acceptable MAP or SpO2.",
+"Escalate urgently when a number does not fit the patient after equipment error has been excluded."
+]
+},
+{
+"type": "remember",
+"text": "Targets are useful only when interpreted as a pattern. A MAP target without cardiac output can hide shock. A CVP target without RV and ventilator context can mislead. An SvO2 target without lactate and extraction context can falsely reassure. A urine output target without venous congestion context can miss RV failure."
+}
+]
+}
+},
+"quiz": [
+{
+"difficulty": "Bedside Basics",
+"question": "Which statement best describes why Domain 1 physiology matters in CT-ICU?",
+"options": [
+"It helps interpret whether monitor numbers represent adequate flow, filling, resistance, contractility and oxygen delivery.",
+"It replaces the need for arterial line waveform assessment.",
+"It proves that MAP alone is enough to judge perfusion.",
+"It applies only to patients with pulmonary artery catheters."
+],
+"answer": 0,
+"explanation": "Domain 1 physiology provides the mechanism behind monitor data. CT-ICU deterioration is often a pattern involving pressure, flow, filling, resistance, rhythm, contractility and oxygen delivery. MAP alone cannot identify whether the patient has adequate cardiac output, excessive SVR, vasoplegia, tamponade, RV failure or oxygen delivery failure."
+},
+{
+"difficulty": "Bedside Basics",
+"question": "What is the basic formula for cardiac output?",
+"options": [
+"Cardiac output equals heart rate multiplied by stroke volume.",
+"Cardiac output equals MAP multiplied by CVP.",
+"Cardiac output equals haemoglobin multiplied by SpO2.",
+"Cardiac output equals SVR divided by PVR."
+],
+"answer": 0,
+"explanation": "Cardiac output equals heart rate multiplied by stroke volume. Stroke volume is determined by preload, afterload and contractility. Heart rate can compensate for low stroke volume only up to the point where diastolic filling and coronary perfusion become compromised."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "A fresh post-cardiac surgery patient has MAP 70 mmHg on escalating noradrenaline, CI 1.6 L/min/m2, cold peripheries, urine output 10 mL/hr, rising lactate and SvO2 52 percent. What is the best interpretation?",
+"options": [
+"The patient has acceptable pressure but inadequate forward flow and oxygen delivery.",
+"The patient is stable because MAP is above 65 mmHg.",
+"The patient has isolated hypoxaemia.",
+"The patient is definitely fluid overloaded."
+],
+"answer": 0,
+"explanation": "The MAP is being supported, but the cardiac index, lactate, SvO2, urine output and peripheral perfusion show inadequate forward flow and oxygen delivery. This is the classic reason pressure must be separated from flow. The next step is mechanism assessment: preload, rhythm, contractility, afterload, RV function, tamponade and oxygen demand."
+},
+{
+"difficulty": "Clinical Reasoning",
+"question": "A patient after valve surgery develops rapid AF at 150/min with falling MAP, narrowing pulse pressure and falling urine output. Which Domain 1 mechanism is most likely contributing?",
+"options": [
+"Loss of atrial kick and shortened diastolic filling time reducing stroke volume.",
+"Improved ventricular filling from irregular atrial activity.",
+"Reduced myocardial oxygen demand from tachycardia.",
+"Direct correction of LV afterload by AF."
+],
+"answer": 0,
+"explanation": "Rapid AF removes coordinated atrial systole and shortens diastole. In a stiff post-valve ventricle, atrial contribution may be important for filling. Reduced filling time and increased oxygen demand can lower stroke volume, pulse pressure, MAP and urine output."
+},
+{
+"difficulty": "Expert Level",
+"question": "Why can a high CVP with hypotension after cardiac surgery be more concerning than a low CVP?",
+"options": [
+"It may indicate obstructed filling, RV failure, high PVR, tamponade, high PEEP or tension physiology rather than simple preload deficiency.",
+"It always proves the patient needs a large fluid bolus.",
+"It proves the arterial line is underdamped.",
+"It means cardiac output is always high."
+],
+"answer": 0,
+"explanation": "A high or rising CVP with hypotension indicates high right-sided pressure with poor forward flow or impaired filling. After cardiac surgery, this can reflect tamponade, RV failure, pulmonary hypertension, high PEEP, tension pneumothorax or severe venous congestion. Repeated fluid can worsen RV dilation or congestion if the problem is not preload deficiency."
+},
+{
+"difficulty": "Expert Level",
+"question": "A patient has SpO2 100 percent, haemoglobin 72 g/L, CI 1.8 L/min/m2, rising lactate and low SvO2. What is the most accurate interpretation?",
+"options": [
+"Oxygen delivery is likely inadequate despite normal oxygen saturation.",
+"Oxygen delivery is guaranteed because SpO2 is 100 percent.",
+"The low haemoglobin is irrelevant if PaO2 is high.",
+"SvO2 cannot fall when SpO2 is normal."
+],
+"answer": 0,
+"explanation": "Oxygen delivery depends mainly on cardiac output, haemoglobin and arterial saturation. SpO2 only tells saturation. This patient has both low haemoglobin and low cardiac index, so arterial oxygen content and delivery are likely inadequate. Rising lactate and low SvO2 support oxygen delivery-demand mismatch."
+}
+],
+"diagrams": [
+{
+"type": "diagram",
+"title": "Domain 1 bedside physiology map",
+"description": "A central map showing how cardiac cycle, cardiac output, preload, afterload, contractility, Frank-Starling physiology, oxygen delivery and venous saturation connect at the bedside.",
+"layout": "flowchart",
+"elements": [
+"Cardiac cycle",
+"Heart rate and rhythm",
+"Stroke volume",
+"Preload",
+"Afterload",
+"Contractility",
+"Cardiac output",
+"Oxygen delivery",
+"Oxygen consumption",
+"SvO2 and ScvO2",
+"Lactate and urine output"
+],
+"teachingPoints": [
+"Cardiac output is generated by heart rate and stroke volume.",
+"Stroke volume is shaped by preload, afterload and contractility.",
+"Oxygen delivery fails when cardiac output, haemoglobin or saturation are inadequate for oxygen demand.",
+"Venous saturation and lactate show whether the downstream oxygen economy is under strain."
+]
+},
+{
+"type": "diagram",
+"title": "Monitor-to-physiology interpretation map",
+"description": "A comparison diagram linking CT-ICU devices to the physiology they measure or infer.",
+"layout": "comparison",
+"elements": [
+"Arterial line: MAP, pulse pressure, waveform quality, dicrotic notch",
+"CVP: right-sided filling pressure and venous congestion clue",
+"PA catheter: PA pressures, PAWP, CO, CI, SVR, PVR, SvO2",
+"Echo: chamber size, function, valves, RV dilation, septal shift, tamponade",
+"Ventilator: oxygenation, PaCO2, pH, PEEP, venous return and PVR",
+"Pacing box: rate, capture, sensing and AV synchrony",
+"IABP: diastolic augmentation and systolic afterload reduction"
+],
+"teachingPoints": [
+"Each device measures only part of the physiology.",
+"Conflicting data require equipment validation before interpretation.",
+"The best interpretation combines pressure, flow, rhythm, filling, resistance and oxygen economy."
+]
+},
+{
+"type": "diagram",
+"title": "Post-cardiac surgery instability pattern algorithm",
+"description": "A bedside algorithm that starts with hypotension or rising lactate and separates vasoplegia, low-output shock, tamponade, RV failure, hypovolaemia and oxygen-demand states.",
+"layout": "algorithm",
+"elements": [
+"Start: falling MAP, rising lactate, oliguria or falling SvO2",
+"Check measurement validity",
+"Assess pulse pressure and arterial waveform",
+"Assess CVP and PA pressures",
+"Assess rhythm and pacing",
+"Assess temperature, haemoglobin, oxygenation and ventilation",
+"Use echo for chamber size, RV function, LV function and tamponade",
+"Classify as vasoplegia, hypovolaemia, tamponade, RV failure, LV pump failure, rhythm problem or oxygen delivery-demand mismatch"
+],
+"teachingPoints": [
+"The same blood pressure can represent different shock mechanisms.",
+"Rising CVP with falling output is a high-risk post-cardiac surgery pattern.",
+"Echo and haemodynamic trends are often needed to confirm the mechanism."
+]
+}
+],
+"references": [
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Physiology, Cardiac Output",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK470455/](https://www.ncbi.nlm.nih.gov/books/NBK470455/)",
+"supports": "Defines cardiac output as heart rate multiplied by stroke volume and explains preload, afterload and contractility as stroke volume determinants."
+},
+{
+"sourceName": "NCBI Bookshelf / StatPearls",
+"title": "Physiology, Cardiovascular",
+"url": "[https://www.ncbi.nlm.nih.gov/books/NBK493197/](https://www.ncbi.nlm.nih.gov/books/NBK493197/)",
+"supports": "Supports the integrated cardiovascular physiology framework including cardiac output, stroke volume, preload, Frank-Starling law, afterload and ejection fraction."
+},
+{
+"sourceName": "Journal of Cardiothoracic and Vascular Anesthesia / PMC",
+"title": "Vasoplegia after cardiopulmonary bypass: A narrative review",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC7328055/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7328055/)",
+"supports": "Supports post-cardiopulmonary bypass vasoplegia as a clinically important low-SVR syndrome after cardiac surgery."
+},
+{
+"sourceName": "Journal of Clinical Medicine / PMC",
+"title": "Vasoplegic Syndrome after Cardiopulmonary Bypass in Cardiovascular Surgery",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC9658078/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9658078/)",
+"supports": "Supports vasoplegic syndrome incidence, risk factors and distributive shock physiology after cardiopulmonary bypass."
+},
+{
+"sourceName": "Critical Care / PMC",
+"title": "Clinical review: use of venous oxygen saturations as a goal",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC3334733/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3334733/)",
+"supports": "Supports venous oxygen saturation as a marker of the balance between oxygen delivery and oxygen demand."
+},
+{
+"sourceName": "Critical Care / PMC",
+"title": "Central and Mixed Venous O2 Saturation",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC7001812/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7001812/)",
+"supports": "Supports interpretation of SvO2 and ScvO2, including their physiological basis and limitations in critical illness."
+},
+{
+"sourceName": "Frontiers in Pediatrics / PMC",
+"title": "Definitions of low cardiac output syndrome after cardiac surgery and their effect on incidence, treatment and outcome",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC9558721/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9558721/)",
+"supports": "Supports LCOS after cardiac surgery as inadequate cardiac pump function causing reduced oxygen delivery and tissue hypoxia."
+},
+{
+"sourceName": "Journal of Clinical Monitoring and Computing / PMC",
+"title": "Hemodynamic monitoring strategies in cardiac surgery",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC12963186/](https://pmc.ncbi.nlm.nih.gov/articles/PMC12963186/)",
+"supports": "Supports the role of haemodynamic monitoring strategies in cardiac surgery, including cardiac index, stroke volume variation and perfusion markers."
+},
+{
+"sourceName": "Cardiovascular Diagnosis and Therapy / PMC",
+"title": "Contemporary Review of Hemodynamic Monitoring in Circulatory Shock",
+"url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC11588176/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11588176/)",
+"supports": "Supports haemodynamic assessment as an adjunct to physical examination and laboratory assessment in shock, including the role of pulmonary artery catheter data."
+}
+]
 }
