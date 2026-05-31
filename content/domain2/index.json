@@ -1,34 +1,34 @@
 {
-  "domain": 2,
-  "domainTitle": "Haemodynamic Monitoring",
-  "files": [
-    {
-      "file": "arterial_line_waveform_interpretation.json",
-      "title": "Arterial Line Waveform Interpretation"
-    },
-    {
-      "file": "arterial_line_damping_zeroing_and_levelling.json",
-      "title": "Arterial Line Damping, Zeroing and Levelling"
-    },
-    {
-      "file": "cvp_waveform_interpretation.json",
-      "title": "CVP Waveform Interpretation"
-    },
-    {
-      "file": "pulmonary_artery_catheter_basics.json",
-      "title": "Pulmonary Artery Catheter Basics"
-    },
-    {
-      "file": "thermodilution_cardiac_output.json",
-      "title": "Thermodilution Cardiac Output"
-    },
-    {
-      "file": "derived_haemodynamic_parameters.json",
-      "title": "Derived Haemodynamic Parameters"
-    },
-    {
-      "file": "trusting_numbers_vs_clinical_picture.json",
-      "title": "Trusting Numbers Versus the Clinical Picture"
-    }
-  ]
+    "domain": 2,
+    "domainTitle": "Haemodynamic Monitoring",
+    "files": [
+        {
+            "file": "arterial_line_waveform_interpretation.json",
+            "title": "Arterial Line Waveform Interpretation"
+        },
+        {
+            "file": "arterial_line_damping_zeroing_and_levelling.json",
+            "title": "Arterial Line Damping, Zeroing and Levelling"
+        },
+        {
+            "file": "cvp_waveform_interpretation.json",
+            "title": "CVP Waveform Interpretation"
+        },
+        {
+            "file": "pulmonary_artery_catheter_basics.json",
+            "title": "Pulmonary Artery Catheter Basics"
+        },
+        {
+            "file": "thermodilution_cardiac_output.json",
+            "title": "Thermodilution Cardiac Output"
+        },
+        {
+            "file": "derived_haemodynamic_parameters.json",
+            "title": "Derived Haemodynamic Parameters"
+        },
+        {
+            "file": "trusting_numbers_vs_clinical_picture.json",
+            "title": "Trusting Numbers Versus the Clinical Picture"
+        }
+    ]
 }

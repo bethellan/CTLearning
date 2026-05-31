@@ -7,61 +7,916 @@
   "sections": {
     "abridged": {
       "title": "Abridged Snapshot",
-      "content": "<h3>Bedside purpose</h3>\n<p>Haemodynamic numbers are decision-support, not truth. In CT-ICU, wrong numbers can come from technical error, catheter position, ventilation, rhythm, damping, levelling, zeroing and calculation assumptions. The safe nurse matches every number to the patient’s perfusion and post-operative risk.</p>\n<table><thead><tr>\n<th>Conflict</th>\n<th>Likely issue</th>\n<th>Action</th>\n</tr></thead><tbody>\n<tr>\n<td>Low arterial pressure but patient warm, awake, good urine and normal cuff</td>\n<td>Line/transducer problem possible</td>\n<td>Check waveform, level, zero, square-wave and cuff before escalating therapy if stable.</td>\n</tr>\n<tr>\n<td>Normal MAP but cool, oliguric, lactate rising</td>\n<td>Low flow masked by high SVR</td>\n<td>Escalate for low cardiac output assessment despite acceptable pressure.</td>\n</tr>\n<tr>\n<td>High CVP but dry-looking patient</td>\n<td>RV failure, tamponade, high PEEP or measurement issue</td>\n<td>Assess waveform, ventilation pressures, echo need and full haemodynamic pattern.</td>\n</tr>\n<tr>\n<td>Unexpected wedge or PA value</td>\n<td>Catheter position or wedge validity issue</td>\n<td>Check waveform, balloon status, depth and repeat/confirm before acting.</td>\n</tr>\n</tbody></table>"
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Haemodynamic monitoring is only useful when the number is technically valid, physiologically plausible and clinically consistent with the patient in front of you. In cardiothoracic ICU, a wrong number can be worse than no number because it gives false confidence. A displayed MAP of 72 mmHg can hide true shock if the arterial transducer is too low, the arterial waveform is overdamped, or the patient has high SVR with very poor cardiac output. A displayed systolic pressure of 170 mmHg can trigger inappropriate vasodilator therapy if the line is underdamped. A CVP of 18 mmHg can be useful evidence of right-sided pressure overload, tamponade or high intrathoracic pressure, but it can also be meaningless if the transducer is mallevelled, the catheter is against the vessel wall, the waveform is damped, or the value is interpreted as volume status without context."
+        },
+        {
+          "type": "keyterm",
+          "term": "Clinical correlation",
+          "definition": "The process of checking whether a haemodynamic number agrees with waveform quality, trend, patient examination, organ perfusion markers, ventilation settings, surgical context and other monitoring data."
+        },
+        {
+          "type": "keyterm",
+          "term": "Technical validity",
+          "definition": "The requirement that a pressure or flow value has been obtained from correctly set up equipment: correct transducer level, zero, damping response, catheter position, waveform quality, cable connection and monitor configuration."
+        },
+        {
+          "type": "keyterm",
+          "term": "Physiological plausibility",
+          "definition": "The requirement that the number makes sense when compared with known cardiovascular physiology. For example, low MAP with high CI and low SVR fits vasoplegia, while low MAP with low CI and high filling pressures fits pump failure or obstructive physiology."
+        },
+        {
+          "type": "paragraph",
+          "text": "A safe bedside rule is: do not trust a single number until the waveform, trend and patient agree. Check whether the arterial waveform is damped or ringing. Check whether the transducer is level with the phlebostatic axis. Check whether it has been zeroed correctly. Check whether the displayed value changed after bed movement, line access, blood sampling, patient turning, flushing, damping, arrhythmia, ventilator adjustment or vasoactive titration. Then check whether the number fits the patient: skin temperature, capillary refill, mentation if awake, urine output, lactate, base excess, chest drain output, rhythm, ECG, mixed venous saturation if available, echo findings and surgical phase."
+        },
+        {
+          "type": "warning",
+          "text": "In CTICU, a monitor value is unsafe when it is technically suspect, when it contradicts the patient, or when it is being used to justify high-risk treatment without checking the source of error. Pause before changing vasoactive drugs, giving fluid, giving blood products, calling a patient stable, or dismissing shock."
+        },
+        {
+          "type": "targetTable",
+          "title": "When to trust haemodynamic numbers",
+          "columns": [
+            "Question",
+            "Trust more when",
+            "Trust less when"
+          ],
+          "rows": [
+            [
+              "Is the arterial pressure real?",
+              "Waveform is crisp, dynamic response is acceptable, transducer is levelled and zeroed, cuff or second line broadly agrees, and patient perfusion matches.",
+              "Waveform is overdamped or underdamped, the transducer moved, the pressure changed after repositioning, or the number contradicts lactate, urine output, skin or mentation."
+            ],
+            [
+              "Is the CVP meaningful?",
+              "The waveform has identifiable a, c, v waves and descents, the transducer is levelled and zeroed, respiratory effects are considered, and trend matches right-sided physiology.",
+              "The trace is flat, damped, mallevelled, catheter position is uncertain, PEEP has changed, or the number is being used alone to decide fluid responsiveness."
+            ],
+            [
+              "Is the wedge pressure valid?",
+              "A true wedge waveform appears only with balloon inflation, PA waveform returns immediately after deflation, measurement is end-expiratory, and the value fits echo and pulmonary findings.",
+              "The catheter remains wedged after deflation, wedge pressure is unexpectedly higher than PA diastolic, balloon volume needed is unusually small, or mitral disease/large v waves/ventilation make interpretation unreliable."
+            ],
+            [
+              "Is cardiac output reliable?",
+              "Thermodilution injections are consistent, repeated values agree within about 10 percent, rhythm and respiratory variation are considered, and the trend fits perfusion.",
+              "Severe tricuspid regurgitation, intracardiac shunt, inconsistent injectate, temperature instability, arrhythmia or respiratory swings create unstable measurements."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The patient decides whether the number is clinically adequate. Good perfusion is supported by urine output at least 0.5 mL/kg/hr, improving skin perfusion, stable or improving mentation, falling lactate toward less than 2 mmol/L, improving base excess, stable rhythm, acceptable chest drain output, and mixed venous oxygen saturation usually above 60 to 65 percent when available. No single value is sufficient. A patient can have a normal MAP and still be in low-flow shock if SVR is high and cardiac output is low. A patient can have a low MAP and still have preserved flow if they are vasoplegic with high cardiac index."
+        },
+        {
+          "type": "diagram",
+          "title": "Number looks wrong bedside pathway",
+          "description": "A troubleshooting algorithm for when a haemodynamic value does not fit the patient. It separates technical checks from physiological interpretation and escalation.",
+          "layout": "algorithm",
+          "elements": [
+            "Unexpected number appears",
+            "Check patient safety first",
+            "Check waveform quality",
+            "Check transducer level and zero",
+            "Check catheter position and line setup",
+            "Compare trend and alternate measurements",
+            "Match against perfusion markers",
+            "Classify as technical error, true physiology or uncertain",
+            "Escalate if unstable or unresolved"
+          ],
+          "teachingPoints": [
+            "The first response to a surprising number is not always treatment; it is verification and patient assessment.",
+            "Technical error and true deterioration can occur together.",
+            "Escalate early when the patient is clinically deteriorating while the measurement is being checked."
+          ]
+        }
+      ]
     },
     "expanded": {
       "title": "Expanded Deep-Dive",
-      "content": "<h3>Why numbers go wrong</h3>\n<p>Technical errors include wrong levelling, failure to zero, air bubbles, clot, kinks, loose connections, damping, wrong cable, wrong monitor scale and channel mislabelling. Physiological distortions include arrhythmia, positive pressure ventilation, high PEEP, respiratory variation, ventricular interaction, altered compliance, pulmonary hypertension and valve pathology.</p>\n<p>The post-cardiac surgery patient is especially vulnerable to misleading numbers because several problems can coexist. A patient can be vasoplegic and bleeding. A patient can have RV failure and LV diastolic dysfunction. A patient can have tamponade with drains that look deceptively quiet. A patient can have acceptable MAP because noradrenaline is high while cardiac output remains poor.</p>\n<h4>Clinical perfusion markers</h4>\n<p>Skin perfusion includes warmth, colour, mottling and capillary refill. Mentation is useful once sedation is light enough; new agitation or drowsiness can be hypoperfusion, hypercapnia, stroke, delirium or drug effect. Urine output should generally be at least 0.5 mL/kg/hr. Lactate should trend down after surgery; persistent rise suggests oxygen debt or impaired clearance. Mixed venous saturation or central venous saturation helps judge oxygen delivery versus consumption but must be interpreted with Hb, SaO2, CO and metabolic state.</p>\n<h4>Trend versus single value</h4>\n<p>A single number can be noise. A trend is physiology. CVP rising from 7 to 18, pulse pressure narrowing, noradrenaline doubling and urine falling is a pattern. CI drifting from 2.5 to 1.8 with lactate increasing is a pattern. A single wedge of 24 in a coughing patient during ventilator dyssynchrony is not enough for a major decision.</p>\n<h4>Echo and chest drains</h4>\n<p>Bedside echo can confirm ventricular filling, contractility, tamponade, RV dilation and valve issues. Chest drain output gives surgical bleeding clues, but low output does not exclude tamponade because drains can block or blood can clot around the heart. Sudden haemodynamic deterioration with quiet drains is often more concerning than reassuring.</p>"
+      "content": [
+        {
+          "type": "heading",
+          "text": "Why haemodynamic numbers can be wrong"
+        },
+        {
+          "type": "paragraph",
+          "text": "Haemodynamic monitors do not measure truth directly. They measure pressure, temperature, flow estimates, electrical signals and oxygen saturation through devices that can fail, drift, move, clot, damp, resonate, disconnect or be misinterpreted. A pressure transducer converts mechanical pressure into an electrical signal, but the signal depends on a fluid-filled system that must be air-free, rigid, levelled, zeroed and dynamically responsive. A pulmonary artery catheter can provide powerful information, but the waveform must confirm the catheter position and the measurement must be made under valid conditions. Cardiac output measurements depend on technique, rhythm, valve function and temperature stability."
+        },
+        {
+          "type": "paragraph",
+          "text": "In CTICU, the risk of wrong interpretation is amplified because patients can deteriorate quickly and because interventions carry significant risk. Vasopressors change afterload and myocardial oxygen demand. Inotropes increase oxygen consumption and arrhythmia risk. Fluid can improve preload in one patient and worsen pulmonary oedema or RV dilation in another. Blood products can be lifesaving during bleeding but harmful if given for a false low pressure caused by levelling error. Antihypertensives may protect an aortic repair but can precipitate graft hypoperfusion if treating an underdamped artefact."
+        },
+        {
+          "type": "heading",
+          "text": "Technical errors"
+        },
+        {
+          "type": "subheading",
+          "text": "Levelling errors"
+        },
+        {
+          "type": "paragraph",
+          "text": "Levelling error occurs when the transducer is not at the correct vertical reference height. For routine arterial, CVP and PA pressures, the reference is the right atrium, approximated by the phlebostatic axis at the fourth intercostal space and mid-axillary line in a supine patient. A transducer below the right atrium reads falsely high. A transducer above the right atrium reads falsely low. The approximate error is 0.74 mmHg per centimetre, or 7.4 mmHg per 10 cm. This means a 20 cm height error can create nearly 15 mmHg of false pressure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Levelling error is common during real care. It occurs after bed height adjustment, head-of-bed changes, lateral turns, transfer to chair, transport, linen changes, CXR positioning, chest physiotherapy, mobilisation, proning, returning from theatre or attaching the transducer to the wrong part of the bed. If the pressure changes suddenly after repositioning, re-level before assuming the patient has changed."
+        },
+        {
+          "type": "subheading",
+          "text": "Zeroing errors"
+        },
+        {
+          "type": "paragraph",
+          "text": "Zeroing error occurs when the monitor's zero reference is incorrect. Zeroing should be performed by opening the transducer to air, closing it to the patient and pressing the monitor's zero function. If the transducer is not open to air, if the wrong channel is zeroed, if the stopcock remains off to the patient, or if the system is not reopened correctly, the displayed value may be wrong or absent. Zeroing does not correct levelling error. A transducer can be perfectly zeroed and still read falsely high or low if it is vertically misplaced."
+        },
+        {
+          "type": "subheading",
+          "text": "Damping errors"
+        },
+        {
+          "type": "paragraph",
+          "text": "Damping error changes the shape of the arterial pressure waveform and the displayed systolic and diastolic pressures. Overdamping causes a rounded low-amplitude waveform, absent dicrotic notch, falsely low systolic pressure, falsely high diastolic pressure and falsely narrow pulse pressure. Causes include air bubbles, clot, blood in tubing, catheter walling, kinked tubing, loose connection, low pressure bag or compliant tubing. Underdamping causes a tall spiky waveform with ringing, falsely high systolic pressure, falsely low diastolic pressure and falsely wide pulse pressure. Causes include resonance, excessive tubing length, multiple stopcocks, unsupported tubing and catheter whip."
+        },
+        {
+          "type": "paragraph",
+          "text": "Damping error can mimic shock profiles. Overdamping can look like low stroke volume or tamponade because the pulse pressure narrows. Underdamping can look like vasoplegia or aortic regurgitation because the pulse pressure widens. The square wave test helps classify the system. One to two oscillations after a fast flush suggests acceptable response. No oscillation suggests overdamping. More than two oscillations suggests underdamping."
+        },
+        {
+          "type": "subheading",
+          "text": "Transducer, cable and monitor setup problems"
+        },
+        {
+          "type": "paragraph",
+          "text": "The monitor can mislead if the wrong channel is labelled, the wrong scale is selected, the cable is loose, the module is not seated, the pressure bag is flat, the flush device is faulty, a stopcock is closed, or the displayed waveform is from a different line than assumed. A pressure labelled arterial may actually be a CVP or PA channel if lines were moved during setup. This risk increases during admissions from theatre, bedspace transfers, emergency line changes and multi-transducer setups. Always trace the line from patient to monitor when the number does not make sense."
+        },
+        {
+          "type": "subheading",
+          "text": "Catheter malposition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Catheter malposition changes the meaning of a number. An arterial catheter against the vessel wall may intermittently damp or flatten the waveform. A central venous catheter tip against the vessel wall may produce a poor CVP trace. A pulmonary artery catheter may migrate back into the RV, producing an RV waveform and increasing arrhythmia risk, or migrate distally into a wedged position, creating pulmonary infarction or rupture risk. A PA catheter that remains wedged after balloon deflation is an emergency equipment problem, not a value to chart calmly."
+        },
+        {
+          "type": "heading",
+          "text": "Respiratory and ventilation effects"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intrathoracic pressure affects venous return, right-sided pressures, pulmonary artery pressures, wedge pressure and arterial pulse pressure variation. Positive pressure ventilation increases intrathoracic pressure during inspiration, which can reduce venous return, alter RV afterload, change LV filling after a delay and create respiratory variation in arterial pressure. High PEEP can elevate CVP and wedge pressure even if transmural cardiac filling pressure has not increased. Spontaneous inspiratory effort can create negative intrathoracic pressure, increasing venous return and altering measured pressures in the opposite direction."
+        },
+        {
+          "type": "paragraph",
+          "text": "This matters when interpreting CVP, PAWP and fluid responsiveness. A CVP of 16 mmHg on high PEEP does not necessarily mean the patient is intravascularly overloaded. A wedge pressure measured during the wrong respiratory phase may overestimate or underestimate left-sided filling pressure. In mechanically ventilated patients, measurements are often taken at end-expiration because intrathoracic pressure is closest to baseline. In patients with active spontaneous effort, obstructive lung disease, high airway pressures, open chest physiology or marked patient-ventilator dyssynchrony, respiratory interpretation becomes more complex."
+        },
+        {
+          "type": "heading",
+          "text": "Trend versus single value"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trends are usually more useful than isolated values because CTICU patients are dynamic. A lactate of 3 mmol/L that is falling from 8 mmol/L after bypass may indicate improving perfusion or metabolic recovery. A lactate of 3 mmol/L rising from 1 mmol/L with increasing vasopressors is concerning. A CVP of 12 mmHg may be acceptable in one patient with RV dysfunction and harmful in another with LV failure and pulmonary oedema. A cardiac index of 2.1 L/min/m² may be adequate if perfusion is improving and oxygen demand is low, or inadequate if SvO2 is 48 percent, lactate is rising and urine output is falling."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trend interpretation requires stable measurement conditions. If the transducer has moved, ventilator settings changed, the patient was turned, sedation changed, rhythm changed from sinus to AF, pacing mode changed, or vasoactive drugs were altered, the trend may reflect intervention or measurement context rather than disease progression. Always ask what changed before the number changed."
+        },
+        {
+          "type": "heading",
+          "text": "Matching numbers to patient appearance"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patient appearance is not old-fashioned; it is core haemodynamic monitoring. Cold mottled skin, delayed capillary refill, weak pulses, reduced consciousness, oliguria and rising lactate indicate inadequate tissue perfusion until proven otherwise. Warm flushed skin with bounding pulses and low diastolic pressure suggests vasodilation, especially after bypass. New agitation in an awake patient may reflect pain, hypoxia, delirium or hypoperfusion. A sedated ventilated patient cannot report symptoms, so the nurse must use objective perfusion markers and subtle examination."
+        },
+        {
+          "type": "paragraph",
+          "text": "Urine output is a slow but important organ perfusion marker. A target of at least 0.5 mL/kg/hr is commonly used, but interpretation depends on chronic kidney disease, bypass time, haemolysis, nephrotoxins, diuretics, vasopressors and fluid balance. A sudden fall in urine output after initially good output is concerning when paired with low MAP, high CVP, low cardiac output, high lactate or increasing vasoactive support. It should not be dismissed as 'just kidneys' without haemodynamic assessment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lactate is a powerful trend marker but not a pure oxygen-deficit meter. After cardiac surgery, lactate may rise from hypoperfusion, catecholamines, prolonged bypass, hypothermia, impaired clearance, seizures, shivering or beta-adrenergic stimulation. The trend and context matter. A rising lactate with cold peripheries, oliguria and low cardiac output is shock until proven otherwise. A moderate lactate with warm peripheries after high-dose adrenaline may have a mixed mechanism, but still requires perfusion assessment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mixed venous oxygen saturation, when measured from a PA catheter, reflects the balance between oxygen delivery and consumption across the whole body. A low SvO2, usually below 60 percent, suggests inadequate oxygen delivery, increased oxygen consumption or both. It may fall with low cardiac output, anaemia, hypoxaemia, fever, shivering, seizures or high metabolic demand. A normal or high SvO2 does not guarantee adequate regional perfusion, especially in sepsis or microcirculatory dysfunction, but in CTICU it is useful when interpreted alongside cardiac output, haemoglobin, SaO2, lactate and temperature."
+        },
+        {
+          "type": "heading",
+          "text": "Chest drain output and post-cardiac surgery context"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chest drain output is haemodynamic data. High output may indicate surgical bleeding or coagulopathy. Sudden cessation of output in a patient with rising CVP, falling MAP and narrowing pulse pressure may indicate drain obstruction with tamponade. The drain trend must be interpreted with clot burden, tube patency, patient position, coagulation results, temperature, surgical field, blood product administration and haemodynamic profile. A patient can be bleeding significantly before haemoglobin falls because haemoglobin lags behind acute blood loss."
+        },
+        {
+          "type": "paragraph",
+          "text": "Echo findings often decide the argument when numbers and clinical picture conflict. Bedside echocardiography can assess LV function, RV dilation and function, pericardial collection, tamponade physiology, valve function, volume status patterns and gross regional wall motion abnormality. Echo is not a replacement for nursing assessment; it is a high-value escalation tool when invasive numbers are conflicting, when shock is unexplained or when post-surgical complications are suspected."
+        },
+        {
+          "type": "heading",
+          "text": "Post-cardiac surgery decision-making profiles"
+        },
+        {
+          "type": "table",
+          "title": "Numbers versus clinical pattern",
+          "columns": [
+            "Pattern",
+            "Numbers may show",
+            "Clinical appearance",
+            "Interpretation"
+          ],
+          "rows": [
+            [
+              "Vasoplegia",
+              "Low MAP, low SVR, normal or high CI, low diastolic pressure, wide pulse pressure.",
+              "Warm peripheries, bounding pulses, low diastolic pressure, often after CPB.",
+              "Pressure problem from low vascular tone; verify underdamping but avoid reflex fluid overload."
+            ],
+            [
+              "Cardiogenic shock or LCOS",
+              "Low CI, high SVR, variable MAP, rising lactate, low SvO2, narrow pulse pressure.",
+              "Cool skin, oliguria, escalating vasoactives, possible pulmonary oedema if LV failure.",
+              "Flow problem; MAP alone may look acceptable due to vasoconstriction."
+            ],
+            [
+              "Hypovolaemia or bleeding",
+              "Falling MAP, falling filling pressures, falling pulse pressure, tachycardia, increasing vasopressor need.",
+              "High drain output, cool skin, low urine output, delayed lactate clearance.",
+              "Preload loss; confirm drains, coagulation, volume response and surgical bleeding risk."
+            ],
+            [
+              "Tamponade",
+              "Rising CVP, falling MAP, narrowing pulse pressure, low CI, possible equalising diastolic pressures.",
+              "Shock, escalating vasopressors, sudden low drain output or clot concern, poor perfusion.",
+              "Obstructive shock; urgent senior and surgical review."
+            ],
+            [
+              "RV failure",
+              "High CVP, high PAP/PVR, low CI, low or normal wedge, variable MAP.",
+              "Hepatic congestion, oedema, poor urine output, hypotension, often worsened by hypoxia, hypercarbia or high PEEP.",
+              "Right-sided pump failure; fluid may worsen septal shift and TR."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "When to pause, recheck and escalate"
+        },
+        {
+          "type": "steps",
+          "title": "Practical bedside algorithm when a number looks wrong",
+          "items": [
+            "Assess immediate patient safety first: pulse, rhythm, MAP, consciousness if awake, skin, airway, ventilation, chest drains and obvious bleeding.",
+            "Check whether the number changed suddenly or gradually. Sudden changes after movement, flushing, sampling or transducer handling are more likely to include technical error.",
+            "Inspect waveform quality. For arterial pressure, look for overdamping, underdamping, dicrotic notch loss and catheter whip. For CVP or PA, confirm the waveform matches the labelled catheter position.",
+            "Check transducer level and zero. Re-level to the phlebostatic axis for routine arterial, CVP and PA pressures, then zero if required.",
+            "Trace the equipment from patient to monitor. Confirm stopcock position, pressure bag, cable, monitor channel label, tubing, air, blood, kinks and catheter site.",
+            "Compare with another measurement if available: cuff pressure, second arterial site, PA catheter values, cardiac output trend, ABG lactate, SvO2, echo or physical exam.",
+            "Classify the issue as likely technical, likely true physiology or uncertain. Technical correction is appropriate only if the patient is otherwise stable.",
+            "Escalate early if the patient has shock markers, if the measurement remains unreliable, or if the value is being used to guide high-risk treatment."
+          ]
+        },
+        {
+          "type": "diagram",
+          "title": "Technical error versus true deterioration",
+          "description": "A two-branch algorithm showing how to separate equipment error from real haemodynamic deterioration while recognising that both may coexist.",
+          "layout": "flowchart",
+          "elements": [
+            "Unexpected haemodynamic number",
+            "Patient stable and number changed after handling",
+            "Prioritise technical verification",
+            "Patient unstable or shock markers present",
+            "Treat as clinical deterioration while verifying equipment",
+            "Correct line setup if faulty",
+            "Escalate for echo, surgical review or haemodynamic intervention if deterioration persists"
+          ],
+          "teachingPoints": [
+            "Stable patient plus isolated technical trigger supports troubleshooting first.",
+            "Unstable patient plus abnormal number requires escalation while checking equipment.",
+            "Do not allow equipment troubleshooting to delay tamponade, bleeding or shock escalation."
+          ]
+        }
+      ]
     },
     "pearls": {
       "title": "Clinical Pearls",
-      "content": "<div class=\"pearl\"><p>The best CT-ICU question is: does this number explain the patient? If not, either the number is wrong or you have not found the right physiology yet.</p></div>\n<div class=\"pearl\"><p>A normal blood pressure on high-dose noradrenaline is not normal haemodynamics. Look at flow and perfusion.</p></div>\n<div class=\"pearl\"><p>A quiet chest drain in a shocked post-op patient can mean blocked drains and tamponade, not absence of bleeding.</p></div>\n<div class=\"warning\"><p>Do not wait for every number to be perfect before escalating a deteriorating cardiac surgery patient. Tamponade, graft failure, massive bleeding and RV failure are time-critical.</p></div>"
+      "content": [
+        {
+          "type": "pearl",
+          "text": "Pressure is not flow. A MAP of 70 mmHg can coexist with a cardiac index of 1.5 L/min/m² if SVR is high. This is a classic trap in low cardiac output syndrome: the number looks acceptable because the vascular system is clamped down, but oxygen delivery is inadequate. Look for cool peripheries, low urine output, rising lactate, low SvO2, narrow pulse pressure and escalating vasoactive support."
+        },
+        {
+          "type": "pearl",
+          "text": "Flow is not pressure. A vasoplegic post-bypass patient may have a MAP of 58 mmHg with a cardiac index of 3.5 L/min/m², warm peripheries and low SVR. This is not primarily a pump problem. The treatment emphasis is restoring vascular tone and adequate perfusion pressure, while avoiding unnecessary fluid loading once preload is adequate."
+        },
+        {
+          "type": "pearl",
+          "text": "Chest drains are haemodynamic monitors. A rising drain output with hypotension suggests blood loss. A sudden fall in drain output with rising CVP, narrowing pulse pressure and shock suggests possible clot obstruction and tamponade. Charting the number is not enough; the character, trend, tube patency and haemodynamic response matter."
+        },
+        {
+          "type": "pearl",
+          "text": "The monitor often lies after movement. If pressure changes immediately after turning, sitting up, changing bed height or transport, suspect transducer height error before assuming physiology. A 20 cm transducer error is about 15 mmHg, enough to change vasoactive decisions."
+        },
+        {
+          "type": "pearl",
+          "text": "A wedge pressure is not automatically LVEDP. It may approximate left atrial pressure and LV filling pressure only when the catheter is correctly positioned, the balloon occlusion is valid, the measurement is made correctly, and pulmonary venous and mitral valve conditions permit interpretation. Severe mitral regurgitation, mitral stenosis, large v waves, high PEEP, poor zone position or overwedging can mislead."
+        },
+        {
+          "type": "pearl",
+          "text": "CVP is not volume status. CVP is pressure. A high CVP may reflect volume overload, RV failure, pulmonary hypertension, tamponade, high PEEP, tension pneumothorax, severe tricuspid regurgitation or transducer error. A low CVP may reflect low preload, vasodilation, measurement error or intrathoracic pressure context. Fluid responsiveness requires a response in stroke volume or cardiac output, not a CVP number alone."
+        },
+        {
+          "type": "pearl",
+          "text": "A normal lactate does not always mean the patient is safe, and a raised lactate does not always mean pure hypoxic shock. Lactate may lag behind deterioration or recovery, and after cardiac surgery it can be affected by catecholamines, bypass, temperature and clearance. The safest interpretation is trend plus perfusion markers plus haemodynamic profile."
+        },
+        {
+          "type": "pearl",
+          "text": "SvO2 is a balance signal. A low mixed venous saturation means oxygen extraction is high relative to delivery, often because cardiac output, haemoglobin or arterial oxygen saturation is inadequate, or because oxygen consumption is high. A high SvO2 can occur with good delivery, but also with impaired extraction or distributive physiology. It is powerful when interpreted with cardiac output, Hb, SaO2, temperature and lactate."
+        },
+        {
+          "type": "pearl",
+          "text": "The first four hours after cardiac surgery are a high-risk period for false reassurance. The patient may be sedated, ventilated, vasoconstricted, cold, paced and unable to show obvious symptoms. Nursing pattern recognition is essential: waveform changes, drain output, lactate trend, temperature, rhythm, pacing capture, urine output and vasoactive trend may identify deterioration before a single value becomes dramatic."
+        },
+        {
+          "type": "warning",
+          "text": "Do not spend several minutes troubleshooting an arterial line in an unstable post-cardiac surgery patient without escalating. You can check level, zero and waveform quickly, but falling MAP, rising CVP, low pulse pressure, rising lactate, oliguria, new ECG changes or major drain concerns require urgent clinical review while the equipment is being checked."
+        },
+        {
+          "type": "remember",
+          "text": "The safest question is not 'what does the monitor say?' It is 'does the monitor make sense for this operation, this rhythm, this waveform, this ventilation setting, this lactate, this urine output, this drain output and this patient?'"
+        }
+      ]
     },
     "equipment": {
       "title": "Equipment Tie-In",
-      "content": "<h3>Equipment tie-in</h3>\n<p>For nurse-technician work, the priority is to make hidden technical error visible. Correct labelling, cable integrity, pressure bag inflation, waveform scale, transducer position and line security prevent false clinical conclusions.</p>"
+      "content": [
+        {
+          "type": "heading",
+          "text": "Equipment checks that protect clinical decisions"
+        },
+        {
+          "type": "paragraph",
+          "text": "When a haemodynamic value looks wrong, equipment assessment must be fast and structured. The goal is not to fiddle with lines; it is to determine whether the number is safe enough to guide treatment. For arterial pressure, this means waveform morphology, damping, zeroing, levelling, pressure bag, tubing, catheter site and monitor channel. For CVP, it means waveform recognition, transducer level, respiratory phase, line position, stopcock position and flush patency. For PA catheter values, it means verifying that the waveform matches the catheter location, the balloon is deflated except during wedge measurement, and the catheter has not migrated."
+        },
+        {
+          "type": "steps",
+          "title": "Universal haemodynamic number verification",
+          "items": [
+            "Confirm the patient first: airway, breathing, circulation, rhythm, visible bleeding, drain output and level of consciousness if awake.",
+            "Confirm the monitor label matches the line: ART is arterial, CVP is central venous, PAP is pulmonary artery, PAOP or wedge is not displayed continuously.",
+            "Trace the line from patient to monitor to confirm the catheter, tubing, transducer and cable are connected as assumed.",
+            "Check transducer level at the correct reference point and correct it before interpreting pressure.",
+            "Check zeroing if the setup was changed, disconnected, recently moved or reading inconsistently.",
+            "Inspect waveform quality and scale. A poor scale can make waves appear absent or exaggerated.",
+            "Check stopcock direction, pressure bag inflation, air bubbles, blood in tubing, kinks, loose caps and line contamination.",
+            "Compare to another source if available: cuff pressure, second arterial line, clinical pulse, PA values, echo or blood gas markers.",
+            "Decide whether the measurement is reliable enough to guide treatment, or whether escalation and alternate monitoring are required."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Arterial line equipment traps"
+        },
+        {
+          "type": "table",
+          "title": "Arterial number looks wrong",
+          "columns": [
+            "Problem",
+            "Equipment cause",
+            "Clinical risk",
+            "Action"
+          ],
+          "rows": [
+            [
+              "MAP unexpectedly high after bed lowered",
+              "Transducer is now below right atrial level.",
+              "False reassurance; real hypotension may be missed.",
+              "Re-level transducer and reassess before reducing support."
+            ],
+            [
+              "MAP unexpectedly low after sitting patient up",
+              "Transducer may be above right atrial level.",
+              "Unnecessary vasopressor or fluid therapy.",
+              "Re-level to phlebostatic axis and confirm waveform."
+            ],
+            [
+              "Systolic pressure very high with spiky trace",
+              "Underdamping or catheter whip.",
+              "Unnecessary antihypertensive therapy, especially dangerous after aortic surgery.",
+              "Perform square wave test, secure tubing and compare cuff or second line."
+            ],
+            [
+              "Pulse pressure narrow with rounded trace",
+              "Overdamping from air, clot, kink, blood or catheter position.",
+              "False low-stroke-volume interpretation or missed true deterioration.",
+              "Troubleshoot line while assessing patient for bleeding, tamponade and low output."
+            ],
+            [
+              "Waveform flat after sampling",
+              "Stopcock left off to patient or line clotted.",
+              "Loss of continuous pressure monitoring and possible delayed recognition of shock.",
+              "Check stopcock position, flush function and catheter patency immediately."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "CVP and PA catheter equipment traps"
+        },
+        {
+          "type": "table",
+          "title": "Right-sided pressure number looks wrong",
+          "columns": [
+            "Finding",
+            "Likely issue",
+            "Action"
+          ],
+          "rows": [
+            [
+              "CVP waveform flat or featureless",
+              "Line damping, catheter against vessel wall, stopcock issue, wrong scale or transducer/cable fault.",
+              "Check line setup, scale, flush, stopcocks, transducer and patient position before interpreting the value."
+            ],
+            [
+              "CVP rises suddenly after PEEP increase",
+              "Intrathoracic pressure effect may elevate measured pressure.",
+              "Interpret with ventilation settings, oxygenation, RV function, urine output and perfusion rather than treating the CVP alone."
+            ],
+            [
+              "PA waveform looks like RV waveform",
+              "PA catheter may have migrated back into the RV.",
+              "Escalate because RV positioning increases arrhythmia risk and invalidates PA pressure interpretation."
+            ],
+            [
+              "Persistent wedge waveform when balloon is deflated",
+              "Catheter may be too distal or wedged.",
+              "Treat as urgent. Do not leave catheter wedged. Escalate for repositioning because pulmonary infarction or rupture risk exists."
+            ],
+            [
+              "Wedge pressure does not fit echo or oxygenation",
+              "Invalid wedge, overwedge, large v waves, mitral disease, respiratory artefact or wrong measurement phase.",
+              "Repeat only if clinically required and safe, measure at end-expiration, confirm waveform and escalate for echo correlation."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Thermodilution and cardiac output reliability"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cardiac output values must be treated as measured estimates, not unquestionable facts. Intermittent thermodilution depends on consistent injectate volume, temperature, injection speed and timing. Ideally, several measurements are obtained and averaged when they are close, commonly within about 10 percent. Severe tricuspid regurgitation, intracardiac shunt, arrhythmia, temperature instability, rapid infusions through the proximal port, inconsistent technique and respiratory variation can produce unreliable values."
+        },
+        {
+          "type": "paragraph",
+          "text": "Continuous cardiac output systems trend changes over time but are not instant. They can lag behind sudden haemodynamic deterioration. If the patient acutely deteriorates, do not wait for the continuous cardiac output number to catch up. Assess waveform, arterial pressure, rhythm, perfusion, lactate, echo and manual thermodilution if appropriate."
+        },
+        {
+          "type": "steps",
+          "title": "When to pause before acting on a number",
+          "items": [
+            "Pause if the number has changed suddenly without a matching patient change.",
+            "Pause if the waveform is poor, damped, ringing or labelled incorrectly.",
+            "Pause if the transducer was recently moved or the patient position changed.",
+            "Pause if the value conflicts with lactate, urine output, skin perfusion or SvO2.",
+            "Pause if the intervention would be high risk, such as major vasodilator escalation after aortic surgery or fluid loading in RV failure.",
+            "Do not pause silently if the patient is unstable. Recheck while escalating."
+          ]
+        },
+        {
+          "type": "diagram",
+          "title": "Haemodynamic equipment verification checklist",
+          "description": "A practical checklist-style diagram linking each haemodynamic value to its essential equipment checks before treatment decisions.",
+          "layout": "algorithm",
+          "elements": [
+            "Arterial pressure: waveform, damping, level, zero, cuff comparison",
+            "CVP: waveform, level, respiratory phase, catheter position",
+            "PAP: waveform location, migration check, balloon deflated",
+            "Wedge: waveform, end-expiration, balloon safety, PA return",
+            "Cardiac output: repeatability, technique, rhythm, valve/shunt limitations",
+            "Clinical match: skin, urine, lactate, SvO2, drains, echo"
+          ],
+          "teachingPoints": [
+            "Each number has a specific failure mode.",
+            "Equipment validation should be linked to the treatment decision being made.",
+            "When equipment and patient disagree, escalate rather than guessing."
+          ]
+        }
+      ]
     },
     "targets": {
       "title": "Targets and Numbers",
-      "content": "<table><thead><tr>\n<th>Clinical marker</th>\n<th>Target/threshold</th>\n<th>Why it matters</th>\n</tr></thead><tbody>\n<tr>\n<td>Urine output</td>\n<td>>0.5 mL/kg/hr</td>\n<td>Low output is an early sign of inadequate renal perfusion or congestion.</td>\n</tr>\n<tr>\n<td>Lactate</td>\n<td><2 mmol/L or falling trend</td>\n<td>Rising lactate suggests oxygen debt, low output, sepsis, bleeding or impaired clearance.</td>\n</tr>\n<tr>\n<td>MAP</td>\n<td>Usually 65-80 mmHg, higher if ordered</td>\n<td>Pressure target must match perfusion and surgical context.</td>\n</tr>\n<tr>\n<td>SvO2</td>\n<td>Usually 60-80%</td>\n<td>Low suggests inadequate oxygen delivery or high consumption; high can be sepsis/shunting or impaired extraction.</td>\n</tr>\n<tr>\n<td>Chest drains</td>\n<td>Concern often >100-150 mL/hr early or sudden increase; local surgical thresholds vary</td>\n<td>High output suggests bleeding; sudden low output with shock may suggest blockage/tamponade.</td>\n</tr>\n<tr>\n<td>Capillary refill</td>\n<td>Usually <2-3 sec</td>\n<td>Delayed refill suggests poor peripheral perfusion, vasoconstriction or shock.</td>\n</tr>\n</tbody></table>"
+      "content": [
+        {
+          "type": "heading",
+          "text": "Perfusion targets that help decide whether numbers are believable"
+        },
+        {
+          "type": "paragraph",
+          "text": "Haemodynamic targets are not isolated goals. The goal is adequate oxygen delivery and organ perfusion with protection of the surgical repair. The following values are common adult CTICU reference targets, but they must be individualised to operation, ventricular function, chronic blood pressure, bleeding risk, aortic pathology and medical orders. A value outside target should trigger interpretation, not automatic treatment."
+        },
+        {
+          "type": "targetTable",
+          "title": "Core bedside perfusion markers",
+          "columns": [
+            "Marker",
+            "Usual target or concerning threshold",
+            "How to interpret"
+          ],
+          "rows": [
+            [
+              "MAP",
+              "Usually at least 65 mmHg; many CTICU patients target 65 to 80 mmHg; aortic surgery may have tighter systolic targets.",
+              "Pressure target must be interpreted with cardiac output, urine output, lactate, skin and surgical context."
+            ],
+            [
+              "Urine output",
+              "Usually at least 0.5 mL/kg/hr; often approximately 30 mL/hr minimum in an average adult.",
+              "Low urine output with hypotension, high CVP, rising lactate or low CI suggests haemodynamic compromise until proven otherwise."
+            ],
+            [
+              "Lactate",
+              "Less than 2 mmol/L is generally reassuring; rising above 2 mmol/L is concerning; trend is more important than one value.",
+              "After cardiac surgery lactate can be hypoxic or non-hypoxic, but rising lactate with poor perfusion signs is shock until proven otherwise."
+            ],
+            [
+              "SvO2",
+              "Usually 60 to 80 percent; less than 60 percent suggests oxygen delivery may be inadequate or oxygen consumption excessive.",
+              "Interpret with cardiac output, haemoglobin, SaO2, temperature, shivering, sepsis and lactate."
+            ],
+            [
+              "Capillary refill",
+              "Less than 3 seconds is generally reassuring; greater than 3 seconds is concerning.",
+              "Useful trend marker but affected by temperature, vasopressors, peripheral vascular disease and ambient conditions."
+            ],
+            [
+              "Skin perfusion",
+              "Warm and well perfused is reassuring; cool, mottled or clammy skin is concerning.",
+              "Cool skin with normal MAP may indicate high-SVR low-flow shock."
+            ],
+            [
+              "Base excess",
+              "Worsening negative base excess suggests metabolic debt.",
+              "Interpret with lactate, renal function, chloride load, bicarbonate therapy and perfusion state."
+            ],
+            [
+              "Chest drain output",
+              "Unit thresholds vary; sudden high output, persistent bleeding or sudden cessation with shock is concerning.",
+              "Use trend and haemodynamic context. Sudden cessation with rising CVP and falling MAP may indicate tamponade."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Numbers that should trigger recheck before treatment"
+        },
+        {
+          "type": "targetTable",
+          "title": "Recheck thresholds",
+          "columns": [
+            "Value or pattern",
+            "Why it may be wrong",
+            "What to check"
+          ],
+          "rows": [
+            [
+              "MAP changes by more than 10 mmHg immediately after position change",
+              "Transducer height likely changed or venous return changed.",
+              "Re-level transducer, check zero if required, reassess waveform and patient."
+            ],
+            [
+              "Pulse pressure less than 20 to 25 mmHg",
+              "May be true low stroke volume or overdamped arterial line.",
+              "Check square wave response, drains, CVP/PAP, cardiac output, rhythm, lactate and skin."
+            ],
+            [
+              "Pulse pressure greater than 60 mmHg",
+              "May be vasoplegia, aortic regurgitation or underdamped arterial line.",
+              "Check dynamic response, valve context, SVR, diastolic pressure, cuff and clinical perfusion."
+            ],
+            [
+              "CVP suddenly rises by more than 5 mmHg",
+              "May be RV failure, tamponade, tension physiology, high PEEP, catheter issue or levelling error.",
+              "Check waveform, transducer level, ventilation, PAP, drain output, echo need and patient perfusion."
+            ],
+            [
+              "Wedge pressure higher than PA diastolic without explanation",
+              "Possible overwedge, large v wave, waveform error or measurement artefact.",
+              "Confirm waveform, balloon deflation, PA return, end-expiratory measurement and echo correlation."
+            ],
+            [
+              "Cardiac output changes abruptly without clinical change",
+              "Thermodilution technique, rhythm, injectate, temperature or catheter issue.",
+              "Repeat measurements, check technique, rhythm, waveform and trend."
+            ],
+            [
+              "SvO2 less than 60 percent",
+              "May reflect low oxygen delivery, anaemia, hypoxaemia, low CO or high oxygen consumption.",
+              "Check Hb, SaO2, cardiac output, temperature, shivering, lactate and perfusion."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Post-cardiac surgery pattern table"
+        },
+        {
+          "type": "targetTable",
+          "title": "Clinical pattern targets by condition",
+          "columns": [
+            "Condition",
+            "Expected or concerning pattern",
+            "Do not be fooled by"
+          ],
+          "rows": [
+            [
+              "Stable post-CABG",
+              "MAP 65 to 80 mmHg, urine output at least 0.5 mL/kg/hr, falling lactate, stable rhythm, acceptable drain output, warm or improving peripheries.",
+              "A normal MAP with rising lactate and oliguria; this may be low-flow shock with high SVR."
+            ],
+            [
+              "Post-valve or TAVI",
+              "Pressure target depends on valve, ventricular function and rhythm; waveform changes must be linked to echo and clinical state.",
+              "Wide pulse pressure from underdamping being mistaken for aortic regurgitation, or delayed upstroke from overdamping being mistaken for valve obstruction."
+            ],
+            [
+              "Aortic surgery",
+              "Systolic target often tightly controlled, commonly around 100 to 120 mmHg depending on order; MAP must still support perfusion.",
+              "Underdamped systolic overshoot leading to unnecessary vasodilation."
+            ],
+            [
+              "Vasoplegia",
+              "Low SVR, low diastolic pressure, wide pulse pressure, normal or high CI, warm peripheries.",
+              "Repeated fluid boluses when preload is adequate and the primary problem is vascular tone."
+            ],
+            [
+              "Cardiogenic shock or LCOS",
+              "Low CI, low SvO2, rising lactate, oliguria, cool skin, narrow pulse pressure, often high SVR.",
+              "Acceptable MAP caused by compensatory vasoconstriction."
+            ],
+            [
+              "Tamponade",
+              "Rising CVP, falling MAP, narrowing pulse pressure, low CI, escalating vasopressors, falling drain output or clot concern.",
+              "Absence of classic Beck's triad in sedated ventilated post-sternotomy patients."
+            ],
+            [
+              "RV failure",
+              "High CVP, high PAP/PVR, low CI, low or normal wedge, hypotension, oliguria and possible worsening with hypoxia or high PEEP.",
+              "Treating high CVP as fluid overload only, or treating hypotension with repeated fluid despite worsening RV dilation."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Escalation thresholds"
+        },
+        {
+          "type": "table",
+          "title": "When to escalate rather than keep troubleshooting",
+          "columns": [
+            "Trigger",
+            "Concern",
+            "Escalation action"
+          ],
+          "rows": [
+            [
+              "MAP less than 60 to 65 mmHg with shock signs",
+              "True hypoperfusion, bleeding, low output, vasoplegia, tamponade or measurement failure.",
+              "Call senior nurse and medical team while verifying waveform, level and zero."
+            ],
+            [
+              "Rising lactate above 2 mmol/L with worsening trend",
+              "Increasing metabolic stress or tissue hypoperfusion.",
+              "Review haemodynamic profile, cardiac output, Hb, oxygenation, temperature, drains and echo need."
+            ],
+            [
+              "Urine output less than 0.5 mL/kg/hr with haemodynamic instability",
+              "Renal hypoperfusion, low output, venous congestion, tamponade or AKI.",
+              "Escalate and assess MAP, CVP, PA pressures, fluid balance, rhythm, nephrotoxins and perfusion."
+            ],
+            [
+              "New cool mottled skin or delayed capillary refill greater than 3 seconds",
+              "Low flow or excessive vasoconstriction.",
+              "Assess CI, SVR, lactate, SvO2, rhythm, temperature and vasoactive plan."
+            ],
+            [
+              "Sudden drain cessation with rising CVP and falling MAP",
+              "Possible tamponade from clot obstruction.",
+              "Urgent senior and surgical escalation. Do not wait for classic signs."
+            ],
+            [
+              "PA catheter waveform remains wedged after balloon deflation",
+              "Distal migration or persistent occlusion with pulmonary injury risk.",
+              "Escalate immediately for catheter repositioning and avoid further balloon inflation."
+            ],
+            [
+              "Numbers conflict and high-risk treatment is being considered",
+              "Potential treatment based on false data.",
+              "Pause, verify monitoring system, obtain corroborating data and involve senior decision-makers."
+            ]
+          ]
+        },
+        {
+          "type": "remember",
+          "text": "Targets are endpoints, not autopilot commands. Treat the pattern: pressure, flow, resistance, filling pressures, oxygen delivery, drains, rhythm, echo and patient examination."
+        },
+        {
+          "type": "escalation",
+          "text": "In the post-cardiac surgery patient, escalate early for any unresolved discrepancy between monitor values and patient condition. The highest-risk discrepancies are normal MAP with worsening perfusion, high CVP with shock, narrow pulse pressure with falling drain output, high systolic pressure with underdamped waveform after aortic surgery, and low cardiac output values that do not match the apparent pressure."
+        }
+      ]
     }
   },
   "quiz": [
     {
-      "difficulty": "Clinical Reasoning",
-      "question": "A post-CABG patient has MAP 72 on high-dose noradrenaline, cool mottled legs, urine 5 mL/hr and lactate rising. What should you do with the 'normal' MAP?",
+      "difficulty": "Bedside Basics",
+      "question": "Which statement best describes a safe approach to haemodynamic numbers?",
       "options": [
-        "Accept it as reassuring",
-        "Treat it as incomplete because perfusion markers suggest shock",
-        "Ignore lactate until morning",
-        "Turn off arterial alarms"
+        "A monitor number is always more reliable than the patient examination.",
+        "A single normal MAP proves tissue perfusion is adequate.",
+        "A number should be checked against waveform quality, trend and the clinical picture.",
+        "CVP alone determines whether the patient needs fluid."
       ],
-      "answer": 1,
-      "explanation": "MAP alone is not flow. High SVR/pressor can preserve pressure while cardiac output and tissue perfusion are poor."
+      "answer": 2,
+      "explanation": "Haemodynamic values must be technically valid and clinically consistent. Waveform quality, level, zero, trend, perfusion markers, ventilation, surgical context and patient examination all affect interpretation."
+    },
+    {
+      "difficulty": "Bedside Basics",
+      "question": "A transducer positioned below the right atrium will cause which pressure error?",
+      "options": [
+        "Displayed pressure falsely high",
+        "Displayed pressure falsely low",
+        "Only systolic pressure changes and MAP is impossible to affect",
+        "Only heart rate changes"
+      ],
+      "answer": 0,
+      "explanation": "If the transducer is below the right atrium, hydrostatic pressure from the fluid column makes the displayed pressure falsely high. If it is above the right atrium, the displayed pressure is falsely low."
     },
     {
       "difficulty": "Clinical Reasoning",
-      "question": "Which is the safest response to a surprising haemodynamic number?",
+      "question": "A post-CABG patient has MAP 72 mmHg but cold mottled peripheries, urine output 10 mL/hr, lactate rising from 2 to 5 mmol/L and cardiac index 1.6 L/min/m². What is the best interpretation?",
       "options": [
-        "Act immediately on the number alone",
-        "Check the patient, waveform, setup and independent markers",
-        "Ignore all invasive monitoring",
-        "Only use cuff BP"
+        "The patient is adequately perfused because MAP is above 65 mmHg.",
+        "This may be low-flow shock despite acceptable pressure.",
+        "This is definitely a transducer levelling error only.",
+        "This pattern proves vasoplegia with preserved flow."
       ],
       "answer": 1,
-      "explanation": "Safe practice matches the number to clinical perfusion and verifies technical setup."
+      "explanation": "Pressure is not flow. A normal or acceptable MAP can be maintained by high SVR while cardiac output and oxygen delivery are inadequate. The poor perfusion markers and low CI suggest low-flow shock."
     },
     {
       "difficulty": "Clinical Reasoning",
-      "question": "Quiet chest drains in a hypotensive post-cardiac surgery patient should be interpreted how?",
+      "question": "A post-bypass patient has MAP 58 mmHg, cardiac index 3.6 L/min/m², low SVR, warm peripheries and wide pulse pressure. What pattern best fits?",
       "options": [
-        "Always reassuring",
-        "Possible blocked drains/tamponade if shock signs are present",
-        "Proof there is no bleeding",
-        "Only a documentation issue"
+        "Vasoplegia",
+        "Tamponade",
+        "Severe LV failure with pulmonary oedema",
+        "Catheter wedged in the pulmonary artery"
+      ],
+      "answer": 0,
+      "explanation": "Low MAP with preserved or high cardiac index, low SVR, warm peripheries and wide pulse pressure is typical of vasoplegia after bypass. Underdamping should still be excluded if the waveform is spiky or ringing."
+    },
+    {
+      "difficulty": "Expert Level",
+      "question": "Which combination is most concerning for post-cardiac surgery tamponade?",
+      "options": [
+        "Low CVP, high drain output, warm peripheries and high cardiac index",
+        "Rising CVP, falling MAP, narrowing pulse pressure, escalating vasopressors and sudden drain cessation",
+        "Low SVR, wide pulse pressure and falling vasopressor requirement",
+        "Normal urine output, falling lactate and stable rhythm"
       ],
       "answer": 1,
-      "explanation": "Blood may clot in the mediastinum or drains may block, so low output does not exclude tamponade."
+      "explanation": "Tamponade often presents as obstructive shock with rising filling pressures, falling pressure and output, narrowing pulse pressure and increasing vasoactive requirement. Sudden reduction in drain output may indicate clot obstruction rather than absence of bleeding."
+    },
+    {
+      "difficulty": "Expert Level",
+      "question": "A PA catheter shows persistent wedge waveform after balloon deflation. What is the safest action?",
+      "options": [
+        "Chart the wedge pressure hourly because it is useful continuous data.",
+        "Inflate the balloon further to improve the waveform.",
+        "Treat it as urgent catheter malposition or persistent wedging and escalate for repositioning.",
+        "Ignore it if the arterial MAP is normal."
+      ],
+      "answer": 2,
+      "explanation": "Persistent wedge waveform after balloon deflation suggests the catheter may be too distal or still occluding a pulmonary artery branch. This creates pulmonary infarction or rupture risk and requires urgent escalation and repositioning."
+    }
+  ],
+  "diagrams": [
+    {
+      "type": "diagram",
+      "title": "Number looks wrong bedside pathway",
+      "description": "A troubleshooting algorithm for when a haemodynamic value does not fit the patient. It separates technical checks from physiological interpretation and escalation.",
+      "layout": "algorithm",
+      "elements": [
+        "Unexpected number appears",
+        "Check patient safety first",
+        "Check waveform quality",
+        "Check transducer level and zero",
+        "Check catheter position and line setup",
+        "Compare trend and alternate measurements",
+        "Match against perfusion markers",
+        "Classify as technical error, true physiology or uncertain",
+        "Escalate if unstable or unresolved"
+      ],
+      "teachingPoints": [
+        "The first response to a surprising number is not always treatment; it is verification and patient assessment.",
+        "Technical error and true deterioration can occur together.",
+        "Escalate early when the patient is clinically deteriorating while the measurement is being checked."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Technical error versus true deterioration",
+      "description": "A two-branch algorithm showing how to separate equipment error from real haemodynamic deterioration while recognising that both may coexist.",
+      "layout": "flowchart",
+      "elements": [
+        "Unexpected haemodynamic number",
+        "Patient stable and number changed after handling",
+        "Prioritise technical verification",
+        "Patient unstable or shock markers present",
+        "Treat as clinical deterioration while verifying equipment",
+        "Correct line setup if faulty",
+        "Escalate for echo, surgical review or haemodynamic intervention if deterioration persists"
+      ],
+      "teachingPoints": [
+        "Stable patient plus isolated technical trigger supports troubleshooting first.",
+        "Unstable patient plus abnormal number requires escalation while checking equipment.",
+        "Do not allow equipment troubleshooting to delay tamponade, bleeding or shock escalation."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Haemodynamic equipment verification checklist",
+      "description": "A practical checklist-style diagram linking each haemodynamic value to its essential equipment checks before treatment decisions.",
+      "layout": "algorithm",
+      "elements": [
+        "Arterial pressure: waveform, damping, level, zero, cuff comparison",
+        "CVP: waveform, level, respiratory phase, catheter position",
+        "PAP: waveform location, migration check, balloon deflated",
+        "Wedge: waveform, end-expiration, balloon safety, PA return",
+        "Cardiac output: repeatability, technique, rhythm, valve/shunt limitations",
+        "Clinical match: skin, urine, lactate, SvO2, drains, echo"
+      ],
+      "teachingPoints": [
+        "Each number has a specific failure mode.",
+        "Equipment validation should be linked to the treatment decision being made.",
+        "When equipment and patient disagree, escalate rather than guessing."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "sourceName": "Pinsky, Critical Care",
+      "title": "Effective hemodynamic monitoring",
+      "url": "https://link.springer.com/article/10.1186/s13054-022-04173-z",
+      "supports": "Principles of haemodynamic monitoring, using monitoring to guide resuscitation strategies and avoiding isolated number-based decisions."
+    },
+    {
+      "sourceName": "NCBI Bookshelf / StatPearls",
+      "title": "Arterial Pressure Monitoring",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK556127/",
+      "supports": "Technical issues in invasive arterial monitoring, continuous pressure monitoring, transducer considerations and complications."
+    },
+    {
+      "sourceName": "Deranged Physiology",
+      "title": "The arterial line pressure transducer setup",
+      "url": "https://derangedphysiology.com/main/cicm-primary-exam/cardiovascular-system/Chapter-758/arterial-line-pressure-transducer-setup",
+      "supports": "Arterial transducer setup, pressure transmission, non-compliant tubing, transducer mechanics and measurement error concepts."
+    },
+    {
+      "sourceName": "Bootsma et al., PubMed Central",
+      "title": "The contemporary pulmonary artery catheter. Part 1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8894225/",
+      "supports": "PA catheter waveform interpretation, respiratory interactions, airway pressure effects and pitfalls in pulmonary artery catheter analysis."
+    },
+    {
+      "sourceName": "Rosenkranz et al., PubMed Central",
+      "title": "Right heart catheterisation: best practice and pitfalls in pulmonary hypertension",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9487613/",
+      "supports": "Right heart catheter measurement pitfalls, clinical consequences of inaccurate pressure readings and interpretation of catheter-derived data."
+    },
+    {
+      "sourceName": "Lee and Anesthesia Monitoring of Mixed Venous Saturation, NCBI Bookshelf",
+      "title": "Anesthesia Monitoring of Mixed Venous Saturation",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539835/",
+      "supports": "Mixed venous oxygen saturation as a marker of oxygen delivery-consumption balance and tissue hypoxia risk assessment."
+    },
+    {
+      "sourceName": "Minton and Sidebotham, PubMed Central",
+      "title": "Hyperlactatemia and Cardiac Surgery",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5347225/",
+      "supports": "Post-cardiac surgery lactate interpretation, hypoxic and non-hypoxic mechanisms, and association with morbidity and mortality."
+    },
+    {
+      "sourceName": "Schoonen et al., PubMed Central",
+      "title": "Definitions of low cardiac output syndrome after cardiac surgery and their effect on incidence",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9558721/",
+      "supports": "Low cardiac output syndrome definitions after cardiac surgery and the importance of cardiac index, inotrope requirement and clinical context."
     }
   ]
 }
